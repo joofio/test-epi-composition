@@ -513,7 +513,7 @@ blodlegemer, eller et reduceret antal blodplader,
 <p>Advarsler og forsigtighedsregler<br />
 Kontakt lægen, apoteket eller sundhedspersonalet, før du tager Arava 
 - hvis du nogensinde har haft betændelse i lungen (interstitiel lungesygdom). 
-– 
+- 
 hvis du nogensinde har haft tuberkulose eller, hvis du har været i kontakt med en, som har eller 
 har haft tuberkulose. Din læge kan udføre tests for at se, om du har tuberkulose. 
 - hvis du er en mand og ønsker at blive far. Da det ikke kan udelukkes, at Arava findes i sæden, 
@@ -547,38 +547,23 @@ for nylig. Dette gælder også medicin, som ikke er købt på recept. </p>
 <li>anden medicin mod reumatoid artrit såsom malariamedicin (f.eks. chloroquin og 
 hydroxychloroquin), intramuskulært eller oralt guld, Penicillamin, azathioprin og andre 
 lægemidler, der påvirker dit immunforsvar (som f.eks. methotrexat), eftersom disse 
-kombinationer ikke er tilrådelige 
-– 
-warfarin og andre orale blodfortyndende lægemidler, da overvågning er nødvendig for at 
-mindske riskikoen for bivirkninger af dette lægemiddel 
-– 
-teriflunomid mod dissemineret sklerose 
-– 
-repaglinid, pioglitazon, nateglinid eller rosiglitazon mod sukkersyge (diabetes) 
-– 
-daunorubicin, doxorubicin, paclitaxel eller topotecan mod kræft (cancer) 
-– 
-duloxetin mod depression, urininkontinens eller nyresygdom hos diabetikere 
-– 
-alosetron til behandling af kraftig diarré 
-– 
-theophyllin mod astma 
-– 
-tizanidin, et muskelafslappende lægemiddel 
-– 
-orale præventionsmidler (indeholdende ethinylestradiol og levonorgestrel) 
-– 
-cefaclor, benzylpenicillin (penicillin G), ciprofloxacin mod infektioner 
-– 
-indomethacin, ketoprofen mod smerter eller inflammation<br />
-– 
-furosemid mod hjertelidelse (vanddrivende) 
-– 
-zidovudin mod HIV infektion 
-– 
-rosuvastatin, simvastatin, atorvastatin, pravastatin mod hyperkolesterolæmi (højt kolesteroltal)<br />
-– 
-sulfasalazin mod inflammatorisk tarmsygdom eller reumatoid artrit </li>
+kombinationer ikke er tilrådelige </li>
+<li>warfarin og andre orale blodfortyndende lægemidler, da overvågning er nødvendig for at 
+mindske riskikoen for bivirkninger af dette lægemiddel </li>
+<li>teriflunomid mod dissemineret sklerose </li>
+<li>repaglinid, pioglitazon, nateglinid eller rosiglitazon mod sukkersyge (diabetes) </li>
+<li>daunorubicin, doxorubicin, paclitaxel eller topotecan mod kræft (cancer) </li>
+<li>duloxetin mod depression, urininkontinens eller nyresygdom hos diabetikere </li>
+<li>alosetron til behandling af kraftig diarré </li>
+<li>theophyllin mod astma </li>
+<li>tizanidin, et muskelafslappende lægemiddel </li>
+<li>orale præventionsmidler (indeholdende ethinylestradiol og levonorgestrel) </li>
+<li>cefaclor, benzylpenicillin (penicillin G), ciprofloxacin mod infektioner </li>
+<li>indomethacin, ketoprofen mod smerter eller inflammation  </li>
+<li>furosemid mod hjertelidelse (vanddrivende) </li>
+<li>zidovudin mod HIV infektion </li>
+<li>rosuvastatin, simvastatin, atorvastatin, pravastatin mod hyperkolesterolæmi (højt kolesteroltal)  </li>
+<li>sulfasalazin mod inflammatorisk tarmsygdom eller reumatoid artrit </li>
 <li>et lægemiddel, der hedder colestyramin (bruges til at reducere højt kolesteroltal) eller aktivt kul, 
 da disse lægemidler kan nedsætte den mængde Arava, der optages i kroppen. </li>
 </ul>
@@ -682,7 +667,7 @@ hovedpine, svimmelhed,<br />
 -<br />
 unormale hudfornemmelser såsom prikken (paræstesi), 
 - let forhøjelse af blodtrykket, 
-– 
+- 
 colitis 
 - diarré,<br />
 - kvalme, opkastning,<br />
@@ -822,7 +807,7 @@ Sanofi-Aventis Μονοπρόσωπη AEBE
 Τηλ: +30 210 900 16<br />
 Österreich 
 sanofi-aventis GmbH 
-Tel: +43 1 80 185 – 0 </p>
+Tel: +43 1 80 185 - 0 </p>
 <p>España 
 sanofi-aventis, S.A.<br />
 Tel: +34 93 485 94<br />
@@ -899,8 +884,6 @@ Description: "ePI document Bundle for arava Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -923,8 +906,6 @@ Description: "ePI document Bundle for arava Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -945,8 +926,8 @@ Usage: #example
 
 Instance: mpfa8a8470c3a3a250549a317d0f9b36a2
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product arava"
-Description: "arava"
+Title: "Medicinal Product Arava 10 mg film-coated tablets"
+Description: "Arava 10 mg film-coated tablets"
 Usage: #inline
 
  
@@ -959,14 +940,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Leflunomide is indicated for the treatment of adult patients with:"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "arava"
+  * productName = "Arava 10 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -986,10 +964,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

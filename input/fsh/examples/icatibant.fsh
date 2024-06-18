@@ -911,8 +911,6 @@ Description: "ePI document Bundle for icatibant Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -935,8 +933,6 @@ Description: "ePI document Bundle for icatibant Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -957,8 +953,8 @@ Usage: #example
 
 Instance: mp08061c368f26d0bb40f900f8c777c70e
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product icatibant"
-Description: "icatibant"
+Title: "Medicinal Product Icatibant Accord 30 mg solution for injection in pre-filled syringe"
+Description: "Icatibant Accord 30 mg solution for injection in pre-filled syringe"
 Usage: #inline
 
  
@@ -971,14 +967,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Icatibant Accord is indicated for symptomatic treatment of acute attacks of hereditary angioedema"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "icatibant"
+  * productName = "Icatibant Accord 30 mg solution for injection in pre-filled syringe"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -998,10 +991,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

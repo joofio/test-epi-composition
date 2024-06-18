@@ -375,12 +375,12 @@ hvis du er allergisk over for amifampridin eller et af de øvrige indholdsstoffe
 (angivet i punkt 6). 
 hvis du har ukontrolleret astma 
 hvis du har epilepsi, 
-sammen med lægemidler, der kan ændre dit hjertes elektriske aktivitet (forlænget QT-interval – 
+sammen med lægemidler, der kan ændre dit hjertes elektriske aktivitet (forlænget QT-interval - 
 påvises ved elektrokardiogram), såsom: 
 sultroprid (et lægemiddel til behandling af visse adfærdsforstyrrelser hos voksne) 
 lægemidler mod hjerterytmeforstyrrelser (f.eks. disopyramid)<br />
 lægemidler til behandling af fordøjelsesproblemer (f.eks. cisaprid, domperidon) 
-lægemidler til behandling af infektioner – antibiotika (f.eks. rifampicin) og lægemidler til behandling 
+lægemidler til behandling af infektioner - antibiotika (f.eks. rifampicin) og lægemidler til behandling 
 af svampeinfektioner (f.eks. ketoconazol) 
 sammen med lægemidler, som har en terapeutisk dosis, som ligger tæt på den maksimale sikre dosis 
 hvis du har medfødte hjerteproblemer (medfødt QT-syndrom). </p>
@@ -407,20 +407,20 @@ Fortæl det altid til lægen, hvis du tager andre lægemidler, for nylig har tag
 planlægger at tage andre lægemidler. </p>
 <p>Visse lægemidler kan reagere med Amifampridine SERB ved samtidig indtagelse. Følgende 
 lægemidler må ikke tages samtidig med Amifampridine SERB:<br />
-Lægemidler, der kan ændre dit hjertes elektriske aktivitet (Forlænget QT-interval – påvises ved 
+Lægemidler, der kan ændre dit hjertes elektriske aktivitet (Forlænget QT-interval - påvises ved 
 elektrokardiogram) f.eks. sultoprid, disopyramid, cisaprid, domperidon, rifampicin, og ketoconazol (se 
-“ Tag ikke Amifampridine SERB”) </p>
+“ Tag ikke Amifampridine SERB") </p>
 <p>Det er særlig vigtigt at tale med din læge, hvis du tager et af følgende lægemidler eller har planer om 
 at tage følgende lægemidler: 
 malariamidler (f.eks. halofantrin og mefloquin) 
 tramadol (et smertestillende middel) 
-antidepressive lægemidler – tricykliske antidepressiver (f.eks. clomipramin, amoxapin), selektive 
+antidepressive lægemidler - tricykliske antidepressiver (f.eks. clomipramin, amoxapin), selektive 
 serotonin-genoptagelseshæmmere (f.eks. citalopram, dapoxetin) og atypiske antidepressiva (f.eks. 
 bupropion) 
 lægemidler mod mentale problemer (f.eks. haloperidol, carbamazepin, chlorpromazin, clozapin) 
-lægemidler til behandling af Parkinsons sygdom – antikolinerge midler (f.eks. trihexylphenidyl, 
+lægemidler til behandling af Parkinsons sygdom - antikolinerge midler (f.eks. trihexylphenidyl, 
 mesylat), MAO-B-hæmmere (f.eks. selegilin, deprenyl), COMT-hæmmere (f.eks. entacapon). 
-lægemidler til behandling af allergi – antihistaminer (f.eks. terfenadin, astemizol, cimetidin) 
+lægemidler til behandling af allergi - antihistaminer (f.eks. terfenadin, astemizol, cimetidin) 
 muskelafslappende lægemidler (f.eks. mivacurium, pipercurium, suxamethonium) 
 beroligende midler (f.eks. barbiturater) </p>
 <p>Graviditet og amning 
@@ -559,7 +559,7 @@ Belgien </p>
 <p>Denne indlægsseddel blev senest ændret  </p>
 <p>Amifampridine SERB indeholder samme aktive stof og virker på samme måde som et 
 ’referencelægemiddel’, der allerede er godkendt i EU. Referencelægemidlet for Amifampridine SERB 
-er godkendt under “særlige omstændigheder”. Det betyder, at det ikke har været muligt at opnå 
+er godkendt under “særlige omstændigheder". Det betyder, at det ikke har været muligt at opnå 
 fuldstændig dokumentation for referencelægemidlet, fordi det anvendes til en sjælden sygdom.<br />
 Det Europæiske Lægemiddelagentur vil hvert år vurdere nye oplysninger om referencelægemidlet, og 
 alle gældende ajourføringer for referencelægemidlet vil også blive inkluderet hvor det er passende i 
@@ -577,8 +577,6 @@ InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for amifampridine Package Leaflet for language en"
 Description: "ePI document Bundle for amifampridine Package Leaflet for language en"
 Usage: #example
-
-
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
@@ -603,8 +601,6 @@ Description: "ePI document Bundle for amifampridine Package Leaflet for language
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -625,8 +621,8 @@ Usage: #example
 
 Instance: mpeea75696c0638bfef12b52e191d0d8ce
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product amifampridine"
-Description: "amifampridine"
+Title: "Medicinal Product Amifampridine SERB 10 mg tablets"
+Description: "Amifampridine SERB 10 mg tablets"
 Usage: #inline
 
  
@@ -639,14 +635,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Symptomatic treatment of Lambert-Eaton myasthenic syndrome (LEMS) in adults."
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "amifampridine"
+  * productName = "Amifampridine SERB 10 mg tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -666,10 +659,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

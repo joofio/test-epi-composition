@@ -555,7 +555,7 @@ hvordan du undgår dehydrering.
 oplever hurtigt vægttab, kvalme eller opkastning, mavesmerter, ekstrem tørst, hurtig og dyb
 vejrtrækning, forvirring, usædvanlig søvnighed eller træthed, sødlig ånde, sødlig eller metallisk
 smag i munden, eller at din urin eller sved lugter anderledes. I så fald skal du straks kontakte en
-læge eller det nærmeste hospital. Disse symptomer kan være tegn på “diabetisk ketoacidose" –
+læge eller det nærmeste hospital. Disse symptomer kan være tegn på “diabetisk ketoacidose" -
 en tilstand der kan opstå i forbindelse med diabetes som følge af forhøjet indhold af
 “ketonstoffer" i urin- eller blodtest. Risiko for at udvikle diabetisk ketoacidose kan øges ved
 langvarig faste, meget stort alkoholforbrug, dehydrering, pludselige nedsættelser af insulindosis
@@ -975,8 +975,6 @@ Description: "ePI document Bundle for steglatro Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -999,8 +997,6 @@ Description: "ePI document Bundle for steglatro Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1021,8 +1017,8 @@ Usage: #example
 
 Instance: mp3e75a55b0a0d0f0feaac242115a6585e
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product steglatro"
-Description: "steglatro"
+Title: "Medicinal Product Steglatro 5 mg film-coated tablets"
+Description: "Steglatro 5 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1035,14 +1031,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Steglatro is indicated for the treatment of adults with insufficiently controlled type 2 diabetes mellitus"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "steglatro"
+  * productName = "Steglatro 5 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1062,10 +1055,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

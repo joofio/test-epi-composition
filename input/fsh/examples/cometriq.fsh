@@ -572,7 +572,7 @@ magnesium i dit blod </li>
 </ul>
 <p>Fortæl det til din læge, hvis noget af dette påvirker dig. Du har måske behov for behandling for 
 det, eller din læge kan beslutte at ændre din dosis af COMETRIQ eller helt stoppe behandlingen. Se 
-også punkt 4 “Bivirkninger”. </p>
+også punkt 4 “Bivirkninger". </p>
 <p>Du skal også fortælle din tandlæge, at du tager COMETRIQ. Der er vigtigt for dig, at du udøver god 
 mundpleje under behandling med COMETRIQ. </p>
 <p>Børn og unge </p>
@@ -700,7 +700,7 @@ om. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. 
 Hvis du får bivirkninger, vil din læge måske bede dig om at tage COMETRIQ i en lavere dosis. Din 
 læge kan også ordinere andre lægemidler som hjælp til at kontrollere dine bivirkninger. </p>
-<p>Fortæl det straks til din læge, hvis du bemærker nogen af følgende bivirkninger – du kan have 
+<p>Fortæl det straks til din læge, hvis du bemærker nogen af følgende bivirkninger - du kan have 
 behov for hurtig medicinsk behandling: </p>
 <ul>
 <li>
@@ -996,8 +996,8 @@ kolloid vandfri silica og stearinsyre.  </li>
 <li>Prægeblæk: højglans shellac, sort jernoxid (E172) og propylenglycol. </li>
 </ul>
 <p>Udseende og pakningsstørrelser 
-COMETRIQ 20 mg hårde kapsler er grå og har “XL184 20mg” trykt på den ene side. 
-COMETRIQ 80 mg hårde kapsler er orange og har “XL184 80mg” trykt på den ene side. </p>
+COMETRIQ 20 mg hårde kapsler er grå og har “XL184 20mg" trykt på den ene side. 
+COMETRIQ 80 mg hårde kapsler er orange og har “XL184 80mg" trykt på den ene side. </p>
 <p>COMETRIQ hårde kapsler er pakket i blisterkort organiseret efter den ordinerede dosis. Hvert 
 blisterkort indeholder tilstrækkelig medicin til 7 dage. Hver række på blisterkortet indeholder den 
 daglige dosis.  </p>
@@ -1110,8 +1110,6 @@ Description: "ePI document Bundle for cometriq Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1134,8 +1132,6 @@ Description: "ePI document Bundle for cometriq Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1156,8 +1152,8 @@ Usage: #example
 
 Instance: mpfbf95ea541cd91a60587ad0005d0c1b4
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product cometriq"
-Description: "cometriq"
+Title: "Medicinal Product COMETRIQ 20 mg hard capsules"
+Description: "COMETRIQ 20 mg hard capsules"
 Usage: #inline
 
  
@@ -1170,14 +1166,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "COMETRIQ is indicated for the treatment of adult patients with progressive, unresectable locally advanced"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "cometriq"
+  * productName = "COMETRIQ 20 mg hard capsules"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1197,10 +1190,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

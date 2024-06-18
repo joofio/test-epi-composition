@@ -1187,8 +1187,15 @@ syndrom, toksisk epidermal nekrolyse) </p>
 <p>Fortæl det til din læge, hvis du får kvalme, kaster op eller får ondt i maven, da dette kan være tegn på 
 betændelse i bugspytkirtlen. Du skal også fortælle det til din læge, hvis du får stivhed, ømhed og 
 smerter i led (især hofte, knæ og skulder) samt bevægelsesbesvær, da dette kan være tegn på 
-knoglenekrose. Se også punkt 2 Det skal du vide, før du eller dit barn begynder at tage Ritonavir 
-Mylan. </p>
+knoglenekrose. Se også punkt </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Mylan. </p>
 <p>Hos nogle patienter med hæmofili A og B er der rapporteret om tilfælde af øget blødningstendens 
 under behandling med ritonavir eller en anden proteasehæmmer. Skulle dette ske for dig, bør du 
 øjeblikkelig kontakte din læge. </p>
@@ -1212,21 +1219,6 @@ mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
 om sikkerheden af dette lægemiddel. </p>         </div>"""      
-        
-        
-* section[=].section[+]
-  * title = "6. Contents of the pack and other information"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
-<p>Brug ikke lægemidlet efter den udløbsdato, der står på kartonen eller beholderen efter "EXP". 
-Udløbsdatoen er den sidste dag i den nævnte måned. </p>
-<p>For HPDE-flaske: anvendes inden for 45 dage efter åbning. </p>
-<p>Må ikke opbevares ved temperaturer over 30 °C. Opbevares i den originale emballage for at beskytte 
-mod fugt. </p>
-<p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
 
 
 
@@ -1238,8 +1230,6 @@ InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for ritonavir Package Leaflet for language en"
 Description: "ePI document Bundle for ritonavir Package Leaflet for language en"
 Usage: #example
-
-
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
@@ -1264,8 +1254,6 @@ Description: "ePI document Bundle for ritonavir Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1286,8 +1274,8 @@ Usage: #example
 
 Instance: mpde065403a5793478002be710eeac097c
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product ritonavir"
-Description: "ritonavir"
+Title: "Medicinal Product Ritonavir Mylan 100 mg film-coated tablets"
+Description: "Ritonavir Mylan 100 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1300,14 +1288,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Ritonavir is indicated in combination with other antiretroviral agents for the treatment of HIV-1"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "ritonavir"
+  * productName = "Ritonavir Mylan 100 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1327,10 +1312,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -496,13 +496,13 @@ Talzenna nedsætter antallet af blodlegemer som f.eks. antallet af røde blodleg
 anæmi), antallet af hvide blodlegemer (neutropeni) eller antallet af blodplader (trombocytopeni). Du 
 skal være opmærksom på følgende symptomer:
 -
-Blodmangel (anæmi): være forpustet, føle sig træt, bleg hud eller hurtig hjerterytme – det kan 
+Blodmangel (anæmi): være forpustet, føle sig træt, bleg hud eller hurtig hjerterytme - det kan 
 være tegn på et lavt antal røde blodlegemer.
 -
-Neutropeni: infektion, får kuldegysninger eller rysten eller feber – det kan være tegn på et lavt 
+Neutropeni: infektion, får kuldegysninger eller rysten eller feber - det kan være tegn på et lavt 
 antal hvide blodlegemer.
 -
-Trombocytopeni: blå mærker eller at du bløder længere tid end normalt, hvis du får et sår – det 
+Trombocytopeni: blå mærker eller at du bløder længere tid end normalt, hvis du får et sår - det 
 kan være tegn på et lavt antal blodplader.
 Du vil få taget regelmæssige blodprøver under behandlingen med Talzenna for at kontrollere dine 
 blodlegemer (hvide blodlegemer, røde blodlegemer og blodplader).
@@ -625,13 +625,13 @@ Kontakt straks til din læge, hvis du bemærker nogen af følgende symptomer, so
 på en alvorlig blodsygdom:
 Meget almindelig (kan påvirke flere end 1 ud af 10 personer)
 -
-være forpustet, føle sig træt, bleg hud eller hurtigt hjerterytme – det kan være tegn på et lavt 
+være forpustet, føle sig træt, bleg hud eller hurtigt hjerterytme - det kan være tegn på et lavt 
 antal røde blodlegemer (anæmi).
 -
-infektion, kuldegysninger eller rysten, feber eller føle sig varm – det kan være tegn på et lavt 
+infektion, kuldegysninger eller rysten, feber eller føle sig varm - det kan være tegn på et lavt 
 antal hvide blodlegemer (neutropeni).
 -
-blå mærker eller du bløder længere end normalt, hvis du får et sår – det kan være tegn på et lavt 
+blå mærker eller du bløder længere end normalt, hvis du får et sår - det kan være tegn på et lavt 
 antal blodplader (trombocytopeni).
 Tal med din læge, hvis du får andre bivirkninger. De kan omfatte:
 Meget almindelig (kan påvirke flere end 1 ud af 10 personer)
@@ -852,8 +852,6 @@ Description: "ePI document Bundle for talzenna Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -876,8 +874,6 @@ Description: "ePI document Bundle for talzenna Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -898,8 +894,8 @@ Usage: #example
 
 Instance: mpfcac0917e849c1f92a8946a3de74e720
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product talzenna"
-Description: "talzenna"
+Title: "Medicinal Product Talzenna 0.1 mg hard capsules"
+Description: "Talzenna 0.1 mg hard capsules"
 Usage: #inline
 
  
@@ -912,14 +908,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Breast cancer"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "talzenna"
+  * productName = "Talzenna 0.1 mg hard capsules"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -939,10 +932,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

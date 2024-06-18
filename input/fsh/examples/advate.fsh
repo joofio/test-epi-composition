@@ -610,7 +610,7 @@ dette lægemiddel.</p>         </div>"""
 231
 Brug ikke lægemidlet efter den udløbsdato, der står på pakningen efter EXP. Udløbsdatoen er den 
 sidste dag i den nævnte måned.
-Opbevares i køleskab (2 °C – 8 °C).
+Opbevares i køleskab (2 °C - 8 °C).
 Må ikke nedfryses.
 I løbet af opbevaringstiden kan hætteglasset med pulver opbevares ved stuetemperatur (ved 
 højst 25 °C) i en enkelt periode og i højst 6 måneder. I dette tilfælde er udløbsdatoen udgangen af 
@@ -835,7 +835,7 @@ Træk den rekonstituerede opløsning ind i sprøjten ved at trække stemplet lan
 3. Sprøjten frakobles.
 4. Tilslut en butterflynål til sprøjten, og injicer den rekonstituerede opløsning i en vene. 
 Opløsningen bør indgives langsomt, ved en hastighed bestemt af patientens velbefindende, 
-og må ikke overstige 10 ml per minut. (se afsnit 4 ”Bivirkninger”).
+og må ikke overstige 10 ml per minut. (se afsnit 4 "Bivirkninger").
 5. Kassér uanvendt opløsning i henhold til lokale retningslinjer.
 Fig. d
 Fig. e
@@ -894,7 +894,7 @@ Gentag injektionen hver 8. til 24. time
 indtil passende sårheling, herefter 
 fortsættes behandling i yderligere
 mindst 7 dage for at vedligeholde 
-en faktor VIII –aktivitet på 30 % 
+en faktor VIII -aktivitet på 30 % 
 til 60 % (IE/dl).
 236
 Indlægsseddel: Information til brugeren
@@ -930,8 +930,6 @@ Description: "ePI document Bundle for advate Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -954,8 +952,6 @@ Description: "ePI document Bundle for advate Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -976,8 +972,8 @@ Usage: #example
 
 Instance: mp3c5fecfadf023622829e4ed4e3f92507
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product advate"
-Description: "advate"
+Title: "Medicinal Product ADVATE 250 IU powder and solvent for solution for injection."
+Description: "ADVATE 250 IU powder and solvent for solution for injection."
 Usage: #inline
 
  
@@ -990,14 +986,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Treatment and prophylaxis of bleeding in patients with haemophilia A (congenital factor VIII"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "advate"
+  * productName = "ADVATE 250 IU powder and solvent for solution for injection."
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1017,10 +1010,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

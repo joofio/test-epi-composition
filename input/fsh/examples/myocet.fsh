@@ -909,8 +909,6 @@ Description: "ePI document Bundle for myocet Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -933,8 +931,6 @@ Description: "ePI document Bundle for myocet Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -955,8 +951,8 @@ Usage: #example
 
 Instance: mp0c5e12e3bf77e98e54b67519ddda8471
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product myocet"
-Description: "myocet"
+Title: "Medicinal Product Myocet liposomal 50 mg powder, dispersion and solvent for concentrate for dispersion for infusion."
+Description: "Myocet liposomal 50 mg powder, dispersion and solvent for concentrate for dispersion for infusion."
 Usage: #inline
 
  
@@ -969,14 +965,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Myocet liposomal, in combination with cyclophosphamide, is indicated for the first line treatment of"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "myocet"
+  * productName = "Myocet liposomal 50 mg powder, dispersion and solvent for concentrate for dispersion for infusion."
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -996,10 +989,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

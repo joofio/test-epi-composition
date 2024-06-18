@@ -832,8 +832,6 @@ Description: "ePI document Bundle for nimenrix Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -856,8 +854,6 @@ Description: "ePI document Bundle for nimenrix Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -878,8 +874,8 @@ Usage: #example
 
 Instance: mp61ed8c3f1f4d3021b93672950d48db1a
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product nimenrix"
-Description: "nimenrix"
+Title: "Medicinal Product Nimenrix powder and solvent for solution for injection in pre-filled syringe"
+Description: "Nimenrix powder and solvent for solution for injection in pre-filled syringe"
 Usage: #inline
 
  
@@ -892,14 +888,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Nimenrix is indicated for active immunisation of individuals from the age of 6 weeks against invasive"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "nimenrix"
+  * productName = "Nimenrix powder and solvent for solution for injection in pre-filled syringe"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -919,10 +912,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

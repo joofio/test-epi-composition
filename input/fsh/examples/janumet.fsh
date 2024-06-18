@@ -984,8 +984,6 @@ Description: "ePI document Bundle for janumet Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1008,8 +1006,6 @@ Description: "ePI document Bundle for janumet Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1030,8 +1026,8 @@ Usage: #example
 
 Instance: mp3a9901c7a4f190c23d6c1a900f5e59ce
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product janumet"
-Description: "janumet"
+Title: "Medicinal Product Janumet 50 mg/850 mg film-coated tablets"
+Description: "Janumet 50 mg/850 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1044,14 +1040,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "For adult patients with type 2 diabetes mellitus:"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "janumet"
+  * productName = "Janumet 50 mg/850 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1071,10 +1064,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -1331,8 +1331,6 @@ Description: "ePI document Bundle for effentora Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1355,8 +1353,6 @@ Description: "ePI document Bundle for effentora Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1377,8 +1373,8 @@ Usage: #example
 
 Instance: mpe3e38f96bdd05d0b2e420ed431026ab9
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product effentora"
-Description: "effentora"
+Title: "Medicinal Product Effentora 100 micrograms buccal tablets"
+Description: "Effentora 100 micrograms buccal tablets"
 Usage: #inline
 
  
@@ -1391,14 +1387,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Effentora is indicated for the treatment of breakthrough pain (BTP) in adults with cancer who are"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "effentora"
+  * productName = "Effentora 100 micrograms buccal tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1418,10 +1411,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

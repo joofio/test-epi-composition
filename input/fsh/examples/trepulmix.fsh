@@ -926,8 +926,6 @@ Description: "ePI document Bundle for trepulmix Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -950,8 +948,6 @@ Description: "ePI document Bundle for trepulmix Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -972,8 +968,8 @@ Usage: #example
 
 Instance: mp0e387e560fa6e1178c04c02876196a66
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product trepulmix"
-Description: "trepulmix"
+Title: "Medicinal Product Trepulmix 1 mg/ml solution for infusion"
+Description: "Trepulmix 1 mg/ml solution for infusion"
 Usage: #inline
 
  
@@ -986,14 +982,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Trepulmix is indicated for the treatment of adult patients with WHO Functional Class (FC) III or IV"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "trepulmix"
+  * productName = "Trepulmix 1 mg/ml solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1013,10 +1006,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

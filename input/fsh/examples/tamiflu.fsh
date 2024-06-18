@@ -1187,7 +1187,7 @@ Hæld alt pulveret ned i skålen.<br />
 Åbn endnu en kapsel for at opnå en 60 mg dosis. Hæld alt pulveret ned i skålen. 
 Vær forsigtig med pulveret, da det kan irritere din hud og dine øjne. </p>
 <p>Trin 3: Bland sødemiddel og pulver og giv dosis  </p>
-<p>Tilføj en lille smule – ikke mere end en teskefuld af den søde fødevare– til pulveret i skålen 
+<p>Tilføj en lille smule - ikke mere end en teskefuld af den søde fødevare- til pulveret i skålen 
 Dette vil maskere den bitre smag af Tamiflu-pulveret. 
 Rør blandingen grundigt. </p>
 <p>Giv straks patienten hele indholdet af skålen. </p>
@@ -1200,7 +1200,7 @@ patienten drikke det hele. </p>
 • Skarp saks 
 • To små skåle <br />
      (brug et separat sæt skåle til hvert barn) 
-• En stor dispenser til oral dosering til at måle vandet – en 5 eller 10 ml dispenser 
+• En stor dispenser til oral dosering til at måle vandet - en 5 eller 10 ml dispenser 
 • En lille dispenser til oral dosering, som har inddelinger på 0,1 ml til at give dosis 
 • Teske (5 ml ske) 
 • Vand 
@@ -1267,7 +1267,7 @@ Træk den korrekte mængde blanding op fra den første skål.
 Træk den forsigtigt op, så der ikke kommer luftbobler. <br />
 Tryk langsomt den korrekte dosis ud i den anden skål. </p>
 <p>Trin 5: Tilsæt sødemiddel og giv til barnet  </p>
-<p>Tilføj en lille smule – ikke mere end en teskefuld af den søde fødevare –  til den anden skål. 
+<p>Tilføj en lille smule - ikke mere end en teskefuld af den søde fødevare -  til den anden skål. 
 Dette vil maskere den bitre smag af Tamiflu. 
 Bland den søde fødevare og flydende Tamiflu grundigt. </p>
 <p>Giv straks barnet hele indholdet af den anden skål (flydende Tamiflu med den søde 
@@ -1383,8 +1383,6 @@ Description: "ePI document Bundle for tamiflu Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1407,8 +1405,6 @@ Description: "ePI document Bundle for tamiflu Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1429,8 +1425,8 @@ Usage: #example
 
 Instance: mpb33771d603196a4c6882e9a09cc14a10
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product tamiflu"
-Description: "tamiflu"
+Title: "Medicinal Product Tamiflu 30 mg hard capsules"
+Description: "Tamiflu 30 mg hard capsules"
 Usage: #inline
 
  
@@ -1443,14 +1439,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Treatment of influenza"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "tamiflu"
+  * productName = "Tamiflu 30 mg hard capsules"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1470,10 +1463,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -555,8 +555,6 @@ Description: "ePI document Bundle for mevlyq Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -579,8 +577,6 @@ Description: "ePI document Bundle for mevlyq Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -601,8 +597,8 @@ Usage: #example
 
 Instance: mp72698f459e623b86f3f80561e5b525b7
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product mevlyq"
-Description: "mevlyq"
+Title: "Medicinal Product Mevlyq 0.44 mg/mL solution for injection"
+Description: "Mevlyq 0.44 mg/mL solution for injection"
 Usage: #inline
 
  
@@ -615,14 +611,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Mevlyq is indicated for the treatment of adult patients with locally advanced or metastatic breast"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "mevlyq"
+  * productName = "Mevlyq 0.44 mg/mL solution for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -642,10 +635,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

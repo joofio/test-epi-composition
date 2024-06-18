@@ -577,7 +577,7 @@ har en svulst i binyrerne
 tager visse lægemidler mod depression (kombinationer af selektive MAO-A og MAO-B-hæmmere 
 eller ikke-selektive MAO-hæmmere)
 -
-tidligere har haft malignt neuroleptikasyndrom (MNS – dette er en sjælden reaktion overfor 
+tidligere har haft malignt neuroleptikasyndrom (MNS - dette er en sjælden reaktion overfor 
 lægemidler, som bruges til behandling af alvorlige mentale lidelser)
 -
 har haft ikke-traumatisk rabdomyolyse (en sjælden muskellidelse)
@@ -1036,8 +1036,6 @@ Description: "ePI document Bundle for stalevo Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1060,8 +1058,6 @@ Description: "ePI document Bundle for stalevo Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1082,8 +1078,8 @@ Usage: #example
 
 Instance: mpbdb3583748a144c4aaf24f2e42bc1ae4
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product stalevo"
-Description: "stalevo"
+Title: "Medicinal Product Stalevo 50 mg/12.5 mg/200 mg film-coated tablets"
+Description: "Stalevo 50 mg/12.5 mg/200 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1096,14 +1092,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Stalevo is indicated for the treatment of adult patients with Parkinson’s disease and end-of-dose motor"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "stalevo"
+  * productName = "Stalevo 50 mg/12.5 mg/200 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1123,10 +1116,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

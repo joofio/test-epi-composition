@@ -602,7 +602,7 @@ refluks af mavesyre til spiserøret (sure opstød), fordøjelsesbesvær
 -
 udslæt
 -
-muskelsmerter eller –kramper, kraftesløshed 
+muskelsmerter eller -kramper, kraftesløshed 
 -
 rygsmerter
 -
@@ -649,10 +649,10 @@ medicinrester i afløbet, toilettet eller skraldespanden.
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Daxas indeholder:
 Det aktive stof er roflumilast. 
 Hver Daxas 250 mikrogram tablet indeholder 250 mikrogram roflumilast. De øvrige indholdsstoffer 
-er: lactosemonohydrat (se punkt 2 under ”Daxas indeholder lactose”), majsstivelse, povidon, 
+er: lactosemonohydrat (se punkt 2 under "Daxas indeholder lactose"), majsstivelse, povidon, 
 magnesiumstearat.
 Udseende og pakningsstørrelser
-Daxas 250 mikrogram tabletter er hvide til offwhite, mærket med ”D” på den ene side og ”250” på den 
+Daxas 250 mikrogram tabletter er hvide til offwhite, mærket med "D" på den ene side og "250" på den 
 anden side.
 Hver pakning indeholder 28 tabletter.
 Indehaver af markedsføringstilladelsen
@@ -788,8 +788,6 @@ Description: "ePI document Bundle for daxas Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -812,8 +810,6 @@ Description: "ePI document Bundle for daxas Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -834,8 +830,8 @@ Usage: #example
 
 Instance: mp1f1abc0830f94db591b845bd71b79232
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product daxas"
-Description: "daxas"
+Title: "Medicinal Product Daxas 250 micrograms tablets"
+Description: "Daxas 250 micrograms tablets"
 Usage: #inline
 
  
@@ -848,14 +844,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Daxas is indicated for maintenance treatment of severe chronic obstructive pulmonary disease (COPD)"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "daxas"
+  * productName = "Daxas 250 micrograms tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -875,10 +868,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -582,8 +582,8 @@ præventionen være mindre sikker. </p>
 <p>Fortæl din læge eller farmaceut hvis du drikker grapefrugtjuice eller spiser grapefrugt eller pomerans, 
 mens du er i behandlig med Alecensa, eftersom disse fødevarer kan påvirke mængden af Alecensa i 
 din krop. </p>
-<p>Graviditet, amning og frugtbarhed – information til kvinder  </p>
-<p>Prævention – information til kvinder </p>
+<p>Graviditet, amning og frugtbarhed - information til kvinder  </p>
+<p>Prævention - information til kvinder </p>
 <p>● Du må ikke blive gravid, mens du tager dette lægemiddel. Hvis du kan blive gravid, skal du 
 bruge meget sikker prævention, mens du er i behandling og i mindst 3 måneder efter, du har 
 afsluttet behandlingen. Tal med lægen om, hvilken former for prævention, der er bedst for dig 
@@ -679,7 +679,7 @@ unormale resultater af blodprøver til vurdering af muskelskader (højt niveau a
 ● 
 træthed, svækkelse eller åndenød på grund af nedsat antal røde blodlegemer (anæmi) 
 ● 
-opkastning – hvis du kaster op efter at have taget en dosis Alecensa, skal du ikke tage en ekstra 
+opkastning - hvis du kaster op efter at have taget en dosis Alecensa, skal du ikke tage en ekstra 
 dosis; du tager bare næste dosis til sædvanlig tid 
 ● 
 forstoppelse 
@@ -744,7 +744,7 @@ alectinib.<br />
 ● Øvrige indholdsstoffer:</p>
 <ul>
 <li>Kapselindhold: lactosemonohydrat (se afsnit 2 ‘Alecensa indeholder lactose’), 
-hydroxypropylcellulose, natriumlaurilsulfat (se afsnit 2 ”Alecensa indeholder natrium”, 
+hydroxypropylcellulose, natriumlaurilsulfat (se afsnit 2 "Alecensa indeholder natrium", 
 magnesiumstearat og carmellosecalcium </li>
 <li>Kapselskal: hypromellose, carrageenan, kaliumchlorid, titandioxid (E171), majsstivelse og 
 carnaubavoks </li>
@@ -773,7 +773,7 @@ repræsentant for indehaveren af markedsføringstilladelsen: </p>
 N.V. Roche S.A. 
 Tél/Tel: +32 (0) 2 525 82<br />
 Lietuva 
-UAB “Roche Lietuva” 
+UAB “Roche Lietuva" 
 Tel: +370 5 2546 
 България 
 Рош България ЕООД 
@@ -873,8 +873,6 @@ Description: "ePI document Bundle for alecensa Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -897,8 +895,6 @@ Description: "ePI document Bundle for alecensa Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -919,8 +915,8 @@ Usage: #example
 
 Instance: mp6c2eb54267bb33e875227a41c1c320f3
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product alecensa"
-Description: "alecensa"
+Title: "Medicinal Product Alecensa 150 mg hard capsules"
+Description: "Alecensa 150 mg hard capsules"
 Usage: #inline
 
  
@@ -933,14 +929,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Alecensa as monotherapy is indicated for the first-line treatment of adult patients with anaplastic"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "alecensa"
+  * productName = "Alecensa 150 mg hard capsules"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -960,10 +953,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

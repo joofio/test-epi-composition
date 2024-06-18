@@ -971,7 +971,7 @@ Tel: + 44 (0)800 221customercontactuk@gsk.com  </p>
 hjemmeside http://www.ema.europa.eu.  </p>
 <hr />
 <p>Nedenstående oplysninger er kun til sundhedspersoner: 
-Vocabria 2 ml injektionsvæske – Brugsvejledning: 
+Vocabria 2 ml injektionsvæske - Brugsvejledning: 
 Resumé 
 En komplet dosis kræver to injektioner: VOCABRIA og rilpivirin 
 2 ml cabotegravir og 2 ml rilpivirin. 
@@ -1270,8 +1270,6 @@ Description: "ePI document Bundle for vocabria Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1294,8 +1292,6 @@ Description: "ePI document Bundle for vocabria Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1316,8 +1312,8 @@ Usage: #example
 
 Instance: mp1e7f57f62efba41459076aa92d00da1a
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product vocabria"
-Description: "vocabria"
+Title: "Medicinal Product 400 mg"
+Description: "400 mg"
 Usage: #inline
 
  
@@ -1330,14 +1326,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Vocabria injection is indicated, in combination with rilpivirine injection, for the treatment of Human"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "vocabria"
+  * productName = "400 mg"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1357,10 +1350,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

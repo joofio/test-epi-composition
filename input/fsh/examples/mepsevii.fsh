@@ -549,8 +549,6 @@ Description: "ePI document Bundle for mepsevii Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -573,8 +571,6 @@ Description: "ePI document Bundle for mepsevii Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -595,8 +591,8 @@ Usage: #example
 
 Instance: mpb7b07dd0d126d4ea375a8a380bc3e7b9
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product mepsevii"
-Description: "mepsevii"
+Title: "Medicinal Product Mepsevii 2 mg/mL concentrate for solution for infusion."
+Description: "Mepsevii 2 mg/mL concentrate for solution for infusion."
 Usage: #inline
 
  
@@ -609,14 +605,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Mepsevii is indicated for the treatment of non-neurological manifestations of Mucopolysaccharidosis"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "mepsevii"
+  * productName = "Mepsevii 2 mg/mL concentrate for solution for infusion."
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -636,10 +629,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

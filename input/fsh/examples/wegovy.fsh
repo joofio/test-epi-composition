@@ -659,7 +659,7 @@ at undgå, at du får lavt blodsukker. </p>
 muligt.  </p>
 </li>
 <li>
-<p>Du kan give dig selv injektionen, når som helst i løbet af dagen – uafhængigt af et måltid.  </p>
+<p>Du kan give dig selv injektionen, når som helst i løbet af dagen - uafhængigt af et måltid.  </p>
 </li>
 </ul>
 <p>Hvis det er nødvendigt, kan du ændre dagen for din ugentlige injektion af dette lægemiddel, så længe 
@@ -762,11 +762,11 @@ mavesmerter, oppustethed, opkastning osv. </li>
 <p>oppustet mave </p>
 </li>
 <li>
-<p>betændelse i maveslimhinden (gastritis) – symptomerne omfatter mavesmerter, kvalme eller 
+<p>betændelse i maveslimhinden (gastritis) - symptomerne omfatter mavesmerter, kvalme eller 
 opkastning  </p>
 </li>
 <li>
-<p>tilbageløb af mavesyre eller halsbrand – kaldes også gastroøsofagal reflukssygdom (GØRS) </p>
+<p>tilbageløb af mavesyre eller halsbrand - kaldes også gastroøsofagal reflukssygdom (GØRS) </p>
 </li>
 <li>
 <p>galdesten  </p>
@@ -825,7 +825,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.<br />
 Brug ikke lægemidlet efter den udløbsdato, der står på pennens etiket og æsken efter ‘EXP’. 
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
-<p>Opbevares i køleskab (2°C–8°C). Må ikke fryses. Må ikke opbevares tæt på køleelementet. Opbevar 
+<p>Opbevares i køleskab (2°C-8°C). Må ikke fryses. Må ikke opbevares tæt på køleelementet. Opbevar 
 altid pennen i den originale karton for at beskytte mod lys. 
 Wegovy kan opbevares uden for køleskabet i op til 28 dage ved en temperatur der ikke overstiger 
 30°C. 
@@ -842,9 +842,8 @@ ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>   
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Wegovy indeholder:<br />
-– 
-Aktivt stof: semaglutid.<br />
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Wegovy indeholder:</h2>
+<p>Aktivt stof: semaglutid.<br />
 Wegovy 0,25 mg injektionsvæske, opløsning </p>
 <p>Hver fyldt pen indeholder 0,25 mg semaglutid i 0,5 ml (0,5 mg/ml). </p>
 <p>Wegovy 0,5 mg injektionsvæske, opløsning 
@@ -855,10 +854,11 @@ Hver fyldt pen indeholder 1 mg semaglutid i 0,5 ml (2 mg/ml). </p>
 Hver fyldt pen indeholder 1,7 mg semaglutid i 0,75 ml (2,27 mg/ml). </p>
 <p>Wegovy 2,4 mg injektionsvæske, opløsning 
 Hver fyldt pen indeholder 2,4 mg semaglutid i 0,75 ml (3,2 mg/ml). </p>
-<p>– 
-Øvrige indholdsstoffer: dinatriumphosphatdihydrat, natriumchlorid, natriumhydroxid/saltsyre 
+<ul>
+<li>Øvrige indholdsstoffer: dinatriumphosphatdihydrat, natriumchlorid, natriumhydroxid/saltsyre 
 (til justering af pH), vand til injektionsvæsker. Se også punkt 2 Wegovy indeholder natrium for 
-information om natrium. </p>
+information om natrium. </li>
+</ul>
 <p>Udseende og pakningsstørrelser 
 Wegovy er en klar og farveløs injektionsvæske, opløsning i en fyldt pen til engangsbrug.  </p>
 <p>Hver pen indeholder kun én dosis.  </p>
@@ -1080,14 +1080,14 @@ oplysninger om sikkerheden. Du kan hjælpe ved at indberette alle de bivirkninge
 punkt 4, hvordan du indberetter bivirkninger. </p>
 <p>Læs denne indlægsseddel grundigt, inden du begynder at bruge dette lægemiddel, da den 
 indeholder vigtige oplysninger. 
-– 
+- 
 Gem indlægssedlen. Du kan få brug for at læse den igen. 
-– 
+- 
 Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er mere, du vil vide. 
-– 
+- 
 Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give lægemidlet 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
-– 
+- 
 Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
 bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>         </div>"""      
 
@@ -1101,8 +1101,6 @@ InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for wegovy Package Leaflet for language en"
 Description: "ePI document Bundle for wegovy Package Leaflet for language en"
 Usage: #example
-
-
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
@@ -1127,8 +1125,6 @@ Description: "ePI document Bundle for wegovy Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1149,8 +1145,8 @@ Usage: #example
 
 Instance: mp0234c86891baf768298474181745e97d
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product wegovy"
-Description: "wegovy"
+Title: "Medicinal Product Wegovy 0.25 mg solution for injection in pre-filled pen"
+Description: "Wegovy 0.25 mg solution for injection in pre-filled pen"
 Usage: #inline
 
  
@@ -1163,14 +1159,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Adults"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "wegovy"
+  * productName = "Wegovy 0.25 mg solution for injection in pre-filled pen"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1190,10 +1183,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -830,8 +830,6 @@ Description: "ePI document Bundle for eladynos Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -854,8 +852,6 @@ Description: "ePI document Bundle for eladynos Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -876,8 +872,8 @@ Usage: #example
 
 Instance: mp3aa969282c152694c6f4b966217ad337
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product eladynos"
-Description: "eladynos"
+Title: "Medicinal Product Eladynos 80 micrograms/dose solution for injection in pre-filled pen."
+Description: "Eladynos 80 micrograms/dose solution for injection in pre-filled pen."
 Usage: #inline
 
  
@@ -890,14 +886,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Treatment of osteoporosis in postmenopausal women at increased risk of fracture (see section 5.1)."
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "eladynos"
+  * productName = "Eladynos 80 micrograms/dose solution for injection in pre-filled pen."
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -917,10 +910,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -544,7 +544,7 @@ quinidin </p>
 <p>nogle kemoterapi-lægemidler - såsom docetaxel eller etoposid  </p>
 </li>
 <li>
-<p>erythromycin – til at behandle bakterieinfektioner </p>
+<p>erythromycin - til at behandle bakterieinfektioner </p>
 </li>
 <li>
 <p>midazolam - et afslappende middel, der anvendes til at behandle angst </p>
@@ -553,7 +553,7 @@ quinidin </p>
 <p>dexamethason - kan anvendes til at behandle kvalme og opkastning </p>
 </li>
 <li>
-<p>ketoconazol – til at behandle Cushings syndrom </p>
+<p>ketoconazol - til at behandle Cushings syndrom </p>
 </li>
 <li>
 <p>rifampicin - til at behandle tuberkulose (TB) og andre infektioner.  </p>
@@ -625,7 +625,7 @@ kvalme eller kaste op. </p>
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
 <p>Alvorlige bivirkninger<br />
 Hold op med at tage Akynzeo, og fortæl det straks til lægen, hvis du bemærker følgende alvorlige 
-bivirkning – du kan have behov for akut medicinsk behandling: </p>
+bivirkning - du kan have behov for akut medicinsk behandling: </p>
 <p>Meget sjælden: kan forekomme hos op til 1 ud af 10 000 personer </p>
 <ul>
 <li>alvorlig allergisk reaktion - tegnene omfatter nældefeber, hududslæt, kløe, vejrtræknings- eller 
@@ -769,7 +769,7 @@ nedsat blodforsyning til hjertemuskulaturen (kan ses i blodprøver) </p>
 <p>højt niveau af urinstof i blodet - hvilket indikerer nedsat nyrefunktion (kan ses i blodprøver) </p>
 </li>
 <li>
-<p>højt niveau af ’lymfocytter’– en type hvide blodlegemer, som hjælper kroppen med at bekæmpe 
+<p>højt niveau af ’lymfocytter’- en type hvide blodlegemer, som hjælper kroppen med at bekæmpe 
 sygdomme (kan ses i blodprøver) </p>
 </li>
 <li>
@@ -955,8 +955,6 @@ Description: "ePI document Bundle for akynzeo Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -979,8 +977,6 @@ Description: "ePI document Bundle for akynzeo Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1001,8 +997,8 @@ Usage: #example
 
 Instance: mp7a98a4feed53c51bdbb3ffa9d578b887
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product akynzeo"
-Description: "akynzeo"
+Title: "Medicinal Product Akynzeo 300 mg/0.5 mg hard capsules"
+Description: "Akynzeo 300 mg/0.5 mg hard capsules"
 Usage: #inline
 
  
@@ -1015,14 +1011,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Akynzeo is indicated in adults for the:"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "akynzeo"
+  * productName = "Akynzeo 300 mg/0.5 mg hard capsules"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1042,10 +1035,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -1220,8 +1220,6 @@ Description: "ePI document Bundle for enspryng Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1244,8 +1242,6 @@ Description: "ePI document Bundle for enspryng Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1266,8 +1262,8 @@ Usage: #example
 
 Instance: mp0d7ee15ee10dc2578a331f45f3babb36
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product enspryng"
-Description: "enspryng"
+Title: "Medicinal Product Enspryng 120 mg solution for injection in pre-filled syringe"
+Description: "Enspryng 120 mg solution for injection in pre-filled syringe"
 Usage: #inline
 
  
@@ -1280,14 +1276,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Enspryng is indicated as a monotherapy or in combination with immunosuppressive therapy (IST) for"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "enspryng"
+  * productName = "Enspryng 120 mg solution for injection in pre-filled syringe"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1307,10 +1300,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -1149,8 +1149,6 @@ Description: "ePI document Bundle for seebri Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1173,8 +1171,6 @@ Description: "ePI document Bundle for seebri Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1195,8 +1191,8 @@ Usage: #example
 
 Instance: mp5aaf1ff9ad4c7cb420e93974915ff219
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product seebri"
-Description: "seebri"
+Title: "Medicinal Product Seebri Breezhaler 44 micrograms inhalation powder, hard capsules"
+Description: "Seebri Breezhaler 44 micrograms inhalation powder, hard capsules"
 Usage: #inline
 
  
@@ -1209,14 +1205,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Seebri Breezhaler is indicated as a maintenance bronchodilator treatment to relieve symptoms in adult"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "seebri"
+  * productName = "Seebri Breezhaler 44 micrograms inhalation powder, hard capsules"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1236,10 +1229,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

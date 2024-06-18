@@ -680,7 +680,7 @@ herpes (såsom forkølelsessår, helvedesild eller herpes på kønsdelene) </p>
 <li>
 <p>Fortæl det straks til lægen eller sygeplejersken, hvis du mener, at din MS bliver værre, 
 eller hvis du bemærker nye symptomer. Det er på grund af en meget sjælden og livstruende 
-hjerneinfektion, kaldet ”progressiv multifokal leukoencefalopati” (PML), som kan give 
+hjerneinfektion, kaldet "progressiv multifokal leukoencefalopati" (PML), som kan give 
 symptomer, der ligner symptomer på MS. PML kan forekomme hos patienter, som tager 
 lægemidler som Briumvi, og andre lægemidler til behandling af MS. </p>
 </li>
@@ -724,7 +724,7 @@ dit immunsystem (bortset fra kortikosteroider) eller andre lægemidler, der anve
 behandle MS. Det skyldes, at disse lægemidler kan have en forøget virkning på immunsystemet. </p>
 </li>
 <li>
-<p>hvis du planlægger at få vaccinationer (se ”Advarsler og forsigtighedsregler” ovenfor). </p>
+<p>hvis du planlægger at få vaccinationer (se "Advarsler og forsigtighedsregler" ovenfor). </p>
 </li>
 </ul>
 <p>Hvis noget af ovenstående gælder for dig (eller hvis du er i tvivl), skal du kontakte lægen, inden du får 
@@ -946,7 +946,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store briumvi"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevares i køleskab (2 °C – 8 °C). </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevares i køleskab (2 °C - 8 °C). </p>
 <p>Briumvi skal opbevares af sundhedspersoner på hospitalet eller klinikken under følgende betingelser: </p>
 <ul>
 <li>
@@ -1263,7 +1263,7 @@ infusionen. </p>
 <p>Fortyndet opløsning til intravenøs infusion </p>
 <ul>
 <li>
-<p>Der er påvist kemisk og fysisk stabilitet under anvendelse i 24 timer ved 2 °C – 8 °C og derefter 
+<p>Der er påvist kemisk og fysisk stabilitet under anvendelse i 24 timer ved 2 °C - 8 °C og derefter 
 i 8 timer ved stuetemperatur. </p>
 </li>
 <li>
@@ -1290,8 +1290,6 @@ Description: "ePI document Bundle for briumvi Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1314,8 +1312,6 @@ Description: "ePI document Bundle for briumvi Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1336,8 +1332,8 @@ Usage: #example
 
 Instance: mp33fea74e578b9f917fc6255f1897937f
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product briumvi"
-Description: "briumvi"
+Title: "Medicinal Product Briumvi 150 mg concentrate for solution for infusion"
+Description: "Briumvi 150 mg concentrate for solution for infusion"
 Usage: #inline
 
  
@@ -1350,14 +1346,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Briumvi is indicated for the treatment of adult patients with relapsing forms of multiple sclerosis"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "briumvi"
+  * productName = "Briumvi 150 mg concentrate for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1377,10 +1370,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -643,8 +643,6 @@ Description: "ePI document Bundle for dexmedetomidine Package Leaflet for langua
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -667,8 +665,6 @@ Description: "ePI document Bundle for dexmedetomidine Package Leaflet for langua
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -689,8 +685,8 @@ Usage: #example
 
 Instance: mpe1c7e2c0315603f70cbb39f05dcc6082
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product dexmedetomidine"
-Description: "dexmedetomidine"
+Title: "Medicinal Product Dexmedetomidine Accord 100 micrograms/ml concentrate for solution for infusion"
+Description: "Dexmedetomidine Accord 100 micrograms/ml concentrate for solution for infusion"
 Usage: #inline
 
  
@@ -703,14 +699,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "For sedation of adult ICU (Intensive Care Unit) patients requiring a sedation level not deeper than"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "dexmedetomidine"
+  * productName = "Dexmedetomidine Accord 100 micrograms/ml concentrate for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -730,10 +723,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

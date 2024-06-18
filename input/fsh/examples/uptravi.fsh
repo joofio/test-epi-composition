@@ -1679,8 +1679,6 @@ Description: "ePI document Bundle for uptravi Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1703,8 +1701,6 @@ Description: "ePI document Bundle for uptravi Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1725,8 +1721,8 @@ Usage: #example
 
 Instance: mpf797cc0b9b4e9335a18d81e479368f3c
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product uptravi"
-Description: "uptravi"
+Title: "Medicinal Product Uptravi 200 microgram film-coated tablets"
+Description: "Uptravi 200 microgram film-coated tablets"
 Usage: #inline
 
  
@@ -1739,14 +1735,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Uptravi is indicated for the long-term treatment of pulmonary arterial hypertension (PAH) in adult"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "uptravi"
+  * productName = "Uptravi 200 microgram film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1766,10 +1759,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

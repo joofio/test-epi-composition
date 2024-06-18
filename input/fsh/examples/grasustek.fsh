@@ -481,7 +481,7 @@ hævelse af ansigtet (anafylaksi), rødme og blussen, hududslæt og hudområder 
 <p>hævelse eller oppustethed, som kan være forbundet med sjældnere vandladning, 
 våndedrætsbesvær, oppustet mave og mæthedsfølelse samt en generel følelse af 
 træthed. Det kan være symptomer på en tilstand, der kaldes for 
-”kapillærlækagesyndrom”, hvor blodet siver ud af de små blodkar og ud i kroppen 
+"kapillærlækagesyndrom", hvor blodet siver ud af de små blodkar og ud i kroppen 
 (se afsnit 4). </p>
 </li>
 <li>
@@ -591,7 +591,7 @@ næste dosis. </p>
 symptomer udvikles som regel hurtigt. </li>
 </ul>
 <p>Det kan være symptomer på en ikke almindelig (kan forekomme hos op til 1 ud af 
-100 behandlede) tilstand, der kaldes for ”kapillærlækagesyndrom”, hvor blodet siver ud af de små 
+100 behandlede) tilstand, der kaldes for "kapillærlækagesyndrom", hvor blodet siver ud af de små 
 blodkar og ud i kroppen, hvilket kræver omgående lægebehandling. </p>
 <p>Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 behandlede) </p>
 <ul>
@@ -956,8 +956,6 @@ Description: "ePI document Bundle for grasustek Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -980,8 +978,6 @@ Description: "ePI document Bundle for grasustek Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1002,8 +998,8 @@ Usage: #example
 
 Instance: mp7d1bb12ba6240a71a9360f68b8249137
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product grasustek"
-Description: "grasustek"
+Title: "Medicinal Product Grasustek 6 mg solution for injection in pre-filled syringe"
+Description: "Grasustek 6 mg solution for injection in pre-filled syringe"
 Usage: #inline
 
  
@@ -1016,14 +1012,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Reduction in the duration of neutropenia and the incidence of febrile neutropenia in adult patients"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "grasustek"
+  * productName = "Grasustek 6 mg solution for injection in pre-filled syringe"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1043,10 +1036,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

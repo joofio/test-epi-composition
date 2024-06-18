@@ -474,19 +474,19 @@ Usage: #inline
 <li>
 <p>Til at hjælpe med at frigive et æg fra æggestokken (ovariet) hos kvinder, som ikke har 
 ægløsning, og hos kvinder, som ikke har reageret på behandling med et lægemiddel, der kaldes 
-“clomifencitrat”. </p>
+“clomifencitrat". </p>
 </li>
 <li>
-<p>Sammen med en andre lægemidler, der kaldes “lutropin alfa” (“luteiniseringshormon” eller LH) 
+<p>Sammen med en andre lægemidler, der kaldes “lutropin alfa" (“luteiniseringshormon" eller LH) 
 til at hjælpe med at frigive æg fra æggestokken (ovariet) hos kvinder, som producerer meget lidt 
 gonadotropiner (FSH og LH). </p>
 </li>
 <li>
 <p>Til at hjælpe med at udvikle flere follikler (hver follikel indeholder et æg) hos kvinder, som 
 gennemgår assisteret reproduktionsteknologi (procedurer, der kan hjælpe dig med at blive 
-gravid), f.eks. reagensglasbefrugtning (”in vitro-fertilisering”), oplægning af en blanding af 
-sædceller og ægceller i æggelederne (”gamete intra-fallopian transfer”) eller ”oplægning af 
-befrugtede ægceller i æggelederne” (zygote intra-fallopian transfer). </p>
+gravid), f.eks. reagensglasbefrugtning ("in vitro-fertilisering"), oplægning af en blanding af 
+sædceller og ægceller i æggelederne ("gamete intra-fallopian transfer") eller "oplægning af 
+befrugtede ægceller i æggelederne" (zygote intra-fallopian transfer). </p>
 </li>
 </ul>
 <p>Hos voksne mænd tages GONAL-f: </p>
@@ -565,7 +565,7 @@ give hCG i denne behandlingscyklus, og du vil muligvis blive bedt om ikke at hav
 bruge barriereprævention i mindst 4 døgn. </p>
 <p>Flerfoldsgraviditet </p>
 <p>Når du tager GONAL-f, har du en højere risiko for at blive gravid med flere end et foster ad gangen 
-(”flerfoldsgraviditet”, i de fleste tilfælde tvillinger), end hvis du bliver gravid ad naturlig vej. 
+("flerfoldsgraviditet", i de fleste tilfælde tvillinger), end hvis du bliver gravid ad naturlig vej. 
 Flerfoldsgraviditet kan medføre medicinske komplikationer for dig selv og dine spædbørn. Du kan 
 nedsætte risikoen for flerfoldsgraviditet ved at tage den rette dosis GONAL-f på de rette tidspunkter. 
 Risikoen for flerfoldsgraviditet som følge af assisteret befrugtning er relateret til din alder, kvaliteten 
@@ -594,8 +594,8 @@ hCG eller clomifencitrat), kan det øge folliklernes reaktion. </p>
 </li>
 <li>
 <p>Hvis du tager GONAL-f samtidig med typer af lægemidler, der nedsætter 
-kønshormonniveauerne og stopper ægløsningen (”gonadotropin-frigivende hormon”-(GnRH)-
-agonist eller –antagonist), kan du have brug for en højere dosis GONAL-f til at producere 
+kønshormonniveauerne og stopper ægløsningen ("gonadotropin-frigivende hormon"-(GnRH)-
+agonist eller -antagonist), kan du have brug for en højere dosis GONAL-f til at producere 
 follikler. </p>
 </li>
 </ul>
@@ -629,7 +629,7 @@ dig selv. </p>
 </li>
 <li>
 <p>Hvis du selv injicerer GONAL-f, skal du læse og følge instruktionerne grundigt i slutningen af 
-denne indlægsseddel i afsnittet: “Sådan skal du tilberede og tage GONAL-f pulver og solvens”. </p>
+denne indlægsseddel i afsnittet: “Sådan skal du tilberede og tage GONAL-f pulver og solvens". </p>
 </li>
 </ul>
 <p>Hvor meget skal du tage </p>
@@ -654,7 +654,7 @@ lægemidlet på en dag, som passer dig. </p>
 </li>
 <li>
 <p>Når du opnår den ønskede virkning, vil du få en enkelt injektion på 250 mikrogram 
-“rekombinant hCG” (r-hCG, et hCG, som er fremstillet i et laboratorium ved en særlig DNA-
+“rekombinant hCG" (r-hCG, et hCG, som er fremstillet i et laboratorium ved en særlig DNA-
 teknik), eller 5 000 til 10 000 IE hCG, 24 til 48 timer efter den sidste GONAL-f-injektion. Det 
 bedste tidspunkt at have samleje er på selve dagen for hCG-injektionen og dagen efter. </p>
 </li>
@@ -662,7 +662,7 @@ bedste tidspunkt at have samleje er på selve dagen for hCG-injektionen og dagen
 <p>Hvis din læge ikke kan se den ønskede virkning, skal fortsættelsen af denne behandlingscyklus med 
 GONAL-f evalueres og håndteres i henhold til klinisk standardpraksis. </p>
 <p>Hvis din krop reagerer for kraftigt, vil behandlingen blive stoppet, og du vil ikke få hCG (se punkt 2, 
-“Ovarielt hyperstimulationssyndrom (OHSS)”). I den efterfølgende cyklus vil din læge give dig en 
+“Ovarielt hyperstimulationssyndrom (OHSS)"). I den efterfølgende cyklus vil din læge give dig en 
 lavere dosis af GONAL-f end i den forrige cyklus. </p>
 <p>Hvis du er blevet diagnosticeret med meget lave niveauer af FSH- og LH-hormoner </p>
 <ul>
@@ -677,8 +677,8 @@ lavere dosis af GONAL-f end i den forrige cyklus. </p>
 ønskede virkning. </p>
 </li>
 <li>
-<p>Når du får den ønskede virkning, vil du få en enkelt injektion af 250 mikrogram ”rekombinant 
-hCG” (r-hCG, et hCG, som er fremstillet i et laboratorium ved en særlig DNA-teknik), eller 
+<p>Når du får den ønskede virkning, vil du få en enkelt injektion af 250 mikrogram "rekombinant 
+hCG" (r-hCG, et hCG, som er fremstillet i et laboratorium ved en særlig DNA-teknik), eller 
 5 000-10 000 IE hCG, 24-48 timer efter de sidste injektioner af GONAL-f og lutropin alfa. Det 
 bedste tidspunkt at have samleje er på selve dagen for hCG-injektionen og dagen efter. 
 Alternativt kan der foretages intrauterin insemination eller en anden medicinsk assisteret 
@@ -688,7 +688,7 @@ reproduktionsprocedure, baseret på lægens bedømmelse. </p>
 <p>Hvis din læge ikke ser en virkning efter 5 uger, bør denne behandlingscyklus med GONAL-f stoppes. 
 I den efterfølgende behandlingscyklus vil din læge give dig en højere startdosis af GONAL-f end før. 
 Hvis din krop reagerer for kraftigt, vil behandlingen med GONAL-f blive stoppet, og du vil ikke få 
-hCG (se punkt 2, “Ovarielt hyperstimulationssyndrom (OHSS)”). I den efterfølgende cyklus vil din 
+hCG (se punkt 2, “Ovarielt hyperstimulationssyndrom (OHSS)"). I den efterfølgende cyklus vil din 
 læge give dig en lavere dosis af GONAL-f end i den forrige cyklus. </p>
 <p>Hvis du har behov for at udvikle flere æg til udtagning inden assisteret befrugtning </p>
 <ul>
@@ -701,7 +701,7 @@ læge give dig en lavere dosis af GONAL-f end i den forrige cyklus. </p>
 blodprøver og/eller et ultralydsapparat til at kontrollere, hvornår dette stadie er nået. </p>
 </li>
 <li>
-<p>Når dine æg er klar, vil du få en enkelt injektion af 250 mikrogram ”rekombinant hCG” (r-hCG, 
+<p>Når dine æg er klar, vil du få en enkelt injektion af 250 mikrogram "rekombinant hCG" (r-hCG, 
 et hCG, som er fremstillet i et laboratorium ved en særlig DNA-teknik), eller 5 000 IE til 
 10 000 IE hCG, 24 til 48 timer efter den sidste GONAL-f-injektion. Dette gør æggene klar til 
 udtagning. </p>
@@ -723,7 +723,7 @@ fortsætte med disse to lægemidler i mindst 18 måneder. </p>
 <p>Hvis du har brugt for meget GONAL-f </p>
 <p>Virkningen af en overdosering af GONAL-f er ukendt. Man kan dog antage, at ovarielt 
 hyperstimulationssyndrom (OHSS) indtræder, hvilket beskrives i punkt 4. OHSS vil kun opstå, hvis 
-hCG også indgives (se punkt 2, “Ovarielt hyperstimulationssyndrom (OHSS)”). </p>
+hCG også indgives (se punkt 2, “Ovarielt hyperstimulationssyndrom (OHSS)"). </p>
 <p>Hvis du har glemt at bruge GONAL-f </p>
 <p>Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis, hvis du har glemt at tage 
 GONAL-f. Tal med din læge så snart, du bemærker, at du har glemt en dosis. </p>
@@ -742,7 +742,7 @@ GONAL-f. Tal med din læge så snart, du bemærker, at du har glemt en dosis. </
 <p>Smerter i nederste del af maven i kombination med kvalme eller opkastning kan være 
 symptomer på ovarielt hyperstimulationssyndrom (OHSS). Dette kan være tegn på, at 
 æggestokkene har overreageret på behandlingen, og at der har udviklet sig store cyster i 
-æggestokkene (se også i punkt 2 under ”Ovarielt hyperstimulationssyndrom (OHSS)”). Denne 
+æggestokkene (se også i punkt 2 under "Ovarielt hyperstimulationssyndrom (OHSS)"). Denne 
 bivirkning er almindelig (kan forekomme hos op til 1 ud af 10 personer). </p>
 </li>
 <li>
@@ -760,7 +760,7 @@ uafhængigt af OHSS, kan forekomme meget sjældent (kan forekomme hos op til 1 u
 </li>
 </ul>
 <p>10 000 personer). Det kan give brystsmerter, stakåndethed, slagtilfælde eller hjerteslag (se også 
-i punkt 2 under ”Problemer med blodpropper”). </p>
+i punkt 2 under "Problemer med blodpropper"). </p>
 <p>Alvorlige bivirkninger hos mænd og kvinder </p>
 <ul>
 <li>Overfølsomhedsreaktioner, såsom udslæt, hudrødme, nældefeber, hævelse af ansigt med 
@@ -1057,8 +1057,6 @@ Description: "ePI document Bundle for gonal Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1081,8 +1079,6 @@ Description: "ePI document Bundle for gonal Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1103,8 +1099,8 @@ Usage: #example
 
 Instance: mpdd18b3b8f2dba9230f63c60b0e5cbf28
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product gonal"
-Description: "gonal"
+Title: "Medicinal Product GONAL-f 75 IU powder and solvent for solution for injection"
+Description: "GONAL-f 75 IU powder and solvent for solution for injection"
 Usage: #inline
 
  
@@ -1117,14 +1113,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "In adult women"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "gonal"
+  * productName = "GONAL-f 75 IU powder and solvent for solution for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1144,10 +1137,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

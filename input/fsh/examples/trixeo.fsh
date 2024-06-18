@@ -514,27 +514,27 @@ Fortæl det til lægen eller apotekspersonalet, hvis du tager noget af følgende
 medicin, der kaldes betablokkere (såsom atenolol eller propranolol), der kan bruges mod 
 forhøjet blodtryk eller hjerteproblemer, eller til behandling af glaukom (fx timolol)
 
-medicin til behandling mod svampeinfektioner – såsom ketoconazol eller itraconazol
+medicin til behandling mod svampeinfektioner - såsom ketoconazol eller itraconazol
 
-medicin til behandling af hiv-infektion – såsom ritonavir eller cobicistat
+medicin til behandling af hiv-infektion - såsom ritonavir eller cobicistat
 
 medicin, der nedsætter mængden af kalium i blodet, såsom:
 -
 kortikosteroider, som du tager gennem munden (såsom prednisolon)
 -
-vanddrivende medicin – medicin, som øger mængden af urin (såsom furosemid eller
+vanddrivende medicin - medicin, som øger mængden af urin (såsom furosemid eller
 hydrochlorthiazid), der kan bruges til behandling af forhøjet blodtryk
 -
-noget medicin, der bruges til behandling af vejrtrækningsproblemer (fx theophyllin) –
+noget medicin, der bruges til behandling af vejrtrækningsproblemer (fx theophyllin) -
 kaldes "methylxanthiner"
 
-al medicin, der virker på samme måde som Trixeo Aerosphere – såsom tiotropium, ipratropium, 
+al medicin, der virker på samme måde som Trixeo Aerosphere - såsom tiotropium, ipratropium, 
 aclidinium, umeclidinium eller salmeterol, arformoterol, vilanterol, olodaterol eller indacaterol. 
 Du må ikke bruge Trixeo Aerosphere, hvis du allerede bruger et af disse lægemidler.
 
-medicin, der anvendes til behandling af problemer med hjerterytmen – fx amiodaron
+medicin, der anvendes til behandling af problemer med hjerterytmen - fx amiodaron
 
-medicin, der kan ændre i hjerterytmen (kaldes "QT-intervallet") – såsom medicin mod:
+medicin, der kan ændre i hjerterytmen (kaldes "QT-intervallet") - såsom medicin mod:
 -
 depression (såsom monoaminoxidasehæmmere eller tricykliske antidepressiva)
 -
@@ -563,11 +563,11 @@ betjening af maskiner.</p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller
 apotekspersonalet.
 Hvor meget skal der bruges
-Den anbefalede dosis er to pust to gange dagligt – to pust om morgenen og to pust om aftenen.
-Det er vigtigt at bruge Trixeo Aerosphere hver dag – også på tidspunkter, hvor du ikke har nogen 
+Den anbefalede dosis er to pust to gange dagligt - to pust om morgenen og to pust om aftenen.
+Det er vigtigt at bruge Trixeo Aerosphere hver dag - også på tidspunkter, hvor du ikke har nogen 
 KOL-symptomer.
 Husk: Skyl altid munden med vand efter brug af Trixeo Aerosphere. På den måde fjernes eventuel 
-resterende medicin, som sidder tilbage i munden. Spyt vandet ud – du må ikke synke det.
+resterende medicin, som sidder tilbage i munden. Spyt vandet ud - du må ikke synke det.
 Hvordan skal det bruges
 Trixeo Aerosphere er beregnet til inhalation.
 Læs brugsvejledningen i slutningen af denne indlægsseddel. Hvis du ikke er sikker på, hvordan du 
@@ -698,7 +698,7 @@ om sikkerheden af dette lægemiddel.</p>         </div>"""
 Brug ikke Trixeo Aerosphere efter den udløbsdato, der står på kartonen, posen og trykbeholderen efter 
 EXP. Udløbsdatoen er den sidste dag i den nævnte måned.
 Efter åbning af posen, skal inhalatoren bruges inden for 3 måneder.
-Opbevar inhalatoren i den forseglede pose – tag først inhalatoren ud af den forseglede pose lige inden 
+Opbevar inhalatoren i den forseglede pose - tag først inhalatoren ud af den forseglede pose lige inden 
 brug første gang. Skriv den dato, hvor posen åbnes, på inhalatorens etiket i det felt, der er beregnet til 
 det.
 Må ikke opbevares ved temperaturer over 30ºC. Opbevares et tørt sted.
@@ -897,7 +897,7 @@ eller
 3 måneder efter din inhalator er taget ud af folieposen
 Du må ikke genbruge eller bruge plasthylsteret med medicinbeholdere fra andre inhalatorer.
 Du må ikke punktere beholderen eller smide den ind i åben ild eller forbrændingsanlæg.
-FØR FØRSTE BRUG – Klargør din inhalator 4 gange før første brug
+FØR FØRSTE BRUG - Klargør din inhalator 4 gange før første brug
 
 Før du bruger din inhalator første gang skal du klargøre den, så du får den rette mængde 
 medicin, når du bruger den.
@@ -919,7 +919,7 @@ hvis du ikke har brugt den i mere end
 For at klargøre igen, skal du spraye 
 2 klargøringspust og ryste inhalatoren godt før 
 hvert klargøringspust.
-DAGLIG BRUG, morgen og aften – Inhalér din medicin
+DAGLIG BRUG, morgen og aften - Inhalér din medicin
 
 Daglig dosis: 2 pust om morgenen og 2 pust om aftenen.
 
@@ -965,7 +965,7 @@ igen.
 Skyl munden med vand. Spyt 
 vandet ud. Du må ikke synke 
 det.
-UGENTLIG SKYLNING – Skyl plasthylsteret én gang om ugen
+UGENTLIG SKYLNING - Skyl plasthylsteret én gang om ugen
 
 Skyl det gule plasthylster ugentligt, så medicinrester ikke sætter sig og blokerer for sprayen 
 i mundstykket. 
@@ -1029,8 +1029,6 @@ Description: "ePI document Bundle for trixeo Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1053,8 +1051,6 @@ Description: "ePI document Bundle for trixeo Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1075,8 +1071,8 @@ Usage: #example
 
 Instance: mpc320b0f7ef6b0e703d9abd8eff34bf82
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product trixeo"
-Description: "trixeo"
+Title: "Medicinal Product Trixeo Aerosphere 5 micrograms/7.2 micrograms/160 micrograms pressurised inhalation, suspension"
+Description: "Trixeo Aerosphere 5 micrograms/7.2 micrograms/160 micrograms pressurised inhalation, suspension"
 Usage: #inline
 
  
@@ -1089,14 +1085,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Trixeo Aerosphere is indicated as a maintenance treatment in adult patients with moderate to severe"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "trixeo"
+  * productName = "Trixeo Aerosphere 5 micrograms/7.2 micrograms/160 micrograms pressurised inhalation, suspension"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1116,10 +1109,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

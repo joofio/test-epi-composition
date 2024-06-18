@@ -531,7 +531,7 @@ forvejen får en eller flere af nedenstående behandlinger:</p>
 <ul>
 <li>andre lægemidler, der nedsætter produktionen af røde og hvide blodlegemer samt blodplader  </li>
 <li>strålebehandling eller kemoterapi </li>
-<li>lægemidler mod kræft, navnlig interferon-behandling – ved anvendelse sammen med Xromi er 
+<li>lægemidler mod kræft, navnlig interferon-behandling - ved anvendelse sammen med Xromi er 
 der større risiko for bivirkninger, f.eks. blodmangel </li>
 <li>antiretrovirale lægemidler (dvs. lægemidler, der hæmmer eller ødelægger et retrovirus som 
 f.eks. hiv), herunder didanosin, stavudin og indinavir (kan medføre et fald i antallet af hvide 
@@ -553,7 +553,7 @@ gravid, skal de tale med lægen om de mulige fordele og risici ved at fortsætte
 Xromi. Spørg lægen eller sundhedspersonalet til råds. </p>
 <p>Trafik- og arbejdssikkerhed </p>
 <p>Xromi kan gøre dig døsig. Du bør ikke føre motorkøretøj eller betjene maskiner, medmindre du har 
-konstateret, at du ikke føler dig påvirket – tal med lægen om det. </p>
+konstateret, at du ikke føler dig påvirket - tal med lægen om det. </p>
 <p>Xromi indeholder methylparahydroxybenzoat (E218) </p>
 <p>Xromi indeholder methylparahydroxybenzoat (E218), der kan forårsage allergiske reaktioner 
 (eventuelt forsinkede). </p>         </div>"""   
@@ -609,7 +609,7 @@ grundigt med vand og sæbe. </p>
 <p>Følg nedenstående anvisninger for anvendelsen af lægemidlet: </p>
 <ol>
 <li>Tag engangshandsker på før håndtering af Xromi. </li>
-<li>Tag låget af flasken (figur 1), og sæt adapteren godt fast på flaskens top – lad den sidde med 
+<li>Tag låget af flasken (figur 1), og sæt adapteren godt fast på flaskens top - lad den sidde med 
 henblik på senere doseringer (figur 2). </li>
 <li>Tryk spidsen af doseringssprøjten ind i hullet i adapteren (figur 3). Lægen eller 
 apotekspersonalet vil fortælle dig, hvilken sprøjte du skal bruge for at indgive den rigtige 
@@ -790,8 +790,6 @@ Description: "ePI document Bundle for xromi Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -814,8 +812,6 @@ Description: "ePI document Bundle for xromi Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -836,8 +832,8 @@ Usage: #example
 
 Instance: mp4ee3eaba97a2c229abd66d955627a070
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product xromi"
-Description: "xromi"
+Title: "Medicinal Product Xromi 100 mg/ml oral solution"
+Description: "Xromi 100 mg/ml oral solution"
 Usage: #inline
 
  
@@ -850,14 +846,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Xromi is indicated for the prevention of vaso-occlusive complications of Sickle Cell Disease in"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "xromi"
+  * productName = "Xromi 100 mg/ml oral solution"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -877,10 +870,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

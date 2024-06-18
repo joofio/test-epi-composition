@@ -773,7 +773,7 @@ Aluminium lake). </p>
 mikrokrystallinsk cellulose, povidon K30, silicadioxid og magnesiumstearat. </li>
 </ul>
 <p>Udseende og pakningsstørrelser </p>
-<p>Aerinaze er en blå og hvid oval tolagstablet med ”D12” præget i det blå lag. 
+<p>Aerinaze er en blå og hvid oval tolagstablet med "D12" præget i det blå lag. 
 Aerinaze-tabletter er pakket som 2, 4, 7, 10, 14 eller 20 tabletter i perforeret enkeltdosisblister 
 bestående af laminat blisterfilm og folielåg. 
 Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
@@ -881,7 +881,7 @@ Organon Pharma B.V., Cyprus branch
 Organon Sweden AB 
 Tel: +46 8 502 597 dpoc.sweden@organon.com </p>
 <p>Latvija 
-Ārvalsts komersanta “Organon Pharma B.V.” 
+Ārvalsts komersanta “Organon Pharma B.V." 
 pārstāvniecība 
 Tel: +371 66968dpoc.latvia@organon.com </p>
 <p>United Kingdom (Northern Ireland) 
@@ -901,8 +901,6 @@ InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for aerinaze Package Leaflet for language en"
 Description: "ePI document Bundle for aerinaze Package Leaflet for language en"
 Usage: #example
-
-
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
@@ -927,8 +925,6 @@ Description: "ePI document Bundle for aerinaze Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -949,8 +945,8 @@ Usage: #example
 
 Instance: mp67197f446ece70b3d37301b0d5a7f6eb
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product aerinaze"
-Description: "aerinaze"
+Title: "Medicinal Product Aerinaze 2.5 mg/120 mg modified-release tablets"
+Description: "Aerinaze 2.5 mg/120 mg modified-release tablets"
 Usage: #inline
 
  
@@ -963,14 +959,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Aerinaze is indicated in adults and adolescents 12 years and older for the symptomatic treatment of"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "aerinaze"
+  * productName = "Aerinaze 2.5 mg/120 mg modified-release tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -990,10 +983,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

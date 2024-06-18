@@ -469,20 +469,20 @@ Zometa bør ikke bruges til børn og teenagere under 18 år. </p>
 <p>Brug af anden medicin sammen med Zometa 
 Fortæl det altid til lægen, hvis du bruger anden medicin, for nylig har brugt anden medicin eller 
 planlægger at bruge anden medicin. Det er især vigtigt, at du fortæller lægen, hvis du også får: 
-– 
+- 
 Aminoglykosider (en type medicin til behandling af alvorlige infektioner), calcitonin (en type 
 medicin til behandling knogleskørhed efter menopausen og til for højt calcium), slyngediuretika 
 (vanddrivende medicin til behandling af forhøjet blodtryk eller væskesamlinger) eller anden 
 medicin, der sænker calcium, da kombinationen af disse stoffer og bisfosfonater kan forårsage, 
 at blodets indhold af calcium bliver for lavt. 
-– 
+- 
 Thalidomid (medicin brugt til at behandle en bestemt type blodkræft, der involverer knoglerne) 
 eller anden medicin, der kan skade nyrerne. 
-– 
+- 
 Aclasta (medicin, der også indeholder zoledronsyre og bruges til at behandle knogleskørhed og 
 andre ikke-kræft sygdomme i knoglerne), eller andre bisfosfonater, da den kombinerede effekt 
 af at tage disse lægemidler sammen med Zometa er ukendt. 
-– 
+- 
 Anti-angiogenetisk medicin (brugt til behandling af kræft), da kombination af dette og Zometa 
 har været forbundet med en øget risiko for osteonekrose i kæberne. </p>
 <p>Graviditet og amning 
@@ -503,31 +503,26 @@ Zometa med, vil natriummængden pr. dosisenhed være større. </p>         </div
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "3. How to take zometa"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>– 
-Zometa må kun gives af sundhedspersoner, som er trænet til at indgive bisfosfonater 
-intravenøst, dvs. gennem en blodåre. 
-– 
-For at undgå væskemangel skal du følge lægens anvisninger og drikke rigeligt med vand inden 
-infusionerne. 
-– 
-Følg nøje alle de andre instruktioner, som du har fået af din læge, apotekspersonalet eller af 
-sygeplejersken. </p>
-<p>Hvor meget Zometa skal du have 
-– 
-Den normale enkeltdosis er 4 mg. 
-– 
-Hvis du har problemer med nyrerne, vil lægen give dig en lavere dosis afhængig af 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Zometa må kun gives af sundhedspersoner, som er trænet til at indgive bisfosfonater 
+intravenøst, dvs. gennem en blodåre. </li>
+<li>For at undgå væskemangel skal du følge lægens anvisninger og drikke rigeligt med vand inden 
+infusionerne. </li>
+<li>Følg nøje alle de andre instruktioner, som du har fået af din læge, apotekspersonalet eller af 
+sygeplejersken. </li>
+</ul>
+<h2>Hvor meget Zometa skal du have</h2>
+<h2>Den normale enkeltdosis er 4 mg.</h2>
+<p>Hvis du har problemer med nyrerne, vil lægen give dig en lavere dosis afhængig af 
 sværhedsgraden af dine nyreproblemer. </p>
-<p>Hvor ofte skal du have Zometa 
-– 
-Hvis du er i forebyggende behandling for knoglekomplikationer pga. knoglemetastaser, vil du få 
+<h2>Hvor ofte skal du have Zometa</h2>
+<p>Hvis du er i forebyggende behandling for knoglekomplikationer pga. knoglemetastaser, vil du få 
 en infusion af Zometa hver tredje til fjerde uge. 
-– 
+- 
 Hvis du er i behandling for at nedsætte calciumindholdet i blodet, vil du som regel kun få én 
 infusion med Zometa. </p>
-<p>Hvordan får du Zometa 
-– 
-Zometa gives som drop (infusion) i en vene. Infusionen bør vare mindst 15 minutter og skal 
+<h2>Hvordan får du Zometa</h2>
+<p>Zometa gives som drop (infusion) i en vene. Infusionen bør vare mindst 15 minutter og skal 
 gives som en enkelt intravenøs infusion i en separat infusionsslange. </p>
 <p>Patienter, som ikke har for højt calciumindhold i blodet, vil få ordineret dagligt tilskud af calcium og 
 D-vitamin. </p>
@@ -546,82 +541,70 @@ calciumniveau falder for meget, skal du måske have ekstra calcium tilført som 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. De 
 mest almindelige bivirkninger er normalt milde og vil sandsynligvis forsvinde efter kort tid. </p>
 <p>Giv straks lægen besked, hvis du bemærker en eller flere af nedenstående bivirkninger: </p>
-<p>Almindelig (forekommer hos op til 1 ud af 10 patienter): 
-– 
-Svært nedsat nyrefunktion (vil normalt blive afgjort af din læge ved hjælp af en speciel type 
+<h2>Almindelig (forekommer hos op til 1 ud af 10 patienter):</h2>
+<p>Svært nedsat nyrefunktion (vil normalt blive afgjort af din læge ved hjælp af en speciel type 
 blodprøver). 
-– 
+- 
 Lavt niveau af calcium i blodet. </p>
-<p>Ikke almindelig (forekommer hos op til 1 ud af 100 patienter): 
-– 
-Smerter i munden, tænder og/eller kæberne, hævelse eller ikke helende sår inde i munden eller 
+<h2>Ikke almindelig (forekommer hos op til 1 ud af 100 patienter):</h2>
+<p>Smerter i munden, tænder og/eller kæberne, hævelse eller ikke helende sår inde i munden eller 
 kæben, udflåd af gullig betændelse, følelsesløshed eller følelsen af tyngde i kæberne eller løsnen 
 af en tand. Disse symptomer kan være tegn på skade i kæbeknoglerne (osteonekrose). Fortæl det 
 straks til din læge eller tandlæge, hvis du får sådanne symptomer, mens du er i behandling med </p>
-<p>Zometa eller efter behandlingsophør. 
-– 
-Uregelmæssig hjerterytme (atrieflimren) er set hos patienter, der fik zoledronsyre for 
+<h2>Zometa eller efter behandlingsophør.</h2>
+<p>Uregelmæssig hjerterytme (atrieflimren) er set hos patienter, der fik zoledronsyre for 
 postmenopausal osteoporose. Det er på nuværende tidspunkt uklart, om zoledronsyre forårsager 
 uregelmæssig hjerterytme, men du skal sige det til din læge, hvis du oplever sådanne 
 symptomer efter, at du har fået zoledronsyre. 
-– 
+- 
 Alvorlige overfølsomhedsreaktioner: åndenød, hævelse hovedsageligt i ansigt og hals. </p>
-<p>Sjælden (forekommer hos op til 1 ud af 1.000 patienter): 
-– 
-Som følge af lave calcium-værdier: uregelmæssig hjerterytme (hjertearytmi; sekundære 
+<h2>Sjælden (forekommer hos op til 1 ud af 1.000 patienter):</h2>
+<p>Som følge af lave calcium-værdier: uregelmæssig hjerterytme (hjertearytmi; sekundære 
 symptomer på hypokalcæmi). 
-– 
+- 
 En nyresygdom, der hedder Fanconis syndrom (vil normalt blive fastslået af din læge med nogle 
 bestemte urinprøver). </p>
-<p>Meget sjælden (forekommer hos op til 1 ud af 10.000 patienter): 
-– 
-Som følge af lave calcium-værdier: kramper, følelsesløshed og tetani (sekundære symptomer på 
+<h2>Meget sjælden (forekommer hos op til 1 ud af 10.000 patienter):</h2>
+<p>Som følge af lave calcium-værdier: kramper, følelsesløshed og tetani (sekundære symptomer på 
 hypokalcæmi). 
-– 
+- 
 Sig det til lægen, hvis du får øresmerter, udflåd fra øret og/eller betændelse i øret. Dette kan 
 være tegn på knoglebeskadigelse i øret. 
-– 
+- 
 Der er i meget sjældne tilfælde set osteonekrose af andre knogler end kæben, særligt af hoften 
 eller låret. Fortæl det straks til din læge, hvis du oplever symptomer så som nyopstået ømhed, 
 smerte eller stivhed, eller en forværring af disse symptomer, mens du er i behandling med 
 Zometa eller efter endt behandling. </p>
 <p>Giv lægen besked så hurtigt som muligt, hvis du bemærker en eller flere af nedenstående 
 bivirkninger: </p>
-<p>Meget almindelig (forekommer hos flere end 1 ud af 10 patienter): 
-– 
-Lavt fosfatindhold i blodet. </p>
-<p>Almindelig (forekommer hos op til 1 ud af 10 patienter): 
-– 
-Hovedpine og influenzalignende symptomer som feber, træthed, svaghed, døsighed, 
+<h2>Meget almindelig (forekommer hos flere end 1 ud af 10 patienter):</h2>
+<p>Lavt fosfatindhold i blodet. </p>
+<h2>Almindelig (forekommer hos op til 1 ud af 10 patienter):</h2>
+<p>Hovedpine og influenzalignende symptomer som feber, træthed, svaghed, døsighed, 
 kulderystelser samt knogle-, led- og/eller muskelsmerter. De fleste tilfælde har ikke krævet 
 speciel behandling, og symptomerne er forsvundet efter kort tid (nogle timer eller dage). 
-– 
+- 
 Mave-tarm-symptomer såsom kvalme og opkastning samt appetitløshed. 
-– 
+- 
 Betændelse i øjets bindehinde. 
-– 
+- 
 Lavt antal røde blodceller (anæmi). </p>
-<p>Ikke almindelig (forekommer hos op til 1 ud af 100 patienter): 
-– 
-Overfølsomhedsreaktioner. 
-– 
-Lavt blodtryk. 
-– 
-Brystsmerter. 
-– 
-Hudreaktioner (rødme og hævelse) på infusionsstedet, udslæt, kløe. 
-– 
-Forhøjet blodtryk, åndenød, svimmelhed, angst, søvnforstyrrelser, smagsforstyrrelser, rysten, 
+<h2>Ikke almindelig (forekommer hos op til 1 ud af 100 patienter):</h2>
+<h2>Overfølsomhedsreaktioner.</h2>
+<h2>Lavt blodtryk.</h2>
+<h2>Brystsmerter.</h2>
+<h2>Hudreaktioner (rødme og hævelse) på infusionsstedet, udslæt, kløe.</h2>
+<p>Forhøjet blodtryk, åndenød, svimmelhed, angst, søvnforstyrrelser, smagsforstyrrelser, rysten, 
 følelsesløshed eller prikkende fornemmelse i hænder eller fødder, diarré, forstoppelse, 
 mavesmerter, mundtørhed. 
-– 
+- 
 Lavt antal hvide blodceller og blodplader. 
-– 
+- 
 Lavt indhold af magnesium og kalium i blodet. Din læge vil kontrollere dette og tage alle de 
 nødvendige forholdsregler. 
-– 
+- 
 Vægtøgning. 
-– 
+- 
 Øget svedtendens. 
 − 
 Søvnighed. 
@@ -633,27 +616,22 @@ Pludselig opstået kuldefølelse med besvimelse, slaphed eller kollaps.
 Vejrtrækningsbesvær med hiven efter vejret eller hosten. 
 − 
 Nældefeber. </p>
-<p>Sjælden (forekommer hos op til 1 ud af 1.000 patienter): 
-– 
-Langsom hjerterytme. 
-– 
-Forvirring. 
-– 
-Usædvanlige brud på lårbensknoglen, primært hos patienter i langtidsbehandling for 
+<h2>Sjælden (forekommer hos op til 1 ud af 1.000 patienter):</h2>
+<h2>Langsom hjerterytme.</h2>
+<h2>Forvirring.</h2>
+<p>Usædvanlige brud på lårbensknoglen, primært hos patienter i langtidsbehandling for 
 osteoporose kan forekomme i sjældne tilfælde. Kontakt lægen, hvis du får smerter, svaghed 
 eller ubehag i låret, hoften eller lysken, idet det kan være tidlige tegn på et muligt brud på 
 lårbensknoglen. 
-– 
+- 
 Interstitiel lungesygdom (sygdom i alveolevævet). 
-– 
+- 
 Influenza-lignende symptomer herunder gigt (artritis) og hævede led. 
-– 
+- 
 Smertefuld rødme og/eller hævelse af øjet. </p>
-<p>Meget sjælden (forekommer hos op til 1 ud af 10.000 patienter): 
-– 
-Besvimelse på grund af lavt blodtryk. 
-– 
-Kraftige knogle-, led- og/eller muskelsmerter, lejlighedsvis invaliderende. </p>
+<h2>Meget sjælden (forekommer hos op til 1 ud af 10.000 patienter):</h2>
+<h2>Besvimelse på grund af lavt blodtryk.</h2>
+<p>Kraftige knogle-, led- og/eller muskelsmerter, lejlighedsvis invaliderende. </p>
 <p>Indberetning af bivirkninger 
 Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
@@ -749,15 +727,18 @@ Udtag det passende volumen af den opløste opløsning (4 mg/5 ml) efter følgend
 <ul>
 <li>4,4 ml til 3,5 mg dosis </li>
 <li>4,1 ml til 3,3 mg dosis </li>
-<li>3,8 ml til 3,0 mg dosis </li>
-</ul>
-<p>– 
-Kun til engangsbrug. Al ubrugt opløsning bør kasseres. Kun klar opløsning uden partikler og 
+<li>
+<p>3,8 ml til 3,0 mg dosis </p>
+</li>
+<li>
+<p>Kun til engangsbrug. Al ubrugt opløsning bør kasseres. Kun klar opløsning uden partikler og 
 misfarvning må bruges. Aseptiske teknikker skal anvendes under tilberedning af infusionen. </p>
+</li>
+</ul>
 <p>− 
 Ud fra et mikrobiologisk synspunkt skal den rekonstituerede og fortyndede opløsning til 
 infusion anvendes straks. Hvis den ikke anvendes straks, er opbevaringstid og -betingelser før 
-brug brugerens ansvar og bør normalt ikke overstige 24 timer ved 2 °C – 8 °C. Den afkølede 
+brug brugerens ansvar og bør normalt ikke overstige 24 timer ved 2 °C - 8 °C. Den afkølede 
 opløsning skal derefter tilpasses stuetemperatur før administration. </p>
 <p>− 
 Opløsningen indeholdende zoledronsyre indgives ved en enkelt intravenøs infusion over 
@@ -805,8 +786,6 @@ Description: "ePI document Bundle for zometa Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -829,8 +808,6 @@ Description: "ePI document Bundle for zometa Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -851,8 +828,8 @@ Usage: #example
 
 Instance: mp4e6edbbda0e498fd507a1a54a60c6d4b
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product zometa"
-Description: "zometa"
+Title: "Medicinal Product Zometa 4 mg powder and solvent for solution for infusion"
+Description: "Zometa 4 mg powder and solvent for solution for infusion"
 Usage: #inline
 
  
@@ -865,14 +842,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "-"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "zometa"
+  * productName = "Zometa 4 mg powder and solvent for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -892,10 +866,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

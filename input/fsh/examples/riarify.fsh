@@ -1452,8 +1452,6 @@ Description: "ePI document Bundle for riarify Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1476,8 +1474,6 @@ Description: "ePI document Bundle for riarify Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1498,8 +1494,8 @@ Usage: #example
 
 Instance: mp0ab8cf0cd2257bee1916fb1bd19c98b3
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product riarify"
-Description: "riarify"
+Title: "Medicinal Product Riarify 87 micrograms/5 micrograms/9 micrograms pressurised inhalation, solution"
+Description: "Riarify 87 micrograms/5 micrograms/9 micrograms pressurised inhalation, solution"
 Usage: #inline
 
  
@@ -1512,14 +1508,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Maintenance treatment in adult patients with moderate to severe chronic obstructive pulmonary"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "riarify"
+  * productName = "Riarify 87 micrograms/5 micrograms/9 micrograms pressurised inhalation, solution"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1539,10 +1532,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

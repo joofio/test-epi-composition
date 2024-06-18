@@ -531,7 +531,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på etiketten og kartonen efter EXP. Udløbsdatoen 
 er den sidste dag i den nævnte måned. </p>
 <p>Opbevares i den originale yderpakning for at beskytte mod lys. </p>
-<p>Opbevares i køleskab (2 °C – 8 °C). Må ikke nedfryses. 
+<p>Opbevares i køleskab (2 °C - 8 °C). Må ikke nedfryses. 
 Adtralza kan, om nødvendigt, opbevares ved stuetemperatur op til 25 °C i den originale yderpakning i 
 højst 14 dage. Må ikke opbevares ved temperaturer over 25 °C. Adtralza skal bortskaffes, hvis det ikke 
 anvendes inden for 14 dage ved opbevaring ved stuetemperatur. </p>
@@ -969,8 +969,6 @@ Description: "ePI document Bundle for adtralza Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -993,8 +991,6 @@ Description: "ePI document Bundle for adtralza Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1015,8 +1011,8 @@ Usage: #example
 
 Instance: mp5e5d8991119f1b6cc9a73ed8524ab6d3
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product adtralza"
-Description: "adtralza"
+Title: "Medicinal Product Adtralza 150 mg solution for injection in pre-filled syringe"
+Description: "Adtralza 150 mg solution for injection in pre-filled syringe"
 Usage: #inline
 
  
@@ -1029,14 +1025,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Adtralza is indicated for the treatment of moderate-to-severe atopic dermatitis in adult and adolescent"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "adtralza"
+  * productName = "Adtralza 150 mg solution for injection in pre-filled syringe"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1056,10 +1049,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

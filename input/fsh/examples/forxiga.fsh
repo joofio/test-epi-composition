@@ -1002,8 +1002,6 @@ Description: "ePI document Bundle for forxiga Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1026,8 +1024,6 @@ Description: "ePI document Bundle for forxiga Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1048,8 +1044,8 @@ Usage: #example
 
 Instance: mp5acfed2f2c9cf41e7e877414a9fe07a2
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product forxiga"
-Description: "forxiga"
+Title: "Medicinal Product Forxiga 5 mg film-coated tablets"
+Description: "Forxiga 5 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1062,14 +1058,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Type 2 diabetes mellitus"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "forxiga"
+  * productName = "Forxiga 5 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1089,10 +1082,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

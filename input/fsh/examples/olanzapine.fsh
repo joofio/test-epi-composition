@@ -895,8 +895,6 @@ Description: "ePI document Bundle for olanzapine Package Leaflet for language en
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -919,8 +917,6 @@ Description: "ePI document Bundle for olanzapine Package Leaflet for language da
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -941,8 +937,8 @@ Usage: #example
 
 Instance: mpbe86a7120b3e7e0f4ee2c7a69bc3ffec
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product olanzapine"
-Description: "olanzapine"
+Title: "Medicinal Product Olanzapine Teva 2.5 mg film-coated tablets"
+Description: "Olanzapine Teva 2.5 mg film-coated tablets"
 Usage: #inline
 
  
@@ -955,14 +951,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Adults"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "olanzapine"
+  * productName = "Olanzapine Teva 2.5 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -982,10 +975,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

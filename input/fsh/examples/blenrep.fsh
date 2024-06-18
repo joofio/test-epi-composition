@@ -687,7 +687,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. 
 Brug ikke lægemidlet efter den udløbsdato, der står på etiketten og kartonen efter EXP. Udløbsdatoen 
 er den sidste dag i den nævnte måned. 
-Opbevares i køleskab (2 °C – 8 °C). </p>
+Opbevares i køleskab (2 °C - 8 °C). </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
 smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
         
@@ -700,7 +700,7 @@ smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </d
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Blenrep indeholder: </p>
 <p>Aktivt stof: belantamab mafodotin. Et hætteglas med pulver indeholder 100 mg belantamab 
 mafodotin. Efter rekonstitution indeholder opløsningen 50 mg belantamab mafodotin pr. ml. </p>
-<p>Øvrige indholdsstoffer: natriumcitrat, citronsyre, trehalosedihydrat, dinatriumedetat og polysorbat (se punkt 2 ”Blenrep indeholder natrium”). </p>
+<p>Øvrige indholdsstoffer: natriumcitrat, citronsyre, trehalosedihydrat, dinatriumedetat og polysorbat (se punkt 2 "Blenrep indeholder natrium"). </p>
 <p>Udseende og pakningsstørrelser </p>
 <p>Blenrep er et hvidt til gult pulver i et hætteglas af glas med en gummiprop og et aftageligt plastiklåg. 
 Hver karton indeholder ét hætteglas. </p>
@@ -766,7 +766,7 @@ Tel.: + 48 (0)22 576 9France
 Laboratoire GlaxoSmithKline 
 Tél: + 33 (0)1 39 17 84 diam@gsk.com </p>
 <p>Portugal 
-GlaxoSmithKline – Produtos Farmacêuticos, Lda. 
+GlaxoSmithKline - Produtos Farmacêuticos, Lda. 
 Tel: + 351 21 412 95 FI.PT@gsk.com<br />
 Hrvatska 
 GlaxoSmithKline (Ireland) Limited 
@@ -853,10 +853,10 @@ og 2 mg/ml. MÅ IKKE OMRYSTES. </p>
 <p>Kassér eventuelt ubrugt rekonstitueret opløsning af Blenrep, som er tilbage i hætteglasset. </p>
 </li>
 </ol>
-<p>Hvis den fortyndede opløsning ikke bruges straks, kan den opbevares i køleskab (2 °C – 8 °C) i op 
+<p>Hvis den fortyndede opløsning ikke bruges straks, kan den opbevares i køleskab (2 °C - 8 °C) i op 
 til 24 timer inden administration. Hvis den fortyndede opløsning sættes i køleskab, skal den bringes 
 til stuetemperatur før administration. Den fortyndede opløsning kan opbevares ved stuetemperatur 
-(20 °C – 25 °C) i maksimalt 6 timer (inklusive infusionstid). </p>
+(20 °C - 25 °C) i maksimalt 6 timer (inklusive infusionstid). </p>
 <p>Administrationsanvisninger 
 1. Administrer den fortyndede opløsning via intravenøs infusion over minimum 30 minutter ved 
 anvendelse af et infusionssæt af polyvinylchlorid eller polyolefin. </p>
@@ -902,8 +902,6 @@ Description: "ePI document Bundle for blenrep Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -926,8 +924,6 @@ Description: "ePI document Bundle for blenrep Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -948,8 +944,8 @@ Usage: #example
 
 Instance: mpc2c1b230e761a81bed14b4231d2e7837
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product blenrep"
-Description: "blenrep"
+Title: "Medicinal Product BLENREP 100 mg powder for concentrate for solution for infusion"
+Description: "BLENREP 100 mg powder for concentrate for solution for infusion"
 Usage: #inline
 
  
@@ -962,14 +958,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "BLENREP is indicated as monotherapy for the treatment of multiple myeloma in adult patients, who"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "blenrep"
+  * productName = "BLENREP 100 mg powder for concentrate for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -989,10 +982,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -1249,8 +1249,6 @@ Description: "ePI document Bundle for evrysdi Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1273,8 +1271,6 @@ Description: "ePI document Bundle for evrysdi Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1295,8 +1291,8 @@ Usage: #example
 
 Instance: mpd74c016d307ba635374b9ac3d63d2f85
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product evrysdi"
-Description: "evrysdi"
+Title: "Medicinal Product Evrysdi 0.75 mg/mL powder for oral solution"
+Description: "Evrysdi 0.75 mg/mL powder for oral solution"
 Usage: #inline
 
  
@@ -1309,14 +1305,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Evrysdi is indicated for the treatment of 5q spinal muscular atrophy (SMA) in patients with a clinical"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "evrysdi"
+  * productName = "Evrysdi 0.75 mg/mL powder for oral solution"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1336,10 +1329,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

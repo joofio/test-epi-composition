@@ -1665,8 +1665,6 @@ Description: "ePI document Bundle for inhixa Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1689,8 +1687,6 @@ Description: "ePI document Bundle for inhixa Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1711,8 +1707,8 @@ Usage: #example
 
 Instance: mp79dc8b8b960a53a63fbf50f504aeec5f
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product inhixa"
-Description: "inhixa"
+Title: "Medicinal Product Inhixa 2,000 IU (20 mg)/0.2 mL solution for injection in pre-filled syringe"
+Description: "Inhixa 2,000 IU (20 mg)/0.2 mL solution for injection in pre-filled syringe"
 Usage: #inline
 
  
@@ -1725,14 +1721,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Inhixa is indicated in adults for:"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "inhixa"
+  * productName = "Inhixa 2,000 IU (20 mg)/0.2 mL solution for injection in pre-filled syringe"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1752,10 +1745,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -436,8 +436,8 @@ chok og vejrtrækningsproblemer.
 - hvis De har en leversygdom. 
 - hvis De har et overdrevent alkoholforbrug (enten hver dag eller fra tid til anden). 
 - Hvis du har dårligt kontrolleret diabetes, der eksempelvis er ledsaget af alvorlig hyperglykæmi 
-(højt blodsukker), kvalme, opkastning, diarré, hurtigt vægttab, laktatacidose (se afsnittet ”Risiko 
-for laktatacidose”) eller ketoacidose. Ketoacidose er en tilstand, hvor såkaldte ketonstoffer 
+(højt blodsukker), kvalme, opkastning, diarré, hurtigt vægttab, laktatacidose (se afsnittet "Risiko 
+for laktatacidose") eller ketoacidose. Ketoacidose er en tilstand, hvor såkaldte ketonstoffer 
 ophobes i blodet, hvilket kan føre til diabetisk prækoma. Symptomerne omfatter mavesmerter, 
 hurtig og dyb vejrtrækning og søvnighed, og din ånde kan få en usædvanlig frugtagtig lugt. 
 - hvis De har eller nogensinde har haft blærekræft. 
@@ -530,13 +530,13 @@ og angiotensin II-receptorantagonister) </li>
 </ul>
 <p>Brug af Competact sammen med alkohol 
 Du skal undgå at indtage store mængder alkohol, mens du er i behandling med Competact, da det kan 
-øge risikoen for laktatacidose (se afsnittet ” Risiko for laktatacidose ”). </p>
+øge risikoen for laktatacidose (se afsnittet " Risiko for laktatacidose "). </p>
 <p>Graviditet og amning 
 - Hvis De er gravid eller ammer, har mistanke om, at De er gravid, eller planlægger at blive 
 gravid, skal De fortælle det til Deres læge. Det anbefales ikke at tage Competact under 
 graviditet. Deres læge vil råde Dem til at stoppe med at tage denne medicin., hvis De ønsker at 
 blive gravid. 
-- Tag ikke Competact, hvis De ammer eller ønsker at amme (se afsnittet ”Tag ikke Competact”). </p>
+- Tag ikke Competact, hvis De ammer eller ønsker at amme (se afsnittet "Tag ikke Competact"). </p>
 <p>Trafik- og arbejdssikkerhed 
 Dette lægemiddel vil ikke påvirke Deres evne til at køre bil eller arbejde med maskiner. Vær forsigtig, 
 hvis De får synsforstyrrelser. </p>
@@ -568,7 +568,7 @@ Kontakt lægen, skadestuen eller apoteket, hvis De ved en fejltagelse har taget 
 hvis en anden eller et barn tager Deres medicin. Blodsukkeret kan falde til under det normale niveau, 
 men kan bringes til at stige igen ved indtagelse af sukker. Det anbefales, at De altid medbringer 
 sukkerknalder, slik, kiks eller sød frugtjuice. 
-Hvis De har taget for mange Competact, kan De få laktacidose (se afsnittet ”Risiko for laktatacidose”). </p>
+Hvis De har taget for mange Competact, kan De få laktacidose (se afsnittet "Risiko for laktatacidose"). </p>
 <p>Hvis De har glemt at tage Competact 
 Tag Competact dagligt som foreskrevet. Hvis De glemmer en dosis, skal De imidlertid springe den 
 glemte dosis over og bare fortsætte med den næste dosis som normalt. De må ikke tage en 
@@ -586,7 +586,7 @@ Competact, kan Deres blodsukker stige. Tal med lægen, før De stopper behandlin
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
 <p>Competact kan forårsage en meget sjælden (kan forekomme hos op til 1 ud af 10.000 brugere), men 
-meget alvorlig bivirkning, der kaldes laktatacidose (se afsnittet ”Risiko for laktatacidose”). Hvis dette 
+meget alvorlig bivirkning, der kaldes laktatacidose (se afsnittet "Risiko for laktatacidose"). Hvis dette 
 sker for dig, skal du omgående stoppe med at tage Competact og kontakte læge eller nærmeste 
 hospital, da laktatacidose kan føre til koma. </p>
 <p>Blærekræft forekommer med hyppigheden "ikke almindelig" (kan ramme op til 1 ud af 
@@ -695,8 +695,6 @@ Description: "ePI document Bundle for competact Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -719,8 +717,6 @@ Description: "ePI document Bundle for competact Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -741,8 +737,8 @@ Usage: #example
 
 Instance: mp6717e3b12c817674be9c520895f4090e
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product competact"
-Description: "competact"
+Title: "Medicinal Product Competact 15 mg/850 mg film-coated tablets"
+Description: "Competact 15 mg/850 mg film-coated tablets"
 Usage: #inline
 
  
@@ -755,14 +751,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Competact is indicated as second line treatment of type 2 diabetes mellitus adult patients, particularly"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "competact"
+  * productName = "Competact 15 mg/850 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -782,10 +775,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

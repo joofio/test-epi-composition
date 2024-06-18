@@ -944,7 +944,7 @@ levofloxacin, dopamin, heparin og lidokain.
 Den samlede opbevaringstid (rekonstitueret opløsning i hætteglas og fortyndet opløsning i 
 infusionspose) ved 25°C må ikke overstige 12 timer (24 timer ved opbevaring i køleskab).
 Stabilitet af den fortyndede opløsning i infusionspose er fastsat til 12 timer ved 25°C eller 24 timer 
-ved opbevaring i køleskab ved 2°C–8°C.
+ved opbevaring i køleskab ved 2°C-8°C.
 Daptomycin Hospira givet som 2 minutters intravenøs injektion (kun til voksne patienter)
 Vand må ikke anvendes til rekonstitution af Daptomycin Hospira til intravenøs injektion. Daptomycin 
 Hospira må kun rekonstitueres med natriumchloridopløsning 9 mg/ml (0,9%) til parenteral anvendelse.
@@ -984,10 +984,10 @@ vender på hovedet.
 45
 9. Den rekonstituerede opløsning skal herefter injiceres intravenøst og langsomt over 2 minutter.
 Der er påvist kemisk og fysisk stabilitet under brug af den rekonstituerede opløsning i hætteglas i 
-12 timer ved 25°C og i op til 48 timer ved opbevaring i køleskab (2°C–8°C).
+12 timer ved 25°C og i op til 48 timer ved opbevaring i køleskab (2°C-8°C).
 Ud fra et mikrobiologisk synspunkt bør produktet dog anvendes straks. Anvendes opløsningen ikke 
 straks, har brugeren ansvar for opbevaringsbetingelser og holdbarhed, som normalt kun er 24 timer 
-ved 2°C–8°C, medmindre rekonstitution/fortynding har fundet sted under kontrollerede og validerede 
+ved 2°C-8°C, medmindre rekonstitution/fortynding har fundet sted under kontrollerede og validerede 
 aseptiske forhold.
 Dette lægemiddel må ikke blandes med andre lægemidler end dem, der er anført ovenfor.
 Hætteglas med Daptomycin Hospira er kun beregnet til engangsbrug. Enhver ubrugt rest i hætteglasset 
@@ -1021,8 +1021,6 @@ Description: "ePI document Bundle for daptomycin Package Leaflet for language en
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1045,8 +1043,6 @@ Description: "ePI document Bundle for daptomycin Package Leaflet for language da
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1067,8 +1063,8 @@ Usage: #example
 
 Instance: mp08bd32995710017e5d1be3af6c537328
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product daptomycin"
-Description: "daptomycin"
+Title: "Medicinal Product Daptomycin Hospira 350 mg powder for solution for injection/infusion"
+Description: "Daptomycin Hospira 350 mg powder for solution for injection/infusion"
 Usage: #inline
 
  
@@ -1081,14 +1077,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Daptomycin is indicated for the treatment of the following infections (see sections 4.4 and 5.1)."
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "daptomycin"
+  * productName = "Daptomycin Hospira 350 mg powder for solution for injection/infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1108,10 +1101,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

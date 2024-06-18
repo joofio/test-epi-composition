@@ -835,8 +835,6 @@ Description: "ePI document Bundle for zolsketil Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -859,8 +857,6 @@ Description: "ePI document Bundle for zolsketil Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -881,8 +877,8 @@ Usage: #example
 
 Instance: mp55a0c3e4e0760943cb20f19d7e8a0dd1
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product zolsketil"
-Description: "zolsketil"
+Title: "Medicinal Product ZOLSKETIL pegylated liposomal 2 mg/mL concentrate for dispersion for infusion"
+Description: "ZOLSKETIL pegylated liposomal 2 mg/mL concentrate for dispersion for infusion"
 Usage: #inline
 
  
@@ -895,14 +891,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "ZOLSKETIL pegylated liposomal is indicated:"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "zolsketil"
+  * productName = "ZOLSKETIL pegylated liposomal 2 mg/mL concentrate for dispersion for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -922,10 +915,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

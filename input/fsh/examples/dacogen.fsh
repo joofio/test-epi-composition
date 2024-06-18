@@ -408,7 +408,7 @@ Usage: #inline
   * code.text =  "1. What dacogen is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Sådan virker Dacogen
-Dacogen er et lægemiddel til behandling af kræft. Det indeholder det aktive stof ”decitabin”.
+Dacogen er et lægemiddel til behandling af kræft. Det indeholder det aktive stof "decitabin".
 Hvad Dacogen anvendes til
 Dacogen anvendes til behandling af en kræftform, der kaldes akut myeloid leukæmi eller AML. Denne 
 form for kræft påvirker dine blodlegemer. Du vil få Dacogen, når du har fået stillet diagnosen AML. 
@@ -448,8 +448,8 @@ har en alvorlig nyresygdom,
 har en hjertesygdom.
 Spørg lægen, apotekspersonalet eller sygeplejersken, før du får Dacogen, hvis du er usikker på, om 
 noget af dette passer på dig.
-Dacogen kan forårsage en alvorlig immunreaktion, som kaldes ”differentieringssyndrom” (se afsnit 4 
-”Bivirkninger”).
+Dacogen kan forårsage en alvorlig immunreaktion, som kaldes "differentieringssyndrom" (se afsnit 4 
+"Bivirkninger").
 Prøver og kontroller
 Før du begynder på behandling med Dacogen og ved starten på hver cyklus, skal du have udført en 
 række blodprøver. Disse blodprøver er for at kontrollere:
@@ -496,7 +496,7 @@ Dacogen indeholder kalium og natrium
 
 Dette lægemiddel indeholder 0,5 mmol kalium i hvert hætteglas. Efter klargøring af lægemidlet 
 indeholder det mindre end 1 mmol (39 mg) kalium pr. dosis, dvs. det kan anses som værende
-”kaliumfrit”.
+"kaliumfrit".
 
 Dette lægemiddel indeholder 0,29 mmol (6,67 mg) natrium (hovedkomponent af madlavnings-
 /bordsalt) i hvert hætteglas. Efter klargøring af lægemidlet indeholder det mellem 13,8 mg og 
@@ -604,7 +604,7 @@ blodinfektion, der skyldes bakterier. Det kan være tegn på et lavt antal hvide
 
 sår i munden eller på tungen
 
-forhøjet indhold af ”bilirubin” i blodet.
+forhøjet indhold af "bilirubin" i blodet.
 Ikke almindelige (kan berøre op til 1 ud af 100 personer)
 
 et fald i antallet af røde og hvide blodlegemer samt blodplader (pancytopeni)
@@ -612,7 +612,7 @@ et fald i antallet af røde og hvide blodlegemer samt blodplader (pancytopeni)
 sygdom i hjertemusklen
 
 røde, hævede, smertefulde plamager på huden, feber, et øget antal hvide blodlegemer - det kan 
-være tegn på ”akut febril neutrofil dermatose” eller ”Sweets syndrom”.
+være tegn på "akut febril neutrofil dermatose" eller "Sweets syndrom".
 Ikke kendte (kan ikke estimeres ud fra forhåndenværende data)
 
 tarmbetændelse (enterocolitis, colitis og caecitis) med symptomer som mavesmerter, 
@@ -641,8 +641,8 @@ EXP. Udløbsdatoen er den sidste dag i den nævnte måned.
 Må ikke opbevares ved temperaturer over 25 °C.
 
 Efter opløsning skal koncentratet fortyndes yderligere inden for 15 minutter ved brug af kold 
-infusionsvæske. Den fremstillede, fortyndede opløsning kan opbevares i køleskab (2 °C – 8 °C) 
-i op til maksimalt 3 timer efterfulgt af op til 1 time ved stuetemperatur (20 °C – 25 °C) før 
+infusionsvæske. Den fremstillede, fortyndede opløsning kan opbevares i køleskab (2 °C - 8 °C) 
+i op til maksimalt 3 timer efterfulgt af op til 1 time ved stuetemperatur (20 °C - 25 °C) før 
 anvendelse.
 
 Din læge, apotekspersonalet eller sygeplejersken er ansvarlige for at bortskaffe ikke anvendt 
@@ -683,7 +683,7 @@ Lietuva
 UAB "JOHNSON &amp; JOHNSON"
 Tel: +370 5 278 68 88
 България
-„Джонсън &amp; Джонсън България” ЕООД
+„Джонсън &amp; Джонсън България" ЕООД
 Тел.: +359 2 489 94 00
 Luxembourg/Luxemburg
 Janssen-Cilag NV
@@ -801,8 +801,6 @@ Description: "ePI document Bundle for dacogen Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -825,8 +823,6 @@ Description: "ePI document Bundle for dacogen Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -847,8 +843,8 @@ Usage: #example
 
 Instance: mp2375351779f4cfe48aee447608551b6c
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product dacogen"
-Description: "dacogen"
+Title: "Medicinal Product Dacogen 50 mg powder for concentrate for solution for infusion."
+Description: "Dacogen 50 mg powder for concentrate for solution for infusion."
 Usage: #inline
 
  
@@ -861,14 +857,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Dacogen is indicated for the treatment of adult patients with newly diagnosed de novo or secondary"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "dacogen"
+  * productName = "Dacogen 50 mg powder for concentrate for solution for infusion."
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -888,10 +881,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

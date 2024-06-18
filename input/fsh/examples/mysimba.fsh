@@ -1244,8 +1244,6 @@ Description: "ePI document Bundle for mysimba Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1268,8 +1266,6 @@ Description: "ePI document Bundle for mysimba Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1290,8 +1286,8 @@ Usage: #example
 
 Instance: mp884e29a6cd7c9a1e73fd7a991d441624
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product mysimba"
-Description: "mysimba"
+Title: "Medicinal Product Mysimba 8 mg/90 mg prolonged-release tablets"
+Description: "Mysimba 8 mg/90 mg prolonged-release tablets"
 Usage: #inline
 
  
@@ -1304,14 +1300,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Mysimba is indicated, as an adjunct to a reduced-calorie diet and increased physical activity, for the"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "mysimba"
+  * productName = "Mysimba 8 mg/90 mg prolonged-release tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1331,10 +1324,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

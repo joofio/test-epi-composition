@@ -596,7 +596,7 @@ Tel: +48 22 246 06 PL0-Recepcja@ferring.com </p>
 Ferring S.A.S. 
 Tél: +33 1 49 08  67 information.medicale@ferring.com 
 Portugal 
-Ferring Portuguesa – Produtos 
+Ferring Portuguesa - Produtos 
 Farmacêuticos, Sociedade Unipessoal, Lda. 
 Tel: +351 21 940 51<br />
 Hrvatska 
@@ -673,8 +673,6 @@ Description: "ePI document Bundle for tractocile Package Leaflet for language en
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -697,8 +695,6 @@ Description: "ePI document Bundle for tractocile Package Leaflet for language da
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -719,8 +715,8 @@ Usage: #example
 
 Instance: mpdc08afd9c59a04fa9fdda149a83f92c4
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product tractocile"
-Description: "tractocile"
+Title: "Medicinal Product Tractocile 6.75 mg/0.9 ml solution for injection"
+Description: "Tractocile 6.75 mg/0.9 ml solution for injection"
 Usage: #inline
 
  
@@ -733,14 +729,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Tractocile is indicated to delay imminent pre-term birth in pregnant adult women with:"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "tractocile"
+  * productName = "Tractocile 6.75 mg/0.9 ml solution for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -760,10 +753,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

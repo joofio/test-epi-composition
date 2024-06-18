@@ -2139,8 +2139,6 @@ Description: "ePI document Bundle for evra Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -2163,8 +2161,6 @@ Description: "ePI document Bundle for evra Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -2185,8 +2181,8 @@ Usage: #example
 
 Instance: mp9d34314ad8d36a42a39a37ea1d4e2b34
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product evra"
-Description: "evra"
+Title: "Medicinal Product EVRA 203 micrograms/24 hours + 33.9 micrograms/24 hours transdermal patch"
+Description: "EVRA 203 micrograms/24 hours + 33.9 micrograms/24 hours transdermal patch"
 Usage: #inline
 
  
@@ -2199,14 +2195,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Female contraception"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "evra"
+  * productName = "EVRA 203 micrograms/24 hours + 33.9 micrograms/24 hours transdermal patch"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -2226,10 +2219,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

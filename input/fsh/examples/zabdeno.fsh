@@ -563,7 +563,7 @@ Du kan også få Ebola fra ting, der har været i kontakt med blod eller kropsv�
 eller et dyr med Ebola (såsom tøj eller genstande i direkte kontakt)
 
 Ebola spredes ikke via luft, vand eller mad.
-Ebola-virussygdom giver som regel høj feber – og kan gøre, at blodet ikke kan størkne med svær 
+Ebola-virussygdom giver som regel høj feber - og kan gøre, at blodet ikke kan størkne med svær 
 blødning til følge ("svær hæmoragisk feber"). Dette kan føre til alvorlig sygdom, og i nogle tilfælde 
 død.
 
@@ -613,7 +613,7 @@ pt. har feber eller en infektion
 tager lægemidler, der svækker immunsystemet, såsom binyrebarkhormoner i høj dosis (såsom 
 prednison) eller kemoterapi (lægemidler mod kræft)
 
-har et svagt immunsystem – for eksempel på grund af hiv-infektion eller en arvelig sygdom 
+har et svagt immunsystem - for eksempel på grund af hiv-infektion eller en arvelig sygdom 
 (‘genetisk sygdom’).
 Tal med lægen, apotekspersonalet eller sygeplejersken, hvis noget af ovenstående gælder for dig eller 
 dit barn (eller hvis du er i tvivl), før du eller dit barn får Zabdeno.
@@ -693,9 +693,9 @@ Din læge oplyser dig om datoen for den anden vaccine.
 Mængden af vaccine du eller dit barn vil få
 Primær vaccination
 
-Første vaccination med Zabdeno – hætteglas med rødt låg (0,5 ml)
+Første vaccination med Zabdeno - hætteglas med rødt låg (0,5 ml)
 
-Anden vaccination med Mvabea – hætteglas med gult låg (0,5 ml), som gives cirka 8 uger 
+Anden vaccination med Mvabea - hætteglas med gult låg (0,5 ml), som gives cirka 8 uger 
 efter den første vaccination med Zabdeno.
 Boostervaccination med Zabdeno (en ekstra dosis af Zabdeno for at forstærke eller forny 
 virkningen af et tidligere 2-dosis-vaccinationsforløb med Zabdeno og Mvabea)
@@ -707,7 +707,7 @@ med Ebola-virussen og har gennemført 2-dosis-vaccinationsforløbet for mere end
 Spørg lægen, om du eller dit barn bør overveje at få boostervaccinationen.
 Under og efter injektion af vaccinen vil lægen holde dig eller dit barn under opsyn i cirka 15 minutter 
 eller længere efter behov, i tilfælde af en svær allergisk reaktion.
-Vejledning i klargøring af vaccinen – til læger og sundhedspersonale – findes sidst i indlægssedlen.
+Vejledning i klargøring af vaccinen - til læger og sundhedspersonale - findes sidst i indlægssedlen.
 Hvis du utilsigtet eller ved en fejl får en injektion med Zabdeno eller Mvabea
 
 Hvis du eller dit barn ved en fejl får Mvabea som den første vaccination: får du eller dit barn 
@@ -1064,8 +1064,6 @@ Description: "ePI document Bundle for zabdeno Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1088,8 +1086,6 @@ Description: "ePI document Bundle for zabdeno Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1110,8 +1106,8 @@ Usage: #example
 
 Instance: mp0160c517e5757b2fb34b6990780c0bb4
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product zabdeno"
-Description: "zabdeno"
+Title: "Medicinal Product Zabdeno suspension for injection"
+Description: "Zabdeno suspension for injection"
 Usage: #inline
 
  
@@ -1124,14 +1120,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Zabdeno, as part of the Zabdeno, Mvabea vaccine regimen, is indicated for active immunisation for"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "zabdeno"
+  * productName = "Zabdeno suspension for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1151,10 +1144,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

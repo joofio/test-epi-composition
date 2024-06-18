@@ -575,8 +575,8 @@ Før ikke motorkøretøj og betjen ikke værktøj eller maskiner, hvis du føler
 behandling med Celdoxome pegylated liposomal. </p>
 <p>Celdoxome pegylated liposomal indeholder sojaolie og natrium 
 Celdoxome pegylated liposomal indeholder sojaolie. Du må ikke bruge Celdoxome pegylated 
-liposomal, hvis du er overfølsom over for jordnødder eller soja. Se ”Brug ikke Celdoxome pegylated 
-liposomal”. 
+liposomal, hvis du er overfølsom over for jordnødder eller soja. Se "Brug ikke Celdoxome pegylated 
+liposomal". 
 Celdoxome pegylated liposomal indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i 
 det væsentlige natriumfrit. </p>         </div>"""   
                     
@@ -787,7 +787,7 @@ læser eller hører radio). </li>
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på etiketten og æsken efter EXP. </p>
 <p>Uåbnet hætteglas </p>
-<p>Opbevares i køleskab (2 °C – 8 °C). Må ikke nedfryses. </p>
+<p>Opbevares i køleskab (2 °C - 8 °C). Må ikke nedfryses. </p>
 <p>Efter fortynding </p>
 <p>Kemisk og fysisk holdbarhed under brug er påvist til 24 timer ved 2 °C - 8 °C. </p>
 <p>Fra et mikrobiologisk synspunkt skal præparatet anvendes straks. Hvis det ikke anvendes straks, er 
@@ -811,7 +811,7 @@ doxorubicinhydrochlorid i en pegyleret liposomal formulering. </li>
 glycero-3-phosphoethanolamin natriumsalt (MPEG-DSPE), fosfatidylcholin, hydrogeneret 
 (sojabønne) (HSPC), cholest-5-en-3β-ol, ammoniumsulfat, saccharose, histidin, vand til 
 injektionsvæsker, saltsyre (til justering af pH) og natriumhydroxid (til justering af pH). Se 
-punkt 2 ”Celdoxome pegylated liposomal indeholder sojaolie og natrium”. </li>
+punkt 2 "Celdoxome pegylated liposomal indeholder sojaolie og natrium". </li>
 </ul>
 <p>Udseende og pakningsstørrelser 
 Koncentratet til infusionsvæske, dispersion er sterilt, gennemsigtigt og rødt med en pH på 6,5. Celdoxome pegylated liposomal fås som hætteglas med 10 ml (20 mg) eller 25 ml (50 mg). </p>
@@ -876,8 +876,6 @@ Description: "ePI document Bundle for celdoxome Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -900,8 +898,6 @@ Description: "ePI document Bundle for celdoxome Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -922,8 +918,8 @@ Usage: #example
 
 Instance: mp0decee85458f6211fcf0121c6b6f6c83
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product celdoxome"
-Description: "celdoxome"
+Title: "Medicinal Product Celdoxome pegylated liposomal 2 mg/mL concentrate for dispersion for infusion"
+Description: "Celdoxome pegylated liposomal 2 mg/mL concentrate for dispersion for infusion"
 Usage: #inline
 
  
@@ -936,14 +932,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Celdoxome pegylated liposomal is indicated in adults:"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "celdoxome"
+  * productName = "Celdoxome pegylated liposomal 2 mg/mL concentrate for dispersion for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -963,10 +956,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -357,22 +357,21 @@ blodet. </p>         </div>"""
   * code.text = "2. What you need to know before you take velphoro"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Velphoro </p>
-<p>– 
-hvis du er allergisk over for sucroferrioxyhydroxid eller et af de øvrige indholdsstoffer i dette 
-lægemiddel (angivet i punkt 6); 
-– 
-hvis du tidligere har haft unormal ophobning af jern i kroppens organer (hæmokromatose); 
-– 
-hvis du har andre sygdomme, der skyldes for meget jern. </p>
+<ul>
+<li>hvis du er allergisk over for sucroferrioxyhydroxid eller et af de øvrige indholdsstoffer i dette 
+lægemiddel (angivet i punkt 6); </li>
+<li>hvis du tidligere har haft unormal ophobning af jern i kroppens organer (hæmokromatose); </li>
+<li>hvis du har andre sygdomme, der skyldes for meget jern. </li>
+</ul>
 <p>Hvis du er i tvivl, skal du kontakte din læge, inden du tager dette lægemiddel. </p>
 <p>Advarsler og forsigtighedsregler 
 Kontakt lægen eller apotekspersonalet, før du tager Velphoro: 
-– 
+- 
 hvis du har haft bughindebetændelse (betændelse i det tynde væv, der ligger som en hinde på 
 den indvendige side af bugvæggen) inden for de sidste 3 måneder; 
-– 
+- 
 hvis du har alvorlige sygdomme i maven og/eller leveren; 
-– 
+- 
 hvis du er blevet opereret i maven og/eller tarmene. </p>
 <p>Hvis du er i tvivl, om det ovenstående gælder for dig, skal du kontakte din læge eller 
 apotekspersonalet, før du tager dette lægemiddel. </p>
@@ -443,24 +442,19 @@ til børn og unge på 9 til 18 år og voksne er 3.000 mg jern (6 tabletter) dagl
 </li>
 </ul>
 <p>Indtagelse </p>
-<p>– 
-Dette lægemiddel må kun indtages gennem munden. 
-– 
-Tag tabletten i forbindelse med et måltid, og tyg den (tabletten kan om nødvendigt knuses, hvis 
-det gør det nemmere). Den MÅ IKKE sluges hel. 
-– 
-Fordel antallet af tabletter, der tages dagligt, mellem dagens måltider. 
-– 
-Når du tager Velphoro, skal du følge den anbefalede kostplan og de behandlinger, der er 
+<ul>
+<li>Dette lægemiddel må kun indtages gennem munden. </li>
+<li>Tag tabletten i forbindelse med et måltid, og tyg den (tabletten kan om nødvendigt knuses, hvis 
+det gør det nemmere). Den MÅ IKKE sluges hel. </li>
+<li>Fordel antallet af tabletter, der tages dagligt, mellem dagens måltider. </li>
+<li>Når du tager Velphoro, skal du følge den anbefalede kostplan og de behandlinger, der er 
 ordineret af din læge, såsom calciumtilskud, D3-vitamin eller calcimimetika (bruges til 
-behandling af problemer med biskjoldbruskkirtlerne). </p>
-<p>Gælder kun blisterkort: 
-– 
-Adskil blisterkortet ved perforeringerne. 
-– 
-Træk papirfolien i hjørnet tilbage. 
-– 
-Tryk tabletten ud gennem aluminiumfolien. </p>
+behandling af problemer med biskjoldbruskkirtlerne). </li>
+</ul>
+<h2>Gælder kun blisterkort:</h2>
+<h2>Adskil blisterkortet ved perforeringerne.</h2>
+<h2>Træk papirfolien i hjørnet tilbage.</h2>
+<p>Tryk tabletten ud gennem aluminiumfolien. </p>
 <p>Hvis du har taget for meget Velphoro 
 Hvis du ved en fejl kommer til at tage for mange tabletter, må du ikke tage flere, og du skal 
 øjeblikkeligt kontakte din læge eller apotekspersonalet. </p>
@@ -517,14 +511,14 @@ smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </d
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Velphoro indeholder: </p>
-<p>– 
-Aktivt stof: sucroferrioxyhydroxid, der består af polynukleært jern(III)-oxyhydroxid, saccharose 
+<ul>
+<li>Aktivt stof: sucroferrioxyhydroxid, der består af polynukleært jern(III)-oxyhydroxid, saccharose 
 og stivelse. Hver tyggetablet indeholder sucroferrioxyhydroxid svarende til 500 mg jern. Hver 
 tablet indeholder også 750 mg saccharose og 700 mg stivelse. Se punkt 2 for at få mere 
-information om saccharose og stivelse. 
-– 
-Øvrige indholdsstoffer: skovbærsmag, neohesperidin-dihydrochalcon, magnesiumstearat, 
-kolloid, vandfri silica. </p>
+information om saccharose og stivelse. </li>
+<li>Øvrige indholdsstoffer: skovbærsmag, neohesperidin-dihydrochalcon, magnesiumstearat, 
+kolloid, vandfri silica. </li>
+</ul>
 <p>Udseende og pakningsstørrelser </p>
 <p>Tyggetabletterne er brune, runde tabletter præget med PA500 på den ene side. Tabletterne har en 
 diameter på 20 mm og en tykkelse på 6,5 mm. </p>
@@ -535,13 +529,13 @@ multipakker (3 enkeltpakker med 30 × 1 tyggetabletter). </p>
 <p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
 <p>Indehaver af markedsføringstilladelsen 
 Vifor Fresenius Medical Care Renal Pharma France 
-100–101 Terrasse Boieldieu 
+100-101 Terrasse Boieldieu 
 Tour Franklin La Défense 8 
 92042 Paris la Défense Cedex 
 Frankrig </p>
 <p>Fremstiller 
 Vifor France 
-100–101 Terrasse Boieldieu 
+100-101 Terrasse Boieldieu 
 Tour Franklin La Défense 8 
 92042 Paris la Défense Cedex 
 Frankrig </p>
@@ -555,14 +549,14 @@ Indlægsseddel: Information til brugeren </p>
 jern i form af sucroferrioxyhydroxid </p>
 <p>Læs denne indlægsseddel grundigt, inden du begynder at tage dette lægemiddel, da den 
 indeholder vigtige oplysninger. 
-– 
+- 
 Gem indlægssedlen. Du kan få brug for at læse den igen. 
-– 
+- 
 Spørg lægen eller apotekspersonalet, hvis der er mere, du vil vide. 
-– 
+- 
 Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
-– 
+- 
 Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som ikke 
 er nævnt i denne indlægsseddel. Se punkt 4. </p>         </div>"""      
 
@@ -576,8 +570,6 @@ InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for velphoro Package Leaflet for language en"
 Description: "ePI document Bundle for velphoro Package Leaflet for language en"
 Usage: #example
-
-
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
@@ -602,8 +594,6 @@ Description: "ePI document Bundle for velphoro Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -624,8 +614,8 @@ Usage: #example
 
 Instance: mp655cd017d0250a5b169d71fd018fd71c
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product velphoro"
-Description: "velphoro"
+Title: "Medicinal Product Velphoro 500 mg chewable tablets"
+Description: "Velphoro 500 mg chewable tablets"
 Usage: #inline
 
  
@@ -638,14 +628,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Velphoro is indicated for the control of serum phosphorus levels in adult chronic kidney disease"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "velphoro"
+  * productName = "Velphoro 500 mg chewable tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -665,10 +652,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

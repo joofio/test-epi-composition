@@ -1096,8 +1096,6 @@ Description: "ePI document Bundle for yescarta Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1120,8 +1118,6 @@ Description: "ePI document Bundle for yescarta Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1142,8 +1138,8 @@ Usage: #example
 
 Instance: mp5b44b92baabcf0684d3d21b26b5583ec
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product yescarta"
-Description: "yescarta"
+Title: "Medicinal Product Yescarta 0.4 – 2 × 108 cells dispersion for infusion"
+Description: "Yescarta 0.4 – 2 × 108 cells dispersion for infusion"
 Usage: #inline
 
  
@@ -1156,14 +1152,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Yescarta is indicated for the treatment of adult patients with diffuse large B-cell lymphoma (DLBCL)"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "yescarta"
+  * productName = "Yescarta 0.4 – 2 × 108 cells dispersion for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1183,10 +1176,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -676,8 +676,6 @@ Description: "ePI document Bundle for parsabiv Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -700,8 +698,6 @@ Description: "ePI document Bundle for parsabiv Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -722,8 +718,8 @@ Usage: #example
 
 Instance: mp25b49674d9d703c70f7cbc179ed1a337
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product parsabiv"
-Description: "parsabiv"
+Title: "Medicinal Product Parsabiv 2.5 mg solution for injection"
+Description: "Parsabiv 2.5 mg solution for injection"
 Usage: #inline
 
  
@@ -736,14 +732,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Parsabiv is indicated for the treatment of secondary hyperparathyroidism (SHPT) in adult patients with"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "parsabiv"
+  * productName = "Parsabiv 2.5 mg solution for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -763,10 +756,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

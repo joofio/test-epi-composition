@@ -1072,8 +1072,6 @@ Description: "ePI document Bundle for besponsa Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1096,8 +1094,6 @@ Description: "ePI document Bundle for besponsa Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1118,8 +1114,8 @@ Usage: #example
 
 Instance: mp74d9353bd9b4c9e405e398e02bc5f8ef
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product besponsa"
-Description: "besponsa"
+Title: "Medicinal Product BESPONSA 1 mg powder for concentrate for solution for infusion"
+Description: "BESPONSA 1 mg powder for concentrate for solution for infusion"
 Usage: #inline
 
  
@@ -1132,14 +1128,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "BESPONSA is indicated as monotherapy for the treatment of adults with relapsed or refractory"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "besponsa"
+  * productName = "BESPONSA 1 mg powder for concentrate for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1159,10 +1152,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

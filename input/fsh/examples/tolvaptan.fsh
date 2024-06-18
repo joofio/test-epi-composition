@@ -742,8 +742,6 @@ Description: "ePI document Bundle for tolvaptan Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -766,8 +764,6 @@ Description: "ePI document Bundle for tolvaptan Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -788,8 +784,8 @@ Usage: #example
 
 Instance: mp2fe9007bb20986bb15e710aca341907a
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product tolvaptan"
-Description: "tolvaptan"
+Title: "Medicinal Product Tolvaptan Accord 7.5 mg tablets"
+Description: "Tolvaptan Accord 7.5 mg tablets"
 Usage: #inline
 
  
@@ -802,14 +798,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Tolvaptan is indicated in adults for the treatment of hyponatremia secondary to the syndrome of"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "tolvaptan"
+  * productName = "Tolvaptan Accord 7.5 mg tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -829,10 +822,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -543,7 +543,7 @@ vedrørende prævention. </p>
 <p>Lægen vil tale med dig og give dig skriftlig information, især om mycophenolats virkninger på 
 fosteret. Læs informationen grundigt og følg vejledningen. Hvis du ikke helt forstår informationen, 
 skal du bede lægen om at forklare den igen, før du tager mycophenolat. Se også yderligere information 
-i dette afsnit under ”Advarsler og forsigtighedsregler” og ”Graviditet, prævention og amning”. </p>
+i dette afsnit under "Advarsler og forsigtighedsregler" og "Graviditet, prævention og amning". </p>
 <p>Tag ikke CellCept: </p>
 <ul>
 <li>
@@ -558,7 +558,7 @@ har fået den første recept, eftersom mycophenolat forårsager medfødte misdan
 <p>hvis du er gravid eller planlægger at blive gravid eller tror, at du kan være gravid. </p>
 </li>
 <li>
-<p>hvis du ikke anvender effektiv prævention (se ”Graviditet, prævention og amning”). </p>
+<p>hvis du ikke anvender effektiv prævention (se "Graviditet, prævention og amning"). </p>
 </li>
 <li>
 <p>hvis du ammer. </p>
@@ -621,22 +621,22 @@ tage CellCept: </p>
 <p>colestyramin - bruges til behandling af forhøjet kolesterol. </p>
 </li>
 <li>
-<p>rifampicin – et antibiotikum, som bruges til forebyggelse og behandling af infektioner såsom 
+<p>rifampicin - et antibiotikum, som bruges til forebyggelse og behandling af infektioner såsom 
 tuberkulose (TB). </p>
 </li>
 <li>
-<p>syreneutraliserende midler eller protonpumpehæmmere – bruges mod for meget mavesyre, f.eks. ved 
+<p>syreneutraliserende midler eller protonpumpehæmmere - bruges mod for meget mavesyre, f.eks. ved 
 fordøjelsesbesvær. </p>
 </li>
 <li>
 <p>fosfatbindere - bruges til mennesker med kronisk nyresvigt for at reducere absorptionen af fosfat til 
 blodet. 
 •   <br />
-antibiotika – bruges til behandling af bakterielle infektioner. 
+antibiotika - bruges til behandling af bakterielle infektioner. 
 •   <br />
-isavuconazol – bruges til behandling af svampeinfektioner. 
+isavuconazol - bruges til behandling af svampeinfektioner. 
 •   <br />
-telmisartan – bruges til behandling af forhøjet blodtryk. </p>
+telmisartan - bruges til behandling af forhøjet blodtryk. </p>
 </li>
 </ul>
 <p>Vacciner 
@@ -768,7 +768,7 @@ transplanterede organ. </p>
 </li>
 <li>
 <p>Lægen vil beregne den mest hensigtsmæssige dosis ud fra barnets højde og vægt 
-(legemsoverfladeareal – målt som kvadratmeter eller ”m2”). Den anbefalede dosis er 
+(legemsoverfladeareal - målt som kvadratmeter eller "m2"). Den anbefalede dosis er 
 600 mg/m2 to gange daglig. </p>
 </li>
 </ul>
@@ -847,7 +847,7 @@ kan du øge risikoen for afstødning af det transplanterede organ. </p>
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.  </p>
 <p>Tal med en læge med det samme, hvis du bemærker nogen af nedenstående alvorlige 
-bivirkninger – du kan have brug for øjeblikkelig lægehjælp: </p>
+bivirkninger - du kan have brug for øjeblikkelig lægehjælp: </p>
 <ul>
 <li>
 <p>du har tegn på infektion, såsom feber eller ondt i halsen. </p>
@@ -856,7 +856,7 @@ bivirkninger – du kan have brug for øjeblikkelig lægehjælp: </p>
 <p>du uden grund får blå mærker eller bløder. </p>
 </li>
 <li>
-<p>du får udslæt, opsvulmning af ansigtet, læber, tunge eller hals med åndedrætsbesvær – der kan 
+<p>du får udslæt, opsvulmning af ansigtet, læber, tunge eller hals med åndedrætsbesvær - der kan 
 være tale om en alvorlig allergisk reaktion over for medicinen (såsom anafylaksi, angioødem).  </p>
 </li>
 </ul>
@@ -1000,8 +1000,8 @@ titandioxid (E171), sort jernoxid (E172), kaliumhydroxid, shellac </p>
 </li>
 </ul>
 <p>Udseende og pakningsstørrelser 
-- CellCept kapsler er aflange og blå i den ene ende og brun i den anden. ”CellCept 250” er printet 
-i sort på kapselhovedet, og ”Roche” er printet i sort på kapselkroppen. 
+- CellCept kapsler er aflange og blå i den ene ende og brun i den anden. "CellCept 250" er printet 
+i sort på kapselhovedet, og "Roche" er printet i sort på kapselkroppen. 
 - De findes i pakninger med 100 eller 300 kapsler (begge i blisterkort med 10 stk.) eller som en 
 multipakning bestående af 300 (3 pakker med 100) kapsler. Ikke alle pakningsstørrelser er 
 nødvendigvis markedsført. </p>
@@ -1018,7 +1018,7 @@ repræsentant for indehaveren af markedsføringstilladelsen: </p>
 N.V. Roche S.A. 
 Tél/Tel: +32 (0) 2 525 82<br />
 Lietuva 
-UAB “Roche Lietuva” 
+UAB “Roche Lietuva" 
 Tel: +370 5 2546 
 България 
 Рош България ЕООД 
@@ -1129,8 +1129,6 @@ Description: "ePI document Bundle for cellcept Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1153,8 +1151,6 @@ Description: "ePI document Bundle for cellcept Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1175,8 +1171,8 @@ Usage: #example
 
 Instance: mp7864f63eceae865956b53410a93ee1e9
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product cellcept"
-Description: "cellcept"
+Title: "Medicinal Product CellCept 250 mg hard capsules"
+Description: "CellCept 250 mg hard capsules"
 Usage: #inline
 
  
@@ -1189,14 +1185,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "CellCept is indicated in combination with ciclosporin and corticosteroids for the prophylaxis of acute"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "cellcept"
+  * productName = "CellCept 250 mg hard capsules"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1216,10 +1209,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

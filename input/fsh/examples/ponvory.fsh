@@ -1308,8 +1308,6 @@ Description: "ePI document Bundle for ponvory Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1332,8 +1330,6 @@ Description: "ePI document Bundle for ponvory Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1354,8 +1350,8 @@ Usage: #example
 
 Instance: mpfc7c0b4a680b856c6d3878351fc9d22e
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product ponvory"
-Description: "ponvory"
+Title: "Medicinal Product Ponvory 2 mg film-coated tablets"
+Description: "Ponvory 2 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1368,14 +1364,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Ponvory is indicated for the treatment of adult patients with relapsing forms of multiple sclerosis"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "ponvory"
+  * productName = "Ponvory 2 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1395,10 +1388,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

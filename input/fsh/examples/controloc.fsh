@@ -516,7 +516,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "1. What controloc is and what it is used for"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>CONTROLOC Control indeholder det aktive stof pantoprazol, som blokerer den ”pumpe”, der 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>CONTROLOC Control indeholder det aktive stof pantoprazol, som blokerer den "pumpe", der 
 producerer mavesyre. Dermed reduceres mængden af syre i din mave. </p>
 <p>CONTROLOC Control bruges til korttidsbehandling af reflukssymptomer (f.eks. halsbrand og sure 
 opstød) hos voksne. </p>
@@ -626,7 +626,7 @@ CONTROLOC Control ’. </li>
 <li>ketoconazol (bruges ved svampeinfektion). </li>
 <li>warfarin og phenprocoumon (lægemidler, som virker blodfortyndende og forebygger 
 blodpropper). Du skal muligvis have taget flere blodprøver. </li>
-<li>methotrexat (bruges til behandling af reumatoid artrit, psoriasis og cancer) – hvis du tager 
+<li>methotrexat (bruges til behandling af reumatoid artrit, psoriasis og cancer) - hvis du tager 
 methotrexat, kan din læge midlertidigt stoppe din behandling med CONTROLOC Control, da 
 CONTROLOC Control kan forøge niveauet af methotrexat i blodet. </li>
 </ul>
@@ -791,7 +791,7 @@ propylenglycol (E1520), methacrylsyre-ethylacrylat copolymer (1:1), natriumlauri
 polysorbat 80, triethylcitrat. </p>
 <p>Blæk til prægning: Shellac; rød, sort og gul jernoxid (E 172); koncentreret ammoniakopløsning. </p>
 <p>Udseende og pakningsstørrelser </p>
-<p>Enterotabletterne er gule, ovale, bikonvekse filmovertrukne tabletter præget med ”P20” på den ene 
+<p>Enterotabletterne er gule, ovale, bikonvekse filmovertrukne tabletter præget med "P20" på den ene 
 side. </p>
 <p>CONTROLOC Control findes i aluminim/aluminium-blister med eller uden kartonforstærkning. 
 Pakningerne indeholder 7 eller 14 enterotabletter. 
@@ -930,8 +930,6 @@ Description: "ePI document Bundle for controloc Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -954,8 +952,6 @@ Description: "ePI document Bundle for controloc Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -976,8 +972,8 @@ Usage: #example
 
 Instance: mp88a139efdb931409e42b2a2c15745022
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product controloc"
-Description: "controloc"
+Title: "Medicinal Product CONTROLOC Control 20 mg gastro-resistant tablets"
+Description: "CONTROLOC Control 20 mg gastro-resistant tablets"
 Usage: #inline
 
  
@@ -990,14 +986,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "CONTROLOC Control is indicated for short-term treatment of reflux symptoms (e.g. heartburn, acid"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "controloc"
+  * productName = "CONTROLOC Control 20 mg gastro-resistant tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1017,10 +1010,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

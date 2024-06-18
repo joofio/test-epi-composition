@@ -499,7 +499,7 @@ et hjerteanfald for mere end et år siden.
 Det nedsætter risikoen for, at du får endnu et hjerteanfald, slagtilfælde eller at du dør som følge af en 
 hjertekarsygdom.
 Hvordan Brilique virker
-Brilique påvirker celler, der kaldes ”blodplader” eller ”trombocytter”. Blodplader er meget små celler i 
+Brilique påvirker celler, der kaldes "blodplader" eller "trombocytter". Blodplader er meget små celler i 
 blodet. De medvirker til at stoppe blødninger ved at klumpe sammen, så de kan tilstoppe bittesmå 
 flænger eller skader på blodkar.
 Der kan dog også dannes blodpropper inde i et beskadiget blodkar i hjertet eller hjernen. Dette kan 
@@ -509,7 +509,7 @@ Blodproppen kan afskære blodforsyningen fuldstændigt: dette kan resultere i en
 hjertet (myokardieinfarkt) eller et slagtilfælde (apopleksi).
 
 Blodproppen kan delvist blokere blodkar der fører til hjertet: dette reducerer hjertets 
-blodforsyning og kan give forbigående smerter i brystet (kaldet ”ustabil angina pectoris”).
+blodforsyning og kan give forbigående smerter i brystet (kaldet "ustabil angina pectoris").
 Brilique forhindrer sammenklumpningen af blodpladerne. Dette reducerer risikoen for dannelsen af en 
 blodprop, der kan nedsætte blodgennemstrømningen. </p>         </div>"""   
           
@@ -726,7 +726,7 @@ uventet blødning eller blødning, der varer lang tid
 -
 lyserød, rød eller brun urin
 -
-opkastning af rødt blod eller opkast, der ligner ”kaffegrums”
+opkastning af rødt blod eller opkast, der ligner "kaffegrums"
 -
 rød eller sort afføring (ligner tjære)
 -
@@ -790,7 +790,7 @@ Blødning fra mavens slimhinde (mavesår)
 Blødende tandkød
 Ikke almindelige (kan forekomme hos op til 1 ud af 100 patienter)
 
-Allergisk reaktion – udslæt, kløe eller hævelser i ansigt eller hævede læber eller tunge kan være 
+Allergisk reaktion - udslæt, kløe eller hævelser i ansigt eller hævede læber eller tunge kan være 
 tegn på en allergisk reaktion
 
 Forvirring
@@ -991,8 +991,6 @@ Description: "ePI document Bundle for brilique Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1015,8 +1013,6 @@ Description: "ePI document Bundle for brilique Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1037,8 +1033,8 @@ Usage: #example
 
 Instance: mpd18c775a37197bebb71a8fd2758408f4
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product brilique"
-Description: "brilique"
+Title: "Medicinal Product Brilique 60 mg film-coated tablets"
+Description: "Brilique 60 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1051,14 +1047,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Brilique, co-administered with acetylsalicylic acid (ASA), is indicated for the prevention of"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "brilique"
+  * productName = "Brilique 60 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1078,10 +1071,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

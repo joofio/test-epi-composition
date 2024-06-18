@@ -790,8 +790,6 @@ Description: "ePI document Bundle for xtandi Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -814,8 +812,6 @@ Description: "ePI document Bundle for xtandi Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -836,8 +832,8 @@ Usage: #example
 
 Instance: mp0f22d445f37b02d3c837ebc1451981fc
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product xtandi"
-Description: "xtandi"
+Title: "Medicinal Product Xtandi - 40 mg soft capsules"
+Description: "Xtandi - 40 mg soft capsules"
 Usage: #inline
 
  
@@ -850,14 +846,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Xtandi is indicated for:"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "xtandi"
+  * productName = "Xtandi - 40 mg soft capsules"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -877,10 +870,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

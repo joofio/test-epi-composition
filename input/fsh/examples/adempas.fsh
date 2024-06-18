@@ -880,27 +880,27 @@ Adempas 0,5 mg filmovertrukne tabletter </p>
 <ul>
 <li>
 <p>0,5 mg tablet: Hvide, runde, bikonvekse tabletter på 6 mm præget med Bayer-korset på den ene 
-side og med 0,5 og et ”R” på den anden side 
+side og med 0,5 og et "R" på den anden side 
 Adempas 1 mg filmovertrukne tabletter </p>
 </li>
 <li>
 <p>1 mg tablet: Lysegule, runde, bikonvekse tabletter på 6 mm præget med Bayer-korset på den 
-ene side og med 1 og et ”R” på den anden side 
+ene side og med 1 og et "R" på den anden side 
 Adempas 1,5 mg filmovertrukne tabletter </p>
 </li>
 <li>
 <p>1,5 mg tablet: Gul-orange, runde, bikonvekse tabletter på 6 mm præget med Bayer-korset på 
-den ene side og med 1,5 og et ”R” på den anden side 
+den ene side og med 1,5 og et "R" på den anden side 
 Adempas 2,0 mg filmovertrukne tabletter </p>
 </li>
 <li>
 <p>2 mg tablet: Lys-orange, runde, bikonvekse tabletter på 6 mm præget med Bayer-korset på den 
-ene side og med 2 og et ”R” på den anden side 
+ene side og med 2 og et "R" på den anden side 
 Adempas 2,5 mg filmovertrukne tabletter </p>
 </li>
 <li>
 <p>2,5 mg tablet: Rød-orange, runde, bikonvekse tabletter på 6 mm præget med Bayer-korset på 
-den ene side og med 2,5 og et ”R” på den anden side </p>
+den ene side og med 2,5 og et "R" på den anden side </p>
 </li>
 </ul>
 <p>De er tilgængelige i pakninger med: </p>
@@ -1043,8 +1043,6 @@ Description: "ePI document Bundle for adempas Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1067,8 +1065,6 @@ Description: "ePI document Bundle for adempas Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1089,8 +1085,8 @@ Usage: #example
 
 Instance: mpa0ac9d79e71815d66e8cc1b00ebabcb0
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product adempas"
-Description: "adempas"
+Title: "Medicinal Product Adempas 0.5 mg film-coated tablets"
+Description: "Adempas 0.5 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1103,14 +1099,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Chronic thromboembolic pulmonary hypertension (CTEPH)"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "adempas"
+  * productName = "Adempas 0.5 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1130,10 +1123,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

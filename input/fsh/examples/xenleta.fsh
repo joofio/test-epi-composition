@@ -563,8 +563,8 @@ D04 C7H2 </p>
 <p>Denne indlægsseddel blev senest ændret </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
 hjemmeside: http://www.ema.europa.eu. </p>
-<p>&lt;  </p>
-<blockquote></blockquote>
+<p>&lt;<br />
+&gt; </p>
 <p>Nedenstående oplysninger er til læger og sundhedspersonale: </p>
 <p>Instruktioner vedrørende fortynding inden administration 
 Parenterale (intravenøse) lægemidler skal kontrolleres visuelt for partikler eller misfarvning inden 
@@ -610,8 +610,6 @@ Description: "ePI document Bundle for xenleta Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -634,8 +632,6 @@ Description: "ePI document Bundle for xenleta Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -656,8 +652,8 @@ Usage: #example
 
 Instance: mp962167f0883d517c612253bd6d108856
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product xenleta"
-Description: "xenleta"
+Title: "Medicinal Product Xenleta 600 mg film-coated tablets"
+Description: "Xenleta 600 mg film-coated tablets"
 Usage: #inline
 
  
@@ -670,14 +666,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Xenleta is indicated for the treatment of community-acquired pneumonia (CAP) in adults when it is"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "xenleta"
+  * productName = "Xenleta 600 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -697,10 +690,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

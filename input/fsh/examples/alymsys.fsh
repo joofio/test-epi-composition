@@ -783,10 +783,10 @@ forekomme: </p>
 <p>infektion eller vævsirritation (inflammation) i øjeæblet, </p>
 </li>
 <li>
-<p>røde øjne, små partikler eller pletter i synsfeltet (“flyvende fluer”), øjensmerter, </p>
+<p>røde øjne, små partikler eller pletter i synsfeltet (“flyvende fluer"), øjensmerter, </p>
 </li>
 <li>
-<p>lysglimt, som bevæger sig som “flyvende fluer”, og som udvikler sig til tab af noget af synet, </p>
+<p>lysglimt, som bevæger sig som “flyvende fluer", og som udvikler sig til tab af noget af synet, </p>
 </li>
 <li>
 <p>forhøjet tryk i øjet, </p>
@@ -1179,13 +1179,13 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på den ydre karton og på hætteglasset efter 
-forkortelsen “EXP”. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+forkortelsen “EXP". Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Opbevares i køleskab (2 °C - 8 °C). Må ikke nedfryses. 
 Opbevar hætteglasset i den ydre karton for at beskytte mod lys. </p>
 <p>Infusionsopløsningen skal anvendes umiddelbart efter fortyndingen. Hvis den ikke anvendes straks, er 
 opbevaringstider og -betingelser efter fortynding brugerens ansvar og bør normalt ikke overstige 
-24 timer ved 2 ºC – 8 ºC, medmindre infusionsopløsningen er fremstillet under sterile forhold. Når 
-fortyndingen har fundet sted under sterile forhold, er Alymsys stabil i 30 dage ved 2 ºC – 8 ºC efter 
+24 timer ved 2 ºC - 8 ºC, medmindre infusionsopløsningen er fremstillet under sterile forhold. Når 
+fortyndingen har fundet sted under sterile forhold, er Alymsys stabil i 30 dage ved 2 ºC - 8 ºC efter 
 fortynding og i op til 48 timer ved temperaturer, der ikke overstiger 30 ºC.  </p>
 <p>Brug ikke Alymsys, hvis du opdager partikler eller misfarvning før indgift. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
@@ -1339,8 +1339,6 @@ Description: "ePI document Bundle for alymsys Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1363,8 +1361,6 @@ Description: "ePI document Bundle for alymsys Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1385,8 +1381,8 @@ Usage: #example
 
 Instance: mp8ad222fa20f6122792e54d69414353b7
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product alymsys"
-Description: "alymsys"
+Title: "Medicinal Product Alymsys 25 mg/mL concentrate for solution for infusion."
+Description: "Alymsys 25 mg/mL concentrate for solution for infusion."
 Usage: #inline
 
  
@@ -1399,14 +1395,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Alymsys in combination with fluoropyrimidine-based chemotherapy is indicated for treatment of adult"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "alymsys"
+  * productName = "Alymsys 25 mg/mL concentrate for solution for infusion."
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1426,10 +1419,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

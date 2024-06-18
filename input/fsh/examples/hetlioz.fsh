@@ -650,8 +650,6 @@ Description: "ePI document Bundle for hetlioz Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -674,8 +672,6 @@ Description: "ePI document Bundle for hetlioz Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -696,8 +692,8 @@ Usage: #example
 
 Instance: mp7957aafe253d586bcd1a37e5702661ef
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product hetlioz"
-Description: "hetlioz"
+Title: "Medicinal Product HETLIOZ 20 mg hard capsules"
+Description: "HETLIOZ 20 mg hard capsules"
 Usage: #inline
 
  
@@ -710,14 +706,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "HETLIOZ is indicated for the treatment of Non-24-Hour Sleep-Wake Disorder (Non-24) in totally blind"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "hetlioz"
+  * productName = "HETLIOZ 20 mg hard capsules"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -737,10 +730,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

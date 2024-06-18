@@ -778,7 +778,7 @@ skiftes til stående eller siddende stilling. </p>
 <p>Smertefri hævelse af fingerspidserne (trommestikfingre). </p>
 </li>
 <li>
-<p>Tumorlysesyndrom – metaboliske komplikationer, der kan forekomme under cancerbehandling 
+<p>Tumorlysesyndrom - metaboliske komplikationer, der kan forekomme under cancerbehandling 
 og nogle gange endda uden behandling. Disse komplikationer skyldes produkt fra døende 
 cancerceller og kan omfatte følgende: ændringer i blodkemi såsom højt kalium, fosfor, urinsyre 
 og lav calcium førende til ændringer i nyrefunktion, hjerterytme, krampeanfald og nogle 
@@ -817,18 +817,18 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
 er den sidste dag i den nævnte måned. </p>
 <p>Din læge, apoteket eller sygeplejersken er ansvarlig for opbevaringen af Vidaza. De er også ansvarlige 
 for at forberede og bortskaffe al ubrugt Vidaza på korrekt vis. </p>
-<p>For uåbnede hætteglas med dette lægemiddel – der er ingen særlige forholdsregler vedrørende 
+<p>For uåbnede hætteglas med dette lægemiddel - der er ingen særlige forholdsregler vedrørende 
 opbevaringen. </p>
 <p>Til umiddelbar anvendelse 
 Når suspensionen er blevet forberedt, bør den administreres i løbet af 45 minutter. </p>
 <p>Til senere anvendelse 
 Hvis Vidaza-suspensionen forberedes med vand til injektionsvæsker, der ikke er nedkølet, skal 
-suspensionen sættes i køleskab (2 °C – 8 °C) umiddelbart efter forberedelsen, og opbevares i køleskab 
+suspensionen sættes i køleskab (2 °C - 8 °C) umiddelbart efter forberedelsen, og opbevares i køleskab 
 i maksimalt 8 timer. 
 Hvis Vidaza-suspensionen forberedes med vand til injektionsvæsker, der har været opbevaret i 
-køleskab (2 °C – 8 °C), skal suspensionen sættes i køleskab (2 °C – 8 °C) straks efter forberedelsen, og 
+køleskab (2 °C - 8 °C), skal suspensionen sættes i køleskab (2 °C - 8 °C) straks efter forberedelsen, og 
 opbevares i køleskab i maksimalt 22 timer. </p>
-<p>Lad suspensionen have op til 30 minutter til at nå til stuetemperatur før administration (20 °C –
+<p>Lad suspensionen have op til 30 minutter til at nå til stuetemperatur før administration (20 °C -
  25 °C). </p>
 <p>Hvis der er store partikler i suspensionen, skal den bortskaffes. </p>         </div>"""      
         
@@ -982,8 +982,6 @@ Description: "ePI document Bundle for vidaza Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1006,8 +1004,6 @@ Description: "ePI document Bundle for vidaza Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1028,8 +1024,8 @@ Usage: #example
 
 Instance: mp5f8b8c4b9e5f26ff9f9320c47bf6fa58
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product vidaza"
-Description: "vidaza"
+Title: "Medicinal Product Vidaza 25 mg/mL powder for suspension for injection"
+Description: "Vidaza 25 mg/mL powder for suspension for injection"
 Usage: #inline
 
  
@@ -1042,14 +1038,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Vidaza is indicated for the treatment of adult patients who are not eligible for haematopoietic stem cell"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "vidaza"
+  * productName = "Vidaza 25 mg/mL powder for suspension for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1069,10 +1062,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

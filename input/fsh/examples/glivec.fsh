@@ -809,7 +809,7 @@ kranie/hjerne). </p>
 <p>Blærer på hud eller slimhinder (tegn på pemfigus). </p>
 </li>
 <li>
-<p>Følelsesløse eller kolde tæer og fingre (tegn på Raynaud´s syndrom). </p>
+<p>Følelsesløse eller kolde tæer og fingre (tegn på Raynaud's syndrom). </p>
 </li>
 <li>
 <p>Pludselig hævelse og rødme af huden (tegn på en hudinfektion kaldet cellulitis). </p>
@@ -1135,7 +1135,7 @@ kolloid silica. Kapselskallen består af gelatine, rød jernoxid (E 172), gul je
 titandioxid (E 171). Prægeblækket består af rød jernoxid (E 172) og shellac. </li>
 </ul>
 <p>Udseende og pakningsstørrelser 
-Glivec 100 mg kapsler er orange til orange-grålig og præget med ”NVR SI”. De indeholder et hvidt til 
+Glivec 100 mg kapsler er orange til orange-grålig og præget med "NVR SI". De indeholder et hvidt til 
 gulligt pulver. </p>
 <p>De findes i pakninger med 24, 48, 96, 120 eller 180 kapsler, men ikke alle pakningsstørrelser er 
 nødvendigvis tilgængelige i dit land. </p>
@@ -1265,8 +1265,6 @@ Description: "ePI document Bundle for glivec Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1289,8 +1287,6 @@ Description: "ePI document Bundle for glivec Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1311,8 +1307,8 @@ Usage: #example
 
 Instance: mp27bef6838d192de0f1fa35f67b2e5233
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product glivec"
-Description: "glivec"
+Title: "Medicinal Product Glivec 100 mg hard capsules"
+Description: "Glivec 100 mg hard capsules"
 Usage: #inline
 
  
@@ -1325,14 +1321,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Glivec is indicated for the treatment of"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "glivec"
+  * productName = "Glivec 100 mg hard capsules"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1352,10 +1345,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

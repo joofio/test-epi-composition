@@ -442,7 +442,7 @@ Kontakt straks lægen, apotekspersonalet eller sygeplejersken:</p>
 <ul>
 <li>hvis du får et af følgende symptomer: feber, vejrtrækningsbesvær, udslæt, svimmelhed eller 
 ørhed, hurtig vægtstigning, hævelser af arme eller ben. Dette kan være tegn på en tilstand, der 
-kaldes differentieringssyndrom (se afsnit 4 – Bivirkninger). Differentieringssyndrom kan opstå 
+kaldes differentieringssyndrom (se afsnit 4 - Bivirkninger). Differentieringssyndrom kan opstå 
 når som helst i løbet af de første 3 måneder af behandlingen med Xospata fra så tidligt </li>
 </ul>
 <p>som 1 dag efter, at du er startet behandlingen. Hvis det opstår, vil lægen følge dig og måske give 
@@ -453,13 +453,13 @@ informationskortet på dig, og at du viser det til alle sundhedspersoner, du kom
 med. 
 - hvis du får et krampeanfald eller symptomer, der hurtigt forværres, såsom hovedpine, nedsat 
 opmærksomhed, forvirring, sløret syn eller andre problemer med synet. Dette kan være tegn på 
-en tilstand, der kaldes PRES (se afsnit 4 – Bivirkninger). Din læge vil foretage en test for at 
+en tilstand, der kaldes PRES (se afsnit 4 - Bivirkninger). Din læge vil foretage en test for at 
 undersøge, om du har udviklet PRES, og vil stoppe behandlingen med Xospata, hvis det 
 bekræftes, at du har PRES. </p>
 <p>Kontakt lægen, apotekspersonalet eller sygeplejersken, før du tager Xospata:</p>
 <ul>
 <li>hvis du får en forstyrrelse i hjerterytmen, såsom uregelmæssigt hjerteslag eller en tilstand, der 
-kaldes QT-forlængelse (se afsnit 4 – Bivirkninger). </li>
+kaldes QT-forlængelse (se afsnit 4 - Bivirkninger). </li>
 <li>hvis du tidligere har haft lavt indhold af mineralerne kalium eller magnesium i blodet, da dette 
 kan øge risikoen for unormal hjerterytme.  </li>
 <li>hvis du har stærke smerter i øverste del af maven og ryggen, kvalme og opkastning. Dette kan 
@@ -740,8 +740,6 @@ Description: "ePI document Bundle for xospata Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -764,8 +762,6 @@ Description: "ePI document Bundle for xospata Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -786,8 +782,8 @@ Usage: #example
 
 Instance: mpeed4802d86314fbe213d3f12beb50fbb
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product xospata"
-Description: "xospata"
+Title: "Medicinal Product Xospata 40 mg film-coated tablets"
+Description: "Xospata 40 mg film-coated tablets"
 Usage: #inline
 
  
@@ -800,14 +796,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Xospata is indicated as monotherapy for the treatment of adult patients who have relapsed or refractory"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "xospata"
+  * productName = "Xospata 40 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -827,10 +820,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

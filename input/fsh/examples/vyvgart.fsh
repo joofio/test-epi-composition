@@ -569,7 +569,7 @@ Aktivt stof: efgartigimod alfa.
 <li>polysorbat - vand til injektionsvæske </li>
 </ul>
 <p>Udseende og pakningsstørrelser 
-Vyvgart er pakket som et sterilt koncentrat til intravenøs (IV) infusion (20 ml i et hætteglas – 
+Vyvgart er pakket som et sterilt koncentrat til intravenøs (IV) infusion (20 ml i et hætteglas - 
 pakningsstørrelsen er 1 hætteglas pr. pakning). 
 Vyvgart er en væske. Den er farveløs til svagt gul, gennemsigtig eller næsten gennemsigtig. </p>
 <p>Indehaver af markedsføringstilladelsen og fremstiller 
@@ -699,15 +699,15 @@ Det påkrævede antal hætteglas.
 Volumen af natriumchloridopløsning på 9 mg/ml (0,9 %) til injektionsvæske. Det fortyndede 
 lægemiddels samlede volumen er 125 ml. </p>
 <p>Tabel 1. Formel 
-Trin 1 – beregn dosis (mg) 
+Trin 1 - beregn dosis (mg) 
 10 mg/kg x vægt (kg) 
-Trin 2 – beregn koncentratvolumen (ml) 
+Trin 2 - beregn koncentratvolumen (ml) 
 dosis (mg) ÷ 20 mg/ml 
-Trin 3 – beregn antal hætteglas<br />
+Trin 3 - beregn antal hætteglas<br />
 koncentratvolumen (ml) ÷ 20 ml 
-Trin 4 – beregn volumen af natriumchloridopløsning på 
+Trin 4 - beregn volumen af natriumchloridopløsning på 
 9 mg/ml (0,9 %) til injektionsvæske (ml) 
-125 ml – koncentratvolumen (ml) </p>
+125 ml - koncentratvolumen (ml) </p>
 <ol>
 <li>Klargøring og administration </li>
 </ol>
@@ -801,8 +801,6 @@ Description: "ePI document Bundle for vyvgart Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -825,8 +823,6 @@ Description: "ePI document Bundle for vyvgart Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -847,8 +843,8 @@ Usage: #example
 
 Instance: mpf819453f37e8574dc396f13201d03208
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product vyvgart"
-Description: "vyvgart"
+Title: "Medicinal Product Vyvgart 20 mg/mL concentrate for solution for infusion"
+Description: "Vyvgart 20 mg/mL concentrate for solution for infusion"
 Usage: #inline
 
  
@@ -861,14 +857,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Vyvgart is indicated as an add-on to standard therapy for the treatment of adult patients with"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "vyvgart"
+  * productName = "Vyvgart 20 mg/mL concentrate for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -888,10 +881,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

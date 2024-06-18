@@ -663,8 +663,6 @@ Description: "ePI document Bundle for spherox Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -687,8 +685,6 @@ Description: "ePI document Bundle for spherox Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -709,8 +705,8 @@ Usage: #example
 
 Instance: mpc8b09940edf0aa917a934cf86ca85bbd
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product spherox"
-Description: "spherox"
+Title: "Medicinal Product Spherox 10-70 spheroids/cm2 implantation suspension"
+Description: "Spherox 10-70 spheroids/cm2 implantation suspension"
 Usage: #inline
 
  
@@ -723,14 +719,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Repair of symptomatic articular cartilage defects of the femoral condyle and the patella of the knee"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "spherox"
+  * productName = "Spherox 10-70 spheroids/cm2 implantation suspension"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -750,10 +743,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

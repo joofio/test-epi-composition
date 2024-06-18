@@ -939,7 +939,7 @@ snavs. </li>
 uden at bide i det. Luk læberne rundt om mundstykket med en flad tunge nedenunder. </li>
 <li>
 <p>Træk vejret langsomt og dybt ind gennem munden for at fylde lungerne med luft (dette bør tage 
-omtrent 4–5 sekunder). Lige efter du begynder at trække vejret ind, skal du med en fast hånd 
+omtrent 4-5 sekunder). Lige efter du begynder at trække vejret ind, skal du med en fast hånd 
 trykke ned foroven på trykbeholderen for at levere et pust. 
 Dosistæller 
 Dosistæller 
@@ -1299,7 +1299,7 @@ den sidste dag i den nævnte måned. </p>
 Må ikke udsættes for temperaturer over 50 °C. 
 Trykbeholderen må ikke perforeres. </p>
 <p>Før udlevering: 
-Opbevares i køleskab (2 °C – 8 °C). </p>
+Opbevares i køleskab (2 °C - 8 °C). </p>
 <p>Efter udlevering (du får udleveret dette lægemiddel af apotekspersonalet): 
 Trykbeholder med 60 pust: 
 Inhalatoren opbevares ved temperaturer under 25 °C i 
@@ -1473,8 +1473,6 @@ Description: "ePI document Bundle for trydonis Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1497,8 +1495,6 @@ Description: "ePI document Bundle for trydonis Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1519,8 +1515,8 @@ Usage: #example
 
 Instance: mp8c380d27bbc2d53daf7f5dedc85cca7a
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product trydonis"
-Description: "trydonis"
+Title: "Medicinal Product Trydonis 87 micrograms/5 micrograms/9 micrograms pressurised inhalation, solution"
+Description: "Trydonis 87 micrograms/5 micrograms/9 micrograms pressurised inhalation, solution"
 Usage: #inline
 
  
@@ -1533,14 +1529,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Maintenance treatment in adult patients with moderate to severe chronic obstructive pulmonary"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "trydonis"
+  * productName = "Trydonis 87 micrograms/5 micrograms/9 micrograms pressurised inhalation, solution"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1560,10 +1553,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

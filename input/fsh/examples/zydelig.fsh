@@ -493,7 +493,7 @@ ekstra medicin, som din læge vil ordinere, mens du tager Zydelig, for at foreby
 Din læge vil monitorere dig for tegn på infektion. Kontakt straks din læge, hvis du bliver syg (især 
 med feber, hoste eller vejrtrækningsbesvær), mens du tager Zydelig. </p>
 <p>Fortæl straks lægen, hvis du eller andre bemærker, at du har: hukommelsestab, problemer med at 
-tænke, gangbesvær eller synstab – dette kan skyldes en meget sjælden men alvorlig hjerneinfektion, 
+tænke, gangbesvær eller synstab - dette kan skyldes en meget sjælden men alvorlig hjerneinfektion, 
 der kan være dødelig (progressiv multifocal leukoencephalopati eller PML). </p>
 <p>Du vil have behov for at få taget regelmæssige blodprøver før og under behandlingen med Zydelig. 
 Dette er for at kontrollere, at du ikke har en infektion, at din lever fungerer korrekt, og at dine blodtal 
@@ -910,8 +910,6 @@ Description: "ePI document Bundle for zydelig Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -934,8 +932,6 @@ Description: "ePI document Bundle for zydelig Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -956,8 +952,8 @@ Usage: #example
 
 Instance: mp702c9d84bc860bda988d99979df3de81
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product zydelig"
-Description: "zydelig"
+Title: "Medicinal Product Zydelig 100 mg film-coated tablets"
+Description: "Zydelig 100 mg film-coated tablets"
 Usage: #inline
 
  
@@ -970,14 +966,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Zydelig is indicated in combination with rituximab for the treatment of adult patients with chronic"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "zydelig"
+  * productName = "Zydelig 100 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -997,10 +990,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

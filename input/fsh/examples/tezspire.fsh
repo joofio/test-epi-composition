@@ -559,11 +559,11 @@ Opbevar lægemidlet utilgængeligt for børn.
 Brug ikke lægemidlet efter den udløbsdato, der står på etiketten og pakningen. Udløbsdatoen er 
 den sidste dag i den nævnte måned.
 
-Opbevares i køleskab (2 °C – 8 °C). 
+Opbevares i køleskab (2 °C - 8 °C). 
 
 Opbevar den fyldte injektionssprøjte i den ydre karton for at beskytte mod lys.
 
-Tezspire kan opbevares ved stuetemperatur (20 °C – 25 °C) i den ydre pakning i højst 30 dage. 
+Tezspire kan opbevares ved stuetemperatur (20 °C - 25 °C) i den ydre pakning i højst 30 dage. 
 Når Tezspire har fået stuetemperatur, må det ikke sættes tilbage i køleskabet. Tezspire, som har 
 været opbevaret ved stuetemperatur i mere end 30 dage, skal bortskaffes på sikker vis.
 
@@ -761,7 +761,7 @@ Kanylesikring
 Fingerflange
 Kanyle
 Klargøring til injektion af Tezspire
-Trin 1 – Find alle delene frem
+Trin 1 - Find alle delene frem
 
 1 Tezspire fyldt injektionssprøjte fra køleskabet
 
@@ -779,7 +779,7 @@ Bomuldstot
 eller gaze
 Plaster
 Kanylebeholder
-Trin 2 – Forberedelse til brug af din Tezspire fyldte injektionssprøjte
+Trin 2 - Forberedelse til brug af din Tezspire fyldte injektionssprøjte
 Lad Tezspire få stuetemperatur mellem 20 °C og 25 °C i 
 ca. 60 minutter eller i længere tid (op til maksimalt 30 dage), før 
 injektionen gives.
@@ -792,12 +792,12 @@ Du må ikke sætte Tezspire tilbage i køleskabet, når den har fået stuetemper
 Tezspire, som har været opbevaret ved stuetemperatur i mere end 30 dage.
 Du må ikke tage kanylehætten af, før i trin 7. min
 44
-Trin 3 – Tag den fyldte injektionssprøjte ud
+Trin 3 - Tag den fyldte injektionssprøjte ud
 Tag fat i sprøjtecylinderen for at tage den fyldte injektionssprøjte ud af bakken. Du må ikke holde 
 i stemplet, når du tager fat i den fyldte injektionssprøjte.
 Sprøjte-
 cylinder
-Trin 4 – Tjek den fyldte injektionssprøjte
+Trin 4 - Tjek den fyldte injektionssprøjte
 Tjek den fyldte injektionssprøjte for skader. Du må ikke
 bruge den fyldte injektionssprøjte, hvis den er beskadiget.
 Kontrollér udløbsdatoen på den fyldte injektionssprøjte. Du må 
@@ -811,7 +811,7 @@ Du kan måske se små luftbobler i væsken. Dette er normalt. Du
 behøver ikke gøre noget ved det.
 Udløbsdato
 Injektion af Tezspire
-Trin 5 – Vælg et injektionssted
+Trin 5 - Vælg et injektionssted
 Hvis du giver dig selv injektionen, er det anbefalede 
 injektionssted foran på låret eller nedre del af maven. Du 
 må ikke give dig selv injektionen i armen.
@@ -834,12 +834,12 @@ kun for
 omsorgs-
 personer
 45
-Trin 6 – Vask hænder og rens injektionsstedet
+Trin 6 - Vask hænder og rens injektionsstedet
 Vask hænderne grundigt med sæbe og vand.
 Rens injektionsstedet med en spritserviet i en cirkulær bevægelse. Lad det lufttørre.
 Rør ikke det rensede område før injektion.
 Vift eller pust ikke på det rensede område.
-Trin 7 – Træk kanylehætten af
+Trin 7 - Træk kanylehætten af
 Tag ikke hætten af, før du er klar til at injicere.
 Hold sprøjtecylinderen med én hånd, og træk forsigtigt 
 kanylehætten lige af med den anden hånd.
@@ -851,7 +851,7 @@ normalt.
 Rør ikke ved kanylen, og lad den ikke røre ved nogen overflade.
 Du må ikke sætte kanylehætten på sprøjten igen.
 46
-Trin 8 – Injicér Tezspire
+Trin 8 - Injicér Tezspire
 Hold den fyldte injektionssprøjte i én hånd som vist.
 Brug den anden hånd til forsigtigt at klemme om og holde det 
 område af huden, hvor du vil injicere. Dette gør huden fastere.
@@ -878,7 +878,7 @@ tager kanylen ud af huden.
 Slip langsomt stemplet, indtil 
 kanylesikringen dækker 
 kanylen.
-Trin 9 – Tjek injektionsstedet
+Trin 9 - Tjek injektionsstedet
 Der kan være en lille mængde blod eller væske, hvor du 
 injicerede. Dette er normalt.
 Pres forsigtigt på din hud med en bomuldstot eller gaze, indtil 
@@ -891,7 +891,7 @@ b
 c
 47
 Bortskaffelse af Tezspire
-Trin 10 – Kassér den brugte fyldte injektionssprøjte sikkert
+Trin 10 - Kassér den brugte fyldte injektionssprøjte sikkert
 Hver fyldt injektionssprøjte indeholder en enkelt dosis Tezspire 
 og kan ikke genbruges. Du må ikke sætte kanylehætten på 
 injektionssprøjten igen.
@@ -936,8 +936,6 @@ Description: "ePI document Bundle for tezspire Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -960,8 +958,6 @@ Description: "ePI document Bundle for tezspire Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -982,8 +978,8 @@ Usage: #example
 
 Instance: mpf6cd137002e2af601eb2a1335966e882
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product tezspire"
-Description: "tezspire"
+Title: "Medicinal Product Tezspire 210 mg solution for injection in pre-filled syringe"
+Description: "Tezspire 210 mg solution for injection in pre-filled syringe"
 Usage: #inline
 
  
@@ -996,14 +992,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Tezspire is indicated as an add-on maintenance treatment in adults and adolescents 12 years and older"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "tezspire"
+  * productName = "Tezspire 210 mg solution for injection in pre-filled syringe"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1023,10 +1016,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

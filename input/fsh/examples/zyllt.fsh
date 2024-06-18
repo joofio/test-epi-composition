@@ -781,7 +781,7 @@ Portugal
 KRKA Farmacêutica, Sociedade Unipessoal Lda.
 Tel: + 351 (0)21 46 43 650
 Hrvatska
-KRKA – FARMA d.o.o.
+KRKA - FARMA d.o.o.
 Tel: + 385 1 6312 100
 România
 KRKA Romania S.R.L., Bucharest
@@ -833,8 +833,6 @@ Description: "ePI document Bundle for zyllt Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -857,8 +855,6 @@ Description: "ePI document Bundle for zyllt Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -879,8 +875,8 @@ Usage: #example
 
 Instance: mp3309175bd74a8d4a368db89c295b9d95
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product zyllt"
-Description: "zyllt"
+Title: "Medicinal Product Zyllt 75 mg film-coated tablets"
+Description: "Zyllt 75 mg film-coated tablets"
 Usage: #inline
 
  
@@ -893,14 +889,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Secondary prevention of atherothrombotic events"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "zyllt"
+  * productName = "Zyllt 75 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -920,10 +913,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

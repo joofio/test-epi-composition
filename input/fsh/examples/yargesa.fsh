@@ -453,12 +453,12 @@ Hvis De får en let rysten, sædvanligvis af hænderne, skal De søge rådgivnin
 <p>som muligt. Denne rysten forsvinder ofte, uden at det er nødvendigt at stoppe behandlingen. Af og til 
 vil det være nødvendigt for lægen at nedsætte dosis eller stoppe behandlingen med Yargesa for at 
 stoppe denne rysten. </p>
-<p>Meget almindelige bivirkninger – kan forekomme hos flere end 1 ud af 10 behandlede 
+<p>Meget almindelige bivirkninger - kan forekomme hos flere end 1 ud af 10 behandlede 
 De almindeligste bivirkninger er diarré, flatulens (luft i maven), mavesmerter, vægttab og nedsat 
 appetit. 
 Hvis De taber i vægt, når De starter behandling med Yargesa, skal De ikke blive bekymret. Normalt 
 ophører vægttabet ved fortsat behandling. </p>
-<p>Almindelige bivirkninger – kan forekomme hos op til 1 ud af 10 behandlede 
+<p>Almindelige bivirkninger - kan forekomme hos op til 1 ud af 10 behandlede 
 Almindelige bivirkninger af behandlingen omfatter hovedpine, svimmelhed, paræstesi (snurrende 
 fornemmelse eller følelsesløshed), koordinationsforstyrrelser, hypoæstesi (nedsat følesans), 
 fordøjelsesbesvær (halsbrand), kvalme (utilpashed), forstoppelse og opkastning, hævelse eller ubehag i 
@@ -532,8 +532,6 @@ Description: "ePI document Bundle for yargesa Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -556,8 +554,6 @@ Description: "ePI document Bundle for yargesa Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -578,8 +574,8 @@ Usage: #example
 
 Instance: mp6c515aae840296fe980507ee7ecb6244
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product yargesa"
-Description: "yargesa"
+Title: "Medicinal Product Yargesa 100 mg hard capsules"
+Description: "Yargesa 100 mg hard capsules"
 Usage: #inline
 
  
@@ -592,14 +588,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Yargesa is indicated for the oral treatment of adult patients with mild to moderate type 1 Gaucher"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "yargesa"
+  * productName = "Yargesa 100 mg hard capsules"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -619,10 +612,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

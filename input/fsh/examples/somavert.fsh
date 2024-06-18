@@ -765,7 +765,7 @@ information om sikkerheden af dette lægemiddel.</p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevares utilgængeligt for børn.
 Brug ikke lægemidlet efter den udløbsdato, der står på pakningen. Udløbsdatoen er den sidste dag i 
 den nævnte måned.
-Opbevar hætteglassene i køleskab (2°C–8°C) i den ydre karton for at beskytte mod lys. Må ikke 
+Opbevar hætteglassene i køleskab (2°C-8°C) i den ydre karton for at beskytte mod lys. Må ikke 
 nedfryses. 
 Kartonen/kartonerne med hætteglas med SOMAVERT pulver kan opbevares ved stuetemperatur op til 
 maksimalt 25 °C i en enkelt periode på op til 30 dage. Skriv sidste anvendelsesdato på kartonen, 
@@ -774,7 +774,7 @@ herunder dag/måned/år (op til 30 dage fra den dato, den blev taget ud af køle
 skal beskyttes mod lys. Dette lægemiddel må ikke stilles tilbage i køleskabet. 
 Bortskaf dette lægemiddel, hvis det ikke anvendes inden den nye sidste anvendelsesdato eller den 
 udløbsdato, der er trykt på kartonen, alt efter hvad der kommer først.
-Opbevar de fyldte injektionssprøjter under 30°C eller i køleskab (2°C–8°C). Må ikke nedfryses.
+Opbevar de fyldte injektionssprøjter under 30°C eller i køleskab (2°C-8°C). Må ikke nedfryses.
 SOMAVERT opløsningen skal anvendes umiddelbart efter blanding.
 Brug ikke lægemidlet, hvis opløsningen er tåget eller indeholder partikler.
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
@@ -936,7 +936,7 @@ Væsken leveres i en fyldt injektionssprøjte med etiketten ‘Solvens til SOMAV
 Du må ikke blande SOMAVERT med andre væsker.
 Du må ikke forsøge at give dig selv eller andre en injektion uden først at have modtaget undervisning 
 fra sundhedshedspersonalet i, hvordan du gør.
-Opbevar kartoner indeholdende hætteglas med pulver i køleskab ved en temperatur på 2 °C–8 °C og 
+Opbevar kartoner indeholdende hætteglas med pulver i køleskab ved en temperatur på 2 °C-8 °C og 
 ude af direkte sollys. 
 Kartonen/kartonerne med hætteglas med SOMAVERT pulver kan opbevares ved stuetemperatur op til 
 maksimalt 25 °C i en enkelt periode på op til 30 dage. Skriv sidste anvendelsesdato på kartonen, 
@@ -1212,8 +1212,6 @@ Description: "ePI document Bundle for somavert Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1236,8 +1234,6 @@ Description: "ePI document Bundle for somavert Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1258,8 +1254,8 @@ Usage: #example
 
 Instance: mp8f36194c6cc063f159cffcece33902d5
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product somavert"
-Description: "somavert"
+Title: "Medicinal Product SOMAVERT 10 mg powder and solvent for solution for injection"
+Description: "SOMAVERT 10 mg powder and solvent for solution for injection"
 Usage: #inline
 
  
@@ -1272,14 +1268,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Treatment of adult patients with acromegaly who have had an inadequate response to surgery and/or"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "somavert"
+  * productName = "SOMAVERT 10 mg powder and solvent for solution for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1299,10 +1292,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

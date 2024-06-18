@@ -1311,8 +1311,6 @@ Description: "ePI document Bundle for rekovelle Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1335,8 +1333,6 @@ Description: "ePI document Bundle for rekovelle Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1357,8 +1353,8 @@ Usage: #example
 
 Instance: mpe468ee61b4ad57838bdb12806e9312f2
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product rekovelle"
-Description: "rekovelle"
+Title: "Medicinal Product REKOVELLE 12 micrograms/0.36 mL solution for injection in a pre-filled pen"
+Description: "REKOVELLE 12 micrograms/0.36 mL solution for injection in a pre-filled pen"
 Usage: #inline
 
  
@@ -1371,14 +1367,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Controlled ovarian stimulation for the development of multiple follicles in women undergoing assisted"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "rekovelle"
+  * productName = "REKOVELLE 12 micrograms/0.36 mL solution for injection in a pre-filled pen"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1398,10 +1391,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

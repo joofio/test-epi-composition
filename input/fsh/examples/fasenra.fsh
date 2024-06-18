@@ -864,8 +864,6 @@ Description: "ePI document Bundle for fasenra Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -888,8 +886,6 @@ Description: "ePI document Bundle for fasenra Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -910,8 +906,8 @@ Usage: #example
 
 Instance: mp7aec1315865776793cc9c31ea9e857c4
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product fasenra"
-Description: "fasenra"
+Title: "Medicinal Product Fasenra 30 mg solution for injection in pre-filled syringe"
+Description: "Fasenra 30 mg solution for injection in pre-filled syringe"
 Usage: #inline
 
  
@@ -924,14 +920,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Fasenra is indicated as an add-on maintenance treatment in adult patients with severe eosinophilic"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "fasenra"
+  * productName = "Fasenra 30 mg solution for injection in pre-filled syringe"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -951,10 +944,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

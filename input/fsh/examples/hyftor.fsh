@@ -601,8 +601,6 @@ Description: "ePI document Bundle for hyftor Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -625,8 +623,6 @@ Description: "ePI document Bundle for hyftor Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -647,8 +643,8 @@ Usage: #example
 
 Instance: mpa0d64103b1c8a608be4329399bf17c80
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product hyftor"
-Description: "hyftor"
+Title: "Medicinal Product Hyftor 2 mg/g gel"
+Description: "Hyftor 2 mg/g gel"
 Usage: #inline
 
  
@@ -661,14 +657,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Hyftor is indicated for the treatment of facial angiofibroma associated with tuberous sclerosis complex"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "hyftor"
+  * productName = "Hyftor 2 mg/g gel"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -688,10 +681,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

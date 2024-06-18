@@ -1084,8 +1084,6 @@ Description: "ePI document Bundle for ziagen Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1108,8 +1106,6 @@ Description: "ePI document Bundle for ziagen Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1130,8 +1126,8 @@ Usage: #example
 
 Instance: mpe03871853d4da5dc011fec7c683b275d
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product ziagen"
-Description: "ziagen"
+Title: "Medicinal Product Ziagen 300 mg film-coated tablets"
+Description: "Ziagen 300 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1144,14 +1140,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Ziagen is indicated in antiretroviral combination therapy for the treatment of Human"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "ziagen"
+  * productName = "Ziagen 300 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1171,10 +1164,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -550,8 +550,6 @@ Description: "ePI document Bundle for qutenza Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -574,8 +572,6 @@ Description: "ePI document Bundle for qutenza Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -596,8 +592,8 @@ Usage: #example
 
 Instance: mpd8316d32320ec41a5ee7a0d849b593ef
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product qutenza"
-Description: "qutenza"
+Title: "Medicinal Product Qutenza 179 mg cutaneous patch"
+Description: "Qutenza 179 mg cutaneous patch"
 Usage: #inline
 
  
@@ -610,14 +606,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Qutenza is indicated for the treatment of peripheral neuropathic pain in adults either alone or in"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "qutenza"
+  * productName = "Qutenza 179 mg cutaneous patch"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -637,10 +630,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

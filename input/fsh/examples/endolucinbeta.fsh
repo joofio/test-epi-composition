@@ -598,8 +598,6 @@ Description: "ePI document Bundle for endolucinbeta Package Leaflet for language
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -622,8 +620,6 @@ Description: "ePI document Bundle for endolucinbeta Package Leaflet for language
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -644,8 +640,8 @@ Usage: #example
 
 Instance: mp69ec9f0e9f354651ce97ae4316b8e482
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product endolucinbeta"
-Description: "endolucinbeta"
+Title: "Medicinal Product EndolucinBeta 40 GBq/mL radiopharmaceutical precursor, solution"
+Description: "EndolucinBeta 40 GBq/mL radiopharmaceutical precursor, solution"
 Usage: #inline
 
  
@@ -658,14 +654,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "EndolucinBeta is a radiopharmaceutical precursor, and it is not intended for direct use in patients. It is"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "endolucinbeta"
+  * productName = "EndolucinBeta 40 GBq/mL radiopharmaceutical precursor, solution"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -685,10 +678,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

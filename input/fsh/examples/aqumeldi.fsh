@@ -573,14 +573,14 @@ kendtes eller var arvelig </p>
 </li>
 <li>
 <p>er gravid og længere henne end 3 måneder. Også tidligt i graviditeten er det bedre at undgå 
-Aqumeldi – (se punkt 2 "Graviditet, amning og frugtbarhed") </p>
+Aqumeldi - (se punkt 2 "Graviditet, amning og frugtbarhed") </p>
 </li>
 <li>
 <p>har diabetes eller nedsat nyrefunktion og er i behandling med et blodtrykssænkende lægemiddel, 
 der indeholder aliskiren (se punkt 2 "Brug af andre lægemidler sammen med Aqumeldi"). </p>
 </li>
 <li>
-<p>har taget eller tager sacubitril/valsartan – et lægemiddel til behandling af en form for langvarigt 
+<p>har taget eller tager sacubitril/valsartan - et lægemiddel til behandling af en form for langvarigt 
 (kronisk) hjertesvigt, da risikoen for angioødem er øget. Vent mindst 36 timer efter sidste dosis 
 sacubitril/valsartan, før du tager Aqumeldi. </p>
 </li>
@@ -655,7 +655,7 @@ Mængden af kalium i blodet kan også være højere </p>
 </li>
 <li>
 <p>tager nogen af de følgende lægemidler, der anvendes til behandling af forhøjet blodtryk: en 
-angiotensin II-receptorhæmmer (ARB'er) (også kaldet sartaner – f.eks. valsartan, telmisartan, 
+angiotensin II-receptorhæmmer (ARB'er) (også kaldet sartaner - f.eks. valsartan, telmisartan, 
 irbesartan), da de kan øge risikoen for lavt blodtryk, højt kaliumindhold i blodet og nyreproblemer 
 (se punkt 2 "Brug af andre lægemidler sammen med Aqumeldi") </p>
 </li>
@@ -682,7 +682,7 @@ følgende behandlinger: </p>
 <p>desensibilisering som behandling for allergi, f.eks. med bi- eller hvepsegift (hymenoptera venom) </p>
 </li>
 <li>
-<p>behandling til fjernelse af kolesterol fra blodet – også kaldet LDL-aferese. </p>
+<p>behandling til fjernelse af kolesterol fra blodet - også kaldet LDL-aferese. </p>
 </li>
 </ul>
 <p>Hvis noget af ovenstående gælder for dig eller dit barn, skal du tale med lægen eller tandlægen inden 
@@ -868,38 +868,38 @@ lægehjælp: </p>
 <ul>
 <li>
 <p>Hævelse af læber, øjne, mund eller svælg, som kan forårsage vejrtrækningsbesvær eller 
-synkebesvær (angioødem) – almindelig </p>
+synkebesvær (angioødem) - almindelig </p>
 </li>
 <li>
 <p>Blodsygdomme, herunder ændringer i blodværdier som f.eks. fald i antal hvide og røde 
-blodlegemer, fald i hæmoglobin, eller fald i antal blodplader – ikke almindelig </p>
+blodlegemer, fald i hæmoglobin, eller fald i antal blodplader - ikke almindelig </p>
 </li>
 <li>
 <p>Hjerteanfald (muligvis på grund af meget lavt blodtryk hos visse højrisikopatienter, herunder 
-patienter med problemer med blodtilførslen til hjertet eller hjernen) – ikke almindelig </p>
+patienter med problemer med blodtilførslen til hjertet eller hjernen) - ikke almindelig </p>
 </li>
 <li>
-<p>Slagtilfælde (muligvis på grund af meget lavt blodtryk hos højrisikopatienter) – ikke almindelig </p>
+<p>Slagtilfælde (muligvis på grund af meget lavt blodtryk hos højrisikopatienter) - ikke almindelig </p>
 </li>
 <li>
 <p>Blodlidelser (knoglemarvssvigt), herunder ændringer i blodværdier såsom reduceret antal hvide 
 blodlegemer (neutropeni), reduceret antal blodplader (trombocytopeni), sænket 
-hæmoglobinniveau, sænket hæmatokritniveau, pancytopeni, agranulocytose – sjælden </p>
+hæmoglobinniveau, sænket hæmatokritniveau, pancytopeni, agranulocytose - sjælden </p>
 </li>
 <li>
 <p>Svære hudreaktioner med rødme og hudafskalning, blærer eller ømme sår (Stevens-Johnsons 
-syndrom, toksisk epidermal nekrolyse) – sjælden </p>
+syndrom, toksisk epidermal nekrolyse) - sjælden </p>
 </li>
 <li>
-<p>Pludseligt og uventet forekommende udslæt eller brændende, rød eller afskallende hud – sjælden </p>
+<p>Pludseligt og uventet forekommende udslæt eller brændende, rød eller afskallende hud - sjælden </p>
 </li>
 <li>
 <p>Knoglemarven ophører med at producere nye blodceller, hvilket medfører træthed, ringere evne til 
-at bekæmpe infektioner, og ukontrolleret blødning (aplastisk anæmi) – sjælden </p>
+at bekæmpe infektioner, og ukontrolleret blødning (aplastisk anæmi) - sjælden </p>
 </li>
 <li>
 <p>Leverbetændelse, leversygdom, stigning i leverenzymer eller bilirubin (målt ved prøver), gulsot 
-(gulfarvning af hud og/eller øjne) – sjælden. 
+(gulfarvning af hud og/eller øjne) - sjælden. 
 Bivirkninger set hos børn, der får Aqumeldi til behandling af hjertesvigt: </p>
 </li>
 </ul>
@@ -1275,8 +1275,6 @@ Description: "ePI document Bundle for aqumeldi Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1299,8 +1297,6 @@ Description: "ePI document Bundle for aqumeldi Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1321,8 +1317,8 @@ Usage: #example
 
 Instance: mp5df3251458790d2240f34b809fdcc93e
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product aqumeldi"
-Description: "aqumeldi"
+Title: "Medicinal Product AQUMELDI 0.25 mg orodispersible tablets"
+Description: "AQUMELDI 0.25 mg orodispersible tablets"
 Usage: #inline
 
  
@@ -1335,14 +1331,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "AQUMELDI is indicated for the treatment of heart failure in children from birth to less than 18 years."
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "aqumeldi"
+  * productName = "AQUMELDI 0.25 mg orodispersible tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1362,10 +1355,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

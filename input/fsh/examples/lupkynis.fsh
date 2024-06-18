@@ -753,8 +753,6 @@ Description: "ePI document Bundle for lupkynis Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -777,8 +775,6 @@ Description: "ePI document Bundle for lupkynis Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -799,8 +795,8 @@ Usage: #example
 
 Instance: mp41b3735a6e59fac8a0512a47fdc116bd
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product lupkynis"
-Description: "lupkynis"
+Title: "Medicinal Product Lupkynis 7.9 mg soft capsules"
+Description: "Lupkynis 7.9 mg soft capsules"
 Usage: #inline
 
  
@@ -813,14 +809,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Lupkynis is indicated in combination with mycophenolate mofetil for the treatment of adult patients"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "lupkynis"
+  * productName = "Lupkynis 7.9 mg soft capsules"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -840,10 +833,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

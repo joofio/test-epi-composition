@@ -453,7 +453,7 @@ indsprøjte Aimovig på. Forsøg ikke at indsprøjte Aimovig, før denne oplæri
 herefter beslutte, om du skal stoppe med behandlingen. </p>
 <p>Aimovig injektionssprøjter er kun til engangsbrug. </p>
 <p>Der findes en udførlig instruktion i, hvordan Aimovig skal indsprøjtes i “Brugervejledning til Aimovig 
-fyldt injektionssprøjte” sidst i denne indlægsseddel. </p>
+fyldt injektionssprøjte" sidst i denne indlægsseddel. </p>
 <p>Hvis du har brugt for meget Aimovig 
 Hvis du har fået for meget Aimovig, eller hvis dosis er blevet givet tidligere, end den skulle, skal du 
 fortælle det til lægen. </p>
@@ -782,8 +782,6 @@ Description: "ePI document Bundle for aimovig Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -806,8 +804,6 @@ Description: "ePI document Bundle for aimovig Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -828,8 +824,8 @@ Usage: #example
 
 Instance: mp27621dca9c70d4aa804aaf075667f6df
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product aimovig"
-Description: "aimovig"
+Title: "Medicinal Product Aimovig 70 mg solution for injection in pre-filled syringe"
+Description: "Aimovig 70 mg solution for injection in pre-filled syringe"
 Usage: #inline
 
  
@@ -842,14 +838,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Aimovig is indicated for prophylaxis of migraine in adults who have at least 4 migraine days per"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "aimovig"
+  * productName = "Aimovig 70 mg solution for injection in pre-filled syringe"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -869,10 +862,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

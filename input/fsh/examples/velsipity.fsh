@@ -565,7 +565,7 @@ blodforsyning til hjertemusklen, og som opstår i hvile eller uden tydelig årsa
 mini-slagtilfælde (transitorisk iskæmisk attak) eller visse former for svært hjertesvigt inden 
 for de sidste 6 måneder.
 
-hvis du har visse typer uregelmæssig eller unormal hjerterytme (arytmi) – lægen vil 
+hvis du har visse typer uregelmæssig eller unormal hjerterytme (arytmi) - lægen vil 
 undersøge dit hjerte, før behandlingen påbegyndes.
 
 hvis du har en svær aktiv infektion eller aktiv kronisk infektion som fx leverbetændelse 
@@ -1032,8 +1032,6 @@ Description: "ePI document Bundle for velsipity Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1056,8 +1054,6 @@ Description: "ePI document Bundle for velsipity Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1078,8 +1074,8 @@ Usage: #example
 
 Instance: mp25e890f25f8f1bec07dd339802b5338b
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product velsipity"
-Description: "velsipity"
+Title: "Medicinal Product Velsipity 2 mg film-coated tablets"
+Description: "Velsipity 2 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1092,14 +1088,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Velsipity is indicated for the treatment of patients 16 years of age and older with moderately to"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "velsipity"
+  * productName = "Velsipity 2 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1119,10 +1112,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

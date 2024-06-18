@@ -499,7 +499,7 @@ Usage: #inline
   * code.text =  "1. What tybost is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tybost indeholder det aktive stof cobicistat. </p>
-<p>Tybost anvendes til behandling af human immundefektvirus-1 (hiv-1) infektion – det virus, der giver 
+<p>Tybost anvendes til behandling af human immundefektvirus-1 (hiv-1) infektion - det virus, der giver 
 erhvervet immundefektsyndrom (aids). Det anvendes hos hiv-1 inficerede voksne og unge i alderen 
 12 år og derover:  </p>
 <ul>
@@ -549,7 +549,7 @@ hovedpine </li>
 depression og angst </li>
 <li>lovastatin, simvastatin, anvendes til at sænke kolesterol i blodet </li>
 <li>pimozid, lurasidon, anvendes til at behandle unormale tanker og følelser </li>
-<li>sildenafil, anvendes til at behandle pulmonal arteriel hypertension – en lungesygdom, der 
+<li>sildenafil, anvendes til at behandle pulmonal arteriel hypertension - en lungesygdom, der 
 gør det vanskeligt at trække vejret </li>
 <li>oralt administreret midazolam, triazolam, anvendes til at hjælpe dig med at sove og/eller 
 lindre angst </li>
@@ -1016,8 +1016,6 @@ Description: "ePI document Bundle for tybost Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1040,8 +1038,6 @@ Description: "ePI document Bundle for tybost Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1062,8 +1058,8 @@ Usage: #example
 
 Instance: mpf9f99ae69c31ce78eb86e2425f62e81a
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product tybost"
-Description: "tybost"
+Title: "Medicinal Product Tybost 150 mg film-coated tablets"
+Description: "Tybost 150 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1076,14 +1072,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Tybost is indicated as a pharmacokinetic enhancer of atazanavir 300 mg once daily or darunavir"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "tybost"
+  * productName = "Tybost 150 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1103,10 +1096,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -659,8 +659,6 @@ Description: "ePI document Bundle for simulect Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -683,8 +681,6 @@ Description: "ePI document Bundle for simulect Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -705,8 +701,8 @@ Usage: #example
 
 Instance: mp8922f58fa03c5bb0f5736b85deead4c0
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product simulect"
-Description: "simulect"
+Title: "Medicinal Product Simulect 20 mg powder and solvent for solution for injection or infusion"
+Description: "Simulect 20 mg powder and solvent for solution for injection or infusion"
 Usage: #inline
 
  
@@ -719,14 +715,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Simulect is indicated for the prophylaxis of acute organ rejection in de novo allogeneic renal"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "simulect"
+  * productName = "Simulect 20 mg powder and solvent for solution for injection or infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -746,10 +739,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -773,8 +773,6 @@ Description: "ePI document Bundle for sevelamer Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -797,8 +795,6 @@ Description: "ePI document Bundle for sevelamer Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -819,8 +815,8 @@ Usage: #example
 
 Instance: mp682a1ddf5b561c3896c1e826a81d2aed
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product sevelamer"
-Description: "sevelamer"
+Title: "Medicinal Product Sevelamer carbonate Winthrop 800 mg film-coated tablets"
+Description: "Sevelamer carbonate Winthrop 800 mg film-coated tablets"
 Usage: #inline
 
  
@@ -833,14 +829,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Sevelamer carbonate Winthrop is indicated for the control of hyperphosphataemia in adult patients receiving"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "sevelamer"
+  * productName = "Sevelamer carbonate Winthrop 800 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -860,10 +853,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

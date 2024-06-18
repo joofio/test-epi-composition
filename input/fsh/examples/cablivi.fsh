@@ -602,7 +602,7 @@ sundhedspersoner om injektion af Cablivi i din blodåre findes i slutningen af i
 <p>Til hver injektion skal der bruges en ny kitpakning til at forberede injektionsopløsningen. Prøv ikke at 
 indsprøjte Cablivi, før du er blevet undervist i det af sundhedspersonen. Brug aldrig kittet til en anden 
 injektion. </p>
-<p>Trin 1 – Rengøring </p>
+<p>Trin 1 - Rengøring </p>
 <ul>
 <li>
 <p>Vask hænderne grundigt med sæbe og vand. </p>
@@ -614,7 +614,7 @@ injektion. </p>
 <p>Sørg for, at du har en affaldsbeholder ved hånden. </p>
 </li>
 </ul>
-<p>Trin 2 – Før brug </p>
+<p>Trin 2 - Før brug </p>
 <ul>
 <li>
 <p>Kontrollér at kitpakningen er komplet. </p>
@@ -634,7 +634,7 @@ stuetemperatur (15 °C-25 °C) ved at lade dem stå ved stuetemperatur i et par 
 ikke opvarmes på nogen anden måde.  </p>
 </li>
 </ul>
-<p>Trin 3 – Desinficer gummiproppen </p>
+<p>Trin 3 - Desinficer gummiproppen </p>
 <ul>
 <li>
 <p>Fjern plastikhætten på hætteglasset. Brug ikke hætteglasset, hvis den grønne plastikhætte 
@@ -649,7 +649,7 @@ par sekunder. </p>
 overflader.  </p>
 </li>
 </ul>
-<p>Trin 4 – Fastgørelse af adapteren </p>
+<p>Trin 4 - Fastgørelse af adapteren </p>
 <ul>
 <li>
 <p>Tag den indpakkede hætteglasadapter og fjern beskyttelsespapiret. Lad adapteren blive i den 
@@ -663,7 +663,7 @@ overflader.  </p>
 hætteglasproppen. Lad adapteren sidde i hætteglasset med plastikemballagen. </p>
 </li>
 </ul>
-<p>Trin 5 – Klargøring af injektionssprøjten </p>
+<p>Trin 5 - Klargøring af injektionssprøjten </p>
 <ul>
 <li>
 <p>Hold injektionssprøjten i den ene hånd og knæk den hvide hætte af med den anden hånd.  </p>
@@ -678,7 +678,7 @@ hætteglasproppen. Lad adapteren sidde i hætteglasset med plastikemballagen. </
 <p>Læg injektionssprøjten på den rene, flade overflade.  </p>
 </li>
 </ul>
-<p>Trin 6 – Forbind injektionssprøjten med adapter og hætteglas </p>
+<p>Trin 6 - Forbind injektionssprøjten med adapter og hætteglas </p>
 <ul>
 <li>
 <p>Tag hætteglasset med den påsatte adapter. </p>
@@ -697,7 +697,7 @@ på hætteglasadapteren.  </p>
 modstand. </p>
 </li>
 </ul>
-<p>Trin 7 – Klargør opløsningen </p>
+<p>Trin 7 - Klargør opløsningen </p>
 <ul>
 <li>
 <p>Lad hætteglasset stå lodret på overfladen med injektionssprøjten pegende nedad. </p>
@@ -713,14 +713,14 @@ ikke hætteglasset. </p>
 </li>
 <li>
 <p>Lad hætteglasset med tilsluttet injektionssprøjte stå på overfladen i 5 minutter ved 
-stuetemperatur, for at lade opløsningen blive helt opløst. Stemplet kan gå op igen af sig selv – 
+stuetemperatur, for at lade opløsningen blive helt opløst. Stemplet kan gå op igen af sig selv - 
 det er helt normalt.  </p>
 </li>
 <li>
 <p>Gå straks til trin 8 efter disse 5 minutter. </p>
 </li>
 </ul>
-<p>Trin 8 – Træk opløsningen op </p>
+<p>Trin 8 - Træk opløsningen op </p>
 <ul>
 <li>
 <p>Kontroller opløsningen for partikler. Alt pulver skal være opløst, og opløsningen skal være 
@@ -730,17 +730,17 @@ klar. </p>
 <p>Pres langsomt injektionssprøjtens stempel helt ned.  </p>
 </li>
 <li>
-<p>Vend det hele – hætteglas, adapter og injektionssprøjte – på hovedet. </p>
+<p>Vend det hele - hætteglas, adapter og injektionssprøjte - på hovedet. </p>
 </li>
 <li>
 <p>Mens det holdes lodret, trækkes stemplet op for at overføre hele opløsningen til 
 injektionssprøjten. Det må ikke rystes. </p>
 </li>
 </ul>
-<p>Trin 9 – Klargør injektionssprøjten til administration </p>
+<p>Trin 9 - Klargør injektionssprøjten til administration </p>
 <ul>
 <li>
-<p>Vend det hele – hætteglas, adapter og injektionssprøjte – tilbage igen (med sprøjten øverst). 
+<p>Vend det hele - hætteglas, adapter og injektionssprøjte - tilbage igen (med sprøjten øverst). 
 Adskil den fyldte injektionssprøjte fra adapteren ved at holde adapteren i en hånd og forsigtigt 
 dreje injektionssprøjten mod uret. </p>
 </li>
@@ -756,7 +756,7 @@ på den rene, flade overflade. </p>
 om injektion af Cablivi i din blodåre findes i slutningen af indlægssedlen. </p>
 </li>
 </ul>
-<p>Trin 10 – Fastgør kanylen </p>
+<p>Trin 10 - Fastgør kanylen </p>
 <ul>
 <li>
 <p>Pak kanylen ud ved at fjerne beskyttelsespapiret fra kanyleemballagen og tag kanylen med 
@@ -774,10 +774,10 @@ føles modstand.  </p>
 klumper eller andet, der ser unormalt ud. Kontakt din læge eller sygeplejerske, hvis dette sker. </p>
 </li>
 </ul>
-<p>Trin 11 – Klargør injektionsstedet til injektion under huden </p>
+<p>Trin 11 - Klargør injektionsstedet til injektion under huden </p>
 <ul>
 <li>
-<p>Vælg et passende sted (”injektionssted”) på din mave til injektion under huden. 
+<p>Vælg et passende sted ("injektionssted") på din mave til injektion under huden. 
 Undgå området omkring navlen. Vælg et andet injektionssted end det, du har brugt den 
 foregående dag, så huden kan komme sig efter injektionen. </p>
 </li>
@@ -785,7 +785,7 @@ foregående dag, så huden kan komme sig efter injektionen. </p>
 <p>Brug den anden alkoholserviet til at rense det injektionssted, du har valgt. </p>
 </li>
 </ul>
-<p>Trin 12 – Administration  </p>
+<p>Trin 12 - Administration  </p>
 <ul>
 <li>
 <p>Fjern forsigtigt beskyttelseshætten fra kanylen og smid den væk. Sørg for, at kanylen ikke rører 
@@ -817,7 +817,7 @@ fold.  </p>
 injektionsstedet. </p>
 </li>
 </ul>
-<p>Trin 13 – Efter administration </p>
+<p>Trin 13 - Efter administration </p>
 <ul>
 <li>
 <p>Straks efter injektionen sættes kanylebeskyttelseshylsteret over kanylen til det klikker på plads. </p>
@@ -962,7 +962,7 @@ ikke smide lægemiddelrester i afløbet eller skraldespanden. </p>         </div
 <li>Aktivt stof: caplacizumab. 
 Hvert hætteglas indeholder 10 mg caplacizumab. </li>
 <li>Øvrige indholdsstoffer: saccharose, citronsyre vandfri, trinatriumcitratdihydrat (se punkt 2 
-”Cablivi indeholder natrium”) og polysorbat 80. * fyldt injektionssprøjte 
+"Cablivi indeholder natrium") og polysorbat 80. * fyldt injektionssprøjte 
 Den fyldte injektionssprøjte indeholder 1 ml vand til injektionsvæsker. </li>
 </ul>
 <p>Udseende og pakningsstørrelser </p>
@@ -1030,7 +1030,7 @@ sanofi-aventis Μονοπρόσωπη AEBE
 Τηλ: +30 210 900 16<br />
 Österreich 
 sanofi-aventis GmbH 
-Tel: +43 1 80 185 – 0 </p>
+Tel: +43 1 80 185 - 0 </p>
 <p>España 
 sanofi-aventis, S.A. 
 Tel: +34 93 485 94<br />
@@ -1103,8 +1103,6 @@ Description: "ePI document Bundle for cablivi Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1127,8 +1125,6 @@ Description: "ePI document Bundle for cablivi Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1149,8 +1145,8 @@ Usage: #example
 
 Instance: mp2d5ce8dc4824b4100ae659aba75ae904
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product cablivi"
-Description: "cablivi"
+Title: "Medicinal Product Cablivi 10 mg powder and solvent for solution for injection"
+Description: "Cablivi 10 mg powder and solvent for solution for injection"
 Usage: #inline
 
  
@@ -1163,14 +1159,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Cablivi is indicated for the treatment of adults and adolescents of 12 years of age and older weighing"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "cablivi"
+  * productName = "Cablivi 10 mg powder and solvent for solution for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1190,10 +1183,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

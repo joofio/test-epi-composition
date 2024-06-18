@@ -959,7 +959,7 @@ patienten (ml)
 <p>**Børn, som vejer &gt; 50 kg og med eGFR &gt; 50 ml/min/1,73 m2, må ikke overstige den maksimale
 dosis på 1 g ceftolozan / 0,5 g tazobactam.
 Ud fra et mikrobiologisk synspunkt skal lægemidlet anvendes umiddelbart efter rekonstitution. Hvis
-det ikke anvendes med det samme, er opbevaringstid og –forhold før anvendelse brugerens ansvar og
+det ikke anvendes med det samme, er opbevaringstid og -forhold før anvendelse brugerens ansvar og
 vil normalt ikke være længere end 24 timer ved 2 °C til 8 °C, medmindre rekonstitution/fortynding har
 fundet sted under kontrollerede og validerede aseptiske forhold.
 Et af de aktive stoffer, ceftolozan, kan have skadelig effekt, hvis det udledes i
@@ -977,8 +977,6 @@ InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for zerbaxa Package Leaflet for language en"
 Description: "ePI document Bundle for zerbaxa Package Leaflet for language en"
 Usage: #example
-
-
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
@@ -1003,8 +1001,6 @@ Description: "ePI document Bundle for zerbaxa Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1025,8 +1021,8 @@ Usage: #example
 
 Instance: mp1482492b92c1ab38c7c6cfa8e927eb20
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product zerbaxa"
-Description: "zerbaxa"
+Title: "Medicinal Product Zerbaxa 1 g/0.5 g powder for concentrate for solution for infusion"
+Description: "Zerbaxa 1 g/0.5 g powder for concentrate for solution for infusion"
 Usage: #inline
 
  
@@ -1039,14 +1035,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Zerbaxa is indicated for the treatment of the following infections in adult and paediatric patients (see"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "zerbaxa"
+  * productName = "Zerbaxa 1 g/0.5 g powder for concentrate for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1066,10 +1059,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

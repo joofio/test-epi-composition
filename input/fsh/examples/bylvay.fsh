@@ -729,8 +729,6 @@ Description: "ePI document Bundle for bylvay Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -753,8 +751,6 @@ Description: "ePI document Bundle for bylvay Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -775,8 +771,8 @@ Usage: #example
 
 Instance: mp095ad71337cf86d5fe21eb3ee2e24f22
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product bylvay"
-Description: "bylvay"
+Title: "Medicinal Product Bylvay 200 micrograms hard capsules"
+Description: "Bylvay 200 micrograms hard capsules"
 Usage: #inline
 
  
@@ -789,14 +785,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Bylvay is indicated for the treatment of progressive familial intrahepatic cholestasis (PFIC) in patients"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "bylvay"
+  * productName = "Bylvay 200 micrograms hard capsules"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -816,10 +809,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

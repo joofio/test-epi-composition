@@ -912,8 +912,6 @@ Description: "ePI document Bundle for slenyto Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -936,8 +934,6 @@ Description: "ePI document Bundle for slenyto Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -958,8 +954,8 @@ Usage: #example
 
 Instance: mpf502911808bc1b6ee8b26c1badf235f8
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product slenyto"
-Description: "slenyto"
+Title: "Medicinal Product Slenyto 1 mg prolonged-release tablets"
+Description: "Slenyto 1 mg prolonged-release tablets"
 Usage: #inline
 
  
@@ -972,14 +968,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Slenyto is indicated for the treatment of insomnia in children and adolescents aged 2-18 with Autism"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "slenyto"
+  * productName = "Slenyto 1 mg prolonged-release tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -999,10 +992,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

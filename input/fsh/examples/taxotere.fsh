@@ -875,7 +875,7 @@ Sanofi-Aventis Μονοπρόσωπη AEBE
 Τηλ: +30 210 900 16<br />
 Österreich 
 sanofi-aventis GmbH 
-Tel: +43 1 80 185 – 0 </p>
+Tel: +43 1 80 185 - 0 </p>
 <p>España 
 sanofi-aventis, S.A. 
 Tel: +34 93 485 94<br />
@@ -1071,8 +1071,6 @@ Description: "ePI document Bundle for taxotere Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1095,8 +1093,6 @@ Description: "ePI document Bundle for taxotere Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1117,8 +1113,8 @@ Usage: #example
 
 Instance: mpba2de541591622fcd614de6be8043458
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product taxotere"
-Description: "taxotere"
+Title: "Medicinal Product TAXOTERE 20 mg/0.5 ml concentrate and solvent for solution for infusion"
+Description: "TAXOTERE 20 mg/0.5 ml concentrate and solvent for solution for infusion"
 Usage: #inline
 
  
@@ -1131,14 +1127,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Breast cancer"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "taxotere"
+  * productName = "TAXOTERE 20 mg/0.5 ml concentrate and solvent for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1158,10 +1151,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

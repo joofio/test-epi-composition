@@ -811,8 +811,6 @@ Description: "ePI document Bundle for teriflunomide Package Leaflet for language
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -835,8 +833,6 @@ Description: "ePI document Bundle for teriflunomide Package Leaflet for language
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -857,8 +853,8 @@ Usage: #example
 
 Instance: mp5c60b262e52a5c74cf3187377ecaedde
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product teriflunomide"
-Description: "teriflunomide"
+Title: "Medicinal Product Teriflunomide Accord 14 mg film-coated tablets"
+Description: "Teriflunomide Accord 14 mg film-coated tablets"
 Usage: #inline
 
  
@@ -871,14 +867,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Teriflunomide Accord is indicated for the treatment of adult patients and paediatric patients aged"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "teriflunomide"
+  * productName = "Teriflunomide Accord 14 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -898,10 +891,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

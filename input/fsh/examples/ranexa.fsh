@@ -783,8 +783,6 @@ Description: "ePI document Bundle for ranexa Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -807,8 +805,6 @@ Description: "ePI document Bundle for ranexa Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -829,8 +825,8 @@ Usage: #example
 
 Instance: mp2128cb95d4d26d25d7fa2c3944c0ae92
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product ranexa"
-Description: "ranexa"
+Title: "Medicinal Product Ranexa 375 mg prolonged-release tablets"
+Description: "Ranexa 375 mg prolonged-release tablets"
 Usage: #inline
 
  
@@ -843,14 +839,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Ranexa is indicated in adults as add-on therapy for the symptomatic treatment of patients with stable"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "ranexa"
+  * productName = "Ranexa 375 mg prolonged-release tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -870,10 +863,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

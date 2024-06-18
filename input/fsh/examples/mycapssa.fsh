@@ -769,8 +769,6 @@ Description: "ePI document Bundle for mycapssa Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -793,8 +791,6 @@ Description: "ePI document Bundle for mycapssa Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -815,8 +811,8 @@ Usage: #example
 
 Instance: mp8734938a1d7cc06ba1013b88ab4857e8
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product mycapssa"
-Description: "mycapssa"
+Title: "Medicinal Product Mycapssa 20 mg gastro-resistant hard capsules"
+Description: "Mycapssa 20 mg gastro-resistant hard capsules"
 Usage: #inline
 
  
@@ -829,14 +825,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Mycapssa is indicated for maintenance treatment in adult patients with acromegaly who have"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "mycapssa"
+  * productName = "Mycapssa 20 mg gastro-resistant hard capsules"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -856,10 +849,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -1066,8 +1066,6 @@ Description: "ePI document Bundle for tegsedi Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1090,8 +1088,6 @@ Description: "ePI document Bundle for tegsedi Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1112,8 +1108,8 @@ Usage: #example
 
 Instance: mpbb91b33a725934383f978ba47cb95161
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product tegsedi"
-Description: "tegsedi"
+Title: "Medicinal Product Tegsedi 284 mg solution for injection in pre-filled syringe"
+Description: "Tegsedi 284 mg solution for injection in pre-filled syringe"
 Usage: #inline
 
  
@@ -1126,14 +1122,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Tegsedi is indicated for the treatment of stage 1 or stage 2 polyneuropathy in adult patients with"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "tegsedi"
+  * productName = "Tegsedi 284 mg solution for injection in pre-filled syringe"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1153,10 +1146,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

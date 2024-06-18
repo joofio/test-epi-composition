@@ -434,7 +434,7 @@ væsentlige kaliumfrit. </p>         </div>"""
 som regel i overarmen. </p>
 <p>Du vil få én injektion. 
 Det anbefales, at du får VidPrevtyn Beta én gang som en booster dosis minimum 4 måneder efter 
-forudgående vaccinationsserie med enten en mRNA-vaccine eller en adenovirus–vektor COVID-vaccine. </p>
+forudgående vaccinationsserie med enten en mRNA-vaccine eller en adenovirus-vektor COVID-vaccine. </p>
 <p>Efter injektionen vil din læge, apotekspersonalet eller sygeplejersken holde øje med dig i omkring 
 15 minutter for at overvåge for tegn på en allergisk reaktion. </p>
 <p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis du har yderligere spørgsmål om brugen af 
@@ -616,9 +616,9 @@ af plastik. </p>
 <p>Efter blanding af antigenopløsningen med adjuvans-emulsionen indeholder hætteglasset 10 doser à 
 0,5 ml. </p>
 <p>Indehaver af markedsføringstilladelsen<br />
-Sanofi Pasteur - 14 Espace Henry Vallée - 69007 Lyon – Frankrig </p>
+Sanofi Pasteur - 14 Espace Henry Vallée - 69007 Lyon - Frankrig </p>
 <p>Fremstiller 
-Sanofi Pasteur - 1541 avenue Marcel Mérieux - 69280 Marcy l'Etoile – Frankrig </p>
+Sanofi Pasteur - 1541 avenue Marcel Mérieux - 69280 Marcy l'Etoile - Frankrig </p>
 <p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
 repræsentant for indehaveren af markedsføringstilladelsen: </p>
 <p>België/Belgique/Belgien 
@@ -714,7 +714,7 @@ batchnummer tydeligt registreres. </p>
 en tidligere COVID-19 vaccine. VidPrevtyn Beta kan gives én gang som en booster til voksne som 
 forudgående har fået vaccinationsserier med enten mRNA- eller adenovirus-vektor COVID-vacciner. </p>
 <p>Opbevaring før blanding </p>
-<p>Opbevares i køleskab (2 °C – 8 °C). Må ikke nedfryses.<br />
+<p>Opbevares i køleskab (2 °C - 8 °C). Må ikke nedfryses.<br />
 Opbevar hætteglasset i den ydre karton for at beskytte mod lys. </p>
 <p>Brug ikke denne vaccine efter den udløbsdato, der står på etiketten og æsken efter EXP. 
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
@@ -782,8 +782,6 @@ Description: "ePI document Bundle for vidprevtyn Package Leaflet for language en
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -806,8 +804,6 @@ Description: "ePI document Bundle for vidprevtyn Package Leaflet for language da
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -828,8 +824,8 @@ Usage: #example
 
 Instance: mp70fa014e07592e69938a0c03f0ec3015
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product vidprevtyn"
-Description: "vidprevtyn"
+Title: "Medicinal Product VidPrevtyn Beta solution and emulsion for emulsion for injection"
+Description: "VidPrevtyn Beta solution and emulsion for emulsion for injection"
 Usage: #inline
 
  
@@ -842,14 +838,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "VidPrevtyn Beta is indicated as a booster for active immunisation to prevent COVID-19 in adults"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "vidprevtyn"
+  * productName = "VidPrevtyn Beta solution and emulsion for emulsion for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -869,10 +862,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

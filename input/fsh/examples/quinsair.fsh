@@ -1066,9 +1066,15 @@ Figur 1
 3)
 Luk medicinbeholderen ved at rette tappene på medicinlåget ind i forhold til rillerne på 
 beholderen (a). Tryk ned, og drej låget med uret så langt, som det kan komme (b, figur 2).
-Figur 2
-Sådan skal du bruge Zirela-nebulisatorsystemet?
-1)
+Figur </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>1)
 Når du starter på din behandling, skal du sidde i en afslappet, oprejst stilling. 
 2)
 Hold håndsættet vandret, tryk på afbryderknappen på styreenheden, og hold den nede i nogle 
@@ -1121,13 +1127,12 @@ Du må ikke inhalere indholdet af mere end én ampul som erstatning for den glem
 Hvis du holder op med at bruge Quinsair
 Du må ikke holde op med at bruge Quinsair uden først at tale med lægen, da din lungeinfektion kan 
 blive forværret.
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
-
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""      
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "5. How to store quinsair"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "5. How to store quinsair"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
 Nogle bivirkninger kan være alvorlige
@@ -1347,10 +1352,11 @@ indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rappo
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
 om sikkerheden af dette lægemiddel.</p>         </div>"""      
         
+        
 * section[=].section[+]
-  * title = "5. How to store quinsair"
+  * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store quinsair"
+  * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
 Brug ikke lægemidlet efter den udløbsdato, der står på ampullen, foliebrevet og æskerne efter EXP. 
@@ -1363,143 +1369,6 @@ opbevaringstemperaturer for dette lægemiddel.
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
 smide medicinrester i afløbet, toilettet eller skraldespanden.
 42</p>         </div>"""      
-        
-        
-* section[=].section[+]
-  * title = "6. Contents of the pack and other information"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Quinsair indeholder:</h2>
-<p>Aktivt stof: levofloxacin. Èn ampul indeholder levofloxacinhemihydrat svarende til 240 mg 
-levofloxacin.
--
-Øvrige indholdsstoffer: magnesiumchloridhexahydrat og vand til injektioner.
-Udseende og pakningsstørrelser
-Quinsair er en klar, lysegul inhalationsvæske til nebulisator, opløsning.
-Lægemidlet leveres i små 3 ml plastampuller. Fire ampuller er forseglet i et foliebrev.
-Quinsair leveres som en 28 dages-pakning (indeholder én æske med 56 (14 breve med 
-hver 4) ampuller) eller som en 4 dages-pakning (indeholder 8 (2 breve med hver 4) og én æske, der 
-indeholder et Zirela-nebulisatorhåndsæt med producentens brugsanvisning.
-Ikke alle pakkestørrelser er nødvendigvis markedsført.
-Ampullen er kun mærket på engelsk. Oplysningerne på ampullen er:
-På forsiden af ampulunderdelen
-Quinsair 240 mg 
-Inhalationsvæske til nebulisator, opløsning.
-Levofloxacin
-Til inhalation
-2,4 ml
-I det “kreppede område" på begge sider af ampulunderdelen
-Lot
-EXP 
-Indehaver af markedsføringstilladelsen 
-Chiesi Farmaceutici S.p.A.
-Via Palermo, 26/A
-43122 Parma
-Italien
-Fremstiller
-Adare Pharmaceuticals S.r.l.
-Via Martin Luther King, 13
-20060 Pessano con Bornago (MI)
-Italien
-Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
-repræsentant for indehaveren af markedsføringstilladelsen:
-België/Belgique/Belgien
-Chiesi sa/nv 
-Tél/Tel: + 32 (0)2 788 42 00
-Lietuva
-Chiesi Pharmaceuticals GmbH 
-Tel: + 43 1 4073919
-България
-Chiesi Bulgaria EOOD 
-Teл.: + 359 29201205
-Luxembourg/Luxemburg
-Chiesi sa/nv 
-Tél/Tel: + 32 (0)2 788 42 00
-Česká republika
-Chiesi CZ s.r.o. 
-Tel: + 420 261221745
-Magyarország
-Chiesi Hungary Kft. 
-Tel.: + 36-1-429 1060
-43
-Danmark
-Chiesi Pharma AB 
-Tlf: + 46 8 753 35 20
-Malta
-Chiesi Farmaceutici S.p.A. 
-Tel: + 39 0521 2791
-Deutschland
-Chiesi GmbH 
-Tel: + 49 40 89724-0
-Nederland
-Chiesi Pharmaceuticals B.V. 
-Tel: + 31 88 501 64 00
-Eesti
-Chiesi Pharmaceuticals GmbH 
-Tel: + 43 1 4073919
-Norge
-Chiesi Pharma AB 
-Tlf: + 46 8 753 35 20
-Ελλάδα
-Chiesi Hellas AEBE 
-Τηλ: + 30 210 6179763
-Österreich
-Chiesi Pharmaceuticals GmbH 
-Tel: + 43 1 4073919
-España
-Chiesi España, S.A.U. 
-Tel: + 34 93 494 8000
-Polska
-Chiesi Poland Sp. z.o.o. 
-Tel.: + 48 22 620 1421
-France
-Chiesi S.A.S. 
-Tél: + 33 1 47688899
-Portugal
-Chiesi Farmaceutici S.p.A. 
-Tel: + 39 0521 2791
-Hrvatska
-Chiesi Pharmaceuticals GmbH 
-Tel: + 43 1 4073919
-România
-Chiesi Romania S.R.L. 
-Tel: + 40 212023642
-Ireland
-Chiesi Farmaceutici S.p.A.
-Tel: + 39 0521 2791
-Slovenija
-Chiesi Slovenija d.o.o. 
-Tel: + 386-1-43 00 901
-Ísland
-Chiesi Pharma AB 
-Sími: +46 8 753 35 20
-Slovenská republika
-Chiesi Slovakia s.r.o. 
-Tel: + 421 259300060
-Italia
-Chiesi Italia S.p.A. 
-Tel: + 39 0521 2791
-Suomi/Finland
-Chiesi Pharma AB 
-Puh/Tel: +46 8 753 35 20
-Κύπρος
-Chiesi Farmaceutici S.p.A. 
-Τηλ: + 39 0521 2791
-Sverige
-Chiesi Pharma AB 
-Tel: +46 8 753 35 20
-Latvija
-Chiesi Pharmaceuticals GmbH 
-Tel: + 43 1 4073919
-United Kingdom (Northern Ireland)
-Chiesi Farmaceutici S.p.A.<br />
-Tel: + 39 0521 2791
-Denne indlægsseddel blev senest ændret MM/ÅÅÅÅ.
-Andre informationskilder
-Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu. Der er også links til andre hjemmesider om sjældne 
-sygdomme og om, hvordan de behandles.</p>         </div>"""      
 
 
 
@@ -1511,8 +1380,6 @@ InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for quinsair Package Leaflet for language en"
 Description: "ePI document Bundle for quinsair Package Leaflet for language en"
 Usage: #example
-
-
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
@@ -1537,8 +1404,6 @@ Description: "ePI document Bundle for quinsair Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1559,8 +1424,8 @@ Usage: #example
 
 Instance: mp8077ecb6bda7580081b9f65b63060e8a
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product quinsair"
-Description: "quinsair"
+Title: "Medicinal Product Quinsair 240 mg nebuliser solution"
+Description: "Quinsair 240 mg nebuliser solution"
 Usage: #inline
 
  
@@ -1573,14 +1438,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Quinsair is indicated for the management of chronic pulmonary infections due to Pseudomonas"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "quinsair"
+  * productName = "Quinsair 240 mg nebuliser solution"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1600,10 +1462,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

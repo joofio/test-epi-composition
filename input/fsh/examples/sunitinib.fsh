@@ -661,24 +661,24 @@ på recept. </p>
 lægen, hvis du bruger lægemidler, som indeholder nogle af følgende aktive stoffer: </p>
 <ul>
 <li>
-<p>ketoconazol, itraconazol – bruges til behandling af svampeinfektion </p>
+<p>ketoconazol, itraconazol - bruges til behandling af svampeinfektion </p>
 </li>
 <li>
-<p>erythromycin, clarithromycin, rifampicin – bruges til behandling af infektion </p>
+<p>erythromycin, clarithromycin, rifampicin - bruges til behandling af infektion </p>
 </li>
 <li>
-<p>ritonavir – til behandling af hiv </p>
+<p>ritonavir - til behandling af hiv </p>
 </li>
 <li>
-<p>dexamethason – et binyrebarkhormon, som bruges til behandling af flere forskellige tilstande 
+<p>dexamethason - et binyrebarkhormon, som bruges til behandling af flere forskellige tilstande 
 (som fx allergi/vejrtrækningsproblemer og hudsygdomme) </p>
 </li>
 <li>
-<p>phenytoin, carbamazepin, phenobarbital – bruges til behandling af bl.a. epilepsi og andre 
+<p>phenytoin, carbamazepin, phenobarbital - bruges til behandling af bl.a. epilepsi og andre 
 forstyrrelser i nervesystemet </p>
 </li>
 <li>
-<p>naturlægemiddel, som indeholder perikon (Hypericum perforatum) – bruges til lindring af 
+<p>naturlægemiddel, som indeholder perikon (Hypericum perforatum) - bruges til lindring af 
 nervøsitet og nedtrykthed </p>
 </li>
 </ul>
@@ -1089,8 +1089,6 @@ Description: "ePI document Bundle for sunitinib Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1113,8 +1111,6 @@ Description: "ePI document Bundle for sunitinib Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1135,8 +1131,8 @@ Usage: #example
 
 Instance: mp68233cef8a2150549da332e078e2cbf5
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product sunitinib"
-Description: "sunitinib"
+Title: "Medicinal Product Sunitinib Accord 12.5 mg hard capsules"
+Description: "Sunitinib Accord 12.5 mg hard capsules"
 Usage: #inline
 
  
@@ -1149,14 +1145,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Gastrointestinal stromal tumour (GIST)"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "sunitinib"
+  * productName = "Sunitinib Accord 12.5 mg hard capsules"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1176,10 +1169,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

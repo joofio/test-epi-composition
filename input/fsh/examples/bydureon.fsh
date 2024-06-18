@@ -578,7 +578,7 @@ dele samtidig, skal du bruge to forskellige injektioner. Du kan tage begge injek
 på kroppen (for eksempel maveområdet), men du må ikke tage injektionerne direkte ved siden af 
 hinanden.Kontrollér jævnligt dine blodsukkerniveauer. Det er især vigtigt, hvis du også bruger et 
 sulfonylurea-produkt.
-Følg den “Brugervejledning”, som er vedlagt i æsken, når Bydureon skal indsprøjtes
+Følg den “Brugervejledning", som er vedlagt i æsken, når Bydureon skal indsprøjtes
 Din læge eller diabetessygeplejerske skal vise dig, hvordan du indsprøjter dette lægemiddel, inden du 
 bruger det den første gang.
 Kontrollér, at væsken i sprøjten er klar og fri for partikler, inden du går i gang. Efter opblanding må 
@@ -877,8 +877,6 @@ Description: "ePI document Bundle for bydureon Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -901,8 +899,6 @@ Description: "ePI document Bundle for bydureon Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -923,8 +919,8 @@ Usage: #example
 
 Instance: mp6314391ffa616dcd24b26dde0bda19df
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product bydureon"
-Description: "bydureon"
+Title: "Medicinal Product Bydureon 2 mg powder and solvent for prolonged-release suspension for injection"
+Description: "Bydureon 2 mg powder and solvent for prolonged-release suspension for injection"
 Usage: #inline
 
  
@@ -937,14 +933,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Bydureon is indicated in adults, adolescents and children aged 10 years and above with type 2 diabetes"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "bydureon"
+  * productName = "Bydureon 2 mg powder and solvent for prolonged-release suspension for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -964,10 +957,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

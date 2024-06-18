@@ -713,20 +713,20 @@ ansigtet eller halsen, brænden og svien på infusionsstedet, kuldegysninger, an
 hovedpine, nældefeber, lavt blodtryk, sløvhed, kvalme, rastløshed, hurtig puls, trykken for brystet, 
 prikkende fornemmelse, opkastning og hvæsende vejrtrækning. I nogle tilfælde har disse reaktioner 
 udviklet sig til alvorlig anafylaksi. Allergiske reaktioner kan forekomme sammen med udvikling af 
-faktor IX-inhibitor (se også ”Advarsler og forsigtighedsregler”).
+faktor IX-inhibitor (se også "Advarsler og forsigtighedsregler").
 Disse reaktioner er potentielt livstruende. Hvis allergiske/anafylaktiske reaktioner indtræffer, skal 
 indgivelsen straks stoppes og du skal straks søge læge eller skadestue. Den krævede behandling 
-afhænger af arten og alvorligheden af bivirkningerne (se også ”Advarsler og forsigtighedsregler”).
+afhænger af arten og alvorligheden af bivirkningerne (se også "Advarsler og forsigtighedsregler").
 Inhibitorudvikling
 Patienter med hæmofili B kan måske udvikle neutraliserende antistoffer (inhibitorer) til faktor IX. 
 Hvis sådanne inhibitorer forekommer, kan et tegn på denne tilstand være, at der er behov for en øget 
 30
 dosis til at behandle en blødning og/eller fortsat blødning efter behandling. I sådanne tilfælde 
 anbefales det, at et specialiseret hæmofilicenter kontaktes. Det kan være, at din læge vil overvåge dig 
-for udvikling af inhibitorer (se ”Advarsler og forsigtighedsregler”).
+for udvikling af inhibitorer (se "Advarsler og forsigtighedsregler").
 En nyrelidelse er blevet rapporteret efter indgivelse af høje doser af plasmafremstillet faktor IX efter 
 forsøgt immuntolerans hos hæmofili B patienter med faktor IX-inhibitorer og en fortid med allergiske 
-reaktioner (se også ”Advarsler og forsigtighedsregler”). 
+reaktioner (se også "Advarsler og forsigtighedsregler"). 
 Blodpropper
 BeneFIX kan øge risikoen for blodpropper (unormal blodstørkning) i kroppen, hvis der er 
 risikofaktorer til stede for at udvikle blodpropper, herunder hvis man har fået lagt venekateter. Der er 
@@ -980,8 +980,6 @@ Description: "ePI document Bundle for benefix Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1004,8 +1002,6 @@ Description: "ePI document Bundle for benefix Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1026,8 +1022,8 @@ Usage: #example
 
 Instance: mpc45ce23b80b7516d2d6bde1b18d3b181
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product benefix"
-Description: "benefix"
+Title: "Medicinal Product BeneFIX 250 IU powder and solvent for solution for injection"
+Description: "BeneFIX 250 IU powder and solvent for solution for injection"
 Usage: #inline
 
  
@@ -1040,14 +1036,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Treatment and prophylaxis of bleeding in patients with haemophilia B (congenital factor IX"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "benefix"
+  * productName = "BeneFIX 250 IU powder and solvent for solution for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1067,10 +1060,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

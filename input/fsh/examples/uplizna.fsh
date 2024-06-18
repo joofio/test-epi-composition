@@ -495,8 +495,6 @@ Description: "ePI document Bundle for uplizna Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -519,8 +517,6 @@ Description: "ePI document Bundle for uplizna Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -541,8 +537,8 @@ Usage: #example
 
 Instance: mp664d393693f4983d6c9e5af3f5904561
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product uplizna"
-Description: "uplizna"
+Title: "Medicinal Product Uplizna 100 mg concentrate for solution for infusion"
+Description: "Uplizna 100 mg concentrate for solution for infusion"
 Usage: #inline
 
  
@@ -555,14 +551,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Uplizna is indicated as monotherapy for the treatment of adult patients with neuromyelitis optica"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "uplizna"
+  * productName = "Uplizna 100 mg concentrate for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -582,10 +575,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

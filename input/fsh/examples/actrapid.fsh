@@ -554,7 +554,7 @@ eller for højt blodtryk) </p>
 <p>Thiazider (til behandling af for højt blodtryk eller ved væskeophobning) </p>
 </li>
 <li>
-<p>Glukokortikoider (såsom ”cortison” til behandling af inflammation (vævsirritation)) </p>
+<p>Glukokortikoider (såsom "cortison" til behandling af inflammation (vævsirritation)) </p>
 </li>
 <li>
 <p>Skjoldbruskkirtelhormon (til behandling af sygdomme i skjoldbruskkirtlen) </p>
@@ -810,7 +810,7 @@ ubehandlet resultere i diabetisk koma og i værste fald død.  </p>         </di
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar dette lægemiddel utilgængeligt for børn. </p>
 <p>Brug ikke dette lægemiddel efter den udløbsdato, der står på cylinderampullens etiket og pakningen efter 
 ‘EXP’. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
-<p>Før ibrugtagning: Opbevares i køleskab ved 2°C – 8°C. Må ikke opbevares tæt på køleelementet. Må 
+<p>Før ibrugtagning: Opbevares i køleskab ved 2°C - 8°C. Må ikke opbevares tæt på køleelementet. Må 
 ikke fryses. </p>
 <p>Under brug eller medbragt som reserve: Må ikke opbevares i køleskab eller fryses. Du kan have det 
 med dig og opbevare det ved stuetemperatur (under 30°C) i op til 6 uger. </p>
@@ -826,12 +826,12 @@ medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Actrapid indeholder: </p>
-<p>– 
-Aktivt stof: Humant insulin. Hver ml indeholder 100 IE humant insulin. Hver cylinderampul 
-indeholder 300 IE humant insulin i 3 ml injektionsvæske, opløsning. 
-– 
-Øvrige indholdsstoffer: Zinkchlorid, glycerol, metacresol, natriumhydroxid, saltsyre og vand til 
-injektionsvæsker.  </p>
+<ul>
+<li>Aktivt stof: Humant insulin. Hver ml indeholder 100 IE humant insulin. Hver cylinderampul 
+indeholder 300 IE humant insulin i 3 ml injektionsvæske, opløsning. </li>
+<li>Øvrige indholdsstoffer: Zinkchlorid, glycerol, metacresol, natriumhydroxid, saltsyre og vand til 
+injektionsvæsker.  </li>
+</ul>
 <p>Udseende og pakningsstørrelser </p>
 <p>Actrapid er en injektionsvæske, opløsning. </p>
 <p>Pakningstørrelser med 1, 5 og 10 cylinderampuller a 3 ml. Ikke alle pakningsstørrelser er nødvendigvis 
@@ -842,11 +842,15 @@ markedsført. </p>
 <p>Novo Nordisk A/S, Novo Allé, DK-2880 Bagsværd, Danmark. </p>
 <p>Fremstiller </p>
 <p>Fremstilleren kan identificeres ved batchnummeret, som er trykt på kartonens slip og på etiketten: </p>
-<p>– 
-Hvis andet og tredje skrifttegn er S6, P5, K7, R7, VG, FG eller ZF, så er fremstilleren Novo 
+<ul>
+<li>
+<p>Hvis andet og tredje skrifttegn er S6, P5, K7, R7, VG, FG eller ZF, så er fremstilleren Novo 
 Nordisk A/S, Novo Allé, DK-2880 Bagsværd, Danmark. </p>
-<p>– 
-Hvis andet og tredje skrifttegn er H7 eller T6, så er fremstilleren Novo Nordisk Production SAS, Avenue d’Orléans, F-28000 Chartres, Frankrig. </p>
+</li>
+<li>
+<p>Hvis andet og tredje skrifttegn er H7 eller T6, så er fremstilleren Novo Nordisk Production SAS, Avenue d’Orléans, F-28000 Chartres, Frankrig. </p>
+</li>
+</ul>
 <p>Denne indlægsseddel blev senest ændret </p>
 <p>Andre informationskilder </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
@@ -856,14 +860,14 @@ hjemmeside http://www.ema.europa.eu/.  </p>
 humant insulin </p>
 <p>Læs denne indlægsseddel grundigt, inden du begynder at tage dette lægemiddel, da den indeholder 
 vigtige oplysninger.<br />
-– 
+- 
 Gem indlægssedlen. Du kan få brug for at læse den igen. 
-– 
+- 
 Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er mere, du vil vide. 
-– 
+- 
 Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen til 
 andre. Det kan være skadeligt for andre, selv om de har de samme symptomer, som du har.<br />
-– 
+- 
 Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
 bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>         </div>"""      
 
@@ -877,8 +881,6 @@ InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for actrapid Package Leaflet for language en"
 Description: "ePI document Bundle for actrapid Package Leaflet for language en"
 Usage: #example
-
-
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
@@ -903,8 +905,6 @@ Description: "ePI document Bundle for actrapid Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -925,8 +925,8 @@ Usage: #example
 
 Instance: mp5e0fa5924c243f84290194737af8a73f
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product actrapid"
-Description: "actrapid"
+Title: "Medicinal Product Actrapid 40 international units/ml solution for injection in vial."
+Description: "Actrapid 40 international units/ml solution for injection in vial."
 Usage: #inline
 
  
@@ -939,14 +939,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Actrapid is indicated for treatment of diabetes mellitus."
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "actrapid"
+  * productName = "Actrapid 40 international units/ml solution for injection in vial."
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -966,10 +963,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

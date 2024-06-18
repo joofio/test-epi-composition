@@ -706,7 +706,7 @@ på recept, f.eks. naturlægemidler og vitaminer og mineraler. </p>
 visse former for medicin mod svampeinfektioner (f.eks. fluconazol, itraconazol, 
 voriconazol, posaconazol), medmindre de kun smøres på huden 
 ▪ 
-ketoconazoltabletter (bruges til at behandle Cushings syndrom – når kroppen producerer 
+ketoconazoltabletter (bruges til at behandle Cushings syndrom - når kroppen producerer 
 for meget kortisol) 
 ▪ 
 visse former for medicin mod bakterieinfektioner (f.eks. clarithromycin, erythromycin) 
@@ -1082,8 +1082,6 @@ Description: "ePI document Bundle for xarelto Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1106,8 +1104,6 @@ Description: "ePI document Bundle for xarelto Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1128,8 +1124,8 @@ Usage: #example
 
 Instance: mpfebe758b815af2dff26af1acacd31f32
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product xarelto"
-Description: "xarelto"
+Title: "Medicinal Product Xarelto 2.5 mg film-coated tablets"
+Description: "Xarelto 2.5 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1142,14 +1138,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Xarelto, co-administered with acetylsalicylic acid (ASA) alone or with ASA plus clopidogrel or"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "xarelto"
+  * productName = "Xarelto 2.5 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1169,10 +1162,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

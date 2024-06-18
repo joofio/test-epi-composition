@@ -443,7 +443,7 @@ Usage: #inline
   * code.text =  "1. What ambrisentan is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ambrisentan Mylan indeholder det aktive lægemiddelstof ambrisentan. Det tilhører en gruppe 
-lægemidler, der kaldes ”andre antihypertensiva” (der bruges til behandling af forhøjet blodtryk). </p>
+lægemidler, der kaldes "andre antihypertensiva" (der bruges til behandling af forhøjet blodtryk). </p>
 <p>Det bruges til at behandle pulmonal arteriel hypertension (PAH) hos voksne. Ved PAH er blodtrykket 
 forhøjet i de blodkar, der fører blodet fra hjertet til lungerne (lungearterierne). Disse blodkar er 
 forsnævrede hos patienter med PAH, og hjertet skal derfor pumpe kraftigere for at få blod igennem 
@@ -658,9 +658,9 @@ inkluderer: </p>
 <p>→ Fortæl det straks til lægen, hvis du (eller dit barn) får nogen af de nævnte bivirkninger, eller hvis 
 de opstår pludseligt, efter du har taget ambrisentan. </p>
 <p>Det er vigtigt, at du får taget blodprøver regelmæssigt, for at undersøge, om du har blodmangel, og 
-om din lever fungerer, som den skal. Sørg for også at læse informationen i punkt 2 ”Det er 
-nødvendigt, at du får taget regelmæssige blodprøver” og ”Følgende symptomer kan tyde på, at din 
-lever muligvis ikke fungerer, som den skal”. </p>
+om din lever fungerer, som den skal. Sørg for også at læse informationen i punkt 2 "Det er 
+nødvendigt, at du får taget regelmæssige blodprøver" og "Følgende symptomer kan tyde på, at din 
+lever muligvis ikke fungerer, som den skal". </p>
 <p>Andre bivirkninger 
 Meget almindelige (kan forekomme hos flere end 1 ud af 10 personer) </p>
 <ul>
@@ -917,8 +917,6 @@ Description: "ePI document Bundle for ambrisentan Package Leaflet for language e
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -941,8 +939,6 @@ Description: "ePI document Bundle for ambrisentan Package Leaflet for language d
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -963,8 +959,8 @@ Usage: #example
 
 Instance: mpf437466fa8717fd769398e5c38fe4716
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product ambrisentan"
-Description: "ambrisentan"
+Title: "Medicinal Product Ambrisentan Mylan 5 mg film-coated tablets"
+Description: "Ambrisentan Mylan 5 mg film-coated tablets"
 Usage: #inline
 
  
@@ -977,14 +973,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Ambrisentan Mylan is indicated for the treatment of pulmonary arterial hypertension (PAH) in adult"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "ambrisentan"
+  * productName = "Ambrisentan Mylan 5 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1004,10 +997,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

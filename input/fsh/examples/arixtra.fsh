@@ -396,7 +396,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Arixtra er et lægemiddel, som hjælper med til at forhindre, at der dannes blodpropper i 
 blodkarrene (et antitrombotisk middel). </p>
 <p>Arixtra indeholder et syntetisk stof kaldet fondaparinuxnatrium. Dette forhindrer koagulationsfaktor Xa 
-(”ti-A”) i at fungere i blodet, og forebygger derved dannelsen af uønskede blodpropper (tromboser) i 
+("ti-A") i at fungere i blodet, og forebygger derved dannelsen af uønskede blodpropper (tromboser) i 
 blodkarrene. </p>
 <p>Arixtra anvendes til: </p>
 <ul>
@@ -898,7 +898,7 @@ berøring med omgivelserne før injektionen.  </p>
 <li>
 <p>Det er helt normalt, at der er en lille luftboble i sprøjten. 
 Forsøg ikke at fjerne denne luftboble før 
-indsprøjtning – du risikerer at miste noget af 
+indsprøjtning - du risikerer at miste noget af 
 medicinen. </p>
 </li>
 </ul>
@@ -968,8 +968,6 @@ Description: "ePI document Bundle for arixtra Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -992,8 +990,6 @@ Description: "ePI document Bundle for arixtra Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1014,8 +1010,8 @@ Usage: #example
 
 Instance: mp3762e897869ef821659a1e76148e806a
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product arixtra"
-Description: "arixtra"
+Title: "Medicinal Product Arixtra 1.5 mg/0.3 ml solution for injection, pre-filled syringe."
+Description: "Arixtra 1.5 mg/0.3 ml solution for injection, pre-filled syringe."
 Usage: #inline
 
  
@@ -1028,14 +1024,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Prevention of Venous Thromboembolic Events (VTE) in adults undergoing major orthopaedic surgery"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "arixtra"
+  * productName = "Arixtra 1.5 mg/0.3 ml solution for injection, pre-filled syringe."
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1055,10 +1048,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -780,12 +780,12 @@ Lægen, apotekspersonalet eller sygeplejersken er ansvarlig for opbevaring af de
 bortskaffelse af ubrugt produkt. Følgende oplysninger om opbevaring, udløbsdato, brug og håndtering 
 samt bortskaffelse er beregnet til sundhedspersoner.
 Brug ikke denne vaccine efter den udløbsdato, der står på etiketten efter EXP.
-Opbevares i køleskab (2 °C – 8 °C).
+Opbevares i køleskab (2 °C - 8 °C).
 Må ikke nedfryses.
 Opbevar hætteglassene i den ydre karton for at beskytte mod lys.
 Fra tidspunktet for anbrud af hætteglasset (første kanylepunktur) skal det bruges inden for 6 timer ved 
 opbevaring ved temperaturer op til 30 °C. Herefter skal hætteglasset kasseres. Det må ikke sættes 
-tilbage i køleskabet. Alternativt kan et anbrudt hætteglas opbevares i køleskab (2 °C – 8 °C) i højst 
+tilbage i køleskabet. Alternativt kan et anbrudt hætteglas opbevares i køleskab (2 °C - 8 °C) i højst 
 48 timer, hvis det straks sættes tilbage i køleskabet efter hver punktur.
 Lægemidlet er ikke længere autoriseret til salg
 31
@@ -970,8 +970,6 @@ Description: "ePI document Bundle for vaxzevria Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -994,8 +992,6 @@ Description: "ePI document Bundle for vaxzevria Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1016,8 +1012,8 @@ Usage: #example
 
 Instance: mpcde7ce8acabc194cf70fa2b3b251f6cb
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product vaxzevria"
-Description: "vaxzevria"
+Title: "Medicinal Product Vaxzevria suspension for injection"
+Description: "Vaxzevria suspension for injection"
 Usage: #inline
 
  
@@ -1030,14 +1026,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Vaxzevria is indicated for active immunisation to prevent COVID-19 caused by SARS-CoV-2, in"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "vaxzevria"
+  * productName = "Vaxzevria suspension for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1057,10 +1050,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

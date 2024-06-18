@@ -503,7 +503,7 @@ mavesmerter, unormal afføring, kvalme, oppustethed, hovedpine, forhøjede nivea
 Ikke almindelig (kan forekomme hos op til 1 ud af 100 personer): muskelsmerter, forhøjede niveauer 
 af leverenzymer i blodet, synkebesvær. 
 Meget sjælden (kan forekomme hos op til 1 ud af 10.000 personer): betændelse i bugspytkirtlen. 
-Ikke kendt (kan ikke vurderes ud fra forhåndenværende data): blokeret tarm (tarmslyng – som kan 
+Ikke kendt (kan ikke vurderes ud fra forhåndenværende data): blokeret tarm (tarmslyng - som kan 
 være hyppigere hos patienter, som tidligere har haft tarmslyng eller har fået dele af tarmen fjernet). </p>
 <p>Indberetning af bivirkninger 
 Hvis De oplever bivirkninger, bør De tale med Deres læge, sygeplejerske eller apoteket. Dette gælder 
@@ -518,7 +518,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
   * code.text = "5. How to store cholestagel"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.  </p>
-<p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen efter “EXP”. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen efter “EXP". </p>
 <p>Hold tabletbeholderen tæt tillukket for at beskytte mod fugt. </p>
 <p>Spørg på apoteket, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke smide 
 medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
@@ -579,8 +579,6 @@ Description: "ePI document Bundle for cholestagel Package Leaflet for language e
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -603,8 +601,6 @@ Description: "ePI document Bundle for cholestagel Package Leaflet for language d
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -625,8 +621,8 @@ Usage: #example
 
 Instance: mp774fedb6c66b32bb4aacfa98a373a48f
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product cholestagel"
-Description: "cholestagel"
+Title: "Medicinal Product Cholestagel 625 mg film-coated tablets"
+Description: "Cholestagel 625 mg film-coated tablets"
 Usage: #inline
 
  
@@ -639,14 +635,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Cholestagel co-administered with a 3-hydroxy-3-methyl-glutaryl-coenzyme A (HMG-CoA) reductase"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "cholestagel"
+  * productName = "Cholestagel 625 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -666,10 +659,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

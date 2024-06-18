@@ -1111,17 +1111,7 @@ vigtige oplysninger for dig.
 - Lægen har ordineret Myclausen til dig personligt. Lad derfor være med at give det videre til andre. 
 Det kan være skadeligt for andre, selv om de har de samme sygdomstegn, som du har. 
 - Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som ikke 
-er nævnt her. Se afsnit 4. Oversigt over indlægssedlen: 
-1 
-Virkning og anvendelse 
-2 
-Det skal du vide, før du begynder at tage Myclausen 
-3 
-Sådan skal du tage Myclausen 
-4 
-Bivirkninger 
-5 
-Opbevaring </p>         </div>"""      
+er nævnt her. Se afsnit 4. Oversigt over indlægssedlen: </p>         </div>"""      
 
 
 
@@ -1133,8 +1123,6 @@ InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for myclausen Package Leaflet for language en"
 Description: "ePI document Bundle for myclausen Package Leaflet for language en"
 Usage: #example
-
-
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
@@ -1159,8 +1147,6 @@ Description: "ePI document Bundle for myclausen Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1181,8 +1167,8 @@ Usage: #example
 
 Instance: mp6326621176bd18eaa128ab504c98c814
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product myclausen"
-Description: "myclausen"
+Title: "Medicinal Product Myclausen 500 mg film-coated tablets"
+Description: "Myclausen 500 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1195,14 +1181,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Myclausen is indicated in combination with ciclosporin and corticosteroids for the prophylaxis of"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "myclausen"
+  * productName = "Myclausen 500 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1222,10 +1205,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

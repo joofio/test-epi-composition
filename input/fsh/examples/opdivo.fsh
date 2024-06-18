@@ -1672,8 +1672,6 @@ Description: "ePI document Bundle for opdivo Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1696,8 +1694,6 @@ Description: "ePI document Bundle for opdivo Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1718,8 +1714,8 @@ Usage: #example
 
 Instance: mpd585d8fe14b9492a241ac7bacfd89f6d
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product opdivo"
-Description: "opdivo"
+Title: "Medicinal Product OPDIVO 10 mg/mL concentrate for solution for infusion."
+Description: "OPDIVO 10 mg/mL concentrate for solution for infusion."
 Usage: #inline
 
  
@@ -1732,14 +1728,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Melanoma"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "opdivo"
+  * productName = "OPDIVO 10 mg/mL concentrate for solution for infusion."
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1759,10 +1752,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

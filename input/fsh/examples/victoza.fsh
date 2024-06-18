@@ -497,9 +497,8 @@ glucose co-transporter-2-hæmmer (SGLT2i)) og/eller insulin. </li>
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take victoza"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Victoza 
-– 
-Hvis du er allergisk over for liraglutid eller et af de øvrige indholdsstoffer i dette lægemiddel 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Brug ikke Victoza</h2>
+<p>Hvis du er allergisk over for liraglutid eller et af de øvrige indholdsstoffer i dette lægemiddel 
 (anført under punkt 6). </p>
 <p>Advarsler og forsigtighedsregler 
 Kontakt lægen, apotekspersonalet eller sygeplejersken:  </p>
@@ -765,10 +764,10 @@ lægemiddel. </p>         </div>"""
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på pennen og æsken efter ’EXP’. Udløbsdatoen 
 (EXP) er den sidste dag i den nævnte måned. </p>
 <p>Før brug: 
-Opbevares i køleskab (2°C–8°C). Må ikke fryses. Må ikke opbevares tæt på køleelementet. </p>
+Opbevares i køleskab (2°C-8°C). Må ikke fryses. Må ikke opbevares tæt på køleelementet. </p>
 <p>Efter ibrugtagning: 
 Du kan opbevare pennen i 1 måned, hvis den opbevares ved temperaturer under 30°C eller i køleskab 
-(2°C–8°C) på afstand af køleelementet. Må ikke fryses. 
+(2°C-8°C) på afstand af køleelementet. Må ikke fryses. 
 Når du ikke bruger pennen, skal den opbevares med hætten påsat for at beskytte mod lys. </p>
 <p>Brug ikke lægemidlet, hvis opløsningen ikke er klar og farveløs eller næsten farveløs. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
@@ -780,11 +779,10 @@ medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Victoza indeholder 
-– 
-Aktivt stof: Liraglutid. 1 ml injektionsvæske, opløsning, indeholder 6 mg liraglutid. Én fyldt 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Victoza indeholder</h2>
+<p>Aktivt stof: Liraglutid. 1 ml injektionsvæske, opløsning, indeholder 6 mg liraglutid. Én fyldt 
 pen indeholder 18 mg liraglutid. 
-– 
+- 
 Øvrige indholdsstoffer: Dinatriumphosphatdihydrat, propylenglycol, phenol og vand til 
 injektionsvæsker. </p>
 <p>Udseende og pakningsstørrelser 
@@ -900,7 +898,7 @@ fulde dosis med den nye pen. </p>
 <p>Forsøg ikke at vælge andre doser end 0,6 mg, 1,2 mg eller 1,8 mg. De viste tal skal være 
 nøjagtigt ud for markøren for at sikre, at du får en korrekt dosis. 
 Dosisvælgeren klikker, når den drejes. Brug ikke disse klik til at vælge din dosis. </p>
-<p>Brug ikke cylinderampulskalaen til at måle, hvor meget liraglutid der skal injiceres – den er 
+<p>Brug ikke cylinderampulskalaen til at måle, hvor meget liraglutid der skal injiceres - den er 
 ikke tilstrækkelig nøjagtig. 
 Injektion af dosis </p>
 <p>Stik nålen ind i huden på den måde, som lægen eller 
@@ -942,8 +940,6 @@ Description: "ePI document Bundle for victoza Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -966,8 +962,6 @@ Description: "ePI document Bundle for victoza Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -988,8 +982,8 @@ Usage: #example
 
 Instance: mp141d929731a8da3daac9f9a16668bc62
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product victoza"
-Description: "victoza"
+Title: "Medicinal Product Victoza 6 mg/ml solution for injection in pre-filled pen"
+Description: "Victoza 6 mg/ml solution for injection in pre-filled pen"
 Usage: #inline
 
  
@@ -1002,14 +996,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Victoza is indicated for the treatment of adults, adolescents and children aged 10 years and above with"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "victoza"
+  * productName = "Victoza 6 mg/ml solution for injection in pre-filled pen"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1029,10 +1020,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

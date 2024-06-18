@@ -924,12 +924,12 @@ Tel: +34 900 102<br />
 Portugal 
 Viatris Healthcare, Lda. 
 Av. D. João II,<br />
-Edifício Atlantis, nº 44C – 7.3 e 7.4 
+Edifício Atlantis, nº 44C - 7.3 e 7.4 
 1990-095 Lisboa 
 Tel: +351 214 127<br />
 France 
 Viatris Santé 
-1 bis place de la Défense – Tour Trinity 
+1 bis place de la Défense - Tour Trinity 
 92400 Courbevoie 
 Tél: +33 (0)1 40 80 15<br />
 România 
@@ -993,8 +993,6 @@ Description: "ePI document Bundle for zyclara Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1017,8 +1015,6 @@ Description: "ePI document Bundle for zyclara Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1039,8 +1035,8 @@ Usage: #example
 
 Instance: mp44ab08ec2fd441510cd1e000dae630ce
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product zyclara"
-Description: "zyclara"
+Title: "Medicinal Product Zyclara 3.75% cream"
+Description: "Zyclara 3.75% cream"
 Usage: #inline
 
  
@@ -1053,14 +1049,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Zyclara is indicated for the topical treatment of clinically typical, nonhyperkeratotic, nonhypertrophic,"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "zyclara"
+  * productName = "Zyclara 3.75% cream"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1080,10 +1073,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -503,10 +503,10 @@ apoteket. </p>
 Før du får ordineret Bronchitol, hjælper lægen dig med at tage den første dosis Bronchitol og tester din 
 lungefunktion ved hvert trin for at sikre sig, at du ikke er allergisk over for mannitol. Den første dosis 
 tages i 4 trin:  </p>
-<p>Trin 1 – 1 kapsel (40 mg) 
-Trin 2 – 2 kapsler (80 mg) 
-Trin 3 – 3 kapsler (120 mg) 
-Trin 4 – 4 kapsler (160 mg) </p>
+<p>Trin 1 - 1 kapsel (40 mg) 
+Trin 2 - 2 kapsler (80 mg) 
+Trin 3 - 3 kapsler (120 mg) 
+Trin 4 - 4 kapsler (160 mg) </p>
 <p>Når du har fået hele initialdosis (den første dosis), har du taget 10 kapsler (400 mg), hvilket er den 
 normale dosis. </p>
 <p>Behandlingsdosis (2-ugers-pakninger) 
@@ -644,7 +644,7 @@ kapsel er 32,2 mg mannitol. </p>
 <p>Udseende og pakningstørrelser: </p>
 <p>Bronchitol er et pulver til inhalation, som er fyldt i hårde kapsler. Bronchitol 40 mg inhalationspulver, 
 hårde kapsler, indeholder et hvidt eller næsten hvidt pulver, som er fyldt i klare, farveløse, hårde 
-kapsler med ”PXS 40 mg” påtrykt. Pulveret inhaleres i lungerne med den inhalator, som medfølger i 
+kapsler med "PXS 40 mg" påtrykt. Pulveret inhaleres i lungerne med den inhalator, som medfølger i 
 pakningen. </p>
 <p>Pakningen med en initialdosis Bronchitol indeholder 1 blister med 10 kapsler og 1 inhalator. 
 Pakningen med initialdosen bruges under vurderingen af initialdosen hos din læge. </p>
@@ -799,9 +799,9 @@ bunden af inhalatoren. </p>
 <p>Luk inhalatoren </p>
 </li>
 <li>Hold inhalatoren lodret. </li>
+<li>Drej derefter mundstykket til lukket position </li>
 <li>
-<p>Drej derefter mundstykket til lukket position 
-– du hører et 'klik', når den er lukket. </p>
+<p>du hører et 'klik', når den er lukket. </p>
 </li>
 <li>
 <p>Lav et hul i kapslen  </p>
@@ -836,7 +836,7 @@ pust helt ud (væk fra inhalatoren). </p>
 inhalatoren hen til munden, og luk læberne 
 helt tæt omkring mundstykket. </li>
 <li>Tag en rolig, dyb indånding for at fylde 
-lungerne, – og hold derefter vejret i 
+lungerne, - og hold derefter vejret i 
 5 sekunder. Når du trækker vejret ind, skal 
 du høre en ’raslende’ lyd, når kapslen roterer 
 i inhalatoren. Hvis det ikke sker, sidder 
@@ -856,7 +856,7 @@ løsne kapslen ved at trykke på prikkeknapperne igen. Gentag inhalationen for a
 <li>
 <p>Kontrollér kapslen </p>
 </li>
-<li>Se efter, om kapslen er tom – kapslen skal 
+<li>Se efter, om kapslen er tom - kapslen skal 
 rotere i inhalatoren for at blive tømt. Hvis 
 kapslen ikke er tømt, kan det være nødvendigt 
 at gentage trin 6-8. 10. Tag den brugte kapsel ud  </li>
@@ -877,12 +877,12 @@ at gentage trin 6-8. 10. Tag den brugte kapsel ud  </li>
 - Lad aldrig en brugt kapsel sidde i inhalatorens kammer. 
 - Brug en ny inhalator hver uge. 
 - Hvis inhalatoren går i stykker, skal du bruge den anden inhalator og kontakte din læge. </p>
-<p>Rengøring af inhalatoren – Inhalatoren vil normalt give den korrekte dosis medicin i 7 dage, uden at 
+<p>Rengøring af inhalatoren - Inhalatoren vil normalt give den korrekte dosis medicin i 7 dage, uden at 
 du behøver at rengøre den. Hvis inhalatoren alligevel skal rengøres, skal du gøre følgende: 
 1. Kontrollér, at inhalatoren er tom. 
 2. Vask inhalatoren i varmt vand med mundstykket åbent.<br />
 3. Ryst den, indtil der ikke er flere store dråber vand tilbage i inhalatoren.<br />
-4. Lad den lufttørre – læg den på siden med mundstykket åbent. 
+4. Lad den lufttørre - læg den på siden med mundstykket åbent. 
 5. Du skal lade den tørre helt. Det kan tage op til 24 timer. Brug den anden inhalator, mens den 
 tørrer. </p>         </div>"""      
 
@@ -896,8 +896,6 @@ InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for bronchitol Package Leaflet for language en"
 Description: "ePI document Bundle for bronchitol Package Leaflet for language en"
 Usage: #example
-
-
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
@@ -922,8 +920,6 @@ Description: "ePI document Bundle for bronchitol Package Leaflet for language da
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -944,8 +940,8 @@ Usage: #example
 
 Instance: mp2ec5cb8052ccbdb184e32cd4cc8c7dd4
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product bronchitol"
-Description: "bronchitol"
+Title: "Medicinal Product Bronchitol 40 mg inhalation powder, hard capsules"
+Description: "Bronchitol 40 mg inhalation powder, hard capsules"
 Usage: #inline
 
  
@@ -958,14 +954,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Bronchitol is indicated for the treatment of cystic fibrosis (CF) in adults aged 18 years and above as an"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "bronchitol"
+  * productName = "Bronchitol 40 mg inhalation powder, hard capsules"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -985,10 +978,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

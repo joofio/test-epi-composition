@@ -825,8 +825,6 @@ Description: "ePI document Bundle for erbitux Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -849,8 +847,6 @@ Description: "ePI document Bundle for erbitux Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -871,8 +867,8 @@ Usage: #example
 
 Instance: mpd84b65577b31a872cd6279c4e28cb6f8
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product erbitux"
-Description: "erbitux"
+Title: "Medicinal Product Erbitux 5 mg/mL solution for infusion"
+Description: "Erbitux 5 mg/mL solution for infusion"
 Usage: #inline
 
  
@@ -885,14 +881,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Erbitux is indicated for the treatment of patients with epidermal growth factor receptor (EGFR)-"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "erbitux"
+  * productName = "Erbitux 5 mg/mL solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -912,10 +905,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

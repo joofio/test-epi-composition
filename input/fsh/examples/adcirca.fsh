@@ -447,8 +447,8 @@ aktivitet. </p>         </div>"""
 <li>Hvis du tager nogen form for nitrater såsom amylnitrit, som bruges til behandling af 
 brystsmerter (angina pectoris). ADCIRCA har vist sig at øge virkningen af disse typer medicin. 
 Fortæl det til din læge, hvis du tager nogen form for nitrat, eller hvis du er i tvivl.  </li>
-<li>Hvis du på noget tidspunkt tidligere har haft synstab – en tilstand beskrevet som en ”blodprop i 
-øjet” (non-arteritis anterior iskæmisk opticusneuropati - NAION). </li>
+<li>Hvis du på noget tidspunkt tidligere har haft synstab - en tilstand beskrevet som en "blodprop i 
+øjet" (non-arteritis anterior iskæmisk opticusneuropati - NAION). </li>
 <li>Hvis du har haft et hjerteanfald inden for de sidste 3 måneder. </li>
 <li>Hvis du har lavt blodtryk. </li>
 <li>Hvis du tager riociguat. Dette lægemiddel bruges til at behandle pulmonal arteriel hypertension 
@@ -567,7 +567,7 @@ søge læge:</p>
 <p>Allergiske reaktioner herunder hududslæt (hyppighed: almindelig). </p>
 </li>
 <li>
-<p>Brystsmerter – brug ikke nitrater, men søg straks lægehjælp (hyppighed: almindelig). </p>
+<p>Brystsmerter - brug ikke nitrater, men søg straks lægehjælp (hyppighed: almindelig). </p>
 </li>
 <li>
 <p>Priapisme, en forlænget og muligvis smertefuld rejsning efter indtagelse af ADCIRCA 
@@ -644,14 +644,14 @@ ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>   
 <li>Aktivt stof: tadalafil. Hver tablet indeholder 20 mg tadalafil. </li>
 <li>Øvrige indholdsstoffer: 
 Tabletkerne: lactosemonohydrat, croscarmellosenatrium, hydroxypropylcellulose, mikrokrystallinsk 
-cellulose, natriumlaurilsulfat, magnesiumstearat, se punkt 2 ”ADCIRCA indeholder lactose” og 
-”ADCIRCA indeholder natrium”. </li>
+cellulose, natriumlaurilsulfat, magnesiumstearat, se punkt 2 "ADCIRCA indeholder lactose" og 
+"ADCIRCA indeholder natrium". </li>
 </ul>
 <p>Filmovertræk: lactosemonohydrat, hypromellose, triacetin, titandioxid (E171), gul jernoxid (E172), 
 rød jernoxid (E172), talcum. </p>
 <p>Udseende og pakningsstørrelser 
 ADCIRCA 20 mg er orange filmovertrukne tabletter (tabletter). De har form som mandler og er 
-mærket ”4467” på den ene side.  </p>
+mærket "4467" på den ene side.  </p>
 <p>ADCIRCA 20 mg fås i blisterpakninger med 28 eller 56 tabletter.  </p>
 <p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
 <p>Indehaver af markedsføringstilladelsen og fremstiller </p>
@@ -750,8 +750,6 @@ Description: "ePI document Bundle for adcirca Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -774,8 +772,6 @@ Description: "ePI document Bundle for adcirca Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -796,8 +792,8 @@ Usage: #example
 
 Instance: mp74802c3f483c85b7b9c5aba153dab57d
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product adcirca"
-Description: "adcirca"
+Title: "Medicinal Product ADCIRCA 20 mg film-coated tablets"
+Description: "ADCIRCA 20 mg film-coated tablets"
 Usage: #inline
 
  
@@ -810,14 +806,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Adults"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "adcirca"
+  * productName = "ADCIRCA 20 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -837,10 +830,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

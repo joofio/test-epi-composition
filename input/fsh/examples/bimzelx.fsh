@@ -587,9 +587,9 @@ træthed og forbedre din livskvalitet. </p>
 (radiografisk aksial spondylartritis) 
 Bimzelx bruges til at behandle voksne med en inflammatorisk sygdom, der hovedsageligt påvirker 
 rygsøjlen, hvilket forårsager inflammation af leddene i rygsøjlen, kaldet aksial spondylartritis. Hvis 
-sygdommen ikke kan ses på røntgenbilleder, kaldes den “non-radiografisk aksial spondylartritis”; hvis 
+sygdommen ikke kan ses på røntgenbilleder, kaldes den “non-radiografisk aksial spondylartritis"; hvis 
 den forekommer hos patienter med synlige sygdomstegn på røntgenbillederne, kaldes den 
-“ankyloserende spondylitis” eller “radiografisk aksial spondylartritis”.  </p>
+“ankyloserende spondylitis" eller “radiografisk aksial spondylartritis".  </p>
 <p>Hvis du har aksial spondylartritis, vil du først få andre lægemidler. Hvis sygdommen ikke responderer 
 godt nok på disse lægemidler, vil du få Bimzelx for at mindske tegnene og symptomerne på 
 sygdommen, dæmpe inflammationen og forbedre din fysiske funktion. Bimzelx kan hjælpe med at 
@@ -653,7 +653,7 @@ forværring af inflammatorisk tarmsygdom (Crohns sygdom eller colitis ulcerosa).
 <p>Hold øje med infektioner og allergiske reaktioner 
 Bimzelx kan i sjældne tilfælde forårsage alvorlige infektioner. </p>
 <p>Fortæl det straks til din læge eller søg lægehjælp, hvis du bemærker tegn på en alvorlig infektion. 
-Sådanne tegn er anført under “Alvorlige bivirkninger” i punkt 4. Bimzelx kan potentielt forårsage alvorlige allergiske reaktioner. Kontakt lægen eller søg straks 
+Sådanne tegn er anført under “Alvorlige bivirkninger" i punkt 4. Bimzelx kan potentielt forårsage alvorlige allergiske reaktioner. Kontakt lægen eller søg straks 
 lægehjælp, hvis du bemærker nogen tegn på en alvorlig allergisk reaktion. Sådanne tegn kan omfatte: </p>
 <ul>
 <li>
@@ -727,7 +727,7 @@ Den anbefalede dosis,  givet som injektioner under huden (subkutane injektioner)
 <p>Lægen eller sygeplejersken vil drøfte med dig, om du selv skal injicere lægemidlet. Du må ikke 
 injicere lægemidlet, medmindre du er blevet oplært af en sundhedsperson. En omsorgsperson, der er 
 blevet oplært i det, kan også give dig injektionerne. </p>
-<p>Læs “Brugsanvisningen” bagerst i indlægssedlen, før du injicerer Bimzelx fyldt injektionssprøjte 
+<p>Læs “Brugsanvisningen" bagerst i indlægssedlen, før du injicerer Bimzelx fyldt injektionssprøjte 
 selv. </p>
 <p>Hvis du har brugt for meget Bimzelx 
 Fortæl det til lægen, hvis du har brugt for meget Bimzelx, eller hvis du har injiceret din dosis, tidligere 
@@ -748,7 +748,7 @@ symptomer komme tilbage. </p>
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
 <p>Alvorlige bivirkninger 
 Fortæl det straks til din læge eller søg lægehjælp, hvis du oplever nogen af følgende bivirkninger: </p>
-<p>Mulig alvorlig infektion – tegnene kan omfatte: </p>
+<p>Mulig alvorlig infektion - tegnene kan omfatte: </p>
 <ul>
 <li>
 <p>feber, influenzalignende symptomer, nattesved </p>
@@ -1048,7 +1048,7 @@ arbejdsflade, som f.eks. et bord: </p>
 <p>1 eller 2 ren(e) vatkugle(r) </p>
 </li>
 <li>
-<p>1 beholder til skarpe genstande. Se “Bortskaf den brugte Bimzelx fyldte injektionssprøjte” i 
+<p>1 beholder til skarpe genstande. Se “Bortskaf den brugte Bimzelx fyldte injektionssprøjte" i 
 slutningen af denne brugsanvisning. </p>
 </li>
 </ul>
@@ -1169,8 +1169,6 @@ Description: "ePI document Bundle for bimzelx Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1193,8 +1191,6 @@ Description: "ePI document Bundle for bimzelx Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1215,8 +1211,8 @@ Usage: #example
 
 Instance: mp28d78e4ecee5ce96f67160a74729d480
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product bimzelx"
-Description: "bimzelx"
+Title: "Medicinal Product Bimzelx 160 mg solution for injection in pre-filled syringe"
+Description: "Bimzelx 160 mg solution for injection in pre-filled syringe"
 Usage: #inline
 
  
@@ -1229,14 +1225,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Plaque psoriasis"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "bimzelx"
+  * productName = "Bimzelx 160 mg solution for injection in pre-filled syringe"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1256,10 +1249,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

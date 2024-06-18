@@ -457,7 +457,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
   * code.text = "5. How to store ammonaps"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
-<p>Brug ikke AMMONAPS efter den udløbsdato, der står på pakningen og flaskeetiketten efter ”EXP”. 
+<p>Brug ikke AMMONAPS efter den udløbsdato, der står på pakningen og flaskeetiketten efter "EXP". 
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Må ikke opbevares ved temperaturer over 30°C. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
@@ -476,14 +476,14 @@ Hver tablet med AMMONAPS indeholder 500 mg natriumphenylbutyrat. </li>
 <li>Øvrige indholdsstoffer: mikrokrystallinsk cellulose, magnesiumstearat og kolloid vandfri silica. </li>
 </ul>
 <p>Udseende og pakningsstørrelser 
-AMMONAPS tabletter er off-white, ovale og påtrykt “UCY 500”. </p>
+AMMONAPS tabletter er off-white, ovale og påtrykt “UCY 500". </p>
 <p>Tabletterne er pakket i plastflasker med børnesikret låg. Hver flaske indeholder 250 eller 500 tabletter. </p>
 <p>Indehaver af markedsføringstilladelsen 
 Immedica Pharma AB 
 SE-113 63 Stockholm 
 Sverige </p>
 <p>Fremstiller 
-PATHEON France – BOURGOIN JALLIEU 
+PATHEON France - BOURGOIN JALLIEU 
 40 boulevard de Champaret 
 BOURGOIN JALLIEU 
 38Frankrig </p>
@@ -514,8 +514,6 @@ Description: "ePI document Bundle for ammonaps Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -538,8 +536,6 @@ Description: "ePI document Bundle for ammonaps Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -560,8 +556,8 @@ Usage: #example
 
 Instance: mp36d93771f3347f288be457a7d33515c7
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product ammonaps"
-Description: "ammonaps"
+Title: "Medicinal Product AMMONAPS 500 mg tablets."
+Description: "AMMONAPS 500 mg tablets."
 Usage: #inline
 
  
@@ -574,14 +570,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "AMMONAPS is indicated as adjunctive therapy in the chronic management of urea cycle disorders,"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "ammonaps"
+  * productName = "AMMONAPS 500 mg tablets."
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -601,10 +594,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

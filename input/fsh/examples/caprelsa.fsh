@@ -552,7 +552,7 @@ hæmme deres vækst. </p>         </div>"""
 <ul>
 <li>hvis du er allergisk over for vandetanib eller et af de øvrige indholdsstoffer i Caprelsa (angivet i 
 punkt 6). </li>
-<li>hvis du er født med et hjerteproblem kaldet ”medfødt langt QTc-syndrom”. Dette kan ses på et 
+<li>hvis du er født med et hjerteproblem kaldet "medfødt langt QTc-syndrom". Dette kan ses på et 
 elektrokardiogram (EKG). </li>
 <li>hvis du ammer. </li>
 <li>hvis du tager et af følgende lægemidler: arsenik, cisaprid (mod halsbrand), erythromycin som 
@@ -704,7 +704,7 @@ eventuelle omsorgspersoner. </p>
 Hvis du har problemer med at sluge tabletten, kan du blande den med vand på følgende måde: </p>
 <ul>
 <li>
-<p>Tag et halvt glas postevand (uden brus). Brug kun vand – brug ikke nogen andre væsker. </p>
+<p>Tag et halvt glas postevand (uden brus). Brug kun vand - brug ikke nogen andre væsker. </p>
 </li>
 <li>
 <p>Læg tabletten i vandet. </p>
@@ -750,7 +750,7 @@ Du må ikke tage en dobbeltdosis som erstatning for den glemte tablet. </p>
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. 
 Hvis du får bivirkninger, vil din læge muligvis fortælle dig, at du skal tage Caprelsa ved en lavere 
 dosis. Din læge kan også ordinere andre lægemidler for at hjælpe med at kontrollere bivirkningerne. </p>
-<p>Fortæl det straks til din læge, hvis du oplever en af følgende bivirkninger – det kan være, du 
+<p>Fortæl det straks til din læge, hvis du oplever en af følgende bivirkninger - det kan være, du 
 behøver akut medicinsk behandling: </p>
 <ul>
 <li>
@@ -1177,8 +1177,8 @@ titandioxid (E171). </p>
 </li>
 </ul>
 <p>Udseende og pakningsstørrelser 
-Caprelsa 100 mg er en rund, hvid filmovertrukket tablet mærket med ”Z100” på den ene side. 
-Caprelsa 300 mg er en oval, hvid filmovertrukket tablet mærket med ”Z300” på den ene side. </p>
+Caprelsa 100 mg er en rund, hvid filmovertrukket tablet mærket med "Z100" på den ene side. 
+Caprelsa 300 mg er en oval, hvid filmovertrukket tablet mærket med "Z300" på den ene side. </p>
 <p>Caprelsa leveres i blisterpakninger med 30 tabletter. </p>
 <p>Indehaver af markedsføringstilladelse<br />
 Sanofi B.V. 
@@ -1230,7 +1230,7 @@ Tel.: +48 22 280 00  </p>
 <p>Ελλάδα 
 Sanofi-Aventis Μονοπρόσωπη AEBE 
 Τηλ: +30 210 900 16 Portugal 
-Sanofi – Produtos Farmacêuticos, Lda. 
+Sanofi - Produtos Farmacêuticos, Lda. 
 Tel: +351 21 35 89  </p>
 <p>España 
 sanofi-aventis, S.A. 
@@ -1294,8 +1294,6 @@ Description: "ePI document Bundle for caprelsa Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1318,8 +1316,6 @@ Description: "ePI document Bundle for caprelsa Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1340,8 +1336,8 @@ Usage: #example
 
 Instance: mpf3d8b9999dbf0bb7ed96cabee591db10
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product caprelsa"
-Description: "caprelsa"
+Title: "Medicinal Product Caprelsa 100 mg film-coated tablets"
+Description: "Caprelsa 100 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1354,14 +1350,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Caprelsa is indicated for the treatment of aggressive and symptomatic Rearranged during Transfection"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "caprelsa"
+  * productName = "Caprelsa 100 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1381,10 +1374,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

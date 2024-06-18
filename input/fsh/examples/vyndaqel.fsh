@@ -509,7 +509,7 @@ til 12,2 mg tafamidis.
 indeholder sorbitol"]; mannitol (E421); sorbitan; gul jernoxid (E172); titandioxid (E171); vand, 
 renset; macrogol 400 (E1521); sorbitanmono-oleate (E494); polysorbat 80 (E433); ethanol; 
 isopropylalkohol; polyvinylacetatphthalat; propylenglycol (E1520); carmin (E120); blå farve 
-(Brilliant Blue fcf – E133) og ammoniumhydroxid (E527).
+(Brilliant Blue fcf - E133) og ammoniumhydroxid (E527).
 Udseende og pakningsstørrelser
 Vyndaqel bløde kapsler er gule, uigennemsigtige, aflange (ca. 21 mm) mærket med "VYN 20" med 
 rødt blæk. Vyndaqel findes i 2 pakningsstørrelser af PVC/PA/alu/PVC-alu perforerede 
@@ -676,8 +676,6 @@ Description: "ePI document Bundle for vyndaqel Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -700,8 +698,6 @@ Description: "ePI document Bundle for vyndaqel Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -722,8 +718,8 @@ Usage: #example
 
 Instance: mp895d12c7e06fa00ecf48ed16e513c5f0
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product vyndaqel"
-Description: "vyndaqel"
+Title: "Medicinal Product Vyndaqel 20 mg soft capsules"
+Description: "Vyndaqel 20 mg soft capsules"
 Usage: #inline
 
  
@@ -736,14 +732,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Vyndaqel is indicated for the treatment of transthyretin amyloidosis in adult patients with stage 1"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "vyndaqel"
+  * productName = "Vyndaqel 20 mg soft capsules"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -763,10 +756,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

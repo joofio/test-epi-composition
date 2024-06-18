@@ -490,12 +490,12 @@ dannelse af blodpropper). </li>
 <li>Du har haft symptomer på et slagtilfælde, der forsvinder i løbet af kort tid (kaldes også en 
 forbigående blodprop), eller et lille iskæmisk slagtilfælde. Du har muligvis også fået 
 acetylsalicylsyre af lægen inden for de første 24 timer. </li>
-<li>Du har uregelmæssig hjerterytme (en sygdom kaldet ”atrieflimren”) og ikke må tage medicin 
+<li>Du har uregelmæssig hjerterytme (en sygdom kaldet "atrieflimren") og ikke må tage medicin 
 kendt som orale antikoagulantia (vitamin K-antagonister), der kan forebygge dannelsen af nye 
 blodpropper og forhindre eksisterende blodpropper i at vokse. Du bør være blevet informeret 
-om, at ”orale antikoagulantia” er mere effektive mod denne sygdom end acetylsalicylsyre eller 
+om, at "orale antikoagulantia" er mere effektive mod denne sygdom end acetylsalicylsyre eller 
 kombinationen af Grepid og acetylsalicylsyre. Din læge bør have udskrevet Grepid plus 
-acetylsalicylsyre, hvis du ikke må tage ”orale antikoagulantia”, og du ikke har risiko for </li>
+acetylsalicylsyre, hvis du ikke må tage "orale antikoagulantia", og du ikke har risiko for </li>
 </ul>
 <p>alvorlig blødning.  </p>         </div>"""   
           
@@ -642,7 +642,7 @@ væsentlige natriumfrit. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid dette lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisninger. Er du i tvivl, så 
 spørg lægen eller apotekspersonalet. </p>
-<p>Den anbefalede dosis, herunder også til patienter med ”atrieflimmer” (uregelmæssig hjerterytme), er 1 
+<p>Den anbefalede dosis, herunder også til patienter med "atrieflimmer" (uregelmæssig hjerterytme), er 1 
 Grepid -tablet på 75 mg dagligt på samme tidspunkt hver dag. Tabletten indtages gennem munden 
 med eller uden mad. </p>
 <p>Hvis du har haft alvorlige brystsmerter (ustabil angina pectoris eller hjertetilfælde), vil din læge måske 
@@ -864,8 +864,6 @@ Description: "ePI document Bundle for grepid Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -888,8 +886,6 @@ Description: "ePI document Bundle for grepid Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -910,8 +906,8 @@ Usage: #example
 
 Instance: mp744dd2d849c3e92fc852e3f500b2711e
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product grepid"
-Description: "grepid"
+Title: "Medicinal Product Grepid 75 mg film-coated tablets"
+Description: "Grepid 75 mg film-coated tablets"
 Usage: #inline
 
  
@@ -924,14 +920,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Secondary prevention of atherothrombotic events"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "grepid"
+  * productName = "Grepid 75 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -951,10 +944,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

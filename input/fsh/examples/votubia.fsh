@@ -592,11 +592,9 @@ Usage: #inline
 et aktivt stof, der hedder everolimus, som kan mindske størrelsen af nyresvulster, kaldet renale 
 angiomyolipomer, og hjernesvulster, kaldet subependymale kæmpecelle-astrocytomer (SEGA). Disse 
 tumorer er forårsaget af en genetisk lidelse, der kaldes tuberøst sclerose-kompleks (TSC). </p>
-<p>Votubia tabletter anvendes til at behandle: 
-– 
-voksne med TSC og renalt angiomyolipom, som ikke kræver umiddelbart indgreb. 
-– 
-SEGA forbundet med TSC hos voksne og børn, hvor operation ikke er hensigtsmæssig. </p>         </div>"""   
+<h2>Votubia tabletter anvendes til at behandle:</h2>
+<h2>voksne med TSC og renalt angiomyolipom, som ikke kræver umiddelbart indgreb.</h2>
+<p>SEGA forbundet med TSC hos voksne og børn, hvor operation ikke er hensigtsmæssig. </p>         </div>"""   
           
 
              
@@ -715,7 +713,7 @@ rifampicin, som bruges til behandling af tuberkulose (TB).
 − 
 efavirenz eller nevirapin, der bruges til behandling af HIV-infektion/AIDS. 
 − 
-perikon (Hypericum perforatum) – et naturlægemiddel, der bruges til behandling af depression 
+perikon (Hypericum perforatum) - et naturlægemiddel, der bruges til behandling af depression 
 og andre tilstande. 
 − 
 dexamethason, et kortikosteroid, som bruges til behandling af en række tilstande, blandt andet 
@@ -1191,8 +1189,6 @@ Description: "ePI document Bundle for votubia Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1215,8 +1211,6 @@ Description: "ePI document Bundle for votubia Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1237,8 +1231,8 @@ Usage: #example
 
 Instance: mp2c8c6ac450595b1fe82bdcbd366c3744
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product votubia"
-Description: "votubia"
+Title: "Medicinal Product Votubia 2.5 mg tablets"
+Description: "Votubia 2.5 mg tablets"
 Usage: #inline
 
  
@@ -1251,14 +1245,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Renal angiomyolipoma associated with tuberous sclerosis complex (TSC)"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "votubia"
+  * productName = "Votubia 2.5 mg tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1278,10 +1269,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

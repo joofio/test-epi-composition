@@ -1029,7 +1029,7 @@ Større
 ∆b VWF:RCo x legemsvægt (kg) /IR c 
 a Ekstra rFVIII kan være nødvendig for at opnå det anbefalede maksimale målniveau for FVIII:C i plasma. 
 Doseringsvejledning skal foretages på basis af IR. 
-b ∆ = Maksimalt målniveau for VWF:RCo i plasma – baseline VWF:RCo i plasma 
+b ∆ = Maksimalt målniveau for VWF:RCo i plasma - baseline VWF:RCo i plasma 
 cIR = Incremental Recovery (inkrementel genfinding) målt hos forsøgspersonen. Hvis IR ikke er tilgængelig, 
 forudsættes en IR på 0,02 IE/ml pr. IE/kg. </p>
 <p>Under og efter kirurgiske indgreb </p>
@@ -1082,15 +1082,13 @@ Mindre
 Hver 12.-
 24. time/hver 
 anden dag 
-Større </p>
-<blockquote>
-<p>0,50 IE/ml 
-0,30 IE/ml &gt; 0,50 IE/ml &gt; 0,40 IE/ml 
+Større 
+&gt; 0,50 IE/ml 
+&gt; 0,30 IE/ml &gt; 0,50 IE/ml &gt; 0,40 IE/ml 
 72 timer 
 Hver 12.-
 24. time/hver 
 anden dag </p>
-</blockquote>
 <p>Profylaktisk behandling </p>
 <p>For indledning af langsigtet profylakse mod blødninger hos patienter med VWD, skal doser på 40 til 
 60 IE/kg af VEYVONDI, der administreres to gange ugentligt, overvejes. Afhængigt af patientens 
@@ -1111,8 +1109,6 @@ InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for veyvondi Package Leaflet for language en"
 Description: "ePI document Bundle for veyvondi Package Leaflet for language en"
 Usage: #example
-
-
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
@@ -1137,8 +1133,6 @@ Description: "ePI document Bundle for veyvondi Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1159,8 +1153,8 @@ Usage: #example
 
 Instance: mpa911acdcc16d3ea6bdce7272ad3df51a
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product veyvondi"
-Description: "veyvondi"
+Title: "Medicinal Product VEYVONDI 650 IU powder and solvent for solution for injection"
+Description: "VEYVONDI 650 IU powder and solvent for solution for injection"
 Usage: #inline
 
  
@@ -1173,14 +1167,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Prevention and treatment of haemorrhage or surgical bleeding in adults (age 18 years and older) with"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "veyvondi"
+  * productName = "VEYVONDI 650 IU powder and solvent for solution for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1200,10 +1191,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

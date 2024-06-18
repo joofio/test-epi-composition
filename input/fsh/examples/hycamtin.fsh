@@ -974,8 +974,6 @@ Description: "ePI document Bundle for hycamtin Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -998,8 +996,6 @@ Description: "ePI document Bundle for hycamtin Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1020,8 +1016,8 @@ Usage: #example
 
 Instance: mpd9561f20b6898b3c62b048e0c8b52401
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product hycamtin"
-Description: "hycamtin"
+Title: "Medicinal Product HYCAMTIN 1 mg powder for concentrate for solution for infusion"
+Description: "HYCAMTIN 1 mg powder for concentrate for solution for infusion"
 Usage: #inline
 
  
@@ -1034,14 +1030,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Topotecan monotherapy is indicated for the treatment of:"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "hycamtin"
+  * productName = "HYCAMTIN 1 mg powder for concentrate for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1061,10 +1054,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

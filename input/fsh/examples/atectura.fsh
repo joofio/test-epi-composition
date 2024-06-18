@@ -666,7 +666,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
 <li>Opbevar lægemidlet utilgængeligt for børn. </li>
-<li>Tag ikke lægemidlet efter den udløbsdato, der står på pakningen og blisteren efter “EXP”. 
+<li>Tag ikke lægemidlet efter den udløbsdato, der står på pakningen og blisteren efter “EXP". 
 Udløbsdatoen er den sidste dag i den nævnte måned. </li>
 <li>Må ikke opbevares ved temperaturer over 30°C. </li>
 <li>Opbevar kapslerne i den originale blister for at beskytte mod lys og fugt, og tag først kapslerne 
@@ -704,18 +704,18 @@ indacaterol) og 320 mikrogram mometasonfuroat. Leveret dosis (den dosis, der afg
 mundstykket af inhalatoren) svarer til 125 mikrogram indacaterol og 260 mikrogram 
 mometasonfuroat. </p>
 <ul>
-<li>Øvrige indholdsstoffer: lactosemonohydrat (se “Atectura Breezhaler indeholder lactose” under 
+<li>Øvrige indholdsstoffer: lactosemonohydrat (se “Atectura Breezhaler indeholder lactose" under 
 punkt 2). </li>
 </ul>
 <p>Udseende og pakningsstørrelser 
 I denne pakning vil du finde en inhalator sammen med kapsler i blistere. Nogle pakninger vil også 
 indeholde en sensor. Kapslerne er gennemsigtige og indeholder et hvidt pulver. 
-- Atectura Breezhaler 125 mikrogram/62,5 mikrogram kapsler har produktkoden “IM150-80” 
+- Atectura Breezhaler 125 mikrogram/62,5 mikrogram kapsler har produktkoden “IM150-80" 
 trykt med blåt over én blå streg på underdelen og et logo trykt med blåt og omgivet af to blå 
 streger på hætten. 
-- Atectura Breezhaler 125 mikrogram/127,5 mikrogram kapsler har produktkoden “IM150-160” 
+- Atectura Breezhaler 125 mikrogram/127,5 mikrogram kapsler har produktkoden “IM150-160" 
 trykt med gråt på underdelen og et logo trykt med gråt på hætten. 
-- Atectura Breezhaler 125 mikrogram/260 mikrogram kapsler har produktkoden “IM150-320” 
+- Atectura Breezhaler 125 mikrogram/260 mikrogram kapsler har produktkoden “IM150-320" 
 trykt med sort over to sorte streger på underdelen og et logo trykt med sort og omgivet af to 
 sorte streger på hætten. </p>
 <p>Følgende pakningsstørrelser er tilgængelige: 
@@ -983,7 +983,7 @@ din medicin. Luk
 inhalatoren, og gentag 
 trin 3a til 3d. </p>
 <p>Jeg hostede, efter jeg 
-inhalerede – betyder det 
+inhalerede - betyder det 
 noget? 
 Dette kan forekomme. Så 
 længe at kapslen er tom, 
@@ -991,7 +991,7 @@ har du fået en tilstrækkelig
 mængde af din medicin. </p>
 <p>Jeg kunne mærke små 
 stykker af kapslen på 
-min tunge – betyder det 
+min tunge - betyder det 
 noget? 
 Dette kan forekomme, og 
 det er ikke farligt. 
@@ -1040,8 +1040,6 @@ Description: "ePI document Bundle for atectura Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1064,8 +1062,6 @@ Description: "ePI document Bundle for atectura Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1086,8 +1082,8 @@ Usage: #example
 
 Instance: mp888f93180b4dbc4cf7451a0e821152da
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product atectura"
-Description: "atectura"
+Title: "Medicinal Product Atectura Breezhaler 125 micrograms/62.5 micrograms inhalation powder, hard capsules"
+Description: "Atectura Breezhaler 125 micrograms/62.5 micrograms inhalation powder, hard capsules"
 Usage: #inline
 
  
@@ -1100,14 +1096,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Atectura Breezhaler is indicated as a maintenance treatment of asthma in adults and adolescents"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "atectura"
+  * productName = "Atectura Breezhaler 125 micrograms/62.5 micrograms inhalation powder, hard capsules"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1127,10 +1120,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

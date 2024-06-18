@@ -883,8 +883,6 @@ Description: "ePI document Bundle for kimmtrak Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -907,8 +905,6 @@ Description: "ePI document Bundle for kimmtrak Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -929,8 +925,8 @@ Usage: #example
 
 Instance: mp1e954682407ee7d7521ef7ec82e30f79
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product kimmtrak"
-Description: "kimmtrak"
+Title: "Medicinal Product KIMMTRAK 100 micrograms/0.5 mL concentrate for solution for infusion"
+Description: "KIMMTRAK 100 micrograms/0.5 mL concentrate for solution for infusion"
 Usage: #inline
 
  
@@ -943,14 +939,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "KIMMTRAK is indicated as monotherapy for the treatment of human leukocyte antigen"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "kimmtrak"
+  * productName = "KIMMTRAK 100 micrograms/0.5 mL concentrate for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -970,10 +963,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

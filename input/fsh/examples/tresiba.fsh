@@ -477,20 +477,20 @@ Kontakt lægen, apotekspersonalet eller sygeplejersken, før du tager Tresiba. V
 på følgende: </p>
 <ul>
 <li>
-<p>Lavt blodsukker (hypoglykæmi) – hvis dit blodsukker er for lavt, følg vejledningen for lavt 
-blodsukker under punkt 4. * Højt blodsukker (hyperglykæmi) – hvis dit blodsukker er for højt, følg vejledningen for højt 
-blodsukker under punkt 4. * Skift fra andre insulinpræparater – hvis du skifter fra en anden type, et andet mærke eller en 
+<p>Lavt blodsukker (hypoglykæmi) - hvis dit blodsukker er for lavt, følg vejledningen for lavt 
+blodsukker under punkt 4. * Højt blodsukker (hyperglykæmi) - hvis dit blodsukker er for højt, følg vejledningen for højt 
+blodsukker under punkt 4. * Skift fra andre insulinpræparater - hvis du skifter fra en anden type, et andet mærke eller en 
 anden fabrikant af insulin, kan det medføre et behov for ændring af dosis. Tal med din læge. </p>
 </li>
 <li>
 <p>Brug af Pioglitazon sammen med insulin, se "Pioglitazon" nedenfor. </p>
 </li>
 <li>
-<p>Øjensygdom – hurtigt forbedret blodsukkerkontrol kan være forbundet med en forværring af 
+<p>Øjensygdom - hurtigt forbedret blodsukkerkontrol kan være forbundet med en forværring af 
 diabetisk øjensygdom, der er forbigående. Tal med din læge, hvis du oplever øjenproblemer. </p>
 </li>
 <li>
-<p>Sikre dig, at du anvender den rigtige type insulin – kontrollér altid insulinetiketten før hver 
+<p>Sikre dig, at du anvender den rigtige type insulin - kontrollér altid insulinetiketten før hver 
 injektion for at undgå utilsigtet forveksling af forskellige Tresiba styrker, såvel som andre 
 insulinpræparater. </p>
 </li>
@@ -693,7 +693,7 @@ udtage lægemidlet fra pennen. </p>
 </ul>
 <p>Der er en detaljeret vejledning på den anden side af denne indlægsseddel. </p>
 <p>Hvis du har taget for meget Tresiba 
-Hvis du tager for meget insulin, kan dit blodsukker blive for lavt (hypoglykæmi) – se informationen i 
+Hvis du tager for meget insulin, kan dit blodsukker blive for lavt (hypoglykæmi) - se informationen i 
 punkt 4 "For lavt blodsukker". </p>
 <p>Hvis du har glemt at tage Tresiba 
 Hvis du glemmer en dosis, skal du injicere den glemte dosis, når du opdager forglemmelsen, men med 
@@ -765,7 +765,7 @@ kvalme, træthed og kløe. </p>
 <p>For lavt blodsukker kan forekomme, hvis du: 
 drikker alkohol, bruger for meget insulin, motionerer mere end normalt, spiser for lidt eller springer et 
 måltid over. </p>
-<p>Advarselssignalerne på for lavt blodsukker – de kan komme pludseligt: 
+<p>Advarselssignalerne på for lavt blodsukker - de kan komme pludseligt: 
 Hovedpine, sløret tale, hurtig hjertebanken, koldsved, kold og bleg hud, kvalme, usædvanlig stor 
 sultfornemmelse, rysten, nervøsitet eller bekymring, unormal træthed, svaghed og døsighed, 
 forvirring, koncentrationsbesvær, kortvarige synsforstyrrelser. </p>
@@ -837,7 +837,7 @@ insulininjektioner, måltider eller motion. </p>
 Spiser mere eller dyrker mindre motion, end du plejer, drikker alkohol, får en infektion eller feber, 
 ikke har taget tilstrækkeligt insulin, gentagne gange tager mindre insulin end nødvendigt, glemmer at 
 tage insulin eller stopper med at tage insulin uden at tale med lægen. </p>
-<p>Advarselssignalerne på for højt blodsukker – de kommer normalt gradvist: 
+<p>Advarselssignalerne på for højt blodsukker - de kommer normalt gradvist: 
 Rødme og tør hud, døsighed eller træthed, mundtørhed, frugtagtig (acetonelugtende) ånde, hyppigere 
 vandladning, tørst, appetitløshed, kvalme eller opkastning. 
 Disse symptomer kan betyde, at du har en meget alvorlig tilstand kaldet ketoacidose. Det er en 
@@ -1208,14 +1208,14 @@ Indlægsseddel: Information til patienten </p>
 insulin degludec </p>
 <p>Læs denne indlægsseddel grundigt, inden du begynder at tage dette lægemiddel, da den 
 indeholder vigtige oplysninger. 
-– 
+- 
 Gem indlægssedlen. Du kan få brug for at læse den igen. 
-– 
+- 
 Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er mere, du vil vide. 
-– 
+- 
 Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
-– 
+- 
 Tal med lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
 bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>         </div>"""      
 
@@ -1229,8 +1229,6 @@ InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for tresiba Package Leaflet for language en"
 Description: "ePI document Bundle for tresiba Package Leaflet for language en"
 Usage: #example
-
-
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
@@ -1255,8 +1253,6 @@ Description: "ePI document Bundle for tresiba Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1277,8 +1273,8 @@ Usage: #example
 
 Instance: mpfab5fa92013ddb0c611232569286ddbb
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product tresiba"
-Description: "tresiba"
+Title: "Medicinal Product Tresiba 100 units/mL solution for injection in pre-filled pen"
+Description: "Tresiba 100 units/mL solution for injection in pre-filled pen"
 Usage: #inline
 
  
@@ -1291,14 +1287,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Treatment of diabetes mellitus in adults, adolescents and children from the age of 1 year."
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "tresiba"
+  * productName = "Tresiba 100 units/mL solution for injection in pre-filled pen"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1318,10 +1311,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

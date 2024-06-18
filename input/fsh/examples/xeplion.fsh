@@ -841,14 +841,14 @@ Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p> 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
 Fortæl det straks til din læge, hvis du:
 
-får blodpropper i venerne – særligt i benene (med symptomer som hævelse, smerte og rødmen 
+får blodpropper i venerne - særligt i benene (med symptomer som hævelse, smerte og rødmen 
 på benene). Blodpropper kan løsrives og føres med blodet til lungerne, hvor de kan forårsage 
 brystsmerter og åndedrætsbesvær. Hvis du får nogle af disse symptomer, skal du omgående
 søge læge eller skadestue.
 73
 
 er dement og oplever en pludselig forandring i din sindstilstand eller pludselig svækkelse eller 
-følelsesløshed i ansigtet, arme eller ben – især i den ene side – eller taleforstyrrelser, også selv 
+følelsesløshed i ansigtet, arme eller ben - især i den ene side - eller taleforstyrrelser, også selv 
 om det er kortvarigt. Disse symptomer kan være tegn på et slagtilfælde.
 
 får feber, muskelstivhed, svedudbrud eller svækket bevidsthed (en tilstand kaldet malignt 
@@ -1363,8 +1363,6 @@ Description: "ePI document Bundle for xeplion Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1387,8 +1385,6 @@ Description: "ePI document Bundle for xeplion Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1409,8 +1405,8 @@ Usage: #example
 
 Instance: mp492a437b12024dde8d19defc1975028b
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product xeplion"
-Description: "xeplion"
+Title: "Medicinal Product Xeplion 25 mg prolonged release suspension for injection"
+Description: "Xeplion 25 mg prolonged release suspension for injection"
 Usage: #inline
 
  
@@ -1423,14 +1419,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Xeplion is indicated for maintenance treatment of schizophrenia in adult patients stabilised with"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "xeplion"
+  * productName = "Xeplion 25 mg prolonged release suspension for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1450,10 +1443,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

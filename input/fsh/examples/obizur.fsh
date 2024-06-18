@@ -767,9 +767,8 @@ overfladisk
 muskulær / ingen 
 neurovaskulær 
 kompromittering og 
-ledblødning </p>
-<blockquote>
-<p>50 % 
+ledblødning 
+&gt;50 % 
 Titrer 
 efterfølgende 
 doser på basis 
@@ -791,8 +790,7 @@ svær intramuskulær,
 retroperitoneal, 
 gastrointestinal, 
 intrakranial blødning 
-80 % </p>
-</blockquote>         </div>"""      
+&gt;80 % </p>         </div>"""      
 
 
 
@@ -804,8 +802,6 @@ InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for obizur Package Leaflet for language en"
 Description: "ePI document Bundle for obizur Package Leaflet for language en"
 Usage: #example
-
-
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
@@ -830,8 +826,6 @@ Description: "ePI document Bundle for obizur Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -852,8 +846,8 @@ Usage: #example
 
 Instance: mp4361504119fec5762723adfabb108410
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product obizur"
-Description: "obizur"
+Title: "Medicinal Product OBIZUR 500 U powder and solvent for solution for injection"
+Description: "OBIZUR 500 U powder and solvent for solution for injection"
 Usage: #inline
 
  
@@ -866,14 +860,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Treatment of bleeding episodes in patients with acquired haemophilia caused by antibodies to"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "obizur"
+  * productName = "OBIZUR 500 U powder and solvent for solution for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -893,10 +884,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

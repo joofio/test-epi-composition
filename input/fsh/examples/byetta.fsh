@@ -557,7 +557,7 @@ Byetta indeholder metacresol
 Metacresol kan fremkalde allergiske reaktioner.
 Byetta indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. dosis. Det vil sige, at det stort 
-set er ”natrium-frit”.</p>         </div>"""   
+set er "natrium-frit".</p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take byetta"
@@ -729,7 +729,7 @@ lægemiddel.</p>         </div>"""
   * code.text = "5. How to store byetta"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
-Brug ikke lægemidlet efter den udløbsdato, der står på etiketten og kartonen efter ”EXP”. 
+Brug ikke lægemidlet efter den udløbsdato, der står på etiketten og kartonen efter "EXP". 
 Udløbsdatoen er den sidste dag i den nævnte måned.
 Opbevares i køleskab (2ºC - 8ºC). Når en pen er taget i brug, skal den opbevares ved temperaturer 
 under 25ºC i 30 dage. Kassér en brugt pen efter 30 dage, selv hvis der er medicin tilbage i pennen.
@@ -879,13 +879,13 @@ BRUGSANVISNING TIL PENNEN
 Byetta 5 mikrogram injektionsvæske, opløsning i en fyldt pen
 (exenatid)
 BRUGSANVISNING OVERSIGT
-Afsnit 1 – HVAD DU HAR BRUG FOR AT VIDE OM DIN BYETTA-PEN
-Afsnit 2 – KOM I GANG: TIL FØRSTEGANGSBRUGERE ELLER NY PEN
-Afsnit 3 – RUTINEMÆSSIG BRUG: TIL PERSONER, SOM HAR KLARGJORT DERES 
+Afsnit 1 - HVAD DU HAR BRUG FOR AT VIDE OM DIN BYETTA-PEN
+Afsnit 2 - KOM I GANG: TIL FØRSTEGANGSBRUGERE ELLER NY PEN
+Afsnit 3 - RUTINEMÆSSIG BRUG: TIL PERSONER, SOM HAR KLARGJORT DERES 
 PEN
-Afsnit 4 – SPØRGSMÅL OG SVAR: SPØRGSMÅL ANGÅENDE PENNEN
+Afsnit 4 - SPØRGSMÅL OG SVAR: SPØRGSMÅL ANGÅENDE PENNEN
 Afsnit 1. HVAD DU HAR BRUG FOR AT VIDE OM DIN BYETTA-PEN
-Læs hele dette afsnit før du begynder. Fortsæt derefter til Afsnit 2 – Kom i gang.
+Læs hele dette afsnit før du begynder. Fortsæt derefter til Afsnit 2 - Kom i gang.
 Læs denne vejledning omhyggeligt, FØR du bruger din Byetta-pen. Læs også den medfølgende 
 indlægsseddel for Byetta, som ligger i æsken til Byetta-pennen.
 Du skal anvende pennen korrekt for at få mest gavn af Byetta. Hvis du ikke følger denne vejledning 
@@ -959,7 +959,7 @@ pennen, og denne dato kan du også notere her:
 Dato for første ibrugtagning
 Kasseringsdato
 
-Byetta må ikke anvendes efter den udløbsdato, der er trykt på etiketten efter ”EXP”. 
+Byetta må ikke anvendes efter den udløbsdato, der er trykt på etiketten efter "EXP". 
 Udløbsdatoen (EXP) er den sidste dag i den nævnte måned.
 Hvordan rengør jeg Byetta-pennen?
 
@@ -1004,7 +1004,7 @@ Beskyttelses-
 flig
 doseringsknappen er inde og klar til 
 nulstilling
-KLARGØRING AF NY PEN – DETTE SKAL KUN GØRES ÉN GANG
+KLARGØRING AF NY PEN - DETTE SKAL KUN GØRES ÉN GANG
 TRIN A Kontrol af pennen
 
 Vask hænder inden brug.
@@ -1159,517 +1159,7 @@ Sæt den blå hætte på pennen igen før opbevaring.
 
 Kassér nålen i en egnet beholder til spidse genstande, eller som anbefalet af din læge eller 
 diabetessygeplejerske.
-TRIN 7 Opbevaring af pennen indtil næste dosis
-
-Opbevar din Byetta-pen rigtigt. (Se Opbevaring af din Byetta-pen i afsnit 1 i denne 
-brugsanvisning for mere information.)
-
-Når det er tid til din næste rutinemæssig dosis, så gå til afsnit 3, trin 1, og gentag trin 1 – 7. Afsnit 4. SPØRGSMÅL OG SVAR
-1. Skal jeg udføre Klargøring af ny pen før hver dosis?
-
-Nej. Klargøring af ny pen skal kun udføres én gang, lige før hver ny pen anvendes første gang.
-44
-
-Formålet med klargøringen er at kontrollere, at din Byetta-pen er klar til brug de næste 30 dage.
-
-Hvis du gentager ”Klargøring af ny pen” før hver rutinemæssige brug, vil du ikke have 
-nok Byetta til 30 dages forbrug. Den lille mængde Byetta, der anvendes til klargøring af ny 
-pen, påvirker ikke 30 dagesforsyningen af Byetta.
-2. Hvorfor er der luftbobler i cylinderampullen?
-
-En lille luftboble er normal. Dette vil ikke være til skade eller have indflydelse på din dosis.
-
-Hvis pennen opbevares med nålen påsat, kan der dannes luftbobler i cylinderampullen. Pennen 
-må ikke opbevares med nålen på.
-3. Hvad skal jeg gøre, hvis der ikke kommer Byetta ud af nålespidsen efter fire forsøg under 
-Klargøring af ny pen?
-
-Sæt forsigtigt den ydre nålehætte på igen, og skru nålen af, og kasser nålen forsvarligt.
-
-Påsæt en ny nål og gentag ”Klargøring af ny pen”, trin B – E, i afsnit 2 i denne 
-brugsanvisning. Når du ser adskillige dråber væske komme ud af nålen, er klargøringen fuldført.
-4. Hvorfor er der partikler i cylinderampullen, efter jeg har taget min injektion?
-Efter en injektion kan der være partikler eller misfarvninger i cylinderampullen. Dette kan ske, hvis 
-huden klemmes for hårdt sammen, eller hvis trykket på injektionsknappen slippes, før nålen er fjernet 
-fra huden.
-5. Hvorfor løber der Byetta ud fra nålen, efter at jeg har taget min dosis?
-Det er normalt, at der sidder en enkelt dråbe i spidsen af nålen, efter at du har afsluttet din injektion. 
-Hvis du ser mere end en enkelt dråbe:
-
-Det kan være, du ikke har fået den fulde dosis. Tag ikke yderligere en dosis. Rådfør dig med 
-din læge eller diabetessygeplejerske om, hvordan du håndterer en delvis givet dosis.
-
-For at forhindre dette ved din næste dosis, skal du sørge for at trykke injektionsknappen ind
-og holde den inde og tælle langsomt til 5 (se afsnit 3, trin 4: Injektion af dosis).
-6. Hvad betyder pilene?
-Pilene betyder, at du er klar til det næste trin. Disse pile 
-viser den retning, du skal trække eller 
-dreje doseringsknappen i til det næste trin. Dette symbol betyder, 
-at doseringsknappen er skubbet 
-ind, og at pennen er klar til nulstilling.
-7. Hvordan ved jeg, at injektionen er afsluttet?
-Injektionen er afsluttet når:
-
-Du har trykket injektionsknappen helt ind, indtil den stopper,
-og
-
-Du har langsomt talt til 5, mens du holdt injektionsknappen inde, og nålen stadig sad i huden,
-og
-
-er i midten af doseringsvinduet.
-8. Hvor skal jeg injicere Byetta?
-Byetta skal injiceres enten i mave, lår eller overarm. Anvend den teknik, som din læge eller 
-diabetessygeplejerske har vist dig.
-45
-Set forfra
-Set bagfra
-9. Hvad hvis jeg ikke kan trække, indstille eller trykke doseringsknappen ind?
-Kontrollér symbolet i doseringsvinduet, og følg trinnene ud for det tilsvarende symbol.
-Hvis 
-fremkommer i doseringsvinduet:
-
-Træk doseringsknappen helt ud, indtil 
-kommer frem.
-Hvis 
-er i doseringsvinduet, og doseringsknappen ikke kan drejes:
-
-Cylinderampullen i Byetta-pennen indeholder muligvis ikke tilstrækkelig væske til at levere en 
-hel dosis. Der vil altid blive en lille mængde Byetta tilbage i cylinderampullen. Hvis 
-cylinderampullen indeholder en lille mængde eller ser ud til at være tom, skal du anskaffe en ny
-Byetta-pen.
-Hvis 
-og en del af 
-er i doseringsvinduet, og doseringsknappen ikke kan trykkes ind:
-
-Doseringsknappen blev ikke drejet langt nok. Fortsæt med at dreje knappen med uret, indtil 
-er i midten af doseringsvinduet.
-Hvis del af 
-og del af 
-er i doseringsvinduet, og doseringsknappen ikke kan trykkes ind:
-
-Nålen er muligvis tilstoppet, bøjet eller ikke påsat korrekt.
-
-Udskift nålen. Vær sikker på, at nålen er sat lige på og skruet helt fast.
-
-Tryk injektionsknappen helt i bund. Der skulle komme Byetta ud af nålespidsen.
-Hvis 
-er i doseringsvinduet, og doseringsknappen ikke kan drejes:
-
-Injektionsknappen var ikke trykket helt ind, og der blev ikke tilført en hel dosis. Rådfør dig 
-med din læge eller diabetessygeplejerske om, hvordan du håndterer en delvis givet dosis.
-
-Følg disse trin for at nulstille pennen, så den er klar til næste injektion:
- Tryk injektionsknappen helt ind, indtil den stopper. Hold fortsat injektionsknappen inde og 
-tæl langsomt til 5. Drej derefter doseringsknappen med uret, indtil 
-er i 
-doseringsvinduet.
- Hvis doseringsknappen ikke kan drejes, er nålen muligvis tilstoppet. Udskift nålen og gentag 
-ovenstående.
-
-Ved din næste dosis, skal du sørge for at trykke injektionsknappen ind og holde den inde og 
-langsomt tælle til 5, før du fjerner nålen fra huden.
-Se venligst den medfølgende indlægsseddel. Kontakt din læge eller diabetessygeplejerske for 
-yderligere oplysninger.
-46
-BRUGSANVISNING TIL PENNEN
-Byetta 10 mikrogram injektionsvæske, opløsning i en fyldt pen
-(exenatid)
-BRUGSANVISNING OVERSIGT
-Afsnit 1 – HVAD DU HAR BRUG FOR AT VIDE OM DIN BYETTA-PEN
-Afsnit 2 – KOM I GANG: TIL FØRSTEGANGSBRUGERE ELLER NY PEN
-Afsnit 3 – RUTINEMÆSSIG BRUG: TIL PERSONER, SOM HAR KLARGJORT DERES 
-PEN
-Afsnit 4 – SPØRGSMÅL OG SVAR: SPØRGSMÅL ANGÅENDE PENNEN
-Afsnit 1. HVAD DU HAR BRUG FOR AT VIDE OM DIN BYETTA-PEN
-Læs hele dette afsnit før du begynder. Fortsæt derefter til Afsnit 2 – Kom i gang.
-Læs denne vejledning omhyggeligt, FØR du bruger din Byetta-pen. Læs også den medfølgende 
-indlægsseddel for Byetta, som ligger i æsken til Byetta-pennen.
-Du skal anvende pennen korrekt for at få mest gavn af Byetta. Hvis du ikke følger denne vejledning 
-nøje, kan det resultere i en forkert dosis, en ødelagt pen eller en infektion.
-Denne vejledning er ikke ment som erstatning for samtaler med din læge eller 
-diabetessygeplejerske om din sygdom eller din behandling. Hvis du har problemer med at bruge 
-din Byetta-pen, skal du kontakte din læge eller diabetessygeplejerske.
-VIGTIG INFORMATION OM DIN BYETTA-PEN
-
-Byetta skal injiceres to gange dagligt, og pennen indeholder medicin til 30 dage. Du behøver 
-ikke at udmåle din dosis, det gør pennen for dig.
-
-DENNE MEDICIN MÅ IKKE OVERFØRES TIL EN SPRØJTE.
-
-Hvis pennen på nogen måde ser ud til at være i stykker eller beskadiget, må den ikke anvendes.
-
-Du må ikke dele pen eller nåle med andre, da der er risiko for, at smitsomme stoffer kan 
-overføres.
-
-Er du blind eller svagtseende, så bør du ikke anvende denne pen, medmindre du får hjælp af en 
-person, som er uddannet i at bruge medicinen korrekt.
-
-Behandlere i sundhedssektoren eller andet plejepersonale skal følge de lokale regler eller den 
-pågældende institutions regler for håndtering af nåle.
-
-Følg instruktionerne til hygiejnisk injektionsteknik i overensstemmelse med lægens 
-anbefalinger.
-
-Følg kun afsnit 2, når du skal i gang med en ny pen.
-
-Afsnit 3 af denne brugsanvisning bør anvendes ved hver injektion.
-OM INJEKTIONSNÅLE
-Byetta-pennen er egnet til brug sammen med injektionsnåle fra Becton, Dickinson and Company (BD-
-nåle).
-Skal jeg bruge en ny nål til hver injektion?
-
-Ja. Genbrug ikke nåle.
-47
-
-Fjern nålen fra pennen efter hver injektion. Dette vil forhindre udsivning af Byetta, det vil holde 
-luftbobler ude, nedsætte hyppigheden af tilstoppede nåle, og minimere risikoen for infektion.
-
-Tryk ikke på injektionsknappen på pennen, uden at der er sat en nål på pennen.
-Hvordan kasserer jeg mine nåle?
-
-Bortskaf brugte nåle i en egnet beholder til spidse genstande eller i overensstemmelse med din 
-læges eller sygeplejerskes anbefalinger.
-
-Bortskaf ikke en pen med påsat nål.
-OPBEVARING AF BYETTA-PENNEN
-Hvordan opbevarer jeg min Byetta-pen?
-
-Opbevares i køleskab ved 2oC - 8 oC. 
-
-Må ikke nedfryses. Hvis en Byetta-pen har været udsat for frost, skal den altid kasseres.
-
-Efter Byetta-pennen er taget i brug, skal den opbevares ved temperaturer under 25oC.
-
-Sæt den blå hætte på pennen for at beskytte den mod lys.
-
-Byetta-pennen må ikke opbevares med påsat nål. Hvis nålen efterlades påsat, kan der løbe 
-medicin ud af Byetta-pennen, eller der kan dannes luftbobler i cylinderampullen.
-Pennen og nålene skal opbevares utilgængeligt for børn.
-Hvor længe må jeg bruge en Byetta-pen?
-
-Byetta-pennen kan kun anvendes i 30 dage efter klargøring af en ny pen til første ibrugtagning. 
-Efter 30 dage skal Byetta-pennen altid kasseres, også selvom den ikke er helt tom.
-
-Notér herunder datoen for, hvornår du tog pennen i brug. 30 dage fra denne dato skal du kassere 
-pennen, og denne dato kan du også notere her:
-Dato for første ibrugtagning
-Kasseringsdato
-
-Byetta må ikke anvendes efter den udløbsdato, der er trykt på etiketten efter ”EXP”. 
-Udløbsdatoen (EXP) er den sidste dag i den nævnte måned.
-Hvordan rengør jeg Byetta-pennen?
-
-Om nødvendigt kan pennen aftørres udvendigt med en ren, fugtig klud.
-
-Under normal brug kan der forekomme hvide partikler udvendigt på spidsen af
-cylinderampullen. Disse kan fjernes med en spritvædet serviet eller en spritvædet vatpind.
-Se den medfølgende Byetta-indlægsseddel. Kontakt din læge eller diabetessygeplejerske for 
-yderligere oplysninger.
-Afsnit 2. KOM I GANG
-Læs og følg først vejledningen i dette afsnit, når du har læst Afsnit 1 - Hvad du har brug for at 
-vide om din Byetta-pen
-Pennen skal klargøres lige før, du skal bruge den for første gang. Pennen skal kun klargøres én 
-gang. Ved rutinemæssig brug skal klargøringen ikke gentages. Hvis pennen klargøres inden hver 
-anvendelse, vil der ikke være nok til 30 dages brug.
-48
-Byetta-pennens dele
-Blå Penhætte
-Cylinder-
-ampul
-Byetta-
-opløsning
-Etiket
-Doserings-
-vindue
-Doserings-
-knap 
-Injektions-
-knap
-DELE TIL NÅLEN
-(Nåle medfølger ikke)
-SYMBOLER I DOSERINGSVINDUET
-klar til at trække doseringsknappen ud
-klar til at dreje til doseringspositionen
-klar til at injicere 10 mikrogram (µg)
-Ydre 
-nålehætte
-Indre 
-nålehætte 
-Nål
-Beskyttelses-
-flig
-doseringsknappen er inde og klar til 
-nulstilling
-KLARGØRING AF NY PEN – DETTE SKAL KUN GØRES ÉN GANG
-TRIN A Kontrol af pennen
-
-Vask hænder inden brug.
-
-Kontroller etiketten for at sikre, at det er din 10 mikrogram pen.
-
-Træk pennens blå hætte af.
-Kontroller Byetta i cylinderampullen. Væsken skal være klar, farveløs og fri for partikler. Hvis ikke, 
-må pennen ikke anvendes.
-Bemærk: En lille luftboble i cylinderampullen er normal.
-TRIN B Påsætning af nål
-
-Fjern beskyttelsesfligen fra den ydre nålehætte.
-
-Skub den ydre nålehætte med nål lige ind på pennen, og skru derefter nålen på, indtil den 
-sidder fast.
-49
-
-Træk den ydre nålehætte af. Smid den ikke væk. Den ydre nålehætte skal anvendes, når du 
-fjerner nålen fra pennen efter injektion.
-
-Træk den indre nålehætte af, og smid den væk. Der kan komme en lille dråbe væske. Dette er 
-normalt.
-TRIN C Indstilling af dosis
-
-Kontroller, at 
-fremkommer i doseringsvinduet. Hvis ikke, skal du dreje doseringsknappen 
-med uret, indtil den stopper og 
-fremkommer i doseringsvinduet.
-
-Træk doseringsknappen ud, indtil den stopper, og 
-fremkommer i doseringsvinduet.
-
-Drej doseringsknappen med uret, indtil den stopper ved 
-. Vær sikker på, at 10 med 
-stregen under er i midten af doseringsvinduet.
-Bemærk: Hvis du ikke kan dreje doseringsknappen med uret indtil 
-, så kig i Spørgsmål og svar, 
-nummer 9, i afsnit 4 i denne brugsanvisning.
-50
-TRIN D Forberedelse af pennen
-
-Hold nålen opad og pegende væk fra dig.
-TRYK OG HOLD
-
-Brug tommelfingeren til at trykke injektionsknappen ind, indtil den stopper, og fortsæt 
-med at holde injektionsknappen inde, og tæl langsomt til 5. 
-Hvis der ikke kommer en lille strøm eller adskillige dråber ud fra nålespidsen, skal du 
-gentage trin C og D.
-
-Klargøringen af pennen er afsluttet, når
-fremkommer i midten af doseringsvinduet, OG du 
-har set en strøm eller adskillige dråber komme ud fra nålespidsen.
-Bemærk: Hvis du efter 4 gentagelser ikke ser væske, der kommer ud fra nålespidsen, så se Spørgsmål 
-og svar, nummer 3, i afsnit 4 i denne brugsanvisning.
-TRIN E Afslut klargøring af pennen
-
-Drej doseringsknappen med uret, indtil den stopper, og 
-fremkommer i 
-doseringsvinduet.
-
-Klargøring af pennen er nu afsluttet. Du skal ikke gentage afsnit 2 ved rutinemæssig brug. Hvis 
-du gør, vil du løbe tør for Byetta, før der er gået 30 dage.
-
-Du er nu klar til din første Byetta-dosis.
-
-Gå til afsnit 3, trin 3, for vejledning om, hvordan du injicerer din første rutinemæssige 
-dosis.
-Bemærk: Hvis du ikke kan dreje doseringsknappen, så se Spørgsmål og svar, nummer 9, afsnit 4 i
-denne brugsanvisning.
-sekunder
-51
-Afsnit 3. RUTINEMÆSSIG BRUG
-Nu hvor du har klargjort pennen, så følg afsnit 3 for alle dine injektioner.
-TRIN 1 Kontrol af pennen
-
-Vask hænder inden brug.
-
-Kontroller etiketten for at sikre, at det er din 10 mikrogram pen.
-
-Træk pennens blå hætte af. 
-
-Kontroller Byetta i cylinderampullen.
-
-Væsken skal være klar, farveløs og fri for partikler. Hvis ikke, må pennen ikke anvendes.
-Bemærk: En lille luftboble vil ikke gøre nogen skade eller have indvirkning på din dosis.
-TRIN 2 Påsætning af nål
-
-Fjern beskyttelsesfligen fra den ydre nålehætte.
-
-Skub den ydre nålehætte med nål lige ind på pennen, og skru derefter nålen på, indtil den 
-sidder fast.
-
-Træk den ydre nålehætte af. Smid den ikke væk. Den ydre nålehætte skal anvendes, når du
-fjerner nålen fra pennen efter injektion.
-
-Træk den indre nålehætte af, og smid den væk. Der kan komme en lille dråbe væske. Dette er 
-normalt.
-52
-Bemærk: Hvis nålen ikke er sat rigtigt på, får du muligvis ikke din fulde dosis.
-TRIN 3 Indstilling af dosis
-
-Kontroller, at 
-fremkommer i doseringsvinduet. Hvis ikke, skal du dreje doseringsknappen 
-med uret, indtil den stopper, og 
-fremkommer i doseringsvinduet.
-
-Træk doseringsknappen ud, indtil den stopper, og
-fremkommer i doseringsvinduet.
-
-Drej doseringsknappen med uret, indtil den stopper ved 
-. Vær sikker på, at 10 med 
-stregen under er i midten af doseringsvinduet.
-Bemærk: Hvis du ikke kan dreje doseringsknappen med uret indtil 
-, så se i Spørgsmål og svar, 
-nummer 9, i afsnit 4 i denne brugsanvisning.
-TRIN 4 Injektion af dosis
-
-Hold pennen fast i hånden.
-
-Klem ikke huden for hårdt sammen før indsprøjtningen. Stik nålen ind i huden ved brug af den 
-injektionsteknik, som din læge eller diabetessygeplejerske har anbefalet.
-sekunder
-53
-TRYK OG HOLD
-
-Brug tommelfingeren til at trykke injektionsknappen ind, indtil den stopper, og fortsæt 
-med at holde injektionsknappen inde og tæl langsomt til 5 for at få hele dosen.
-
-Hold trykket på injektionsknappen mens du tager nålen ud af huden; dette holder medicinen i
-cylinderampullen klar. Se i Spørgsmål og Svar, nummer 4. 
-Injektionen er afsluttet, når 
-er i midten af doseringsvinduet.
-
-Pennen er nu klar til nulstilling.
-Bemærk: Hvis adskillige dråber af Byetta siver ud fra nålen efter injektionen, har injektionsknappen 
-ikke været trykket helt ind. Se Spørgsmål og svar, nummer 5, i afsnit 4 i denne brugsanvisning.
-TRIN 5 Nulstilling af pennen
-
-Drej doseringsknappen med uret, indtil den stopper, og 
-er i doseringsvinduet.
-Bemærk: Dette skal gøres efter hver injektion.
-Bemærk: Hvis du ikke kan dreje doseringsknappen, eller det drypper fra pennen, har du ikke fået den 
-fulde dosis. Se Spørgsmål og svar, nummer 5 og 9, i afsnit 4 i denne brugsanvisning.
-TRIN 6 Fjern og kasser nålen
-
-Sæt forsigtigt den ydre nålehætte på nålen igen.
-
-Fjern nålen efter hver injektion. Dette forebygger at medicinen siver ud.
-
-Skru nålen af.
-
-Sæt den blå hætte på pennen igen før opbevaring.
-54
-
-Kassér nålen i en egnet beholder til spidse genstande, eller som anbefalet af din læge eller 
-diabetessygeplejerske.
-TRIN 7 Opbevaring af pennen indtil næste dosis
-
-Opbevar din Byetta-pen rigtigt. (Se Opbevaring af din Byetta-pen i afsnit 1 i denne 
-brugsanvisning for mere information.)
-
-Når det er tid til din næste rutinemæssig dosis, så gå til afsnit 3, trin 1, og gentag trin 1 – 7. Afsnit 4. SPØRGSMÅL OG SVAR
-1. Skal jeg udføre Klargøring af en ny pen før hver dosis?
-
-Nej. Klargøring af en ny pen skal kun udføres én gang, lige før hver ny pen anvendes for første 
-gang.
-
-Formålet med klargøringen er at kontrollere, at din Byetta-pen er klar til brug de næste 30 dage.
-
-Hvis du gentager ”Klargøring af en ny pen” før hver rutinemæssige brug, vil du ikke have 
-nok Byetta til 30 dages forbrug. Den lille mængde Byetta, der anvendes til klargøring af en ny 
-pen, påvirker ikke 30-dagesforsyningen af Byetta.
-2. Hvorfor er der luftbobler i cylinderampullen?
-
-En lille luftboble er normal. Dette vil ikke være til skade eller have indflydelse på din dosis.
-
-Hvis pennen opbevares med nålen påsat, kan der dannes luftbobler i cylinderampullen. Pennen 
-må ikke opbevares med nålen på.
-3. Hvad skal jeg gøre, hvis der ikke kommer Byetta ud af nålespidsen efter fire forsøg under 
-Klargøring af ny pen?
-
-Sæt forsigtigt den ydre nålehætte på igen, og skru nålen af, og kasser nålen forsvarligt.
-
-Påsæt en ny nål og gentag ”Klargøring af ny pen”, trin B – E, i afsnit 2 i denne 
-brugsanvisning. Når du ser adskillige dråber væske komme ud af nålen, er klargøringen fuldført.
-4. Hvorfor er der partikler i cylinderampullen, efter jeg har taget min injektion?
-Efter en injektion kan der være partikler eller misfarvninger i cylinderampullen. Dette kan ske, hvis 
-huden klemmes for hårdt sammen, eller hvis trykket på injektionsknappen slippes, før nålen er fjernet 
-fra huden.
-5. Hvorfor løber der Byetta ud fra nålen, efter at jeg har taget min dosis?
-Det er normalt, at der sidder en enkelt dråbe i spidsen af nålen, efter at du har afsluttet din injektion. 
-Hvis du ser mere end en enkelt dråbe:
-
-Det kan være, du ikke har fået den fulde dosis. Tag ikke yderligere en dosis. Rådfør dig med 
-din læge eller diabetessygeplejerske om, hvordan du håndterer en delvis givet dosis.
-
-For at forhindre dette ved din næste dosis, skal du sørge for at trykke injektionsknappen ind
-og holde den inde og tælle langsomt til 5 (se afsnit 3, trin 4: Injektion af dosis).
-6. Hvad betyder pilene?
-Pilene betyder, at du er klar til det næste trin. Disse pile 
-viser den retning, du skal trække eller 
-dreje doseringsknappen i til det næste trin. Dette symbol betyder, 
-at doseringsknappen er skubbet
-ind, og at pennen er klar til nulstilling.
-55
-7. Hvordan ved jeg, at injektionen er afsluttet?
-Injektionen er afsluttet når:
-
-Du har trykket injektionsknappen helt ind, indtil den stopper,
-og
-
-Du har langsomt talt til 5, mens du holdt injektionsknappen inde, og nålen stadig sad i huden,
-og
-
-er i midten af doseringsvinduet.
-8. Hvor skal jeg injicere Byetta?
-Byetta skal injiceres enten i mave, lår eller overarm. Anvend den teknik, som din læge eller 
-diabetessygeplejerske har vist dig.
-Set forfra
-Set bagfra
-9. Hvad hvis jeg ikke kan trække, indstille eller trykke doseringsknappen ind?
-Kontrollér symbolet i doseringsvinduet, og følg trinnene ud for det tilsvarende symbol.
-Hvis 
-fremkommer i doseringsvinduet:
-
-Træk doseringsknappen helt ud, indtil 
-kommer frem.
-Hvis 
-er i doseringsvinduet, og doseringsknappen ikke kan drejes:
-
-Cylinderampullen i Byetta-pennen indeholder muligvis ikke tilstrækkelig væske til at levere en 
-hel dosis. Der vil altid blive en lille mængde Byetta tilbage i cylinderampullen. Hvis 
-cylinderampullen indeholder en lille mængde eller ser ud til at være tom, skal du anskaffe en ny
-Byetta-pen.
-Hvis 
-og en del af 
-er i doseringsvinduet, og doseringsknappen ikke kan trykkes ind:
-
-Doseringsknappen blev ikke drejet langt nok. Fortsæt med at dreje knappen med uret, indtil 
-er i midten af doseringsvinduet.
-Hvis del af 
-og del af 
-er i doseringsvinduet, og doseringsknappen ikke kan trykkes ind:
-
-Nålen er muligvis tilstoppet, bøjet eller ikke påsat korrekt.
-
-Udskift nålen. Vær sikker på, at nålen er sat lige på og skruet helt fast.
-
-Tryk injektionsknappen helt i bund. Der skulle komme Byetta ud af nålespidsen.
-Hvis 
-er i doseringsvinduet, og doseringsknappen ikke kan drejes:
-
-Injektionsknappen var ikke trykket helt ind, og der blev ikke tilført en hel dosis. Rådfør dig 
-med din læge eller diabetessygeplejerske om, hvordan du håndterer en delvis givet dosis.
-
-Følg disse trin for at nulstille pennen, så den er klar til næste injektion:
-56
- Tryk injektionsknappen helt ind, indtil den stopper. Hold fortsat injektionsknappen inde og 
-tæl langsomt til 5. Drej derefter doseringsknappen med uret, indtil 
-er i 
-doseringsvinduet.
- Hvis doseringsknappen ikke kan drejes, er nålen muligvis tilstoppet. Udskift nålen og gentag 
-ovenstående.
-
-Ved din næste dosis, skal du sørge for at trykke injektionsknappen ind og holde den inde og 
-langsomt tælle til 5, før du fjerner nålen fra huden.
-Se venligst den medfølgende indlægsseddel. Kontakt din læge eller diabetessygeplejerske for 
-yderligere oplysninger.</p>         </div>"""      
+TRIN </p>         </div>"""      
 
 
 
@@ -1681,8 +1171,6 @@ InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for byetta Package Leaflet for language en"
 Description: "ePI document Bundle for byetta Package Leaflet for language en"
 Usage: #example
-
-
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
@@ -1707,8 +1195,6 @@ Description: "ePI document Bundle for byetta Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1729,8 +1215,8 @@ Usage: #example
 
 Instance: mp9367ad7779ef7d59f46d4f6cb649b03e
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product byetta"
-Description: "byetta"
+Title: "Medicinal Product Byetta 5 micrograms solution for injection in pre-filled pen"
+Description: "Byetta 5 micrograms solution for injection in pre-filled pen"
 Usage: #inline
 
  
@@ -1743,14 +1229,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Byetta is indicated for treatment of type 2 diabetes mellitus in combination with:"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "byetta"
+  * productName = "Byetta 5 micrograms solution for injection in pre-filled pen"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1770,10 +1253,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

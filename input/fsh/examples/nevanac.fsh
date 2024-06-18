@@ -780,8 +780,6 @@ Description: "ePI document Bundle for nevanac Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -804,8 +802,6 @@ Description: "ePI document Bundle for nevanac Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -826,8 +822,8 @@ Usage: #example
 
 Instance: mp4e04d92c0b9ceaa06795f86e3a393ec2
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product nevanac"
-Description: "nevanac"
+Title: "Medicinal Product NEVANAC 1 mg/ml eye drops, suspension"
+Description: "NEVANAC 1 mg/ml eye drops, suspension"
 Usage: #inline
 
  
@@ -840,14 +836,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "NEVANAC 1 mg/ml is indicated in adults for:"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "nevanac"
+  * productName = "NEVANAC 1 mg/ml eye drops, suspension"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -867,10 +860,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

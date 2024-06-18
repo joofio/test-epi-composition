@@ -1155,8 +1155,6 @@ Description: "ePI document Bundle for modigraf Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1179,8 +1177,6 @@ Description: "ePI document Bundle for modigraf Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1201,8 +1197,8 @@ Usage: #example
 
 Instance: mpf4157e79e09e92e0d9cf70a720caf0e5
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product modigraf"
-Description: "modigraf"
+Title: "Medicinal Product Modigraf 0.2 mg granules for oral suspension"
+Description: "Modigraf 0.2 mg granules for oral suspension"
 Usage: #inline
 
  
@@ -1215,14 +1211,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Prophylaxis of transplant rejection in adult and paediatric, kidney, liver or heart allograft recipients."
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "modigraf"
+  * productName = "Modigraf 0.2 mg granules for oral suspension"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1242,10 +1235,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

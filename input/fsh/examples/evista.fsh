@@ -686,8 +686,6 @@ Description: "ePI document Bundle for evista Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -710,8 +708,6 @@ Description: "ePI document Bundle for evista Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -732,8 +728,8 @@ Usage: #example
 
 Instance: mpe3c8c4151821eafa3b8558a4b1967125
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product evista"
-Description: "evista"
+Title: "Medicinal Product Evista 60 mg film coated tablets"
+Description: "Evista 60 mg film coated tablets"
 Usage: #inline
 
  
@@ -746,14 +742,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Evista is indicated for the treatment and prevention of osteoporosis in postmenopausal women. A"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "evista"
+  * productName = "Evista 60 mg film coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -773,10 +766,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

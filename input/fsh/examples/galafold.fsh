@@ -896,8 +896,6 @@ Description: "ePI document Bundle for galafold Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -920,8 +918,6 @@ Description: "ePI document Bundle for galafold Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -942,8 +938,8 @@ Usage: #example
 
 Instance: mp15a73917bf3a8bd9b5488de0aa2b271d
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product galafold"
-Description: "galafold"
+Title: "Medicinal Product Galafold 123 mg hard capsules"
+Description: "Galafold 123 mg hard capsules"
 Usage: #inline
 
  
@@ -956,14 +952,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Galafold is indicated for long-term treatment of adults and adolescents aged 12 years and older with a"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "galafold"
+  * productName = "Galafold 123 mg hard capsules"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -983,10 +976,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -601,7 +601,7 @@ hævelse eller opsvulmethed, der kan være forbundet med mindre hyppig vandladni
 åndedrætsbesvær, opsvulmet mave og mæthedsfølelse samt en generel følelse af træthed. 
 Disse symptomer opstår generelt hurtigt. 
 Det kan være symptomer på en ikke almindelig tilstand (kan ramme op til 1 ud af 100 personer), der 
-kaldes for ”kapillærlækage-syndrom”, som medfører, at der siver blod fra de små blodkar ud i 
+kaldes for "kapillærlækage-syndrom", som medfører, at der siver blod fra de små blodkar ud i 
 kroppen. Denne tilstand kræver øjeblikkelig behandling. </p>
 <p>Meget almindelige bivirkninger (kan ramme flere end 1 ud af 10 personer): </p>
 <ul>
@@ -694,7 +694,7 @@ fremskaffe mere information om sikkerheden af dette lægemiddel. </p>
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken og på injektionssprøjtens etiket efter 
 EXP. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
-<p>Opbevares i køleskab (2º C – 8º C). </p>
+<p>Opbevares i køleskab (2º C - 8º C). </p>
 <p>Du må tage Cegfila ud af køleskabet og opbevare det ved stuetemperatur (ikke over 30º C) i højst 
 4 dage. I det øjeblik en sprøjte tages ud af køleskabet, og har nået stuetemperatur (ikke over 30º C), 
 skal den anvendes inden for 4 dage eller bortskaffes. </p>
@@ -946,9 +946,9 @@ Bliv ved med at holde sammen på huden. STIK kanylen ind i huden. </p>
 <p>Rør ikke ved det afrensede område af huden </p>
 <p>B 
 PRES stemplet ned med et langsomt og konstant tryk, indtil du mærker eller hører et 
-”klik”. 
-Pres hele vejen ned gennem ”klikket”. </p>
-<p>For at give hele dosen er det vigtigt, at du trykker ned gennem ”klikket”. </p>
+"klik". 
+Pres hele vejen ned gennem "klikket". </p>
+<p>For at give hele dosen er det vigtigt, at du trykker ned gennem "klikket". </p>
 <p>C 
 GIV SLIP med tommelfingeren. LØFT derefter sprøjten væk fra huden.. </p>
 <p>Den fyldte injektionssprøjtes afskærmningsanordning vil dække kanylen, når stemplet slippes. </p>
@@ -984,8 +984,6 @@ Description: "ePI document Bundle for cegfila Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1008,8 +1006,6 @@ Description: "ePI document Bundle for cegfila Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1030,8 +1026,8 @@ Usage: #example
 
 Instance: mpe3be0c3afac35b40ee152976f7a06c61
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product cegfila"
-Description: "cegfila"
+Title: "Medicinal Product Cegfila 6 mg solution for injection in pre-filled syringe"
+Description: "Cegfila 6 mg solution for injection in pre-filled syringe"
 Usage: #inline
 
  
@@ -1044,14 +1040,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Reduction in the duration of neutropenia and the incidence of febrile neutropenia in adult patients"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "cegfila"
+  * productName = "Cegfila 6 mg solution for injection in pre-filled syringe"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1071,10 +1064,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

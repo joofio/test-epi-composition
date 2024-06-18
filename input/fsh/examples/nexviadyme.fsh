@@ -1073,8 +1073,6 @@ Description: "ePI document Bundle for nexviadyme Package Leaflet for language en
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1097,8 +1095,6 @@ Description: "ePI document Bundle for nexviadyme Package Leaflet for language da
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1119,8 +1115,8 @@ Usage: #example
 
 Instance: mpaf5a6458bf787a6cbcce31dd9f99f24f
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product nexviadyme"
-Description: "nexviadyme"
+Title: "Medicinal Product Nexviadyme 100 mg powder for concentrate for solution for infusion"
+Description: "Nexviadyme 100 mg powder for concentrate for solution for infusion"
 Usage: #inline
 
  
@@ -1133,14 +1129,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Nexviadyme (avalglucosidase alfa) is indicated for long-term enzyme replacement therapy for the"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "nexviadyme"
+  * productName = "Nexviadyme 100 mg powder for concentrate for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1160,10 +1153,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

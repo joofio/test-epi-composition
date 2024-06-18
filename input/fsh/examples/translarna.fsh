@@ -1053,8 +1053,6 @@ Description: "ePI document Bundle for translarna Package Leaflet for language en
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1077,8 +1075,6 @@ Description: "ePI document Bundle for translarna Package Leaflet for language da
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1099,8 +1095,8 @@ Usage: #example
 
 Instance: mp9c1ad55578ad6de333b716cfcc4a7d73
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product translarna"
-Description: "translarna"
+Title: "Medicinal Product Translarna 125 mg granules for oral suspension"
+Description: "Translarna 125 mg granules for oral suspension"
 Usage: #inline
 
  
@@ -1113,14 +1109,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Translarna is indicated for the treatment of Duchenne muscular dystrophy resulting from a nonsense"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "translarna"
+  * productName = "Translarna 125 mg granules for oral suspension"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1140,10 +1133,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

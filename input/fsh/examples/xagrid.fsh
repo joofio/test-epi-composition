@@ -656,7 +656,7 @@ Undlad at fjerne eller spise tørremidlet.
 Indehaver af markedsføringstilladelsen og Fremstiller
 Takeda Pharmaceuticals International AG Ireland Branch
 Block 2 Miesian Plaza
-50 – 58 Baggot Street Lower
+50 - 58 Baggot Street Lower
 Dublin 2
 D02 HW68
 Irland
@@ -799,8 +799,6 @@ Description: "ePI document Bundle for xagrid Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -823,8 +821,6 @@ Description: "ePI document Bundle for xagrid Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -845,8 +841,8 @@ Usage: #example
 
 Instance: mp872cd13279fdc0dc1dd808e9546511e4
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product xagrid"
-Description: "xagrid"
+Title: "Medicinal Product Xagrid 0.5 mg hard capsules."
+Description: "Xagrid 0.5 mg hard capsules."
 Usage: #inline
 
  
@@ -859,14 +855,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Xagrid is indicated for the reduction of elevated platelet counts in at risk essential thrombocythaemia"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "xagrid"
+  * productName = "Xagrid 0.5 mg hard capsules."
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -886,10 +879,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

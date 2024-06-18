@@ -669,7 +669,7 @@ sundhedspersonale. </p>
 <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på kartonen og hætteglasset efter anv. inden. 
 Udløbsdatoen er den sidste dag i den nævnte måned  </p>
-<p>Opbevares i køleskab (2 °C – 8 °C). Må ikke nedfryses. </p>
+<p>Opbevares i køleskab (2 °C - 8 °C). Må ikke nedfryses. </p>
 <p>Opbevar hætteglasset i den ydre karton for at beskytte mod lys. 
 Det gælder for både den rekonstituerede opløsning og den fortyndede opløsning til infusion, at de ikke 
 må nedfryses eller udsættes for direkte sollys. </p>
@@ -791,8 +791,6 @@ Description: "ePI document Bundle for zynlonta Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -815,8 +813,6 @@ Description: "ePI document Bundle for zynlonta Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -837,8 +833,8 @@ Usage: #example
 
 Instance: mp4aba175a0cd44d120f1be90c1da17ad7
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product zynlonta"
-Description: "zynlonta"
+Title: "Medicinal Product Zynlonta 10 mg powder for concentrate for solution for infusion"
+Description: "Zynlonta 10 mg powder for concentrate for solution for infusion"
 Usage: #inline
 
  
@@ -851,14 +847,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Zynlonta as monotherapy is indicated for the treatment of adult patients with relapsed or refractory"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "zynlonta"
+  * productName = "Zynlonta 10 mg powder for concentrate for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -878,10 +871,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

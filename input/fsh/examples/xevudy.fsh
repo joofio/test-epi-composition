@@ -452,7 +452,7 @@ apotekspersonalet og sygeplejersken om, hvordan Xevudy-infusionen klargøres og 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.  </p>
 <p>Allergiske reaktioner </p>
 <p>Allergiske reaktioner over for Xevudy er almindelige (forekommer hos op til 1 ud af 10 patienter).  </p>
-<p>I sjældne tilfælde kan disse allergiske reaktioner være alvorlige (anafylaksi) (forekommer sjældent – 
+<p>I sjældne tilfælde kan disse allergiske reaktioner være alvorlige (anafylaksi) (forekommer sjældent - 
 hos op til 1 ud af 1.000 patienter). Hvis du får et eller flere af følgende symptomer, efter du har fået 
 Xevudy, kan du have en allergisk reaktion og bør straks søge lægehjælp:<br />
 • Hududslæt, der ligner nældefeber (urticaria) eller rødme<br />
@@ -511,7 +511,7 @@ den sidste dag i den nævnte måned. </p>
 <p>Inden fortynding: </p>
 <ul>
 <li>
-<p>Opbevares i køleskab (2°C – 8°C)  </p>
+<p>Opbevares i køleskab (2°C - 8°C)  </p>
 </li>
 <li>
 <p>Opbevares i den originale karton for at beskytte mod lys. </p>
@@ -608,7 +608,7 @@ Portugal<br />
 Laboratoire GlaxoSmithKline<br />
 Tél: + 33 (0)1 39 17 84 44<br />
 diam@gsk.com  </p>
-<p>GlaxoSmithKline – Produtos Farmacêuticos, Lda.<br />
+<p>GlaxoSmithKline - Produtos Farmacêuticos, Lda.<br />
 Tel: + 351 21 412 95 00<br />
 FI.PT@gsk.com<br />
 Hrvatska<br />
@@ -661,7 +661,7 @@ Du kan finde yderligere oplysninger i produktresuméet. </p>
 For at forbedre sporbarheden af biologiske lægemidler skal det administrerede produkts navn og 
 batchnummer tydeligt registreres. </p>
 <p>Klargøring til fortynding 
-1. Tag et hætteglas med sotrovimab ud af køleskabet (2°C – 8°C). Lad hætteglasset stå i cirka 
+1. Tag et hætteglas med sotrovimab ud af køleskabet (2°C - 8°C). Lad hætteglasset stå i cirka 
 15 minutter (beskyttet mod lys), så det kan opnå stuetemperatur. 
 2. Gennemse hætteglasset for at sikre, at det ikke indeholder partikler eller har synlige skader. 
 Hvis hætteglasset viser sig at være ubrugeligt, skal det kasseres, og klargøringen skal startes 
@@ -703,8 +703,6 @@ Description: "ePI document Bundle for xevudy Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -727,8 +725,6 @@ Description: "ePI document Bundle for xevudy Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -749,8 +745,8 @@ Usage: #example
 
 Instance: mp22dcb829aed4334e1e70ad5ac466fd85
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product xevudy"
-Description: "xevudy"
+Title: "Medicinal Product Xevudy 500 mg concentrate for solution for infusion"
+Description: "Xevudy 500 mg concentrate for solution for infusion"
 Usage: #inline
 
  
@@ -763,14 +759,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Xevudy is indicated for the treatment of adults and adolescents (aged 12 years and over and weighing"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "xevudy"
+  * productName = "Xevudy 500 mg concentrate for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -790,10 +783,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

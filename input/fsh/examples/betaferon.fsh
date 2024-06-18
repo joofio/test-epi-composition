@@ -600,10 +600,10 @@ relapser. </p>         </div>"""
 <li>hvis du er allergisk (overfølsom) over for naturligt eller rekombinant interferon beta 
 (rekombinant: fremstillet ved genteknik), humant albumin eller et af de øvrige indholdsstoffer i 
 Betaferon (angivet i punkt 6). </li>
-<li>hvis du for tiden lider af en alvorlig depression og/eller har selvmordstanker (se ”Advarsler 
-og forsigtighedsregler” og punkt 4. ”Bivirkninger”). </li>
-<li>hvis du har en alvorlig leversygdom (se ”Advarsler og forsigtighedsregler”, ”Brug af anden 
-medicin sammen med Betaferon” og punkt 4. ”Bivirkninger”). </li>
+<li>hvis du for tiden lider af en alvorlig depression og/eller har selvmordstanker (se "Advarsler 
+og forsigtighedsregler" og punkt 4. "Bivirkninger"). </li>
+<li>hvis du har en alvorlig leversygdom (se "Advarsler og forsigtighedsregler", "Brug af anden 
+medicin sammen med Betaferon" og punkt 4. "Bivirkninger"). </li>
 </ul>
 <p>► 
 Kontakt din læge, hvis et eller flere af ovennævnte udsagn gælder dig. </p>
@@ -619,13 +619,13 @@ shock (kollaps) og kan endog være dødeligt. </p>
 <li>
 <p>Hvis du har haft depression eller er deprimeret, eller hvis du tidligere har haft 
 selvmordstanker. Din læge vil nøje overvåge dig under behandlingen. Hvis din depression 
-og/eller dine selvmordstanker er alvorlige, vil du ikke få ordineret Betaferon (se også ”Brug 
-ikke Betaferon”). </p>
+og/eller dine selvmordstanker er alvorlige, vil du ikke få ordineret Betaferon (se også "Brug 
+ikke Betaferon"). </p>
 </li>
 <li>
 <p>Hvis du nogensinde har haft krampeanfald eller tager medicin mod epilepsi 
-(antiepileptika). Din læge vil i disse tilfælde nøje overvåge din behandling, (se også ”Brug af 
-anden medicin sammen med Betaferon” og punkt 4. ”Bivirkninger”). </p>
+(antiepileptika). Din læge vil i disse tilfælde nøje overvåge din behandling, (se også "Brug af 
+anden medicin sammen med Betaferon" og punkt 4. "Bivirkninger"). </p>
 </li>
 <li>
 <p>Hvis du har alvorlige nyreproblemer. Din læge kan i dette tilfælde vælge at overvåge din 
@@ -644,8 +644,8 @@ tunge eller pludselig kortåndethed. Dette kan være symptom på en alvorlig all
 Betaferon, eller hvis du får selvmordstanker. Hvis du bliver deprimeret, mens du er i 
 behandling med Betaferon, kan du få brug for særskilt behandling, og din læge vil nøje overvåge 
 dig, og kan også overveje at stoppe din behandling. Hvis du lider af en alvorlig depression 
-og/eller har selvmordstanker, vil du ikke blive behandlet med Betaferon (se også ”Brug ikke 
-Betaferon”). </p>
+og/eller har selvmordstanker, vil du ikke blive behandlet med Betaferon (se også "Brug ikke 
+Betaferon"). </p>
 </li>
 <li>
 <p>Hvis du bemærker usædvanlige blå mærker, voldsom blødning efter tilskadekomst, eller 
@@ -739,8 +739,8 @@ du:
 − 
 bruge en steril (aseptisk) injektionsteknik. 
 − 
-skifte mellem injektionsstederne ved hver injektion (se tillægget ”Fremgangsmåde, når du 
-selv skal indsprøjte medicinen”, del II, i anden del af denne indlægsseddel). </p>
+skifte mellem injektionsstederne ved hver injektion (se tillægget "Fremgangsmåde, når du 
+selv skal indsprøjte medicinen", del II, i anden del af denne indlægsseddel). </p>
 <p>Reaktioner ved injektionsstedet kan forekomme mindre hyppigt, hvis du bruger en autoinjektor og ved 
 at rotere injektionsstederne. Det kan din læge eller sundhedspersonalet fortælle dig mere om. </p>
 <p>Hvis du får hudbristninger, som kan have forbindelse med hævelse, eller det væsker fra 
@@ -783,7 +783,7 @@ din læge eller apotekspersonalet til råds, før du bruger dette lægemiddel. <
 <p>Der forventes ingen skadelige virkninger på ammede nyfødte/spædbørn. Betaferon kan anvendes 
 under amning. </p>
 <p>Trafik- og arbejdssikkerhed </p>
-<p>Betaferon kan forårsage bivirkninger i centralnervesystemet (se punkt 4. ”Bivirkninger”). Hvis du er 
+<p>Betaferon kan forårsage bivirkninger i centralnervesystemet (se punkt 4. "Bivirkninger"). Hvis du er 
 særlig følsom, kan dette påvirke din evne til at køre bil eller betjene maskiner.  </p>
 <p>Betaferon indeholder mannitol, humant albumin og natrium </p>
 <p>De ikke-aktive stoffer i Betaferon omfatter </p>
@@ -811,7 +811,7 @@ dissemineret sklerose. </p>
 eller sygeplejersken. </p>
 <p>Den anbefalede dosis er:  </p>
 <p>Hver anden dag (én gang hver anden dag) indsprøjtes 1,0 ml af den klargjorte Betaferon-
-injektionsvæske (se tillæg ”Fremgangsmåde, når du selv skal indsprøjte medicinen”, del II, i anden del 
+injektionsvæske (se tillæg "Fremgangsmåde, når du selv skal indsprøjte medicinen", del II, i anden del 
 af denne indlægsseddel) under huden (subkutant). Dette svarer til 250 mikrogram (8,0 mill. IE) 
 interferon beta-1b. </p>
 <p>Du vil bedst kunne tåle Betaferon i opstarten af behandlingen, hvis dosis gradvist øges, dvs. at der 
@@ -826,13 +826,13 @@ instruktioner for titreringspakningen. </p>
 <p>Før injektion skal Betaferon-injektionsvæsken forberedes ved at blande et hætteglas med 
 Betaferon-pulver med 1,2 ml væske fra den fyldte injektionssprøjte med solvens. Dette gøres enten af 
 din læge eller sundhedspersonalet, eller af dig selv, efter at du har fået en omhyggelig instruktion. Se 
-tillægget ”Fremgangsmåde, når du selv skal indsprøjte medicinen”, del I, for detaljer om, hvordan du 
+tillægget "Fremgangsmåde, når du selv skal indsprøjte medicinen", del I, for detaljer om, hvordan du 
 klargør Betaferon-injektionsvæsken til injektion. </p>
 <p>Du kan finde detaljeret information om selv-injektion af Betaferon under huden i del I E i 
-tillægget ”Fremgangsmåde, når du selv skal indsprøjte medicinen”. </p>
-<p>Skift injektionssted regelmæssigt. Se punkt 2. ”Advarsler og forsigtighedsregler”, og følg 
-anvisningerne i del II ”Vælg forskellige injektionssteder” og i del III (Betaferon behandlingskalender) 
-i tillægget ” Fremgangsmåde, når du selv skal indsprøjte medicinen”. </p>
+tillægget "Fremgangsmåde, når du selv skal indsprøjte medicinen". </p>
+<p>Skift injektionssted regelmæssigt. Se punkt 2. "Advarsler og forsigtighedsregler", og følg 
+anvisningerne i del II "Vælg forskellige injektionssteder" og i del III (Betaferon behandlingskalender) 
+i tillægget " Fremgangsmåde, når du selv skal indsprøjte medicinen". </p>
 <p>Behandlingens varighed </p>
 <p>På nuværende tidspunkt vides det ikke, hvor lang tid behandlingen med Betaferon skal fortsætte. 
 Lægen bestemmer sammen med dig, hvor lang tid du skal behandles. </p>
@@ -891,13 +891,13 @@ svedudbrud, hovedpine eller muskelsmerter. Disse symptomer kan reduceres ved at 
 paracetamol eller ikke-steroid medicin mod betændelse som f.eks. ibuprofen.   </p>
 <p>► 
 Reaktioner ved injektionsstedet. Symptomerne kan være rødme, hævelse, misfarvning, 
-betændelse, infektion, smerte, overfølsomhed, ødelagt væv (nekrose). Se ”Advarsler og 
-forsigtighedsregler” under punkt 2 for yderligere oplysninger, og hvad du skal gøre, hvis 
+betændelse, infektion, smerte, overfølsomhed, ødelagt væv (nekrose). Se "Advarsler og 
+forsigtighedsregler" under punkt 2 for yderligere oplysninger, og hvad du skal gøre, hvis 
 du får en reaktion ved injektionsstedet. Reaktionerne kan reduceres, hvis du bruger en 
 autoinjektor og ved at rotere injektionsstederne. Kontakt din læge, apotekspersonalet eller 
 sundhedspersonalet for yderligere information. </p>
 <p>For at reducere bivirkningerne i starten af behandlingen skal din læge give dig en lav dosis Betaferon i 
-starten, og gradvist øge den (se punkt 3. ”Sådan skal du bruge Betaferon”).  </p>
+starten, og gradvist øge den (se punkt 3. "Sådan skal du bruge Betaferon").  </p>
 <p>Følgende liste over bivirkninger er baseret på kliniske undersøgelser med Betaferon, og 
 rapporter efter markedsføring af præparatet.  </p>
 <p>► 
@@ -940,8 +940,8 @@ blodprøver) </li>
 <li>Menstruationsforstyrrelser (menoragi) </li>
 <li>Kraftig blødning fra livmoderen (metroragi) specielt mellem menstruationsperioderne </li>
 <li>Impotens </li>
-<li>Nedbrydning af huden og ødelagt væv (nekrose) på injektionsstedet (se punkt 2 ”Advarsler og 
-forsigtighedsregler”) </li>
+<li>Nedbrydning af huden og ødelagt væv (nekrose) på injektionsstedet (se punkt 2 "Advarsler og 
+forsigtighedsregler") </li>
 <li>Smerter i brystet </li>
 <li>Utilpashed </li>
 </ul>
@@ -950,7 +950,7 @@ Ikke almindelige (kan forekomme hos op til 1 ud af 100 behandlede):</p>
 <ul>
 <li>Antallet af blodplader (medvirker til, at blodet størkner) kan falde (trombocytopeni) </li>
 <li>En bestemt type fedtstoffer i blodet (triglycerider) kan øges (vil vise sig i blodprøver), se 
-punkt 2 ”Advarsler og forsigtighedsregler” </li>
+punkt 2 "Advarsler og forsigtighedsregler" </li>
 <li>Selvmordsforsøg </li>
 <li>Humørsvingninger </li>
 <li>Krampe </li>
@@ -973,7 +973,7 @@ meget hormon) (hypertyroidisme) </li>
 <li>Alvorlig appetitløshed, som kan føre til vægttab (anoreksi) </li>
 <li>Hjertemuskelsygdom (kardiomyopati) </li>
 <li>Pludselig kortåndethed (bronkospasme) </li>
-<li>Betændelse i bugspytkirtlen (pankreatitis), se punkt 2 ”Advarsler og forsigtighedsregler” </li>
+<li>Betændelse i bugspytkirtlen (pankreatitis), se punkt 2 "Advarsler og forsigtighedsregler" </li>
 <li>Leveren fungerer ikke korrekt (leverskade herunder hepatitis, leversvigt) </li>
 </ul>
 <p>► 
@@ -1147,7 +1147,7 @@ hjemmeside http://www.ema.europa.eu/.
 Tillæg: FREMGANGSMÅDE, NÅR DU SELV SKAL INDSPRØJTE MEDICINEN </p>
 <p>Din læge har ordineret Betaferon til behandling af din disseminerede sklerose. Du vil bedst kunne tåle 
 Betaferon i opstarten af behandlingen, hvis du starter med en lav dosis, og gradvist øger til den fulde 
-standarddosis (se første del af indlægssedlen, punkt 3. ”Sådan skal du bruge Betaferon”). For at gøre 
+standarddosis (se første del af indlægssedlen, punkt 3. "Sådan skal du bruge Betaferon"). For at gøre 
 det lettere at øge dosis under de første 12 injektioner kan du få en speciel titreringspakning, der 
 indeholder fire tredobbelte pakninger med forskellige farver. Hver pakning indeholder særligt 
 mærkede injektionssprøjter samt detaljerede instruktioner for titreringspakningen. Injektionssprøjterne 
@@ -1181,7 +1181,7 @@ du have glæde af følgende:</p>
 <p>Opret et permanent opbevaringssted på et passende sted, utilgængeligt for børn, så du altid nemt 
 kan finde din Betaferon og andet materiale til behandlingen. 
 Detaljer om opbevaringsbetingelser finder du under punkt 5 i første del af denne 
-indlægsseddel:”Opbevaring”. </p>
+indlægsseddel:"Opbevaring". </p>
 </li>
 <li>
 <p>Forsøg at give injektionen på samme tid hver dag. Det gør det nemmere at huske, og nemmere at 
@@ -1189,14 +1189,14 @@ planlægge et tidsrum uden afbrydelser. </p>
 </li>
 <li>
 <p>Klargør først hver dosis, når du er klar til injektionen. Efter at Betaferon er opløst, skal du foretage 
-injektionen omgående (se punkt 5 i første del af denne indlægsseddel: ”Opbevaring”, hvis du ikke 
+injektionen omgående (se punkt 5 i første del af denne indlægsseddel: "Opbevaring", hvis du ikke 
 bruger medicinen omgående).  </p>
 </li>
 </ul>
 <p>► Vigtige råd at huske </p>
 <ul>
-<li>Vær konsekvent – anvend Betaferon som beskrevet under punkt 3 i første del af denne 
-indlægsseddel: ”Sådan skal du bruge Betaferon”. Kontroller altid din dosis. </li>
+<li>Vær konsekvent - anvend Betaferon som beskrevet under punkt 3 i første del af denne 
+indlægsseddel: "Sådan skal du bruge Betaferon". Kontroller altid din dosis. </li>
 <li>Opbevar dine injektionssprøjter og affaldsbeholderen til injektionssprøjterne utilgængeligt for 
 børn. Lås om muligt materialet til behandlingen inde. </li>
 <li>Genbrug aldrig injektionssprøjter eller kanyler. </li>
@@ -1215,8 +1215,8 @@ hvor huden er misfarvet, indsunken, er skorpet eller brudt op. Tal med din læge
 sundhedspersonalet om dette eller om andre usædvanlige tilstande, du bemærker. </p>
 <p>Du skal benytte et nyt injektionssted ved hver injektion. Hvis nogle af områderne er for vanskelige at 
 nå, kan du eventuelt bede et familiemedlem eller en ven om at hjælpe med disse injektioner. Følg den 
-rækkefølge, der er beskrevet i skemaet til sidst i tillægget (se del II ”Vælg forskellige 
-injektionssteder”) og du vil komme tilbage til det første injektionssted efter 8 injektioner (16 dage). 
+rækkefølge, der er beskrevet i skemaet til sidst i tillægget (se del II "Vælg forskellige 
+injektionssteder") og du vil komme tilbage til det første injektionssted efter 8 injektioner (16 dage). 
 Det giver hvert injektionssted mulighed for at komme sig helt før en ny injektion. </p>
 <p>Se venligst rotationsskemaet til sidst i dette tillæg vedrørende valg af injektionssted. Et eksempel på en 
 behandlingskalender er også inkluderet (se del III i tillægget). Det vil være en hjælp for dig, så du kan 
@@ -1247,35 +1247,35 @@ ved 0,5 ml, til behandlingsdagene 7, 9 og 11. Fortsæt med den grønne tredobbel
 ved 0,75 ml, til behandlingsdagene 13, 15 og 17. Brug den blå tredobbelte pakning 4, som indeholder 3 injektionssprøjter med markering ved 0,25, 
 0,5, 0,75 og 1,0 ml, til behandlingsdagene 19, 21 og 23. C) 
 Trinvis tilberedning af opløsningen  </p>
-<p>1 – Vask hænderne grundigt med vand og sæbe, før du går i 
+<p>1 - Vask hænderne grundigt med vand og sæbe, før du går i 
 gang med denne proces. </p>
-<p>2 – Åbn hætteglasset med Betaferon, og læg det på bordet. Det 
+<p>2 - Åbn hætteglasset med Betaferon, og læg det på bordet. Det 
 er bedst at bruge tommelfingeren. Undgå at bruge neglen, da den 
 kan brække. </p>
-<p>3 – Aftør toppen af hætteglasset med en spritserviet. Bevæg kun 
+<p>3 - Aftør toppen af hætteglasset med en spritserviet. Bevæg kun 
 servietten i én retning. Lad spritservietten ligge oven på 
 hætteglasset. </p>
-<p>4 – Åbn blisterpakningen med tilpasningsstykket til 
+<p>4 - Åbn blisterpakningen med tilpasningsstykket til 
 hætteglasset, men lad tilpasningsstykket blive liggende i 
 pakningen.  </p>
 <p>Fjern ikke hætteglassets tilpasningsstykke fra 
 blisterpakningen på nuværende tidspunkt. </p>
 <p>Rør ikke ved hætteglassets tilpasningsstykke. Derved holdes det 
 sterilt. </p>
-<p>5 – Før du monterer tilpasningsstykket, skal du fjerne 
+<p>5 - Før du monterer tilpasningsstykket, skal du fjerne 
 spritservietten fra hætteglasset. Smid spritservietten ud. Lad 
 hætteglasset hvile på en plan flade. </p>
-<p>6 – Hold på ydersiden af blisterpakningen og placer 
+<p>6 - Hold på ydersiden af blisterpakningen og placer 
 tilpasningsstykket oven på hætteglasset. Pres det hårdt ned, til 
 du mærker, at det klikker på plads. </p>
-<p>7 – Fjern blisterpakningen fra hætteglassets tilpasningsstykke 
+<p>7 - Fjern blisterpakningen fra hætteglassets tilpasningsstykke 
 ved at holde i kanten af blisterpakningen. Nu er du klar til at 
 tilslutte injektionssprøjten med solvens til hætteglassets 
 tilpasningsstykke. </p>
-<p>8 – Tag injektionssprøjten og sikr dig, at den orange hætte sidder 
+<p>8 - Tag injektionssprøjten og sikr dig, at den orange hætte sidder 
 fast på injektionssprøjten! Fjern hætten ved at dreje den. Smid 
 hætten ud. </p>
-<p>9 – Forbind injektionssprøjten med åbningen på siden af 
+<p>9 - Forbind injektionssprøjten med åbningen på siden af 
 hætteglassets tilslutningsstykke ved at indsætte enden af 
 injektionssprøjten og forsigtigt stramme til. Skub og drej 
 samtidigt injektionssprøjten med uret (se pilen). 
@@ -1285,11 +1285,11 @@ hætteglasset. Pres langsomt sprøjtestemplet helt i bund for at
 overføre al solvensen til hætteglasset. Slip stemplet, der 
 muligvis går tilbage til sin oprindelige position.<br />
 Dette gælder også for titreringspakningen. </p>
-<p>11 – Mens den monterede injektionssprøjte stadig er fastgjort, 
+<p>11 - Mens den monterede injektionssprøjte stadig er fastgjort, 
 roterer du hætteglasset forsigtigt for at opløse Betaferon-
 pulveret fuldstændigt. </p>
 <p>Ryst ikke hætteglasset. </p>
-<p>12 – Undersøg nøje opløsningen. Den skal være klar, og må ikke 
+<p>12 - Undersøg nøje opløsningen. Den skal være klar, og må ikke 
 indeholde nogen partikler. Hvis opløsningen er misfarvet eller 
 indeholder partikler, skal du kassere den og starte forfra med en 
 ny enkeltpakning. Hvis der er skum i glasset, hvilket kan 
@@ -1297,7 +1297,7 @@ forekomme, hvis hætteglasset rystes eller roteres for meget, skal
 du lade hætteglasset stå, indtil skummet er væk. </p>
 <p>D) </p>
 <p>Opsugning i injektionssprøjten  </p>
-<p>13 – Hvis stemplet går tilbage til sin oprindelige position, skal 
+<p>13 - Hvis stemplet går tilbage til sin oprindelige position, skal 
 du skubbe det ind igen, og holde det på plads. Klargør 
 injektionen ved at vende den monterede enhed, så hætteglasset 
 er øverst med hætten pegende nedad, så opløsningen kan løbe 
@@ -1312,11 +1312,11 @@ trækkes op til markeringen på injektionssprøjten:
 0,5 ml ved injektionerne på behandlingsdagene 7, 9, 11, eller 
 0,75 ml ved injektionerne på behandlingsdagene 13, 15, 17. Kassér hætteglasset med den ubrugte del af opløsningen. </p>
 <p>Fra dag 19 skal du indsprøjte den fulde dosis på 1,0 ml. </p>
-<p>14 – Når du har trukket opløsningen op i den monterede 
+<p>14 - Når du har trukket opløsningen op i den monterede 
 injektionssprøjte, så drej injektionssprøjten, så kanylen peger 
 opad. Dette muliggør, at eventuelle luftbobler kan stige op i 
 toppen af opløsningen.   </p>
-<p>15 – Fjern eventuelle luftbobler ved forsigtigt at banke på 
+<p>15 - Fjern eventuelle luftbobler ved forsigtigt at banke på 
 injektionssprøjten og skubbe stemplet ind til 1 ml-mærket eller 
 til den mængde, din læge har ordineret. 
 Hvis du skal indsprøjte mindre end 1 ml, som ved brug af 
@@ -1329,7 +1329,7 @@ markering på injektionssprøjten. </p>
 sammen med opløsningen, skal du vende injektionssprøjten 
 tilbage i vandret position (se billede 13) og trække stemplet lidt 
 tilbage for at trække opløsningen op i injektionssprøjten igen. </p>
-<p>16 – Tag dernæst fat om det blå tilpasningsstykke med det 
+<p>16 - Tag dernæst fat om det blå tilpasningsstykke med det 
 påmonterede hætteglas, og fjern det fra injektionssprøjten ved at 
 dreje det, og derefter trække det ned og bort fra 
 injektionssprøjten.  </p>
@@ -1339,8 +1339,8 @@ under injektionssprøjten. </p>
 <p>Når du fjerner hætteglas og tilpasningsstykke fra 
 injektionssprøjten sikrer du, at opløsningen løber ud fra kanylen 
 under indsprøjtningen. 
-17 – Kassér hætteglasset og den ubrugte del af opløsningen i affaldsbeholderen.  </p>
-<p>18 – Du er nu klar til injektionen.<br />
+17 - Kassér hætteglasset og den ubrugte del af opløsningen i affaldsbeholderen.  </p>
+<p>18 - Du er nu klar til injektionen.<br />
 Hvis du af en eller anden grund ikke straks kan indsprøjte Betaferon, kan du opbevare den 
 genopløste opløsning i injektionssprøjten i et køleskab i op til 3 timer, før du bruger den. 
 Opløsningen må ikke nedfryses, og du må ikke vente længere end 3 timer, før du indsprøjter den. 
@@ -1349,18 +1349,18 @@ klargøre en ny opløsning. Når du bruger opløsningen, skal du varme den op i 
 indsprøjter den, for at undgå smerter. </p>
 <p>E) 
  Selve injektionen </p>
-<p>1 – Vælg et område til injektion (se de råd, der er anført først i 
+<p>1 - Vælg et område til injektion (se de råd, der er anført først i 
 dette tillæg samt diagrammerne sidst i tillægget), og noter det i 
 din behandlingskalender. </p>
 <p>2 - Brug en spritserviet til at aftørre huden på injektionsstedet, 
 og lad den lufttørre. Smid servietten væk. 
 Du kan bruge et passende desinfektionsmiddel til desinfektion af 
 huden. </p>
-<p>3 – Fjern hætten fra kanylen ved at trække i den. Du må ikke 
+<p>3 - Fjern hætten fra kanylen ved at trække i den. Du må ikke 
 dreje den. </p>
 <p>4 - Klem forsigtigt huden sammen omkring injektionsstedet (for 
 at løfte huden en smule). </p>
-<p>5 – Hold injektionssprøjten som en blyant eller en dartpil. Stik 
+<p>5 - Hold injektionssprøjten som en blyant eller en dartpil. Stik 
 kanylen direkte ind i huden (i en vinkel på 90 °) med en hurtig, 
 bestemt bevægelse. Bemærk: Betaferon kan også indsprøjtes 
 med en autoinjektor 
@@ -1455,7 +1455,7 @@ BETAFERON-BEHANDLINGSKALENDER </p>
 <li>Vælg et injektionssted til din første injektion. </li>
 <li>Brug en spritserviet til at aftørre huden på injektionsstedet og lad den lufttørre. </li>
 <li>Efter injektionen skal du skrive det anvendte injektionssted og datoen på tabellen i dit 
-injektionsskema (se eksemplet “Betaferon behandlingskalender”). </li>
+injektionsskema (se eksemplet “Betaferon behandlingskalender"). </li>
 </ul>
 <p>EKSEMPEL PÅ BEHANDLINGSKALENDER: </p>
 <p>Højre balde 
@@ -1480,7 +1480,7 @@ Betaferon behandlingskalender
 Tillæg: INTRODUKTIONSFOLDER TIL TITRERINGSPAKNINGEN </p>
 <p>Din læge har ordineret Betaferon til behandling af din disseminerede sklerose. Du vil bedst kunne tåle 
 Betaferon i opstarten af behandlingen, hvis du starter med en lav dosis, som gradvist øges til den fulde 
-standarddosis (se første del af indlægssedlen, punkt 3 ”Sådan skal du bruge Betaferon”). 
+standarddosis (se første del af indlægssedlen, punkt 3 "Sådan skal du bruge Betaferon"). 
 Injektionssprøjterne i denne titreringspakning er mærket således, at den passende dosis indsprøjtes 
 (0,25, 0,5, 0,75 eller 1,0 ml). </p>
 <p>► 
@@ -1497,25 +1497,25 @@ dosis. Injektionssprøjterne har en speciel markering, som passer til den ønske
 Følg venligst nedenstående behandlingsvejledning grundigt. Ved hvert titreringstrin skal du anvende al 
 solvensen i injektionssprøjten til at opløse Betaferon-pulveret, og derefter trække den foreskrevne 
 dosis op i injektionssprøjten.  </p>
-<p>Start med den gule tredobbelte pakning, der er tydeligt mærket med nummer “1” i pakningens 
+<p>Start med den gule tredobbelte pakning, der er tydeligt mærket med nummer “1" i pakningens 
 øverste højre hjørne. 
 Denne første tredobbelte pakning skal anvendes til behandlingsdagene 1, 3 og 5. Pakningen indeholder særligt mærkede injektionssprøjter, der er mærket med 0,25 ml. Dette vil 
 hjælpe dig med kun at indsprøjte den foreskrevne dosis. </p>
 <p>Når du har brugt den første gule pakning, skal du begynde at bruge den røde tredobbelte 
-pakning, som er tydeligt mærket med nummer “2” i pakningens øverste højre hjørne. 
+pakning, som er tydeligt mærket med nummer “2" i pakningens øverste højre hjørne. 
 Denne anden tredobbelte pakning skal anvendes til behandlingsdagene 7, 9 og 11. Pakningen indeholder særligt mærkede injektionssprøjter, der er mærket med 0,5 ml. Dette vil 
 hjælpe dig med kun at indsprøjte den foreskrevne dosis. </p>
 <p>Når du har brugt den røde pakning, skal du begynde at bruge den grønne tredobbelte pakning, 
-som er tydeligt mærket med nummer “3” i pakningens øverste højre hjørne. 
+som er tydeligt mærket med nummer “3" i pakningens øverste højre hjørne. 
 Denne tredje tredobbelte pakning skal anvendes til behandlingsdagene 13, 15 og 17. Pakningen indeholder særligt mærkede injektionssprøjter, der er mærket med 0,75 ml. Dette vil 
 hjælpe dig med kun at indsprøjte den foreskrevne dosis. </p>
 <p>Til sidst, når du har brugt den grønne pakning, skal du begynde at bruge den blå tredobbelte 
-pakning, som er tydeligt mærket med nummer ”4” i pakningens øverste højre hjørne. 
+pakning, som er tydeligt mærket med nummer "4" i pakningens øverste højre hjørne. 
 Denne sidste tredobbelte pakning skal anvendes til behandlingsdagene 19, 21 og 23. Pakningen indeholder injektionssprøjter, der er mærket med 0,25, 0,5, 0,75 og 1,0 ml. Med den 
-tredobbelte pakning mærket “4” kan du indsprøjte den fulde dosis på 1,0 ml.  </p>
+tredobbelte pakning mærket “4" kan du indsprøjte den fulde dosis på 1,0 ml.  </p>
 <p>Du kan finde en detaljeret beskrivelse af, hvordan du forbereder og bruger Betaferon-pulveret i 
-punkt 3 “ Sådan skal du bruge Betaferon” i første del af indlægssedlen og i tillægget 
-”Fremgangsmåde, når du selv skal indsprøjte medicinen” i anden del af indlægssedlen. </p>
+punkt 3 “ Sådan skal du bruge Betaferon" i første del af indlægssedlen og i tillægget 
+"Fremgangsmåde, når du selv skal indsprøjte medicinen" i anden del af indlægssedlen. </p>
 <p>Desuden vil du få brug for en affaldsbeholder til brugte injektionssprøjter og kanyler. </p>         </div>"""      
 
 
@@ -1528,8 +1528,6 @@ InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for betaferon Package Leaflet for language en"
 Description: "ePI document Bundle for betaferon Package Leaflet for language en"
 Usage: #example
-
-
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
@@ -1554,8 +1552,6 @@ Description: "ePI document Bundle for betaferon Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1576,8 +1572,8 @@ Usage: #example
 
 Instance: mp69a419ce456cf797ccfe1cc7135a3fc4
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product betaferon"
-Description: "betaferon"
+Title: "Medicinal Product Betaferon 250 microgram/ml, powder and solvent for solution for injection"
+Description: "Betaferon 250 microgram/ml, powder and solvent for solution for injection"
 Usage: #inline
 
  
@@ -1590,14 +1586,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Betaferon is indicated for the treatment of"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "betaferon"
+  * productName = "Betaferon 250 microgram/ml, powder and solvent for solution for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1617,10 +1610,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

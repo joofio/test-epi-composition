@@ -570,7 +570,7 @@ Din læge kan rådgive dig om kosten eller om, hvorvidt du bør tage  </p>
 VANTAVO (angivet i punkt 6), </p>
 </li>
 <li>
-<p>hvis du har visse problemer med spiserøret (øsofagus – det rør der forbinder din mund med 
+<p>hvis du har visse problemer med spiserøret (øsofagus - det rør der forbinder din mund med 
 maven), såsom forsnævring eller synkebesvær, </p>
 </li>
 <li>
@@ -625,7 +625,7 @@ af visse sygdomme såsom astma, reumatoid artrit og svære allergier, </p>
 <p>Det er vigtigt at opretholde en god mundhygiejne, når du er i behandling med VANTAVO. Du bør gå 
 regelmæssigt til tandlægen under din behandling, og du skal kontakte din læge eller tandlæge, hvis du 
 oplever problemer med din mund eller tænder såsom løse tænder, smerter eller hævelser.  </p>
-<p>Irritation, betændelse eller sårdannelse i spiserøret (øsofagus – det rør der forbinder din mund med 
+<p>Irritation, betændelse eller sårdannelse i spiserøret (øsofagus - det rør der forbinder din mund med 
 maven), ofte med symptomer så som brystsmerter, halsbrand, synkebesvær eller synkesmerter opstår 
 især, hvis patienten ikke drikker et helt glas vand, og/eller hvis man lægger sig ned inden 30 minutter, 
 efter man har taget VANTAVO. Disse bivirkninger kan forværres, hvis patienten fortsætter med at 
@@ -677,7 +677,7 @@ lægen eller apotekspersonalet.  </p>
 <li>Vælg den ugedag, der passer dig bedst. Tag én VANTAVO tablet hver uge på den valgte ugedag. </li>
 </ol>
 <p>Det er meget vigtigt, at du følger instruktionerne 2), 3), 4) og -5) for at VANTAVO-tabletten hurtigt 
-kan komme ned i maven og for at nedsætte risikoen for irritation af spiserøret (øsofagus – det rør der 
+kan komme ned i maven og for at nedsætte risikoen for irritation af spiserøret (øsofagus - det rør der 
 forbinder din mund med maven). </p>
 <ol>
 <li>
@@ -698,7 +698,7 @@ anden medicin. </p>
 <p>Du må ikke knuse eller tygge tabletten eller lade den blive opløst i munden på grund af risikoen for sår 
 i munden. </p>
 <ol>
-<li>Når du har slugt VANTAVO tabletten, må du ikke lægge dig ned – du skal forblive  </li>
+<li>Når du har slugt VANTAVO tabletten, må du ikke lægge dig ned - du skal forblive  </li>
 </ol>
 <p>oprejst (siddende, stående eller gående) i mindst 30 minutter. Du må ikke lægge dig ned,  </p>
 <p>før du har indtaget dagens første måltid. </p>
@@ -742,7 +742,7 @@ minde dig om, hvordan du skal tage VANTAVO korrekt. </p>
 alvorlige, og som kan kræve akut lægehjælp: 
 Almindelige (kan berøre op til 1 person ud af 10): </p>
 <ul>
-<li>Halsbrand, synkebesvær, synkesmerter, sårdannelse i spiserøret (øsofagus – det rør der forbinder 
+<li>Halsbrand, synkebesvær, synkesmerter, sårdannelse i spiserøret (øsofagus - det rør der forbinder 
 din mund med maven), som kan medføre smerter i brystet, halsbrand eller 
 synkebesvær/synkesmerter. </li>
 </ul>
@@ -802,7 +802,7 @@ mave, diarré, øget luftafgang fra tarmen. </p>
 <p>Kvalme, opkastning. </p>
 </li>
 <li>
-<p>Irritation eller betændelse i spiserøret (øsofagus – det rør der forbinder din mund med maven) 
+<p>Irritation eller betændelse i spiserøret (øsofagus - det rør der forbinder din mund med maven) 
 eller i maven. </p>
 </li>
 <li>
@@ -832,7 +832,7 @@ og/eller prikkende fornemmelse i fingrene eller omkring munden.  </p>
 <p>Mavesår eller sår i mave- og tarmkanalen (nogle gange alvorlige eller med blødning). </p>
 </li>
 <li>
-<p>Indsnævring af spiserøret (øsofagus – det rør der forbinder din mund med maven). </p>
+<p>Indsnævring af spiserøret (øsofagus - det rør der forbinder din mund med maven). </p>
 </li>
 <li>
 <p>Udslæt forværret af sollys. </p>
@@ -1015,8 +1015,6 @@ Description: "ePI document Bundle for vantavo Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1039,8 +1037,6 @@ Description: "ePI document Bundle for vantavo Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1061,8 +1057,8 @@ Usage: #example
 
 Instance: mpbbd22ba876ae7309a2b1061a1e9bb063
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product vantavo"
-Description: "vantavo"
+Title: "Medicinal Product VANTAVO 70 mg/2800 IU tablets"
+Description: "VANTAVO 70 mg/2800 IU tablets"
 Usage: #inline
 
  
@@ -1075,14 +1071,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "VANTAVO is indicated for the treatment of postmenopausal osteoporosis in women at risk of"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "vantavo"
+  * productName = "VANTAVO 70 mg/2800 IU tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1102,10 +1095,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

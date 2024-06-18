@@ -1207,8 +1207,6 @@ Description: "ePI document Bundle for lonquex Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1231,8 +1229,6 @@ Description: "ePI document Bundle for lonquex Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1253,8 +1249,8 @@ Usage: #example
 
 Instance: mpc90b79fb8cf9d2067c35819ca84918df
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product lonquex"
-Description: "lonquex"
+Title: "Medicinal Product Lonquex 6 mg solution for injection in pre-filled syringe"
+Description: "Lonquex 6 mg solution for injection in pre-filled syringe"
 Usage: #inline
 
  
@@ -1267,14 +1263,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Lonquex is indicated in adults and in children 2 years of age and older for reduction in the duration of"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "lonquex"
+  * productName = "Lonquex 6 mg solution for injection in pre-filled syringe"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1294,10 +1287,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

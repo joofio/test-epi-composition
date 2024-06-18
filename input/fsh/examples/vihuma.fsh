@@ -675,7 +675,7 @@ lægemiddel. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken og hætteglassets etiket efter EXP. 
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
-<p>Opbevares i køleskab (2 °C – 8 °C). Må ikke nedfryses. Opbevar hætteglasset i den originale 
+<p>Opbevares i køleskab (2 °C - 8 °C). Må ikke nedfryses. Opbevar hætteglasset i den originale 
 yderpakning for at beskytte mod lys. </p>
 <p>Inden der tilberedes en opløsning af Vihuma pulveret, kan det opbevares ved stuetemperatur (op til °C) i en enkelt periode på højst 1 måned. Notér datoen for, hvornår opbevaring af Vihuma ved 
 stuetemperatur påbegyndes, på æsken. Opbevar ikke Vihuma i køleskab, efter at det har været 
@@ -947,8 +947,6 @@ Description: "ePI document Bundle for vihuma Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -971,8 +969,6 @@ Description: "ePI document Bundle for vihuma Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -993,8 +989,8 @@ Usage: #example
 
 Instance: mpff59b7a06a4fc6ca91db06fdf5a7d8c9
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product vihuma"
-Description: "vihuma"
+Title: "Medicinal Product Vihuma 250 IU powder and solvent for solution for injection"
+Description: "Vihuma 250 IU powder and solvent for solution for injection"
 Usage: #inline
 
  
@@ -1007,14 +1003,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Treatment and prophylaxis of bleeding in patients with haemophilia A (congenital factor VIII"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "vihuma"
+  * productName = "Vihuma 250 IU powder and solvent for solution for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1034,10 +1027,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

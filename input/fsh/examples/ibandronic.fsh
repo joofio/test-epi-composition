@@ -864,8 +864,6 @@ Description: "ePI document Bundle for ibandronic Package Leaflet for language en
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -888,8 +886,6 @@ Description: "ePI document Bundle for ibandronic Package Leaflet for language da
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -910,8 +906,8 @@ Usage: #example
 
 Instance: mp3b1ab70efa7458a20495ebc38b1c3fc7
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product ibandronic"
-Description: "ibandronic"
+Title: "Medicinal Product Ibandronic Acid Teva 50 mg film-coated tablets"
+Description: "Ibandronic Acid Teva 50 mg film-coated tablets"
 Usage: #inline
 
  
@@ -924,14 +920,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Ibandronic Acid Teva is indicated in adults for the prevention of skeletal events (pathological"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "ibandronic"
+  * productName = "Ibandronic Acid Teva 50 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -951,10 +944,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -1099,7 +1099,7 @@ din medicin. Luk
 inhalatoren og gentag 
 trin 3a til 3c. </p>
 <p>Jeg hostede efter jeg 
-inhalerede – betyder det 
+inhalerede - betyder det 
 noget? 
 Dette kan forekomme. Så 
 længe kapslen er tom, har 
@@ -1107,7 +1107,7 @@ du fået en tilstrækkelig
 mængde af din medicin. </p>
 <p>Jeg kunne mærke små 
 stykker af kapslen på 
-min tunge – betyder det 
+min tunge - betyder det 
 noget? 
 Dette kan forekomme, og 
 det er ikke farligt. 
@@ -1156,8 +1156,6 @@ Description: "ePI document Bundle for tovanor Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1180,8 +1178,6 @@ Description: "ePI document Bundle for tovanor Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1202,8 +1198,8 @@ Usage: #example
 
 Instance: mp2be054305b85e2d13e65aa3cf1a561c0
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product tovanor"
-Description: "tovanor"
+Title: "Medicinal Product Tovanor Breezhaler 44 micrograms inhalation powder, hard capsules"
+Description: "Tovanor Breezhaler 44 micrograms inhalation powder, hard capsules"
 Usage: #inline
 
  
@@ -1216,14 +1212,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Tovanor Breezhaler is indicated as a maintenance bronchodilator treatment to relieve symptoms in"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "tovanor"
+  * productName = "Tovanor Breezhaler 44 micrograms inhalation powder, hard capsules"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1243,10 +1236,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

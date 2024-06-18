@@ -1244,7 +1244,7 @@ natriumlaurilsulfat, magnesiumstearat. </p>
 triacetin, gul jernoxid (E172).  </li>
 </ul>
 <p>Udseende og pakningsstørrelser </p>
-<p>De filmovertrukne tabletter er gule, runde og bikonvekse samt præget med ”UI1” på den ene side 
+<p>De filmovertrukne tabletter er gule, runde og bikonvekse samt præget med "UI1" på den ene side 
 og glatte på den anden side. </p>
 <p>Blisterpakninger af PVC/PVdC-aluminiumblistre med 10, 14, 20, 28, 56, 60, 100, 112, 168 og 
 200 filmovertrukne tabletter. </p>
@@ -1330,8 +1330,6 @@ Description: "ePI document Bundle for apixaban Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1354,8 +1352,6 @@ Description: "ePI document Bundle for apixaban Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1376,8 +1372,8 @@ Usage: #example
 
 Instance: mp656032a84c2935003bb3f7376e124521
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product apixaban"
-Description: "apixaban"
+Title: "Medicinal Product Apixaban Accord 2.5 mg film-coated tablets"
+Description: "Apixaban Accord 2.5 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1390,14 +1386,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Prevention of venous thromboembolic events (VTE) in adult patients who have undergone elective hip"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "apixaban"
+  * productName = "Apixaban Accord 2.5 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1417,10 +1410,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

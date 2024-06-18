@@ -613,8 +613,6 @@ Description: "ePI document Bundle for fampridine Package Leaflet for language en
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -637,8 +635,6 @@ Description: "ePI document Bundle for fampridine Package Leaflet for language da
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -659,8 +655,8 @@ Usage: #example
 
 Instance: mp63de51a4556de5e7a2f7d84ffc03fbf9
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product fampridine"
-Description: "fampridine"
+Title: "Medicinal Product Fampridine Accord 10 mg prolonged-release tablets"
+Description: "Fampridine Accord 10 mg prolonged-release tablets"
 Usage: #inline
 
  
@@ -673,14 +669,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Fampridine Accord is indicated for the improvement of walking in adult patients with multiple"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "fampridine"
+  * productName = "Fampridine Accord 10 mg prolonged-release tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -700,10 +693,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

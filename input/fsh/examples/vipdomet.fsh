@@ -903,8 +903,6 @@ Description: "ePI document Bundle for vipdomet Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -927,8 +925,6 @@ Description: "ePI document Bundle for vipdomet Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -949,8 +945,8 @@ Usage: #example
 
 Instance: mp91532a0bac4066c0d200269dda7e0b3f
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product vipdomet"
-Description: "vipdomet"
+Title: "Medicinal Product Vipdomet 12.5 mg/850 mg film-coated tablets"
+Description: "Vipdomet 12.5 mg/850 mg film-coated tablets"
 Usage: #inline
 
  
@@ -963,14 +959,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Vipdomet is indicated in the treatment of adult patients aged 18 years and older with type 2 diabetes"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "vipdomet"
+  * productName = "Vipdomet 12.5 mg/850 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -990,10 +983,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

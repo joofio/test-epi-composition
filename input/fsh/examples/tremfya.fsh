@@ -570,7 +570,7 @@ Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er 
 48
 Alvorlige bivirkninger
 Fortæl det straks til lægen eller søg akut lægehjælp, hvis du får en eller flere af følgende bivirkninger:
-Mulige alvorlige allergiske reaktioner (kan forekomme hos op til 1 ud af 100 patienter) – tegnene 
+Mulige alvorlige allergiske reaktioner (kan forekomme hos op til 1 ud af 100 patienter) - tegnene 
 kan inkludere:
 -
 besvær med at trække vejret eller synke
@@ -928,8 +928,6 @@ Description: "ePI document Bundle for tremfya Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -952,8 +950,6 @@ Description: "ePI document Bundle for tremfya Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -974,8 +970,8 @@ Usage: #example
 
 Instance: mp0efb4276dbc7ad1d850b741a6d2cdac5
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product tremfya"
-Description: "tremfya"
+Title: "Medicinal Product Tremfya 100 mg solution for injection in pre-filled syringe"
+Description: "Tremfya 100 mg solution for injection in pre-filled syringe"
 Usage: #inline
 
  
@@ -988,14 +984,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Plaque psoriasis"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "tremfya"
+  * productName = "Tremfya 100 mg solution for injection in pre-filled syringe"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1015,10 +1008,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

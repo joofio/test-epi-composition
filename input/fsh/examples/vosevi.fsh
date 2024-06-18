@@ -787,7 +787,7 @@ behandle din infektion med hepatitis C. </p>
 <p>Stop med at tage Vosevi og søg straks lægehjælp, hvis du oplever nogen af følgende symptomer: </p>
 <ul>
 <li>
-<p>hævelse af ansigt, læber, tunge eller hals (angioødem) (en ikke almindelig bivirkning – kan 
+<p>hævelse af ansigt, læber, tunge eller hals (angioødem) (en ikke almindelig bivirkning - kan 
 påvirke op til 1 ud af 100 personer) </p>
 </li>
 <li>
@@ -1012,8 +1012,6 @@ Description: "ePI document Bundle for vosevi Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1036,8 +1034,6 @@ Description: "ePI document Bundle for vosevi Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1058,8 +1054,8 @@ Usage: #example
 
 Instance: mp9648a8c3d3b260e0c01496efb4b0ef56
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product vosevi"
-Description: "vosevi"
+Title: "Medicinal Product Vosevi 400 mg/100 mg/100 mg film-coated tablets"
+Description: "Vosevi 400 mg/100 mg/100 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1072,14 +1068,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Vosevi is indicated for the treatment of chronic hepatitis C virus (HCV) infection in patients aged"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "vosevi"
+  * productName = "Vosevi 400 mg/100 mg/100 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1099,10 +1092,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

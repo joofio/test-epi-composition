@@ -841,7 +841,7 @@ af dette lægemiddel. </p>         </div>"""
   * code.text = "5. How to store descovy"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
-<p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen og beholderen efter ”EXP”. 
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen og beholderen efter "EXP". 
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Opbevares i den originale yderpakning for at beskytte mod fugt. Hold beholderen tæt tillukket. </p>
 <p>Spørg på apotekspersonalet, hvordan De skal bortskaffe lægemiddelrester. Af hensyn til miljøet må De 
@@ -862,8 +862,8 @@ Mikrokrystallinsk cellulose, croscarmellosenatrium, magnesiumstearat. </p>
 <p>Filmovertræk: 
 Polyvinylalkohol, titandioxid, macrogol 3350, talcum, jernoxid, sort (E172). </p>
 <p>Udseende og pakningsstørrelser </p>
-<p>Descovy filmovertrukne tabletter er grå, rektangulære tabletter, på den ene side præget med ”GSI” og 
-tallet ”210” på den anden side af tabletten.  </p>
+<p>Descovy filmovertrukne tabletter er grå, rektangulære tabletter, på den ene side præget med "GSI" og 
+tallet "210" på den anden side af tabletten.  </p>
 <p>Descovy leveres i beholdere, der indeholder 30 tabletter (med et silicagel-tørremiddel, der skal 
 opbevares i beholderen for at hjælpe med at beskytte tabletterne). Silicagel-tørremidlet er i et separat 
 brev eller en separat beholder og må ikke sluges. </p>
@@ -997,8 +997,6 @@ Description: "ePI document Bundle for descovy Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1021,8 +1019,6 @@ Description: "ePI document Bundle for descovy Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1043,8 +1039,8 @@ Usage: #example
 
 Instance: mp478b4098ffabcca87dff08bbf871c322
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product descovy"
-Description: "descovy"
+Title: "Medicinal Product Descovy 200 mg/10 mg film-coated tablets"
+Description: "Descovy 200 mg/10 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1057,14 +1053,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Descovy is indicated in combination with other antiretroviral agents for the treatment of adults and"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "descovy"
+  * productName = "Descovy 200 mg/10 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1084,10 +1077,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

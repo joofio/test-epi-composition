@@ -398,7 +398,7 @@ vrangforestillinger, usammenhængende tale og springende adfærd samt følelsesm
 Sygdommen kan desuden bevirke, at man føler sig nedtrykt, skyldig, bekymret eller anspændt.  </p>
 </li>
 <li>
-<p>(bipolar sygdom) følelse af at være “høj”, meget energisk, med mindre søvnbehov end normalt, 
+<p>(bipolar sygdom) følelse af at være “høj", meget energisk, med mindre søvnbehov end normalt, 
 taler meget hurtigt med hurtige indskydelser og undertiden stærk irritabilitet. </p>
 </li>
 </ul>         </div>"""   
@@ -790,8 +790,6 @@ Description: "ePI document Bundle for adasuve Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -814,8 +812,6 @@ Description: "ePI document Bundle for adasuve Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -836,8 +832,8 @@ Usage: #example
 
 Instance: mpa65021751afedc04d4560394d8a23778
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product adasuve"
-Description: "adasuve"
+Title: "Medicinal Product ADASUVE 4.5 mg inhalation powder, pre-dispensed"
+Description: "ADASUVE 4.5 mg inhalation powder, pre-dispensed"
 Usage: #inline
 
  
@@ -850,14 +846,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "ADASUVE is indicated for the rapid control of mild-to-moderate agitation in adult patients with"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "adasuve"
+  * productName = "ADASUVE 4.5 mg inhalation powder, pre-dispensed"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -877,10 +870,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

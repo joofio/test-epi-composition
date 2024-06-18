@@ -725,12 +725,12 @@ tit.
 du har en eller flere af følgende bivirkninger: Hævelse eller oppustethed, som kan være 
 forbundet med mindre hyppig vandladning, åndedrætsbesvær, oppustet mave og følelse af 
 opfyldning samt en generel følelse af træthed. Disse symptomer udvikler sig almindeligvis 
-hurtigt. Dette kan være symptomer på en tilstand, som kaldes ”kapillær lækagesyndrom”, og 
+hurtigt. Dette kan være symptomer på en tilstand, som kaldes "kapillær lækagesyndrom", og 
 som får blod til at lække fra de små blodkar ud i kroppen og kræver omgående lægehjælp. 
  
 du har en kombination af nogle af de følgende symptomer: * feber eller kulderystelser, fryser meget, høj puls, forvirring eller desorientering, åndenød, 
 ekstreme smerter eller utilpashed og klam eller svedende hud. 
-Disse kan være symptomer på en tilstand, der kaldes ”sepsis” (kaldes også "blodforgiftning"), 
+Disse kan være symptomer på en tilstand, der kaldes "sepsis" (kaldes også "blodforgiftning"), 
 en svær infektion med en betændelsesreaktion i hele kroppen, som kan være livstruende og hvor 
 akut lægehjælp er nødvendig. 
  
@@ -744,7 +744,7 @@ urin (proteinuri). </p>
 <p>En almindelig bivirkning under brug af Grastofil er smerter i dine muskler eller knogler 
 (muskuloskeletale smerter), som kan afhjælpes ved at tage smertestillende lægemidler (analgetika). 
 Hos patienter, der gennemgår en stamcelle- eller knoglemarvstransplantation, kan der opstå graft 
-versus host-sygdom (GvHD) – dette er donorcellernes reaktion mod patienten, der får 
+versus host-sygdom (GvHD) - dette er donorcellernes reaktion mod patienten, der får 
 transplantationen. Tegn og symptomer omfatter udslæt i håndflader eller fodsåler samt sår i munden, 
 maven, leveren, på huden eller i dine øjne, lunger, skede og led.  </p>
 <p>Et forhøjet antal hvide blodlegemer og et nedsat antal blodplader, der sænker blodets størkningsevne 
@@ -922,7 +922,7 @@ Aktivt stof: filgrastim. Hver ml opløsning indeholder 60 millioner enheder (ME)
 filgrastim i 0,5 ml opløsning. 
  
 Øvrige indholdsstoffer: Iseddikesyre, natriumhydroxid, sorbitol (E420), polysorbat 80 og vand </p>
-<p>til injektionsvæsker. Se punkt 2 ”Det skal du vide, før du begynder at bruger Grastofil”. </p>
+<p>til injektionsvæsker. Se punkt 2 "Det skal du vide, før du begynder at bruger Grastofil". </p>
 <p>Udseende og pakningsstørrelser </p>
 <p>Grastofil er en klar, farveløs opløsning til injektion eller infusion. Det leveres i en fyldt 
 injektionssprøjte med en påsat kanyle. Sprøjten har 1/40 trykte markeringer fra 0,1 ml til 1 ml på 
@@ -997,8 +997,6 @@ Description: "ePI document Bundle for grastofil Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1021,8 +1019,6 @@ Description: "ePI document Bundle for grastofil Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1043,8 +1039,8 @@ Usage: #example
 
 Instance: mp8e61b46541cd782d75f47b06ddfea02f
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product grastofil"
-Description: "grastofil"
+Title: "Medicinal Product Grastofil 30 MU/0.5 ml solution for injection/infusion in pre-filled syringe"
+Description: "Grastofil 30 MU/0.5 ml solution for injection/infusion in pre-filled syringe"
 Usage: #inline
 
  
@@ -1057,14 +1053,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Grastofil is indicated for the reduction in the duration of neutropenia and the incidence of febrile"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "grastofil"
+  * productName = "Grastofil 30 MU/0.5 ml solution for injection/infusion in pre-filled syringe"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1084,10 +1077,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -1206,8 +1206,6 @@ Description: "ePI document Bundle for sogroya Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1230,8 +1228,6 @@ Description: "ePI document Bundle for sogroya Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1252,8 +1248,8 @@ Usage: #example
 
 Instance: mp21c3d5a66a6d27b5569da6d8c7e6fc48
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product sogroya"
-Description: "sogroya"
+Title: "Medicinal Product Sogroya 5 mg/1.5 mL solution for injection in pre-filled pen"
+Description: "Sogroya 5 mg/1.5 mL solution for injection in pre-filled pen"
 Usage: #inline
 
  
@@ -1266,14 +1262,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Sogroya is indicated for the replacement of endogenous growth hormone (GH) in children aged"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "sogroya"
+  * productName = "Sogroya 5 mg/1.5 mL solution for injection in pre-filled pen"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1293,10 +1286,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -782,8 +782,6 @@ Description: "ePI document Bundle for litfulo Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -806,8 +804,6 @@ Description: "ePI document Bundle for litfulo Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -828,8 +824,8 @@ Usage: #example
 
 Instance: mp601fc65b81b2fd37245e8ad7fc0f0dd7
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product litfulo"
-Description: "litfulo"
+Title: "Medicinal Product Litfulo 50 mg hard capsules"
+Description: "Litfulo 50 mg hard capsules"
 Usage: #inline
 
  
@@ -842,14 +838,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Litfulo is indicated for the treatment of severe alopecia areata in adults and adolescents 12 years of age"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "litfulo"
+  * productName = "Litfulo 50 mg hard capsules"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -869,10 +862,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -372,9 +372,9 @@ din evne til at føre motorkøretøj og betjene maskiner. Vent, indtil vaccinens
 fører motorkøretøj eller betjener maskiner. </p>
 <p>BIMERVAX indeholder natrium og kalium 
 Denne vaccine indeholder mindre end 1 mmol natrium (23 mg) pr. dosisenhed, dvs. den i det 
-væsentlige er “natriumfri”.  </p>
+væsentlige er “natriumfri".  </p>
 <p>Denne vaccine indeholder mindre end 1 mmol kalium (39 mg) pr. 0,5 ml dosisenhed, dvs. den er i det 
-væsentlige “kaliumfri”. </p>         </div>"""   
+væsentlige “kaliumfri". </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take bimervax"
@@ -546,9 +546,9 @@ bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af
 bortskaffe eventuelt ubrugt produkt korrekt. Følgende oplysninger om opbevaring, udløb, brug og 
 håndtering samt bortskaffelse er beregnet til sundhedspersonale. </p>
 <p>Brug ikke vaccinen efter udløbsdatoen, som står på etiketten efter EXP. </p>
-<p>Opbevares i køleskab (2 °C – 8 °C). Må ikke nedfryses. Opbevar hætteglas i den ydre karton for at 
+<p>Opbevares i køleskab (2 °C - 8 °C). Må ikke nedfryses. Opbevar hætteglas i den ydre karton for at 
 beskytte mod lys. 
-Opbevar efter første punktur af flerdosishætteglaset ved 2 °C – 8 °C, anvend inden for  6 timer. </p>
+Opbevar efter første punktur af flerdosishætteglaset ved 2 °C - 8 °C, anvend inden for  6 timer. </p>
 <p>Oplysninger om håndtering er beskrevet i afsnittet til sundhedspersonale sidst i indlægssedlen. </p>
 <p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer </p>         </div>"""      
         
@@ -676,7 +676,7 @@ forhold eller ved stuetemperatur (&lt;25 ºC). </p>
 <p>Kassér:  </p>
 <ul>
 <li>
-<p>Efter første punktur, opbevares det åbnede flerdosishætteglas mellem 2 °C – 8 °C i op til 
+<p>Efter første punktur, opbevares det åbnede flerdosishætteglas mellem 2 °C - 8 °C i op til 
 6 timer. Kassér vaccinen, hvis den ikke er blevet brugt inden for 6 timer efter første punktur af 
 flerdosishætteglasset.  </p>
 </li>
@@ -702,8 +702,6 @@ Description: "ePI document Bundle for bimervax Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -726,8 +724,6 @@ Description: "ePI document Bundle for bimervax Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -748,8 +744,8 @@ Usage: #example
 
 Instance: mp0b425a6e45767f61f6d3b4247eda39d0
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product bimervax"
-Description: "bimervax"
+Title: "Medicinal Product BIMERVAX emulsion for injection"
+Description: "BIMERVAX emulsion for injection"
 Usage: #inline
 
  
@@ -762,14 +758,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "BIMERVAX is indicated as a booster for active immunisation to prevent COVID-19 in individuals"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "bimervax"
+  * productName = "BIMERVAX emulsion for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -789,10 +782,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

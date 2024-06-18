@@ -558,7 +558,7 @@ Betændelse omkring en sene (tenosynovitis)
  
 Knogleinfektion, der skyldes bakterier (osteomyelitis) 
  
-Nedsat antal blodplader (under den normale nedre grænse – trombocytopeni). 
+Nedsat antal blodplader (under den normale nedre grænse - trombocytopeni). 
  
 Mavesmerter 
  
@@ -684,7 +684,7 @@ Tel.: +48 22 566 21<br />
 France 
 MENARINI France 
 Tél: +33 (0)1 45 60 77 Portugal 
-A. Menarini Portugal – Farmacêutica, S.A. 
+A. Menarini Portugal - Farmacêutica, S.A. 
 Tel: +351 210 935<br />
 Hrvatska 
 Berlin-Chemie Menarini Hrvatska d.o.o. 
@@ -821,11 +821,11 @@ posen (ml)
 437,5 
 52,5 </p>
 <p>Beregninger 
-1) Anvend patientens aktuelle vægt – AFRUND KUN TIL NÆRMESTE HELE TAL<br />
+1) Anvend patientens aktuelle vægt - AFRUND KUN TIL NÆRMESTE HELE TAL<br />
 2) Dosis: vægt (kg) x 15 mg/kg = <strong><em>_</em>_ mg (maksimalt 1.200 mg)<br />
 3) Samlet infusionsmængde: dosis (mg) ÷1,2 mg/ml = </strong><strong><em>_</em> ml<br />
 4) Mængde rekonstitueret oritavancin: dosis (mg) ÷ 10 =</strong><strong><em>_ ml<br />
-5) Mængde glucose 5 %, der skal tilsættes i.v.-posen: samlet infusionsmængde (C) – mængde 
+5) Mængde glucose 5 %, der skal tilsættes i.v.-posen: samlet infusionsmængde (C) - mængde 
 rekonstitueret oritavancin (D) = </em></strong>____ ml </p>
 <p>Den fortyndede opløsning skal anvendes straks.  </p>
 <p>Ud fra et mikrobiologisk synspunkt skal produktet anvendes straks. Hvis opløsningen ikke anvendes 
@@ -854,8 +854,6 @@ Description: "ePI document Bundle for tenkasi Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -878,8 +876,6 @@ Description: "ePI document Bundle for tenkasi Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -900,8 +896,8 @@ Usage: #example
 
 Instance: mp426fcc87e6dced0e7ea770b4b6114e7d
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product tenkasi"
-Description: "tenkasi"
+Title: "Medicinal Product Tenkasi 400 mg powder for concentrate for solution for infusion"
+Description: "Tenkasi 400 mg powder for concentrate for solution for infusion"
 Usage: #inline
 
  
@@ -914,14 +910,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Tenkasi is indicated for the treatment of acute bacterial skin and skin structure infections (ABSSSI) in"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "tenkasi"
+  * productName = "Tenkasi 400 mg powder for concentrate for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -941,10 +934,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

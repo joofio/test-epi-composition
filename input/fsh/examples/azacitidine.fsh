@@ -547,7 +547,7 @@ haft en lungesygdom. </p>
 punkt 4). </p>
 <p>Blodprøver 
 Du vil få taget blodprøver, inden du påbegynder behandlingen med Azacitidine Mylan og ved 
-begyndelsen af hver behandlingsperiode (kaldet en “cyklus”). Dette sker for at kontrollere, at du har 
+begyndelsen af hver behandlingsperiode (kaldet en “cyklus"). Dette sker for at kontrollere, at du har 
 nok blodlegemer, og at din lever og dine nyrer fungerer korrekt. </p>
 <p>Børn og unge 
 Azacitidine Mylan må ikke anvendes til børn og unge under 18 år. </p>
@@ -591,7 +591,7 @@ fremskridt og kan ændre dosen, hvis det er nødvendigt. </p>
 </li>
 <li>
 <p>Azacitidine Mylan hver dag i en uge, efterfulgt af en hvileperiode på 3 uger. Denne 
-“behandlingscyklus” vil blive gentaget hver 4. uge. Du skal normalt gennemgå mindst 6 
+“behandlingscyklus" vil blive gentaget hver 4. uge. Du skal normalt gennemgå mindst 6 
 behandlingscyklusser. </p>
 </li>
 </ul>
@@ -902,18 +902,18 @@ også ansvarlige for at forberede og bortskaffe al ubrugt Azacitidine Mylan på 
 <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på hætteglassets etiket og kartonen. Udløbsdatoen 
 er den sidste dag i den nævnte måned. </p>
-<p>For uåbnede hætteglas med dette lægemiddel – der er ingen særlige forholdsregler vedrørende 
+<p>For uåbnede hætteglas med dette lægemiddel - der er ingen særlige forholdsregler vedrørende 
 opbevaringen. </p>
 <p>Til umiddelbar anvendelse 
 Når suspensionen er blevet forberedt, bør den administreres i løbet af 1 time. </p>
 <p>Til senere anvendelse 
 Hvis Azacitidine Mylan-suspensionen forberedes med vand til injektionsvæsker, der ikke er nedkølet, 
-skal suspensionen sættes i køleskab (2 °C – 8 °C) umiddelbart efter forberedelsen, og opbevares i 
+skal suspensionen sættes i køleskab (2 °C - 8 °C) umiddelbart efter forberedelsen, og opbevares i 
 køleskab i maksimalt 8 timer. </p>
 <p>Hvis Azacitidine Mylan-suspensionen forberedes med vand til injektionsvæsker, der har været 
-opbevaret i køleskab (2 °C – 8 °C), skal suspensionen sættes i køleskab (2 °C – 8 °C) straks efter 
+opbevaret i køleskab (2 °C - 8 °C), skal suspensionen sættes i køleskab (2 °C - 8 °C) straks efter 
 forberedelsen, og opbevares i køleskab i maksimalt 22 timer. </p>
-<p>Suspensionen skal have lov til at nå til stuetemperatur (20 °C – 25 °C) op til 30 minutter før 
+<p>Suspensionen skal have lov til at nå til stuetemperatur (20 °C - 25 °C) op til 30 minutter før 
 administration. </p>
 <p>Hvis der er store partikler i suspensionen, skal den bortskaffes. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
@@ -925,11 +925,10 @@ smide medicinrester i afløbet eller toilettet eller skraldespanden. </p>       
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad Azacitidine Mylan indeholder 
-– 
-Aktivt stof: azacitidin. Et hætteglas med pulver indeholder 100 mg azacitidin. Efter opblanding 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Hvad Azacitidine Mylan indeholder</h2>
+<p>Aktivt stof: azacitidin. Et hætteglas med pulver indeholder 100 mg azacitidin. Efter opblanding 
 med 4 ml vand til injektionsvæske indeholder den opblandede suspension 25 mg/ml azacitidin. 
-– 
+- 
 Øvrige indholdsstoffer: mannitol (E421). </p>
 <p>Udseende og pakningsstørrelser 
 Azacitidine Mylan et hvidt pulver til injektionsvæske, suspension. Det leveres i et hætteglas, der 
@@ -1062,7 +1061,7 @@ Skyl øjeblikkeligt og grundigt med sæbe og vand, hvis rekonstitueret azacitidi
 huden. Skyl grundigt med vand, hvis azacitidin kommer i kontakt med slimhinderne. </p>
 <p>Uforligeligheder 
 Dette lægemiddel må ikke blandes med andre lægemidler end dem, der er anført herunder (se 
-“Rekonstitutionsprocedure”). </p>
+“Rekonstitutionsprocedure"). </p>
 <p>Rekonstitutionsprocedure 
 Azacitidine Mylan skal rekonstitueres med vand til injektionsvæsker. Opbevaringstiden for det 
 rekonstituerede lægemiddel kan forlænges ved rekonstitution med nedkølet (2 °C til 8 °C) vand til 
@@ -1095,7 +1094,7 @@ dosis 150 mg = 6 ml, 2 sprøjter med 3 ml i hver sprøjte. På grund af tilbageh
 hætteglasset og kanylen kan det muligvis ikke lade sig gøre at trække al suspensionen ud af 
 hætteglasset. </li>
 <li>Indholdet af doseringssprøjten skal resuspenderes umiddelbart inden administration. 
-Suspensionens temperatur på injektionstidspunktet bør være cirka 20 °C – 25 °C. Sprøjten 
+Suspensionens temperatur på injektionstidspunktet bør være cirka 20 °C - 25 °C. Sprøjten 
 resuspenderes ved at den rulles kraftigt mellem håndfladerne, indtil der opnås en ensartet, uklar 
 suspension. Produktet skal bortskaffes, hvis det indeholder store partikler eller agglomerater. </li>
 </ol>
@@ -1106,7 +1105,7 @@ suspension skal administreres inden for 1 time. Hvis der er forløbet mere end 1
 rekonstituerede suspension bortskaffes på korrekt vis, og en ny dosis klargøres. </p>
 <p>Til senere anvendelse 
 Ved rekonstitution med vand til injektionsvæsker, som ikke er nedkølet, skal den rekonstituerede 
-suspension sættes i køleskab (2 °C–8 °C) straks efter rekonstitution og opbevares i køleskab i højst 
+suspension sættes i køleskab (2 °C-8 °C) straks efter rekonstitution og opbevares i køleskab i højst 
 8 timer. Hvis produktet har været opbevaret i køleskab i mere end 8 timer, skal suspensionen 
 bortskaffes på korrekt vis, og en ny dosis klargøres. </p>
 <p>Ved rekonstitution med nedkølet (2 °C til 8 °C) vand til injektionsvæsker skal den rekonstituerede 
@@ -1114,7 +1113,7 @@ suspension sættes i køleskab (2 °C til 8 °C) straks efter rekonstitution og 
 22 timer. Hvis produktet har været opbevaret i køleskab i mere end 22 timer, skal suspensionen 
 bortskaffes på korrekt vis, og en ny dosis klargøres. </p>
 <p>Sprøjten fyldt med rekonstitueret suspension skal stå i op til 30 minutter før administration for at nå en 
-temperatur på ca. 20 °C – 25 °C. Hvis den forløbne tid er længere end 30 minutter, skal suspensionen 
+temperatur på ca. 20 °C - 25 °C. Hvis den forløbne tid er længere end 30 minutter, skal suspensionen 
 kasseres på passende vis, og en ny dosis klargøres. </p>
 <p>Beregning af en individuel dosis 
 Den samlede dosis i forhold til legemsoverfladeareal (Body Surface Area, BSA) kan beregnes som 
@@ -1147,7 +1146,7 @@ suspension
 1 hætteglas 
 1,8 ml </p>
 <p>Administration 
-Rekonstitueret Azacitidine Mylan bør injiceres subkutant (indfør kanylen ved en vinkel på 45–90°) 
+Rekonstitueret Azacitidine Mylan bør injiceres subkutant (indfør kanylen ved en vinkel på 45-90°) 
 med en 25 gauge-kanyle i overarmen, låret eller maven. </p>
 <p>Doser på over 4 ml bør injiceres på to separate steder. </p>
 <p>Der bør skiftes mellem injektionsstederne. Nye injektioner bør indgives mindst 2,5 cm fra det forrige 
@@ -1165,8 +1164,6 @@ InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for azacitidine Package Leaflet for language en"
 Description: "ePI document Bundle for azacitidine Package Leaflet for language en"
 Usage: #example
-
-
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
@@ -1191,8 +1188,6 @@ Description: "ePI document Bundle for azacitidine Package Leaflet for language d
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1213,8 +1208,8 @@ Usage: #example
 
 Instance: mp918183ebe8d737590835d2d1ada752f1
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product azacitidine"
-Description: "azacitidine"
+Title: "Medicinal Product Azacitidine Mylan 25 mg/mL powder for suspension for injection"
+Description: "Azacitidine Mylan 25 mg/mL powder for suspension for injection"
 Usage: #inline
 
  
@@ -1227,14 +1222,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Azacitidine Mylan is indicated for the treatment of adult patients who are not eligible for"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "azacitidine"
+  * productName = "Azacitidine Mylan 25 mg/mL powder for suspension for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1254,10 +1246,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

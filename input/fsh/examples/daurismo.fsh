@@ -557,45 +557,45 @@ naturlægemidler. Det skyldes, at Daurismo kan påvirke virkningen af visse andr
 andre lægemidler kan påvirke Daurismos virkning.
 Især kan følgende øge risikoen for bivirkninger med Daurismo:
 -
-boceprevir – et lægemiddel der anvendes til at behandle hepatitis C.
+boceprevir - et lægemiddel der anvendes til at behandle hepatitis C.
 -
-cobicistat, ritonavir, telaprevir– lægemidler, der anvendes til behandling af hiv-infektion.
+cobicistat, ritonavir, telaprevir- lægemidler, der anvendes til behandling af hiv-infektion.
 -
-itraconazol, ketoconazol, voriconazol, posaconazol – lægemidler, der anvendes til behandling 
+itraconazol, ketoconazol, voriconazol, posaconazol - lægemidler, der anvendes til behandling 
 af svampeinfektioner. 
 -
-troleandomycin – et lægemiddel, der anvendes til at behandle bakterieinfektioner.
+troleandomycin - et lægemiddel, der anvendes til at behandle bakterieinfektioner.
 -
-conivaptan – et lægemiddel, der anvendes til at regulere forstyrrelser i væske- og saltbalancen.
+conivaptan - et lægemiddel, der anvendes til at regulere forstyrrelser i væske- og saltbalancen.
 -
-amiodaron, disopyramid, dofetilid, ibutilid, sotalol, quinidin – medicin til behandling af 
+amiodaron, disopyramid, dofetilid, ibutilid, sotalol, quinidin - medicin til behandling af 
 hjerteproblemer.
 -
-droperidol, haloperidol, pimozide – medicin til behandling af psykotiske tilstande.
+droperidol, haloperidol, pimozide - medicin til behandling af psykotiske tilstande.
 -
-moxifloxacin – medicin til behandling af en særlig slags bakterieinfektioner.
+moxifloxacin - medicin til behandling af en særlig slags bakterieinfektioner.
 -
-metadon – medicin, som bruges til smertebehandling og til behandling af afhængighed af 
+metadon - medicin, som bruges til smertebehandling og til behandling af afhængighed af 
 opioider.
 Følgende lægemidler kan nedsætte virkningen af Daurismo:
 -
-carbamazepin, phenytoin, antiepileptika – lægemidler, der anvendes til at behandle kramper 
+carbamazepin, phenytoin, antiepileptika - lægemidler, der anvendes til at behandle kramper 
 eller krampeanfald.
 -
-rifampicin – et lægemiddel, der anvendes til at behandle tuberkulose (TB).
+rifampicin - et lægemiddel, der anvendes til at behandle tuberkulose (TB).
 -
-Prikbladet perikon (Hypericum perforatum) – et naturlægemiddel, der anvendes ved 
+Prikbladet perikon (Hypericum perforatum) - et naturlægemiddel, der anvendes ved 
 nedtrykthed.
 -
-enzalutamid – et lægemiddel, der anvendes til at behandle prostatakræft.
+enzalutamid - et lægemiddel, der anvendes til at behandle prostatakræft.
 -
-mitotan – et lægemiddel, der anvendes til at behandle binyrekræft.
+mitotan - et lægemiddel, der anvendes til at behandle binyrekræft.
 -
-bosentan – et lægemiddel, der anvendes til at behandle højt blodtryk.
+bosentan - et lægemiddel, der anvendes til at behandle højt blodtryk.
 -
-efavirenz, etravirin – lægemidler, der anvendes til at behandle hiv-infektion.
+efavirenz, etravirin - lægemidler, der anvendes til at behandle hiv-infektion.
 -
-modafinil – et lægemiddel, der anvendes til at behandle søvnforstyrrelser.
+modafinil - et lægemiddel, der anvendes til at behandle søvnforstyrrelser.
 -
 nafcillin, et lægemiddel, der anvendes til at behandle visse typer bakterieinfektioner.
 Daurismo sammen med mad og drikke
@@ -651,7 +651,7 @@ apotekspersonalet.
 39
 Den anbefalede dosis er én tablet på 100 mg, der tages gennem munden én gang om dagen med eller 
 uden mad. 
-Hvis du oplever visse bivirkninger, mens du tager Daurismo (se punkt 4 “Bivirkninger”), kan din læge 
+Hvis du oplever visse bivirkninger, mens du tager Daurismo (se punkt 4 “Bivirkninger"), kan din læge 
 nedsætte din dosis eller stoppe behandlingen midlertidigt eller permanent. 
 Hvis du kaster op efter at have taget Daurismo
 Hvis du kaster op efter at have taget Daurismo, må du ikke tage en ekstra dosis. Tag blot din næste
@@ -679,7 +679,7 @@ Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
 Daurismo kan forårsage alvorlige medfødte misdannelser. Det kan også medføre, at barnet dør inden 
 eller kort tid efter fødsel. Du må ikke blive gravid, mens du tager denne medicin (se punkt 2, “Det skal 
-du vide, før du begynder at tage Daurismo”).
+du vide, før du begynder at tage Daurismo").
 Andre bivirkninger ved Daurismo i kombination med cytarabin inkluderer:
 Meget almindelig: kan forekomme hos flere end 1 ud af 10 personer
 -
@@ -753,7 +753,7 @@ information om sikkerheden af dette lægemiddel.</p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
 Tag ikke lægemidlet efter den udløbsdato, der står på æsken og på blisterfolien eller beholderen efter 
-“EXP”. Udløbsdatoen er den sidste dag i den nævnte måned.
+“EXP". Udløbsdatoen er den sidste dag i den nævnte måned.
 Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
 Brug ikke lægemidlet, hvis pakningen er beskadiget eller viser tegn på at have været åbnet.
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
@@ -774,13 +774,13 @@ glasdegibmaleat svarende til 100 mg glasdegib.
 -
 Øvrige indholdsstoffer: 
 Tabletkerne: natriumstivelsesglycolat, mikrokrystallinsk cellulose, calciumhydrogenphosphat 
-(vandfrit) og magnesiumstearat. Se punkt 2 “Daurismo indeholder natrium.”
+(vandfrit) og magnesiumstearat. Se punkt 2 “Daurismo indeholder natrium."
 Filmovertræk: Lactosemonohydrat, hypromellose, titandioxid, macrogol, triacetin, gul jernoxid 
-og rød jernoxid (kun 100 mg tabletter). Se punkt 2 “Daurismo indeholder lactose.”
+og rød jernoxid (kun 100 mg tabletter). Se punkt 2 “Daurismo indeholder lactose."
 Udseende og pakningsstørrelser
 Daurismo 25 mg filmovertrukne tabletter
 -
-Runde, gule, filmovertrukne tabletter præget med ”Pfizer” på den ene side og ”GLS 25” på den 
+Runde, gule, filmovertrukne tabletter præget med "Pfizer" på den ene side og "GLS 25" på den 
 anden side. 
 41
 -
@@ -788,7 +788,7 @@ Udleveres i blisterkort med 10 tabletter. Hver pakning indeholder 60 tabletter, 
 eller i én plastikbeholder.
 Daurismo 100 mg filmovertrukne tabletter
 -
-Runde, lys-orange, filmovertrukne tabletter med ”Pfizer” indpræget på den ene side og ”GLS 100” 
+Runde, lys-orange, filmovertrukne tabletter med "Pfizer" indpræget på den ene side og "GLS 100" 
 på den anden side. 
 -
 Udleveres i blisterkort med 10 tabletter. Hver pakning indeholder 30 tabletter, enten i 3 blisterkort 
@@ -917,8 +917,6 @@ Description: "ePI document Bundle for daurismo Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -941,8 +939,6 @@ Description: "ePI document Bundle for daurismo Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -963,8 +959,8 @@ Usage: #example
 
 Instance: mp80c767f44d11e1fb968f6d85169c54f0
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product daurismo"
-Description: "daurismo"
+Title: "Medicinal Product Daurismo 25 mg film-coated tablets"
+Description: "Daurismo 25 mg film-coated tablets"
 Usage: #inline
 
  
@@ -977,14 +973,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Daurismo is indicated, in combination with low-dose cytarabine, for the treatment of newly diagnosed"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "daurismo"
+  * productName = "Daurismo 25 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1004,10 +997,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -958,7 +958,7 @@ Tel.: + 48 (0)22 576 9France<br />
 Laboratoire GlaxoSmithKline 
 Tél: + 33 (0)1 39 17 84 diam@gsk.com 
 Portugal<br />
-GlaxoSmithKline – Produtos Farmacêuticos, Lda. 
+GlaxoSmithKline - Produtos Farmacêuticos, Lda. 
 Tel: + 351 21 412 95 FI.PT@gsk.com </p>
 <p>Hrvatska 
 GlaxoSmithKline (Ireland) Limited 
@@ -1012,8 +1012,6 @@ Description: "ePI document Bundle for volibris Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1036,8 +1034,6 @@ Description: "ePI document Bundle for volibris Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1058,8 +1054,8 @@ Usage: #example
 
 Instance: mpa2ad7d6c832ea8692cbcd9e308086f01
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product volibris"
-Description: "volibris"
+Title: "Medicinal Product Volibris 2.5 mg film-coated tablets"
+Description: "Volibris 2.5 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1072,14 +1068,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Volibris is indicated for treatment of pulmonary arterial hypertension (PAH) in adult patients of WHO"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "volibris"
+  * productName = "Volibris 2.5 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1099,10 +1092,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

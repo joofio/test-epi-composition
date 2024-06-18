@@ -852,11 +852,9 @@ Minimalt totalt infusionsvolumen
 &lt; 70 kg 
 150 ml 
 70-100 kg 
-250 ml </p>
-<blockquote>
-<p>100 kg 
+250 ml 
+&gt; 100 kg 
 500 ml </p>
-</blockquote>
 <p>Injicer Elfabrio-opløsningen direkte ind i infusionsposen. 
 Må IKKE injiceres i luftrummet i infusionsposen. 
 Vend forsigtigt infusionsposen rundt for at blande opløsningen, så det undgås at ryste kraftigt og 
@@ -874,8 +872,6 @@ InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for elfabrio Package Leaflet for language en"
 Description: "ePI document Bundle for elfabrio Package Leaflet for language en"
 Usage: #example
-
-
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
@@ -900,8 +896,6 @@ Description: "ePI document Bundle for elfabrio Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -922,8 +916,8 @@ Usage: #example
 
 Instance: mp84263cabba69906218047f0258521479
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product elfabrio"
-Description: "elfabrio"
+Title: "Medicinal Product Elfabrio 2 mg/mL concentrate for solution for infusion"
+Description: "Elfabrio 2 mg/mL concentrate for solution for infusion"
 Usage: #inline
 
  
@@ -936,14 +930,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Elfabrio is indicated for long-term enzyme replacement therapy in adult patients with a confirmed"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "elfabrio"
+  * productName = "Elfabrio 2 mg/mL concentrate for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -963,10 +954,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

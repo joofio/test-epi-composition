@@ -455,7 +455,7 @@ Udslæt på injektionsstedet
 Allergiske reaktioner, såsom udslæt, hævelse eller nældefeber </p>
 <p>Sjælden (kan påvirke op til 1 ud af 1.000 personer) 
 Alvorlige allergiske reaktioner (tegn kan være vejrtrækningsbesvær, hævelse af læber eller tunge eller 
-kraftigt udslæt) (se punkt 2 “Advarsler og forsigtighedsregler”). </p>
+kraftigt udslæt) (se punkt 2 “Advarsler og forsigtighedsregler"). </p>
 <p>Indberetning af bivirkninger 
 Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
@@ -471,7 +471,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på injektionssprøjtens etiket og den ydre æske 
 efter EXP. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
-<p>Opbevares i køleskab (2 °C – 8 °C). Må ikke nedfryses. 
+<p>Opbevares i køleskab (2 °C - 8 °C). Må ikke nedfryses. 
 Opbevar den fyldte injektionssprøjte i den ydre æske for at beskytte lægemidlet mod lys. </p>
 <p>Dette lægemiddel kan tages ud af køleskabet og opbevares ved en temperatur på op til 30 °C i et 
 tidsrum på maks. 7 dage. Lægemidlet skal bortskaffes, hvis det har været opbevaret uden for 
@@ -764,8 +764,6 @@ Description: "ePI document Bundle for ajovy Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -788,8 +786,6 @@ Description: "ePI document Bundle for ajovy Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -810,8 +806,8 @@ Usage: #example
 
 Instance: mp684d3ac7eb172f49f26955be7ae4a00d
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product ajovy"
-Description: "ajovy"
+Title: "Medicinal Product AJOVY 225 mg solution for injection in pre-filled syringe"
+Description: "AJOVY 225 mg solution for injection in pre-filled syringe"
 Usage: #inline
 
  
@@ -824,14 +820,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "AJOVY is indicated for prophylaxis of migraine in adults who have at least 4 migraine days per"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "ajovy"
+  * productName = "AJOVY 225 mg solution for injection in pre-filled syringe"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -851,10 +844,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

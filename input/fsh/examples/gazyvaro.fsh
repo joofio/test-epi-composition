@@ -1740,8 +1740,6 @@ Description: "ePI document Bundle for gazyvaro Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1764,8 +1762,6 @@ Description: "ePI document Bundle for gazyvaro Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1786,8 +1782,8 @@ Usage: #example
 
 Instance: mp985079625d2aba49dd068d4442f9f43b
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product gazyvaro"
-Description: "gazyvaro"
+Title: "Medicinal Product Gazyvaro 1,000 mg concentrate for solution for infusion."
+Description: "Gazyvaro 1,000 mg concentrate for solution for infusion."
 Usage: #inline
 
  
@@ -1800,14 +1796,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Chronic lymphocytic leukaemia (CLL)"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "gazyvaro"
+  * productName = "Gazyvaro 1,000 mg concentrate for solution for infusion."
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1827,10 +1820,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -588,8 +588,6 @@ Description: "ePI document Bundle for enyglid Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -612,8 +610,6 @@ Description: "ePI document Bundle for enyglid Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -634,8 +630,8 @@ Usage: #example
 
 Instance: mp8a64404ab8208188b8002b2af6aa836e
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product enyglid"
-Description: "enyglid"
+Title: "Medicinal Product Enyglid 0.5 mg tablets"
+Description: "Enyglid 0.5 mg tablets"
 Usage: #inline
 
  
@@ -648,14 +644,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Repaglinide is indicated in adults with type 2 diabetes mellitus whose hyperglycaemia can no longer"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "enyglid"
+  * productName = "Enyglid 0.5 mg tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -675,10 +668,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

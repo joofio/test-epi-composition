@@ -858,25 +858,25 @@ Tasigna kan påvirke visse andre lægemidler. </p>
 <p>Fortæl altid lægen eller apotekspersonalet, hvis du tager anden medicin, for nylig har taget anden 
 medicin eller planlægger at tage anden medicin. Det gælder især:</p>
 <ul>
-<li>antiarytmika – bruges til at behandle uregelmæssig hjerterytme </li>
+<li>antiarytmika - bruges til at behandle uregelmæssig hjerterytme </li>
 <li>chloroquin, halofantrin, clarithromycin, haloperidol, methadon, moxifloxacin - lægemidler, der 
 kan have en uønsket virkning på hjertets elektriske aktivitet </li>
-<li>ketoconazol, itraconazol, voriconazol, clarithromycin, telithromycin – bruges til at behandle 
+<li>ketoconazol, itraconazol, voriconazol, clarithromycin, telithromycin - bruges til at behandle 
 infektioner </li>
-<li>ritonavir – lægemiddel fra klassen "antiproteaser", der bruges til at behandle HIV </li>
-<li>carbamazepin, phenobarbital, phenytoin – bruges til at behandle epilepsi </li>
-<li>rifampicin – bruges til at behandle tuberkulose </li>
-<li>perikon – et naturlægemiddel, der bruges til at behandle depression og andre tilstande (kaldes 
+<li>ritonavir - lægemiddel fra klassen "antiproteaser", der bruges til at behandle HIV </li>
+<li>carbamazepin, phenobarbital, phenytoin - bruges til at behandle epilepsi </li>
+<li>rifampicin - bruges til at behandle tuberkulose </li>
+<li>perikon - et naturlægemiddel, der bruges til at behandle depression og andre tilstande (kaldes 
 også Hypericum perforatum) </li>
-<li>midazolam – bruges til at afhjælpe angst før en operation </li>
-<li>alfentanil og fentanyl – bruges til behandling af smerte og som et beroligende middel før eller 
+<li>midazolam - bruges til at afhjælpe angst før en operation </li>
+<li>alfentanil og fentanyl - bruges til behandling af smerte og som et beroligende middel før eller 
 under operationer eller medicinske indgreb </li>
-<li>ciclosporin, sirolimus og tacrolimus – medicin, der undertrykker kroppens "selvforsvars"-evne 
+<li>ciclosporin, sirolimus og tacrolimus - medicin, der undertrykker kroppens "selvforsvars"-evne 
 og bekæmper infektioner, og er almindeligt anvendt til at forhindre afstødning af 
 transplanterede organer, såsom lever, hjerte og nyre </li>
-<li>dihydroergotamin og ergotamin – bruges til behandling af migræne </li>
+<li>dihydroergotamin og ergotamin - bruges til behandling af migræne </li>
 <li>lovastatin, simvastatin - bruges til at behandle højt niveau af fedt i blodet </li>
-<li>warfarin – bruges til at behandle sygdomme, hvor blodet størkner (f.eks. blodpropper eller 
+<li>warfarin - bruges til at behandle sygdomme, hvor blodet størkner (f.eks. blodpropper eller 
 tromboser) </li>
 <li>astemizol, terfenadin, cisaprid, pimozid, quinidin, bepridil eller sekalealkaloider (ergotamin, 
 dihydroergotamin). </li>
@@ -1397,8 +1397,6 @@ Description: "ePI document Bundle for tasigna Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1421,8 +1419,6 @@ Description: "ePI document Bundle for tasigna Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1443,8 +1439,8 @@ Usage: #example
 
 Instance: mp7f2ab73e6ec5569c0d6e8f4a6e01c023
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product tasigna"
-Description: "tasigna"
+Title: "Medicinal Product Tasigna 50 mg hard capsules"
+Description: "Tasigna 50 mg hard capsules"
 Usage: #inline
 
  
@@ -1457,14 +1453,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Tasigna is indicated for the treatment of:"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "tasigna"
+  * productName = "Tasigna 50 mg hard capsules"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1484,10 +1477,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

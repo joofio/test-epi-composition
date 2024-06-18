@@ -1207,8 +1207,6 @@ Description: "ePI document Bundle for silapo Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1231,8 +1229,6 @@ Description: "ePI document Bundle for silapo Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1253,8 +1249,8 @@ Usage: #example
 
 Instance: mp542b66b905705c6df098d31fe81d888d
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product silapo"
-Description: "silapo"
+Title: "Medicinal Product Silapo 1 000 IU/0.3 mL solution for injection in pre-filled syringe"
+Description: "Silapo 1 000 IU/0.3 mL solution for injection in pre-filled syringe"
 Usage: #inline
 
  
@@ -1267,14 +1263,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Silapo is indicated for the treatment of symptomatic anaemia associated with chronic renal failure"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "silapo"
+  * productName = "Silapo 1 000 IU/0.3 mL solution for injection in pre-filled syringe"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1294,10 +1287,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

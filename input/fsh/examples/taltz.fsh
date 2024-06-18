@@ -853,13 +853,13 @@ behandlingen, kan der igen komme symptomer på psoriasis eller psoriasisartrit. 
 Hvis du får nogen af nedenstående bivirkninger, skal du stoppe med at bruge Taltz og omgående 
 fortælle det til din læge eller søge lægehjælp. Lægen vil afgøre, om og hvornår du kan genoptage 
 behandlingen.  </p>
-<p>Alvorlig infektion (kan forekomme hos op til 1 ud af 100 behandlede) – tegnene kan være:</p>
+<p>Alvorlig infektion (kan forekomme hos op til 1 ud af 100 behandlede) - tegnene kan være:</p>
 <ul>
 <li>feber, influenzalignende symptomer, nattesved </li>
 <li>træthed eller åndenød, hoste, der ikke vil gå over </li>
 <li>varm, rød og smertende hud eller et smertefuldt hududslæt med blærer. </li>
 </ul>
-<p>Alvorlig allergisk reaktion (kan forekomme hos op til 1 ud af 1000 behandlede) – tegnene kan være:</p>
+<p>Alvorlig allergisk reaktion (kan forekomme hos op til 1 ud af 1000 behandlede) - tegnene kan være:</p>
 <ul>
 <li>vejrtrækningsbesvær eller synkebesvær </li>
 <li>lavt blodtryk, som kan give svimmelhed eller uklarhed </li>
@@ -1161,7 +1161,7 @@ Udløbsdato
 INDSPRØJT </p>
 <p>2a </p>
 <p>Træk nålehætten af og kasser den. </p>
-<p>Sæt IKKE nålehætten på igen – du kan komme til 
+<p>Sæt IKKE nålehætten på igen - du kan komme til 
 at ødelægge nålen eller stikke dig selv ved et 
 uheld. </p>
 <p>Rør IKKE ved nålen. </p>
@@ -1295,8 +1295,6 @@ Description: "ePI document Bundle for taltz Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1319,8 +1317,6 @@ Description: "ePI document Bundle for taltz Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1341,8 +1337,8 @@ Usage: #example
 
 Instance: mp0a52b09545f0b2e00d5c72212ca2a403
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product taltz"
-Description: "taltz"
+Title: "Medicinal Product Taltz 80 mg solution for injection in pre-filled syringe"
+Description: "Taltz 80 mg solution for injection in pre-filled syringe"
 Usage: #inline
 
  
@@ -1355,14 +1351,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Plaque psoriasis"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "taltz"
+  * productName = "Taltz 80 mg solution for injection in pre-filled syringe"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1382,10 +1375,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

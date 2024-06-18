@@ -334,13 +334,13 @@ lægemiddel (angivet i punkt 6). </li>
 For at sikre, at testresultatet er pålideligt, skal du følge nedenstående regler: </p>
 <ul>
 <li>
-<p>Faste – du må ikke spise i mindst 8 timer før testen og under testen. </p>
+<p>Faste - du må ikke spise i mindst 8 timer før testen og under testen. </p>
 </li>
 <li>
-<p>Fysisk aktivitet – undgå hård fysisk aktivitet 24 timer før testen. </p>
+<p>Fysisk aktivitet - undgå hård fysisk aktivitet 24 timer før testen. </p>
 </li>
 <li>
-<p>Drikke – du må drikke op til 100 ml vand uden brus inden for 1 time før samt inden for 1 time 
+<p>Drikke - du må drikke op til 100 ml vand uden brus inden for 1 time før samt inden for 1 time 
 efter indtagelse af macimorelin. </p>
 </li>
 </ul>
@@ -655,8 +655,6 @@ Description: "ePI document Bundle for ghryvelin Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -679,8 +677,6 @@ Description: "ePI document Bundle for ghryvelin Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -701,8 +697,8 @@ Usage: #example
 
 Instance: mpc94566dbffd326c95bc4d8ce17a5489a
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product ghryvelin"
-Description: "ghryvelin"
+Title: "Medicinal Product GHRYVELIN 60 mg granules for oral suspension in sachet"
+Description: "GHRYVELIN 60 mg granules for oral suspension in sachet"
 Usage: #inline
 
  
@@ -715,14 +711,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "This medicinal product is for diagnostic use only."
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "ghryvelin"
+  * productName = "GHRYVELIN 60 mg granules for oral suspension in sachet"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -742,10 +735,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

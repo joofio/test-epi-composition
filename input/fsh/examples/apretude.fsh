@@ -548,7 +548,7 @@ forsigtighedsregler for at reducere risikoen for at få en hiv-infektion eller b
 for sikker sex.<br />
 Leverproblemer 
 Fortæl din læge, hvis du har leverproblemer. Det kan være nødvendigt at overvåge dig tættere. (Se 
-også ”Ikke almindelige bivirkninger” i punkt 4). 
+også "Ikke almindelige bivirkninger" i punkt 4). 
 Unge 
 Din læge vil diskutere dit mentale helbred med dig før og mens du får Apretude. Fortæl lægen, hvis du 
 har psykiske problemer. Du skal muligvis følges lidt oftere (se også punkt 4)  </p>
@@ -556,7 +556,7 @@ har psykiske problemer. Du skal muligvis følges lidt oftere (se også punkt 4) 
 Apretude indeholder cabotegravir, som er en integrasehæmmer. Integrasehæmmere, inklusiv 
 cabotegravir, kan forårsage en alvorlig allergisk reaktion, som kaldes en overfølsomhedsreaktion. Det 
 er nødvendigt, at du kender vigtige tegn og symptomer, du skal holde øje med, mens du får Apretude.  </p>
-<p> Læs oplysningerne under ”Mulige bivirkninger” ipunkt 4 i denne indlægsseddel. </p>
+<p> Læs oplysningerne under "Mulige bivirkninger" ipunkt 4 i denne indlægsseddel. </p>
 <p>Børn og unge 
 Dette lægemiddel bør ikke anvendes til børn eller unge, som vejer under 35 kg, da det ikke er blevet 
 undersøgt hos disse personer.  </p>
@@ -566,7 +566,7 @@ tage anden medicin. Det gælder også anden medicin, som ikke er købt på recep
 <p>Nogle lægemidler kan påvirke virkningen af Apretude eller gøre det mere sandsynligt, at du får 
 bivirkninger. Apretude kan også påvirke virkningen af andre lægemidler. </p>
 <p>Apretude må ikke gives sammen med visse andre lægemidler, som kan påvirke effekten af medicinen<br />
-(se ”Brug ikke Apretude” i punkt 2). Disse tilstande omfatter: </p>
+(se "Brug ikke Apretude" i punkt 2). Disse tilstande omfatter: </p>
 <p>*carbamazepin, oxcarbazepin, phenytoin, phenobarbital (lægemidler til behandling af epilepsi 
 og til forebyggelse af krampeanfald) </p>
 <p>*rifampicin eller rifapentin (lægemidler til behandling af visse bakterieinfektioner, såsom<br />
@@ -1097,8 +1097,6 @@ Description: "ePI document Bundle for apretude Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1121,8 +1119,6 @@ Description: "ePI document Bundle for apretude Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1143,8 +1139,8 @@ Usage: #example
 
 Instance: mp4a43236fb582d17d10a1516a86f60348
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product apretude"
-Description: "apretude"
+Title: "Medicinal Product Apretude 600 mg prolonged-release suspension for injection"
+Description: "Apretude 600 mg prolonged-release suspension for injection"
 Usage: #inline
 
  
@@ -1157,14 +1153,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Apretude is indicated in combination with safer sex practices for pre-exposure prophylaxis (PrEP) to"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "apretude"
+  * productName = "Apretude 600 mg prolonged-release suspension for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1184,10 +1177,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -625,7 +625,7 @@ majsstivelse, stearinsyre, talkum. </li>
 </ul>
 <p>Udseende og pakningsstørrelser 
 AZILECT tabletter fås som hvide til grålighvide, runde, flade tabletter med skrå kant, præget på den 
-ene side med ”GIL” og nedenunder ”1” og uden præg på den anden side. </p>
+ene side med "GIL" og nedenunder "1" og uden præg på den anden side. </p>
 <p>Tabletterne findes i blisterpakninger med 7, 10, 28, 30, 100 og 112 tabletter eller i en beholder med 
 30 tabletter. 
 Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
@@ -755,8 +755,6 @@ Description: "ePI document Bundle for azilect Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -779,8 +777,6 @@ Description: "ePI document Bundle for azilect Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -801,8 +797,8 @@ Usage: #example
 
 Instance: mp156b61ce1985095bf62d895909c686c6
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product azilect"
-Description: "azilect"
+Title: "Medicinal Product AZILECT 1 mg tablets"
+Description: "AZILECT 1 mg tablets"
 Usage: #inline
 
  
@@ -815,14 +811,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "AZILECT is indicated in adults for the treatment of idiopathic Parkinson’s disease as monotherapy"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "azilect"
+  * productName = "AZILECT 1 mg tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -842,10 +835,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

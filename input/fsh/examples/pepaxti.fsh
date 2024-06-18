@@ -865,8 +865,6 @@ Description: "ePI document Bundle for pepaxti Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -889,8 +887,6 @@ Description: "ePI document Bundle for pepaxti Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -911,8 +907,8 @@ Usage: #example
 
 Instance: mp4b3bf4fa95ca1e8fab427d9644d69f2c
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product pepaxti"
-Description: "pepaxti"
+Title: "Medicinal Product Pepaxti 20 mg powder for concentrate for solution for infusion"
+Description: "Pepaxti 20 mg powder for concentrate for solution for infusion"
 Usage: #inline
 
  
@@ -925,14 +921,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Pepaxti is indicated, in combination with dexamethasone, for the treatment of adult patients with"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "pepaxti"
+  * productName = "Pepaxti 20 mg powder for concentrate for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -952,10 +945,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

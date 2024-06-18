@@ -1029,8 +1029,6 @@ Description: "ePI document Bundle for liprolog Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1053,8 +1051,6 @@ Description: "ePI document Bundle for liprolog Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1075,8 +1071,8 @@ Usage: #example
 
 Instance: mp0c9b965fc8d8b37db9d00845bddc1040
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product liprolog"
-Description: "liprolog"
+Title: "Medicinal Product Liprolog 100 units/ml, solution for injection in vial"
+Description: "Liprolog 100 units/ml, solution for injection in vial"
 Usage: #inline
 
  
@@ -1089,14 +1085,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "For the treatment of adults and children with diabetes mellitus who require insulin for the maintenance"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "liprolog"
+  * productName = "Liprolog 100 units/ml, solution for injection in vial"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1116,10 +1109,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

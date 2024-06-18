@@ -625,8 +625,6 @@ Description: "ePI document Bundle for lysakare Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -649,8 +647,6 @@ Description: "ePI document Bundle for lysakare Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -671,8 +667,8 @@ Usage: #example
 
 Instance: mp73814721e492c5f1086b1c5537e49b46
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product lysakare"
-Description: "lysakare"
+Title: "Medicinal Product LysaKare 25 g/25 g solution for infusion"
+Description: "LysaKare 25 g/25 g solution for infusion"
 Usage: #inline
 
  
@@ -685,14 +681,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "LysaKare is indicated for reduction of renal radiation exposure during peptide-receptor radionuclide"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "lysakare"
+  * productName = "LysaKare 25 g/25 g solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -712,10 +705,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -636,8 +636,6 @@ Description: "ePI document Bundle for kuvan Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -660,8 +658,6 @@ Description: "ePI document Bundle for kuvan Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -682,8 +678,8 @@ Usage: #example
 
 Instance: mp92909816e3fb20d8a0e9b31b0e2db7d9
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product kuvan"
-Description: "kuvan"
+Title: "Medicinal Product Kuvan 100 mg soluble tablets"
+Description: "Kuvan 100 mg soluble tablets"
 Usage: #inline
 
  
@@ -696,14 +692,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Kuvan is indicated for the treatment of hyperphenylalaninaemia (HPA) in adults and paediatric patients of all"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "kuvan"
+  * productName = "Kuvan 100 mg soluble tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -723,10 +716,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -1089,8 +1089,6 @@ Description: "ePI document Bundle for rivastigmine Package Leaflet for language 
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1113,8 +1111,6 @@ Description: "ePI document Bundle for rivastigmine Package Leaflet for language 
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1135,8 +1131,8 @@ Usage: #example
 
 Instance: mpe0ec42c68686885cc176ad73b71e1d80
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product rivastigmine"
-Description: "rivastigmine"
+Title: "Medicinal Product Rivastigmine Sandoz 1.5 mg hard capsules"
+Description: "Rivastigmine Sandoz 1.5 mg hard capsules"
 Usage: #inline
 
  
@@ -1149,14 +1145,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Symptomatic treatment of mild to moderately severe Alzheimer’s dementia."
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "rivastigmine"
+  * productName = "Rivastigmine Sandoz 1.5 mg hard capsules"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1176,10 +1169,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

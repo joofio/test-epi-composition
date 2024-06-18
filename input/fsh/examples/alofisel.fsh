@@ -436,7 +436,7 @@ hos en rask voksen donor, der derefter opdyrkes (ekspanderes) på laboratoriet t
 koncentration på 5 × 106 stamceller per milliliter. Det opbevares i hætteglas, som hver 
 indeholder 6 milliliter, dvs. der er 30 × 106 stamceller per hætteglas. 
 − 
-Hjælpestoffer til opbevaring af cellerne: Dulbecco’s Modified Eagle´s Medium som er en 
+Hjælpestoffer til opbevaring af cellerne: Dulbecco’s Modified Eagle's Medium som er en 
 væske, der indeholder næringsstoffer til cellerne (aminosyrer, vitaminer, salte og kulhydrater), 
 samt humant albumin, som er et protein, der findes naturligt i kroppen hos mennesker. </p>
 <p>Udseende og pakningsstørrelser </p>
@@ -555,8 +555,6 @@ Description: "ePI document Bundle for alofisel Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -579,8 +577,6 @@ Description: "ePI document Bundle for alofisel Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -601,8 +597,8 @@ Usage: #example
 
 Instance: mpf00c2d057b37e01d3588f608535352b2
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product alofisel"
-Description: "alofisel"
+Title: "Medicinal Product Alofisel 5 × 106 cells/mL dispersion for injection."
+Description: "Alofisel 5 × 106 cells/mL dispersion for injection."
 Usage: #inline
 
  
@@ -615,14 +611,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Alofisel is indicated for the treatment of complex perianal fistulas in adult patients with"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "alofisel"
+  * productName = "Alofisel 5 × 106 cells/mL dispersion for injection."
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -642,10 +635,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -597,7 +597,7 @@ Vizimpro 45 mg: hver filmovertrukken tablet indeholder 45 mg dacomitinib
 Øvrige indholdsstoffer: 
 Tabletkerne: lactosemonohydrat, mikrokrystallinsk cellulose, natriumstivelsesglykolat, 
 magnesiumstearat (se pkt. 2 Vizimpro indeholder laktose og natrium).
-Filmovertræk: Opadry II Blue 85F30716 indeholdende polyvinylalkohol – delvist hydrolyseret 
+Filmovertræk: Opadry II Blue 85F30716 indeholdende polyvinylalkohol - delvist hydrolyseret 
 (E1203), talcum (E553b), titandioxid (E171), macrogol (E1521), Indigo carmine aluminium lake 
 (E132).
 Udseende og pakningsstørrelser
@@ -733,8 +733,6 @@ Description: "ePI document Bundle for vizimpro Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -757,8 +755,6 @@ Description: "ePI document Bundle for vizimpro Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -779,8 +775,8 @@ Usage: #example
 
 Instance: mp99b35aa72c0e418c8749ea99edf139d2
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product vizimpro"
-Description: "vizimpro"
+Title: "Medicinal Product Vizimpro 15 mg film-coated tablets"
+Description: "Vizimpro 15 mg film-coated tablets"
 Usage: #inline
 
  
@@ -793,14 +789,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Vizimpro, as monotherapy, is indicated for the first-line treatment of adult patients with locally"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "vizimpro"
+  * productName = "Vizimpro 15 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -820,10 +813,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

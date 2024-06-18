@@ -1474,8 +1474,6 @@ Description: "ePI document Bundle for kaletra Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1498,8 +1496,6 @@ Description: "ePI document Bundle for kaletra Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1520,8 +1516,8 @@ Usage: #example
 
 Instance: mp315c315768d5cbbf6fd09d8201064f37
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product kaletra"
-Description: "kaletra"
+Title: "Medicinal Product Kaletra (80 mg + 20 mg) / ml oral solution"
+Description: "Kaletra (80 mg + 20 mg) / ml oral solution"
 Usage: #inline
 
  
@@ -1534,14 +1530,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Kaletra is indicated in combination with other antiretroviral medicinal products for the treatment of"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "kaletra"
+  * productName = "Kaletra (80 mg + 20 mg) / ml oral solution"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1561,10 +1554,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

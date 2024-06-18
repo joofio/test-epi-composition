@@ -590,7 +590,7 @@ kraftigere.  </p>
 Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
 du spørge din læge til råds, før du får denne vaccine.   </p>
 <p>Trafik- og arbejdssikkerhed 
-Nogle af de bivirkninger, der er nævnt i afsnit 4 ”Bivirkninger”, kan påvirke din evne til at køre bil, 
+Nogle af de bivirkninger, der er nævnt i afsnit 4 "Bivirkninger", kan påvirke din evne til at køre bil, 
 anvende værktøj og maskiner. Vær derfor opmærksom på, hvordan vaccinen påvirker dig, før du kører 
 eller anvender værktøj og maskiner. </p>
 <p>Adjupanrix indeholder thiomersal 
@@ -895,7 +895,7 @@ sygeplejerske: </p>
 <ul>
 <li>
 <p>Forstyrrelser i hjerne og nerver pga. betændelse i centralnervesystemet (encefalomyelitis) eller i 
-nerver (neuritis) eller lammelser som følge af ”Guillain-Barrés syndrom”  </p>
+nerver (neuritis) eller lammelser som følge af "Guillain-Barrés syndrom"  </p>
 </li>
 <li>
 <p>Betændelse af blodkar. Dette kan medføre hudrødme, ledsmerter og nyreproblemer. </p>
@@ -956,7 +956,7 @@ pr. 0,5 ml </p>
 <ul>
 <li>Adjuvans: </li>
 </ul>
-<p>Vaccinen indeholder en ”adjuvans” AS03. Denne adjuvans indeholder squalen (10,69 mg), DL-
+<p>Vaccinen indeholder en "adjuvans" AS03. Denne adjuvans indeholder squalen (10,69 mg), DL-
 α-tocopherol (11,86 mg) og polysorbat 80 (4,86 mg). </p>
 <p>Adjuvans bruges for at få kroppen til at danne et bedre immunforsvar (en bedre 
 forsvarsmekanisme) over for vaccinen. </p>
@@ -1076,7 +1076,7 @@ Tel: + 371 80205 </p>
 GlaxoSmithKline Biologicals SA 
  Tel: +44(0)800 221customercontactuk@gsk.com </p>
 <p>Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ} </p>
-<p>Denne vaccine er godkendt under ”særlige vilkår”.<br />
+<p>Denne vaccine er godkendt under "særlige vilkår".<br />
 Det betyder, at det af videnskabelige årsager ikke har været muligt at opnå fuldstændig dokumentation 
 for denne vaccine. Det Europæiske Lægemiddelagentur vil hvert år vurdere nye oplysninger om 
 vaccinen og denne indlægsseddel vil om nødvendigt blive ajourført. </p>
@@ -1105,8 +1105,8 @@ bunden opad.  </li>
 vaccine er en hvidlig til gullig, homogen, mælkeagtig emulsion. Hvis den rekonstituerede 
 vaccine ser anderledes ud, må den ikke administreres. </li>
 <li>Efter rekonstitution af Adjupanrix indeholder hætteglasset mindst 5 ml. Vaccinen skal 
-administreres i overensstemmelse med den anbefalede dosis (se afsnit 3 ”Sådan får du 
-Adjupanrix”). </li>
+administreres i overensstemmelse med den anbefalede dosis (se afsnit 3 "Sådan får du 
+Adjupanrix"). </li>
 <li>Hætteglasset skal omrystes før hver administration og inspiceres visuelt for fremmede partikler 
 og/eller ændringer i det fysiske udseende. Ved observation af et af de ovennævnte forhold 
 (inklusive gummipartikler fra proppen) må vaccinen ikke administreres. </li>
@@ -1114,7 +1114,7 @@ og/eller ændringer i det fysiske udseende. Ved observation af et af de ovennæv
 med passende graduering og administreres intramuskulært. Det anbefales at bruge en 
 kanylestørrelse, der ikke er større end 23-G.  </li>
 <li>Efter sammenblanding skal vaccinen anvendes inden for 24 timer. Den blandede vaccine kan 
-enten opbevares i køleskab (2 °C – 8 °C) eller ved stuetemperatur (højst 25 °C). Hvis den 
+enten opbevares i køleskab (2 °C - 8 °C) eller ved stuetemperatur (højst 25 °C). Hvis den 
 blandede vaccine opbevares i køleskab, skal vaccinen have antaget stuetemperatur (efter 
 minimum 15 minutter) før hver udtagning. </li>
 </ol>
@@ -1131,8 +1131,6 @@ InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for adjupanrix Package Leaflet for language en"
 Description: "ePI document Bundle for adjupanrix Package Leaflet for language en"
 Usage: #example
-
-
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
@@ -1157,8 +1155,6 @@ Description: "ePI document Bundle for adjupanrix Package Leaflet for language da
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1179,8 +1175,8 @@ Usage: #example
 
 Instance: mp21182c5873285a39663676519ff4bbab
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product adjupanrix"
-Description: "adjupanrix"
+Title: "Medicinal Product Adjupanrix suspension and emulsion for emulsion for injection."
+Description: "Adjupanrix suspension and emulsion for emulsion for injection."
 Usage: #inline
 
  
@@ -1193,14 +1189,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Prophylaxis of influenza in an officially declared pandemic situation."
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "adjupanrix"
+  * productName = "Adjupanrix suspension and emulsion for emulsion for injection."
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1220,10 +1213,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

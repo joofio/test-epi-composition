@@ -488,7 +488,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. 
 Brug ikke Dukoral efter den udløbsdato, der står på pakningen efter EXP. Udløbsdatoen er den sidste 
 dag i den nævnte måned. 
-Opbevares i køleskab (2°C – 8°C). Må ikke nedfryses. </p>
+Opbevares i køleskab (2°C - 8°C). Må ikke nedfryses. </p>
 <p>I uåbnet hætteglas og brev og opbevaret i den ydre karton er præparatet stabilt ved temperaturer op til 
 25oC i en periode på 14 dage. Efter denne periode skal præparatet anvendes eller kasseres. </p>
 <p>Spørg på apoteket, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke smide 
@@ -548,8 +548,6 @@ Description: "ePI document Bundle for dukoral Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -572,8 +570,6 @@ Description: "ePI document Bundle for dukoral Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -594,8 +590,8 @@ Usage: #example
 
 Instance: mpa651c9ffaada5f4880461c8764acc607
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product dukoral"
-Description: "dukoral"
+Title: "Medicinal Product Dukoral suspension and effervescent powder for oral suspension"
+Description: "Dukoral suspension and effervescent powder for oral suspension"
 Usage: #inline
 
  
@@ -608,14 +604,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Dukoral is indicated for active immunisation against disease caused by Vibrio cholerae serogroup O1"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "dukoral"
+  * productName = "Dukoral suspension and effervescent powder for oral suspension"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -635,10 +628,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

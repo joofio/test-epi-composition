@@ -1548,8 +1548,6 @@ Description: "ePI document Bundle for efavirenzemtricitabinetenofovir Package Le
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1572,8 +1570,6 @@ Description: "ePI document Bundle for efavirenzemtricitabinetenofovir Package Le
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1594,8 +1590,8 @@ Usage: #example
 
 Instance: mp65f18cefcd0fd99147e2e0a1f92724f0
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product efavirenzemtricitabinetenofovir"
-Description: "efavirenzemtricitabinetenofovir"
+Title: "Medicinal Product Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva 600 mg/200 mg/245 mg film-coated tablets"
+Description: "Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva 600 mg/200 mg/245 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1608,14 +1604,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva is a fixed-dose combination of efavirenz,"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "efavirenzemtricitabinetenofovir"
+  * productName = "Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva 600 mg/200 mg/245 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1635,10 +1628,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

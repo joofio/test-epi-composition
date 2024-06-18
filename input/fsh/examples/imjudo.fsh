@@ -1261,8 +1261,6 @@ Description: "ePI document Bundle for imjudo Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1285,8 +1283,6 @@ Description: "ePI document Bundle for imjudo Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1307,8 +1303,8 @@ Usage: #example
 
 Instance: mp7abe5e4c0a96659ff75905a068c8e8d2
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product imjudo"
-Description: "imjudo"
+Title: "Medicinal Product IMJUDO 20 mg/ml concentrate for solution for infusion."
+Description: "IMJUDO 20 mg/ml concentrate for solution for infusion."
 Usage: #inline
 
  
@@ -1321,14 +1317,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "IMJUDO in combination with durvalumab is indicated for the first line treatment of adults with"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "imjudo"
+  * productName = "IMJUDO 20 mg/ml concentrate for solution for infusion."
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1348,10 +1341,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

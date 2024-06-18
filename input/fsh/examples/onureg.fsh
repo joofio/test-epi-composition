@@ -640,8 +640,6 @@ Description: "ePI document Bundle for onureg Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -664,8 +662,6 @@ Description: "ePI document Bundle for onureg Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -686,8 +682,8 @@ Usage: #example
 
 Instance: mp6b7b5522c872887b5587c6d7e9f380f6
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product onureg"
-Description: "onureg"
+Title: "Medicinal Product Onureg 200 mg film-coated tablets"
+Description: "Onureg 200 mg film-coated tablets"
 Usage: #inline
 
  
@@ -700,14 +696,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Onureg is indicated as maintenance therapy in adult patients with acute myeloid leukaemia (AML)"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "onureg"
+  * productName = "Onureg 200 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -727,10 +720,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

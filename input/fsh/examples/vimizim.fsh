@@ -377,7 +377,7 @@ muligt og er beregnet til langvarig brug.  </p>
 ("infusionsreaktioner"). De mest alvorlige bivirkninger var svære allergiske reaktioner (ikke-
 almindelig - kan påvirke op til 1 ud af 100 personer) og lette til moderate opkastninger (meget 
 almindelig - kan påvirke mere end 1 ud af 10 personer). Symptomer på allergisk reaktion omfatter 
-udslæt, kløe eller nældefeber på huden (almindeligt forekommende – kan påvirke op til 1 ud af 
+udslæt, kløe eller nældefeber på huden (almindeligt forekommende - kan påvirke op til 1 ud af 
 10 personer). Hvis du oplever besvær med at synke eller tale, alvorlig stakåndethed eller pibende 
 åndedræt, hævelse af ansigt eller læber, svimmehed eller svag puls: Dette kan være symptomer 
 på en alvorlig allergisk reaktion, og du skal straks fortælle det til din læge. Alt efter hvor alvorlig 
@@ -404,14 +404,14 @@ information om sikkerheden af dette lægemiddel.  </p>         </div>"""
 <p>Brug ikke dette lægemiddel efter den udløbsdato, der står på æsken og hætteglasset efter EXP. 
 Udløbsdatoen er den sidste dag i den nævnte måned.  </p>
 <p>Uåbnede hætteglas:<br />
-Opbevares i køleskab (2 C – 8 C).<br />
+Opbevares i køleskab (2 C - 8 C).<br />
 Må ikke nedfryses. </p>
 <p>Opbevares i den originale yderpakning for at beskytte mod lys.  </p>
 <p>Brug ikke Vimizim, hvis opløsningen er misfarvet eller den indeholder synlige partikler.  </p>
 <p>Efter fortynding: 
 Når produktet er fortyndet, skal det anvendes straks. Hvis det ikke anvendes med det samme, er i-
 brug-opbevaringstider og forhold brugerens ansvar og bør normalt ikke være længere end 24 timer ved 
-2 C – 8 C efterfulgt af op til 24 timer ved 23 C – 27 C under administration. </p>
+2 C - 8 C efterfulgt af op til 24 timer ved 23 C - 27 C under administration. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
 medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
         
@@ -550,7 +550,7 @@ bruges, hvis den er misfarvet, eller hvis der er partikler i opløsningen  </p>
 <li>
 <p>Den fortyndede opløsning skal anvendes straks. Hvis den ikke anvendes med det samme, er i-
 brug-opbevaringstider og forhold brugerens ansvar og bør normalt ikke være længere end 24 timer 
-ved 2 C – 8 C efterfulgt af op til 24 timer ved 23 C – 27 C under administration.  </p>
+ved 2 C - 8 C efterfulgt af op til 24 timer ved 23 C - 27 C under administration.  </p>
 </li>
 </ol>         </div>"""      
 
@@ -564,8 +564,6 @@ InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for vimizim Package Leaflet for language en"
 Description: "ePI document Bundle for vimizim Package Leaflet for language en"
 Usage: #example
-
-
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
@@ -590,8 +588,6 @@ Description: "ePI document Bundle for vimizim Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -612,8 +608,8 @@ Usage: #example
 
 Instance: mp5b2806d6987bdec4479a8e779b3ce797
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product vimizim"
-Description: "vimizim"
+Title: "Medicinal Product Vimizim 1 mg/ml concentrate for solution for infusion"
+Description: "Vimizim 1 mg/ml concentrate for solution for infusion"
 Usage: #inline
 
  
@@ -626,14 +622,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Vimizim is indicated for the treatment of mucopolysaccharidosis, type IVA (Morquio A Syndrome,"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "vimizim"
+  * productName = "Vimizim 1 mg/ml concentrate for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -653,10 +646,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

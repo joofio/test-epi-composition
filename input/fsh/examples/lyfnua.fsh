@@ -690,8 +690,6 @@ Description: "ePI document Bundle for lyfnua Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -714,8 +712,6 @@ Description: "ePI document Bundle for lyfnua Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -736,8 +732,8 @@ Usage: #example
 
 Instance: mpd5d0f8dae3251797998b53d83d0b35fa
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product lyfnua"
-Description: "lyfnua"
+Title: "Medicinal Product Lyfnua 45 mg film-coated tablets"
+Description: "Lyfnua 45 mg film-coated tablets"
 Usage: #inline
 
  
@@ -750,14 +746,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Lyfnua is indicated in adults for the treatment of refractory or unexplained chronic cough."
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "lyfnua"
+  * productName = "Lyfnua 45 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -777,10 +770,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

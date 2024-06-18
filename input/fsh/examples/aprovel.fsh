@@ -450,7 +450,7 @@ viser nedsat nyrefunktion. </p>
 </li>
 <li>
 <p>hvis du er længere end 3 måneder henne i din graviditet. (Det er også bedre at lade være med 
-at tage Aprovel i begyndelsen af graviditeten – se afsnittet om graviditet) </p>
+at tage Aprovel i begyndelsen af graviditeten - se afsnittet om graviditet) </p>
 </li>
 <li>
 <p>hvis du har diabetes eller nedsat nyrefunktion, og du bliver behandlet med et lægemiddel, der 
@@ -484,7 +484,7 @@ nyreproblemer, der skyldes diabetes. * aliskiren. </p>
 </ul>
 <p>Din læge vil måske regelmæssigt kontrollere din nyrefunktion, dit blodtryk og mængden af 
 elektrolytter (f.eks. kalium) i dit blod.  </p>
-<p>Se også information under ”Tag ikke Aprovel”. </p>
+<p>Se også information under "Tag ikke Aprovel". </p>
 <p>Du skal fortælle det til din læge, hvis du tror du er gravid eller planlægger at blive gravid. Aprovel bør 
 ikke bruges tidligt i graviditeten og du må ikke tage Aprovel, hvis du er længere end 3 måneder henne 
 i din graviditet, da det kan skade dit barn alvorligt, hvis det bruges i den periode (se afsnittet om 
@@ -496,8 +496,8 @@ fuldstændig klarlagt. </p>
 Fortæl det altid til lægen eller apotekspersonalet, hvis du tager anden medicin eller har gjort det for 
 nylig.  </p>
 <p>Din læge kan blive nødt til at ændre din dosis og/eller tage andre forholdsregler: 
-Hvis du tager en ACE-hæmmer eller aliskiren (se også information under ”Tag ikke Aprovel” og 
-”Advarsler og forsigtighedsregler”). </p>
+Hvis du tager en ACE-hæmmer eller aliskiren (se også information under "Tag ikke Aprovel" og 
+"Advarsler og forsigtighedsregler"). </p>
 <p>Det kan være nødvendigt at tage blodprøver, hvis du tager: </p>
 <ul>
 <li>
@@ -618,7 +618,7 @@ diarré, fordøjelsesbesvær/halsbrand, seksuelle problemer, brystsmerter. </p>
 </ul>
 <p>Der er indberettet bivirkninger efter markedsføring af Aprovel. Bivirkninger, hvor hyppigheden ikke 
 er kendt, er: følelse af, at omgivelserne kører rundt, hovedpine, smagsforstyrrelser, ringen for ørerne, 
-muskelkramper, led- og muskelsmerter, nedsat antal røde blodlegemer (blodmangel – symptomerne 
+muskelkramper, led- og muskelsmerter, nedsat antal røde blodlegemer (blodmangel - symptomerne 
 kan inkludere træthed, hovedpine, stakåndethed under motion, svimmelhed og bleghed), nedsat antal 
 blodplader, unormal leverfunktion, forhøjet mængde af kalium i blodet, nedsat nyrefunktion, 
 betændelseslignende tilstand i de små blodkar, der primært påvirker huden (en tilstand der kaldes 
@@ -656,7 +656,7 @@ medicinrester i afløbet, toilettet eller skraldespanden. </p>
 Aktivt stof: irbesartan. Hver Aprovel-tablet 75 mg indeholder 75 mg irbesartan. 
 
 Øvrige indholdsstoffer: lactosemonohydrat, mikrokrystallinsk cellulose, croscarmellosenatrium, 
-magnesiumstearat, kolloid silica, prægelatineret majsstivelse, poloaxamer 188. Se punkt 2 ”Aprovel indeholder lactose” </p>
+magnesiumstearat, kolloid silica, prægelatineret majsstivelse, poloaxamer 188. Se punkt 2 "Aprovel indeholder lactose" </p>
 <p>Udseende og pakningstørrelser 
 Aprovel 75 mg tabletter er hvide til mathvide, bikonvekse og ovale med et hjerte præget på den ene 
 side og nummeret 2771 på den anden side. </p>
@@ -717,7 +717,7 @@ Sanofi-Aventis Μονοπρόσωπη AEBE
 Τηλ: +30 210 900 16<br />
 Österreich 
 sanofi-aventis GmbH 
-Tel: +43 1 80 185 – 0 </p>
+Tel: +43 1 80 185 - 0 </p>
 <p>España 
 sanofi-aventis, S.A. 
 Tel: +34 93 485 94<br />
@@ -793,8 +793,6 @@ Description: "ePI document Bundle for aprovel Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -817,8 +815,6 @@ Description: "ePI document Bundle for aprovel Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -839,8 +835,8 @@ Usage: #example
 
 Instance: mp3a9236fa8ea679c18e98f7fdb3c04fb7
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product aprovel"
-Description: "aprovel"
+Title: "Medicinal Product Aprovel 75 mg tablets."
+Description: "Aprovel 75 mg tablets."
 Usage: #inline
 
  
@@ -853,14 +849,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Aprovel is indicated in adults for the treatment of essential hypertension."
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "aprovel"
+  * productName = "Aprovel 75 mg tablets."
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -880,10 +873,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -532,8 +532,6 @@ Description: "ePI document Bundle for plerixafor Package Leaflet for language en
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -556,8 +554,6 @@ Description: "ePI document Bundle for plerixafor Package Leaflet for language da
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -578,8 +574,8 @@ Usage: #example
 
 Instance: mpaefacad9a6795a89d3df82b1bc20e9aa
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product plerixafor"
-Description: "plerixafor"
+Title: "Medicinal Product Plerixafor Accord 20 mg/ml solution for injection"
+Description: "Plerixafor Accord 20 mg/ml solution for injection"
 Usage: #inline
 
  
@@ -592,14 +588,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Adult patients"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "plerixafor"
+  * productName = "Plerixafor Accord 20 mg/ml solution for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -619,10 +612,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

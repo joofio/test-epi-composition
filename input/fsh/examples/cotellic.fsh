@@ -524,21 +524,21 @@ problemer med </p>
 <ul>
 <li>
 <p>Blødning 
-Cotellic kan forårsage svær blødning, især i hjernen eller maven (se også ”Svær blødning” i afsnit 4). 
+Cotellic kan forårsage svær blødning, især i hjernen eller maven (se også "Svær blødning" i afsnit 4). 
 Du skal straks kontakte lægen, hvis du oplever enhver usædvanlig blødning eller nogle af disse 
 symptomer: hovedpine, svimmelhed, følelse af svaghed, blod i afføringen eller sort afføring og 
 opkastning af blod. </p>
 </li>
 <li>
 <p>Øjenproblemer 
-Cotellic kan forårsage problemer med øjnene (Se også ”Problemer med øjnene (synet)” i afsnit 4).<br />
+Cotellic kan forårsage problemer med øjnene (Se også "Problemer med øjnene (synet)" i afsnit 4).<br />
 Du skal straks kontakte lægen, hvis du får følgende symptomer: sløret syn, forvrænget syn, 
 indskrænket synsfelt eller andre ændringer i dit syn under behandlingen. Lægen skal undersøge dine 
 øjne, hvis du får nye problemer eller forværring af dit syn under behandling med Cotellic. </p>
 </li>
 <li>
 <p>Hjerteproblemer 
-Cotellic kan svække hjertets pumpeevne (se også ”Hjerteproblemer” i afsnit 4). Lægen skal lave 
+Cotellic kan svække hjertets pumpeevne (se også "Hjerteproblemer" i afsnit 4). Lægen skal lave 
 undersøgelser for at vurdere hjertets pumpeevne før og under din behandling med Cotellic. Du skal 
 straks kontakte lægen, hvis du føler, at dit hjerte slår hårdere, hurtigere eller uregelmæssigt, eller hvis 
 du oplever svimmelhed, stakåndethed, træthed eller hævede ben. </p>
@@ -552,7 +552,7 @@ vil tage blodprøver for at undersøge disse stigninger for at holde øje med di
 <p>Muskelproblemer 
 Cotellic kan forårsage forhøjede niveauer af kreatinkinase, som er et enzym, der hovedsageligt findes i 
 muskler, hjerte og hjerne. Dette kan være et tegn på muskelbeskadigelse (rabdomyolyse) (se 
-også ”Muskelproblemer” i afsnit 4). Din læge vil tage blodprøver for at monitorere dette. Du skal 
+også "Muskelproblemer" i afsnit 4). Din læge vil tage blodprøver for at monitorere dette. Du skal 
 straks kontakte lægen, hvis du oplever nogle af disse symptomer: muskelømhed, muskelkramper, 
 svaghed eller mørk eller rødfarvet urin.   </p>
 </li>
@@ -601,7 +601,7 @@ Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægg
 du spørge lægen eller apotekspersonalet til råds, før du tager dette lægemiddel. </p>
 <ul>
 <li>
-<p>Det frarådes at tage Cotellic under graviditet – selvom Cotellic ikke er undersøgt hos gravide 
+<p>Det frarådes at tage Cotellic under graviditet - selvom Cotellic ikke er undersøgt hos gravide 
 kvinder, kan det muligvis skade det ufødte barn og forårsage misdannelser.  </p>
 </li>
 <li>
@@ -756,7 +756,7 @@ Meget almindelige (kan optræde hos flere end 1 ud af 10 patienter)
 • forhøjede sukkerværdier (ses ved blodprøve) 
 • forhøjet bilirubin (leverpigment) i blodet. Symptomerne inkluderer gulfarvning af hud og øjne 
 • irritation (inflammation) af vævet i lungerne, hvilket kan give vejrtrækningsbesvær og kan 
-være livstruende (kaldes ”pneumonitis”) </p>
+være livstruende (kaldes "pneumonitis") </p>
 <p>Indberetning af bivirkninger 
 Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
@@ -799,14 +799,14 @@ smide medicinrester i afløbet eller skraldespanden. </p>
 cobimetinibhemifumarat svarende til 20 mg cobimetinib. </p>
 </li>
 <li>
-<p>Øvrige indholdsstoffer (se afsnit 2 ”Cotellic indeholder lactose og natrium”): 
+<p>Øvrige indholdsstoffer (se afsnit 2 "Cotellic indeholder lactose og natrium"): 
 • lactosemonohydrat, mikrokrystallinsk cellulose, croscarmellosenatrium og  <br />
   magnesiumstearat i tabletkernen og<br />
 • polyvinylalkohol, titandioxid, macrogol og talcum i filmovertrækket. </p>
 </li>
 </ul>
 <p>Udseende og pakningsstørrelser 
-Cotellic filmovertrukne tabletter er hvide og runde med “COB” præget på den ene side. Der findes én 
+Cotellic filmovertrukne tabletter er hvide og runde med “COB" præget på den ene side. Der findes én 
 pakningsstørrelse: 63 tabletter (3 blistere med 21 tabletter). </p>
 <p>Indehaver af markedsføringstilladelsen </p>
 <p>Roche Registration GmbH<br />
@@ -824,7 +824,7 @@ repræsentant for indehaveren af markedsføringstilladelsen: </p>
 N.V. Roche S.A. 
 Tél/Tel: +32 (0) 2 525 82<br />
 Lietuva 
-UAB “Roche Lietuva” 
+UAB “Roche Lietuva" 
 Tel: +370 5 2546 
 България 
 Рош България ЕООД 
@@ -924,8 +924,6 @@ Description: "ePI document Bundle for cotellic Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -948,8 +946,6 @@ Description: "ePI document Bundle for cotellic Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -970,8 +966,8 @@ Usage: #example
 
 Instance: mp3a2e83e300727740331b28eb7f2593e4
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product cotellic"
-Description: "cotellic"
+Title: "Medicinal Product Cotellic 20 mg film-coated tablets"
+Description: "Cotellic 20 mg film-coated tablets"
 Usage: #inline
 
  
@@ -984,14 +980,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Cotellic is indicated for use in combination with vemurafenib for the treatment of adult patients with"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "cotellic"
+  * productName = "Cotellic 20 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1011,10 +1004,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

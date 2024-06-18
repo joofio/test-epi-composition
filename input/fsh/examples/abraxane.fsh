@@ -404,10 +404,10 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Virkning
 Abraxane indeholder paclitaxel som aktivt stof. Paclitaxel er bundet til det humane protein albumin i 
 form af bittesmå partikler, der kaldes nanopartikler. Paclitaxel hører til en gruppe lægemidler, der 
-kaldes ”taxaner”, og anvendes til at behandle kræft. 
+kaldes "taxaner", og anvendes til at behandle kræft. 
 
 Paclitaxel er den del af lægemidlet, der påvirker kræften. Det virker ved at forhindre, at 
-kræftcellerne deler sig – dette betyder, at de dør.
+kræftcellerne deler sig - dette betyder, at de dør.
 
 Albumin er den del af lægemidlet, der hjælper paclitaxel med at blive opløst i blodet og med at 
 krydse blodkarrenes vægge og nå ind i tumoren. Dette betyder, at andre kemikalier, der kan 
@@ -417,11 +417,11 @@ Anvendelse
 Abraxane anvendes til behandling af de følgende kræfttyper:
 Brystkræft
 
-Brystkræft, som har spredt sig til andre dele af kroppen (dette kaldes ”metastatisk” brystkræft).
+Brystkræft, som har spredt sig til andre dele af kroppen (dette kaldes "metastatisk" brystkræft).
 
 Abraxane anvendes til metastatisk brystkræft, når mindst en anden behandlingsmetode er blevet 
 forsøgt, men ikke har hjulpet, og behandling med en gruppe lægemidler, der kaldes 
-”antracykliner”, ikke er egnet til dig.
+"antracykliner", ikke er egnet til dig.
 
 Personer med metastatisk brystkræft, der fik Abraxane, efter en anden behandlingsmetode ikke 
 havde hjulpet, havde større sandsynlighed for at opleve en reduktion i tumorstørrelse og levede 
@@ -436,7 +436,7 @@ klinisk studie, levede længere end personer, der kun fik gemcitabin.
 Lungekræft
 
 Abraxane anvendes sammen med et lægemiddel, der kaldes carboplatin, hvis du har den mest 
-almindelige type lungekræft, der kaldes ”ikke-småcellet lungekræft”.
+almindelige type lungekræft, der kaldes "ikke-småcellet lungekræft".
 
 Abraxane anvendes til ikke-småcellet lungekræft, hvis operation eller strålebehandling ikke er 
 egnet til at behandle sygdommen.</p>         </div>"""   
@@ -754,7 +754,7 @@ nanopartikler.
 Efter rekonstituering indeholder hver ml dispersion 5 mg paclitaxel formuleret som albuminbundne 
 nanopartikler.
 Øvrige indholdsstoffer: Humant albuminopløsning (indeholder natriumcaprylat og N-acetyl-L-
-tryptophan), se pkt. 2 ”Abraxane indeholder natrium”.
+tryptophan), se pkt. 2 "Abraxane indeholder natrium".
 Udseende og pakningsstørrelser
 Abraxane er et hvidt til gult pulver til infusionsvæske, dispersion. Abraxane fås i hætteglas, der 
 indeholder 100 mg eller 250 mg paclitaxel formuleret som albuminbundne nanopartikler. 
@@ -863,8 +863,6 @@ Description: "ePI document Bundle for abraxane Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -887,8 +885,6 @@ Description: "ePI document Bundle for abraxane Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -909,8 +905,8 @@ Usage: #example
 
 Instance: mp6a4f56969477d35dda930b9433ba77df
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product abraxane"
-Description: "abraxane"
+Title: "Medicinal Product Abraxane 5 mg/ml powder for dispersion for infusion."
+Description: "Abraxane 5 mg/ml powder for dispersion for infusion."
 Usage: #inline
 
  
@@ -923,14 +919,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Abraxane monotherapy is indicated for the treatment of metastatic breast cancer in adult patients who"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "abraxane"
+  * productName = "Abraxane 5 mg/ml powder for dispersion for infusion."
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -950,10 +943,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

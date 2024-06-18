@@ -981,12 +981,12 @@ i synsfeltet). AMGEVITA virker ved at reducere denne inflammation. </p>         
 <li>
 <p>Hvis du har en alvorlig infektion, herunder aktiv tuberkulose, blodforgiftning (sepsis) eller andre 
 såkaldte opportunistiske infektioner (usædvanlige infektioner forbundet med et svækket 
-immunsystem) (se ”Advarsler og forsigtighedsregler”). Det er vigtigt, at du informerer lægen, 
+immunsystem) (se "Advarsler og forsigtighedsregler"). Det er vigtigt, at du informerer lægen, 
 hvis du har symptomer på infektioner, f.eks. feber, sår, træthedsfornemmelse, tandproblemer. </p>
 </li>
 <li>
 <p>Hvis du lider af moderat eller alvorlig hjerteinsufficiens. Det er vigtigt at informere lægen, hvis 
-du har eller har haft en alvorlig hjertesygdom (se ”Advarsler og forsigtighedsregler”). </p>
+du har eller har haft en alvorlig hjertesygdom (se "Advarsler og forsigtighedsregler"). </p>
 </li>
 </ul>
 <p>Advarsler og forsigtighedsregler </p>
@@ -1167,7 +1167,7 @@ få en sådan infektion. </p>
 <li>
 <p>Det er vigtigt, at du fortæller barnets læge og andre sundhedspersoner, at du fik AMGEVITA 
 under graviditeten, før dit barn får nogen vaccinationer (for mere information om vacciner, se 
-afsnittet vedrørende ”Advarsler og forsigtighedsregler”). </p>
+afsnittet vedrørende "Advarsler og forsigtighedsregler"). </p>
 </li>
 </ul>
 <p>Trafik-og arbejdssikkerhed </p>
@@ -1788,7 +1788,7 @@ sikkerheden af dette lægemiddel. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke AMGEVITA efter den udløbsdato, der står på etiketten/blisteren og pakningen efter EXP. 
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
-<p>Opbevares i køleskab (2 °C – 8 °C). Må ikke nedfryses. </p>
+<p>Opbevares i køleskab (2 °C - 8 °C). Må ikke nedfryses. </p>
 <p>Opbevares i den originale karton for at beskytte mod lys. </p>
 <p>En enkelt AMGEVITA fyldt injektionssprøjte kan opbevares ved temperaturer op til 25 °C i en periode 
 på højst 14 dage. Den fyldte injektionssprøjte skal være beskyttet mod lys og kasseres, hvis den ikke er 
@@ -2026,7 +2026,7 @@ Lår </p>
 ● 
 Låret 
 ● 
-Maven – bortset fra et område på 5 cm omkring navlen </p>
+Maven - bortset fra et område på 5 cm omkring navlen </p>
 <p>Rens injektionsstedet med en alkoholvædet serviet. Lad huden tørre. 
 ● 
 Rør ikke dette sted igen, før du giver injektionen. 
@@ -2113,8 +2113,6 @@ Description: "ePI document Bundle for amgevita Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -2137,8 +2135,6 @@ Description: "ePI document Bundle for amgevita Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -2159,8 +2155,8 @@ Usage: #example
 
 Instance: mp05c018e3ef88203006356584dfd470dd
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product amgevita"
-Description: "amgevita"
+Title: "Medicinal Product AMGEVITA 20 mg solution for injection in pre-filled syringe"
+Description: "AMGEVITA 20 mg solution for injection in pre-filled syringe"
 Usage: #inline
 
  
@@ -2173,14 +2169,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Rheumatoid arthritis"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "amgevita"
+  * productName = "AMGEVITA 20 mg solution for injection in pre-filled syringe"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -2200,10 +2193,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

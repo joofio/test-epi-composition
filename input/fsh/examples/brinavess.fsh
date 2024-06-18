@@ -454,7 +454,7 @@ fremskreden hjertesvigt med symptomer ved minimal anstrengelse eller i hvile </p
 </li>
 <li>
 <p>hvis De har unormalt langsom hjerterytme eller hjerteslag, der springer over, og De ikke har 
-pacemaker, eller De har ledningsforstyrrelser, som kaldes QT-forlængelse – som kan ses på et 
+pacemaker, eller De har ledningsforstyrrelser, som kaldes QT-forlængelse - som kan ses på et 
 elektrokardiogram (EKG) hos lægen </p>
 </li>
 <li>
@@ -709,7 +709,7 @@ Et hætteglas med 500 mg vernakalanthydrochlorid svarer til 452,5 mg vernakalant
 </li>
 <li>
 <p>Øvrige indholdsstoffer: Citronsyre, natriumchlorid, natriumhydroxid (E524) og vand til 
-injektionsvæsker (se punkt 2 ”BRINAVESS indeholder natrium”). </p>
+injektionsvæsker (se punkt 2 "BRINAVESS indeholder natrium"). </p>
 </li>
 </ul>
 <p>Udseende og pakningsstørrelser </p>
@@ -854,8 +854,8 @@ efterfølgende 15 minutters observationsperiode, indgives endnu en infusion på 
 10 minutter.  </p>
 <p>Hvis konvertering til sinusrytme indtræder under 1. eller 2. infusion, bør denne infusion fortsætte til, 
 den er afsluttet. Hvis der ses hæmodynamisk stabil atrieflagren efter den initiale infusion, kan 
-2. infusion gives, da patienterne måske konverterer til sinusrytme (se ”Særlige advarsler og 
-forsigtighedsregler vedrørende brugen” og ”Bivirkninger”). </p>
+2. infusion gives, da patienterne måske konverterer til sinusrytme (se "Særlige advarsler og 
+forsigtighedsregler vedrørende brugen" og "Bivirkninger"). </p>
 <p>Patienter med en kropsvægt på &gt; 113 kg 
 For patienter, der vejer over 113 kg, har vernakalant en fast dosis. Den initiale dosis er 339 mg 
 (84,7 ml af 4 mg/ml opløsningen). Hvis konvertering til sinusrytme ikke indtræffer senest 15 minutter 
@@ -864,10 +864,10 @@ efter afslutning af den initiale infusion, kan endnu en 10-minutters infusion p�
 <p>Efter hjerteoperation 
 Dosisjustering er ikke nødvendig. </p>
 <p>Nyreinsufficiens 
-Dosisjustering er ikke nødvendig (se ”Farmakokinetiske egenskaber”). </p>
+Dosisjustering er ikke nødvendig (se "Farmakokinetiske egenskaber"). </p>
 <p>Leverinsufficiens 
-Dosisjustering er ikke nødvendig (se ”Særlige advarsler og forsigtighedsregler vedrørende brugen" og 
-”Farmakokinetiske egenskaber”). </p>
+Dosisjustering er ikke nødvendig (se "Særlige advarsler og forsigtighedsregler vedrørende brugen" og 
+"Farmakokinetiske egenskaber"). </p>
 <p>Ældre mennesker (≥ 65 år) 
 Dosisjustering er ikke nødvendig. </p>
 <p>Pædiatrisk population 
@@ -877,13 +877,13 @@ opstået atrieflimren til sinusrytme, og det bør derfor ikke anvendes til denne
 <p>Til intravenøs anvendelse. </p>
 <p>Vernakalant bør ikke indgives som intravenøs push eller bolusdosis. </p>
 <p>Hætteglassene er kun til engangsbrug og skal fortyndes før administration. </p>
-<p>For instruktioner om fortynding af lægemidlet før administration, se ”Regler for bortskaffelse og 
-anden håndtering”. </p>
+<p>For instruktioner om fortynding af lægemidlet før administration, se "Regler for bortskaffelse og 
+anden håndtering". </p>
 <p>Kontraindikationer </p>
 <ul>
 <li>
 <p>Overfølsomhed over for det aktive stof eller over for et eller flere af hjælpestofferne anført i 
-”Hjælpestoffer”. </p>
+"Hjælpestoffer". </p>
 </li>
 <li>
 <p>Patienter med svær aortastenose, patienter med systolisk blodtryk &lt; 100 mm Hg og patienter 
@@ -941,7 +941,7 @@ første 2 timer efter dosis). Hypotension forekommer typisk tidligt, enten under
 efter afslutning af infusionen, og kan normalt korrigeres ved hjælp af understøttende 
 standardbehandling. Der er set sjældne tilfælde af svær hypotension. Patienter med venstresidig 
 hjerteinsufficiens er blevet identificeret som en population, der har højere risiko for hypotension 
-(se ”Bivirkninger”). </p>
+(se "Bivirkninger"). </p>
 <p>Patienten skal monitoreres for tegn og symptomer på pludseligt fald i blodtryk eller hjertefrekvens 
 under hele infusionsforløbet og i mindst 15 minutter efter afsluttet infusion. </p>
 <p>Venstresidig hjerteinsufficiens </p>
@@ -961,7 +961,7 @@ stabile patienter med venstresidig hjerteinsufficiens i henhold til den funktion
 NYHA-klassifikation I til II. Der er begrænset erfaring med anvendelse af vernakalant til patienter 
 med tidligere dokumenteret venstre ventrikel ejektionsfraktion ≤ 35 %. Vernakalant bør ikke anvendes 
 til disse patienter. Anvendelse til patienter med venstresidig hjerteinsufficiens svarende til NYHA III 
-eller NYHA IV er kontraindiceret (se ”Kontraindikationer”).  </p>
+eller NYHA IV er kontraindiceret (se "Kontraindikationer").  </p>
 <p>Valvulær hjertesygdom </p>
 <p>Hos patienter med valvulær hjertesygdom var der en højere incidens af ventrikulær arytmi hos 
 patienter, der fik vernakalant indtil 24 timer efter dosering. Inden for de første 2 timer opstod der 
@@ -971,8 +971,8 @@ placebo. Disse patienter bør monitoreres tæt. </p>
 <p>Vernakalant blev ikke fundet effektivt til konvertering af typisk primær atrieflagren til sinusrytme. 
 Patienter, der fik vernakalant, havde en højere incidens af konvertering til atrieflagren inden for de 
 første 2 timer efter dosering. Denne risiko er større hos patienter, som får klasse I antiarytmika 
-(se ”Bivirkninger”). Hvis atrieflagren ses sekundært til behandlingen, bør fortsættelse af infusion 
-overvejes (se ”Dosering og administration”). Efter markedsføring er der observeret sjældne tilfælde af 
+(se "Bivirkninger"). Hvis atrieflagren ses sekundært til behandlingen, bør fortsættelse af infusion 
+overvejes (se "Dosering og administration"). Efter markedsføring er der observeret sjældne tilfælde af 
 atrieflagren med 1:1 atrioventrikulær overledning. </p>
 <p>Andre sygdomme og tilstande, der ikke er undersøgt </p>
 <p>Vernakalant er blevet givet til patienter med ukorrigeret QT &lt; 440 ms uden øget risiko for torsades de 
@@ -989,13 +989,13 @@ erfaring med defibrillering inden for 2 timer efter start af infusion. </p>
 <p>Anvendelse af antiarytmika før eller efter vernakalant </p>
 <p>Vernakalant bør ikke gives til patienter, der tidligere har fået antiarytmika (klasse I og III) 4-24 timer 
 før vernakalant grundet mangel på data. Det må ikke gives til patienter, som har fået intravenøse 
-antiarytmika (klasse I og III) op til 4 timer før vernakalant (se ”Kontraindikationer”). </p>
+antiarytmika (klasse I og III) op til 4 timer før vernakalant (se "Kontraindikationer"). </p>
 <p>Vernakalant bør anvendes med forsigtighed hos patienter i oral behandling med antiarytmika (klasse I 
 og III) grundet begrænset erfaring. Risikoen for atrieflagren kan være forøget hos patienter, der får 
 klasse I antiarytmika (se ovenfor). </p>
 <p>Der er begrænset erfaring med anvendelse af intravenøse antiarytmika til rytmekontrol (klasse I og III) 
 de første 4 timer efter administration af vernakalant, og derfor må disse lægemidler ikke anvendes i 
-denne periode (se ”Kontraindikationer”).  </p>
+denne periode (se "Kontraindikationer").  </p>
 <p>Genoptagelse eller initiering af orale antiarytmika til vedligeholdelsesbehandling kan overvejes med 
 start 2 timer efter administration af vernakalant. </p>
 <p>Natriumindhold </p>
@@ -1006,11 +1006,11 @@ anbefalede maximale daglige indtagelse af 2 g natrium for en voksen.  </p>
 <p>Interaktion med andre lægemidler og andre former for interaktion </p>
 <p>Der er ikke udført interaktionsundersøgelser.  </p>
 <p>Vernakalant må ikke gives til patienter, som har fået intravenøse antiarytmika (klasse I og III) mindre 
-end 4 timer før vernakalant (se ”Kontraindikationer”). </p>
+end 4 timer før vernakalant (se "Kontraindikationer"). </p>
 <p>I det kliniske udviklingsprogram blev den orale vedligeholdelsesbehandling med antiarytmika 
 pauseret i mindst 2 timer efter administration af vernakalant. Genoptagelse eller initiering af oral 
 vedligeholdelsesbehandling med antiarytmika efter dette tidsrum kan overvejes 
-(se ”Kontraindikationer” og ”Særlige advarsler og forsigtighedsregler vedrørende brugen”). </p>
+(se "Kontraindikationer" og "Særlige advarsler og forsigtighedsregler vedrørende brugen"). </p>
 <p>Sammenlignet med patienter, som ikke var i samtidig behandling med CYP2D6, viste 
 farmakokinetiske populationsanalyser ingen væsentlige forskelle i den akutte eksponering af 
 vernakalant (Cmax og AUC0-90 min), når svage eller potente CYP2D6-hæmmere blev administreret op til 
@@ -1060,8 +1060,6 @@ Description: "ePI document Bundle for brinavess Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1084,8 +1082,6 @@ Description: "ePI document Bundle for brinavess Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1106,8 +1102,8 @@ Usage: #example
 
 Instance: mpd4694a613bca8c68b89018731c6d00bf
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product brinavess"
-Description: "brinavess"
+Title: "Medicinal Product BRINAVESS 20 mg/ml concentrate for solution for infusion"
+Description: "BRINAVESS 20 mg/ml concentrate for solution for infusion"
 Usage: #inline
 
  
@@ -1120,14 +1116,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Brinavess is indicated in adults for rapid conversion of recent onset atrial fibrillation to sinus rhythm"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "brinavess"
+  * productName = "BRINAVESS 20 mg/ml concentrate for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1147,10 +1140,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

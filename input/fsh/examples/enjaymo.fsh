@@ -853,8 +853,6 @@ Description: "ePI document Bundle for enjaymo Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -877,8 +875,6 @@ Description: "ePI document Bundle for enjaymo Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -899,8 +895,8 @@ Usage: #example
 
 Instance: mpc419fe066011304c4fef1d514818ee22
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product enjaymo"
-Description: "enjaymo"
+Title: "Medicinal Product Enjaymo 50 mg/mL solution for infusion"
+Description: "Enjaymo 50 mg/mL solution for infusion"
 Usage: #inline
 
  
@@ -913,14 +909,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Enjaymo is indicated for the treatment of haemolytic anaemia in adult patients with cold agglutinin"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "enjaymo"
+  * productName = "Enjaymo 50 mg/mL solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -940,10 +933,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

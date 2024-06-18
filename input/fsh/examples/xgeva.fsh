@@ -657,7 +657,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på etiketten og kartonen efter EXP. Udløbsdatoen 
 (EXP) er den sidste dag i den nævnte måned. </p>
-<p>Opbevares i køleskab (2 °C – 8 °C). 
+<p>Opbevares i køleskab (2 °C - 8 °C). 
 Må ikke nedfryses. 
 Opbevar hætteglasset i den ydre karton for at beskytte mod lys. </p>
 <p>Hætteglasset kan tages ud af køleskabet, så det får stuetemperatur (op til 25 °C) inden injektion. Dette 
@@ -847,8 +847,6 @@ Description: "ePI document Bundle for xgeva Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -871,8 +869,6 @@ Description: "ePI document Bundle for xgeva Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -893,8 +889,8 @@ Usage: #example
 
 Instance: mpa3592e2026cf41a77adf37691a552586
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product xgeva"
-Description: "xgeva"
+Title: "Medicinal Product XGEVA 120 mg solution for injection"
+Description: "XGEVA 120 mg solution for injection"
 Usage: #inline
 
  
@@ -907,14 +903,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Prevention of skeletal related events (pathological fracture, radiation to bone, spinal cord compression"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "xgeva"
+  * productName = "XGEVA 120 mg solution for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -934,10 +927,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

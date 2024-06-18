@@ -683,8 +683,6 @@ Description: "ePI document Bundle for imvanex Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -707,8 +705,6 @@ Description: "ePI document Bundle for imvanex Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -729,8 +725,8 @@ Usage: #example
 
 Instance: mpefed70c799d3cf5deb34f761d19e059b
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product imvanex"
-Description: "imvanex"
+Title: "Medicinal Product IMVANEX suspension for injection"
+Description: "IMVANEX suspension for injection"
 Usage: #inline
 
  
@@ -743,14 +739,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Active immunisation against smallpox, monkeypox and disease caused by vaccinia virus in adults (see"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "imvanex"
+  * productName = "IMVANEX suspension for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -770,10 +763,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

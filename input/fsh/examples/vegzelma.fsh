@@ -1039,7 +1039,7 @@ information om sikkerheden af dette lægemiddel </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på den ydre karton og på hætteglasset efter 
 forkortelsen "EXP". Udløbsdatoen er den sidste dag i den nævnte måned. </p>
-<p>Opbevares i køleskab (2 ºC – 8 ºC). 
+<p>Opbevares i køleskab (2 ºC - 8 ºC). 
 Må ikke fryses. 
 Hætteglassene skal altid opbevares i den originale yderpakning for at beskytte mod lys. </p>
 <p>Infusionsopløsningen skal anvendes umiddelbart efter fortyndingen. Hvis den ikke anvendes straks, er 
@@ -1197,8 +1197,6 @@ Description: "ePI document Bundle for vegzelma Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1221,8 +1219,6 @@ Description: "ePI document Bundle for vegzelma Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1243,8 +1239,8 @@ Usage: #example
 
 Instance: mp70c37efbcc66b94190d4774fa8f2fb33
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product vegzelma"
-Description: "vegzelma"
+Title: "Medicinal Product VEGZELMA 25 mg/mL concentrate for solution for infusion."
+Description: "VEGZELMA 25 mg/mL concentrate for solution for infusion."
 Usage: #inline
 
  
@@ -1257,14 +1253,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "VEGZELMA in combination with fluoropyrimidine-based chemotherapy is indicated for treatment of"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "vegzelma"
+  * productName = "VEGZELMA 25 mg/mL concentrate for solution for infusion."
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1284,10 +1277,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

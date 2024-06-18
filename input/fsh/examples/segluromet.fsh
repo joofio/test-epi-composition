@@ -865,9 +865,17 @@ ertugliflozin og metformin, du har behov for til at kontrollere dit blodsukker. 
 <li>
 <p>Lægen vil ordinere den dosis, der passer bedst til dig. Du må ikke ændre dosis, medmindre
 lægen har bedt dig om det.
-61
-Sådan skal du tage lægemidlet</p>
+6</p>
 </li>
+</ul>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
 <li>
 <p>Synk tabletten; tabletten kan deles eller knuses, hvis du har synkebesvær.</p>
 </li>
@@ -899,13 +907,12 @@ Du må ikke stoppe med at tage dette lægemiddel uden at have talt med lægen. D
 stige, hvis du holder op med at tage lægemidlet.
 Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>
 </li>
-</ul>         </div>"""         
-
+</ul>         </div>"""      
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "5. How to store segluromet"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "5. How to store segluromet"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
 Kontakt straks en læge eller det nærmeste hospital, hvis du oplever en eller flere af følgende
@@ -1111,10 +1118,11 @@ information om sikkerheden af dette lægemiddel.</p>
 </li>
 </ul>         </div>"""      
         
+        
 * section[=].section[+]
-  * title = "5. How to store segluromet"
+  * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store segluromet"
+  * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
 Tag ikke lægemidlet efter den udløbsdato, der står på blister og karton efter EXP. Udløbsdatoen er den
@@ -1124,197 +1132,6 @@ Tag ikke lægemidlet, hvis pakningen er beskadiget eller viser tegn på, at den 
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du
 ikke smide lægemiddelrester i afløbet eller skraldespanden.
 64</p>         </div>"""      
-        
-        
-* section[=].section[+]
-  * title = "6. Contents of the pack and other information"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Segluromet indeholder: </p>
-<ul>
-<li>
-<p>Aktive stoffer: ertugliflozin og metformin.<em> 
-Hver Segluromet 2,5 mg/850 mg filmovertrukken tablet indeholder ertugliflozin L-
-pyroglutaminsyre svarende til 2,5 mg ertugliflozin og 850 mg metforminhydrochlorid.</em> 
-Hver Segluromet 2,5 mg/1 000 mg filmovertrukken tablet indeholder ertugliflozin L-
-pyroglutaminsyre svarende til 2,5 mg ertugliflozin og 1 000 mg metforminhydrochlorid.<em> 
-Hver Segluromet 7,5 mg/850 mg filmovertrukken tablet indeholder ertugliflozin L-
-pyroglutaminsyre svarende til 7,5 mg ertugliflozin og 850 mg metforminhydrochlorid.</em> 
-Hver Segluromet 7,5 mg/1 000 mg filmovertrukken tablet indeholder ertugliflozin L-
-pyroglutaminsyre svarende til 7,5 mg ertugliflozin og 1 000 mg metforminhydrochlorid.</p>
-</li>
-<li>
-<p>Øvrige indholdsstoffer:<em> 
-Tabletkerne: povidon (K29-32) (E1201), mikrokrystallinsk cellulose (E460), crospovidon
-(E1202), natriumlaurilsulfat (E487), magnesiumstearat (E470b).</em> 
-Filmovertræk: Segluromet 2,5 mg/850 mg tabletter og Segluromet 7,5 mg/850 mg
-tabletter: hypromellose (E464), hydroxypropylcellulose (E463), titandioxid (E171), rød
-jernoxid (E172), gul jernoxid (E172), sort jernoxid (E172), carnaubavoks (E903).
-Segluromet 2,5 mg/1 000 mg tabletter og Segluromet 7,5 mg/1 000 mg tabletter:
-hypromellose (E464), hydroxypropylcellulose (E463), titandioxid (E171), rød jernoxid
-(E172), carnaubavoks (E903).
-Udseende og pakningsstørrelser</p>
-</li>
-<li>
-<p>Segluromet 2,5 mg/850 mg filmovertrukne tabletter (tabletter) er beige, 18 x 10 mm, ovale,
-filmovertrukne tabletter præget med “2.5/850" på den ene side og uden prægning på den anden
-side.</p>
-</li>
-<li>
-<p>Segluromet 2,5 mg/1 000 mg filmovertrukne tabletter (tabletter) er lyserøde, 19,1 x 10,6 mm,
-ovale, filmovertrukne tabletter præget med “2.5/1000" på den ene side og uden prægning på den
-anden side.</p>
-</li>
-<li>
-<p>Segluromet 7,5 mg/850 mg filmovertrukne tabletter (tabletter) er mørkebrune, 18 x 10 mm,
-ovale, filmovertrukne tabletter præget med “7.5/850" på den ene side og uden prægning på den
-anden side.</p>
-</li>
-<li>
-<p>Segluromet 7,5 mg/1 000 mg filmovertrukne tabletter (tabletter) er røde, 19,1 x 10,6 mm, ovale,
-filmovertrukne tabletter præget med “7.5/1000" på den ene side og uden prægning på den anden
-side.
-Segluromet fås i Alu/PVC/PA/Alu-blistre. Pakningsstørrelserne er 14, 28, 56, 60, 168, 180 og
-196 filmovertrukne tabletter i ikke-perforerede blistre og 30x1 filmovertrukne tabletter i perforerede
-enkeltdosisblistre.
-Ikke alle pakningsstørrelser er nødvendigvis markedsført.
-Indehaver af markedsføringstilladelsen og fremstiller
-Merck Sharp &amp; Dohme B.V.
-Waarderweg 39
-2031 BN Haarlem
-Holland
-65
-Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale
-repræsentant for indehaveren af markedsføringstilladelsen:
-België/Belgique/Belgien
-MSD Belgium
-Tél/Tel: +32(0)27766211
-dpoc_belux@merck.com
-Lietuva
-UAB Merck Sharp &amp; Dohme
-Tel: + 370 5 2780247
-msd_lietuva@merck.com
-България
-Мерк Шарп и Доум България ЕООД
-Teл.: + 359 2 819 3737
-info-msdbg@merck.com
-Luxembourg/Luxemburg
-MSD Belgium
-Tél/Tel: +32(0)27766211
-dpoc_belux@merck.com
-Česká republika
-Merck Sharp &amp; Dohme s.r.o.
-Tel.: +420 233 010 111
-dpoc_czechslovak@merck.com
-Magyarország
-MSD Pharma Hungary Kft.
-Tel.: + 36 1 888-5300
-hungary_msd@merck.com
-Danmark
-MSD Danmark ApS
-Tlf.: +45 4482 4000
-dkmail@merck.com
-Malta
-Merck Sharp &amp; Dohme Cyprus Limited
-Tel: 8007 4433 (+356 99917558)
-malta_info@merck.com
-Deutschland
-MSD Sharp &amp; Dohme GmbH
-Tel: 0800 673 673 673 (+49 (0) 89 4561 0)
-e-mail@msd.de
-Nederland
-Merck Sharp &amp; Dohme B.V. 
-Tel: 0800 9999000 (+31 23 5153153)
-medicalinfo.nl@merck.com
-Eesti
-Merck Sharp &amp; Dohme OÜ
-Tel: + 372 6144 200
-msdeesti@merck.com
-Norge
-MSD (Norge) AS
-Tlf: + 47 32 20 73 00
-msdnorge@msd.no
-Ελλάδα
-MSD Α.Φ.Β.Ε.Ε.
-Τηλ: + 30 210 98 97 300
-dpoc_greece@merck.com
-Österreich
-Merck Sharp &amp; Dohme Ges.m.b.H.
-Tel: +43 (0) 1 26 044
-dpoc_austria@merck.com
-España
-Merck Sharp &amp; Dohme de España, S.A.
-Tel: +34 91 321 06 00
-msd_info@merck.com
-Polska
-MSD Polska Sp. z o.o. 
-Tel.: +48 22 549 51 00
-msdpolska@merck.com
-France
-MSD France
-Tlf.: + 33 (0) 1 80 46 40 40
-Portugal
-Merck Sharp &amp; Dohme, Lda
-Tel: + 351 21 4465700
-inform_pt@merck.com
-Hrvatska
-Merck Sharp &amp; Dohme d.o.o. 
-Tel: + 385 1 6611 333
-croatia_info@merck.com<br />
-România
-Merck Sharp &amp; Dohme Romania S.R.L.
-Tel: +40 21 529 29 00
-msdromania@merck.com
-66
-Ireland
-Merck Sharp &amp; Dohme Ireland (Human Health)
-Limited
-Tel: +353 (0)1 2998700
-medinfo_ireland@merck.com
-Slovenija
-Merck Sharp &amp; Dohme, inovativna zdravila
-d.o.o.
-Tel: + 386 1 5204201
-msd_slovenia@merck.com
-Ísland
-Vistor hf.
-Sími: + 354 535 7000
-Slovenská republika
-Merck Sharp &amp; Dohme, s.r.o.
-Tel: + 421 (2) 58282010
-dpoc_czechslovak@merck.com
-Italia
-MSD Italia S.r.l. 
-Tel: 800 23 99 89 (+39 06 361911)
-medicalinformation.it@msd.com
-Suomi/Finland
-MSD Finland Oy
-Puh/Tel: + 358 (0)9 804650
-info@msd.fi
-Κύπρος
-Merck Sharp &amp; Dohme Cyprus Limited
-Τηλ: 800 00 673
-+357 22866700
-cyprus_info@merck.com
-Sverige
-Merck Sharp &amp; Dohme (Sweden) AB
-Tfn: + 46 (0)77 570 04 88
-medicinskinfo@merck.com
-Latvija
-SIA Merck Sharp &amp; Dohme Latvija
-Tel: + 371 67 364224
-msd_lv@merck.com
-United Kingdom (Northern Ireland)
-Merck Sharp &amp; Dohme Ireland (Human
-Health) Limited 
-Tel: +353 (0)1 2998700
-medinfoNI@msd.com
-Denne indlægsseddel blev senest ændret 
-Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs
-hjemmeside: http://www.ema.europa.eu. </p>
-</li>
-</ul>         </div>"""      
 
 
 
@@ -1326,8 +1143,6 @@ InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for segluromet Package Leaflet for language en"
 Description: "ePI document Bundle for segluromet Package Leaflet for language en"
 Usage: #example
-
-
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
@@ -1352,8 +1167,6 @@ Description: "ePI document Bundle for segluromet Package Leaflet for language da
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1374,8 +1187,8 @@ Usage: #example
 
 Instance: mpfde715eb4d71a80815177e9bcc18c25e
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product segluromet"
-Description: "segluromet"
+Title: "Medicinal Product Segluromet 2.5 mg/850 mg film-coated tablets"
+Description: "Segluromet 2.5 mg/850 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1388,14 +1201,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Segluromet is indicated in adults for the treatment of type 2 diabetes mellitus as an adjunct to diet and"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "segluromet"
+  * productName = "Segluromet 2.5 mg/850 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1415,10 +1225,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

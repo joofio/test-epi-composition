@@ -652,7 +652,7 @@ Spørg, hvordan du undgår dehydrering.</p>
 vejrtrækning, forvirring, usædvanlig søvnighed eller træthed, en sødlig ånde, en sødlig eller
 metallisk smag i munden, eller din urin eller sved lugter anderledes. I så fald skal du straks
 kontakte en læge eller det nærmeste hospital. Disse symptomer kan være tegn på “diabetisk
-ketoacidose" – en tilstand der kan opstå i forbindelse med diabetes som følge af forhøjet
+ketoacidose" - en tilstand der kan opstå i forbindelse med diabetes som følge af forhøjet
 indhold af “ketonstoffer" i urin- eller blodtest. Risikoen for udvikling af diabetisk ketoacidose
 kan øges ved langvarig faste, meget stort alkoholforbrug, dehydrering, pludselige nedsættelser
 af insulindosis eller et større behov for insulin på grund af større operation eller alvorlig
@@ -1259,8 +1259,6 @@ Description: "ePI document Bundle for steglujan Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1283,8 +1281,6 @@ Description: "ePI document Bundle for steglujan Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1305,8 +1301,8 @@ Usage: #example
 
 Instance: mp001a1e1abfef180b40eba1bcc5ecf9fa
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product steglujan"
-Description: "steglujan"
+Title: "Medicinal Product Steglujan 5 mg/100 mg film-coated tablets"
+Description: "Steglujan 5 mg/100 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1319,14 +1315,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Steglujan is indicated in adults aged 18 years and older with type 2 diabetes mellitus as an adjunct to"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "steglujan"
+  * productName = "Steglujan 5 mg/100 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1346,10 +1339,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

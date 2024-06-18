@@ -1143,8 +1143,6 @@ Description: "ePI document Bundle for posaconazole Package Leaflet for language 
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1167,8 +1165,6 @@ Description: "ePI document Bundle for posaconazole Package Leaflet for language 
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1189,8 +1185,8 @@ Usage: #example
 
 Instance: mp2e5fc8a9ad9427a49a8dfdfc9d19d676
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product posaconazole"
-Description: "posaconazole"
+Title: "Medicinal Product Posaconazole AHCL 40 mg/mL oral suspension"
+Description: "Posaconazole AHCL 40 mg/mL oral suspension"
 Usage: #inline
 
  
@@ -1203,14 +1199,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Posaconazole AHCL oral suspension is indicated for use in the treatment of the following fungal"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "posaconazole"
+  * productName = "Posaconazole AHCL 40 mg/mL oral suspension"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1230,10 +1223,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

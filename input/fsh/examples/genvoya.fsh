@@ -623,8 +623,8 @@ Usage: #inline
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvis Deres barn er blevet ordineret Genvoya, skal De bemærke, at alle oplysninger i denne 
-indlægsseddel er henvendt til Deres barn (i dette tilfælde skal det læses som ”Deres barn” i 
-stedet for ”De”). </p>         </div>"""   
+indlægsseddel er henvendt til Deres barn (i dette tilfælde skal det læses som "Deres barn" i 
+stedet for "De"). </p>         </div>"""   
 
 
 
@@ -701,7 +701,7 @@ hovedpine) </li>
 angst) eller lægemiddel, der indeholder det </li>
 <li>lomitapid, lovastatin, simvastatin (anvendes til at sænke kolesterol i blodet) </li>
 <li>lurasidon, pimozid (anvendes til at behandle unormale tanker og følelser) </li>
-<li>sildenafil (når det anvendes til at behandle pulmonal arteriel hypertension – en 
+<li>sildenafil (når det anvendes til at behandle pulmonal arteriel hypertension - en 
 lungesygdom, der gør det vanskeligt at trække vejret) </li>
 <li>oralt administreret midazolam, triazolam (anvendes til at hjælpe dig med at sove og/eller 
 lindre angst) </li>
@@ -765,7 +765,7 @@ hovedpine) </li>
 angst) eller lægemiddel, der indeholder det </li>
 <li>lomitapid, lovastatin, simvastatin (anvendes til at sænke kolesterol i blodet) </li>
 <li>lurasidon, pimozid (anvendes til at behandle unormale tanker og følelser) </li>
-<li>sildenafil (når det anvendes til at behandle pulmonal arteriel hypertension – en 
+<li>sildenafil (når det anvendes til at behandle pulmonal arteriel hypertension - en 
 lungesygdom, der gør det vanskeligt at trække vejret) </li>
 <li>oralt administreret midazolam, triazolam (anvendes til at hjælpe dig med at sove og/eller 
 lindre angst) 
@@ -1158,13 +1158,13 @@ Lactose (som monohydrat), mikrokrystallinsk cellulose (E460), croscarmellosenatr
 hydroxypropylcellulose (E463), siliciumdioxid (E551), natriumlaurilsulfat, magnesiumstearat. </p>
 <p>Filmovertræk: 
 Polyvinylalkohol (E1203), titandioxid (E171), polyethylenglycol (E1521), talcum (E553b), jernoxid, 
-gul (E172), indigocarmin aluminiumpigment (E132 – kun 150 mg/150 mg/200 mg/10 mg tabletten), 
-jernoxid, sort (E172 – kun 90 mg/90 mg/120 mg/6 mg tabletten). </p>
+gul (E172), indigocarmin aluminiumpigment (E132 - kun 150 mg/150 mg/200 mg/10 mg tabletten), 
+jernoxid, sort (E172 - kun 90 mg/90 mg/120 mg/6 mg tabletten). </p>
 <p>Udseende og pakningsstørrelser </p>
 <p>Genvoya 150 mg/150 mg/200 mg/10 mg filmovertrukne tabletter er grønne, kapselformede tabletter, 
-på den ene side præget med ”GSI” og tallet ”510”, på den anden side af tabletten. </p>
+på den ene side præget med "GSI" og tallet "510", på den anden side af tabletten. </p>
 <p>Genvoya 90 mg/90 mg/120 mg/6 mg filmovertrukne tabletter er grønne, kapselformede tabletter, på 
-den ene side præget med ”GSI” og med en delekærv på den anden side af tabletten. </p>
+den ene side præget med "GSI" og med en delekærv på den anden side af tabletten. </p>
 <p>Genvoya leveres i tabletbeholdere, der indeholder 30 tabletter (med et silicagel-tørremiddel, der skal 
 opbevares i beholderen for at hjælpe med at beskytte tabletterne). Silicagel-tørremidlet er i et separat 
 brev eller en separat beholder og må ikke sluges. </p>
@@ -1286,8 +1286,6 @@ Description: "ePI document Bundle for genvoya Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1310,8 +1308,6 @@ Description: "ePI document Bundle for genvoya Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1332,8 +1328,8 @@ Usage: #example
 
 Instance: mp9e5179bf4e803289b510a39f498792d0
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product genvoya"
-Description: "genvoya"
+Title: "Medicinal Product Genvoya 150 mg/150 mg/200 mg/10 mg film-coated tablets"
+Description: "Genvoya 150 mg/150 mg/200 mg/10 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1346,14 +1342,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Genvoya is indicated for the treatment of human immunodeficiency virus-1 (HIV-1) infection without"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "genvoya"
+  * productName = "Genvoya 150 mg/150 mg/200 mg/10 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1373,10 +1366,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

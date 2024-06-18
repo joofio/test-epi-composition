@@ -579,7 +579,7 @@ mod forstørret prostata
 Amiodaron, disopyramid, dronedaron
 mod uregelmæssig hjerterytme
 astemizol, terfenadin
-mod allergisymptomer – fås i håndkøb
+mod allergisymptomer - fås i håndkøb
 atorvastatin, lovastatin, simvastatin, lomitapid
 mod forhøjet kolesterol
 carbamazepin, phenytoin, phenobarbital
@@ -632,7 +632,7 @@ mod forhøjet blodtryk i lungekredsløbet
 ("pulmonal arteriel hypertension")
 prikbladet perikon (hypericum perforatum)
 mod angst og mild depression 
-(naturlægemiddel) – fås i håndkøb
+(naturlægemiddel) - fås i håndkøb
 ticagrelor
 mod blodpropper
 Hvis du tager et eller flere af ovenstående lægemidler mod de nævnte lidelser, må du ikke tage Viekirax. 
@@ -679,7 +679,7 @@ Giv ikke Viekirax til børn og unge under 18 år. Anvendelsen af Viekirax hos b�
 undersøgt.
 Brug af anden medicin sammen med Viekirax
 Fortæl det altid til lægen eller apotekspersonalet, hvis du tager anden medicin eller har gjort det for nylig. 
-Der er visse lægemidler, som du ikke må tage sammen med Viekirax – se ovenfor i tabellen 
+Der er visse lægemidler, som du ikke må tage sammen med Viekirax - se ovenfor i tabellen 
 "Lægemidler, du ikke må tage sammen med Viekirax".
 Tal med lægen eller apotekspersonalet, før du tager Viekirax, hvis du tager et eller flere af de 
 lægemidler, der er angivet i tabellen nedenfor. Lægen vil vurdere, om din dosis af disse lægemidler skal 
@@ -1023,8 +1023,6 @@ Description: "ePI document Bundle for viekirax Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1047,8 +1045,6 @@ Description: "ePI document Bundle for viekirax Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1069,8 +1065,8 @@ Usage: #example
 
 Instance: mp9fab9f40152a9abf5de2f7daf83b1bd5
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product viekirax"
-Description: "viekirax"
+Title: "Medicinal Product Viekirax 12.5 mg/75 mg/50 mg film-coated tablets"
+Description: "Viekirax 12.5 mg/75 mg/50 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1083,14 +1079,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Viekirax is indicated in combination with other medicinal products for the treatment of chronic hepatitis C"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "viekirax"
+  * productName = "Viekirax 12.5 mg/75 mg/50 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1110,10 +1103,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

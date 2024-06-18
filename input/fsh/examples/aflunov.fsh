@@ -496,7 +496,7 @@ bivirkningerne kan være mere intense. </p>
 skal du spørge din læge eller sundhedspersonalet til råds, før du får vaccinen. Din læge må vurdere 
 fordelene og de mulige risici ved at give dig vaccinen. </p>
 <p>Trafik- og arbejdssikkerhed </p>
-<p>Nogle af de virkninger, som er nævnt under pkt. 4 ”Bivirkninger”, kan muligvis påvirke evnen til 
+<p>Nogle af de virkninger, som er nævnt under pkt. 4 "Bivirkninger", kan muligvis påvirke evnen til 
 at føre motorkøretøj og betjene maskiner. </p>
 <p>AFLUNOV indeholder natrium og kalium </p>
 <p>AFLUNOV indeholder mindre end 1 mmol natrium (23 mg) og mindre end 1 mmol kalium (39 mg) 
@@ -700,7 +700,7 @@ sikkerheden af dette lægemiddel. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar denne vaccine utilgængeligt for børn. </p>
 <p>Brug ikke AFLUNOV efter den udløbsdato, der står på pakningen. Udløbsdatoen (efter Exp) er den 
 sidste dag i den nævnte måned. </p>
-<p>Opbevares i køleskab (2 °C – 8 °C). 
+<p>Opbevares i køleskab (2 °C - 8 °C). 
 Må ikke nedfryses. 
 Opbevares i den originale yderpakning for at beskytte mod lys. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
@@ -768,8 +768,6 @@ Description: "ePI document Bundle for aflunov Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -792,8 +790,6 @@ Description: "ePI document Bundle for aflunov Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -814,8 +810,8 @@ Usage: #example
 
 Instance: mp533640e2b33051c3986eeb9c67d13b2c
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product aflunov"
-Description: "aflunov"
+Title: "Medicinal Product AFLUNOV suspension for injection in pre-filled syringe."
+Description: "AFLUNOV suspension for injection in pre-filled syringe."
 Usage: #inline
 
  
@@ -828,14 +824,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Active immunisation against H5N1 subtype of Influenza A virus."
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "aflunov"
+  * productName = "AFLUNOV suspension for injection in pre-filled syringe."
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -855,10 +848,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

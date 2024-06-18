@@ -621,9 +621,9 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Cyramza er medicin til behandling af kræft. Det indeholder det aktive stof ramucirumab, som er et 
 monoklonalt antistof. Dette er specielt protein, som kan genkende og binde sig til et andet protein, der 
-findes i blodårerne – dette protein kaldes ”VEGF receptor 2”. Denne receptor bruges, når der dannes 
-nye blodårer. For at kræft kan vokse skal der dannes nye blodårer. Ved at binde sig til ”VEGF receptor 
-2” og blokere den, afskærer medicinen blodforsyningen til kræftcellerne.  </p>
+findes i blodårerne - dette protein kaldes "VEGF receptor 2". Denne receptor bruges, når der dannes 
+nye blodårer. For at kræft kan vokse skal der dannes nye blodårer. Ved at binde sig til "VEGF receptor 
+2" og blokere den, afskærer medicinen blodforsyningen til kræftcellerne.  </p>
 <p>Cyramza gives i kombination med paclitaxel, en anden kræftmedicin, til behandling af fremskreden 
 mavekræft (eller kræft i overgangen mellem spiserøret og mavesækken) hos voksne, hvis sygdom er 
 blevet værre efter behandling med medicin mod kræft. </p>
@@ -631,7 +631,7 @@ blevet værre efter behandling med medicin mod kræft. </p>
 og mavesækken) hos voksne, hvis sygdom er blevet værre efter behandling med medicin mod kræft, 
 og hvor behandling med Cyramza sammen med paclitaxel ikke er hensigtsmæssigt.  </p>
 <p>Cyramza bruges til behandling af fremskreden kræft i tyktarmen eller endetarmen hos voksne. Det 
-gives sammen med en medicinkombination kaldet ”FOLFIRI-kemoterapi”, som indeholder 
+gives sammen med en medicinkombination kaldet "FOLFIRI-kemoterapi", som indeholder 
 fluoruracil, folinsyre og irinotecan. </p>
 <p>Cyramza gives i kombination med erlotinib, en anden kræftmedicin, til første behandling af avanceret 
 ikke-småcellet lungekræft hos voksne, når kræftcellene har specifikke forandringer (mutationer) i et 
@@ -990,7 +990,7 @@ lægemiddel. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på den ydre æske og etiketten på hætteglasset efter 
 EXP. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
-<p>Opbevares i køleskab (2 ºC – 8 ºC). 
+<p>Opbevares i køleskab (2 ºC - 8 ºC). 
 Må ikke nedfryses.<br />
 Opbevar hætteglasset i yderpakningen for at beskytte mod lys. </p>
 <p>Infusionsopløsningen må ikke nedfryses eller rystes. Opløsningen må ikke indgives, hvis De 
@@ -1170,8 +1170,6 @@ Description: "ePI document Bundle for cyramza Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1194,8 +1192,6 @@ Description: "ePI document Bundle for cyramza Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1216,8 +1212,8 @@ Usage: #example
 
 Instance: mp092a7f5395bb9583ad450174eeb4a512
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product cyramza"
-Description: "cyramza"
+Title: "Medicinal Product Cyramza 10 mg/ml concentrate for solution for infusion"
+Description: "Cyramza 10 mg/ml concentrate for solution for infusion"
 Usage: #inline
 
  
@@ -1230,14 +1226,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Gastric cancer"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "cyramza"
+  * productName = "Cyramza 10 mg/ml concentrate for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1257,10 +1250,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -838,8 +838,6 @@ Description: "ePI document Bundle for gardasil Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -862,8 +860,6 @@ Description: "ePI document Bundle for gardasil Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -884,8 +880,8 @@ Usage: #example
 
 Instance: mp5409615bb3a1f7e2d64838d0abac2414
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product gardasil"
-Description: "gardasil"
+Title: "Medicinal Product Gardasil suspension for injection."
+Description: "Gardasil suspension for injection."
 Usage: #inline
 
  
@@ -898,14 +894,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Gardasil is a vaccine for use from the age of 9 years for the prevention of:"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "gardasil"
+  * productName = "Gardasil suspension for injection."
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -925,10 +918,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

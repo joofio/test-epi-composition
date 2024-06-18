@@ -386,7 +386,7 @@ eller problemerne med anordningen er forsvundet.  </p>
 <p>Advarsler og forsigtighedsregler 
 Kontakt lægen, før du eller dit barn får Brineura. 
 - Du eller dit barn kan få problemer med den implanterede anordning, der bruges under 
-behandlingen med Brineura (se afsnit 4, ”Bivirkninger”), herunder infektion eller fejl ved 
+behandlingen med Brineura (se afsnit 4, "Bivirkninger"), herunder infektion eller fejl ved 
 anordningen. Hvis du eller dit barn har en infektion, kan det vise sig ved feber, hovedpine, 
 nakkestivhed, lysfølsomhed, kvalme, opkastning og ændret sindstilstand. Hvis der er problemer 
 med anordningen, kan der opstå hævelse, rødme i hovedbunden, læk af væske fra anordningen 
@@ -534,10 +534,10 @@ Udløbsdatoen er den sidste dag i den nævnte måned.  </p>
 beskytte mod lys. Transporteres og distribueres nedfrosset (-85 °C til -15 °C). </p>
 <p>Optøet Brineura og skyllevæske skal anvendes straks. Dette lægemiddel må kun udtages fra de 
 uåbnede hætteglas umiddelbart inden anvendelse. Hvis omgående anvendelse ikke er mulig, skal 
-uåbnede hætteglas med Brineura eller skyllevæske opbevares i køleskab(2 °C – 8 °C) og anvendes 
+uåbnede hætteglas med Brineura eller skyllevæske opbevares i køleskab(2 °C - 8 °C) og anvendes 
 inden 24 timer. </p>
 <p>Kemisk og fysisk stabilitet ved brug er blevet påvist i op til 12 timer ved stuetemperatur 
-(19 °C – 25 °C). Ud fra et mikrobiologisk synspunkt skal åbne hætteglas eller lægemiddelprodukt i 
+(19 °C - 25 °C). Ud fra et mikrobiologisk synspunkt skal åbne hætteglas eller lægemiddelprodukt i 
 sprøjter anvendes øjeblikkeligt. Hvis de ikke anvendes straks, er opbevaringstider og -forhold før 
 anvendelse brugerens ansvar. </p>
 <p>Det er lægens eller apotekspersonalets ansvar at opbevare Brineura. Det er også deres ansvar at 
@@ -556,7 +556,7 @@ infusionsvæske. 1 ml infusionsvæske, opløsning, indeholder 30 mg cerliponase 
 <li>Øvrige indholdsstoffer i Brineura infusionsvæske, opløsning og skyllevæsken: Dibasisk 
 natriumfosfat heptahydrat, natriumdihydrogenfosfat monohydrat, natriumchlorid, 
 kaliumchlorid, magnesiumchloridhexahydrat, calciumchloriddihydrat og vand til 
-injektionsvæske (se afsnit 2, ”Brineura indeholder natrium og kalium”). </li>
+injektionsvæske (se afsnit 2, "Brineura indeholder natrium og kalium"). </li>
 </ul>
 <p>Udseende og pakningsstørrelser 
 Brineura og skyllevæsken er infusionsvæsker som opløsninger. Brineura infusionsvæske, opløsning er 
@@ -570,7 +570,7 @@ Shanbally, Ringaskiddy
 County Cork 
 Irland </p>
 <p>Denne indlægsseddel blev senest ændret. </p>
-<p>Dette lægemiddel er godkendt under ”særlige vilkår”. Det betyder, at det grundet sygdommens 
+<p>Dette lægemiddel er godkendt under "særlige vilkår". Det betyder, at det grundet sygdommens 
 sjældenhed ikke har været muligt at opnå fuldstændig dokumentation for lægemidlet. </p>
 <p>Det Europæiske Lægemiddelagentur vil hvert år vurdere nye oplysninger om lægemidlet, og denne 
 indlægsseddel vil om nødvendigt blive ajourført. </p>
@@ -589,8 +589,6 @@ InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for brineura Package Leaflet for language en"
 Description: "ePI document Bundle for brineura Package Leaflet for language en"
 Usage: #example
-
-
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
@@ -615,8 +613,6 @@ Description: "ePI document Bundle for brineura Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -637,8 +633,8 @@ Usage: #example
 
 Instance: mp3552692c711f8f7419edb391c717f809
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product brineura"
-Description: "brineura"
+Title: "Medicinal Product Brineura 150 mg solution for infusion"
+Description: "Brineura 150 mg solution for infusion"
 Usage: #inline
 
  
@@ -651,14 +647,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Brineura is indicated for the treatment of neuronal ceroid lipofuscinosis type 2 (CLN2) disease, also"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "brineura"
+  * productName = "Brineura 150 mg solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -678,10 +671,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

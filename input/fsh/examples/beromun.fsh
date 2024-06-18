@@ -378,7 +378,7 @@ alvorlige bivirkninger i kroppens organer. </li>
 <p>Du skal være indlagt på hospitalet under IPL-behandlingen og i 7-10 dage efter. I den periode vil 
 lægerne nøje overvåge dit blodtryk og kredsløb og holde øje med alle bivirkninger. Du skal muligvis 
 tilbringe en kortere periode på intensivafdelingen, umiddelbart efter ILP. </p>
-<p>En lidelse, der hedder ”kompartment-syndrom” kan udvikle sig inden for de tre første dage efter 
+<p>En lidelse, der hedder "kompartment-syndrom" kan udvikle sig inden for de tre første dage efter 
 indgift af Beromun. Symptomerne på muskelskade i det behandlede ben eller arm er smerter, hævelse 
 samt neurologiske symptomer (nervesymptomer, f.eks. føleforstyrrelser, lammelser). Du skal straks 
 give besked om disse symptomer til en læge. </p>
@@ -410,7 +410,7 @@ Blodet forsynes med ilt ved hjælp af hjerte/lungemaskine og pumpes ind i den sy
 via et kateter i hovedåren (arterien), mens blodet ledes ud via et andet kateter i hovedvenen. Beromun 
 og derefter melfalan bliver sprøjtet ind i dette kredsløb. Den syge arm/det syge ben vil blive udsat for 
 Beromun i 90 minutter i alt.  </p>
-<p>Den anbefalede Beromun-dosis afhænger af legemsdelen – den er sædvanligvis 3 mg, hvis det er 
+<p>Den anbefalede Beromun-dosis afhænger af legemsdelen - den er sædvanligvis 3 mg, hvis det er 
 armen, og 4 mg, hvis det er benet. </p>
 <p>Beromun-pulver opløses før anvendelsen. Den færdige opløsning vil blive indgivet i en blodåre i den 
 syge arm eller det syge ben ved hjælp af ILP-teknik over en periode på 30 minutter.  </p>
@@ -560,8 +560,6 @@ Description: "ePI document Bundle for beromun Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -584,8 +582,6 @@ Description: "ePI document Bundle for beromun Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -606,8 +602,8 @@ Usage: #example
 
 Instance: mpa321c1bbb3d0ca5c622bbbc9c0607a43
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product beromun"
-Description: "beromun"
+Title: "Medicinal Product Beromun 1 mg powder for solution for infusion"
+Description: "Beromun 1 mg powder for solution for infusion"
 Usage: #inline
 
  
@@ -620,14 +616,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Beromun is indicated in adults. as an adjunct to surgery for subsequent removal of the tumour so as to"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "beromun"
+  * productName = "Beromun 1 mg powder for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -647,10 +640,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

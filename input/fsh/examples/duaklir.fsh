@@ -450,7 +450,7 @@ dig at trække vejret. Genuair-inhalatoren leverer de aktive stoffer direkte ind
 Duaklir Genuair anvendes til voksne patienter, som lider af åndedrætsbesvær pga. en lungesygdom, 
 der hedder kronisk obstruktiv lungesygdom (KOL), hvor luftvejene og luftlommerne i lungerne 
 beskadiges eller blokeres. Ved at åbne luftvejene hjælper medicinen med at lindre symptomer som 
-f.eks. åndenød. Ved at tage Duaklir Genuair regelmæssigt nedsættes KOL´s påvirkning af din 
+f.eks. åndenød. Ved at tage Duaklir Genuair regelmæssigt nedsættes KOL's påvirkning af din 
 dagligdag. </p>         </div>"""   
           
 
@@ -585,7 +585,7 @@ data. </p>
 </li>
 <li>
 <p>udvikler trykken for brystet, hoste, hvæsende vejrtrækning eller kortåndethed umiddelbart efter 
-brug af lægemidlet. Dette kan være tegn på en tilstand betegnet “paradoksal bronkospasme”, 
+brug af lægemidlet. Dette kan være tegn på en tilstand betegnet “paradoksal bronkospasme", 
 som er en for kraftig og langvarig sammentrækning af luftvejsmusklerne umiddelbart efter 
 behandling med et lægemiddel, der udvider bronkierne. Denne bivirkning opstår sjældent (kan 
 forekomme hos op til 1 ud af 1.000 mennesker). </p>
@@ -604,13 +604,13 @@ en stigning i sukkerindholdet i blodet
 ansigt, hududslæt og/eller kløe - dette kan være tegn på en allergisk reaktion </p>
 <p>Andre bivirkninger, som kan forekomme i forbindelse med brug af Duaklir Genuair: </p>
 <p>Almindelig (kan forekomme hos op til 1 ud af 10 mennesker) 
-- Kombination af ondt i halsen og løbende næse – dette kan være tegn på forkølelse 
+- Kombination af ondt i halsen og løbende næse - dette kan være tegn på forkølelse 
 - Hovedpine 
-- Smertefuld og/eller hyppig vandladning – dette kan være tegn på en urinvejsinfektion 
+- Smertefuld og/eller hyppig vandladning - dette kan være tegn på en urinvejsinfektion 
 - Hoste 
 - Diarré 
 - En blokeret, løbende eller tilstoppet næse og/eller smerte eller en følelse af tryk i kinderne eller 
-panden – dette kan være symptomer på bihulebetændelse 
+panden - dette kan være symptomer på bihulebetændelse 
 - Svimmelhed 
 - Muskelkramper 
 - Kvalme<br />
@@ -672,8 +672,8 @@ skraldespanden.  </p>         </div>"""
 <li>Aktive stoffer: Aclidinium og formoterolfumaratdihydrat. Hver leveret dosis (den dosis, der 
 kommer ud af mundstykket) indeholder 396 mikrogram aclidiniumbromid, svarende til 
 340 mikrogram aclidinium, og 11,8 mikrogram formoterolfumaratdihydrat.  </li>
-<li>Øvrige indholdsstoffer: Lactosemonohydrat (se slutningen af punkt 2 under ”Duaklir Genuair 
-indeholder lactose” for yderligere information). </li>
+<li>Øvrige indholdsstoffer: Lactosemonohydrat (se slutningen af punkt 2 under "Duaklir Genuair 
+indeholder lactose" for yderligere information). </li>
 </ul>
 <p>Udseende og pakningsstørrelser 
 Duaklir Genuair er et hvidt eller næsten hvidt inhalationspulver.<br />
@@ -838,9 +838,9 @@ Gå til ’PUNKT 2: Inhalér din medicin’. </p>
 Hvad skal du gøre, hvis kontrolvinduet stadigvæk er rødt efter at have trykket på knappen 
 (Figur H). </p>
 <p>Figur H 
-Dosis er ikke forberedt. Gå tilbage til ’PUNKT 1 Forbered din dosis’ og gentag punkt 1.1 – 
+Dosis er ikke forberedt. Gå tilbage til ’PUNKT 1 Forbered din dosis’ og gentag punkt 1.1 - 
 1.6. PUNKT 2: Inhalér din medicin 
-Læs punkt 2.1 – 2.7 igennem før brug. Hold inhalatoren lige.<br />
+Læs punkt 2.1 - 2.7 igennem før brug. Hold inhalatoren lige.<br />
 2.1 Hold inhalatoren væk fra munden og pust helt ud. Ånd aldrig ud gennem inhalatoren (Figur 
 I).<br />
 GRØNT </p>
@@ -866,7 +866,7 @@ medicin korrekt.  </p>
 <p>Hvad skal du gøre, hvis kontrolvinduet stadigvæk er grønt efter inhalation (Figur L). </p>
 <p>Figur L </p>
 <p>Det betyder, at du ikke har inhaleret din medicin korrekt. Gå tilbage til ’PUNKT 2 Inhalér din 
-medicin’ og gentag punkt 2.1 – 2.7. Hvis kontrolvinduet stadigvæk ikke skifter til rødt, har du måske glemt at slippe den orange knap før 
+medicin’ og gentag punkt 2.1 - 2.7. Hvis kontrolvinduet stadigvæk ikke skifter til rødt, har du måske glemt at slippe den orange knap før 
 inhalation, eller du har måske ikke inhaleret kraftigt nok. Hvis dette sker, så prøv igen. Du skal sikre 
 dig, at du har sluppet den orange knap, og at du har åndet helt ud. Tag derefter en kraftig, dyb indånding 
 gennem mundstykket. 
@@ -934,8 +934,6 @@ Description: "ePI document Bundle for duaklir Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -958,8 +956,6 @@ Description: "ePI document Bundle for duaklir Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -980,8 +976,8 @@ Usage: #example
 
 Instance: mp90e75941fbec0604a5aef8f6392abdfd
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product duaklir"
-Description: "duaklir"
+Title: "Medicinal Product Duaklir Genuair 340 micrograms /12 micrograms inhalation powder"
+Description: "Duaklir Genuair 340 micrograms /12 micrograms inhalation powder"
 Usage: #inline
 
  
@@ -994,14 +990,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Duaklir Genuair is indicated as a maintenance bronchodilator treatment to relieve symptoms in adult"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "duaklir"
+  * productName = "Duaklir Genuair 340 micrograms /12 micrograms inhalation powder"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1021,10 +1014,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

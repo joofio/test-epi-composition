@@ -547,8 +547,8 @@ niveauer hos patienter uden intravenøs adgang. </p>
 behandling så måske skal justeres. </p>
 <p>Kombinationsbehandling: 
 Hvis De er skiftet til permanent profylaktisk behandling med orale antikoagulanter, skal protein C 
-erstatningen kun afbrydes, når stabil antikoagulation er opnået (se ”Vigtige oplysninger om nogle af 
-indholdsstofferne i CEPROTIN”). </p>
+erstatningen kun afbrydes, når stabil antikoagulation er opnået (se "Vigtige oplysninger om nogle af 
+indholdsstofferne i CEPROTIN"). </p>
 <p>Ved påbegyndelse af kombinationsbehandling med antikoagulanter (især vitamin K-antagonist) med 
 protein C skal der være stabile aktivitetsniveauer af protein C på mere end 0,25 IE/ml før der 
 påbegyndes antikoagulation. Der anbefales nøje overvågning af INR. Yderligere anbefales det, at 
@@ -780,8 +780,6 @@ Description: "ePI document Bundle for ceprotin Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -804,8 +802,6 @@ Description: "ePI document Bundle for ceprotin Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -826,8 +822,8 @@ Usage: #example
 
 Instance: mp2dc44ebb45d2b0f7332cf61717b9e639
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product ceprotin"
-Description: "ceprotin"
+Title: "Medicinal Product CEPROTIN 500 IU powder and solvent for solution for injection"
+Description: "CEPROTIN 500 IU powder and solvent for solution for injection"
 Usage: #inline
 
  
@@ -840,14 +836,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = ""
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "ceprotin"
+  * productName = "CEPROTIN 500 IU powder and solvent for solution for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -867,10 +860,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

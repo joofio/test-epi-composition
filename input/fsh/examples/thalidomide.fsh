@@ -748,7 +748,7 @@ tabletter til sædvanlig tid næste dag. </p>
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
 <p>Følgende bivirkninger kan forekomme med denne medicin: </p>
 <p>Hold straks op med at tage Thalidomid Lipomed og kontakt omgående lægen, hvis du får nogen 
-af følgende bivirkninger – du kan behøve akut lægebehandling:</p>
+af følgende bivirkninger - du kan behøve akut lægebehandling:</p>
 <ul>
 <li>Ekstremt kraftige og alvorlige hudreaktioner. Hudrelaterede bivirkninger kan vise sig som 
 udslæt med eller uden blæredannelse. Der kan opstå hudirritation, sår eller hævelse i munden, 
@@ -833,7 +833,7 @@ besvime. </p>
 <li>Seksuel dysfunktion, f.eks. rejsningsproblemer (impotens). </li>
 <li>Alvorlig blodforgiftning (sepsis) ledsaget af feber, kuldegysninger og alvorlig rysten, muligvis 
 kompliceret af lavt blodtryk og forvirring (septisk shock). </li>
-<li>Tumorlysesyndrom – stofskiftekomplikationer, der kan forekomme i løbet af kræft-behandling 
+<li>Tumorlysesyndrom - stofskiftekomplikationer, der kan forekomme i løbet af kræft-behandling 
 og nogle gange endda uden behandling. Disse komplikationer skyldes nedbrydningsprodukter 
 fra døende kræftceller og kan omfatte følgende: ændringer i blodkemi, højt niveau af kalium, 
 fosfor og urinsyre og lavt niveau af calcium og som følge heraf ændringer i nyrefunktion, 
@@ -842,7 +842,7 @@ hjerteslag, krampeanfald og til tider død. </li>
 <li>Blødning fra maven eller tarmen (gastrointestinal blødning). </li>
 <li>Forværring af symptomer fra Parkinsons sygdom (såsom rysten, depression eller forvirring). </li>
 <li>Smerter i den øvre del af maven og/eller ryggen, som kan være svære og kan vare ved i et par 
-dage, muligvis ledsaget af kvalme, opkastning, feber og hurtig puls – disse symptomer kan 
+dage, muligvis ledsaget af kvalme, opkastning, feber og hurtig puls - disse symptomer kan 
 skyldes betændelse i bugspytkirtlen (pankreatitis). </li>
 <li>Forhøjet blodtryk i blodkar, der fører blod til lungerne, hvilket kan medføre stakåndethed, 
 træthed, svimmelhed, brystsmerter, hurtigere hjerteslag eller hævede ben eller ankler (pulmonal 
@@ -916,8 +916,6 @@ Description: "ePI document Bundle for thalidomide Package Leaflet for language e
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -940,8 +938,6 @@ Description: "ePI document Bundle for thalidomide Package Leaflet for language d
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -962,8 +958,8 @@ Usage: #example
 
 Instance: mpbeef21509ddc33cff9d4dfa3953f39ff
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product thalidomide"
-Description: "thalidomide"
+Title: "Medicinal Product Thalidomide Lipomed 100 mg coated tablets"
+Description: "Thalidomide Lipomed 100 mg coated tablets"
 Usage: #inline
 
  
@@ -976,14 +972,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Thalidomide Lipomed in combination with melphalan and prednisone is indicated as first line"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "thalidomide"
+  * productName = "Thalidomide Lipomed 100 mg coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1003,10 +996,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -1206,8 +1206,6 @@ Description: "ePI document Bundle for evenity Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1230,8 +1228,6 @@ Description: "ePI document Bundle for evenity Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1252,8 +1248,8 @@ Usage: #example
 
 Instance: mp57cff102c4a138734d137a31aea3135d
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product evenity"
-Description: "evenity"
+Title: "Medicinal Product EVENITY 105 mg solution for injection in pre-filled pen"
+Description: "EVENITY 105 mg solution for injection in pre-filled pen"
 Usage: #inline
 
  
@@ -1266,14 +1262,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "EVENITY is indicated in treatment of severe osteoporosis in postmenopausal women at high risk of"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "evenity"
+  * productName = "EVENITY 105 mg solution for injection in pre-filled pen"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1293,10 +1286,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

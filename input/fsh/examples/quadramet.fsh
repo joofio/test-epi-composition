@@ -440,8 +440,6 @@ Description: "ePI document Bundle for quadramet Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -464,8 +462,6 @@ Description: "ePI document Bundle for quadramet Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -486,8 +482,8 @@ Usage: #example
 
 Instance: mp08cf6fb4c3e579390e3141196404b03b
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product quadramet"
-Description: "quadramet"
+Title: "Medicinal Product Quadramet 1.3 GBq/mL solution for injection."
+Description: "Quadramet 1.3 GBq/mL solution for injection."
 Usage: #inline
 
  
@@ -500,14 +496,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Quadramet is indicated for the relief of bone pain in patients with multiple painful osteoblastic skeletal"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "quadramet"
+  * productName = "Quadramet 1.3 GBq/mL solution for injection."
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -527,10 +520,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

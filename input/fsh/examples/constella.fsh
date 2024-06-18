@@ -395,7 +395,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Anvendelse
 Constella indeholder det aktive stof linaclotid. Det anvendes til at behandle symptomerne på moderat 
-til svær irritabel tyktarm (ofte blot betegnet ”IBS”) med forstoppelse hos voksne patienter.
+til svær irritabel tyktarm (ofte blot betegnet "IBS") med forstoppelse hos voksne patienter.
 IBS er en almindelig tarmsygdom. Hovedsymptomerne på IBS med forstoppelse inkluderer:
 
 mave- eller underlivssmerter 
@@ -594,7 +594,7 @@ Påtrykningsblæk: shellac, propylenglykol, koncentreret ammoniakopløsning, kal
 titandioxid (E171) og sort jernoxid (E172).
 29
 Udseende og pakningsstørrelser
-Kapslerne er hvide til off white-orange uigennemsigtige kapsler mærket ”290” med gråt blæk.
+Kapslerne er hvide til off white-orange uigennemsigtige kapsler mærket "290" med gråt blæk.
 De er pakket i en hvid, HDPE (high density polyethylen) beholder med en sikkerhedsforsegling og et 
 børnesikret skruelåg samt en eller flere tørrekapsler med silicagel.
 Constella fås i pakninger, der indeholder 10, 28 eller 90 kapsler og i multipakninger med 112 kapsler, 
@@ -722,8 +722,6 @@ Description: "ePI document Bundle for constella Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -746,8 +744,6 @@ Description: "ePI document Bundle for constella Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -768,8 +764,8 @@ Usage: #example
 
 Instance: mp7504582d8c4f390424d8e4bfcd82fbae
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product constella"
-Description: "constella"
+Title: "Medicinal Product Constella 290 micrograms hard capsules"
+Description: "Constella 290 micrograms hard capsules"
 Usage: #inline
 
  
@@ -782,14 +778,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Constella is indicated for the symptomatic treatment of moderate to severe irritable bowel syndrome with"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "constella"
+  * productName = "Constella 290 micrograms hard capsules"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -809,10 +802,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

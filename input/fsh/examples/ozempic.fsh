@@ -1099,8 +1099,6 @@ Description: "ePI document Bundle for ozempic Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1123,8 +1121,6 @@ Description: "ePI document Bundle for ozempic Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1145,8 +1141,8 @@ Usage: #example
 
 Instance: mpd321e28009e316a0922b3b06c7400fef
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product ozempic"
-Description: "ozempic"
+Title: "Medicinal Product Ozempic 0.25 mg solution for injection in pre-filled pen"
+Description: "Ozempic 0.25 mg solution for injection in pre-filled pen"
 Usage: #inline
 
  
@@ -1159,14 +1155,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Ozempic is indicated for the treatment of adults with insufficiently controlled type 2 diabetes mellitus"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "ozempic"
+  * productName = "Ozempic 0.25 mg solution for injection in pre-filled pen"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1186,10 +1179,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

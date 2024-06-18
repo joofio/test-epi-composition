@@ -542,54 +542,53 @@ derover, der har fået jernophobning i forbindelse med deres talassæmi-syndrome
   * code.text = "2. What you need to know before you take deferasirox"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Deferasirox Mylan 
-– 
+- 
 hvis du er allergisk over for deferasirox eller et af de øvrige indholdsstoffer i Deferasirox Mylan 
 (angivet i punkt 6). Hvis dette gælder for dig, skal du fortælle det til lægen, inden du tager 
 Deferasirox Mylan. Hvis du har mistanke om, at du kan være allergisk, skal du spørge lægen til 
 råds. 
-– 
+- 
 hvis du har en moderat eller alvorlig nyresygdom. 
-– 
+- 
 hvis du for tiden indtager anden jernkelatormedicin. </p>
-<p>Deferasirox Mylan anbefales ikke 
-– 
-hvis du er på et fremskredent stadie af myelodysplastisk syndrom (MDS; nedsat produktion af 
+<h2>Deferasirox Mylan anbefales ikke</h2>
+<p>hvis du er på et fremskredent stadie af myelodysplastisk syndrom (MDS; nedsat produktion af 
 blodceller i knoglemarven) eller har fremskreden kræft. </p>
 <p>Advarsler og forsigtighedsregler 
 Kontakt lægen eller apotekspersonalet, før du tager Deferasirox Mylan: 
-– 
+- 
 hvis du har nyre- eller leverproblemer. 
-– 
+- 
 hvis du har hjerteproblemer, der er forårsaget af jernophobning. 
-– 
+- 
 hvis du opdager en markant nedsættelse af din urinmængde (tegn på nyreproblem). 
-– 
+- 
 hvis du udvikler alvorlige udslæt, vejrtrækningsbesvær og svimmelhed eller oplever hævelse 
 hovedsageligt i ansigtet og på halsen (tegn på alvorlig allergisk reaktion, se også punkt 4 
-”Bivirkninger”). 
-– 
+"Bivirkninger"). 
+- 
 hvis du oplever en kombination af ethvert af de følgende symptomer: udslæt, rød hud, blærer på 
 læberne, øjne eller mund, hudafskalninger, høj feber, influenzalignende symptomer, forstørrede 
-lymfekirtler (tegn på alvorlig hudreaktion, se også pkt. 4 ”Bivirkninger”). 
-– 
+lymfekirtler (tegn på alvorlig hudreaktion, se også pkt. 4 "Bivirkninger"). 
+- 
 hvis du oplever en kombination af døsighed, smerter i den øvre højre del af maven, gulfarvning 
 af din hud eller øjne og mørk urin (tegn på leverproblemer). 
-– 
+- 
 hvis du oplever problemer med at tænke klart, huske information eller løse opgaver, er mindre 
 opmærksom eller bevidst eller er meget træt og har lavt energiniveau (tegn på et højt niveau af 
 ammoniak i dit blod, hvilket kan være forbundet med nyre- eller leversygdomme, se også 
-afsnit 4 ”Bivirkninger”). 
-– 
+afsnit 4 "Bivirkninger"). 
+- 
 hvis du kaster blod op/eller har sort afføring. 
-– 
+- 
 hvis du ofte oplever mavesmerter, specielt efter spisning eller indtagelse af Deferasirox Mylan. 
-– 
+- 
 hvis du ofte oplever halsbrand. 
-– 
+- 
 hvis du har et lavt antal blodplader eller hvide blodceller i din blodprøve. 
-– 
+- 
 hvis du har sløret syn. 
-– 
+- 
 hvis du har diarré eller kaster op. 
 Hvis noget af dette gælder for dig, så fortæl det til din læge med det samme. </p>
 <p>Kontrol af din behandling med Deferasirox Mylan 
@@ -606,50 +605,34 @@ Deferasirox Mylan. </p>
 <p>Brug af anden medicin sammen med Deferasirox Mylan 
 Fortæl altid lægen eller apotekspersonalet, hvis du tager anden medicin, for nylig har taget anden 
 medicin eller planlægger at tage anden medicin. Dette gælder specielt: 
-– 
+- 
 andre jernkelatorer, som ikke må tages sammen med Deferasirox Mylan, 
-– 
+- 
 syreneutraliserende medicin (medicin til behandling af halsbrand), der indeholder aluminium, 
 som du ikke må tage på samme tidspunkt af døgnet som Deferasirox Mylan, </p>
-<p>– 
-ciclosporin (bruges til at forhindre kroppen i at afstøde et transplanteret organ, eller til andre 
-lidelser som gigt og udslæt), 
-– 
-simvastatin (bruges til at sænke kolesterol), 
-– 
-visse smertestillende eller antiinflammatoriske lægemidler (fx acetylsalicylsyre, ibuprofen, 
-kortikosteroider), 
-– 
-orale bisfosfonater (bruges til behandling af osteoporose), 
-– 
-antikoagulerende medicin (bruges til at modvirke eller behandle blodpropper), 
-– 
-hormonelle graviditetsforebyggende midler, 
-– 
-bepridil, ergotamin (bruges til behandling af hjerteproblemer og migræne), 
-– 
-repaglinid (bruges til at behandle sukkersyge), 
-– 
-rifampicin (bruges til at behandle tuberkulose), 
-– 
-phenytoin, phenobarbital, carbamazepin (bruges til at behandle epilepsi), 
-– 
-ritonavir (bruges i behandlingen af HIV-infektion), 
-– 
-paclitaxel (bruges i kræftbehandling), 
-– 
-theofyllin (bruges til at behandle lungesygdomme såsom astma), 
-– 
-clozapin (bruges til at behandle psykiske sygdomme såsom skizofreni), 
-– 
-tizanidin (virker muskelafslappende), 
-– 
-cholestyramin (bruges til at sænke kolesterolniveauet i blodet), 
-– 
-busulfan (bruges som behandling for at ødelægge den originale knoglemarv inden en 
-transplantation), 
-– 
-midazolam (bruges til at lindre angst og/eller søvnbesvær). </p>
+<ul>
+<li>ciclosporin (bruges til at forhindre kroppen i at afstøde et transplanteret organ, eller til andre 
+lidelser som gigt og udslæt), </li>
+<li>simvastatin (bruges til at sænke kolesterol), </li>
+<li>visse smertestillende eller antiinflammatoriske lægemidler (fx acetylsalicylsyre, ibuprofen, 
+kortikosteroider), </li>
+<li>orale bisfosfonater (bruges til behandling af osteoporose), </li>
+<li>antikoagulerende medicin (bruges til at modvirke eller behandle blodpropper), </li>
+<li>hormonelle graviditetsforebyggende midler, </li>
+<li>bepridil, ergotamin (bruges til behandling af hjerteproblemer og migræne), </li>
+<li>repaglinid (bruges til at behandle sukkersyge), </li>
+<li>rifampicin (bruges til at behandle tuberkulose), </li>
+<li>phenytoin, phenobarbital, carbamazepin (bruges til at behandle epilepsi), </li>
+<li>ritonavir (bruges i behandlingen af HIV-infektion), </li>
+<li>paclitaxel (bruges i kræftbehandling), </li>
+<li>theofyllin (bruges til at behandle lungesygdomme såsom astma), </li>
+<li>clozapin (bruges til at behandle psykiske sygdomme såsom skizofreni), </li>
+<li>tizanidin (virker muskelafslappende), </li>
+<li>cholestyramin (bruges til at sænke kolesterolniveauet i blodet), </li>
+<li>busulfan (bruges som behandling for at ødelægge den originale knoglemarv inden en 
+transplantation), </li>
+<li>midazolam (bruges til at lindre angst og/eller søvnbesvær). </li>
+</ul>
 <p>Supplerende undersøgelser kan være nødvendige for at kontrollere blodniveauet af nogle af disse 
 lægemidler. </p>
 <p>Ældre (65 år og derover) 
@@ -693,7 +676,7 @@ dag. </p>
 <li>
 <p>Den sædvanlige dosis af Deferasirox Mylan filmovertrukne tabletter ved behandlingsstart for 
 patienter, der får regelmæssige blodtransfusioner, er 14 mg pr. kg kropsvægt. Det kan være, at 
-lægen – afhængigt af dit behov – anbefaler en højere eller lavere startdosis. </p>
+lægen - afhængigt af dit behov - anbefaler en højere eller lavere startdosis. </p>
 </li>
 <li>
 <p>Den sædvanlige daglige dosis af Deferasirox Mylan filmovertrukne tabletter ved 
@@ -718,7 +701,7 @@ højere eller lavere dosis. </p>
 blodtransfusioner. </p>
 </li>
 </ul>
-<p>Deferasirox fås også som ”dispergible” tabletter. Hvis du skal skifte fra dispergible tabletter til disse 
+<p>Deferasirox fås også som "dispergible" tabletter. Hvis du skal skifte fra dispergible tabletter til disse 
 filmovertrukne tabletter, skal din dosis justeres. </p>
 <p>Hvornår skal du tage Deferasirox Mylan </p>
 <ul>
@@ -738,8 +721,8 @@ indtages med det samme og skal spises op. Gem den ikke til senere brug. </p>
 <p>Hvor længe skal du tage Deferasirox Mylan 
 Fortsæt med at tage Deferasirox Mylan hver dag, så længe lægen beder dig om det. Dette er en 
 længerevarende behandling, der muligvis kan vare måneder eller år. Din læge vil regelmæssigt holde 
-øje med din tilstand for at kontrollere, at behandlingen har den ønskede effekt (se også pkt. 2: ”Kontrol 
-af din behandling med Deferasirox Mylan”). </p>
+øje med din tilstand for at kontrollere, at behandlingen har den ønskede effekt (se også pkt. 2: "Kontrol 
+af din behandling med Deferasirox Mylan"). </p>
 <p>Hvis du har spørgsmål om, hvor lang tid du skal tage Deferasirox Mylan, så tal med din læge. </p>
 <p>Hvis du har taget for meget Deferasirox Mylan 
 Hvis du har taget for meget Deferasirox Mylan, eller hvis nogen ved et uheld kommer til at tage dine 
@@ -752,7 +735,7 @@ planlagt. Du må ikke tage en dobbeltdosis den næste dag som erstatning for de(
 <p>Hvis du holder op med at tage Deferasirox Mylan 
 Hold ikke op med at tage Deferasirox Mylan, medmindre din læge giver dig besked på det. Hvis du 
 holder op med at tage Deferasirox Mylan, vil det overskydende jern ikke længere blive fjernet fra din 
-krop (se også ovenstående pkt.: ”Hvor længe skal du tage Deferasirox Mylan”). </p>         </div>"""         
+krop (se også ovenstående pkt.: "Hvor længe skal du tage Deferasirox Mylan"). </p>         </div>"""         
 
         
 * section[=].section[+]
@@ -945,17 +928,17 @@ Deferasirox Mylan udleveres som filmovertrukne tabletter. </p>
 <ul>
 <li>
 <p>Deferasirox Mylan 90 mg filmovertrukne tabletter er blå, filmovertrukne, modificeret 
-kapselformede, bikonvekse tabletter præget med ”    ” på den ene side af tabletten og ”DF” på 
+kapselformede, bikonvekse tabletter præget med "    " på den ene side af tabletten og "DF" på 
 den anden side. </p>
 </li>
 <li>
 <p>Deferasirox Mylan 180 mg filmovertrukne tabletter er blå, filmovertrukne, modificeret 
-kapselformede, bikonvekse tabletter præget med ”    ” på den ene side af tabletten og ”DF 1” på 
+kapselformede, bikonvekse tabletter præget med "    " på den ene side af tabletten og "DF 1" på 
 den anden side. </p>
 </li>
 <li>
 <p>Deferasirox Mylan 360 mg filmovertrukne tabletter er blå, filmovertrukne, modificeret 
-kapselformede, bikonvekse tabletter præget med ”    ” på den ene side af tabletten og ”DF 2” 
+kapselformede, bikonvekse tabletter præget med "    " på den ene side af tabletten og "DF 2" 
 på den anden side. </p>
 </li>
 </ul>
@@ -1057,8 +1040,6 @@ Description: "ePI document Bundle for deferasirox Package Leaflet for language e
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1081,8 +1062,6 @@ Description: "ePI document Bundle for deferasirox Package Leaflet for language d
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1103,8 +1082,8 @@ Usage: #example
 
 Instance: mpa361de1944c94e68e8ec09dc10081b81
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product deferasirox"
-Description: "deferasirox"
+Title: "Medicinal Product Deferasirox Mylan 90 mg film-coated tablets"
+Description: "Deferasirox Mylan 90 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1117,14 +1096,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Deferasirox Mylan is indicated for the treatment of chronic iron overload due to frequent blood"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "deferasirox"
+  * productName = "Deferasirox Mylan 90 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1144,10 +1120,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

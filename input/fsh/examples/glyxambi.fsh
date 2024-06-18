@@ -531,7 +531,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Virkning
 Glyxambi indeholder to aktive stoffer, der kaldes empagliflozin og linagliptin. De tilhører begge to en 
-gruppe lægemidler, der kaldes ”orale lægemidler mod diabetes”. Disse lægemidler tages via munden 
+gruppe lægemidler, der kaldes "orale lægemidler mod diabetes". Disse lægemidler tages via munden 
 for at behandle type 2-diabetes.
 Hvad er type 2-diabetes?
 Type 2-diabetes er en sygdom, der både skyldes dine gener og din livsstil. Hvis du har type 2-diabetes, 
@@ -573,13 +573,13 @@ de øvrige indholdsstoffer i Glyxambi (angivet i afsnit 6).
 Advarsler og forsigtighedsregler
 Kontakt lægen, før du tager dette lægemiddel og under behandlingen:
 
-hvis du har “type 1 diabetes”. Denne type starter som regel, når man er ung, og kendetegnes 
+hvis du har “type 1 diabetes". Denne type starter som regel, når man er ung, og kendetegnes 
 ved, at kroppen slet ikke danner insulin. Du må ikke tage Glyxambi, hvis du har type 1 diabetes.
 
 hvis du oplever hurtigt vægttab, kvalme eller opkastning, mavesmerter, udtalt tørst, hurtig og 
 dyb vejrtrækning, forvirring, usædvanlig søvnighed eller træthed, din ånde lugter sødligt, en sød 
 eller metallisk smag i munden eller en unormal lugt fra urin eller sved. Kontakt straks en læge 
-eller det nærmeste hospital, da disse symptomer kan være tegn på diabetisk ketoacidose – en 
+eller det nærmeste hospital, da disse symptomer kan være tegn på diabetisk ketoacidose - en 
 sjælden, men alvorlig og somme tider livstruende komplikation, du kan få ved diabetes som 
 følge af forhøjet indhold af ketonstoffer i urinen eller blodet, målt ved laboratorieanalyser. 
 Risikoen for at udvikle diabetisk ketoacidose kan være øget ved længerevarende faste, stort 
@@ -593,14 +593,14 @@ tager dem sammen med Glyxambi for at undgå, at blodsukkeret bliver for lavt (hy
 hvis du har eller tidligere har haft sygdom i bugspytkirtlen.
 
 hvis du har alvorlige nyreproblemer. Din læge kan begrænse din daglige dosis eller bede dig om 
-at tage et andet lægemiddel (se også afsnit 3 ”Sådan skal du tage Glyxambi”.
+at tage et andet lægemiddel (se også afsnit 3 "Sådan skal du tage Glyxambi".
 
 hvis du har alvorlige leverproblemer. Lægen kan bede dig om at tage et andet lægemiddel.
 
 hvis du kan have risiko for væsketab (dehydrering), for eksempel:<em> hvis du kaster op, har diarré eller feber, eller hvis du ikke er i stand til at spise eller 
 drikke</em> hvis du tager lægemidler, der øger urinproduktionen [diuretika] eller sænker 
 blodtrykket* hvis du er 75 år eller ældre
-Mulige tegn er anført i afsnit 4 under ”Væsketab (dehydrering)”. Lægen kan bede dig om at 
+Mulige tegn er anført i afsnit 4 under "Væsketab (dehydrering)". Lægen kan bede dig om at 
 holde op med at tage Glyxambi, indtil du er bedre, for at forhindre, at du taber for meget 
 kropsvæske. Spørg om måder at undgå dehydrering på.
 
@@ -731,31 +731,31 @@ Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
 Kontakt straks læge eller nærmeste hospital, hvis du får en eller flere af følgende bivirkninger:
 Diabetisk ketoacidose, en sjælden bivirkning (kan forekomme hos op til 1 ud af 1 000 brugere)
-Følgende symptomer er tegn på diabetisk ketoacidose (se også afsnit 2, ”Advarsler og 
-forsigtighedsregler”):
-–
+Følgende symptomer er tegn på diabetisk ketoacidose (se også afsnit 2, "Advarsler og 
+forsigtighedsregler"):
+-
 forhøjet indhold af ketonstoffer i urinen eller blodet
-–
+-
 hurtigt vægttab
-–
+-
 kvalme eller opkastning
-–
+-
 mavesmerter
-–
+-
 udtalt tørst
-–
+-
 hurtig og dyb vejrtrækning
-–
+-
 forvirring
-–
+-
 usædvanlig søvnighed eller træthed
-–
+-
 din ånde lugter sødligt, du har en sød eller metallisk smag i munden, eller der er en unormal lugt 
 fra din urin eller sved.
 Disse symptomer kan forekomme uanset blodsukkerniveau. Lægen kan beslutte at stoppe din 
 behandling med dette lægemiddel midlertidigt eller permanent.
 Kontakt din læge med det samme, hvis du bemærker en eller flere af følgende bivirkninger:
-Allergiske reaktioner – en ikke almindelig bivirkning (kan forekomme hos op til 1 ud af 100 brugere)
+Allergiske reaktioner - en ikke almindelig bivirkning (kan forekomme hos op til 1 ud af 100 brugere)
 Dette lægemiddel kan give allergiske reaktioner, som kan være alvorlige, herunder nældefeber 
 (urticaria) samt hævelse af ansigt, læber, tunge og svælg, hvilket kan give problemer med at trække 
 vejret eller synke (angioødem).
@@ -763,7 +763,7 @@ Betændelse i bugspytkirtlen (pankreatitis) - en ikke almindelig bivirkning
 Dette lægemiddel kan give pankreatitis, der normalt viser sig som vedvarende, svære mavesmerter, der 
 kan strække sig bagud til ryggen, og ofte er ledsaget af kvalme og opkastning. Lægen vil måske ændre 
 din behandling.
-Lavt blodsukker (hypoglykæmi) – en almindelig bivirkning (kan forekomme hos op til 1 ud af 
+Lavt blodsukker (hypoglykæmi) - en almindelig bivirkning (kan forekomme hos op til 1 ud af 
 10 brugere)
 Hvis du tager Glyxambi sammen med andre lægemidler, som for eksempel et sulfonylurinstof eller 
 insulin, kan du få for lavt blodsukker (hypoglykæmi). Tegnene på for lavt blodsukker kan være:
@@ -787,7 +787,7 @@ smerter i bækkenet eller midt på ryggen (når nyrerne er påvirket)
 En stærk vandladningstrang eller hyppigere vandladning kan skyldes den måde, dette lægemiddel 
 virker på, men kan også være et tegn på en urinvejsinfektion. Hvis du får de anførte symptomer 
 hyppigere, skal du kontakte lægen.
-Væsketab (dehydrering) – en ikke almindelig bivirkning
+Væsketab (dehydrering) - en ikke almindelig bivirkning
 Tegnene på dehydrering er ikke specifikke, men kan omfatte:
 
 usædvanlig tørst
@@ -904,7 +904,7 @@ Binger Strasse 173
 55216 Ingelheim am Rhein
 Tyskland
 Rottendorf Pharma GmbH
-Ostenfelder Strasse 51 – 61
+Ostenfelder Strasse 51 - 61
 59320 Ennigerloh
 Tyskland
 51
@@ -1040,8 +1040,6 @@ Description: "ePI document Bundle for glyxambi Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1064,8 +1062,6 @@ Description: "ePI document Bundle for glyxambi Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1086,8 +1082,8 @@ Usage: #example
 
 Instance: mpce5e68a096b816edf5b3a0ff2587822c
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product glyxambi"
-Description: "glyxambi"
+Title: "Medicinal Product Glyxambi 10 mg/5 mg film-coated tablets"
+Description: "Glyxambi 10 mg/5 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1100,14 +1096,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Glyxambi, fixed dose combination of empagliflozin and linagliptin, is indicated in adults aged"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "glyxambi"
+  * productName = "Glyxambi 10 mg/5 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1127,10 +1120,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -1109,8 +1109,6 @@ Description: "ePI document Bundle for hemgenix Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1133,8 +1131,6 @@ Description: "ePI document Bundle for hemgenix Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1155,8 +1151,8 @@ Usage: #example
 
 Instance: mp368e8679c0472a0d2aa9d82ac9fd7ab6
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product hemgenix"
-Description: "hemgenix"
+Title: "Medicinal Product Hemgenix 1 x 1013 genome copies/mL concentrate for solution for infusion"
+Description: "Hemgenix 1 x 1013 genome copies/mL concentrate for solution for infusion"
 Usage: #inline
 
  
@@ -1169,14 +1165,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Hemgenix is indicated for the treatment of severe and moderately severe Haemophilia B (congenital"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "hemgenix"
+  * productName = "Hemgenix 1 x 1013 genome copies/mL concentrate for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1196,10 +1189,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

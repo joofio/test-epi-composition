@@ -599,8 +599,6 @@ Description: "ePI document Bundle for esmya Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -623,8 +621,6 @@ Description: "ePI document Bundle for esmya Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -645,8 +641,8 @@ Usage: #example
 
 Instance: mpa5f47c93f2a2eb5b88e9129e2aa9f3b9
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product esmya"
-Description: "esmya"
+Title: "Medicinal Product Esmya 5 mg tablets"
+Description: "Esmya 5 mg tablets"
 Usage: #inline
 
  
@@ -659,14 +655,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Ulipristal acetate is indicated for intermittent treatment of moderate to severe symptoms of uterine"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "esmya"
+  * productName = "Esmya 5 mg tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -686,10 +679,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

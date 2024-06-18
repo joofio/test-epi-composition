@@ -967,7 +967,7 @@ din medicin. Luk
 inhalatoren, og gentag 
 trin 3a til 3d. </p>
 <p>Jeg hostede, efter jeg 
-inhalerede – betyder det 
+inhalerede - betyder det 
 noget? 
 Dette kan forekomme. Så 
 længe at kapslen er tom, 
@@ -975,7 +975,7 @@ har du fået en tilstrækkelig
 mængde af din medicin. </p>
 <p>Jeg kunne mærke små 
 stykker af kapslen på 
-min tunge – betyder det 
+min tunge - betyder det 
 noget? 
 Dette kan forekomme, og 
 det er ikke farligt. 
@@ -1024,8 +1024,6 @@ Description: "ePI document Bundle for zimbus Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1048,8 +1046,6 @@ Description: "ePI document Bundle for zimbus Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1070,8 +1066,8 @@ Usage: #example
 
 Instance: mpd184441eaf6370e77e170ec9c0dc05db
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product zimbus"
-Description: "zimbus"
+Title: "Medicinal Product Zimbus Breezhaler 114 micrograms/46 micrograms/136 micrograms inhalation powder, hard capsules"
+Description: "Zimbus Breezhaler 114 micrograms/46 micrograms/136 micrograms inhalation powder, hard capsules"
 Usage: #inline
 
  
@@ -1084,14 +1080,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Zimbus Breezhaler is indicated as a maintenance treatment of asthma in adult patients not adequately"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "zimbus"
+  * productName = "Zimbus Breezhaler 114 micrograms/46 micrograms/136 micrograms inhalation powder, hard capsules"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1111,10 +1104,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -629,7 +629,7 @@ valproinsyre, valproat eller carbamazepin, medicin til behandling af bestemte ty
  
 bliver vaccineret mod skoldkopper eller helvedesild indenfor 6 uger efter brug af 
 Clopidogrel/Acetylsalicylsyre Zentiva, eller hvis du har/får skoldkopper eller helvedsild (se afsnit 
-2 ”Børn og unge”) 
+2 "Børn og unge") 
  
 moclobemid, medicin mod depression. 
  
@@ -868,7 +868,7 @@ sanofi-aventis AEBE
 Τηλ: +30 210 900 16<br />
 Österreich 
 sanofi-aventis GmbH 
-Tel: +43 1 80 185 – 0 </p>
+Tel: +43 1 80 185 - 0 </p>
 <p>España 
 sanofi-aventis, S.A. 
 Tel: +34 93 485 94<br />
@@ -932,8 +932,6 @@ Description: "ePI document Bundle for clopidogrelacetylsalicylic Package Leaflet
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -956,8 +954,6 @@ Description: "ePI document Bundle for clopidogrelacetylsalicylic Package Leaflet
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -978,8 +974,8 @@ Usage: #example
 
 Instance: mp0038e5833697485dc38d33d1305d9883
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product clopidogrelacetylsalicylic"
-Description: "clopidogrelacetylsalicylic"
+Title: "Medicinal Product Clopidogrel/Acetylsalicylic acid Zentiva 75 mg/75 mg film-coated tablets"
+Description: "Clopidogrel/Acetylsalicylic acid Zentiva 75 mg/75 mg film-coated tablets"
 Usage: #inline
 
  
@@ -992,14 +988,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Clopidogrel/Acetylsalicylic acid Zentiva is indicated for the secondary prevention of atherothrombotic"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "clopidogrelacetylsalicylic"
+  * productName = "Clopidogrel/Acetylsalicylic acid Zentiva 75 mg/75 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1019,10 +1012,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

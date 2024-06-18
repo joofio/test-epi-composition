@@ -452,18 +452,18 @@ Advarsler og forsigtighedsregler
 Kontakt lægen, apotekspersonalet eller sygeplejersken, før du tager Calquence, hvis du:
 
 nogensinde har haft usædvanlige blå mærker eller blødning, eller hvis du får lægemidler, der øger 
-risikoen for blødning (se afsnit 4, ”Bivirkninger”).
+risikoen for blødning (se afsnit 4, "Bivirkninger").
 
-har en infektion (se afsnit 4, ”Bivirkninger”).
+har en infektion (se afsnit 4, "Bivirkninger").
 
 for nylig har gennemgået en operation eller skal til det. Din læge vil muligvis stoppe behandlingen 
 med Calquence inden eller efter en medicinsk behandling, operation eller en tandbehandling.
 
-nogensinde har haft hepatitis B (en leverinfektion) – dette skyldes, at Calquence kan få hepatitis B 
+nogensinde har haft hepatitis B (en leverinfektion) - dette skyldes, at Calquence kan få hepatitis B 
 til at blive aktiv igen, og så vil din læge skulle kigge efter tegn på, om denne infektion kommer 
-tilbage (se afsnit 4, ”Bivirkninger”).
+tilbage (se afsnit 4, "Bivirkninger").
 
-har eller nogensinde har haft uregelmæssige hjerteslag (se afsnit 4, ”Bivirkninger”).
+har eller nogensinde har haft uregelmæssige hjerteslag (se afsnit 4, "Bivirkninger").
 Tal med din læge, hvis du udvikler en ny læsion eller nogen som helst ændring i udseendet af 
 områder af din hud, da du har en høj risiko for at udvikle hudkræft, se afsnit 4. Beskyt dig mod 
 solen og foretag regelmæssige undersøgelser af din hud.
@@ -476,49 +476,49 @@ Fortæl det altid til lægen, apotekspersonalet eller sygeplejersken, hvis du ta
 nylig har taget andre lægemidler eller planlægger at tage andre lægemidler, især hvis du tager noget af 
 følgende:
 
-antibiotika mod bakterieinfektioner – såsom clarithromycin
+antibiotika mod bakterieinfektioner - såsom clarithromycin
 
-lægemidler mod svampeinfektioner – såsom posaconazol, itraconazol, voriconazol
+lægemidler mod svampeinfektioner - såsom posaconazol, itraconazol, voriconazol
 
-ketoconazol – et lægemiddel til Cushings syndrom (en sygdom, hvor kroppen 
+ketoconazol - et lægemiddel til Cushings syndrom (en sygdom, hvor kroppen 
 producerer for meget af hormonet cortisol)
 
-lægemidler mod hiv-infektioner – såsom indinavir og ritonavir
+lægemidler mod hiv-infektioner - såsom indinavir og ritonavir
 
-lægemidler mod hepatitis C – såsom telaprevir
+lægemidler mod hepatitis C - såsom telaprevir
 
-rifampicin – et antibiotikum mod bakterieinfektioner (tuberkulose)
+rifampicin - et antibiotikum mod bakterieinfektioner (tuberkulose)
 
-lægemiddel mod migræne – ergotamin
+lægemiddel mod migræne - ergotamin
 
 lægemiddel mod lavt natriumindhold i blodet - conivaptan
 
-lægemiddel mod højt blodsukker – metformin
+lægemiddel mod højt blodsukker - metformin
 
-lægemiddel mod afstødning af organer – ciclosporin
+lægemiddel mod afstødning af organer - ciclosporin
 
-lægemidler mod kramper (anfald) eller epilepsi – såsom carbamazepin, phenytoin
+lægemidler mod kramper (anfald) eller epilepsi - såsom carbamazepin, phenytoin
 
-pimozid – et lægemiddel, der bruges mod Tourette (en tilstand, der medfører 
+pimozid - et lægemiddel, der bruges mod Tourette (en tilstand, der medfører 
 ukontrollerede bevægelser og udbrud af ord og lyde)
 
-perikon (Hypericum perforatum) – et naturlægemiddel mod depression
+perikon (Hypericum perforatum) - et naturlægemiddel mod depression
 
-theofyllin – et lægemiddel, der bruges mod hvæsende vejrtrækning, kortåndethed og 
+theofyllin - et lægemiddel, der bruges mod hvæsende vejrtrækning, kortåndethed og 
 trykken for brystet
 
-mavesyrereducerende lægemidler:<em> syreneutraliserende lægemidler – såsom calciumcarbonat
+mavesyrereducerende lægemidler:<em> syreneutraliserende lægemidler - såsom calciumcarbonat
 
 Tag Calquence 2 timer før eller 2 timer efter, du har taget disse 
-lægemidler</em> histamin-2-receptorblokkere – såsom ranitidin eller famotidin
+lægemidler</em> histamin-2-receptorblokkere - såsom ranitidin eller famotidin
 
 Tag Calquence 2 timer før eller 10 timer efter, du har taget disse 
-lægemidler* protonpumpehæmmere – såsom omeprazol
+lægemidler* protonpumpehæmmere - såsom omeprazol
 
 Undgå at tage disse lægemidler, mens du tager Calquence
 62
 
-methotrexat – et lægemiddel mod sygdomme, såsom reumatoid artritis, psoriasis og 
+methotrexat - et lægemiddel mod sygdomme, såsom reumatoid artritis, psoriasis og 
 ulcerativ colitis, som skyldes, at immunsystemet ikke virker korrekt.
 
 Dette lægemiddel bør tages mindst 6 timer før eller efter Calquence.
@@ -559,7 +559,7 @@ Hvordan skal du tage lægemidlet
 kommer ind i din krop.
  Du kan tage Calquence med eller uden mad.
  Du kan kontrollere, hvornår du sidst tog en Calquence kapsel ved at se på blisterpakningen. 
-Billederne på blisterpakningerne vil hjælpe dig med at tage din dosis på det rigtige tidspunkt –
+Billederne på blisterpakningerne vil hjælpe dig med at tage din dosis på det rigtige tidspunkt -
 solen til din morgendosis og månen til din aftendosis.
 Hvis du har taget for meget Calquence
 Hvis du er kommet til at tage mere Calquence end du skulle, skal du kontakte en læge eller straks tage 
@@ -596,7 +596,7 @@ og atrieflagren).
 Ikke almindelige alvorlige bivirkninger (kan forekomme hos op til 1 ud af 100 personer)
  Feber, kulderystelser, kvalme, opkastning, forvirring, åndenød, krampeanfald, uregelmæssig puls, 
 mørk eller uklar urin, usædvanlig træthed eller smerter i muskler eller led. Dette kan være 
-symptomer på tumorlysesyndrom (TLS) – en tilstand, der skyldes den hurtige nedbrydning af 
+symptomer på tumorlysesyndrom (TLS) - en tilstand, der skyldes den hurtige nedbrydning af 
 kræftceller.
 Andre bivirkninger:
 Meget almindelige (kan forekomme hos flere end 1 ud af 10 personer):
@@ -615,16 +615,16 @@ antal celler, der hjælper blodet med at størkne (blodplader)
  infektion i de øvre luftveje
  urinvejsinfektion (smerte eller brændende fornemmelse ved vandladning)
  nye kræftformer, herunder hudkræft, kan forekomme under behandling med Calquence (se afsnit 2 
-”Det skal du vide, før du begynder at tage Calquence”)
+"Det skal du vide, før du begynder at tage Calquence")
 Almindelige (kan forekomme hos op til 1 ud af 10 personer):
  bronkitis (som ikke umiddelbart kræver behandling)
  herpes
 64
 Ikke almindelige (kan forekomme hos op til 1 ud af 100 personer):
- hukommelsestab, problemer med at tænke, vanskeligheder ved at gå eller synstab – det kan være 
+ hukommelsestab, problemer med at tænke, vanskeligheder ved at gå eller synstab - det kan være 
 tegn på en alvorlig hjerneinfektion (progressiv multifokal leukoencefalopati eller PML)
  feber, kulderystelser, svaghed, forvirring, kvalme og gulfarvning af huden eller det hvide i øjnene 
-(gulsot) – dette kan være tegn på, at hepatitis B (en infektion i leveren) er blevet aktiv igen.
+(gulsot) - dette kan være tegn på, at hepatitis B (en infektion i leveren) er blevet aktiv igen.
  lymfocytose (en forhøjet mængde lymfocytter, en type hvide blodlegemer, i blodet).
 Indberetning af bivirkninger
 Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mulige bivirkninger, som 
@@ -657,7 +657,7 @@ ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>    
 
 Kapselindhold: mikrokrystallinsk cellulose, kolloid vandfri silica, delvist 
 pregelatineret majsstivelse, magnesiumstearat (E470b) og natriumstivelsesglykolat (se 
-afsnit 2 “Calquence indeholder natrium”).
+afsnit 2 “Calquence indeholder natrium").
 
 Kapselskal: gelatine, titandioxid (E171), gul jernoxid (E172), indigocarmin (E132).
 
@@ -808,8 +808,6 @@ Description: "ePI document Bundle for calquence Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -832,8 +830,6 @@ Description: "ePI document Bundle for calquence Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -854,8 +850,8 @@ Usage: #example
 
 Instance: mp515ad355eee6410eab8e10f3744bb3f9
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product calquence"
-Description: "calquence"
+Title: "Medicinal Product Calquence 100 mg hard capsules"
+Description: "Calquence 100 mg hard capsules"
 Usage: #inline
 
  
@@ -868,14 +864,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Calquence as monotherapy or in combination with obinutuzumab is indicated for the treatment of adult"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "calquence"
+  * productName = "Calquence 100 mg hard capsules"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -895,10 +888,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

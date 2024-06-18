@@ -624,7 +624,7 @@ børn; spørg Deres læge eller apotekspersonalet. </p>
 <p>Hvordan Vimpat tages </p>
 <ul>
 <li>
-<p>Tag Vimpat to gange om dagen – med ca. 12 timers mellemrum. </p>
+<p>Tag Vimpat to gange om dagen - med ca. 12 timers mellemrum. </p>
 </li>
 <li>
 <p>Prøv at tage det på omtrent samme tidspunkt hver dag. </p>
@@ -1093,8 +1093,6 @@ Description: "ePI document Bundle for vimpat Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1117,8 +1115,6 @@ Description: "ePI document Bundle for vimpat Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1139,8 +1135,8 @@ Usage: #example
 
 Instance: mp9c57e69f60995207b09a78762e7a972a
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product vimpat"
-Description: "vimpat"
+Title: "Medicinal Product Vimpat 50 mg film-coated tablets"
+Description: "Vimpat 50 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1153,14 +1149,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Vimpat is indicated as monotherapy in the treatment of partial-onset seizures with or without"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "vimpat"
+  * productName = "Vimpat 50 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1180,10 +1173,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -798,7 +798,7 @@ Lægen kan ændre dette afhængigt af, hvorledes medicinen virker på dig. </p>
 </li>
 <li>
 <p>Hvis du er under 18 år, vil du få Blitzima sammen med kemoterapi. Du vil få Blitzima op til 6 
-gange i en periode på 3,5 – 5,5 måneder. </p>
+gange i en periode på 3,5 - 5,5 måneder. </p>
 </li>
 </ul>
 <p>b) 
@@ -851,7 +851,7 @@ Kontakt straks lægen, hvis du eller dit barn får tegn på infektion, f.eks.: <
 almen utilpashed </p>
 </li>
 <li>
-<p>hukommelsestab, koncentrationsbesvær, besvær med at gå eller synstab – dette kan skyldes en 
+<p>hukommelsestab, koncentrationsbesvær, besvær med at gå eller synstab - dette kan skyldes en 
 meget sjælden, alvorlig hjerneinfektion, der i nogle tilfælde har været dødelig (progressiv 
 multifokal leukoencefalopati eller PML). </p>
 </li>
@@ -863,7 +863,7 @@ hjerneinfektion (enteroviral meningoencefalitis), der kan være dødelig. </p>
 </ul>
 <p>Risikoen for infektioner kan øges under behandling med Blitzima. Det vil ofte dreje sig om forkølelser, 
 men der har været tilfælde af lungebetændelse, urinvejsinfektioner og alvorlige virusinfektioner. <br />
-Disse er angivet under ”Andre bivirkninger”. </p>
+Disse er angivet under "Andre bivirkninger". </p>
 <p>Hvis du behandles for granulomatose med polyangiitis, mikroskopisk polyangiitis eller pemfigus 
 vulgaris vil du også finde denne information i patientkortet, som du har fået af lægen. Det er vigtigt, at 
 du gemmer dette kort og viser det til din partner eller hjælper. </p>
@@ -1182,7 +1182,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen og hætteglasset efter EXP. 
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
-<p>Opbevares i køleskab (2 °C – 8 °C). Opbevar hætteglasset i den ydre karton for at beskytte mod lys. </p>
+<p>Opbevares i køleskab (2 °C - 8 °C). Opbevar hætteglasset i den ydre karton for at beskytte mod lys. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
 medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
         
@@ -1201,7 +1201,7 @@ Hætteglasset med 50 mL indeholder 500 mg rituximab (10 mg/mL). </p>
 </li>
 <li>
 <p>Øvrige indholdsstoffer: Natriumchlorid, trinatriumcitratdihydrat, polysorbat 80 og vand til 
-injektionsvæsker (se afsnit 2 “Blitzima indeholder natrium”). </p>
+injektionsvæsker (se afsnit 2 “Blitzima indeholder natrium"). </p>
 </li>
 </ul>
 <p>Udseende og pakningsstørrelser </p>
@@ -1227,7 +1227,7 @@ Tyskland </p>
 Frankrig </p>
 <p>KYMOS S.L. 
 Ronda de Can Fatjó, 7B Parc Tecnològic del Vallès<br />
-08290 – Cerdanyola del Vallès, Barcelona,<br />
+08290 - Cerdanyola del Vallès, Barcelona,<br />
 Spanien </p>
 <p>Midas Pharma GmbH<br />
 Rheinstrasse 49, West Ingelheim Am Rhein,<br />
@@ -1273,7 +1273,7 @@ Orion Pharma AS
 Tlf: + 47 40 00 42  </p>
 <p>Ελλάδα 
 ΒΙΑΝΕΞ Α.Ε. 
-Τηλ: +30 210 8009111 –<br />
+Τηλ: +30 210 8009111 -<br />
 España 
 Kern Pharma, S.L. 
 Tel: +34 93 700 2Österreich 
@@ -1285,7 +1285,7 @@ Celltrion Healthcare Hungary Kft.
 <p>France 
 CELLTRION HEALTHCARE FRANCE SAS 
 Tél: +33 (0)1 71 25 27 Portugal 
-PharmaKERN Portugal – Produtos Farmacêuticos, 
+PharmaKERN Portugal - Produtos Farmacêuticos, 
 Sociedade Unipessoal, Lda. 
 Tel: +351 214 200<br />
 Hrvatska 
@@ -1339,8 +1339,6 @@ Description: "ePI document Bundle for blitzima Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1363,8 +1361,6 @@ Description: "ePI document Bundle for blitzima Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1385,8 +1381,8 @@ Usage: #example
 
 Instance: mp8efc3218e58b030bcc0685f059870454
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product blitzima"
-Description: "blitzima"
+Title: "Medicinal Product Blitzima 100 mg concentrate for solution for infusion"
+Description: "Blitzima 100 mg concentrate for solution for infusion"
 Usage: #inline
 
  
@@ -1399,14 +1395,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Blitzima is indicated in adults for the following indications:"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "blitzima"
+  * productName = "Blitzima 100 mg concentrate for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1426,10 +1419,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

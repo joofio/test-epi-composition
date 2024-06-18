@@ -691,7 +691,7 @@ læge vil muligvis kontrollere Deres urin regelmæssigt, hvis De får denne bivi
 der konstateres protein i Deres urin (proteinuri). 
 En almindelig bivirkning ved Tevagrastim er smerter i muskler eller knogler, hvilket kan lindres med 
 almindelig smertestillende medicin. Hos patienter, der får foretaget stamcelle- eller 
-knoglemarvstransplantation, kan der forekomme graft versus host-sygdom (GvHD) – dette er en 
+knoglemarvstransplantation, kan der forekomme graft versus host-sygdom (GvHD) - dette er en 
 reaktion fra donorcellerne mod den patient, der får transplantatet. Tegn og symptomer omfatter udslæt 
 i håndfladerne eller under fødderne og sår i munden, tarmene, leveren, huden eller i øjne, lunger, 
 skede og led. </li>
@@ -1067,8 +1067,6 @@ Description: "ePI document Bundle for tevagrastim Package Leaflet for language e
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1091,8 +1089,6 @@ Description: "ePI document Bundle for tevagrastim Package Leaflet for language d
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1113,8 +1109,8 @@ Usage: #example
 
 Instance: mp37659c041a93299fdf753eeff4621a42
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product tevagrastim"
-Description: "tevagrastim"
+Title: "Medicinal Product Tevagrastim 30 MIU/0.5 mL solution for injection/infusion"
+Description: "Tevagrastim 30 MIU/0.5 mL solution for injection/infusion"
 Usage: #inline
 
  
@@ -1127,14 +1123,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Tevagrastim is indicated for the reduction in the duration of neutropenia and the incidence of febrile"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "tevagrastim"
+  * productName = "Tevagrastim 30 MIU/0.5 mL solution for injection/infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1154,10 +1147,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

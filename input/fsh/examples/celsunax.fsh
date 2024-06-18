@@ -365,7 +365,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Celsunax er et radioaktivt lægemiddel, der kun er til diagnostisk brug. Det anvendes kun som hjælp til 
 at stille en diagnose. Celsunax indeholder det aktive stof ioflupan (123I), der anvendes som hjælp til at 
 identificere (diagnosticere) sygdomme i hjernen. Det tilhører en gruppe lægemidler, der 
-kaldes ”radioaktive lægemidler”, som indeholder en lille mængde radioaktivitet. </p>
+kaldes "radioaktive lægemidler", som indeholder en lille mængde radioaktivitet. </p>
 <ul>
 <li>
 <p>Når et radioaktivt lægemiddel, injiceres, samler det sig sammen i et specifikt organ eller 
@@ -511,7 +511,7 @@ dette lægemiddel. Kontakt den nuklearmedicinske læge, hvis De har nogen spørg
 <p>Hvis De har fået for meget Celsunax 
 Eftersom Celsunax gives af en læge under kontrollerede forhold, er det usandsynligt, at De vil få en 
 overdosis. Deres nuklearmedicinske læge vil foreslå, at De drikker meget væske for at hjælpe 
-kroppen med at slippe af med medicinen. De skal være omhyggelig med det vand (urin), De lader – 
+kroppen med at slippe af med medicinen. De skal være omhyggelig med det vand (urin), De lader - 
 Deres læge vil fortælle Dem, hvad De skal gøre. Dette er normal praksis for lægemidler som 
 Celsunax. Det ioflupan (123I), som forbliver i Deres krop, vil naturligt miste dets radioaktivitet. </p>
 <p>Hvis De har flere spørgsmål til brugen af dette lægemiddel, kan De spørge Deres nuklearmedicinske 
@@ -632,8 +632,6 @@ Description: "ePI document Bundle for celsunax Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -656,8 +654,6 @@ Description: "ePI document Bundle for celsunax Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -678,8 +674,8 @@ Usage: #example
 
 Instance: mpf364d278d54ddbe0f130b25e10418f63
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product celsunax"
-Description: "celsunax"
+Title: "Medicinal Product Celsunax 74 MBq/mL solution for injection"
+Description: "Celsunax 74 MBq/mL solution for injection"
 Usage: #inline
 
  
@@ -692,14 +688,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "This medicinal product is for diagnostic use only."
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "celsunax"
+  * productName = "Celsunax 74 MBq/mL solution for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -719,10 +712,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

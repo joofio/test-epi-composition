@@ -649,7 +649,7 @@ inflammation eller infektioner: </p>
 <ul>
 <li>
 <p>øjensmerter, øget ubehag i øjet, øget rødme i øjet, sløret eller nedsat syn, øget antal af små 
-partikler i dit syn eller øget lysfølsomhed – disse er tegn på en mulig øjeninfektion, –
+partikler i dit syn eller øget lysfølsomhed - disse er tegn på en mulig øjeninfektion, -
 inflammation eller allergisk reaktion. </p>
 </li>
 <li>
@@ -774,7 +774,7 @@ ubrugt produkt korrekt. Følgende information er beregnet til sundhedspersoner. 
 <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken og etiketten efter EXP. Udløbsdatoen er 
 den sidste dag i den nævnte måned. </p>
-<p>Opbevares i køleskab (2 °C – 8 °C). </p>
+<p>Opbevares i køleskab (2 °C - 8 °C). </p>
 <p>Må ikke nedfryses. </p>
 <p>Opbevar hætteglassene i den ydre æske for at beskytte mod lys. </p>
 <p>Før brug kan det uåbnede hætteglas opbevares ved stuetemperatur, 20 °C til 25 °C i op til 24 timer. </p>         </div>"""      
@@ -828,7 +828,7 @@ Luxembourg/Luxemburg
 Roche s. r. o. 
 Tel: +420 - 2 20382Magyarország 
 Roche (Magyarország) Kft. 
-Tel: +36 – 1 279 4Danmark 
+Tel: +36 - 1 279 4Danmark 
 Roche Pharmaceuticals A/S 
 Tlf: +45 - 36 39 99<br />
 Malta 
@@ -1021,8 +1021,6 @@ Description: "ePI document Bundle for vabysmo Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1045,8 +1043,6 @@ Description: "ePI document Bundle for vabysmo Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1067,8 +1063,8 @@ Usage: #example
 
 Instance: mp3fd0e71025c97e85a4b382e052756f99
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product vabysmo"
-Description: "vabysmo"
+Title: "Medicinal Product Vabysmo 120 mg/mL solution for injection"
+Description: "Vabysmo 120 mg/mL solution for injection"
 Usage: #inline
 
  
@@ -1081,14 +1077,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Vabysmo is indicated for the treatment of adult patients with:"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "vabysmo"
+  * productName = "Vabysmo 120 mg/mL solution for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1108,10 +1101,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

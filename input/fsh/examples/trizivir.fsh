@@ -653,7 +653,7 @@ behandling. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Trizivir<br />
 • hvis du er allergisk (overfølsom) over for abacavir (eller ethvert andet lægemiddel med 
-abacavir – Kivexa, Triumeq eller Ziagen), lamivudin eller zidovudin eller et af de øvrige 
+abacavir - Kivexa, Triumeq eller Ziagen), lamivudin eller zidovudin eller et af de øvrige 
 indholdsstoffer i dette lægemiddel (angivet i punkt 6). 
 Det er vgtigt, at du læser alle oplysningerne om overfølsomhedsreaktioner under punkt 4. • hvis du har alvorlige nyreproblemer<br />
 • hvis du har et meget lavt antal røde blodlegemer (anæmi) eller et meget lavt antal hvide 
@@ -930,7 +930,7 @@ Trizivir")
 • depression eller angst, koncentrationsbesvær, døsighed 
 • fordøjelsesbesvær, smagsforstyrrelser 
 • ændring af farven på neglene, huden eller slimhinden inde i munden 
-• influenzalignende symptomer – kulderystelser og svedeture 
+• influenzalignende symptomer - kulderystelser og svedeture 
 • prikkende fornemmelse i huden 
 • snurren eller svaghed i arme og ben 
 • nedbrydning af muskelvæv 
@@ -1188,8 +1188,6 @@ Description: "ePI document Bundle for trizivir Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1212,8 +1210,6 @@ Description: "ePI document Bundle for trizivir Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1234,8 +1230,8 @@ Usage: #example
 
 Instance: mp2dca39e00c4bb300a2d0bc7e52b63f20
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product trizivir"
-Description: "trizivir"
+Title: "Medicinal Product TRIZIVIR 300 mg/150 mg/300 mg film-coated tablets"
+Description: "TRIZIVIR 300 mg/150 mg/300 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1248,14 +1244,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Trizivir is indicated for the treatment of Human Immunodeficiency Virus (HIV) infection in adults"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "trizivir"
+  * productName = "TRIZIVIR 300 mg/150 mg/300 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1275,10 +1268,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

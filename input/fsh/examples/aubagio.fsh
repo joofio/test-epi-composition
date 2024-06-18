@@ -676,7 +676,7 @@ AUBAGIO indeholder lactose (en type sukker). Hvis du har fået at vide af lægen
 sukkerarter, skal du kontakte lægen, før du tager dette lægemiddel. </p>
 <p>AUBAGIO indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. tablet, dvs. det er i det væsentlige 
-”natriumfrit”. </p>         </div>"""   
+"natriumfrit". </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take aubagio"
@@ -814,13 +814,13 @@ medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""
 - Øvrige indholdsstoffer: lactosemonohydrat, majsstivelse, mikrokrystallinsk cellulose, 
 natriumstivelsesglycolat (type A), hydroxypropylcellulose, magnesiumstearat, hypromellose, 
 titanidioxid (E171), talcum, macrogol 8000, indigocarmin-aluminiumpigment (E132) og gul jernoxid 
-(E172) (se punkt 2 “Aubagio indeholder lactose”).  </p>
+(E172) (se punkt 2 “Aubagio indeholder lactose").  </p>
 <p>AUBAGIO 14 mg filmovertrukne tabletter 
 - Hver tablet indeholder 14 mg teriflunomid.<br />
 - Øvrige indholdsstoffer: lactosemonohydrat, majsstivelse, mikrokrystallinsk cellulose, 
 natriumstivelsesglycolat (type A), hydroxypropylcellulose, magnesiumstearat, hypromellose, 
 titanidioxid (E171), talcum, macrogol 8000, indigocarmin-aluminiumpigment (E132) (se punkt 2 
-“Aubagio indeholder lactose”).  </p>
+“Aubagio indeholder lactose").  </p>
 <p>Udseende og pakningsstørrelser </p>
 <p>AUBAGIO 7 mg filmovertrukne tabletter (tabletter) 
 De filmovertrukne tabletter er helt lyse grønblålige grå til svagt grønblå sekskantede filmovertrukne tabletter 
@@ -890,7 +890,7 @@ Sanofi-Aventis Μονοπρόσωπη ΑΕΒΕ
 Τηλ: +30 210 900 16<br />
 Österreich 
 sanofi-aventis GmbH 
-Tel: +43 1 80 185 – 0 </p>
+Tel: +43 1 80 185 - 0 </p>
 <p>España 
 sanofi-aventis S.A. 
 Tel: +34 93 485 94<br />
@@ -952,8 +952,6 @@ Description: "ePI document Bundle for aubagio Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -976,8 +974,6 @@ Description: "ePI document Bundle for aubagio Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -998,8 +994,8 @@ Usage: #example
 
 Instance: mp69e7e3b7b762d214fbbb48c707c30105
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product aubagio"
-Description: "aubagio"
+Title: "Medicinal Product AUBAGIO 7 mg film-coated tablets"
+Description: "AUBAGIO 7 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1012,14 +1008,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "AUBAGIO is indicated for the treatment of adult patients and paediatric patients aged 10 years and older"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "aubagio"
+  * productName = "AUBAGIO 7 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1039,10 +1032,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

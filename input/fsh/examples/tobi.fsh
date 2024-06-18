@@ -976,7 +976,7 @@ knappen.
 åndedrag (trin 8 og 9). </p>
 </li>
 <li>
-<p>Inhaler kapslen – 1. åndedrag 
+<p>Inhaler kapslen - 1. åndedrag 
 Inden du tager mundstykket i munden, skal du ånde helt 
 ud, væk fra inhalatoren. 
 Anbring munden over mundstykket, så der skabes en tæt 
@@ -987,7 +987,7 @@ Tag inhalatoren ud af munden, og hold vejret i ca.
 Ånd derefter normalt ud, væk fra inhalatoren. </p>
 </li>
 <li>
-<p>Inhaler kapslen – 2. åndedrag 
+<p>Inhaler kapslen - 2. åndedrag 
 • Træk vejret normalt et par gange, væk fra inhalatoren. 
 • Når du er klar, inhalerer du for anden gang fra den 
 samme kapsel ved at gentage trin 8. 10. Skru mundstykket af (1), og tag kapslen ud af kammeret 
@@ -1085,8 +1085,6 @@ Description: "ePI document Bundle for tobi Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1109,8 +1107,6 @@ Description: "ePI document Bundle for tobi Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1131,8 +1127,8 @@ Usage: #example
 
 Instance: mpe0dd692dcb560bc04bfa1cbfaca9ecff
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product tobi"
-Description: "tobi"
+Title: "Medicinal Product TOBI Podhaler 28 mg inhalation powder, hard capsules"
+Description: "TOBI Podhaler 28 mg inhalation powder, hard capsules"
 Usage: #inline
 
  
@@ -1145,14 +1141,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "TOBI Podhaler is indicated for the suppressive therapy of chronic pulmonary infection due to"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "tobi"
+  * productName = "TOBI Podhaler 28 mg inhalation powder, hard capsules"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1172,10 +1165,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

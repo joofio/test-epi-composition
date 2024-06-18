@@ -589,7 +589,7 @@ sikkerheden af dette lægemiddel. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på hætteglassets etiket og æsken efter EXP.  </p>
 <p>Uåbnede hætteglas 
-Opbevares i køleskab (2°C – 8°C). </p>
+Opbevares i køleskab (2°C - 8°C). </p>
 <p>Fortyndet opløsning: 
 Det er påvist, at den kemiske og fysiske i brug-stabilitet er 8 timer (inklusive infusionstid) efter 
 fortynding med 5 % glucose injektionsvæske eller med 9 mg/ml (0,9 %) natriumchlorid injektionsvæske, 
@@ -717,7 +717,7 @@ sammen med busulfan.<br />
 Kun til engangsbrug. Opløsningen skal være klar og uden partikler. </p>
 <p>Opbevaringsbetingelser 
 Uåbnede hætteglas: 
-Opbevares i køleskab (2°C – 8°C) </p>
+Opbevares i køleskab (2°C - 8°C) </p>
 <p>Fortyndet opløsning: 
 Kemisk og fysisk i-brug stabilitet efter fortynding med 5 % glucose- eller 
 9 mg/ml (0,9 %) natriumchlorid injektionsvæske er påvist i 8 timer (inkl. infusionstid) efter fortynding, 
@@ -746,8 +746,6 @@ Description: "ePI document Bundle for busulfan Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -770,8 +768,6 @@ Description: "ePI document Bundle for busulfan Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -792,8 +788,8 @@ Usage: #example
 
 Instance: mp2a5eb21f13292133a1b42432d323ff12
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product busulfan"
-Description: "busulfan"
+Title: "Medicinal Product Busulfan Fresenius Kabi 6 mg/ml concentrate for solution for infusion"
+Description: "Busulfan Fresenius Kabi 6 mg/ml concentrate for solution for infusion"
 Usage: #inline
 
  
@@ -806,14 +802,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Busulfan followed by cyclophosphamide (BuCy2) is indicated as conditioning treatment prior to"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "busulfan"
+  * productName = "Busulfan Fresenius Kabi 6 mg/ml concentrate for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -833,10 +826,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

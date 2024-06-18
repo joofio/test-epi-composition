@@ -1440,8 +1440,6 @@ Description: "ePI document Bundle for palforzia Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1464,8 +1462,6 @@ Description: "ePI document Bundle for palforzia Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1486,8 +1482,8 @@ Usage: #example
 
 Instance: mp2a5703f6da594e7a35f6df08af026e1e
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product palforzia"
-Description: "palforzia"
+Title: "Medicinal Product PALFORZIA 0.5 mg oral powder in capsules for opening"
+Description: "PALFORZIA 0.5 mg oral powder in capsules for opening"
 Usage: #inline
 
  
@@ -1500,14 +1496,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "PALFORZIA is indicated for the treatment of patients aged 4 to 17 years with a confirmed diagnosis"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "palforzia"
+  * productName = "PALFORZIA 0.5 mg oral powder in capsules for opening"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1527,10 +1520,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

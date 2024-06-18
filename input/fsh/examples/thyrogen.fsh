@@ -643,7 +643,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen efter EXP. Udløbsdatoen er den 
 sidste dag i den nævnte måned. </p>
-<p>Opbevares i køleskab (2°C – 8°C). </p>
+<p>Opbevares i køleskab (2°C - 8°C). </p>
 <p>Hætteglasset opbevares i yderpakningen for at beskytte mod lys. </p>
 <p>Thyrogen-opløsningen bør injiceres inden for tre timer efter rekonstitution. Den rekonstituerede 
 opløsning kan opbevares i op til 24 timer i køleskab (2°C - 8°C) beskyttet mod lys og mikrobiel 
@@ -728,7 +728,7 @@ España
 sanofi-aventis, S.A. 
 Tel: +34 93 485 94<br />
 Portugal 
-Sanofi – Produtos Farmacêuticos, Lda. 
+Sanofi - Produtos Farmacêuticos, Lda. 
 Tel: +351 21 35 89<br />
 France 
 Sanofi Winthrop Industrie 
@@ -807,8 +807,6 @@ Description: "ePI document Bundle for thyrogen Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -831,8 +829,6 @@ Description: "ePI document Bundle for thyrogen Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -853,8 +849,8 @@ Usage: #example
 
 Instance: mpbbb526e801230c1471e1f7a100d25aa3
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product thyrogen"
-Description: "thyrogen"
+Title: "Medicinal Product Thyrogen 0.9 mg powder for solution for injection"
+Description: "Thyrogen 0.9 mg powder for solution for injection"
 Usage: #inline
 
  
@@ -867,14 +863,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Thyrogen is indicated for use with serum thyroglobulin (Tg) testing with or without radioiodine imaging"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "thyrogen"
+  * productName = "Thyrogen 0.9 mg powder for solution for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -894,10 +887,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

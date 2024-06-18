@@ -836,8 +836,6 @@ Description: "ePI document Bundle for iscover Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -860,8 +858,6 @@ Description: "ePI document Bundle for iscover Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -882,8 +878,8 @@ Usage: #example
 
 Instance: mp1b9d6688c5859d616da41e2488fab2b9
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product iscover"
-Description: "iscover"
+Title: "Medicinal Product Iscover 75 mg film-coated tablets"
+Description: "Iscover 75 mg film-coated tablets"
 Usage: #inline
 
  
@@ -896,14 +892,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Secondary prevention of atherothrombotic events"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "iscover"
+  * productName = "Iscover 75 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -923,10 +916,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

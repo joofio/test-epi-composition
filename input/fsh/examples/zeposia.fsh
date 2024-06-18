@@ -500,11 +500,11 @@ punkt 6) </p>
 </li>
 <li>
 <p>hvis du har haft et hjerteanfald, angina pectoris, slagtilfælde eller et mini-slagtilfælde 
-(forbigående iskæmisk anfald – TIA) eller visse former for svært hjertesvigt inden for de sidste 
+(forbigående iskæmisk anfald - TIA) eller visse former for svært hjertesvigt inden for de sidste 
 6 måneder </p>
 </li>
 <li>
-<p>hvis du har visse typer af uregelmæssige eller unormale hjerteslag (arytmi) – lægen vil 
+<p>hvis du har visse typer af uregelmæssige eller unormale hjerteslag (arytmi) - lægen vil 
 undersøge dit hjerte, før du starter behandlingen </p>
 </li>
 <li>
@@ -762,7 +762,7 @@ bivirkninger, der er angivet nedenfor: </p>
 <p>Ikke almindelig: kan forekomme hos op til 1 ud af 100 personer </p>
 </li>
 <li>
-<p>allergisk reaktion – tegnene kan inkludere et udslæt. </p>
+<p>allergisk reaktion - tegnene kan inkludere et udslæt. </p>
 </li>
 <li>
 <p>Sjælden: kan forekomme hos op til 1 ud af 1.000 personer </p>
@@ -777,7 +777,7 @@ bivirkninger: </p>
 <li>infektioner i næsen eller næseborene, næsehulen, munden, halsen (svælget) eller 
 strubehovedet (larynx) forårsaget af virus </li>
 <li>
-<p>lavt niveau af en type hvide blodlegemer – der kaldes lymfocytter </p>
+<p>lavt niveau af en type hvide blodlegemer - der kaldes lymfocytter </p>
 </li>
 <li>
 <p>Almindelig: kan forekomme hos op til 1 ud af 10 personer </p>
@@ -925,7 +925,7 @@ BETINGELSERNE FOR MARKEDSFØRINGSTILLADELSEN/-TILLADELSERNE
 Videnskabelige konklusioner </p>
 <p>Under hensyntagen til PRAC's vurderingsrapport om PSUR'en/PSUR'erne for ozanimod er PRAC nået 
 frem til følgende videnskabelige konklusioner: </p>
-<p>I lyset af tilgængelige data om den/de vigtige potentielle risiko/ricisi – svær leverskade fra spontane 
+<p>I lyset af tilgængelige data om den/de vigtige potentielle risiko/ricisi - svær leverskade fra spontane 
 rapporter, konkluderede PRAC rapporteur, at produktinformationen for produkter, der indeholder 
 ozanimod, skal ændres i overensstemmelse hermed. </p>
 <p>CHMP har gennemgået PRAC's anbefaling og er enig i de overordnede konklusioner og begrundelser 
@@ -946,8 +946,6 @@ InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for zeposia Package Leaflet for language en"
 Description: "ePI document Bundle for zeposia Package Leaflet for language en"
 Usage: #example
-
-
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
@@ -972,8 +970,6 @@ Description: "ePI document Bundle for zeposia Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -994,8 +990,8 @@ Usage: #example
 
 Instance: mp3f6a519af0b1268014d8e20e6028f9d5
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product zeposia"
-Description: "zeposia"
+Title: "Medicinal Product Zeposia 0.23 mg hard capsules"
+Description: "Zeposia 0.23 mg hard capsules"
 Usage: #inline
 
  
@@ -1008,14 +1004,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Multiple sclerosis"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "zeposia"
+  * productName = "Zeposia 0.23 mg hard capsules"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1035,10 +1028,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

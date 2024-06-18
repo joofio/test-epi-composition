@@ -481,7 +481,7 @@ også beslutte sig for at reducere din dosis. </p>
 straks søge lægehjælp:</p>
 <ul>
 <li>Feber med en galoperende puls, hurtig overfladisk vejrtrækning, kold, bleg, klam eller spættet 
-hud og/eller forvirring. Dette kan være tegn på en tilstand, der kaldes sepsis (blodforgiftning) – 
+hud og/eller forvirring. Dette kan være tegn på en tilstand, der kaldes sepsis (blodforgiftning) - 
 en svær og alvorlig reaktion på en infektion. Sepsis er ikke almindelig (kan forekomme hos op 
 til 1 ud af 100 personer) og kan være livstruende og medføre døden.  </li>
 <li>Vejrtrækningsproblemer eller hævelse af ansigt, mund, tunge eller hals. Disse kunne være tegn 
@@ -686,8 +686,6 @@ Description: "ePI document Bundle for halaven Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -710,8 +708,6 @@ Description: "ePI document Bundle for halaven Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -732,8 +728,8 @@ Usage: #example
 
 Instance: mp83d27b2c0c103aeb8cf9aa2b77c5f35f
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product halaven"
-Description: "halaven"
+Title: "Medicinal Product HALAVEN 0.44 mg/ml solution for injection"
+Description: "HALAVEN 0.44 mg/ml solution for injection"
 Usage: #inline
 
  
@@ -746,14 +742,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "HALAVEN is indicated for the treatment of adult patients with locally advanced or metastatic breast"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "halaven"
+  * productName = "HALAVEN 0.44 mg/ml solution for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -773,10 +766,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

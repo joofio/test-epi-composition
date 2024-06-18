@@ -764,8 +764,6 @@ Description: "ePI document Bundle for menveo Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -788,8 +786,6 @@ Description: "ePI document Bundle for menveo Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -810,8 +806,8 @@ Usage: #example
 
 Instance: mpc082813e7ff4dad923d73dee6e29eba2
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product menveo"
-Description: "menveo"
+Title: "Medicinal Product Menveo powder and solution for solution for injection"
+Description: "Menveo powder and solution for solution for injection"
 Usage: #inline
 
  
@@ -824,14 +820,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Menveo is indicated for active immunization of children (from 2 years of age), adolescents and adults"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "menveo"
+  * productName = "Menveo powder and solution for solution for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -851,10 +844,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

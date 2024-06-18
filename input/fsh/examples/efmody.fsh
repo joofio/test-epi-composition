@@ -766,8 +766,6 @@ Description: "ePI document Bundle for efmody Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -790,8 +788,6 @@ Description: "ePI document Bundle for efmody Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -812,8 +808,8 @@ Usage: #example
 
 Instance: mpd70366d9de20b85af1c498f11302a348
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product efmody"
-Description: "efmody"
+Title: "Medicinal Product Efmody 5 mg modified-release hard capsules"
+Description: "Efmody 5 mg modified-release hard capsules"
 Usage: #inline
 
  
@@ -826,14 +822,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Treatment of congenital adrenal hyperplasia (CAH) in adolescents aged 12 years and over and adults."
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "efmody"
+  * productName = "Efmody 5 mg modified-release hard capsules"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -853,10 +846,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

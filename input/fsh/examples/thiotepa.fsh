@@ -793,7 +793,7 @@ Esteve Pharmaceuticals S.A.S
 France 
 Tél: +33 1 42 31 07 contact-france@esteve.com </p>
 <p>Portugal 
-Esteve Pharmaceuticals – Laboratório 
+Esteve Pharmaceuticals - Laboratório 
 Farmacêutico, Limitada<br />
 Portugal 
 Tel: +34 93 446 60<br />
@@ -1036,8 +1036,6 @@ Description: "ePI document Bundle for thiotepa Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1060,8 +1058,6 @@ Description: "ePI document Bundle for thiotepa Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1082,8 +1078,8 @@ Usage: #example
 
 Instance: mpf26848c5b2f5c977d1dab0f1db6d241e
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product thiotepa"
-Description: "thiotepa"
+Title: "Medicinal Product Thiotepa Riemser 15 mg powder for concentrate for solution for infusion"
+Description: "Thiotepa Riemser 15 mg powder for concentrate for solution for infusion"
 Usage: #inline
 
  
@@ -1096,14 +1092,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Thiotepa Riemser is indicated, in combination with other chemotherapy medicinal products:"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "thiotepa"
+  * productName = "Thiotepa Riemser 15 mg powder for concentrate for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1123,10 +1116,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

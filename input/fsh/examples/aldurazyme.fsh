@@ -433,8 +433,8 @@ Tal med din læge, før du får Aldurazyme.
 Kontakt straks din læge, hvis behandlingen med Aldurazyme giver: </p>
 <ul>
 <li>
-<p>Allergiske reaktioner, herunder anafylaksi (en alvorlig allergisk reaktion) – se punkt 4 
-”Bivirkninger”. Nogle af disse reaktioner kan være livstruende. Symptomer kan inkludere 
+<p>Allergiske reaktioner, herunder anafylaksi (en alvorlig allergisk reaktion) - se punkt 4 
+"Bivirkninger". Nogle af disse reaktioner kan være livstruende. Symptomer kan inkludere 
 respirationssvigt/-besvær (lungernes manglende evne til at fungere korrekt), stridor (høj 
 åndedrætslyd) og andre sygdomme på grund af forsnævringer i luftvejene, hurtig vejrtrækning, 
 overdreven sammentrækning af musklerne i luftvejene, der giver åndedrætsbesvær 
@@ -443,7 +443,7 @@ overdreven sammentrækning af musklerne i luftvejene, der giver åndedrætsbesv�
 </li>
 <li>
 <p>Infusionsrelaterede reaktioner, det vil sige enhver bivirkning, der indtræder under infusionen 
-eller inden infusionsdagen er gået - se punkt 4 “Bivirkninger” nedenfor for symptomer.  </p>
+eller inden infusionsdagen er gået - se punkt 4 “Bivirkninger" nedenfor for symptomer.  </p>
 </li>
 </ul>
 <p>Hvis sådanne reaktioner optræder, skal infusionen af Aldurazyme straks afbrydes, og din læge vil 
@@ -478,7 +478,7 @@ voksen.  </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "3. How to take aldurazyme"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Instruktioner vedrørende anvendelsen – opløsning og indgivelse <br />
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Instruktioner vedrørende anvendelsen - opløsning og indgivelse <br />
 Koncentratet til opløsning til infusion skal fortyndes før indgivelse og er beregnet til intravenøs brug 
 (se oplysningerne til sundhedspersoner).<br />
 Indgivelse af Aldurazyme skal udføres i hensigtsmæssige, kliniske omgivelser, hvor der er let adgang 
@@ -701,7 +701,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen efter Exp. Udløbsdatoen er den 
 sidste dag i den nævnte måned. </p>
 <p>Uåbnede hætteglas: 
-Opbevares i køleskab (2 °C – 8 °C). </p>
+Opbevares i køleskab (2 °C - 8 °C). </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
 ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
         
@@ -770,7 +770,7 @@ Tel: +48 22 280 00<br />
 Sanofi-Aventis Μονοπρόσωπη AEBE<br />
 Τηλ: +30 210 900 1 
 Portugal 
-Sanofi – Produtos Farmacêuticos, Lda.<br />
+Sanofi - Produtos Farmacêuticos, Lda.<br />
 Tel: +351 21 35 89 España 
 sanofi-aventis, S.A. 
 Tel: +34 93 485 94<br />
@@ -882,8 +882,6 @@ Description: "ePI document Bundle for aldurazyme Package Leaflet for language en
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -906,8 +904,6 @@ Description: "ePI document Bundle for aldurazyme Package Leaflet for language da
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -928,8 +924,8 @@ Usage: #example
 
 Instance: mp5ffbf24d0777fe10834621c6432afea6
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product aldurazyme"
-Description: "aldurazyme"
+Title: "Medicinal Product Aldurazyme 100 U/ml concentrate for solution for infusion"
+Description: "Aldurazyme 100 U/ml concentrate for solution for infusion"
 Usage: #inline
 
  
@@ -942,14 +938,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Aldurazyme is indicated for long-term enzyme replacement therapy in patients with a confirmed"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "aldurazyme"
+  * productName = "Aldurazyme 100 U/ml concentrate for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -969,10 +962,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

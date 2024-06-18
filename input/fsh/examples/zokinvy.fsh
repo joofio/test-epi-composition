@@ -653,7 +653,7 @@ hvilket medfører flere bivirkninger; spørg apotekspersonalet eller lægen, hvi
 lægemidler er af denne type) </p>
 </li>
 <li>
-<p>midazolam (anvendes til behandling af krampeanfald og i forbindelse med kirurgiske indgreb – fortæl 
+<p>midazolam (anvendes til behandling af krampeanfald og i forbindelse med kirurgiske indgreb - fortæl 
 det til lægen, hvis du planlægger at blive opereret) </p>
 </li>
 <li>
@@ -838,7 +838,7 @@ fortsætte til trin 6. Trin 6: </p>
 til 5 for den anden kapsel. </p>
 </li>
 <li>
-<p>Når den anden kapsel er blandet – de 2 
+<p>Når den anden kapsel er blandet - de 2 
 portioner kan samles i ét bæger eller forblive 
 i to bægre. </p>
 </li>
@@ -1188,8 +1188,6 @@ Description: "ePI document Bundle for zokinvy Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1212,8 +1210,6 @@ Description: "ePI document Bundle for zokinvy Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1234,8 +1230,8 @@ Usage: #example
 
 Instance: mp899927b87eee0edddf78e53b80fec139
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product zokinvy"
-Description: "zokinvy"
+Title: "Medicinal Product Zokinvy 50 mg hard capsules"
+Description: "Zokinvy 50 mg hard capsules"
 Usage: #inline
 
  
@@ -1248,14 +1244,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Zokinvy is indicated for the treatment of patients 12 months of age and older with a genetically"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "zokinvy"
+  * productName = "Zokinvy 50 mg hard capsules"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1275,10 +1268,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -708,7 +708,7 @@ normalt. </p>
 <p>En almindelig bivirkning ved anvendelsen af filgrastim er smerter i dine muskler eller knogler 
 (muskoskeletale smerter), som kan afhjælpes ved at tage standard smertelindrende lægemidler 
 (analgetika). Hos patienter, der gennemgår en stamcelle- eller knoglemarvstransplantation, kan graft 
-versus host-sygdom (GvHD) forekomme – dette er donorcellernes reaktion mod den patient, der får 
+versus host-sygdom (GvHD) forekomme - dette er donorcellernes reaktion mod den patient, der får 
 transplatationen. Tegn og symptomer omfatter udslæt på håndfladerne eller fodsålerne samt sår i mund, 
 mave, lever, hud eller dine øjne, lunger, skede og led. En forhøjelse af de hvide blodlegemer </p>
 <p>(leukocytose) og en reduktion af blodplader ses meget almindeligt hos normale stamcelledonorer, 
@@ -1130,8 +1130,6 @@ Description: "ePI document Bundle for zarzio Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1154,8 +1152,6 @@ Description: "ePI document Bundle for zarzio Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1176,8 +1172,8 @@ Usage: #example
 
 Instance: mp1bb79447a2309ad6bd5c05b14a8deec5
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product zarzio"
-Description: "zarzio"
+Title: "Medicinal Product Zarzio 30 MU/0.5 mL solution for injection or infusion in pre-filled syringe"
+Description: "Zarzio 30 MU/0.5 mL solution for injection or infusion in pre-filled syringe"
 Usage: #inline
 
  
@@ -1190,14 +1186,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "-"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "zarzio"
+  * productName = "Zarzio 30 MU/0.5 mL solution for injection or infusion in pre-filled syringe"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1217,10 +1210,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

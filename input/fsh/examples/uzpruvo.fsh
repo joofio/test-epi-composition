@@ -609,7 +609,7 @@ Dette kan øge risikoen for kræft. </p>
 </li>
 <li>
 <p>Hvis du er blevet behandlet for psoriasis med andre biologiske lægemidler (et lægemiddel, 
-der er fremstillet ud fra en biologisk kilde, og som normalt gives som en indsprøjtning) – 
+der er fremstillet ud fra en biologisk kilde, og som normalt gives som en indsprøjtning) - 
 kan risikoen for kræft være forhøjet. </p>
 </li>
 <li>
@@ -620,18 +620,18 @@ kan risikoen for kræft være forhøjet. </p>
 normal hud. </p>
 </li>
 <li>
-<p>Hvis du får anden behandling for psoriasis og/eller psoriasisartrit – såsom et andet 
+<p>Hvis du får anden behandling for psoriasis og/eller psoriasisartrit - såsom et andet 
 immunsuppressivum eller lysbehandling (når kroppen behandles med en type ultraviolet (UV) 
 lys). Disse behandlinger kan også svække dele af immunsystemet. Samtidig brug af disse 
 behandlinger og Uzpruvo er ikke undersøgt. Det er muligt, at det øger risikoen for sygdomme, 
 der forbindes med et svækket immunsystem. </p>
 </li>
 <li>
-<p>Hvis du får eller tidligere har fået injektionsbehandling mod allergi – det vides ikke, om 
+<p>Hvis du får eller tidligere har fået injektionsbehandling mod allergi - det vides ikke, om 
 Uzpruvo kan påvirke disse behandlinger. </p>
 </li>
 <li>
-<p>Hvis du er over 65 år – i så fald kan du være mere tilbøjelig til at få infektioner. </p>
+<p>Hvis du er over 65 år - i så fald kan du være mere tilbøjelig til at få infektioner. </p>
 </li>
 </ul>
 <p>Tal med din læge eller apotekspersonalet, før du begynder at bruge Uzpruvo, hvis du ikke er sikker på, 
@@ -694,7 +694,7 @@ fødslen, medmindre dit barns læge anbefaler andet. </p>
 <li>
 <p>Ustekinumab kan passere over i modermælken i meget små mængder. Tal med din læge, hvis 
 du ammer eller planlægger at amme. Sammen med din læge skal du beslutte, om du skal amme 
-eller bruge Uzpruvo – du må ikke gøre begge dele. </p>
+eller bruge Uzpruvo - du må ikke gøre begge dele. </p>
 </li>
 </ul>
 <p>Trafik- og arbejdssikkerhed 
@@ -796,7 +796,7 @@ symptomer dog komme tilbage. </p>
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
 <p>Alvorlige bivirkninger 
 Nogle patienter kan få alvorlige bivirkninger, der kan kræve omgående behandling. </p>
-<p>Allergiske reaktioner – kan kræve omgående behandling. Kontakt straks lægen eller skadestue, 
+<p>Allergiske reaktioner - kan kræve omgående behandling. Kontakt straks lægen eller skadestue, 
 hvis du bemærker nogle af følgende tegn. </p>
 <ul>
 <li>
@@ -815,7 +815,7 @@ hos op til 1 ud af 100 brugere). </p>
 patienter, der fik ustekinumab. Kontakt straks lægen, hvis du får symptomer som for eksempel 
 hoste, åndenød og feber. </p>
 <p>Hvis du får en alvorlig allergisk reaktion, vil lægen måske beslutte, at du ikke må få Uzpruvo igen. </p>
-<p>Infektioner – kan kræve omgående behandling. Kontakt straks lægen, hvis du bemærker nogle 
+<p>Infektioner - kan kræve omgående behandling. Kontakt straks lægen, hvis du bemærker nogle 
 af følgende tegn. </p>
 <ul>
 <li>
@@ -869,7 +869,7 @@ kan medføre alvorlige komplikationer. Fortæl det til lægen, hvis du får en i
 væk eller bliver ved med at vende tilbage. Din læge kan beslutte, at du ikke må få Uzpruvo, før 
 infektionen er væk. Fortæl også din læge, hvis du har åbne rifter eller sår, da der kan gå betændelse i 
 dem. </p>
-<p>Hudafskalning – øget rødme og afskalning af huden på et større område af kroppen kan være 
+<p>Hudafskalning - øget rødme og afskalning af huden på et større område af kroppen kan være 
 symptomer på sygdommene erytroderm psoriasis eller eksfoliativ dermatitis, som er alvorlige 
 hudsygdomme. Kontakt straks lægen, hvis du bemærker et af disse tegn. </p>
 <p>Andre bivirkninger </p>
@@ -983,7 +983,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
 <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 </li>
 <li>
-<p>Opbevares i køleskab (2 °C – 8 °C). Må ikke nedfryses. </p>
+<p>Opbevares i køleskab (2 °C - 8 °C). Må ikke nedfryses. </p>
 </li>
 <li>
 <p>Opbevar den fyldte injektionssprøjte i den ydre karton for at beskytte det mod lys. </p>
@@ -1050,7 +1050,7 @@ injektion. Den udleveres i en karton, der indeholder 1 enkeltdosis i en 1 ml fyl
 glas. Hver fyldt injektionssprøjte indeholder 45 mg ustekinumab i 0,5 ml injektionsvæske. </p>
 <p>Indehaver af markedsføringstilladelsen 
 STADA Arzneimittel AG<br />
-Stadastrasse 2–18<br />
+Stadastrasse 2-18<br />
 61118 Bad Vilbel 
 Tyskland  </p>
 <p>Fremstiller 
@@ -1379,8 +1379,6 @@ Description: "ePI document Bundle for uzpruvo Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1403,8 +1401,6 @@ Description: "ePI document Bundle for uzpruvo Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1425,8 +1421,8 @@ Usage: #example
 
 Instance: mpd78597bd4a8ec02c40a4fe805d40f1ef
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product uzpruvo"
-Description: "uzpruvo"
+Title: "Medicinal Product Uzpruvo 45 mg solution for injection in pre-filled syringe"
+Description: "Uzpruvo 45 mg solution for injection in pre-filled syringe"
 Usage: #inline
 
  
@@ -1439,14 +1435,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Plaque psoriasis"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "uzpruvo"
+  * productName = "Uzpruvo 45 mg solution for injection in pre-filled syringe"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1466,10 +1459,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

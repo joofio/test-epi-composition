@@ -427,14 +427,14 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Virkning 
 Briviact indeholder det aktive stof brivaracetam. Det tilhører en gruppe af lægemidler, som kaldes 
-”antiepileptika”. Disse lægemidler anvendes til behandling af epilepsi. </p>
+"antiepileptika". Disse lægemidler anvendes til behandling af epilepsi. </p>
 <p>Anvendelse 
 - Briviact anvendes hos voksne, unge og børn på 2 år og derover. 
-- Det bruges til behandling af en bestemt type epilepsi med ”partielle anfald med eller uden 
-sekundær generalisering.”<br />
+- Det bruges til behandling af en bestemt type epilepsi med "partielle anfald med eller uden 
+sekundær generalisering."<br />
 - Partielle anfald er kramper, som til at begynde med kun påvirker en side af hjernen. Disse 
-partielle anfald kan sprede og udvide sig til større områder i begge sider af hjernen – dette 
-kaldes en ”sekundær generalisering”.<br />
+partielle anfald kan sprede og udvide sig til større områder i begge sider af hjernen - dette 
+kaldes en "sekundær generalisering".<br />
 - De har fået dette lægemiddel for at nedbringe antallet af kramper (anfald). Briviact anvendes 
 sammen med andre lægemidler mod epilepsi. </p>         </div>"""   
           
@@ -467,7 +467,7 @@ Fortæl altid lægen eller apotekspersonalet, hvis De tager anden medicin eller 
 <p>Det er især vigtigt at fortælle lægen, hvis De tager et af følgende lægemidler, da det kan være 
 nødvendigt, at lægen justerer dosis af Briviact:</p>
 <ul>
-<li>Rifampicin – et lægemiddel, som anvendes til behandling af infektioner, som skyldes bakterier. </li>
+<li>Rifampicin - et lægemiddel, som anvendes til behandling af infektioner, som skyldes bakterier. </li>
 <li>Prikbladet perikon (også kendt som Hypericum perforatum), som er et naturlægemiddel, som 
 anvendes til behandling af depression og angst samt andre tilstande. </li>
 </ul>
@@ -536,11 +536,11 @@ gange dagligt. </li>
 - Tabletterne synkes hele sammen med et glas væske. 
 - Lægemidlet kan tages med eller uden mad. </p>
 <p>Hvor længe skal De tage Briviact 
-Briviact er til langtidsbehandling – fortsæt med at tage Briviact, indtil lægen siger, at De skal stoppe 
+Briviact er til langtidsbehandling - fortsæt med at tage Briviact, indtil lægen siger, at De skal stoppe 
 behandlingen. </p>
 <p>Hvis De har taget for meget Briviact 
 Kontakt lægen, hvis De har taget mere Briviact, end De skulle. De kan føle Dem svimmel og søvnig. 
-De kan også få et eller flere af følgende symptomer: kvalme, en følelse af at ”snurre rundt”, problemer 
+De kan også få et eller flere af følgende symptomer: kvalme, en følelse af at "snurre rundt", problemer 
 med at holde balancen, angst, voldsom træthedsfølelse, irritabilitet, aggressivitet, søvnløshed, 
 depression, tanker om eller forsøg på selvskade eller selvmord. </p>
 <p>Hvis De har glemt at tage Briviact 
@@ -570,14 +570,14 @@ nedtrappe dosis. Dette forhindrer, at kramperne vender tilbage eller forværres.
 - kramper, en følelse af at snurre rundt (vertigo) 
 - kvalme eller opkastning, forstoppelse 
 - depression, angst, søvnløshed (insomni), irritabilitet 
-- infektioner i næsen eller halsen (såsom en ”almindelig forkølelse”), hoste 
+- infektioner i næsen eller halsen (såsom en "almindelig forkølelse"), hoste 
 - nedsat appetit </p>
 <p>Ikke almindelig: kan forekomme hos op til 1 ud af 100 personer 
 - allergiske reaktioner 
 - unormal tankegang og/eller manglende realitetssans (psykiske forstyrrelser), aggressivitet, 
 nervøs ophidselse (agitation) 
 - tanker om eller forsøg på selvmord eller selvskade: fortæl det straks til lægen 
-- nedsat antal hvide blodlegemer i blodet (kaldet ”neutropi”) – ses i blodprøver </p>
+- nedsat antal hvide blodlegemer i blodet (kaldet "neutropi") - ses i blodprøver </p>
 <p>Yderligere bivirkninger hos børn  </p>
 <p>Almindelig: kan påvirke op til 1 ud af 10 personer 
 - rastløshed og hyperaktivitet (psykomotorisk hyperaktivitet) </p>
@@ -626,19 +626,19 @@ gul jernoxid (E 172); rød jernoxid (E 172); sort jernoxid (E 172).
 talcum; gul jernoxid (E 172); sort jernoxid (E 172). </p>
 <p>Udseende og pakningsstørrelser 
 Briviact 10 mg er hvide til gråhvide, runde, filmovertrukne tabletter med en diameter på 6,5 mm og er 
-præget med ”u10” på den ene side. 
+præget med "u10" på den ene side. 
 Briviact 25 mg er grå, ovale, filmovertrukne tabletter, der måler 8,9 mm x 5,0 mm og er præget med 
-”u25” på den ene side. 
+"u25" på den ene side. 
 Briviact 50 mg er gule, ovale, filmovertrukne tabletter, der måler 11,7 mm x 6,6 mm og er præget med 
-”u50” på den ene side. 
+"u50" på den ene side. 
 Briviact 75 mg er lilla, ovale, filmovertrukne tabletter, der måler 13,0 mm x 7,3 mm og er præget med 
-”u75” på den ene side. 
+"u75" på den ene side. 
 Briviact 100 mg er grøn-grå, ovale, filmovertrukne tabletter, der måler 14,5 mm x 8,1 mm og er 
-præget med ”u100” på den ene side. </p>
+præget med "u100" på den ene side. </p>
 <p>Briviact tabletter er pakket i blisterpakninger, som leveres i æsker indeholdende enten 14, 56, 14 x 1 
 eller 100 x 1 filmovertrukne tabletter eller i multipakninger indeholdende 168 (3 pakninger a 56) 
 filmovertrukne tabletter. 
-Alle pakninger fås i PVC/PCTFE – Aluminium blister. </p>
+Alle pakninger fås i PVC/PCTFE - Aluminium blister. </p>
 <p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
 <p>Indehaver af markedsføringstilladelsen<br />
 UCB Pharma S.A., Allée de la Recherche 60, B-1070 Bruxelles, Belgien </p>
@@ -760,8 +760,6 @@ Description: "ePI document Bundle for briviact Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -784,8 +782,6 @@ Description: "ePI document Bundle for briviact Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -806,8 +802,8 @@ Usage: #example
 
 Instance: mp67d662579a878d3df2de1273192e0a02
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product briviact"
-Description: "briviact"
+Title: "Medicinal Product Briviact 10 mg film-coated tablets"
+Description: "Briviact 10 mg film-coated tablets"
 Usage: #inline
 
  
@@ -820,14 +816,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Briviact is indicated as adjunctive therapy in the treatment of partial onset seizures with or without"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "briviact"
+  * productName = "Briviact 10 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -847,10 +840,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

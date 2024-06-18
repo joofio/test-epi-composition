@@ -1894,8 +1894,6 @@ Description: "ePI document Bundle for remsima Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1918,8 +1916,6 @@ Description: "ePI document Bundle for remsima Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1940,8 +1936,8 @@ Usage: #example
 
 Instance: mpc29ba23bb04c16ab758f150fe41d6513
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product remsima"
-Description: "remsima"
+Title: "Medicinal Product Remsima 100 mg powder for concentrate for solution for infusion"
+Description: "Remsima 100 mg powder for concentrate for solution for infusion"
 Usage: #inline
 
  
@@ -1954,14 +1950,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Rheumatoid arthritis"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "remsima"
+  * productName = "Remsima 100 mg powder for concentrate for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1981,10 +1974,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

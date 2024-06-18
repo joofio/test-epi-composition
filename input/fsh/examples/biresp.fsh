@@ -586,7 +586,7 @@ Usage: #inline
 <ul>
 <li>
 <p>Budesonid tilhører en gruppe lægemidler, der betegnes ’kortikosteroider’, også kendt som 
-”steroider”. Det virker ved at reducere og forebygge hævelse og inflammation (en 
+"steroider". Det virker ved at reducere og forebygge hævelse og inflammation (en 
 betændelseslignende reaktion) i lungerne, så du lettere kan trække vejret.  </p>
 </li>
 <li>
@@ -1005,7 +1005,7 @@ den og straks tale med din læge (se nedenfor). </p>
 <p>Meget sjældne bivirkninger: kan påvirke op til 1 ud af 10.000 personer </p>
 <ul>
 <li>Pludselig, uventet og akut hvæsen og/eller åndenød umiddelbart efter, at du har brugt 
-inhalatoren (betegnes også ”paradoks bronkospasme”). Hvis et af disse symptomer forekommer, 
+inhalatoren (betegnes også "paradoks bronkospasme"). Hvis et af disse symptomer forekommer, 
 skal du straks holde op med at bruge BiResp Spiromax og bruge din inhalator med 
 anfaldsmedicin, hvis du har en. Kontakt lægen med det samme, da det kan være nødvendigt at 
 ændre din behandling.  </li>
@@ -1300,8 +1300,6 @@ Description: "ePI document Bundle for biresp Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1324,8 +1322,6 @@ Description: "ePI document Bundle for biresp Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1346,8 +1342,8 @@ Usage: #example
 
 Instance: mp581794a330b2afc7f7af3badc000c4a2
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product biresp"
-Description: "biresp"
+Title: "Medicinal Product BiResp Spiromax 160 micrograms / 4.5 micrograms inhalation powder"
+Description: "BiResp Spiromax 160 micrograms / 4.5 micrograms inhalation powder"
 Usage: #inline
 
  
@@ -1360,14 +1356,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Asthma"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "biresp"
+  * productName = "BiResp Spiromax 160 micrograms / 4.5 micrograms inhalation powder"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1387,10 +1380,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -831,8 +831,6 @@ Description: "ePI document Bundle for nexobrid Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -855,8 +853,6 @@ Description: "ePI document Bundle for nexobrid Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -877,8 +873,8 @@ Usage: #example
 
 Instance: mp9af2a44fa579cd6ab6e3934e61bad8e0
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product nexobrid"
-Description: "nexobrid"
+Title: "Medicinal Product NexoBrid 2 g powder and gel for gel"
+Description: "NexoBrid 2 g powder and gel for gel"
 Usage: #inline
 
  
@@ -891,14 +887,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "NexoBrid is indicated in all age groups for removal of eschar in patients with deep partial- and full-"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "nexobrid"
+  * productName = "NexoBrid 2 g powder and gel for gel"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -918,10 +911,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

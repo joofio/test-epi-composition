@@ -939,7 +939,7 @@ CSL Behring sp. z o.o.
 Tel: +48 22 213 22 65
 France
 CSL Behring S.A.
-Tél: + 33 –(0)-1 53 58 54 00
+Tél: + 33 -(0)-1 53 58 54 00
 Portugal
 CSL Behring Lda
 Tel: +351 21 782 62 30
@@ -1113,8 +1113,6 @@ Description: "ePI document Bundle for voncento Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1137,8 +1135,6 @@ Description: "ePI document Bundle for voncento Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1159,8 +1155,8 @@ Usage: #example
 
 Instance: mp6921fe94b12d3679a96f1d5a8683a92f
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product voncento"
-Description: "voncento"
+Title: "Medicinal Product Voncento250 IU FVIII / 600 IU VWF (5 ml solvent) powder and solvent for solution for"
+Description: "Voncento250 IU FVIII / 600 IU VWF (5 ml solvent) powder and solvent for solution for"
 Usage: #inline
 
  
@@ -1173,14 +1169,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Voncento can be used for all age groups."
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "voncento"
+  * productName = "Voncento250 IU FVIII / 600 IU VWF (5 ml solvent) powder and solvent for solution for"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1200,10 +1193,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

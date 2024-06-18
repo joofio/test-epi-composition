@@ -758,8 +758,6 @@ Description: "ePI document Bundle for entecavir Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -782,8 +780,6 @@ Description: "ePI document Bundle for entecavir Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -804,8 +800,8 @@ Usage: #example
 
 Instance: mp8d5db30b44b1b19f76cd82de873a34e8
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product entecavir"
-Description: "entecavir"
+Title: "Medicinal Product Entecavir Viatris 0.5 mg film-coated tablets"
+Description: "Entecavir Viatris 0.5 mg film-coated tablets"
 Usage: #inline
 
  
@@ -818,14 +814,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Entecavir Viatris is indicated for the treatment of chronic hepatitis B virus (HBV) infection (see"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "entecavir"
+  * productName = "Entecavir Viatris 0.5 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -845,10 +838,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -616,8 +616,6 @@ Description: "ePI document Bundle for darunavir Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -638,8 +636,8 @@ Usage: #example
 
 Instance: mpca782dfd4f770a8ed2648776cb943032
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product darunavir"
-Description: "darunavir"
+Title: "Medicinal Product Darunavir Mylan 75 mg film-coated tablets"
+Description: "Darunavir Mylan 75 mg film-coated tablets"
 Usage: #inline
 
  
@@ -652,14 +650,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Darunavir, co-administered with low dose ritonavir is indicated in combination with other"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "darunavir"
+  * productName = "Darunavir Mylan 75 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -679,10 +674,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

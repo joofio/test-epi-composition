@@ -1051,8 +1051,6 @@ Description: "ePI document Bundle for stivarga Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1075,8 +1073,6 @@ Description: "ePI document Bundle for stivarga Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1097,8 +1093,8 @@ Usage: #example
 
 Instance: mp1725e26bb7cb4ad5c29cb26127be8f47
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product stivarga"
-Description: "stivarga"
+Title: "Medicinal Product Stivarga 40 mg film-coated tablets."
+Description: "Stivarga 40 mg film-coated tablets."
 Usage: #inline
 
  
@@ -1111,14 +1107,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Stivarga is indicated as monotherapy for the treatment of adult patients with"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "stivarga"
+  * productName = "Stivarga 40 mg film-coated tablets."
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1138,10 +1131,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

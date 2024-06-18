@@ -854,7 +854,7 @@ Tel.: +48 22 566 21<br />
 France 
 MENARINI France 
 Tél: +33 (0)1 45 60 77 Portugal 
-A. Menarini Portugal – Farmacêutica, S.A. 
+A. Menarini Portugal - Farmacêutica, S.A. 
 Tel: +351 210 935<br />
 Hrvatska 
 Berlin-Chemie Menarini Hrvatska d.o.o. 
@@ -945,8 +945,6 @@ Description: "ePI document Bundle for vaborem Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -969,8 +967,6 @@ Description: "ePI document Bundle for vaborem Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -991,8 +987,8 @@ Usage: #example
 
 Instance: mp1a4d7d0936b560f6ab01480d49118287
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product vaborem"
-Description: "vaborem"
+Title: "Medicinal Product Vaborem 1 g/1 g powder for concentrate for solution for infusion"
+Description: "Vaborem 1 g/1 g powder for concentrate for solution for infusion"
 Usage: #inline
 
  
@@ -1005,14 +1001,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Vaborem is indicated for the treatment of the following infections in adults (see sections 4.4 and 5.1):"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "vaborem"
+  * productName = "Vaborem 1 g/1 g powder for concentrate for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1032,10 +1025,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

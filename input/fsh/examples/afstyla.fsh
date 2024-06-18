@@ -524,7 +524,7 @@ VIII hos patienter med hæmofili A, så deres blod kan størkne normalt. </p>
 <p>Advarsler og forsigtighedsregler </p>
 <p>Sporbarhed:<br />
 Det er vigtigt at holde styr på batchnummeret til AFSTYLA. Hver gang, du får en ny pakning med 
-AFSTYLA, skal du altså notere datoen og batchnummeret (der står på pakningen efter “Lot”) og 
+AFSTYLA, skal du altså notere datoen og batchnummeret (der står på pakningen efter “Lot") og 
 opbevare disse oplysninger på et sikkert sted. </p>
 <p>Kontakt lægen, apotekspersonalet eller sundhedspersonalet, før du bruger AFSTYLA. </p>
 <ul>
@@ -927,7 +927,7 @@ CSL Behring GmbH
 Tel: +43 1 80101 2 
 France 
 CSL Behring S.A. 
-Tél: + 33 –(0)-1 53 58 54<br />
+Tél: + 33 -(0)-1 53 58 54<br />
 Polska 
 CSL Behring Sp.z o.o. 
 Tel: +48 22 213 22  </p>
@@ -1085,8 +1085,6 @@ Description: "ePI document Bundle for afstyla Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1109,8 +1107,6 @@ Description: "ePI document Bundle for afstyla Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1131,8 +1127,8 @@ Usage: #example
 
 Instance: mpc832a88299d92f8a87ef0072aef518b9
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product afstyla"
-Description: "afstyla"
+Title: "Medicinal Product AFSTYLA 250 IU powder and solvent for solution for injection"
+Description: "AFSTYLA 250 IU powder and solvent for solution for injection"
 Usage: #inline
 
  
@@ -1145,14 +1141,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Treatment and prophylaxis of bleeding in patients with haemophilia A (congenital factor VIII"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "afstyla"
+  * productName = "AFSTYLA 250 IU powder and solvent for solution for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1172,10 +1165,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

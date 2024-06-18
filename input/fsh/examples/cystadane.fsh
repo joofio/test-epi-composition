@@ -399,8 +399,8 @@ du straks kontakte din læge, idet det kan være tegn på hævelse i hjernen (ce
 tilfælde vil din læge overvåge methioninniveauet i din krop og muligvis gennemgå din diæt. Det er 
 muligt at din behandling med Cystadane skal stoppes.<br />
 Hvis du behandles med Cystadane og en aminosyreblanding og hvis du tager anden medicin samtidig 
-skal du vente 30 minutter mellem at du tager dem (se afsnittet ”Brug af anden medicin sammen med 
-Cystadane”). </p>
+skal du vente 30 minutter mellem at du tager dem (se afsnittet "Brug af anden medicin sammen med 
+Cystadane"). </p>
 <p>Brug af anden medicin sammen med Cystadane 
 Fortæl det til lægen, hvis du bruger anden medicin eller har brugt det for nylig eller måske vil gøre det. 
 Hvis du tager en aminosyreblanding eller medicin så som vigabatrin eller GABA-analoger (medicin, 
@@ -506,13 +506,13 @@ Cystadane er et hvidt krystallinsk frit strømmende pulver. Det findes i flasker
 lukning. Hver flaske indeholder 180 g pulver. Hver æske indeholder en flaske og tre måleskeer. </p>
 <p>Indehaveren af markedsføringstilladelsen 
 Recordati Rare Diseases 
-Immeuble “Le Wilson” 
+Immeuble “Le Wilson" 
 70, Avenue du General de Gaulle<br />
 F-92 800 Puteaux<br />
 Frankrig </p>
 <p>Fremstiller 
 Recordati Rare Diseases 
-Immeuble “Le Wilson” 
+Immeuble “Le Wilson" 
 70, Avenue du General de Gaulle<br />
 F-92 800 Puteaux<br />
 Frankrig </p>
@@ -635,8 +635,6 @@ Description: "ePI document Bundle for cystadane Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -659,8 +657,6 @@ Description: "ePI document Bundle for cystadane Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -681,8 +677,8 @@ Usage: #example
 
 Instance: mp11f43ece9ca4cf7aa03a029895a8e969
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product cystadane"
-Description: "cystadane"
+Title: "Medicinal Product Cystadane 1 g oral powder"
+Description: "Cystadane 1 g oral powder"
 Usage: #inline
 
  
@@ -695,14 +691,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Adjunctive treatment of homocystinuria, involving deficiencies or defects in:"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "cystadane"
+  * productName = "Cystadane 1 g oral powder"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -722,10 +715,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

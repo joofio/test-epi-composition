@@ -574,8 +574,8 @@ få vurderet behandlingen.
 Virkninger ved rygeophør
 Rygeophør kan føre til ændringer i Deres krop, og det kan ændre virkningen af anden medicin. Disse 
 ændringer kan ske både med og uden behandling med CHAMPIX. Derfor kan det nogen gange være 
-nødvendigt at ændre dosis af anden medicin. Se afsnittet ”Brug af anden medicin sammen med 
-CHAMPIX” nedenfor for detaljer.
+nødvendigt at ændre dosis af anden medicin. Se afsnittet "Brug af anden medicin sammen med 
+CHAMPIX" nedenfor for detaljer.
 Hos nogle personer kan rygeophør, hvad enten det gennemføres med eller uden behandling, være 
 forbundet med en øget risiko for, at man oplever ændringer i adfærd eller tankegang, og at man føler 
 sig deprimeret eller angst og kan være forbundet med forværring af psykiske forstyrrelser. Hvis De 
@@ -656,9 +656,9 @@ Uge 2
 Dosis
 Dag 8-Fra dag 8-14 skal De tage 1 lyseblå CHAMPIX 1 mg filmovertrukken tablet 2 gange 
 dagligt, 1 om morgenen og 1 om aftenen på omtrent samme tidspunkt hver dag
-Uge 3 – 12
+Uge 3 - 12
 Dosis
-Dag 15 –
+Dag 15 -
 behandlingen 
 er slut
 Fra dag 15 og til behandlingen er slut, skal De tage 1 lyseblå CHAMPIX 1 mg 
@@ -859,19 +859,19 @@ Hver 0,5 mg filmovertrukken tablet indeholder 0,5 mg vareniclin (som tartrat).
 Hver 1 mg filmovertrukken tablet indeholder 1 mg vareniclin (som tartrat).
 -
 Øvrige indholdsstoffer:
-Tabletkerne – CHAMPIX 0,5 mg og 1 mg filmovertrukne tabletter
+Tabletkerne - CHAMPIX 0,5 mg og 1 mg filmovertrukne tabletter
 Cellulose, mikrokrystallinsk
 Calciumhydrogenphosphat, vandfri
-Croscarmellosenatrium (se afsnit 2 “CHAMPIX indeholder natrium”)
+Croscarmellosenatrium (se afsnit 2 “CHAMPIX indeholder natrium")
 Silica, kolloid vandfri
 Magnesiumstearat</p>
 <p>121
-Filmovertræk – CHAMPIX 0,5 mg filmovertrukne tabletter
+Filmovertræk - CHAMPIX 0,5 mg filmovertrukne tabletter
 Hypromellose
 Titandioxid (E171)
 Macrogol 400
 Triacetin
-Filmovertræk – CHAMPIX 1 mg filmovertrukne tabletter
+Filmovertræk - CHAMPIX 1 mg filmovertrukne tabletter
 Hypromellose
 Titandioxid (E171)
 Macrogol 400
@@ -880,10 +880,10 @@ Triacetin
 Udseende og pakningsstørrelser
 -
 CHAMPIX 0,5 mg filmovertrukne tabletter er hvide, filmovertrukne, kapselformede tabletter, 
-mærket ”Pfizer” på den ene side og ”CHX 0.5” på den anden.
+mærket "Pfizer" på den ene side og "CHX 0.5" på den anden.
 -
 CHAMPIX 1 mg filmovertrukne tabletter er lyseblå, filmovertrukne, kapselformede tabletter, 
-mærket ”Pfizer” på den ene side og ”CHX 1.0” på den anden.
+mærket "Pfizer" på den ene side og "CHX 1.0" på den anden.
 CHAMPIX findes i følgende pakningsstørrelser:
 -
 Startpakning, der indeholder 2 blisterkort, 1 gennemsigtig blisterkort med 11 x CHAMPIX 
@@ -1052,8 +1052,6 @@ Description: "ePI document Bundle for champix Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1076,8 +1074,6 @@ Description: "ePI document Bundle for champix Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1098,8 +1094,8 @@ Usage: #example
 
 Instance: mpb9e406d2f0e8fcd3c2ddc68fcfd21aa0
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product champix"
-Description: "champix"
+Title: "Medicinal Product CHAMPIX 0.5 mg film-coated tablets"
+Description: "CHAMPIX 0.5 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1112,14 +1108,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "CHAMPIX is indicated for smoking cessation in adults."
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "champix"
+  * productName = "CHAMPIX 0.5 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1139,10 +1132,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

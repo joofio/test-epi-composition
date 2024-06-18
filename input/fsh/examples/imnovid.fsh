@@ -1465,8 +1465,6 @@ Description: "ePI document Bundle for imnovid Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1489,8 +1487,6 @@ Description: "ePI document Bundle for imnovid Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1511,8 +1507,8 @@ Usage: #example
 
 Instance: mp9690a7f47a287edf985eddd979c0833b
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product imnovid"
-Description: "imnovid"
+Title: "Medicinal Product Imnovid 1 mg hard capsules"
+Description: "Imnovid 1 mg hard capsules"
 Usage: #inline
 
  
@@ -1525,14 +1521,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Imnovid in combination with bortezomib and dexamethasone is indicated in the treatment of adult"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "imnovid"
+  * productName = "Imnovid 1 mg hard capsules"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1552,10 +1545,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

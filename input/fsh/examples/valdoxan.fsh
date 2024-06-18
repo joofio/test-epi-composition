@@ -715,7 +715,7 @@ Les Laboratoires Servier Industrie
 Frankrig </p>
 <p>Servier (Ireland) Industries Ltd 
 Gorey road 
-Arklow – Co. Wicklow 
+Arklow - Co. Wicklow 
 Irland </p>
 <p>Anpharm Przedsiebiorstwo Farmaceutyczne S.A.<br />
 ul. Annopol 6B<br />
@@ -826,8 +826,6 @@ Description: "ePI document Bundle for valdoxan Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -850,8 +848,6 @@ Description: "ePI document Bundle for valdoxan Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -872,8 +868,8 @@ Usage: #example
 
 Instance: mp79d322f9708e44619600f26fcf371238
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product valdoxan"
-Description: "valdoxan"
+Title: "Medicinal Product Valdoxan 25 mg film-coated tablets"
+Description: "Valdoxan 25 mg film-coated tablets"
 Usage: #inline
 
  
@@ -886,14 +882,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Valdoxan is indicated for the treatment of major depressive episodes in adults."
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "valdoxan"
+  * productName = "Valdoxan 25 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -913,10 +906,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

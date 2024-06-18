@@ -645,7 +645,7 @@ væskeophobning), </li>
 <li>lithiumsalte (anvendes til behandling af psykiske sygdomme). </li>
 </ul>
 <p>Betablokkere 
-Betablokkere og andre sympatikolytiske lægemidler (som feks. clonidin, guanethidin og reserpin – til 
+Betablokkere og andre sympatikolytiske lægemidler (som feks. clonidin, guanethidin og reserpin - til 
 behandling af højt blodtryk) kan endvidere svække eller helt undertrykke de første 
 advarselssymptomer på for lavt blodsukker (hypoglykæmi). Det kan endda skjule eller stoppe de første 
 tegn på, at dit blodsukker bliver for lavt. </p>
@@ -908,7 +908,7 @@ Sanofi-Aventis Μονοπρόσωπη AEBE
 Τηλ: +30 210 900 16<br />
 Österreich 
 sanofi-aventis GmbH 
-Tel: +43 1 80 185 – 0 </p>
+Tel: +43 1 80 185 - 0 </p>
 <p>España 
 sanofi-aventis, S.A. 
 Tel: +34 93 485 94<br />
@@ -1082,7 +1082,7 @@ meget (overdosering), da nålen kan blive blokeret.
 - Brug aldrig en sprøjte til at udtage insulin fra pennen. Hvis du gør, vil du få for meget 
 insulin. Skalaen på de fleste sprøjter er kun lavet til ikke-koncentreret insulin. </p>
 <p>Vigtig information </p>
-<p>Lån ikke pennen ud til andre – den må kun bruges af dig. 
+<p>Lån ikke pennen ud til andre - den må kun bruges af dig. 
  Anvend aldrig pennen, hvis den er beskadiget eller hvis du er usikker på, om den virker korrekt. 
  Udfør altid en sikkerhedstest<br />
  Medbring altid ekstra pen og nåle i tilfælde af, at de bliver væk eller går i stykker. </p>
@@ -1157,11 +1157,11 @@ Hold nålen lige, og skru den på pennen indtil den sidder fast. Må ikke oversp
 <p>Tag den indre nålekapsel af, og bortskaf den forsvarligt. </p>
 <p>Håndtering af nåle </p>
 <ul>
-<li>Vær forsigtig ved håndtering af nåle – dette er for at forhindre uheld med nålen og 
+<li>Vær forsigtig ved håndtering af nåle - dette er for at forhindre uheld med nålen og 
 krydsinfektion. </li>
 </ul>
 <p>TRIN 3: Udfør en sikkerhedstest </p>
-<p>Udfør altid en sikkerhedstest før hver injektion – dette er for at: </p>
+<p>Udfør altid en sikkerhedstest før hver injektion - dette er for at: </p>
 <ul>
 <li>
 <p>Kontrollere at pen og nål virker korrekt. </p>
@@ -1252,7 +1252,7 @@ Tryk nålen ind under huden, som vist af din læge, apoteket eller sygeplejerske
 <p>C 
 Placer tommelfingeren på dosisknappen. Tryk derefter hele vejen ind og hold. </p>
 <ul>
-<li>Tryk ikke i en vinkel – tommelfingeren kan i så fald forhindre dosisvælgeren i at dreje. </li>
+<li>Tryk ikke i en vinkel - tommelfingeren kan i så fald forhindre dosisvælgeren i at dreje. </li>
 </ul>
 <p>D<br />
 Hold dosisknappen inde, og tæl langsom til 5, når du ser "0" i dosisdisplayet. </p>
@@ -1345,7 +1345,7 @@ i stedet en ny. </p>
 <p>Beskyt din pen mod støv og snavs. </p>
 <ul>
 <li>Du kan rengøre ydersiden af pennen ved at tørre den af med en fugtig klud. Pennen må 
-aldrig skylles, vaskes eller smøres – dette kan beskadige den. </li>
+aldrig skylles, vaskes eller smøres - dette kan beskadige den. </li>
 </ul>
 <p>Bortskaffelse af pennen </p>
 <ul>
@@ -1382,8 +1382,6 @@ Description: "ePI document Bundle for toujeo Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1406,8 +1404,6 @@ Description: "ePI document Bundle for toujeo Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1428,8 +1424,8 @@ Usage: #example
 
 Instance: mp81e391948edc377dc6e96a332e758543
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product toujeo"
-Description: "toujeo"
+Title: "Medicinal Product Toujeo 300 units/ml SoloStar, solution for injection in a pre-filled pen"
+Description: "Toujeo 300 units/ml SoloStar, solution for injection in a pre-filled pen"
 Usage: #inline
 
  
@@ -1442,14 +1438,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Treatment of diabetes mellitus in adults, adolescents and children from the age of 6 years."
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "toujeo"
+  * productName = "Toujeo 300 units/ml SoloStar, solution for injection in a pre-filled pen"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1469,10 +1462,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

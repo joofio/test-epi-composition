@@ -800,109 +800,7 @@ udløbsdato
 Vinger på 
 kanylebeskyttelse
 Stempelhoved
-32
-Opbevaring af Ziextenzo fyldt injektionssprøjte
-1. Den fyldte injektionssprøjte i blisterpakningen skal opbevares i den tilhørende karton for at 
-beskytte den mod lys. 
-2. Opbevares i køleskab mellem 2 °C og 8 °C. Må ikke nedfryses.
-3. Inden brug skal De tage den fyldte injektionssprøjte ud af køleskabet og lade Ziextenzo få 
-stuetemperatur (op til maksimalt 35 °C) i cirka 15-30 minutter.
-4. Brug ikke den fyldte injektionssprøjte efter den udløbsdato, der står på kartonen eller på 
-injektionssprøjtens etiket. Hvis udløbsdatoen er overskredet, skal De returnere hele pakken 
-til apoteket.
-Injektionsstedet
-Injektionsstedet er det sted på kroppen, hvor De skal bruge 
-den fyldte injektionssprøjte.
-•
-Det anbefalede sted er oversiden af lårene. De kan 
-også bruge den nederste del af maven, men ikke 
-området 5 centimeter omkring navlen. 
-•
-Vælg et nyt sted, hver gang De giver Dem selv en 
-indsprøjtning.
-•
-Giv ikke indsprøjtningen på steder, hvor huden er 
-øm, rød, skællende eller hård eller har blå mærker. 
-Undgå at foretage indsprøjtningen på steder med ar 
-eller strækmærker.
-Hvis en omsorgsperson giver Dem indsprøjtningen, kan den 
-udvendige side af overarmene også bruges.
-Klargøring af brugsklar Ziextenzo fyldt injektionssprøjte
-1. Tag kartonen med den fyldte injektionssprøjte i blisterpakningen ud af køleskabet, og lad den 
-ligge uåbnet i cirka 15-30 minutter, så den får stuetemperatur.
-2. Når De er klar til at bruge den fyldte injektionssprøjte, skal De åbne blisterpakningen og vaske 
-hænderne grundigt med vand og sæbe.
-3. Rengør injektionsstedet med en spritserviet.
-4. Tag den fyldte injektionssprøjte ud af blisterpakningen ved at holde den på midten som vist 
-nedenfor. Tag ikke fat i stemplet. Tag ikke fat i nålehætten.
-5. Kontrollér, at den gennemsigtige kanylebeskyttelse af plast sidder over glassprøjtens cylinder. 
-Hvis den gennemsigtige kanylebeskyttelse dækker nålehætten (som vist nedenfor), er 
-injektionssprøjtens kanylebeskyttelse blevet aktiveret, og denne injektionssprøjte MÅ IKKE 
-bruges. Tag en ny injektionssprøjte. Figuren nedenfor viser en brugsklar injektionssprøjte. 
-33
-Injektionssprøjten AKTIVERET – MÅ 
-IKKE BRUGES
-I denne konfiguration er kanylebeskyttelsen 
-AKTIVERET – BRUG IKKE den fyldte 
-injektionssprøjte
-Injektionssprøjten er KLAR TIL BRUG
-I denne konfiguration er kanylebeskyttelsen IKKE 
-AKTIVERET, og den fyldte injektionssprøjte er 
-klar til brug
-6. Kontroller den fyldte injektionssprøjte. Væsken skal være klar. Farven kan variere fra farveløs 
-til svagt gullig. Der ses måske en lille luftboble i væsken. Det er normalt. Brug ikke den fyldte 
-injektionssprøjte, hvis der er andre synlige partikler og/eller synlig misfarvning. 
-7. Brug ikke injektionssprøjten, hvis den er i stykker eller aktiveret. Returner Ziextenzo fyldt 
-injektionssprøjte og pakningen til apoteket.
-Sådan bruges Ziextenzo fyldt injektionssprøjte
-1
-Tag forsigtigt nålehætten af med en lige 
-bevægelse. Kassér nålehætten. Der ses eventuelt 
-en dråbe væske for enden af kanylen. Det er 
-normalt. 
-2
-Knib forsigtigt fat om huden på injektionsstedet, 
-og indsæt nålen som vist. Tryk kanylen hele vejen 
-ind for at sikre, at alt lægemidlet indsprøjtes.
-34
-3
-Hold den fyldte injektionssprøjte som vist, og tryk 
-langsomt stemplet så langt ned, som det kan komme, 
-så stempelhovedet er helt inde mellem vingerne på 
-kanylebeskyttelsen.
-Hold injektionssprøjten i denne position i 5 sekunder, 
-mens De fortsat holder stemplet helt i bund.
-4
-Hold fortsat stemplet helt i bund, mens De forsigtigt 
-trækker kanylen ud af injektionsstedet med en lige 
-bevægelse og slipper huden.
-5
-Slip langsomt stemplet, så injektionssprøjtens 
-kanylebeskyttelse automatisk dækker den blotlagte 
-kanyle. 
-Der kan være en lille smule blod på injektionsstedet. 
-Tryk eventuelt en vattot eller et stykke gaze mod 
-injektionsstedet, og hold det der i 10 sekunder. Gnid 
-ikke på injektionsstedet. Sæt eventuelt et lille plaster 
-over injektionsstedet.
-6
-Kun for læger og sundhedspersonale 
-Handelsnavnet på det administrerede præparat skal 
-registreres tydeligt i patientjournalen. Tag etiketten på 
-den fyldte injektionssprøjte af og gem den. Drej på 
-stemplet for at få etiketten i en position, hvor den kan 
-tages af.
-35
-7
-Bortskaffelse
-Bortskaf den brugte injektionssprøjte i en kanylebøtte 
-(en beholder, der kan lukkes, og som ikke kan 
-gennembores).
-Spørg apotekspersonalet, hvordan De skal bortskaffe 
-lægemiddelrester. Af hensyn til miljøet må De ikke 
-smide lægemiddelrester i afløbet, toilettet eller 
-skraldespanden. Ikke anvendt lægemiddel samt affald 
-heraf skal bortskaffes i henhold til lokale retningslinjer.</p>         </div>"""      
+3</p>         </div>"""      
 
 
 
@@ -914,8 +812,6 @@ InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for ziextenzo Package Leaflet for language en"
 Description: "ePI document Bundle for ziextenzo Package Leaflet for language en"
 Usage: #example
-
-
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
@@ -940,8 +836,6 @@ Description: "ePI document Bundle for ziextenzo Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -962,8 +856,8 @@ Usage: #example
 
 Instance: mpd32ad2b352bb6245babc6f24db3ed9fa
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product ziextenzo"
-Description: "ziextenzo"
+Title: "Medicinal Product Ziextenzo 6 mg solution for injection in pre-filled syringe"
+Description: "Ziextenzo 6 mg solution for injection in pre-filled syringe"
 Usage: #inline
 
  
@@ -976,14 +870,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Reduction in the duration of neutropenia and the incidence of febrile neutropenia in adult patients"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "ziextenzo"
+  * productName = "Ziextenzo 6 mg solution for injection in pre-filled syringe"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1003,10 +894,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

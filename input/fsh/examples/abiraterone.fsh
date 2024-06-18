@@ -516,7 +516,7 @@ antibiotikum), antipsykotika (som anvendes til alvorlige psykiske lidelser)]. </
 </ul>
 <p>Fortæl det til din læge, hvis du tager nogen af de ovenstående lægemidler. </p>
 <p>Brug af Abiraterone Mylan sammen med mad 
-- Dette lægemiddel må ikke tages sammen med mad (se ”Sådan skal du tage Abiraterone Mylan” 
+- Dette lægemiddel må ikke tages sammen med mad (se "Sådan skal du tage Abiraterone Mylan" 
 under punkt 3). 
 - Indtagelse af Abiraterone Mylan sammen med mad kan give bivirkninger. </p>
 <p>Graviditet og amning 
@@ -551,8 +551,8 @@ sammen med mad, kan det ske, at mere af lægemidlet optages i kroppen, end det s
 det kan give bivirkninger. 
 - Tag Abiraterone Mylan-tabletterne som en enkelt dosis én gang om dagen på tom mave. 
 Abiraterone Mylan skal tages mindst 2 timer efter et måltid, og du må ikke spise noget i 
-mindst 1 time efter at have taget Abiraterone Mylan (se ”Brug af Abiraterone Mylan 
-sammen med mad” under punkt 2). 
+mindst 1 time efter at have taget Abiraterone Mylan (se "Brug af Abiraterone Mylan 
+sammen med mad" under punkt 2). 
 - Synk tabletterne med vand. 
 - Ved 500 mg: Tabletterne må ikke deles. 
 - Ved 1000 mg: Tabletter kan todeles for at lette synkning. 
@@ -643,10 +643,10 @@ Tablettens kerne: croscarmellosenatrium (E468), natriumlaurilsulfat, povidon, mi
 cellulose (E460), lactosemonohydrat, kolloid vandfri silica (E551) og magnesiumstearat (E470b). 
 Filmovertræk: poly(vinylalkohol), titandioxid (E171), macrogol (E1521) og talkum (E553b). 
 Derudover indeholder 500 mg tabletterne rød jernoxid (E172) og sort jernoxid (E172). 
-Se punkt 2 ”Abiraterone Mylan indeholder lactose og natrium". </p>
+Se punkt 2 "Abiraterone Mylan indeholder lactose og natrium". </p>
 <p>Udseende og pakningsstørrelser for Abiraterone Mylan </p>
 <p>Abiraterone Mylan 500 mg filmovertrukne tabletter er brune, ovale tabletter (19 mm lange 
-x 10 mm brede), med “500” præget på den ene side. De udleveres i blisterpakninger, der indeholder 
+x 10 mm brede), med “500" præget på den ene side. De udleveres i blisterpakninger, der indeholder 
 56, 60 tabletter og i perforerede enkeltdosis blisterpakninger, der indeholder 56 x 1, 60 x 1 tabletter.  </p>
 <p>Abiraterone Mylan 1000 mg filmovertrukne tabletter er hvide til offwhite, ovale tabletter (23 mm 
 lange x 11 mm brede) med en delekærv på den ene side og almindelig på den anden side. De udleveres 
@@ -772,8 +772,6 @@ Description: "ePI document Bundle for abiraterone Package Leaflet for language e
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -796,8 +794,6 @@ Description: "ePI document Bundle for abiraterone Package Leaflet for language d
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -818,8 +814,8 @@ Usage: #example
 
 Instance: mp11132a32e01a148874091fa148cdfa6e
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product abiraterone"
-Description: "abiraterone"
+Title: "Medicinal Product Abiraterone Mylan 500 mg film-coated tablets"
+Description: "Abiraterone Mylan 500 mg film-coated tablets"
 Usage: #inline
 
  
@@ -832,14 +828,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Abiraterone Mylan is indicated with prednisone or prednisolone for:"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "abiraterone"
+  * productName = "Abiraterone Mylan 500 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -859,10 +852,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

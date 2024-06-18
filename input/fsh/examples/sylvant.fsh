@@ -359,15 +359,15 @@ lægemiddel (angivet i punkt 6). </li>
 Kontakt lægen, apotekspersonalet eller sundhedspersonalet, før du bruger SYLVANT: </p>
 <ul>
 <li>
-<p>hvis du har en infektion for tiden – dette skyldes, at SYLVANT kan hæmme din evne til at 
+<p>hvis du har en infektion for tiden - dette skyldes, at SYLVANT kan hæmme din evne til at 
 mærke eller bekæmpe infektioner, hvilket kan forværre infektioner. </p>
 </li>
 <li>
-<p>hvis du står for at skulle vaccineres eller kan få behov for vaccination i en nær fremtid – dette 
+<p>hvis du står for at skulle vaccineres eller kan få behov for vaccination i en nær fremtid - dette 
 skyldes, at nogle vacciner ikke bør gives sammen med SYLVANT. </p>
 </li>
 <li>
-<p>hvis du har et højt indhold af fedtstoffer i blodet (hypertriglyceridæmi) – dette skyldes, at 
+<p>hvis du har et højt indhold af fedtstoffer i blodet (hypertriglyceridæmi) - dette skyldes, at 
 SYLVANT kan øge dette niveau. Din læge kan give dig medicin til afhjælpning af dette. </p>
 </li>
 <li>
@@ -488,7 +488,7 @@ Følgende bivirkninger kan forekomme med dette lægemiddel. </p>
 nødt til at stoppe behandlingen: 
 Almindelige (kan berøre op til 1 ud af 10): </p>
 <ul>
-<li>alvorlig allergisk reaktion – symptomerne kan omfatte besvær med at trække vejret, trykken for 
+<li>alvorlig allergisk reaktion - symptomerne kan omfatte besvær med at trække vejret, trykken for 
 brystet, hvæsende åndedræt, alvorlig svimmelhed eller omtågethed, hævelser i læberne eller 
 hududslæt. </li>
 </ul>
@@ -571,7 +571,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen efter EXP. Udløbsdatoen er den 
 sidste dag i den nævnte måned. </p>
-<p>Opbevares i køleskab (2°C – 8°C). Må ikke nedfryses. Opbevares i den originale yderpakning for at 
+<p>Opbevares i køleskab (2°C - 8°C). Må ikke nedfryses. Opbevares i den originale yderpakning for at 
 beskytte mod lys. </p>
 <p>Må ikke anvendes, hvis opløsningen er uigennemsigtig eller indeholder fremmedlegemer, og/eller hvis 
 opløsningen fremstår misfarvet efter tilberedning. </p>         </div>"""      
@@ -680,8 +680,6 @@ Description: "ePI document Bundle for sylvant Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -704,8 +702,6 @@ Description: "ePI document Bundle for sylvant Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -726,8 +722,8 @@ Usage: #example
 
 Instance: mp9a812fa3e42e6b177fc77f392e7869b4
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product sylvant"
-Description: "sylvant"
+Title: "Medicinal Product SYLVANT 100 mg powder for concentrate for solution for infusion"
+Description: "SYLVANT 100 mg powder for concentrate for solution for infusion"
 Usage: #inline
 
  
@@ -740,14 +736,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "SYLVANT is indicated for the treatment of adult patients with multicentric Castleman’s disease"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "sylvant"
+  * productName = "SYLVANT 100 mg powder for concentrate for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -767,10 +760,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

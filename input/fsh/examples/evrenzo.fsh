@@ -827,8 +827,6 @@ Description: "ePI document Bundle for evrenzo Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -851,8 +849,6 @@ Description: "ePI document Bundle for evrenzo Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -873,8 +869,8 @@ Usage: #example
 
 Instance: mp83e919009d254ffa32b4c1748bcfba15
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product evrenzo"
-Description: "evrenzo"
+Title: "Medicinal Product Evrenzo 20 mg film-coated tablets"
+Description: "Evrenzo 20 mg film-coated tablets"
 Usage: #inline
 
  
@@ -887,14 +883,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Evrenzo is indicated for treatment of adult patients with symptomatic anaemia associated with chronic"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "evrenzo"
+  * productName = "Evrenzo 20 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -914,10 +907,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

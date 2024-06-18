@@ -397,10 +397,10 @@ Usage: #inline
 <p>Anvendelse </p>
 <p>Amvuttra anvendes til at behandle en sygdom kaldet hereditær ATTR (hATTR) amyloidose. Det er en 
 arvelig sygdom. hATTR amyloidose er forårsaget af problemer med et protein i kroppen, som kaldes 
-“transthyretin” (TTR). Proteinet fremstilles primært i leveren og bærer vitamin A og andre stoffer 
+“transthyretin" (TTR). Proteinet fremstilles primært i leveren og bærer vitamin A og andre stoffer 
 rundt i kroppen. </p>
 <p>Hos personer med denne sygdom klumper små fibre af TTR-proteiner sig sammen og producerer 
-aflejringer, som kaldes “amyloid”. Amyloid kan ophobe sig omkring eller i nerverne, hjertet og andre 
+aflejringer, som kaldes “amyloid". Amyloid kan ophobe sig omkring eller i nerverne, hjertet og andre 
 steder i kroppen og forhindrer dem i at fungere normalt. Dette forårsager symptomerne på 
 sygdommen. </p>
 <p>Virkning </p>
@@ -435,8 +435,8 @@ du tale med lægen. Lægen kan henvise dig til kontrol hos en øjenlæge, hvis d
 </ul>
 <p>Både for høje og for lave niveauer af vitamin A kan have en skadelig virkning på udviklingen af det 
 ufødte barn. Kvinder i den fødedygtige alder skal derfor udelukke graviditet inden de starter 
-behandlingen med Amvuttra og bruge sikker prævention (se nedenstående punkt ”Graviditet, amning 
-og prævention”). </p>
+behandlingen med Amvuttra og bruge sikker prævention (se nedenstående punkt "Graviditet, amning 
+og prævention"). </p>
 <ul>
 <li>
 <p>Vitamin A-niveauer kan være lave i mere end 12 måneder efter den sidste dosis Amvuttra. </p>
@@ -467,7 +467,7 @@ du spørge din læge eller apotekspersonalet til råds, inden du begynder tage d
 <p>Du bør ikke bruge Amvuttra, hvis du er gravid. </p>
 <p>Kvinder i den fødedygtige alder </p>
 <p>Amvuttra nedsætter mængden af vitamin A i blodet, og vitamin A er vigtigt for et ufødt barns normale 
-udvikling (se ”Advarsler og forsigtighedsregler” ovenfor).  </p>
+udvikling (se "Advarsler og forsigtighedsregler" ovenfor).  </p>
 <ul>
 <li>
 <p>Hvis du er kvinde og kan blive gravid, bør du anvende sikker prævention, mens du behandles 
@@ -581,7 +581,7 @@ opløsning. </p>
 <li>
 <p>Øvrige indholdsstoffer: natriumdihydrogenphosphatdihydrat, dinatriumphosphatdihydrat, 
 natriumchlorid, og vand til injektionsvæsker. Natriumhydroxid og phosphorsyre kan anvendes 
-til at justere pH (se ”Amvuttra indeholder natrium” i punkt 2). </p>
+til at justere pH (se "Amvuttra indeholder natrium" i punkt 2). </p>
 </li>
 </ul>
 <p>Udseende og pakningsstørrelser </p>
@@ -807,8 +807,6 @@ Description: "ePI document Bundle for amvuttra Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -831,8 +829,6 @@ Description: "ePI document Bundle for amvuttra Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -853,8 +849,8 @@ Usage: #example
 
 Instance: mp390f2bf9e603dd85f443eae025f147b6
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product amvuttra"
-Description: "amvuttra"
+Title: "Medicinal Product Amvuttra 25 mg solution for injection in pre-filled syringe"
+Description: "Amvuttra 25 mg solution for injection in pre-filled syringe"
 Usage: #inline
 
  
@@ -867,14 +863,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Amvuttra is indicated for the treatment of hereditary transthyretin-mediated amyloidosis (hATTR"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "amvuttra"
+  * productName = "Amvuttra 25 mg solution for injection in pre-filled syringe"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -894,10 +887,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

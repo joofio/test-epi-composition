@@ -1314,8 +1314,6 @@ Description: "ePI document Bundle for duoresp Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1338,8 +1336,6 @@ Description: "ePI document Bundle for duoresp Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1360,8 +1356,8 @@ Usage: #example
 
 Instance: mp448b9ada9b9514edd6724425bc5c528e
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product duoresp"
-Description: "duoresp"
+Title: "Medicinal Product DuoResp Spiromax 160 micrograms / 4.5 micrograms inhalation powder"
+Description: "DuoResp Spiromax 160 micrograms / 4.5 micrograms inhalation powder"
 Usage: #inline
 
  
@@ -1374,14 +1370,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Asthma"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "duoresp"
+  * productName = "DuoResp Spiromax 160 micrograms / 4.5 micrograms inhalation powder"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1401,10 +1394,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

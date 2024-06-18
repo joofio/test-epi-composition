@@ -1029,8 +1029,6 @@ Description: "ePI document Bundle for kevzara Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1053,8 +1051,6 @@ Description: "ePI document Bundle for kevzara Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1075,8 +1071,8 @@ Usage: #example
 
 Instance: mp9731e4b0c59c667008c1be9f642fafee
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product kevzara"
-Description: "kevzara"
+Title: "Medicinal Product Kevzara 150 mg solution for injection in pre-filled syringe"
+Description: "Kevzara 150 mg solution for injection in pre-filled syringe"
 Usage: #inline
 
  
@@ -1089,14 +1085,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Kevzara in combination with methotrexate (MTX) is indicated for the treatment of moderately to"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "kevzara"
+  * productName = "Kevzara 150 mg solution for injection in pre-filled syringe"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1116,10 +1109,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

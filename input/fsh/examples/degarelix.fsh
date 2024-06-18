@@ -625,8 +625,6 @@ Description: "ePI document Bundle for degarelix Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -649,8 +647,6 @@ Description: "ePI document Bundle for degarelix Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -671,8 +667,8 @@ Usage: #example
 
 Instance: mpf812f9eb1d2ca77fff87e615574ce4dc
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product degarelix"
-Description: "degarelix"
+Title: "Medicinal Product Degarelix Accord 80 mg powder and solvent for solution for injection"
+Description: "Degarelix Accord 80 mg powder and solvent for solution for injection"
 Usage: #inline
 
  
@@ -685,14 +681,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Degarelix Accord is a gonadotrophin releasing hormone (GnRH) antagonist indicated:"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "degarelix"
+  * productName = "Degarelix Accord 80 mg powder and solvent for solution for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -712,10 +705,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

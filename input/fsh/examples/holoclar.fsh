@@ -631,8 +631,6 @@ Description: "ePI document Bundle for holoclar Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -655,8 +653,6 @@ Description: "ePI document Bundle for holoclar Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -677,8 +673,8 @@ Usage: #example
 
 Instance: mp9435ec03e40e267b4ae7d35097656572
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product holoclar"
-Description: "holoclar"
+Title: "Medicinal Product Holoclar 79,000 - 316,000 cells/cm2 living tissue equivalent"
+Description: "Holoclar 79,000 - 316,000 cells/cm2 living tissue equivalent"
 Usage: #inline
 
  
@@ -691,14 +687,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Treatment of adult patients with moderate to severe limbal stem cell deficiency (defined by the"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "holoclar"
+  * productName = "Holoclar 79,000 - 316,000 cells/cm2 living tissue equivalent"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -718,10 +711,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

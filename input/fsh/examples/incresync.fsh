@@ -965,8 +965,6 @@ Description: "ePI document Bundle for incresync Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -989,8 +987,6 @@ Description: "ePI document Bundle for incresync Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1011,8 +1007,8 @@ Usage: #example
 
 Instance: mp9cd7665100fd3b81b318cbcb65d45fef
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product incresync"
-Description: "incresync"
+Title: "Medicinal Product Incresync 12.5 mg/30 mg film-coated tablets"
+Description: "Incresync 12.5 mg/30 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1025,14 +1021,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Incresync is indicated as a second or third line treatment in adult patients aged 18 years and older with"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "incresync"
+  * productName = "Incresync 12.5 mg/30 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1052,10 +1045,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

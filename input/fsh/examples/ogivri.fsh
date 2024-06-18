@@ -1262,8 +1262,6 @@ Description: "ePI document Bundle for ogivri Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1286,8 +1284,6 @@ Description: "ePI document Bundle for ogivri Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1308,8 +1304,8 @@ Usage: #example
 
 Instance: mp3063ae54c8b95c21a8b236c970f9eb21
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product ogivri"
-Description: "ogivri"
+Title: "Medicinal Product Ogivri 150 mg powder for concentrate for solution for infusion"
+Description: "Ogivri 150 mg powder for concentrate for solution for infusion"
 Usage: #inline
 
  
@@ -1322,14 +1318,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Breast cancer"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "ogivri"
+  * productName = "Ogivri 150 mg powder for concentrate for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1349,10 +1342,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

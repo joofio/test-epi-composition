@@ -864,8 +864,6 @@ Description: "ePI document Bundle for methylthioninium Package Leaflet for langu
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -888,8 +886,6 @@ Description: "ePI document Bundle for methylthioninium Package Leaflet for langu
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -910,8 +906,8 @@ Usage: #example
 
 Instance: mpf7bd65adcf41880a5b8668a52603da99
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product methylthioninium"
-Description: "methylthioninium"
+Title: "Medicinal Product Methylthioninium chloride Proveblue 5 mg/ml solution for injection"
+Description: "Methylthioninium chloride Proveblue 5 mg/ml solution for injection"
 Usage: #inline
 
  
@@ -924,14 +920,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Acute symptomatic treatment of medicinal and chemical products-induced methaemoglobinaemia."
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "methylthioninium"
+  * productName = "Methylthioninium chloride Proveblue 5 mg/ml solution for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -951,10 +944,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -811,12 +811,12 @@ lysglimt, sløret syn eller lysfølsomhed. Din læge vil muligvis stoppe behandl
 og henvise dig til en øjenlæge. </p>
 </li>
 <li>
-<p>forhøjede niveauer af kreatinkinase i blodet (set i test) – kan være tegn på muskelskader, for 
+<p>forhøjede niveauer af kreatinkinase i blodet (set i test) - kan være tegn på muskelskader, for 
 eksempel i hjertemusklen. Fortæl det til lægen, hvis du har uforklarlige muskelsmerter eller 
 ømme eller svage muskler. </p>
 </li>
 <li>
-<p>forhøjede niveauer af amylase eller lipase i blodet (set i test) – kan være tegn på betændelse i 
+<p>forhøjede niveauer af amylase eller lipase i blodet (set i test) - kan være tegn på betændelse i 
 bugspytkirtlen 
 Fortæl det til lægen, hvis du har smerter i den øverste del af maven, herunder mavesmerter, der 
 bliver værre, når du spiser, og eventuelt stråler om i ryggen, eller hvis du taber dig eller har 
@@ -824,7 +824,7 @@ kvalme.  </p>
 </li>
 <li>
 <p>forhøjede niveauer af leverenzymer i blodet (aspartataminotransferase, 
-alaninaminotransferase) (set i test) – kan være tegn på levercelleskader. Fortæl det til lægen, 
+alaninaminotransferase) (set i test) - kan være tegn på levercelleskader. Fortæl det til lægen, 
 hvis du får smerter i højre side af maven, hvis din hud eller det hvide i dine øjne bliver 
 gulfarvet, eller hvis din urin er mørk. </p>
 </li>
@@ -850,7 +850,7 @@ du bliver svimmel eller ør eller besvimer. </p>
 <li>
 <p>følsomhed over for sollys 
 Fortæl det til lægen, hvis du udvikler hudreaktioner. 
-Se også punkt 2, “Advarsler og forsigtighedsregler”. </p>
+Se også punkt 2, “Advarsler og forsigtighedsregler". </p>
 </li>
 </ul>
 <p>Ikke almindelige (kan forekomme hos op til 1 ud af 100 personer) </p>
@@ -935,7 +935,7 @@ svækkelse eller smerter i hænder og fødder (perifer neuropati) </p>
 <p>betændelse i munden og på læberne (stomatit) </p>
 </li>
 <li>
-<p>forhøjede niveauer af enzymet alkalisk fosfatase i blodprøver – kan være tegn på organsvigt 
+<p>forhøjede niveauer af enzymet alkalisk fosfatase i blodprøver - kan være tegn på organsvigt 
 eller -skade </p>
 </li>
 <li>
@@ -948,7 +948,7 @@ eller -skade </p>
 <p>led- eller muskelsmerter (inklusive muskelkramper) </p>
 </li>
 <li>
-<p>forhøjet niveau af kreatinin i blodprøver – kan være tegn på nedsat nyrefunktion  </p>
+<p>forhøjet niveau af kreatinin i blodprøver - kan være tegn på nedsat nyrefunktion  </p>
 </li>
 <li>
 <p>træthed </p>
@@ -993,7 +993,7 @@ eller -skade </p>
 <p>luftafgang fra tarmen </p>
 </li>
 <li>
-<p>forhøjede niveauer af laktatdehydrogenase i blodprøver – kan være tegn på nedbrydning af væv </p>
+<p>forhøjede niveauer af laktatdehydrogenase i blodprøver - kan være tegn på nedbrydning af væv </p>
 </li>
 <li>
 <p>forhøjet niveau af bilirubin i blodprøver </p>
@@ -1037,7 +1037,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på enten etiketten på beholderen eller på 
-blisterkortet og på pakningen efter ”EXP”. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+blisterkortet og på pakningen efter "EXP". Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
 ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
@@ -1059,8 +1059,8 @@ En 180 mg filmovertrukken tablet indeholder 180 mg brigatinib. </p>
 <li>
 <p>Øvrige indholdsstoffer: lactosemonohydrat, mikrokrystallinsk cellulose, 
 natriumstivelsesglykolat (type A), kolloid hydrofob silica, magnesiumstearat, talkum, macrogol, 
-polyvinylalkohol og titandioxid (se også afsnit 2 ”Alunbrig indeholder lactose” og ”Alunbrig 
-indeholder natrium”). </p>
+polyvinylalkohol og titandioxid (se også afsnit 2 "Alunbrig indeholder lactose" og "Alunbrig 
+indeholder natrium"). </p>
 </li>
 </ul>
 <p>Udseende og pakningsstørrelser </p>
@@ -1072,7 +1072,7 @@ indeholder natrium”). </p>
 <p>En 30 mg tablet indeholder 30 mg brigatinib.  </p>
 </li>
 <li>
-<p>Den filmovertrukne tablet er ca. 7 mm i diameter og har “U3” præget på den ene side og intet på 
+<p>Den filmovertrukne tablet er ca. 7 mm i diameter og har “U3" præget på den ene side og intet på 
 den anden side. </p>
 </li>
 </ul>
@@ -1082,7 +1082,7 @@ den anden side. </p>
 <p>En 90 mg tablet indeholder 90 mg brigatinib. </p>
 </li>
 <li>
-<p>Den filmovertrukne tablet er ca. 15 mm lang og har “U7” præget på den ene side og intet på den 
+<p>Den filmovertrukne tablet er ca. 15 mm lang og har “U7" præget på den ene side og intet på den 
 anden side. </p>
 </li>
 </ul>
@@ -1092,7 +1092,7 @@ anden side. </p>
 <p>En 180 mg tablet indeholder 180 mg brigatinib. </p>
 </li>
 <li>
-<p>Den filmovertrukne tablet er ca. 19 mm lang og har “U13” præget på den ene side og intet på 
+<p>Den filmovertrukne tablet er ca. 19 mm lang og har “U13" præget på den ene side og intet på 
 den anden side. </p>
 </li>
 </ul>
@@ -1260,8 +1260,6 @@ Description: "ePI document Bundle for alunbrig Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1284,8 +1282,6 @@ Description: "ePI document Bundle for alunbrig Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1306,8 +1302,8 @@ Usage: #example
 
 Instance: mp7b67c4d38704991f22e7013a4909f813
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product alunbrig"
-Description: "alunbrig"
+Title: "Medicinal Product Alunbrig 30 mg film-coated tablets"
+Description: "Alunbrig 30 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1320,14 +1316,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Alunbrig is indicated as monotherapy for the treatment of adult patients with anaplastic lymphoma"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "alunbrig"
+  * productName = "Alunbrig 30 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1347,10 +1340,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

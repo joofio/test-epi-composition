@@ -566,7 +566,7 @@ af dette lægemiddel. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken efter EXP. Udløbsdatoen er den sidste 
 dag i den nævnte måned. </p>
-<p>Opbevares i køleskab (2 °C – 8 °C). 
+<p>Opbevares i køleskab (2 °C - 8 °C). 
 Opbevares i den originale yderpakning for at beskytte mod lys. 
 Må ikke nedfryses. Frysning ødelægger vaccinen. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
@@ -713,10 +713,10 @@ udseende. </p>
 2. Ryst sprøjten ved at vende den på hovedet og tilbage igen. 
 3. Gentag omhyggeligt denne handling i mindst 15 sekunder. 
 4. Inspicer vaccinen igen: 
-a. Hvis vaccinen fremstår som en ensartet, uklar hvid suspension, er den klar til brug – 
+a. Hvis vaccinen fremstår som en ensartet, uklar hvid suspension, er den klar til brug - 
 udseendet af vaccinen må ikke være klar. 
-b. Hvis vaccinen stadig ikke fremstår som en ensartet, uklar hvid suspension – vend den 
-på hovedet og tilbage igen i yderligere mindst 15 sekunder – inspicer derefter igen. </p>
+b. Hvis vaccinen stadig ikke fremstår som en ensartet, uklar hvid suspension - vend den 
+på hovedet og tilbage igen i yderligere mindst 15 sekunder - inspicer derefter igen. </p>
 <p>Vaccinen skal inspiceres visuelt for fremmede partikler og/eller ændringer i det fysiske udseende før 
 administration. Hvis noget af dette observeres må vaccinen ikke administreres. </p>
 <p>Instruktioner til den fyldte injektionssprøjte efter resuspension </p>
@@ -748,8 +748,6 @@ Description: "ePI document Bundle for twinrix Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -772,8 +770,6 @@ Description: "ePI document Bundle for twinrix Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -794,8 +790,8 @@ Usage: #example
 
 Instance: mpc3bcf9603926d754cd4924142c795340
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product twinrix"
-Description: "twinrix"
+Title: "Medicinal Product Twinrix Paediatric, suspension for injection in pre-filled syringe"
+Description: "Twinrix Paediatric, suspension for injection in pre-filled syringe"
 Usage: #inline
 
  
@@ -808,14 +804,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Twinrix Paediatric is indicated for use in non immune infants, children and adolescents from 1 year up"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "twinrix"
+  * productName = "Twinrix Paediatric, suspension for injection in pre-filled syringe"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -835,10 +828,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

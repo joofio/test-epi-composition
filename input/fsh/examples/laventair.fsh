@@ -926,8 +926,6 @@ Description: "ePI document Bundle for laventair Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -950,8 +948,6 @@ Description: "ePI document Bundle for laventair Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -972,8 +968,8 @@ Usage: #example
 
 Instance: mp7d204d7b4b6b9533290dd865f462d707
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product laventair"
-Description: "laventair"
+Title: "Medicinal Product LAVENTAIR ELLIPTA 55 micrograms/22 micrograms inhalation powder, pre-dispensed"
+Description: "LAVENTAIR ELLIPTA 55 micrograms/22 micrograms inhalation powder, pre-dispensed"
 Usage: #inline
 
  
@@ -986,14 +982,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "LAVENTAIR ELLIPTA is indicated as a maintenance bronchodilator treatment to relieve symptoms in adult"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "laventair"
+  * productName = "LAVENTAIR ELLIPTA 55 micrograms/22 micrograms inhalation powder, pre-dispensed"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1013,10 +1006,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

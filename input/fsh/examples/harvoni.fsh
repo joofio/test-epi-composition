@@ -678,14 +678,14 @@ anbefale hvordan og hvornår du tager det lægemiddel. </p>
 <p>Virkningen af Harvoni under graviditet er ukendt. Hvis du er gravid, har mistanke om, at du er gravid, 
 eller planlægger at blive gravid, skal du spørge din læge til råds, før du tager dette lægemiddel. </p>
 <p>En graviditet skal undgås, hvis Harvoni tages sammen med ribavirin. Det er meget vigtigt, at du meget 
-grundigt læser punktet ”Graviditet” i indlægssedlen for ribavirin. Ribavirin kan være meget skadeligt 
+grundigt læser punktet "Graviditet" i indlægssedlen for ribavirin. Ribavirin kan være meget skadeligt 
 for det ufødte barn. Derfor skal der tages særlige forholdsregler ved seksuel aktivitet, hvis der er 
 mulighed for, at der kan opstå graviditet. </p>
 <ul>
 <li>
 <p>Du eller din partner skal anvende en sikker svangerskabsforebyggende metode i løbet af 
 behandlingen med Harvoni sammen med ribavirin og i nogen tid derefter. Det er meget vigtigt, 
-at du læser punktet ”Graviditet” meget grundigt i indlægssedlen for ribavirin. Spørg din læge 
+at du læser punktet "Graviditet" meget grundigt i indlægssedlen for ribavirin. Spørg din læge 
 om en effektiv svangerskabsforebyggende metode, som er egnet til dig. </p>
 </li>
 <li>
@@ -707,7 +707,7 @@ visse sukkerarter. </li>
 <p>Harvoni 90 mg/400 mg filmovertrukne tabletter indeholder sunset yellow FCF (E110), som kan 
 forårsage allergiske reaktioner  </p>
 <ul>
-<li>Fortæl det til lægen, hvis du er overfølsom over for sunset yellow FCF, også kaldet ”E110”, 
+<li>Fortæl det til lægen, hvis du er overfølsom over for sunset yellow FCF, også kaldet "E110", 
 før du tager denne medicin. </li>
 </ul>
 <p>Harvoni indeholder natrium </p>
@@ -820,7 +820,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
   * code.text = "5. How to store harvoni"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
-<p>Brug ikke lægemidlet efter den udløbsdato, der står på tabletbeholderen og kartonen efter ”EXP”. 
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på tabletbeholderen og kartonen efter "EXP". 
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
@@ -850,9 +850,9 @@ Polyvinylalkohol, titandioxid, macrogol, talcum, og kun for 90 mg/400 mg tablett
 yellow FCF (E110) </p>
 <p>Udseende og pakningsstørrelser </p>
 <p>Harvoni 90 mg/400 mg filmovertrukne tabletter er orange, diamantformede tabletter, præget med 
-”GSI” på den ene side og med ”7985” på den anden side. Tabletten er ca. 19 mm lang og 10 mm bred. </p>
-<p>Harvoni 45 mg/200 mg filmovertrukne tabletter er hvide, kapselformede tabletter, præget med ”GSI” 
-på den ene side og med ”HRV” på den anden side. Tabletten er ca. 14 mm lang og 7 mm bred. </p>
+"GSI" på den ene side og med "7985" på den anden side. Tabletten er ca. 19 mm lang og 10 mm bred. </p>
+<p>Harvoni 45 mg/200 mg filmovertrukne tabletter er hvide, kapselformede tabletter, præget med "GSI" 
+på den ene side og med "HRV" på den anden side. Tabletten er ca. 14 mm lang og 7 mm bred. </p>
 <p>Hver tabletbeholder indeholder et tørremiddel af silicagel, der skal opbevares i beholderen for at 
 hjælpe med at beskytte dine tabletter. Tørremidlet med silicagel findes i en separat lille pose eller en 
 beholder, og må ikke sluges. 
@@ -998,8 +998,6 @@ Description: "ePI document Bundle for harvoni Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1022,8 +1020,6 @@ Description: "ePI document Bundle for harvoni Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1044,8 +1040,8 @@ Usage: #example
 
 Instance: mp52f798a2a01bd37d07b0ffeba290b5e0
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product harvoni"
-Description: "harvoni"
+Title: "Medicinal Product Harvoni 90 mg/400 mg film-coated tablets"
+Description: "Harvoni 90 mg/400 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1058,14 +1054,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Harvoni is indicated for the treatment of chronic hepatitis C (CHC) in adult and paediatric patients"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "harvoni"
+  * productName = "Harvoni 90 mg/400 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1085,10 +1078,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

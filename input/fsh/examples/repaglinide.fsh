@@ -593,8 +593,6 @@ Description: "ePI document Bundle for repaglinide Package Leaflet for language e
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -617,8 +615,6 @@ Description: "ePI document Bundle for repaglinide Package Leaflet for language d
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -639,8 +635,8 @@ Usage: #example
 
 Instance: mpee6aef82d41445c7c0958abae70ec0df
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product repaglinide"
-Description: "repaglinide"
+Title: "Medicinal Product Repaglinide Krka 0.5 mg tablets"
+Description: "Repaglinide Krka 0.5 mg tablets"
 Usage: #inline
 
  
@@ -653,14 +649,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Repaglinide is indicated in adults with type 2 diabetes mellitus whose hyperglycaemia can no longer"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "repaglinide"
+  * productName = "Repaglinide Krka 0.5 mg tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -680,10 +673,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -815,7 +815,7 @@ og æsken. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 Opbevares i køleskab (2 °C - 8 °C). De uåbnede hætteglas kan også opbevares uden for køleskab, men 
 under 25 °C, i op til 28 dage. </p>
 <p>Brug lægemidlet umiddelbart efter klargøring. Hvis den klargjorte opløsning ikke anvendes straks, 
-skal den opbevares ved 2 °C – 8 °C og kan så anvendes inden for 8 timer. Der må ikke klargøres mere 
+skal den opbevares ved 2 °C - 8 °C og kan så anvendes inden for 8 timer. Der må ikke klargøres mere 
 end én dosis ad gangen. </p>
 <p>Brug ikke lægemidlet, hvis du bemærker, at pakken har været åbnet. </p>
 <p>Brug ikke lægemidlet, hvis det har været opbevaret uden for køleskab i mere end 28 dage. </p>
@@ -974,8 +974,6 @@ Description: "ePI document Bundle for cayston Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -998,8 +996,6 @@ Description: "ePI document Bundle for cayston Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1020,8 +1016,8 @@ Usage: #example
 
 Instance: mpd4f93e1067cc6b6405636501aeff5a7c
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product cayston"
-Description: "cayston"
+Title: "Medicinal Product Cayston 75 mg powder and solvent for nebuliser solution."
+Description: "Cayston 75 mg powder and solvent for nebuliser solution."
 Usage: #inline
 
  
@@ -1034,14 +1030,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Cayston is indicated for the suppressive therapy of chronic pulmonary infections due to Pseudomonas"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "cayston"
+  * productName = "Cayston 75 mg powder and solvent for nebuliser solution."
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1061,10 +1054,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

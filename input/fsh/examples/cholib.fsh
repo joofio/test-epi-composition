@@ -899,19 +899,19 @@ en bestemt årsagssammenhæng) i blodet </p>
 <p>udmattethed (asteni) </p>
 </li>
 <li>
-<p>forhøjet urinstof - (produceres af nyrerne) – vist ved prøver </p>
+<p>forhøjet urinstof - (produceres af nyrerne) - vist ved prøver </p>
 </li>
 <li>
-<p>forhøjet gamma-glutamyltransferase – (produceres af nyrerne) – vist ved prøver </p>
+<p>forhøjet gamma-glutamyltransferase - (produceres af nyrerne) - vist ved prøver </p>
 </li>
 <li>
-<p>forhøjet alkalisk fosfatase – (produceres af galdesystemet) – vist ved prøver </p>
+<p>forhøjet alkalisk fosfatase - (produceres af galdesystemet) - vist ved prøver </p>
 </li>
 <li>
-<p>forhøjet kreatinfosfokinase – (produceres af nyrerne) – vist ved prøver </p>
+<p>forhøjet kreatinfosfokinase - (produceres af nyrerne) - vist ved prøver </p>
 </li>
 <li>
-<p>et fald i hæmoglobin (der transporterer ilten rundt i blodet) og hvide blodlegemer – vist ved 
+<p>et fald i hæmoglobin (der transporterer ilten rundt i blodet) og hvide blodlegemer - vist ved 
 prøver </p>
 </li>
 <li>
@@ -1153,8 +1153,6 @@ Description: "ePI document Bundle for cholib Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1177,8 +1175,6 @@ Description: "ePI document Bundle for cholib Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1199,8 +1195,8 @@ Usage: #example
 
 Instance: mp63e581259f99b3ad3581a50239777ba2
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product cholib"
-Description: "cholib"
+Title: "Medicinal Product Cholib 145 mg/20 mg film-coated tablets"
+Description: "Cholib 145 mg/20 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1213,14 +1209,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Cholib is indicated as adjunctive therapy to diet and exercise in high cardiovascular risk adult patients"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "cholib"
+  * productName = "Cholib 145 mg/20 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1240,10 +1233,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

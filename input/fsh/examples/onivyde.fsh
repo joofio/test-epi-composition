@@ -1117,8 +1117,6 @@ Description: "ePI document Bundle for onivyde Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1141,8 +1139,6 @@ Description: "ePI document Bundle for onivyde Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1163,8 +1159,8 @@ Usage: #example
 
 Instance: mpc423173deb9255bac28552e97801a6f0
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product onivyde"
-Description: "onivyde"
+Title: "Medicinal Product ONIVYDE pegylated liposomal 4.3 mg/ml concentrate for dispersion for infusion"
+Description: "ONIVYDE pegylated liposomal 4.3 mg/ml concentrate for dispersion for infusion"
 Usage: #inline
 
  
@@ -1177,14 +1173,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Treatment of metastatic adenocarcinoma of the pancreas, in combination with 5-fluorouracil (5-FU)"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "onivyde"
+  * productName = "ONIVYDE pegylated liposomal 4.3 mg/ml concentrate for dispersion for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1204,10 +1197,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -1171,8 +1171,6 @@ Description: "ePI document Bundle for hizentra Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1195,8 +1193,6 @@ Description: "ePI document Bundle for hizentra Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1217,8 +1213,8 @@ Usage: #example
 
 Instance: mp5d6f677fa9eaa34be2202ffe566f8e54
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product hizentra"
-Description: "hizentra"
+Title: "Medicinal Product Hizentra 200 mg/ml solution for subcutaneous injection"
+Description: "Hizentra 200 mg/ml solution for subcutaneous injection"
 Usage: #inline
 
  
@@ -1231,14 +1227,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Replacement therapy in adults, children and adolescents (0-18 years) in:"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "hizentra"
+  * productName = "Hizentra 200 mg/ml solution for subcutaneous injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1258,10 +1251,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

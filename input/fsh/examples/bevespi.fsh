@@ -744,7 +744,7 @@ Dosisindikatorvinduet viser hvor mange doser lægemiddel, du har tilbage. En dos
 frigives hver gang, du trykker midt på dosisindikatoren.
 Før du bruger Bevespi Aerosphere for første gang
 Før du bruger Bevespi Aerosphere for første gang, skal du sørge for, at pilen på dosisindikatoren peger 
-til højre for ”120” indåndingsmærket i dosisindikatorvinduet (se figur 1).
+til højre for "120" indåndingsmærket i dosisindikatorvinduet (se figur 1).
 
 Pilen peger på 120 efter 10 doser er frigivet fra Bevespi Aerosphere. Det betyder, at der er 
 120 doser tilbage i trykbeholderen (se figur 2a).
@@ -807,7 +807,7 @@ Figur 5
 Gentag klargøringen 3 gange mere (se figur 4 og figur 5). Omryst inhalatoren omhyggeligt 
 før hvert klargøringspust.
 
-Efter 4 gange klargøring bør dosisindikatoren pege direkte på ”120”, og din inhalator er nu klar 
+Efter 4 gange klargøring bør dosisindikatoren pege direkte på "120", og din inhalator er nu klar 
 til brug.
 Sådan bruger du Bevespi Aerosphere inhalator:
 Trin 1: Fjern hætten fra mundstykket (se figur 6).
@@ -882,8 +882,6 @@ Description: "ePI document Bundle for bevespi Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -906,8 +904,6 @@ Description: "ePI document Bundle for bevespi Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -928,8 +924,8 @@ Usage: #example
 
 Instance: mp66d0f8336ebe13789d32bc377e6bfe5e
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product bevespi"
-Description: "bevespi"
+Title: "Medicinal Product Bevespi Aerosphere 7.2 micrograms/5 micrograms pressurised inhalation, suspension"
+Description: "Bevespi Aerosphere 7.2 micrograms/5 micrograms pressurised inhalation, suspension"
 Usage: #inline
 
  
@@ -942,14 +938,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Bevespi Aerosphere is indicated as a maintenance bronchodilator treatment to relieve symptoms in"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "bevespi"
+  * productName = "Bevespi Aerosphere 7.2 micrograms/5 micrograms pressurised inhalation, suspension"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -969,10 +962,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

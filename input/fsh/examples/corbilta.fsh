@@ -575,7 +575,7 @@ har en svulst i binyrerne
 tager visse lægemidler mod depression (kombinationer af selektive MAO-A og MAO-B-hæmmere 
 eller ikke-selektive MAO-hæmmere)
 -
-tidligere har haft malignt neuroleptikasyndrom (MNS – dette er en sjælden reaktion overfor 
+tidligere har haft malignt neuroleptikasyndrom (MNS - dette er en sjælden reaktion overfor 
 lægemidler, som bruges til behandling af alvorlige mentale lidelser)
 -
 har haft ikke-traumatisk rabdomyolyse (en sjælden muskellidelse)
@@ -617,7 +617,7 @@ tilfældet, skal du kontakte din læge øjeblikkeligt.
 føler dig deprimeret, har selvmordstanker eller oplever andre unormale forandringer i din adfærd.
 -
 pludselig falder i søvn, eller hvis du føler dig meget søvnig. Hvis det sker, må du ikke køre bil 
-eller betjene maskiner (se under afsnittet ”Trafik- og arbejdssikkerhed”).
+eller betjene maskiner (se under afsnittet "Trafik- og arbejdssikkerhed").
 -
 bemærker ukontrollerbare bevægelser, eller disse forværres, efter du begyndte at bruge Corbilta. 
 Hvis dette er tilfældet, bør du kontakte din læge, fordi der kan være behov for at justere dosis af 
@@ -629,8 +629,8 @@ oplever stigende grad af appetitmangel (anoreksi), almen svækkelse (kraftesløs
 vægttab inden for en relativt kort periode. I så fald bør det overvejes at foretage en generel 
 medicinsk undersøgelse, som bør omfatte leverfunktionen.
 -
-føler behov for at holde op med at bruge Corbilta, se afsnittet ”Hvis du holder op med at tage 
-Corbilta”.
+føler behov for at holde op med at bruge Corbilta, se afsnittet "Hvis du holder op med at tage 
+Corbilta".
 Fortæl det til lægen, hvis du eller din familie/plejer bemærker, at du er ved at udvikle 
 misbrugslignende symptomer, der kan medføre trang til større doser Corbilta og andre lægemidler, der 
 anvendes til behandling af Parkinsons sygdom.
@@ -892,7 +892,7 @@ magnesiumstearat, polysorbat 80, rød jernoxid (E172), saccharose, titandioxid (
 jernoxid (E172).
 Udseende og pakningsstørrelser
 Corbilta 50 mg/12,5 mg/200 mg: Brun- eller grårøde, runde, hvælvede filmovertrukne tabletter uden 
-delekærv mærket med ”LCE 50” på den ene side.
+delekærv mærket med "LCE 50" på den ene side.
 Corbilta findes i seks forskellige pakningsstørrelser (10, 30, 100, 130, 175 eller 250 tabletter). Ikke 
 alle pakningsstørrelser er nødvendigvis markedsført.
 48
@@ -1031,8 +1031,6 @@ Description: "ePI document Bundle for corbilta Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1055,8 +1053,6 @@ Description: "ePI document Bundle for corbilta Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1077,8 +1073,8 @@ Usage: #example
 
 Instance: mp16d693c68a441b92f0316a8bd5fd9c6e
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product corbilta"
-Description: "corbilta"
+Title: "Medicinal Product Corbilta 50 mg/12.5 mg/200 mg film-coated tablets"
+Description: "Corbilta 50 mg/12.5 mg/200 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1091,14 +1087,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Corbilta is indicated for the treatment of adult patients with Parkinson’s disease and end-of-dose"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "corbilta"
+  * productName = "Corbilta 50 mg/12.5 mg/200 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1118,10 +1111,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

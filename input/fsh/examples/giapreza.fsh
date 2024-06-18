@@ -491,7 +491,7 @@ Meget almindelige bivirkninger (kan forekomme hos mere end 1 ud af 10 patienter)
 <p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 patienter):</p>
 <ul>
 <li>Hurtig hjerterytme </li>
-<li>Nedsat blodforsyning til hænder, fødder eller andre kropsområder – kan være alvorligt og 
+<li>Nedsat blodforsyning til hænder, fødder eller andre kropsområder - kan være alvorligt og 
 medføre vævsskade. </li>
 </ul>
 <p>Indberetning af bivirkninger 
@@ -685,8 +685,6 @@ Description: "ePI document Bundle for giapreza Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -709,8 +707,6 @@ Description: "ePI document Bundle for giapreza Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -731,8 +727,8 @@ Usage: #example
 
 Instance: mp48d92e6f37b4f6c7f2463bf11b72f4f0
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product giapreza"
-Description: "giapreza"
+Title: "Medicinal Product GIAPREZA 2.5 mg/ml concentrate for solution for infusion"
+Description: "GIAPREZA 2.5 mg/ml concentrate for solution for infusion"
 Usage: #inline
 
  
@@ -745,14 +741,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "GIAPREZA is indicated for the treatment of refractory hypotension in adults with septic or other"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "giapreza"
+  * productName = "GIAPREZA 2.5 mg/ml concentrate for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -772,10 +765,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

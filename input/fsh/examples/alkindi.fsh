@@ -445,7 +445,7 @@ en<br />
 kapsel, der skal åbnes før brug. Den 
 tomme kapsel skal smides ud efter brug på en 
 måde, så børn ikke kan få fat i den. Kapslen må 
-IKKE synkes – små børn kan blive kvalt. </p>
+IKKE synkes - små børn kan blive kvalt. </p>
 <p>Advarsler og forsigtighedsregler 
 Kontakt speciallægen eller apotekspersonalet, før du giver Alkindi:</p>
 <ul>
@@ -569,7 +569,7 @@ skal du give barnet maden med det samme (inden for
 <p>Advarsel Alkindi-granulatet er indeholdt i en </p>
 <p>kapsel, der skal åbnes før brug. Den tomme 
 kapsel skal smides ud efter brug på en måde, så 
-børn ikke kan få fat i den. Kapslen må IKKE synkes – 
+børn ikke kan få fat i den. Kapslen må IKKE synkes - 
 små børn kan blive kvalt. </p>
 <p>Hvis du har givet for meget Alkindi 
 Hvis du har givet dit barn for meget Alkindi, skal du kontakte speciallægen eller apotekspersonalet og 
@@ -718,8 +718,6 @@ Description: "ePI document Bundle for alkindi Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -742,8 +740,6 @@ Description: "ePI document Bundle for alkindi Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -764,8 +760,8 @@ Usage: #example
 
 Instance: mpff01c0776e7dc8b016aadee2ff0ac481
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product alkindi"
-Description: "alkindi"
+Title: "Medicinal Product Alkindi 0.5 mg granules in capsules for opening"
+Description: "Alkindi 0.5 mg granules in capsules for opening"
 Usage: #inline
 
  
@@ -778,14 +774,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Replacement therapy of adrenal insufficiency in infants, children and adolescents (from birth to"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "alkindi"
+  * productName = "Alkindi 0.5 mg granules in capsules for opening"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -805,10 +798,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

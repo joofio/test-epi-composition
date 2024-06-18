@@ -478,11 +478,11 @@ under betegnelsen potente eller moderate CYP2D6-hæmmere (eksempler er quinidin 
 terbinafin), der anvendes i kombination med potente eller moderate CYP3A-hæmmere 
 (eksempler er erythromycin og itraconazol). Kombinationen af disse lægemidler vil forstyrre din 
 krops evne til at nedbryde Cerdelga, og dette kan resultere i højere niveauer af det aktive stof i 
-blodet (se afsnittet ”Anden medicin og Cerdelga” for en udvidet liste over lægemidler). </li>
+blodet (se afsnittet "Anden medicin og Cerdelga" for en udvidet liste over lægemidler). </li>
 <li>Hvis du er en langsom metabolisator, og bruger medicin, der kaldes potente CYP3A-hæmmere 
 (for eksempel itraconazol). Denne type medicin vil forstyrre din krops evne til at nedbryde 
 Cerdelga, og det kan resultere i højere niveauer af det aktive stof i dit blod (se afsnittet “Brug af 
-anden medicin sammen med Cerdelga” for en udvidet medicinliste). </li>
+anden medicin sammen med Cerdelga" for en udvidet medicinliste). </li>
 <li>Hvis du er en ekstensiv metabolisator, og du har alvorlig nedsat leverfunktion. </li>
 <li>Hvis du er en ekstensiv metabolisator, og du har let eller moderat nedsat leverfunktion, samtidig 
 med at du tager en stærk eller moderat CYP2D6-hæmmer. </li>
@@ -491,7 +491,7 @@ med at du tager en stærk eller moderat CYP2D6-hæmmer. </li>
 Kontakt lægen eller apotekspersonalet, før du tager Cerdelga, hvis du: 
  
 i øjeblikket behandles eller er ved at starte behandling med et af de lægemidler, der er anført i 
-afsnittet ”Anden medicin og Cerdelga”. 
+afsnittet "Anden medicin og Cerdelga". 
  
 har haft et hjerteanfald eller hjertesvigt. 
  
@@ -528,81 +528,81 @@ om disse lægemidler, før du begynder at tage Cerdelga. Din læge vil afgøre, 
 bruge, baseret på hvor hurtigt din krop nedbryder eliglustat. </p>
 <p>Lægemidler, der kan øge mængden af Cerdelga i blodet, såsom: 
  
-paroxetin, fluoxetin, fluvoxamin, duloxetin, bupropion, moclobemid – antidepressiva (bruges 
+paroxetin, fluoxetin, fluvoxamin, duloxetin, bupropion, moclobemid - antidepressiva (bruges 
 til at behandle depression) 
  
-dronedaron, quinidin, verapamil – antiarytmika (bruges til at behandle en uregelmæssig 
+dronedaron, quinidin, verapamil - antiarytmika (bruges til at behandle en uregelmæssig 
 hjerterytme) 
  
-ciprofloxacin, clarithromycin, erythromycin, telithromycin – antibiotika (bruges til at behandle 
+ciprofloxacin, clarithromycin, erythromycin, telithromycin - antibiotika (bruges til at behandle 
 infektioner) 
  
-terbinafin, itraconazol, fluconazol, posaconazol, voriconazol – antisvampemidler (bruges til at 
+terbinafin, itraconazol, fluconazol, posaconazol, voriconazol - antisvampemidler (bruges til at 
 behandle svampeinfektioner) 
  
-mirabegron – bruges til at behandle overaktive blærer 
+mirabegron - bruges til at behandle overaktive blærer 
  
-cinacalcet – calcimimetikum (bruges hos nogle dialysepatienter og til bestemte kræftformer) 
+cinacalcet - calcimimetikum (bruges hos nogle dialysepatienter og til bestemte kræftformer) 
  
-atazanavir, darunavir, fosamprenavir, indinavir, lopinavir, ritonavir, saquinavir, tipranavir – 
+atazanavir, darunavir, fosamprenavir, indinavir, lopinavir, ritonavir, saquinavir, tipranavir - 
 antiretrovirale lægemidler (bruges til at behandle HIV) 
  
-cobistat – bruges til at forbedre virkningen af antiretrovirale lægemidler (bruges til at behandle 
+cobistat - bruges til at forbedre virkningen af antiretrovirale lægemidler (bruges til at behandle 
 HIV) 
  
-aprepitant – antiemetika (bruges til at reducere opkastning) 
+aprepitant - antiemetika (bruges til at reducere opkastning) 
  
-diltiazem – antihypertensive lægemidler (bruges til at øge blodgennemstrømningen og sænke 
+diltiazem - antihypertensive lægemidler (bruges til at øge blodgennemstrømningen og sænke 
 hjertefrekvensen) 
  
-conivaptan – diuretika (bruges til at øge et lavt indhold af natrium i blodet) 
+conivaptan - diuretika (bruges til at øge et lavt indhold af natrium i blodet) 
  
-boceprevir, telaprevir – antiretroviralt lægemiddel (bruges til at behandle hepatitis C) 
+boceprevir, telaprevir - antiretroviralt lægemiddel (bruges til at behandle hepatitis C) 
  
-imatinib – anticancer (bruges til at behandle cancer) 
+imatinib - anticancer (bruges til at behandle cancer) 
  
-amlodipin, ranolazin – bruges til at behandle angina pectoris 
+amlodipin, ranolazin - bruges til at behandle angina pectoris 
  
-cilostazol – bruges til at behandle krampelignende smerter i dine ben, når du går, pga. 
+cilostazol - bruges til at behandle krampelignende smerter i dine ben, når du går, pga. 
 utilstrækkelig blodforsyning i dine ben 
  
-isoniazid – bruges til at behandle tuberkulose 
+isoniazid - bruges til at behandle tuberkulose 
  
-cimetidin, ranitidin – antacida (bruges til at behandle fordøjelsesbesvær) 
+cimetidin, ranitidin - antacida (bruges til at behandle fordøjelsesbesvær) 
  
-gyldensegl– (også kaldet Hydrastis canadensis) en urtemedicin der kan fås uden recept, bruges 
+gyldensegl- (også kaldet Hydrastis canadensis) en urtemedicin der kan fås uden recept, bruges 
 som hjælp til fordøjelsen. </p>
 <p>Lægemidler, der kan reducere mængden af Cerdelga i blodet: 
  
-rifampicin, rifabutin – antibiotika (bruges til at behandle infektioner) 
+rifampicin, rifabutin - antibiotika (bruges til at behandle infektioner) 
  
-carbamazepin, phenobarbital, phenytoin –anti-epileptika (bruges til at behandle epilepsi og 
+carbamazepin, phenobarbital, phenytoin -anti-epileptika (bruges til at behandle epilepsi og 
 anfald) 
  
-Perikum – (også kendt som Hypericum perforatum) et naturlægemiddel, der kan købes uden 
+Perikum - (også kendt som Hypericum perforatum) et naturlægemiddel, der kan købes uden 
 recept og anvendes til at behandle depression og andre sygdomme  </p>
 <p>Cerdelga kan øge mængden af følgende typer medicin i blodet: 
  
-dabigatran – antikoagulans (bruges til at fortynde blodet) 
+dabigatran - antikoagulans (bruges til at fortynde blodet) 
  
-phenytoin – anti-epileptika (bruges til at behandle epilepsi og anfald) 
+phenytoin - anti-epileptika (bruges til at behandle epilepsi og anfald) 
  
-nortryptylin, amitriptylin, imipramin, desipramin – antidepressiva (bruges til at behandle 
+nortryptylin, amitriptylin, imipramin, desipramin - antidepressiva (bruges til at behandle 
 depression) 
  
-phenothiaziner – antipsykotika (bruges til at behandle skizofreni og psykose) 
+phenothiaziner - antipsykotika (bruges til at behandle skizofreni og psykose) 
  
-digoxin – bruges til at behandle hjertesvigt og atrieflimren 
+digoxin - bruges til at behandle hjertesvigt og atrieflimren 
  
-colchicin – bruges til at behandle gigt 
+colchicin - bruges til at behandle gigt 
  
-metoprolol – bruges til at sænke blodtrykket og/eller mindske hjertefrekvensen 
+metoprolol - bruges til at sænke blodtrykket og/eller mindske hjertefrekvensen 
  
-dextromethorphan – hostemedicin 
+dextromethorphan - hostemedicin 
  
-atomoxetin – bruges til at behandle attention deficit hyperactivity disorder (ADHD) 
+atomoxetin - bruges til at behandle attention deficit hyperactivity disorder (ADHD) 
  
-pravastatin – bruges til at sænke kolesteroltallet og forebygge hjertesygdom </p>
+pravastatin - bruges til at sænke kolesteroltallet og forebygge hjertesygdom </p>
 <p>Brug af Cerdelga sammen med mad og drikke 
 Undgå indtagelse af grapefrugt eller grapefrugtjuice, da det kan øge indholdet af Cerdelga i blodet. </p>
 <p>Graviditet, amning og frugtbarhed 
@@ -732,15 +732,15 @@ medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""
 Aktivt stof: eliglustat (som tartrat). Hver kapsel indeholder 84 mg eliglustat. 
  
 Øvrige indholdsstoffer:  * 
-I kapslen: mikrokrystallinsk cellulose, laktosemonohydrat (se punkt 2 under ”Cerdelga 
-indeholder laktose”), hypromellose og glyceroldibehenat. * 
+I kapslen: mikrokrystallinsk cellulose, laktosemonohydrat (se punkt 2 under "Cerdelga 
+indeholder laktose"), hypromellose og glyceroldibehenat. * 
 I kapslens skal: gelatine, kaliumaluminiumsilikat (E555), titandioxid (E171), gul jernoxid 
 (E172) og indigotin (E132). * 
 I trykfarven: schellak, sort jernoxid (E172), propylenglycol og ammoniakopløsning, 
 koncentreret. </p>
 <p>Udseende og pakningsstørrelser 
 Cerdelga-kapsler har en perlemors-blågrøn uigennemsigtig hætte og perlehvid uigennemsigtig krop 
-med ”GZ02” trykt i sort på kapslen. </p>
+med "GZ02" trykt i sort på kapslen. </p>
 <p>Pakningsstørrelser med 14 hårde kapsler i 1 blisterkort, 56 hårde kapsler i 4 blisterkort med 14 kapsler 
 i hver eller 196 hårde kapsler i 14 blisterkort med 14 kapsler i hver. </p>
 <p>Det er ikke sikkert, at alle pakninger markedsføres i dit land. </p>
@@ -814,7 +814,7 @@ España
 sanofi-aventis, S.A. 
 Tel: +34 93 485 94 <br />
 Portugal 
-Sanofi – Produtos Farmacêuticos, Lda. 
+Sanofi - Produtos Farmacêuticos, Lda. 
 Tel: +351 21 35 89<br />
 France 
 Sanofi Winthrop Industrie 
@@ -870,8 +870,6 @@ Description: "ePI document Bundle for cerdelga Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -894,8 +892,6 @@ Description: "ePI document Bundle for cerdelga Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -916,8 +912,8 @@ Usage: #example
 
 Instance: mped982183c35912e878ca478e2f38304e
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product cerdelga"
-Description: "cerdelga"
+Title: "Medicinal Product Cerdelga 84 mg hard capsules"
+Description: "Cerdelga 84 mg hard capsules"
 Usage: #inline
 
  
@@ -930,14 +926,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Cerdelga is indicated for the long-term treatment of adult patients with Gaucher disease type 1 (GD1),"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "cerdelga"
+  * productName = "Cerdelga 84 mg hard capsules"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -957,10 +950,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

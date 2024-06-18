@@ -748,8 +748,6 @@ Description: "ePI document Bundle for renagel Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -772,8 +770,6 @@ Description: "ePI document Bundle for renagel Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -794,8 +790,8 @@ Usage: #example
 
 Instance: mpa52e8d08d74bb225bb0d5cb64a7b9638
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product renagel"
-Description: "renagel"
+Title: "Medicinal Product Renagel 400 mg film-coated tablets"
+Description: "Renagel 400 mg film-coated tablets"
 Usage: #inline
 
  
@@ -808,14 +804,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Renagel is indicated for the control of hyperphosphataemia in adult patients receiving haemodialysis"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "renagel"
+  * productName = "Renagel 400 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -835,10 +828,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

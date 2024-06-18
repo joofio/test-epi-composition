@@ -535,7 +535,7 @@ Før hver behandling med DOCETAXEL KABI, vil du få taget blodprøver for at få
 har nok blodceller og den nødvendige leverfunktion til at få DOCETAXEL KABI. I tilfælde af 
 forstyrrelser af de hvide blodlegemer kan du få feber eller infektioner. </p>
 <p>Kontakt straks lægen, hospitalsfarmaceuten eller sundhedspersonalet, hvis du oplever mavesmerter 
-eller –ømhed, diaré, endetarmsblødning, blodig afførring eller feber. Disse symptomer kan være de 
+eller -ømhed, diaré, endetarmsblødning, blodig afførring eller feber. Disse symptomer kan være de 
 første tegn på en alvorlig mave-tarmforgiftning, som kan være dødelig. Din læge bør straks igangsætte 
 behandling. </p>
 <p>Kontakt lægen, hospitalsfarmaceuten elle sundhedspersonalet, hvis du oplever problemer med dit syn. 
@@ -567,8 +567,8 @@ reaktionerne nævnt ovenfor. </p>
 <p>Fortæl din læge, hospitalsfarmaceut eller sygeplejerske, hvis du har nyreproblemer eller høje niveauer 
 af urinsyre i blodet før påbegyndelse af behandling med DOCETAXEL KABI. </p>
 <p>DOCETAXEL KABI indeholder alkohol. Diskutér det med din læge, hvis du lider af 
-alkoholafhængighed, epilepsi eller nedsat leverfunktion. Se også afsnittet ”DOCETAXEL KABI<br />
-indeholder alkohol” nedenfor. </p>
+alkoholafhængighed, epilepsi eller nedsat leverfunktion. Se også afsnittet "DOCETAXEL KABI<br />
+indeholder alkohol" nedenfor. </p>
 <p>Brug af anden medicin sammen med DOCETAXEL KABI 
 Mængden af alkohol i dette lægemiddel kan påvirke andre lægemidlers virkning. Kontakt lægen eller 
 apotekspersonalet, hvis du tager andre lægemidler. </p>
@@ -593,7 +593,7 @@ docetaxel kan nedsætte den mandlige fertilitet. </p>
 Mængden af alkohol i dette lægemiddel kan påvirke din evne til at føre motorkøretøj eller arbejde med 
 maskiner.<br />
 Du kan opleve bivirkninger af dette lægemiddel, som kan påvirke din evne til at føre motorkøretøj, 
-bruge værktøj eller betjene maskiner (se punkt 4 ”Bivirkninger”). Hvis dette sker, må du ikke føre 
+bruge værktøj eller betjene maskiner (se punkt 4 "Bivirkninger"). Hvis dette sker, må du ikke føre 
 motorkøretøj, bruge værktøj eller maskiner, før du har talt med din læge, sundhedspersonalet eller 
 hospitalsfarmaceuten. </p>
 <p>DOCETAXEL KABI  indeholder ethanol (alkohol) 
@@ -990,8 +990,6 @@ Description: "ePI document Bundle for docetaxel Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1014,8 +1012,6 @@ Description: "ePI document Bundle for docetaxel Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1036,8 +1032,8 @@ Usage: #example
 
 Instance: mp211825d32829aaffbdc41442ec401539
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product docetaxel"
-Description: "docetaxel"
+Title: "Medicinal Product DOCETAXEL KABI 20 mg/1 ml concentrate for solution for infusion"
+Description: "DOCETAXEL KABI 20 mg/1 ml concentrate for solution for infusion"
 Usage: #inline
 
  
@@ -1050,14 +1046,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Breast cancer"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "docetaxel"
+  * productName = "DOCETAXEL KABI 20 mg/1 ml concentrate for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1077,10 +1070,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

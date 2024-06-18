@@ -1558,8 +1558,6 @@ Description: "ePI document Bundle for imfinzi Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1582,8 +1580,6 @@ Description: "ePI document Bundle for imfinzi Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1604,8 +1600,8 @@ Usage: #example
 
 Instance: mpa8ab0a50af543bb09893d6d85fe7a719
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product imfinzi"
-Description: "imfinzi"
+Title: "Medicinal Product IMFINZI 50 mg/ml concentrate for solution for infusion."
+Description: "IMFINZI 50 mg/ml concentrate for solution for infusion."
 Usage: #inline
 
  
@@ -1618,14 +1614,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Non-Small Cell Lung Cancer (NSCLC)"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "imfinzi"
+  * productName = "IMFINZI 50 mg/ml concentrate for solution for infusion."
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1645,10 +1638,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

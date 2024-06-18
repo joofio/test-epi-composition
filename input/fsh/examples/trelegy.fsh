@@ -639,7 +639,7 @@ med at bruge det og straks kontakte lægen: </p>
 Hvis din vejrtrækning eller hvæsen bliver værre umiddelbart efter, at du har taget dette lægemiddel, 
 skal du stoppe med at bruge det og søge lægehjælp med det samme. </p>
 <p>Lungebetændelse (pneumoni) hos KOL-patienter (almindelig bivirkning) 
-Kontakt lægen, hvis du får et eller flere af følgende symptomer, mens du bruger Trelegy Ellipta – det 
+Kontakt lægen, hvis du får et eller flere af følgende symptomer, mens du bruger Trelegy Ellipta - det 
 kan være symptomer på lungebetændelse:  </p>
 <ul>
 <li>
@@ -876,7 +876,7 @@ France
 Laboratoire GlaxoSmithKline 
 Tél: + 33 (0)1 39 17 84 diam@gsk.com </p>
 <p>Portugal 
-GlaxoSmithKline – Produtos Farmacêuticos, 
+GlaxoSmithKline - Produtos Farmacêuticos, 
 Lda. 
 Tel: + 351 21 412 95 FI.PT@gsk.com </p>
 <p>Hrvatska 
@@ -929,7 +929,7 @@ første gang. Den indeholder afmålte doser og er klar til brug med det samme. <
 <p>Æsken med Trelegy Ellipta-inhalatoren indeholder </p>
 <p>Inhalatoren er pakket i en bakke. Bakken må ikke åbnes, før du er klar til at inhalere en dosis af 
 lægemidlet. Når du er klar til at bruge inhalatoren, skal du trække låget af for at åbne bakken. Bakken 
-indeholder en pose med tørremiddel for at mindske fugt. Smid posen med tørremiddel ud – du må ikke 
+indeholder en pose med tørremiddel for at mindske fugt. Smid posen med tørremiddel ud - du må ikke 
 åbne, spise eller inhalere tørremidlet. </p>
 <p>Når du tager inhalatoren ud af den forseglede bakke, er den i "lukket" position. Inhalatoren må ikke 
 åbnes, før du er klar til at inhalere en dosis af lægemidlet. Skriv dato for "Kasseres senest" i det 
@@ -1052,8 +1052,6 @@ Description: "ePI document Bundle for trelegy Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1076,8 +1074,6 @@ Description: "ePI document Bundle for trelegy Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1098,8 +1094,8 @@ Usage: #example
 
 Instance: mp1f770da67a0e503197d74d61bd645018
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product trelegy"
-Description: "trelegy"
+Title: "Medicinal Product Trelegy Ellipta 92 micrograms/55 micrograms/22 micrograms inhalation powder, pre-dispensed"
+Description: "Trelegy Ellipta 92 micrograms/55 micrograms/22 micrograms inhalation powder, pre-dispensed"
 Usage: #inline
 
  
@@ -1112,14 +1108,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Trelegy Ellipta is indicated as a maintenance treatment in adult patients with moderate to severe chronic"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "trelegy"
+  * productName = "Trelegy Ellipta 92 micrograms/55 micrograms/22 micrograms inhalation powder, pre-dispensed"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1139,10 +1132,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -531,7 +531,7 @@ En nedsættelse af det samlede antal hvide blodlegemer eller af visse typer af h
 i dit blod (leukopeni og neutropeni).
 
 Ændringer i din sindstilstand, såsom forvirring, bevidsthedssvækkelse, unormale bevægelser 
-eller krampeanfald (hjernelidelse) – disse er forekommet hos personer, der fik for høje doser, 
+eller krampeanfald (hjernelidelse) - disse er forekommet hos personer, der fik for høje doser, 
 især hos personer med nyreproblemer.
 Sjælden (kan forekomme hos op til 1 ud af 1.000 personer)
 
@@ -670,7 +670,7 @@ Tel: +1800 633 363 (toll free)
 +44 (0)1304 616161
 Slovenská republika
 Pfizer Luxembourg SARL, organizačná zložka
-Tel: +421–2–3355 5500
+Tel: +421-2-3355 5500
 Ísland
 Icepharma hf.
 Sími: +354 540 8000
@@ -758,8 +758,6 @@ Description: "ePI document Bundle for zinforo Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -782,8 +780,6 @@ Description: "ePI document Bundle for zinforo Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -804,8 +800,8 @@ Usage: #example
 
 Instance: mpc4b0ba45aee41dd9d8f44191fabb5777
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product zinforo"
-Description: "zinforo"
+Title: "Medicinal Product Zinforo 600 mg powder for concentrate for solution for infusion"
+Description: "Zinforo 600 mg powder for concentrate for solution for infusion"
 Usage: #inline
 
  
@@ -818,14 +814,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Zinforo is indicated for the treatment of the following infections in neonates, infants, children,"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "zinforo"
+  * productName = "Zinforo 600 mg powder for concentrate for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -845,10 +838,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -1168,8 +1168,6 @@ Description: "ePI document Bundle for tysabri Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1192,8 +1190,6 @@ Description: "ePI document Bundle for tysabri Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1214,8 +1210,8 @@ Usage: #example
 
 Instance: mpc9326f0c06c08c17104ae87ab98b71ae
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product tysabri"
-Description: "tysabri"
+Title: "Medicinal Product Tysabri 300 mg concentrate for solution for infusion"
+Description: "Tysabri 300 mg concentrate for solution for infusion"
 Usage: #inline
 
  
@@ -1228,14 +1224,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Tysabri is indicated as single disease modifying therapy in adults with highly active relapsing"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "tysabri"
+  * productName = "Tysabri 300 mg concentrate for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1255,10 +1248,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

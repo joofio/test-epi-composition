@@ -552,7 +552,7 @@ blodtryk ikke er sænket tilstrækkeligt med telmisartan. </p>         </div>"""
 (angivet i punkt 6). 
 - hvis du er allergisk over for hydrochlorthiazid eller et andet sulfonamidholdigt lægemiddel. 
 - hvis du er mere end 3 måneder henne i graviditeten. (Du skal desuden helst undgå at bruge 
-Actelsar HCT tidligt i graviditeten – se afsnittet om Graviditet). 
+Actelsar HCT tidligt i graviditeten - se afsnittet om Graviditet). 
 - hvis du har alvorlige leverproblemer, som f.eks. galdeophobning i galdegangene eller problemer 
 med udskillelse af galde fra leveren og galdeblæren, eller andre alvorlige leversygdomme. 
 - hvis du har alvorlig nyresygdom. 
@@ -603,7 +603,7 @@ forbindelse med sukkersyge. </p>
 </li>
 <li>aliskiren. 
 Din læge vil eventuelt måle din nyrefunktion, dit blodtryk og elektrolytter (f.eks. kalium) i dit 
-blod med jævne mellemrum. Se også information under overskriften ”Tag ikke Actelsar HCT” </li>
+blod med jævne mellemrum. Se også information under overskriften "Tag ikke Actelsar HCT" </li>
 <li>digoxin. </li>
 </ul>
 <p>Fortæl din læge, hvis du tror, du er gravid (eller kan blive gravid). Actelsar HCT kan ikke anbefales til 
@@ -656,7 +656,7 @@ forebygge visse sygdomme forårsaget af virus). </li>
 såsom non-steroide antiinflamatoriske lægemider (NSAID), medicin til behandling af cancer, 
 urinsyregigt (podagra) eller leddegigt. </li>
 <li>Hvis du samtidig tager en ACE-hæmmer eller aliskiren (se også information under 
-overskrifterne ”Tag ikke Actelsar HCT” og ”Advarsler og forsigtighedsregler”). </li>
+overskrifterne "Tag ikke Actelsar HCT" og "Advarsler og forsigtighedsregler"). </li>
 <li>Digoxin. </li>
 </ul>
 <p>Actelsar HCT kan forøge den blodtrykssænkende virkning af andre lægemidler mod for højt blodtryk 
@@ -806,7 +806,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken, blisteret eller flaskeetiketten efter 
-”EXP”. Udløbsdatoen er den sidste dag i den nævnte måned. “Lot”, der er trykt på pakningen, 
+"EXP". Udløbsdatoen er den sidste dag i den nævnte måned. “Lot", der er trykt på pakningen, 
 henviser til batch nummeret.  </p>
 <p>For Al/Al blister og HDPE tabletbeholder 
 Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
@@ -965,8 +965,6 @@ Description: "ePI document Bundle for actelsar Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -989,8 +987,6 @@ Description: "ePI document Bundle for actelsar Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1011,8 +1007,8 @@ Usage: #example
 
 Instance: mpd4e93c060506fdcc083b5b1a04e82522
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product actelsar"
-Description: "actelsar"
+Title: "Medicinal Product Actelsar HCT 40 mg/12.5 mg tablets"
+Description: "Actelsar HCT 40 mg/12.5 mg tablets"
 Usage: #inline
 
  
@@ -1025,14 +1021,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Treatment of essential hypertension."
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "actelsar"
+  * productName = "Actelsar HCT 40 mg/12.5 mg tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1052,10 +1045,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

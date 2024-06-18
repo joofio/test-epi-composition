@@ -440,7 +440,7 @@ Det forventes, at HBVAXPRO har ingen eller kun ubetydelig indflydelse på evnen 
 motorkøretøj og betjene maskiner. 
 HBVAXPRO 5 mikrogram indeholder natrium 
 Denne vaccine indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, det vil sige, den er i det
-væsentlige ”natriumfri”. </p>         </div>"""   
+væsentlige "natriumfri". </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take hbvaxpro"
@@ -685,9 +685,9 @@ HBVAXPRO 5 mikrogram, injektionsvæske, suspension i fyldt injektionssprøjte
 Hepatitis B-vaccine (rekombinant DNA)
 Læs denne indlægsseddel grundigt, inden du eller dit barn bliver vaccineret, da den indeholder
 vigtige oplysninger.
-– 
+- 
 Gem indlægssedlen. Du kan få brug for at læse den igen.
-– 
+- 
 Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er mere, du vil vide.
 - Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du eller dit barn får bivirkninger,
 herunder bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p>         </div>"""      
@@ -702,8 +702,6 @@ InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for hbvaxpro Package Leaflet for language en"
 Description: "ePI document Bundle for hbvaxpro Package Leaflet for language en"
 Usage: #example
-
-
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
@@ -728,8 +726,6 @@ Description: "ePI document Bundle for hbvaxpro Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -750,8 +746,8 @@ Usage: #example
 
 Instance: mp8f194b3a85e80bebf07798b496672e52
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product hbvaxpro"
-Description: "hbvaxpro"
+Title: "Medicinal Product HBVAXPRO 5 micrograms, suspension for injection"
+Description: "HBVAXPRO 5 micrograms, suspension for injection"
 Usage: #inline
 
  
@@ -764,14 +760,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "HBVAXPRO is indicated for active immunisation against hepatitis B virus infection caused by all known"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "hbvaxpro"
+  * productName = "HBVAXPRO 5 micrograms, suspension for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -791,10 +784,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

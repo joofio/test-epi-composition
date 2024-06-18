@@ -1015,8 +1015,6 @@ Description: "ePI document Bundle for paxlovid Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1039,8 +1037,6 @@ Description: "ePI document Bundle for paxlovid Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1061,8 +1057,8 @@ Usage: #example
 
 Instance: mpc01e0605e2e3c43213448cfeba0686aa
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product paxlovid"
-Description: "paxlovid"
+Title: "Medicinal Product Paxlovid 150 mg + 100 mg film-coated tablets"
+Description: "Paxlovid 150 mg + 100 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1075,14 +1071,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Paxlovid is indicated for the treatment of coronavirus disease 2019 (COVID-19) in adults who do not"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "paxlovid"
+  * productName = "Paxlovid 150 mg + 100 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1102,10 +1095,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

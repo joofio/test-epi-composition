@@ -1015,8 +1015,6 @@ Description: "ePI document Bundle for insuman Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1039,8 +1037,6 @@ Description: "ePI document Bundle for insuman Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1061,8 +1057,8 @@ Usage: #example
 
 Instance: mp4d2adb2d9d068c3e716247867c7eb868
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product insuman"
-Description: "insuman"
+Title: "Medicinal Product Insuman Rapid 40 IU/ml solution for injection in a vial"
+Description: "Insuman Rapid 40 IU/ml solution for injection in a vial"
 Usage: #inline
 
  
@@ -1075,14 +1071,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Diabetes mellitus where treatment with insulin is required. Insuman Rapid is also suitable for the"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "insuman"
+  * productName = "Insuman Rapid 40 IU/ml solution for injection in a vial"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1102,10 +1095,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

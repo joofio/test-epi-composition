@@ -917,8 +917,6 @@ Description: "ePI document Bundle for tepadina Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -941,8 +939,6 @@ Description: "ePI document Bundle for tepadina Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -963,8 +959,8 @@ Usage: #example
 
 Instance: mp23483e68b180589da70be31f3872f1d0
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product tepadina"
-Description: "tepadina"
+Title: "Medicinal Product TEPADINA 15 mg powder for concentrate for solution for infusion"
+Description: "TEPADINA 15 mg powder for concentrate for solution for infusion"
 Usage: #inline
 
  
@@ -977,14 +973,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "TEPADINA is indicated, in combination with other chemotherapy medicinal products:"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "tepadina"
+  * productName = "TEPADINA 15 mg powder for concentrate for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1004,10 +997,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

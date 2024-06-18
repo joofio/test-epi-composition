@@ -516,10 +516,10 @@ Xultophy anvendes til at forbedre niveauet af blodglucose (blodsukker) hos voksn
 Xultophy indeholder to aktive stoffer, som hjælper din krop med at kontrollere blodsukkeret:  </p>
 <ul>
 <li>
-<p>insulin degludec – et langtidsvirkende basalinsulin, der sænker blodsukkerniveauet.  </p>
+<p>insulin degludec - et langtidsvirkende basalinsulin, der sænker blodsukkerniveauet.  </p>
 </li>
 <li>
-<p>liraglutid – en "GLP-1-analog", som hjælper din krop med at danne mere insulin under måltider 
+<p>liraglutid - en "GLP-1-analog", som hjælper din krop med at danne mere insulin under måltider 
 og sænker den mængde sukker, din krop danner. </p>
 </li>
 </ul>
@@ -563,15 +563,15 @@ tømning af mavesækken (diabetisk gastroparese). </p>
 <p>Vær specielt opmærksom på følgende, når du bruger Xultophy: </p>
 <ul>
 <li>
-<p>Lavt blodsukker (hypoglykæmi) – hvis dit blodsukker er lavt, skal du følge rådene under punkt 
+<p>Lavt blodsukker (hypoglykæmi) - hvis dit blodsukker er lavt, skal du følge rådene under punkt 
 4 "Lavt blodsukker (hypoglykæmi)". </p>
 </li>
 <li>
-<p>Højt blodsukker (hyperglykæmi) – hvis dit blodsukker er højt, skal du følge rådene under punkt 
+<p>Højt blodsukker (hyperglykæmi) - hvis dit blodsukker er højt, skal du følge rådene under punkt 
 4 "Højt blodsukker (hyperglykæmi)". </p>
 </li>
 <li>
-<p>Sikre, at du anvender den rigtige type insulin – kontrollér altid etiketten før hver injektion for at 
+<p>Sikre, at du anvender den rigtige type insulin - kontrollér altid etiketten før hver injektion for at 
 undgå utilsigtet forveksling af Xultophy og andre præparater. </p>
 </li>
 </ul>
@@ -589,13 +589,13 @@ værre for en kort periode. Langvarigt forbedret blodsukkerkontrol kan lette øj
 <p>Vigtige ting, du bør vide, mens du bruger dette lægemiddel: </p>
 <ul>
 <li>
-<p>Hvis du har alvorlig mavepine, der ikke går væk, skal du fortælle det til lægen – det kan være et 
+<p>Hvis du har alvorlig mavepine, der ikke går væk, skal du fortælle det til lægen - det kan være et 
 tegn på betændelse i bugspytkirtlen (akut pankreatitis).  </p>
 </li>
 <li>
-<p>Dehydrering (tab af kropsvæske) kan forekomme, hvis du har kvalme, kaster op eller har diarré 
-– det er vigtigt at drikke rigeligt med væske for at stoppe væskemangel.  </p>
+<p>Dehydrering (tab af kropsvæske) kan forekomme, hvis du har kvalme, kaster op eller har diarré </p>
 </li>
+<li>det er vigtigt at drikke rigeligt med væske for at stoppe væskemangel.  </li>
 </ul>
 <p>Hudforandringer på injektionsstedet 
 Injektionsstedet bør løbende skiftes for at hjælpe med at forebygge forandringer i fedtvævet under 
@@ -612,7 +612,7 @@ under 18 år. </p>
 <p>Brug af andre lægemidler sammen med Xultophy 
 Fortæl altid lægen, apotekspersonalet eller sygeplejersken, hvis du tager andre lægemidler, for nylig 
 har taget andre lægemidler eller planlægger at tage andre lægemidler. Nogle lægemidler påvirker 
-blodsukkeret – det kan betyde, at din dosis af Xultophy skal ændres. </p>
+blodsukkeret - det kan betyde, at din dosis af Xultophy skal ændres. </p>
 <p>Nedenstående liste omfatter de mest kendte lægemidler, som kan påvirke din behandling med 
 Xultophy. </p>
 <p>Dit blodsukkerniveau kan falde, hvis du tager: </p>
@@ -621,61 +621,63 @@ Xultophy. </p>
 <p>andre lægemidler til behandling af diabetes (tabletter eller injektioner) </p>
 </li>
 <li>
-<p>sulfonamider – mod infektioner </p>
+<p>sulfonamider - mod infektioner </p>
 </li>
 <li>
-<p>anabolske steroider – såsom testosteron </p>
+<p>anabolske steroider - såsom testosteron </p>
 </li>
 <li>
-<p>betablokkere – mod forhøjet blodtryk. De kan gøre det vanskeligere at genkende 
-advarselssignalerne på lavt blodsukker (se punkt 4 "Advarselssignaler på lavt blodsukker – disse 
+<p>betablokkere - mod forhøjet blodtryk. De kan gøre det vanskeligere at genkende 
+advarselssignalerne på lavt blodsukker (se punkt 4 "Advarselssignaler på lavt blodsukker - disse 
 kan komme pludseligt") </p>
 </li>
 <li>
-<p>acetylsalicylsyre (og lægemidler, der kaldes salicylater) – mod smerter og mild feber </p>
+<p>acetylsalicylsyre (og lægemidler, der kaldes salicylater) - mod smerter og mild feber </p>
 </li>
 <li>
-<p>MAO (monoaminoxidase)-hæmmere – mod depression </p>
+<p>MAO (monoaminoxidase)-hæmmere - mod depression </p>
 </li>
 <li>
-<p>ACE (angiotensin-konverteringsenzym)-hæmmere – mod visse hjertelidelser eller forhøjet 
+<p>ACE (angiotensin-konverteringsenzym)-hæmmere - mod visse hjertelidelser eller forhøjet 
 blodtryk. </p>
 </li>
 </ul>
 <p>Dit blodsukkerniveau kan stige, hvis du tager: </p>
 <ul>
 <li>
-<p>danazol – et lægemiddel, der påvirker ægløsning </p>
+<p>danazol - et lægemiddel, der påvirker ægløsning </p>
 </li>
 <li>
-<p>oral prævention – p-piller </p>
+<p>oral prævention - p-piller </p>
 </li>
 <li>
-<p>skjoldbruskkirtelhormoner – mod sygdom i skjoldbruskkirtlen </p>
+<p>skjoldbruskkirtelhormoner - mod sygdom i skjoldbruskkirtlen </p>
 </li>
 <li>
-<p>væksthormon – mod lavt niveau af væksthormon  </p>
+<p>væksthormon - mod lavt niveau af væksthormon  </p>
 </li>
 <li>
-<p>lægemidler kaldet "glukokortikoider", såsom kortison – mod betændelse </p>
+<p>lægemidler kaldet "glukokortikoider", såsom kortison - mod betændelse </p>
 </li>
 <li>
-<p>lægemidler kaldet "sympatomimetika", såsom epinefrin (adrenalin), salbutamol eller terbutalin 
-– mod astma </p>
+<p>lægemidler kaldet "sympatomimetika", såsom epinefrin (adrenalin), salbutamol eller terbutalin </p>
 </li>
 <li>
-<p>vanddrivende tabletter kaldet "thiazider" – mod forhøjet blodtryk eller for meget vand i kroppen 
+<p>mod astma </p>
+</li>
+<li>
+<p>vanddrivende tabletter kaldet "thiazider" - mod forhøjet blodtryk eller for meget vand i kroppen 
 (væskeophobning). </p>
 </li>
 </ul>
-<p>Octreotid og lanreotid – til behandling af en sjælden lidelse hvor der produceres for meget 
+<p>Octreotid og lanreotid - til behandling af en sjælden lidelse hvor der produceres for meget 
 væksthormon (akromegali). De kan øge eller reducere dit blodsukkerniveau. </p>
-<p>Pioglitazon – lægemiddel i tabletform til behandling af type 2-diabetes mellitus. Nogle patienter med 
+<p>Pioglitazon - lægemiddel i tabletform til behandling af type 2-diabetes mellitus. Nogle patienter med 
 årelang type 2-diabetes og hjertesygdom eller tidligere slagtilfælde, som er blevet behandlet med 
 pioglitazon og insulin, oplevede hjertesvigt. Fortæl det straks til din læge, hvis du oplever symptomer 
 på hjertesvigt, såsom usædvanlig kortåndethed, hurtig vægtstigning eller lokale væskeansamlinger 
 (ødem). </p>
-<p>Warfarin eller andre blodfortyndende lægemidler – til forebyggelse af blodpropper. Fortæl det til 
+<p>Warfarin eller andre blodfortyndende lægemidler - til forebyggelse af blodpropper. Fortæl det til 
 lægen, hvis du tager warfarin eller andre blodfortyndende lægemidler, da du muligvis skal have taget 
 blodprøver oftere for at få målt, hvor tykt dit blod er (kaldet "International Normalised Ratio" eller 
 INR-test). </p>
@@ -871,12 +873,12 @@ Almindelige bivirkninger (kan forekomme hos færre end 1 ud af 10 behandlede) </
 </li>
 <li>
 <p>Nedsat appetit, kvalme eller opkastning, diarré, forstoppelse, fordøjelsesproblemer (dyspepsi), 
-betændt slimhinde i maven (gastritis), mavepine, halsbrand eller oppustethed – disse 
+betændt slimhinde i maven (gastritis), mavepine, halsbrand eller oppustethed - disse 
 bivirkninger forsvinder normalt efter nogle få dage eller uger. </p>
 </li>
 <li>
 <p>Reaktioner på injektionsstedet. Symptomerne kan omfatte blå mærker, blødning, smerter, 
-rødme, nældefeber, hævelse eller kløe – disse forsvinder normalt efter nogle få dage. Kontakt 
+rødme, nældefeber, hævelse eller kløe - disse forsvinder normalt efter nogle få dage. Kontakt 
 din læge, hvis reaktionerne ikke er forsvundet efter nogle uger. Hold op med at bruge Xultophy, 
 og søg straks læge, hvis de bliver alvorlige.  </p>
 </li>
@@ -893,7 +895,7 @@ og søg straks læge, hvis de bliver alvorlige.  </p>
 <p>Allergiske reaktioner (overfølsomhed), såsom udslæt, kløe og hævelse i ansigtet. </p>
 </li>
 <li>
-<p>Dehydrering (tab af kropsvæske) – det er vigtigt at drikke rigeligt med væske for at stoppe 
+<p>Dehydrering (tab af kropsvæske) - det er vigtigt at drikke rigeligt med væske for at stoppe 
 dehydrering. </p>
 </li>
 <li>
@@ -927,7 +929,7 @@ dehydrering. </p>
 <p>Forsinkelse i tømning af mavesækken. </p>
 </li>
 <li>
-<p>Hævede arme eller ben (perifert ødem) – når du påbegynder behandling med lægemidlet, kan 
+<p>Hævede arme eller ben (perifert ødem) - når du påbegynder behandling med lægemidlet, kan 
 kroppen ophobe mere vand, end den skal. Det giver hævelser omkring ankler og andre led. Det 
 er normalt kun kortvarigt. </p>
 </li>
@@ -950,14 +952,14 @@ Lavt blodsukker (hypoglykæmi) </p>
 <p>bruger for meget Xultophy. </p>
 </li>
 </ul>
-<p>Advarselssignaler på lavt blodsukker – disse kan komme pludseligt 
+<p>Advarselssignaler på lavt blodsukker - disse kan komme pludseligt 
 Hovedpine, sløret tale, hurtig hjertebanken, koldsved, kold og bleg hud, kvalme, usædvanlig stor 
 sultfornemmelse, rysten, nervøsitet eller bekymring, unormal træthed, svaghed og døsighed eller 
 forvirring, koncentrationsbesvær, kortvarige synsforstyrrelser. </p>
 <p>Hvad du skal gøre, hvis du får lavt blodsukker: </p>
 <ul>
 <li>
-<p>Spis glucosetabletter (druesukker) eller et andet meget sukkerholdigt produkt – såsom slik, kiks 
+<p>Spis glucosetabletter (druesukker) eller et andet meget sukkerholdigt produkt - såsom slik, kiks 
 eller frugtjuice (medbring for en sikkerheds skyld altid glucosetabletter eller et meget 
 sukkerholdigt produkt). </p>
 </li>
@@ -1035,7 +1037,7 @@ Højt blodsukker (hyperglykæmi) </p>
 for, glemmer at bruge Xultophy, eller stopper med at tage Xultophy uden at tale med din læge. </p>
 </li>
 </ul>
-<p>Advarselssignaler på højt blodsukker – disse kommer normalt gradvist 
+<p>Advarselssignaler på højt blodsukker - disse kommer normalt gradvist 
 Rødme, tør hud, døsighed eller træthed, mundtørhed, frugtagtig (acetonelugtende) ånde, hyppigere 
 vandladning, tørst, nedsat appetit, kvalme eller opkastning. 
 Disse symptomer kan betyde, at du har en meget alvorlig tilstand kaldet "ketoacidose". Det er en 
@@ -1125,9 +1127,9 @@ Xultophy indgives som "dosistrin". Ét dosistrin indeholder 1 enhed insulin
 degludec + 0,036 mg liraglutid. </p>
 <p>Pennen er en fyldt pen med dosisindstilling. Den indeholder 3 ml Xultophy 
 opløsning. Den leverer doser fra:<br />
-– 
+- 
 1 dosistrin<br />
-– 
+- 
 til maksimalt 50 dosistrin (50 enheder insulin degludec + 1,8 mg 
 liraglutid). </p>
 <p>Pennen leverer doser med en stigning på 1 dosistrin.<br />
@@ -1414,7 +1416,7 @@ helbred. </p>
 <p>Du må aldrig dele dine nåle med andre. Det kan føre til krydsinfektion. </p>
 </li>
 <li>
-<p>Omsorgspersoner skal håndtere brugte nåle meget forsigtigt – for at 
+<p>Omsorgspersoner skal håndtere brugte nåle meget forsigtigt - for at 
 undgå stikuheld og krydsinfektioner. </p>
 </li>
 </ul>
@@ -1462,8 +1464,6 @@ Description: "ePI document Bundle for xultophy Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1486,8 +1486,6 @@ Description: "ePI document Bundle for xultophy Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1508,8 +1506,8 @@ Usage: #example
 
 Instance: mp616a2493f2581291ddc019d50fec7c8b
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product xultophy"
-Description: "xultophy"
+Title: "Medicinal Product Xultophy 100 units/mL + 3.6 mg/mL solution for injection."
+Description: "Xultophy 100 units/mL + 3.6 mg/mL solution for injection."
 Usage: #inline
 
  
@@ -1522,14 +1520,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Xultophy is indicated for the treatment of adults with insufficiently controlled type 2 diabetes mellitus"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "xultophy"
+  * productName = "Xultophy 100 units/mL + 3.6 mg/mL solution for injection."
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1549,10 +1544,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

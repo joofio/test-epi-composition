@@ -639,7 +639,7 @@ Usage: #inline
   * code.text =  "1. What abilify is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Abilify Maintena indeholder det aktive stof aripiprazol i et hætteglas. Aripiprazol tilhører en gruppe af 
-lægemidler, der kaldes antipsykotika. Abilify Maintena anvendes til behandling af skizofreni – en 
+lægemidler, der kaldes antipsykotika. Abilify Maintena anvendes til behandling af skizofreni - en 
 sygdom, der gør, at man fx hører, ser eller mærker ting, som ikke eksisterer, er mistroisk, har 
 vrangforestillinger, taler og opfører sig usammenhængende og er følelsesmæssigt mat. Personer med 
 denne lidelse kan også føle sig deprimerede, skyldige, angste eller anspændte. </p>
@@ -677,7 +677,7 @@ slagtilfælde </p>
 forhøjet appetit og svaghedsfornemmelse) eller diabetes i familien </p>
 </li>
 <li>
-<p>krampeanfald – i givet fald vil din læge overvåge dig tættere </p>
+<p>krampeanfald - i givet fald vil din læge overvåge dig tættere </p>
 </li>
 <li>
 <p>ufrivillige, uregelmæssige muskelbevægelser, især i ansigtetoplever en kombination af feber, 
@@ -694,7 +694,7 @@ uregelmæssig hjerterytme (herunder såkaldt QT-forlængelse, der kan ses på et
 (ekg) </p>
 </li>
 <li>
-<p>blodpropper, blodpropper i familien – antipsykotika er blevet forbundet med blodpropperhar 
+<p>blodpropper, blodpropper i familien - antipsykotika er blevet forbundet med blodpropperhar 
 svært ved at synke </p>
 </li>
 <li>
@@ -1047,7 +1047,7 @@ rammer normalt først ansigtet og munden, men andre kropsdele kan også blive ra
 symptomer kan være tegn på en tilstand, der kaldes tardiv dyskinesi </p>
 </li>
 <li>
-<p>Parkinsonisme – en tilstand med mange forskellige symptomer, der omfatter nedsatte eller 
+<p>Parkinsonisme - en tilstand med mange forskellige symptomer, der omfatter nedsatte eller 
 langsomme bevægelser, langsom tankegang, spjæt ved bøjning af ben eller arme 
 (tandhjulsrigiditet), hurtige skridt, rystelser, ingen eller meget få ansigtsudtryk, muskelstivhed, 
 savlen </p>
@@ -1451,7 +1451,7 @@ Tel.: +48 22 626 93 France
 Otsuka Pharmaceutical France SAS 
 Tél: +33 (0) 1 47 08 00<br />
 Portugal 
-Lundbeck Portugal – Produtos Farmacêuticos, 
+Lundbeck Portugal - Produtos Farmacêuticos, 
 Unipessoal Lda. 
 Tel: +351 21 00 45<br />
 Hrvatska 
@@ -1661,8 +1661,6 @@ Description: "ePI document Bundle for abilify Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1685,8 +1683,6 @@ Description: "ePI document Bundle for abilify Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1707,8 +1703,8 @@ Usage: #example
 
 Instance: mp083329ed80f9e5f1c8e6dd49ed81d7aa
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product abilify"
-Description: "abilify"
+Title: "Medicinal Product Abilify Maintena 300 mg powder and solvent for prolonged-release suspension for injection"
+Description: "Abilify Maintena 300 mg powder and solvent for prolonged-release suspension for injection"
 Usage: #inline
 
  
@@ -1721,14 +1717,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Abilify Maintena is indicated for maintenance treatment of schizophrenia in adult patients stabilised"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "abilify"
+  * productName = "Abilify Maintena 300 mg powder and solvent for prolonged-release suspension for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1748,10 +1741,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

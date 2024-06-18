@@ -796,7 +796,7 @@ lægemiddel. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken og etiketten efter EXP. Udløbsdatoen er 
 den sidste dag i den nævnte måned. </p>
-<p>Opbevares i køleskab (2 °C – 8 °C). </p>
+<p>Opbevares i køleskab (2 °C - 8 °C). </p>
 <p>Må ikke nedfryses. </p>
 <p>Opbevar den fyldte injektionssprøjte i den forseglede blister og i den ydre karton for at beskytte mod 
 lys. </p>
@@ -924,7 +924,7 @@ hjemmeside: http://www.ema.europa.eu.
 Nedenstående oplysninger er til læger og sundhedspersonale: </p>
 <p>Brugsvejledning til fyldt injektionssprøjte </p>
 <p>Opbevaring og eftersyn </p>
-<p>Beovu skal opbevares i køleskab (2 °C – 8 °C). Må ikke nedfryses. 
+<p>Beovu skal opbevares i køleskab (2 °C - 8 °C). Må ikke nedfryses. 
 Opbevar den fyldte injektionssprøjte i den forseglede blister og i den 
 ydre karton for at beskytte mod lys. </p>
 <p>Inden brug kan den uåbnede blister med den fyldte injektionssprøjte 
@@ -1011,8 +1011,6 @@ Description: "ePI document Bundle for beovu Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1035,8 +1033,6 @@ Description: "ePI document Bundle for beovu Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1057,8 +1053,8 @@ Usage: #example
 
 Instance: mp8785831d8660f7dc500cb9e2633fcfc2
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product beovu"
-Description: "beovu"
+Title: "Medicinal Product Beovu 120 mg/ml solution for injection in pre-filled syringe"
+Description: "Beovu 120 mg/ml solution for injection in pre-filled syringe"
 Usage: #inline
 
  
@@ -1071,14 +1067,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Beovu is indicated in adults for the treatment of"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "beovu"
+  * productName = "Beovu 120 mg/ml solution for injection in pre-filled syringe"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1098,10 +1091,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

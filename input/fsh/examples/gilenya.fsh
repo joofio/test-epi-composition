@@ -936,12 +936,12 @@ Gilenya, vil din læge forklare risikoen for dig og bede dig om at tage en gravi
 sikker på, at du ikke er gravid. Din læge vil udlevere et kort, som forklarer, hvorfor du ikke må blive 
 gravid, mens du tager Gilenya. Det forklarer også, hvad du bør gøre for at undgå at blive gravid, mens 
 du tager Gilenya. Du skal bruge sikker prævention under behandlingen og i 2 måneder efter 
-seponering af behandlingen (se afsnittet om ”Graviditet og amning”). </p>
+seponering af behandlingen (se afsnittet om "Graviditet og amning"). </p>
 <p>Forværring af MS efter ophør af behandling med Gilenya 
 Du må ikke stoppe med at tage Gilenya eller ændre din dosis uden at tale med din læge først. </p>
 <p>Fortæl det med det samme til din læge, hvis du synes, at din MS er forværret efter, at du er stoppet 
-med behandling med Gilenya. Dette kan være alvorligt (se ”Hvis du holder op med at tage Gilenya” i 
-punkt 3, og også punkt 4 ”Bivirkninger”). </p>
+med behandling med Gilenya. Dette kan være alvorligt (se "Hvis du holder op med at tage Gilenya" i 
+punkt 3, og også punkt 4 "Bivirkninger"). </p>
 <p>Ældre 
 Erfaringer med Gilenya til ældre patienter (over 65 år) er begrænsede. Tal med din læge, hvis du på 
 nogen måde er i tvivl. </p>
@@ -956,7 +956,7 @@ bestemte vaccinationer, kan det være nødvendigt, at du får disse vaccinatione
 behandling med Gilenya kan påbegyndes. </li>
 <li>Første gang du får Gilenya, eller når du skifter fra en daglig dosis på 0,25 mg til en daglig dosis 
 på 0,5 mg, vil din læge overvåge din puls og hjerterytme (se “Langsom puls (bradykardi) og 
-uregelmæssig hjerterytme ” ovenfor). </li>
+uregelmæssig hjerterytme " ovenfor). </li>
 <li>Fortæl det til lægen, hvis du oplever kramper eller krampeanfald, før eller når du tager Gilenya. </li>
 <li>Fortæl det til lægen, hvis du lider af depression eller angst, eller hvis du bliver deprimeret eller 
 får angst, mens du tager Gilenya. Du skal måske undersøges nøjere. </li>
@@ -969,7 +969,7 @@ medicin eller planlægger at bruge anden medicin. Fortæl det til lægen, hvis d
 <p>Medicin, der hæmmer eller ændrer immunsystemet, herunder anden medicin til 
 behandling af MS, fx beta-interferon, glatirameracetat, natalizumab, mitoxantron, teriflunomid, 
 dimethylfumarat eller alemtuzumab. Du må ikke bruge Gilenya sammen med disse typer 
-medicin, da dette kan forstærke virkningen på immunsystemet (se også ”Tag ikke Gilenya”). </p>
+medicin, da dette kan forstærke virkningen på immunsystemet (se også "Tag ikke Gilenya"). </p>
 </li>
 <li>
 <p>Kortikosteroider, grundet mulig additiv virkning på immunsystemet. </p>
@@ -1020,8 +1020,8 @@ præventionsmetoder. </li>
 </ul>
 <p>Din læge vil give dig et kort, som forklarer, hvorfor du ikke må blive gravid, mens du tager Gilenya. </p>
 <p>Hvis du bliver gravid, mens du tager Gilenya, skal du straks fortælle det til din læge. Din læge 
-vil beslutte at stoppe med behandlingen (se ”Hvis du holder op med at tage Gilenya” i punkt 3, og 
-også punkt 4 ”Bivirkninger”). Der vil blive lavet specialiserede undersøgelser på dit ufødte barn 
+vil beslutte at stoppe med behandlingen (se "Hvis du holder op med at tage Gilenya" i punkt 3, og 
+også punkt 4 "Bivirkninger"). Der vil blive lavet specialiserede undersøgelser på dit ufødte barn 
 (prænatal undersøgelse). </p>
 <p>Amning </p>
 <p>Du må ikke amme, mens du tager Gilenya. Gilenya kan gå over i modermælk, og der er en risiko 
@@ -1183,7 +1183,7 @@ muskelsmerter, feber
 - Stakåndethed 
 - Depression 
 - Sløret syn (se også afsnittet om makulaødem under “Nogle bivirkninger kan være eller blive 
-alvorlige”) 
+alvorlige") 
 - Hypertension (Gilenya kan forårsage en let forhøjelse af blodtrykket) 
 - Muskelsmerter 
 - Ledsmerter </p>
@@ -1243,9 +1243,9 @@ Trykfarve: shellak (E 904), vandfri ethanol, isopropylalkohol, butylalkohol, pro
 (E 172), gul jernoxid (E 172), titandioxid (E 171), dimeticon. </p>
 <p>Udseende og pakningsstørrelser 
 Gilenya 0.25 mg hårde kapsler har en elfenbensfarvet, uigennemsigtig underdel og overdel. 
-“FTY 0.25mg” er trykt med sort på overdelen, og der er trykt et sort radiært bånd på underdelen. </p>
+“FTY 0.25mg" er trykt med sort på overdelen, og der er trykt et sort radiært bånd på underdelen. </p>
 <p>Gilenya 0,5 mg hårde kapsler har en hvid, uigennemsigtig underdel og en klar gul, uigennemsigtig 
-overdel. “FTY0.5mg” er trykt med sort på overdelen, og der er trykt to gule bånd på underdelen. </p>
+overdel. “FTY0.5mg" er trykt med sort på overdelen, og der er trykt to gule bånd på underdelen. </p>
 <p>Gilenya 0,25 mg kapsler fås i pakninger med 7 eller 28 kapsler. Ikke alle pakningsstørrelser er 
 nødvendigvis markedsført i dit land. </p>
 <p>Gilenya 0,5 mg kapsler fås i pakninger med 7, 28 eller 98 kapsler eller i multipakninger med 
@@ -1365,8 +1365,6 @@ Description: "ePI document Bundle for gilenya Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1389,8 +1387,6 @@ Description: "ePI document Bundle for gilenya Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1411,8 +1407,8 @@ Usage: #example
 
 Instance: mp62a8f25678d9e8ed32026d400d8228e9
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product gilenya"
-Description: "gilenya"
+Title: "Medicinal Product Gilenya 0.25 mg hard capsules"
+Description: "Gilenya 0.25 mg hard capsules"
 Usage: #inline
 
  
@@ -1425,14 +1421,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Gilenya is indicated as single disease modifying therapy in highly active relapsing remitting multiple"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "gilenya"
+  * productName = "Gilenya 0.25 mg hard capsules"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1452,10 +1445,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

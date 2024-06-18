@@ -1012,7 +1012,7 @@ udslæt
 -
 hævelse i ansigtet
 -
-vejrtrækningsbesvær (bronkospasme – astmalignende gener)
+vejrtrækningsbesvær (bronkospasme - astmalignende gener)
 -
 anafylaktisk shock
 Overfølsomhedsreaktioner kan også forekomme som udslæt med andre bivirkninger såsom:
@@ -1181,7 +1181,7 @@ Binger Strasse 173
 Tyskland
 eller
 Boehringer Ingelheim Hellas Single Member S.A.
-5th km Paiania – Markopoulo
+5th km Paiania - Markopoulo
 Koropi Attiki, 19441
 Grækenland
 eller
@@ -1325,8 +1325,6 @@ Description: "ePI document Bundle for viramune Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1349,8 +1347,6 @@ Description: "ePI document Bundle for viramune Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1371,8 +1367,8 @@ Usage: #example
 
 Instance: mp72e5f5398f762b4570a837b92d9db036
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product viramune"
-Description: "viramune"
+Title: "Medicinal Product Viramune 200 mg tablets"
+Description: "Viramune 200 mg tablets"
 Usage: #inline
 
  
@@ -1385,14 +1381,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Viramune is indicated in combination with other anti-retroviral medicinal products for the treatment of"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "viramune"
+  * productName = "Viramune 200 mg tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1412,10 +1405,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

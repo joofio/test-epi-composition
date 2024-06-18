@@ -1892,8 +1892,6 @@ Description: "ePI document Bundle for lenalidomide Package Leaflet for language 
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1916,8 +1914,6 @@ Description: "ePI document Bundle for lenalidomide Package Leaflet for language 
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1938,8 +1934,8 @@ Usage: #example
 
 Instance: mpd4995980c626f88ccf36d0f35c6d0ddf
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product lenalidomide"
-Description: "lenalidomide"
+Title: "Medicinal Product Lenalidomide Mylan 2.5 mg hard capsules"
+Description: "Lenalidomide Mylan 2.5 mg hard capsules"
 Usage: #inline
 
  
@@ -1952,14 +1948,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Multiple myeloma"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "lenalidomide"
+  * productName = "Lenalidomide Mylan 2.5 mg hard capsules"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1979,10 +1972,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

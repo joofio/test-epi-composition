@@ -511,7 +511,7 @@ punkt 6) </p>
 </li>
 <li>
 <p>hvis du er længere end 3. måned henne i din graviditet. (Du bør heller ikke tage CoAprovel i 
-begyndelsen af graviditeten – se afsnittet om graviditet) </p>
+begyndelsen af graviditeten - se afsnittet om graviditet) </p>
 </li>
 <li>
 <p>hvis du har alvorlige lever- eller nyreproblemer (spørg lægen, hvis du er i tvivl) </p>
@@ -577,7 +577,7 @@ vejrtrækningsbesvær efter at have taget CoAprovel, skal du straks søge lægeh
 </ul>
 <p>Din læge vil måske regelmæssigt kontrollere din nyrefunktion, dit blodtryk og mængden af 
 elektrolytter (f.eks. kalium) i dit blod.  </p>
-<p>Se også information under ”Tag ikke CoAprovel”. </p>
+<p>Se også information under "Tag ikke CoAprovel". </p>
 <p>Du skal fortælle det til din læge, hvis du tror du er gravid eller planlægger at blive gravid. CoAprovel 
 frarådes tidligt i graviditeten, og du må ikke tage CoAprovel, hvis du er længere end 3 måneder henne 
 i din graviditet, da det kan skade dit barn alvorligt, hvis det tages i denne periode (se afsnittet om 
@@ -618,8 +618,8 @@ nylig.  </p>
 Tag ikke medicin, der indeholder lithium, samtidig med at du tager CoAprovel uden grundig 
 vejledning fra lægen. </p>
 <p>Din læge kan blive nødt til at ændre din dosis og/eller tage andre forholdsregler: 
-Hvis du tager en ACE-hæmmer eller aliskiren (se også information under ”Tag ikke CoAprovel” og 
-”Advarsler og forsigtighedsregler”). </p>
+Hvis du tager en ACE-hæmmer eller aliskiren (se også information under "Tag ikke CoAprovel" og 
+"Advarsler og forsigtighedsregler"). </p>
 <p>Det kan være nødvendigt at tage blodprøver, hvis du tager: </p>
 <ul>
 <li>
@@ -783,7 +783,7 @@ tilfælde også indberettet gulsot (gulfarvning af huden og/eller det hvide i ø
 forekommer bivirkninger, som er forårsaget af hvert af de enkelte stoffer.  </p>
 <p>Bivirkninger forbundet med irbesartan alene 
 Foruden de ovennævnte bivirkninger er der også indberettet brystsmerter, alvorlige allergiske 
-reaktioner (anafylaktisk shock), nedsat antal røde blodlegemer (blodmangel – symptomerne kan 
+reaktioner (anafylaktisk shock), nedsat antal røde blodlegemer (blodmangel - symptomerne kan 
 inkludere træthed, hovedpine, stakåndethed under motion, svimmelhed og bleghed), fald i antallet af 
 blodplader (en blodcelle, der er afgørende for størkning af blodet) og lavt blodsukkerniveau. </p>
 <p>Bivirkninger forbundet med hydrochlorthiazid alene 
@@ -840,7 +840,7 @@ tabletter indeholder 150 mg irbesartan og 12,5 mg hydrochlorthiazid. </p>
 <li>
 <p>Øvrige indholdsstoffer: mikrokrystallinsk cellulose, croscarmellosenatrium, lactosemonohydrat, 
 magnesiumstearat, kolloid silica, prægelatineret majsstivelse, rød og gul jernoxid (E172). 
-Se punkt 2 ”CoAprovel indeholder lactose” </p>
+Se punkt 2 "CoAprovel indeholder lactose" </p>
 </li>
 </ul>
 <p>Udseende og pakningsstørrelser 
@@ -905,7 +905,7 @@ Sanofi-Aventis Μονοπρόσωπη AEBE
 Τηλ: +30 210 900 16<br />
 Österreich 
 sanofi-aventis GmbH 
-Tel: +43 1 80 185 – 0 </p>
+Tel: +43 1 80 185 - 0 </p>
 <p>España 
 sanofi-aventis, S.A. 
 Tel: +34 93 485 94<br />
@@ -990,8 +990,6 @@ Description: "ePI document Bundle for coaprovel Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1014,8 +1012,6 @@ Description: "ePI document Bundle for coaprovel Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1036,8 +1032,8 @@ Usage: #example
 
 Instance: mp12eb4dc4416d56ac558a28bcde6ee807
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product coaprovel"
-Description: "coaprovel"
+Title: "Medicinal Product CoAprovel 150 mg/12.5 mg tablets."
+Description: "CoAprovel 150 mg/12.5 mg tablets."
 Usage: #inline
 
  
@@ -1050,14 +1046,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Treatment of essential hypertension."
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "coaprovel"
+  * productName = "CoAprovel 150 mg/12.5 mg tablets."
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1077,10 +1070,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

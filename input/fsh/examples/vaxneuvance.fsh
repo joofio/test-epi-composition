@@ -772,7 +772,7 @@ med at fremskaffe mere information om sikkerheden af dette lægemiddel.
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar vaccinen utilgængeligt for børn.
 Brug ikke vaccinen efter den udløbsdato, der står på kartonen og injektionssprøjtens etiket efter EXP.
 Udløbsdatoen er den sidste dag i den nævnte måned.
-Opbevares i køleskab (2 C – 8 C). Må ikke nedfryses. Opbevar den fyldte injektionssprøjte i den
+Opbevares i køleskab (2 C - 8 C). Må ikke nedfryses. Opbevar den fyldte injektionssprøjte i den
 ydre karton for at beskytte mod lys.
 Vaxneuvance skal administreres så hurtigt som muligt, efter det er taget ud af køleskabet. I tilfælde
 hvor Vaxneuvance opbevares midlertidigt uden for køleskabet, er vaccinen dog stabil ved temperaturer
@@ -965,7 +965,7 @@ børnevaccinationsprogram.
 Vaxneuvance kan administreres samtidig med sæsonbestemt tetravalent influenzavaccine (split virion,
 inaktiveret) hos voksne. 
 Forskellige injicerbare vacciner skal altid administreres på forskellige injektionssteder.
-Opbevares i køleskab (2 °C – 8 °C). Må ikke nedfryses.
+Opbevares i køleskab (2 °C - 8 °C). Må ikke nedfryses.
 Opbevar den fyldte injektionssprøjte i den ydre karton for at beskytte mod lys.
 Vaxneuvance skal administreres så hurtigt som muligt, efter det er taget ud af køleskabet.
 43
@@ -985,8 +985,6 @@ InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for vaxneuvance Package Leaflet for language en"
 Description: "ePI document Bundle for vaxneuvance Package Leaflet for language en"
 Usage: #example
-
-
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
@@ -1011,8 +1009,6 @@ Description: "ePI document Bundle for vaxneuvance Package Leaflet for language d
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1033,8 +1029,8 @@ Usage: #example
 
 Instance: mp3f214a4f5ac8e3dc74014e21089eb5bc
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product vaxneuvance"
-Description: "vaxneuvance"
+Title: "Medicinal Product Vaxneuvance suspension for injection in pre-filled syringe"
+Description: "Vaxneuvance suspension for injection in pre-filled syringe"
 Usage: #inline
 
  
@@ -1047,14 +1043,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Vaxneuvance is indicated for active immunisation for the prevention of invasive disease, pneumonia"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "vaxneuvance"
+  * productName = "Vaxneuvance suspension for injection in pre-filled syringe"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1074,10 +1067,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

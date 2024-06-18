@@ -1005,8 +1005,6 @@ Description: "ePI document Bundle for komboglyze Package Leaflet for language en
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1029,8 +1027,6 @@ Description: "ePI document Bundle for komboglyze Package Leaflet for language da
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1051,8 +1047,8 @@ Usage: #example
 
 Instance: mp2e049de7151091e592b9a474ff9a66cf
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product komboglyze"
-Description: "komboglyze"
+Title: "Medicinal Product Komboglyze 2.5 mg/850 mg film-coated tablets"
+Description: "Komboglyze 2.5 mg/850 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1065,14 +1061,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Komboglyze is indicated in adults with type 2 diabetes mellitus as an adjunct to diet and exercise to"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "komboglyze"
+  * productName = "Komboglyze 2.5 mg/850 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1092,10 +1085,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -489,7 +489,7 @@ Kontakt lægen eller sygeplejersken, før du får DARZALEX.
 Infusionsrelaterede reaktioner
 DARZALEX gives som en infusion (et drop) i en vene. Før og efter hver infusion af DARZALEX vil 
 du få lægemidler, som kan hjælpe med at mindske risikoen for reaktioner på infusionen (se 
-”Lægemidler, der gives under behandling med DARZALEX” i afsnit 3). Disse reaktioner kan opstå 
+"Lægemidler, der gives under behandling med DARZALEX" i afsnit 3). Disse reaktioner kan opstå 
 under infusionen eller i løbet af 3 dage efter infusionen.
 I visse tilfælde kan den allergiske reaktion være alvorlig og omfatte hævelser af ansigtet, læberne, 
 munden, tungen eller svælget, synke- eller vejrtrækningsbesvær eller kløende udslæt (nældefeber).
@@ -731,7 +731,7 @@ om sikkerheden af dette lægemiddel.</p>         </div>"""
 Opbevar lægemidlet utilgængeligt for børn.
 Brug ikke lægemidlet efter den udløbsdato, der står på æsken og etiketten på hætteglasset efter EXP. 
 Udløbsdatoen er den sidste dag i den nævnte måned.
-Opbevares i køleskab (2 °C – 8 °C). Må ikke nedfryses.
+Opbevares i køleskab (2 °C - 8 °C). Må ikke nedfryses.
 Opbevares i den originale yderpakning for at beskytte mod lys.
 Sundhedspersoner vil bortskaffe eventuelle medicinrester, der ikke længere skal bruges. Af hensyn til 
 miljøet må du ikke smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
@@ -750,8 +750,8 @@ indeholder 400 mg daratumumab.
 93
 
 Øvrige indholdsstoffer: L-histidin, L-histidinhydrochlorid-monohydrat, L-methionin, 
-polysorbat 20, sorbitol (E420) og vand til injektionsvæsker (se ”DARZALEX indeholder 
-sorbitol” i afsnit 2).
+polysorbat 20, sorbitol (E420) og vand til injektionsvæsker (se "DARZALEX indeholder 
+sorbitol" i afsnit 2).
 Udseende og pakningsstørrelser
 DARZALEX er et koncentrat til infusionsvæske, opløsning og er en farveløs til gul væske.
 DARZALEX leveres i en karton, der indeholder 1 hætteglas af glas.
@@ -778,7 +778,7 @@ UAB "JOHNSON &amp; JOHNSON"
 Tel: +370 5 278 68 88
 lt@its.jnj.com
 България
-„Джонсън &amp; Джонсън България” ЕООД
+„Джонсън &amp; Джонсън България" ЕООД
 Тел.: +359 2 489 94 00
 jjsafety@its.jnj.com
 Luxembourg/Luxemburg
@@ -962,8 +962,6 @@ Description: "ePI document Bundle for darzalex Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -986,8 +984,6 @@ Description: "ePI document Bundle for darzalex Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1008,8 +1004,8 @@ Usage: #example
 
 Instance: mpd365d405c4186be4b5c62f68568d4862
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product darzalex"
-Description: "darzalex"
+Title: "Medicinal Product DARZALEX 20 mg/mL concentrate for solution for infusion"
+Description: "DARZALEX 20 mg/mL concentrate for solution for infusion"
 Usage: #inline
 
  
@@ -1022,14 +1018,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "DARZALEX is indicated:"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "darzalex"
+  * productName = "DARZALEX 20 mg/mL concentrate for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1049,10 +1042,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

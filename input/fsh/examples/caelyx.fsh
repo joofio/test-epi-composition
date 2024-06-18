@@ -801,7 +801,7 @@ læser eller hører radio). </li>
   * code.text = "5. How to store caelyx"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar Caelyx pegylated liposomal utilgængeligt for børn. </p>
-<p>Opbevares i køleskab (2 °C – 8 °C). Må ikke nedfryses. </p>
+<p>Opbevares i køleskab (2 °C - 8 °C). Må ikke nedfryses. </p>
 <p>Efter fortynding: 
 Kemisk og fysisk holdbarhed under brug er påvist til 24 timer ved 2°C - 8°C. 
 Fra et mikrobiologisk synspunkt skal præparatet anvendes straks. Hvis det ikke anvendes straks, er 
@@ -998,8 +998,6 @@ Description: "ePI document Bundle for caelyx Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1022,8 +1020,6 @@ Description: "ePI document Bundle for caelyx Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1044,8 +1040,8 @@ Usage: #example
 
 Instance: mpba96fb9c0ed4979439bd80d6bde4ba94
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product caelyx"
-Description: "caelyx"
+Title: "Medicinal Product Caelyx pegylated liposomal 2 mg/ml concentrate for solution for infusion"
+Description: "Caelyx pegylated liposomal 2 mg/ml concentrate for solution for infusion"
 Usage: #inline
 
  
@@ -1058,14 +1054,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Caelyx pegylated liposomal is indicated:"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "caelyx"
+  * productName = "Caelyx pegylated liposomal 2 mg/ml concentrate for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1085,10 +1078,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

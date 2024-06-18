@@ -1104,8 +1104,6 @@ Description: "ePI document Bundle for soliris Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1128,8 +1126,6 @@ Description: "ePI document Bundle for soliris Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1150,8 +1146,8 @@ Usage: #example
 
 Instance: mp9290357e39a2371931091ec451b2e152
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product soliris"
-Description: "soliris"
+Title: "Medicinal Product Soliris 300 mg concentrate for solution for infusion"
+Description: "Soliris 300 mg concentrate for solution for infusion"
 Usage: #inline
 
  
@@ -1164,14 +1160,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Soliris is indicated in adults and children for the treatment of:"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "soliris"
+  * productName = "Soliris 300 mg concentrate for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1191,10 +1184,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

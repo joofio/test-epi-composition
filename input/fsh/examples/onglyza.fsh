@@ -862,8 +862,6 @@ Description: "ePI document Bundle for onglyza Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -886,8 +884,6 @@ Description: "ePI document Bundle for onglyza Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -908,8 +904,8 @@ Usage: #example
 
 Instance: mp007d6f1b6943d8c2483d508167f6813d
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product onglyza"
-Description: "onglyza"
+Title: "Medicinal Product Onglyza 2.5 mg film-coated tablets"
+Description: "Onglyza 2.5 mg film-coated tablets"
 Usage: #inline
 
  
@@ -922,14 +918,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Onglyza is indicated in adult patients with type 2 diabetes mellitus as an adjunct to diet and exercise to"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "onglyza"
+  * productName = "Onglyza 2.5 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -949,10 +942,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -1032,7 +1032,7 @@ den næste dosis så hurtigt som muligt, men du må ikke fordoble den næste dos
 apotekspersonalet, hvis du har brug for hjælp til at planlægge, hvornår det er bedst at tage din medicin. 
 Hvis du holder op med at tage Stocrin
 Når din Stocrin er ved at slippe op, skal du hente mere hos din læge eller på apoteket. Dette er
-meget vigtigt, da mængden af virus kan begynde at stige, hvis medicineringen standses – selv i kort
+meget vigtigt, da mængden af virus kan begynde at stige, hvis medicineringen standses - selv i kort
 tid. Virus kan så blive vanskeligere at behandle.
 Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
 
@@ -1314,8 +1314,6 @@ Description: "ePI document Bundle for stocrin Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1338,8 +1336,6 @@ Description: "ePI document Bundle for stocrin Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1360,8 +1356,8 @@ Usage: #example
 
 Instance: mpa192389a9068e61de77d4f090e108cd6
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product stocrin"
-Description: "stocrin"
+Title: "Medicinal Product STOCRIN 30 mg/mL oral solution"
+Description: "STOCRIN 30 mg/mL oral solution"
 Usage: #inline
 
  
@@ -1374,14 +1370,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "STOCRIN oral solution is indicated in antiviral combination treatment of human immunodeficiency"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "stocrin"
+  * productName = "STOCRIN 30 mg/mL oral solution"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1401,10 +1394,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

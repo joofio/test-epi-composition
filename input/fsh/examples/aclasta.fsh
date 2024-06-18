@@ -600,8 +600,8 @@ Aclasta frarådes til personer under 18 år. </p>
 Fortæl altid lægen, apotekspersonalet eller sygeplejersken, hvis du bruger anden medicin, for nylig har 
 brugt anden medicin eller planlægger at bruge anden medicin. </p>
 <p>Det er vigtigt, at lægen har kendskab til al den medicin du bruger, specielt hvis du bruger anden 
-medicin, som man ved, kan skade nyrerne (fx aminoglykosider) eller diuretika (”vanddrivende 
-midler”), der kan forårsage dehydrering. </p>
+medicin, som man ved, kan skade nyrerne (fx aminoglykosider) eller diuretika ("vanddrivende 
+midler"), der kan forårsage dehydrering. </p>
 <p>Graviditet og amning 
 Du må ikke få Aclasta, hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller 
 planlægger at blive gravid. </p>
@@ -641,7 +641,7 @@ forbindes med hypokalcæmi (for lavt indhold af calcium i blodet). </p>
 <p>Brug af Aclasta sammen med mad og drikke 
 Sørg for at drikke tilstrækkelig væske (mindst 1 eller 2 glas) før og efter behandling med Aclasta, som 
 din læge har fortalt dig. Det vil hjælpe dig med at undgå væsketab. Du kan spise normalt den dag, du 
-får behandling med Aclasta. Dette er specielt vigtigt for patienter, der tager diuretika (”vandrivende”) 
+får behandling med Aclasta. Dette er specielt vigtigt for patienter, der tager diuretika ("vandrivende") 
 og for ældre patienter (65 år eller derover). </p>
 <p>Hvis du har glemt en dosis Aclasta<br />
 Kontakt din læge eller dit hospital så hurtigt som muligt for at få en ny tid. </p>
@@ -773,7 +773,7 @@ Lietuva
 Sandoz Pharmaceuticals d.d 
 Branch Office Lithuania 
 Seimyniskiu 3A 
-LT – 09312 Vilnius 
+LT - 09312 Vilnius 
 Tel: +370 5 2636<br />
 България 
 КЧТ Сандоз България<br />
@@ -810,7 +810,7 @@ Veluwezoom NL-1327 AH Almere
 Tel: +31 (0)36 5241info.sandoz-nl@sandoz.com 
 Eesti 
 Sandoz d.d. Eesti filiaal 
-Pärnu mnt EE – 11312 Tallinn 
+Pärnu mnt EE - 11312 Tallinn 
 Tel: +372 6652 
 Norge 
 Sandoz A/S 
@@ -897,7 +897,7 @@ Danmark
 Tel: +45 6395 1info.sverige@sandoz.com </p>
 <p>Latvija 
 Sandoz d.d. Latvia filiāle 
-K.Valdemāra 33 – LV-1010 Rīga 
+K.Valdemāra 33 - LV-1010 Rīga 
 Tel: +371 67892 
 United Kingdom (Northern Ireland) 
 Sandoz Pharmaceuticals d.d. 
@@ -944,8 +944,6 @@ Description: "ePI document Bundle for aclasta Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -968,8 +966,6 @@ Description: "ePI document Bundle for aclasta Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -990,8 +986,8 @@ Usage: #example
 
 Instance: mp9dc703bc672ed093a819de38cd335ddf
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product aclasta"
-Description: "aclasta"
+Title: "Medicinal Product Aclasta 5 mg solution for infusion"
+Description: "Aclasta 5 mg solution for infusion"
 Usage: #inline
 
  
@@ -1004,14 +1000,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Treatment of osteoporosis"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "aclasta"
+  * productName = "Aclasta 5 mg solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1031,10 +1024,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

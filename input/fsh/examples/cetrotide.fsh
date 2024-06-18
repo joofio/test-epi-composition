@@ -652,7 +652,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på kartonen, hætteglasset og den fyldte 
 injektionssprøjte efter EXP. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
-<p>Opbevares i køleskab (2 °C – 8 °C). Må ikke nedfryses eller placeres i nærheden af frostboks eller 
+<p>Opbevares i køleskab (2 °C - 8 °C). Må ikke nedfryses eller placeres i nærheden af frostboks eller 
 fryseelementer. 
 Opbevares i den originale yderpakning for at beskytte mod lys. </p>
 <p>Det uåbnede præparat kan opbevares i den originale yderpakning ved stuetemperatur (ikke over 30 °C) 
@@ -763,7 +763,7 @@ den tilberedte medicin ud af hætteglasset </p>
 <p>Fjern hætten fra hætteglasset </p>
 </li>
 <li>
-<p>Der sidder en gummiprop under hætten – lad den blive siddende i hætteglasset. </p>
+<p>Der sidder en gummiprop under hætten - lad den blive siddende i hætteglasset. </p>
 </li>
 <li>
 <p>Tør gummiproppen og metalringen af med en spritserviet. </p>
@@ -926,8 +926,6 @@ Description: "ePI document Bundle for cetrotide Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -950,8 +948,6 @@ Description: "ePI document Bundle for cetrotide Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -972,8 +968,8 @@ Usage: #example
 
 Instance: mp2a989ee2499ed7653de4b30c1670b7a3
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product cetrotide"
-Description: "cetrotide"
+Title: "Medicinal Product Cetrotide 0.25 mg powder and solvent for solution for injection"
+Description: "Cetrotide 0.25 mg powder and solvent for solution for injection"
 Usage: #inline
 
  
@@ -986,14 +982,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Prevention of premature ovulation in patients undergoing a controlled ovarian stimulation, followed"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "cetrotide"
+  * productName = "Cetrotide 0.25 mg powder and solvent for solution for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1013,10 +1006,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

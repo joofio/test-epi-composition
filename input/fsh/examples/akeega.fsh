@@ -536,7 +536,7 @@ prednisolon til dig. Derved nedsættes risikoen for, at du får højt blodtryk, 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Akeega:
 
 hvis du er allergisk over for niraparib eller abirateronacetat eller et af de øvrige indholdsstoffer i 
-Akeega – angivet i punkt 6. 
+Akeega - angivet i punkt 6. 
 hvis du er en kvinde, der er eller kan blive gravid. 
 
 hvis du har svære leverskader.
@@ -575,8 +575,8 @@ muskelsvaghed og/eller muskelsmerter.
 Tal med lægen eller apotekspersonalet, hvis noget af ovenstående gælder for dig (eller hvis du er 
 usikker), før du tager dette lægemiddel.
 Hvis dine blodcelletal er lave i længere tid, mens du tager Akeega, kan det være et tegn på mere 
-alvorlige problemer med knoglemarven, såsom ”myelodysplastisk syndrom” (MDS) eller ”akut 
-myeloid leukæmi” (AML). Din læge vil måske teste din knoglemarv for at undersøge, om det er 
+alvorlige problemer med knoglemarven, såsom "myelodysplastisk syndrom" (MDS) eller "akut 
+myeloid leukæmi" (AML). Din læge vil måske teste din knoglemarv for at undersøge, om det er 
 tilfældet
 Inden du tager Akeega, skal du også tale med din læge eller apotek om:
 
@@ -611,7 +611,7 @@ antibiotikum, antipsykotika, som anvendes til alvorlige psykiske lidelser.
 Fortæl det til lægen, hvis du tager nogen af de ovenstående lægemidler.
 Brug af Akeega sammen med mad
 
-Dette lægemiddel må ikke tages sammen med mad (se ”Sådan skal du tage medicinen” under 
+Dette lægemiddel må ikke tages sammen med mad (se "Sådan skal du tage medicinen" under 
 punkt 3), eftersom det kan øge risikoen for bivirkninger.
 Graviditet og amning
 Akeega er ikke beregnet til kvinder.
@@ -655,7 +655,7 @@ Dette lægemiddel skal indtages gennem munden.
 Akeega må ikke tages sammen med mad.
 
 Tag Akeega-tabletterne som en enkeltdosis én gang dagligt på tom mave mindst en time før 
-eller mindst to timer efter du har spist (se punkt 2, ”Brug af Akeega sammen med mad”).
+eller mindst to timer efter du har spist (se punkt 2, "Brug af Akeega sammen med mad").
 
 Synk tabletterne hele med vand. Tabletterne må ikke deles, knuses eller tygges. Dette sikrer, at 
 medicinen virker så godt som muligt.
@@ -692,13 +692,13 @@ Stop med at tage Akeega, og søg øjeblikkeligt læge, hvis du oplever nogen af 
 symptomer:
 Meget almindelige (kan forekomme hos flere end 1 ud af 10 personer):
 
-Blå mærker eller blødninger i længere tid end normalt, hvis du kommer til skade – dette kan 
+Blå mærker eller blødninger i længere tid end normalt, hvis du kommer til skade - dette kan 
 være tegn på lavt blodpladetal (trombocytopeni).
 
-Åndenød, udpræget træthed, bleg hud eller hurtig hjerterytme – disse kan være tegn på et lavt 
+Åndenød, udpræget træthed, bleg hud eller hurtig hjerterytme - disse kan være tegn på et lavt 
 antal røde blodceller (anæmi).
 
-Feber eller infektion – lavt antal hvide blodceller (neutropeni) kan øge din risiko for infektion. 
+Feber eller infektion - lavt antal hvide blodceller (neutropeni) kan øge din risiko for infektion. 
 Tegnene kan omfatte feber, kulderystelser, svaghed eller forvirring, hoste, smerte eller 
 brændende fornemmelse ved vandladning. Nogle infektioner kan være alvorlige og kan føre til 
 døden.
@@ -706,12 +706,12 @@ døden.
 Muskelsvaghed, muskeltrækninger eller hjertebanken (palpitationer). Dette kan være tegn på, at 
 blodets indhold af kalium er lavt (hypokaliæmi).
 
-Forhøjet niveau af leverenzymet ”basisk fosfatase” i blodet.
-Ikke kendte (hyppigheden kan ikke estimeres) – ikke rapporteret ved brug af Akeega men rapporteret
+Forhøjet niveau af leverenzymet "basisk fosfatase" i blodet.
+Ikke kendte (hyppigheden kan ikke estimeres) - ikke rapporteret ved brug af Akeega men rapporteret
 ved brug af niraparib eller abirateronacetat (komponenter i Akeega):
 
 Allergisk reaktion (herunder alvorlig allergisk reaktion, der kan være livstruende). Tegnene 
-omfatter: hævet og kløende udslæt (nældefeber) og hævelse – til tider i ansigtet eller munden 
+omfatter: hævet og kløende udslæt (nældefeber) og hævelse - til tider i ansigtet eller munden 
 (angioødem), som forårsager vejrtrækningsbesvær og kollaps eller tab af bevidsthed.
 
 En pludselig stigning i blodtrykket, som kan være en medicinsk nødsituation, der kan føre til 
@@ -808,9 +808,9 @@ hævede hænder, ankler eller fødder
 
 forhøjet niveau af kreatinin i blodet
 
-forhøjet niveau af enzymet ”aspartataminotransferase” i blodet
+forhøjet niveau af enzymet "aspartataminotransferase" i blodet
 
-forhøjet niveau af enzymet ”alaninaminotransferase” i blodet
+forhøjet niveau af enzymet "alaninaminotransferase" i blodet
 Ikke almindelige (kan forekomme hos op til 1 ud af 100 personer):
 
 alvorlig infektion (sepsis), der spredes fra urinvejene til hele kroppen
@@ -837,8 +837,8 @@ pludseligt leversvigt
 
 øget følsomhed i huden over for sollys
 
-forhøjet niveau af ”gammaglutamyltransferase” i blodet
-Ikke kendt (hyppigheden kan ikke estimeres ud fra forhåndenværende data) – ikke rapporteret ved 
+forhøjet niveau af "gammaglutamyltransferase" i blodet
+Ikke kendt (hyppigheden kan ikke estimeres ud fra forhåndenværende data) - ikke rapporteret ved 
 brug af Akeega, men rapporteret ved brug af niraparib eller abirateronacetat (komponenter i Akeega)
 
 lavt antal af alle typer blodceller (pancytopeni)
@@ -895,7 +895,7 @@ glycerolmonocaprylocaprat, polyvinylalkohol, talkum og titaniumdioxid (E171) (se
 Akeega indeholder lactose og natrium).
 Udseende og pakningsstørrelser
 Akeega filmovertrukne tabletter er gullig-orange til gullig-brune, ovale tabletter, præget med 
-”N 50 A” på den ene side og intet på den anden side.
+"N 50 A" på den ene side og intet på den anden side.
 Hver 28-dages æske indeholder 56 filmovertrukne tabletter i to pap-etuier med 28 filmovertrukne 
 tabletter hver.
 Indehaver af markedsføringstilladelsen
@@ -920,7 +920,7 @@ UAB "JOHNSON &amp; JOHNSON"
 Tel: +370 5 278 68 88
 lt@its.jnj.com
 България
-„Джонсън &amp; Джонсън България” ЕООД
+„Джонсън &amp; Джонсън България" ЕООД
 Тел.: +359 2 489 94 00
 jjsafety@its.jnj.com
 Luxembourg/Luxemburg
@@ -1058,8 +1058,6 @@ Description: "ePI document Bundle for akeega Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1082,8 +1080,6 @@ Description: "ePI document Bundle for akeega Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1104,8 +1100,8 @@ Usage: #example
 
 Instance: mp5caa393121d9756e15d948c90dc0e334
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product akeega"
-Description: "akeega"
+Title: "Medicinal Product Akeega 50 mg/500 mg film-coated tablets"
+Description: "Akeega 50 mg/500 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1118,14 +1114,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Akeega is indicated with prednisone or prednisolone for the treatment of adult patients with metastatic"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "akeega"
+  * productName = "Akeega 50 mg/500 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1145,10 +1138,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

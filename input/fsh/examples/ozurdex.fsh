@@ -874,158 +874,7 @@ systemorganklasse i nedenstående tabel ved brug af følgende konvention:
 Meget almindelig (≥ 1/10), almindelig (≥ 1/100 til &lt; 1/10), ikke almindelig (≥ 1/1.000 til &lt; 1/100), 
 sjælden (≥ 1/10.000 til &lt; 1/1.000), meget sjælden (&lt; 1/10.000). Bivirkningerne inden for hver 
 hyppighedsgruppering er angivet efter aftagende alvorlighed.
-Tabel 1 Bivirkninger
-Systemorganklasse
-Hyppighed
-Bivirkning
-Nervesystemet
-Almindelig
-Hovedpine
-Ikke almindelig
-Migræne
-Øjne
-Meget almindelig
-Forhøjet intraokulært tryk<strong>, katarakt</strong>, 
-konjunktival blødning<em> 
-Almindelig
-Okulær hypertension, subkapsulær katarakt, 
-glaslegemeblødning</em><em>, forringet klarsyn</em>, 
-synsforringelse/-forstyrrelse, glaslegemeløsning<em>, 
-flyvende fluer</em>, glaslegemeuklarhed<em>, blefaritis, 
-øjensmerter </em>, fotopsi<em>, konjunktivalblødning</em> 
-konjunktival hyperæmi<em> Ikke almindelig
-Nekrotiserende retinitis, endoftalmitis</em>, glaukom, 
-retinaløsning<em>, retinarift</em>, hypotoni i øjet<em>, 
-inflammation i forkammeret</em>, 
-forkammerceller/lysglimt<em>, unormal fornemmelse i 
-øjet</em>, øjenlågskløe, sclerahyperæmi<em> Almene symptomer og 
-reaktioner på 
-administrationsstedet
-Ikke almindelig
-Migration af implantat</em> med eller uden corneaødem 
-(se også pkt. 4.4), forkert placering af implantat, der 
-medfører skade på øjenvæv* * angiver bivirkninger, der anses for at være relaterede til den intravitreale injektionsprocedure
-(bivirkningshyppigheden er proportional med antallet af givne behandlinger).</p>
-<p>** i et 24-måneders real world observationsstudie af behandling af maculaødem efter RVO og ikke-infektiøs 
-uveitis i øjets posteriore segment blev følgende bivirkninger indberettet hyppigere hos patienter, som fik &gt; 2 
-injektioner, versus patienter, som fik ≤ 2 injektioner; kataraktdannelse (24,7 % versus 17,7 %), 
-kataraktprogression (32,0 % versus 13,1 %), glaslegemeblødning (6,0 % versus 2,0 %) og forhøjet IOP (24,0 % 
-versus 16,6 %).
-Beskrivelse af udvalgte bivirkninger
-Diabetisk maculaødem
-OZURDEX’ kliniske sikkerhed hos patienter med diabetisk maculaødem blev vurderet i to 
-randomiserede, dobbeltblindede, sham-kontrollerede fase III-studier. I begge studier blev i alt patienter randomiseret til og fik OZURDEX, og 350 patienter fik sham.
-De hyppigst indberettede bivirkninger i hele studieperioden i forsøgsøjet hos de patienter, der fik 
-OZURDEX, var katarakt og forhøjet intraokulært tryk (se nedenfor). 
-I de 3-årige kliniske studier med DME havde 87 % af de patienter med et fakisk forsøgsøje, som blev 
-behandlet med OZURDEX, nogen grad af linseopacificering/tidlig katarakt ved baseline. Forekomsten 
-af alle observerede katarakttyper (dvs. kortikal katarakt, diabetisk katarakt, nukleær katarakt, 
-subkapsulær katarakt, lentikulær katarakt, katarakt) var 68 % hos OZURDEX-behandlede patienter 
-med et fakisk forsøgsøje over de 3-årige studier. 59 % af patienterne med et fakisk forsøgsøje havde 
-behov for kataraktoperation inden det endelige 3-års besøg, og hos hovedparten blev den udført i det 2. og 3. år.
-Det intraokulære middeltryk i forsøgsøjet ved baseline var det samme i begge behandlingsgrupper 
-(15,3 mmHg). Middelstigningen i intraokulært tryk fra baseline oversteg ikke 3,2 mmHg over alle 
-besøg i OZURDEX-gruppen, og det intraokulære middeltryk toppede ved besøget 1,5 måneder efter 
-injektion og var omtrent vendt tilbage til baseline-niveauet ved måned 6 efter hver injektion. 
-Hastigheden og størrelsen af stigningen i det intraokulære tryk efter OZURDEX-behandling var ikke 
-forøget efter gentagen injektion med OZURDEX. 
-37
-28 % af de patienter, der blev behandlet med OZURDEX, havde en stigning i intraokulært tryk på 
-≥ 10 mmHg i forhold til baseline ved et eller flere besøg under studierne. Ved baseline havde 3 % af 
-patienterne behov for medicin til sænkning af det intraokulære tryk. Samlet set brugte 42 % af 
-patienterne medicin til sænkning af det intraokulære tryk i forsøgsøjet på et vilkårligt tidspunkt i løbet 
-af de 3-årige studier, og størstedelen af disse patienter havde behov for mere end én medicinering. 
-Brugen toppede (33 %) i de første 12 måneder og forblev omtrent den samme fra år til år.
-I alt 4 patienter (1 %), der blev behandlet med OZURDEX, gennemgik en operation i forsøgsøjet til 
-behandling af forhøjet intraokulært tryk. En patient, som blev behandlet med OZURDEX, havde 
-behov for incisionskirurgi (trabekulektomi) til behandling af steroidinduceret intraokulær 
-trykforhøjelse, 1 patient fik foretaget en trabekulektomi på grund af fibrin i forkammeret, der 
-blokerede udstrømningen af vand og medførte forhøjet intraokulært tryk, 1 patient fik foretaget en 
-iridotomi på grund af snævervinklet glaukom, og 1 patient fik foretaget en iridektomi som følge af 
-kataraktoperation. Ingen af patienterne havde behov for fjernelse af implantatet ved vitrektomi for at 
-kontrollere det intraokulære tryk.
-BRVO/CRVO
-OZURDEX' kliniske sikkerhed hos patienter med maculaødem efter retinal central- eller 
-grenveneokklusion (BRVO) er blevet vurderet i to randomiserede, dobbeltmaskerede, sham-
-kontrollerede fase III-studier. I alt 427 patienter blev randomiseret til at få OZURDEX og 426 til at få 
-sham i de to fase III-studier. I alt 401 patienter (94 %), der blev randomiseret til behandling med 
-OZURDEX, fuldførte den indledende behandlingsperiode (op til dag 180). 
-I alt 47,3 % af patienterne oplevede mindst én bivirkning. De hyppigst rapporterede bivirkninger hos 
-patienter, som fik OZURDEX, var forhøjet intraokulært tryk (24,0 %) og konjunktivalblødning 
-(14,7 %).
-Bivirkningsprofilen for BRVO-patienter lignede den, som blev observeret hos CRVO-patienter, 
-selvom den generelle forekomst af bivirkninger var højere for undergruppen af patienter med CRVO.
-Forhøjet intraokulært tryk (IOP) med OZURDEX nåede maksimum på dag 60 og vendte tilbage til 
-baseline-niveau på dag 180. Forhøjelser af IOP krævede enten ikke behandling eller blev håndteret 
-med midlertidig brug af IOP-sænkende lægemidler til lokal brug. I løbet af den indledende 
-behandlingsperiode krævedes laserbehandling eller operation for at håndtere forhøjet IOP i forsøgsøjet 
-hos 0,7 % (3/421) af de patienter, som fik OZURDEX, sammenlignet med 0,2 % (1/423), som fik 
-sham. 
-Bivirkningsprofilen for 341 patienter, som blev analyseret efter endnu en injektion af OZURDEX, 
-lignede den, som fulgte efter den første injektion. I alt 54 % af patienterne oplevede mindst én 
-bivirkning. Forekomsten af forhøjet IOP (24,9 %) lignede den, som blev observeret efter den første 
-injektion og vendte på tilsvarende vis tilbage til baseline efter dag 180 i den ikke-blindede fase. Den 
-generelle forekomst af katarakt var højere efter 1 år sammenlignet med de første 6 måneder.
-Uveitis
-OZURDEX' kliniske sikkerhed hos patienter med inflammation i øjets posteriore segment, der viser 
-sig som ikke-infektiøs uveitis, er blevet undersøgt i et maskeret, randomiseret multicenterstudie.
-I alt 77 patienter blev randomiseret til at få OZURDEX og 76 patienter til at få sham. I alt 73 af 
-patienterne (95 %), der var randomiseret og blev behandlet med OZURDEX, fuldførte studiet, der 
-forløb over 26 uger.
-De hyppigst indberettede bivirkninger i forsøgsøjet på patienter, der fik OZURDEX, var 
-konjunktivalblødning (30,3 %), forhøjet intraokulært tryk (25,0 %) og katarakt (11,8 %).
-Indberetning af formodede bivirkninger
-38
-Når lægemidlet er godkendt, er indberetning af formodede bivirkninger vigtig. Det muliggør løbende 
-overvågning af benefit/risk-forholdet for lægemidlet. Læger og sundhedspersonale anmodes om at 
-indberette alle formodede bivirkninger via det nationale rapporteringssystem anført i Appendiks V.
-4.9
-Overdosering
-I tilfælde af overdosering skal det intraokulære tryk monitoreres og behandles, hvis det skønnes 
-nødvendigt af den tilseende læge.
-5.3
-Prækliniske sikkerhedsdata
-I de prækliniske studier blev der kun set virkninger efter doser, der i væsentlig grad overstiger den 
-maksimale humane eksponering. Disse virkninger vurderes derfor til at være af ringe relevans ved 
-klinisk brug.
-Der er ingen tilgængelige data for mutagenicitets-, karcinogenicitets-, reproduktions- eller 
-udviklingstoksicitet for OZURDEX. Dexamethason har vist sig at have teratogene virkninger hos mus 
-og kaniner efter oftalmisk anvendelse.
-Der er observeret eksponering af dexamethason i det raske/ikke-behandlede øje via kontralateral 
-diffusion hos kaniner efter indgivelse af implantatet i øjets bageste segment.
-6. FARMACEUTISKE OPLYSNINGER
-6.6
-Regler for destruktion og anden håndtering
-OZURDEX er kun til engangsbrug.
-Hver applikator må kun bruges til behandling af et enkelt øje. 
-Applikatoren må ikke bruges, hvis forseglingen på folieposen er beskadiget. Applikatoren skal bruges 
-straks efter, at folieposen er åbnet.
-Administration af OZURDEX 
-1)
-Hold applikatorens længdeakse parallelt med limbus. 
-2)
-Lad applikatoren møde sclera i en skrå vinkel med kanylens
-skrå spids opad og væk fra sclera. Før spidsen ca. 1 mm ind i 
-sclera, mens den holdes parallelt med limbus. 
-39
-3)
-Ret derefter kanylen ind mod midten af øjet til corpus vitreum. 
-Dette danner en skrå bane i sclera.
-Før kanylen frem, indtil den er inde i corpus vitreum.
-Fremfør ikke kanylen forbi det punkt, hvor silikoneomslaget 
-rører conjunctiva.
-4)
-Tryk langsomt på udløserknappen, indtil der høres et klik.<br />
-Inden applikatoren fjernes fra øjet, skal det sikres, at 
-udløserknappen er trykket helt ned og fastlåst i niveau med 
-applikatoroverfladen.
-5)
-Fjern kanylen i samme retning, som den blev indført i corpus 
-vitreum.
-6)
-Applikatoren bortskaffes sikkert straks efter behandlingen. 
-OZURDEX-applikatoren er kun til engangsbrug.
-Ikke anvendte lægemidler samt affald heraf bør destrueres i henhold til lokale retningslinjer.</p>         </div>"""      
+Tabel </p>         </div>"""      
 
 
 
@@ -1037,8 +886,6 @@ InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for ozurdex Package Leaflet for language en"
 Description: "ePI document Bundle for ozurdex Package Leaflet for language en"
 Usage: #example
-
-
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
@@ -1063,8 +910,6 @@ Description: "ePI document Bundle for ozurdex Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1085,8 +930,8 @@ Usage: #example
 
 Instance: mp5535a1058c02154998e04426c8620587
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product ozurdex"
-Description: "ozurdex"
+Title: "Medicinal Product OZURDEX 700 micrograms intravitreal implant in applicator"
+Description: "OZURDEX 700 micrograms intravitreal implant in applicator"
 Usage: #inline
 
  
@@ -1099,14 +944,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "OZURDEX is indicated for the treatment of adult patients with:"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "ozurdex"
+  * productName = "OZURDEX 700 micrograms intravitreal implant in applicator"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1126,10 +968,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

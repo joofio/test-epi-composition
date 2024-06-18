@@ -991,8 +991,6 @@ Description: "ePI document Bundle for omjjara Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1015,8 +1013,6 @@ Description: "ePI document Bundle for omjjara Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1037,8 +1033,8 @@ Usage: #example
 
 Instance: mp951d8a8dc27e4bf24952f3a016066e45
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product omjjara"
-Description: "omjjara"
+Title: "Medicinal Product Omjjara 100 mg film-coated tablets"
+Description: "Omjjara 100 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1051,14 +1047,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Omjjara is indicated for the treatment of disease-related splenomegaly or symptoms in adult patients"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "omjjara"
+  * productName = "Omjjara 100 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1078,10 +1071,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

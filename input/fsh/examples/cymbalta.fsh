@@ -576,12 +576,12 @@ med din læge, hvis du ikke har det bedre efter 2 måneder. </p>         </div>"
 - har en leversygdom.<br />
 - har svært nedsat nyrefunktion.<br />
 - tager, eller inden for de sidste 14 dage har været i behandling med, en MAO-hæmmer 
-(monoaminoxidasehæmmer) (se ”Brug af anden medicin sammen med Cymbalta”). </p>
+(monoaminoxidasehæmmer) (se "Brug af anden medicin sammen med Cymbalta"). </p>
 <ul>
 <li>tager fluvoxamin, som normalt anvendes til behandling af depression, ciprofloxacin eller enoxacin, 
 som bruges mod infektioner. </li>
-<li>hvis du tager andre lægemidler indeholdende duloxetin (se ”Brug af anden medicin sammen med 
-Cymbalta”). 
+<li>hvis du tager andre lægemidler indeholdende duloxetin (se "Brug af anden medicin sammen med 
+Cymbalta"). 
 Fortæl det til din læge, hvis du har forhøjet blodtryk eller en hjertesygdom. Hvis du kan tage Cymbalta, 
 vil din læge sige det til dig. </li>
 </ul>
@@ -589,8 +589,8 @@ vil din læge sige det til dig. </li>
 I følgende situationer kan du muligvis ikke anvende Cymbalta. Kontakt lægen, før du tager Cymbalta, 
 hvis du:</p>
 <ul>
-<li>tager anden medicin til behandling af depression (se ”Brug af anden medicin sammen med 
-Cymbalta”). </li>
+<li>tager anden medicin til behandling af depression (se "Brug af anden medicin sammen med 
+Cymbalta"). </li>
 <li>tager et naturlægemiddel, som indeholder perikon (Hypericum perforatum). </li>
 <li>har en nyresygdom </li>
 <li>tidligere har haft krampeanfald </li>
@@ -598,12 +598,12 @@ Cymbalta”). </li>
 <li>lider af en bipolar sygdom </li>
 <li>har øjenproblemer, såsom visse typer af grøn stær (glaukom - forøget tryk i øjet) </li>
 <li>tidligere har lidt af blødningsforstyrrelser (tendens til blå mærker), især hvis du er gravid (se 
-”Graviditet og amning”) </li>
+"Graviditet og amning") </li>
 <li>har risiko for at få lavt natrium i blodet (for eksempel hvis du tager vanddrivende medicin, især 
 hvis du er ældre) </li>
 <li>er i samtidig behandling med medicin, som kan skade leveren </li>
-<li>samtidig tager anden medicin, som indeholder duloxetin (se ”Brug af anden medicin sammen med 
-Cymbalta”). </li>
+<li>samtidig tager anden medicin, som indeholder duloxetin (se "Brug af anden medicin sammen med 
+Cymbalta"). </li>
 </ul>
 <p>Cymbalta kan give en følelse af uro eller manglende evne til at sidde eller stå stille. Hvis det sker for 
 dig, bør du fortælle din læge dette. </p>
@@ -813,7 +813,7 @@ til at sidde eller stå stille, nervøsitet, koncentrationsbesvær, ændret smag
 med at styre sine bevægelser f.eks. koordinationsbesvær eller ufrivillige muskelbevægelser, 
 restless legs syndrom (stærk uro og krybende fornemmelse i underbenene), dårlig søvnkvalitet 
 • store pupiller, synsforstyrrelser 
-• følelse af at være ”rundtosset” (vertigo), ørepine 
+• følelse af at være "rundtosset" (vertigo), ørepine 
 • hurtig og/eller uregelmæssig puls 
 • besvimelse, svimmelhed, uklarhed eller besvimelse efter at have rejst sig op, kolde fingre 
 og/eller tæer 
@@ -1017,8 +1017,6 @@ Description: "ePI document Bundle for cymbalta Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1041,8 +1039,6 @@ Description: "ePI document Bundle for cymbalta Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1063,8 +1059,8 @@ Usage: #example
 
 Instance: mpf4a6bd0f84938c78fdaccb98fced40ad
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product cymbalta"
-Description: "cymbalta"
+Title: "Medicinal Product Cymbalta 30 mg hard gastro-resistant capsules"
+Description: "Cymbalta 30 mg hard gastro-resistant capsules"
 Usage: #inline
 
  
@@ -1077,14 +1073,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Treatment of major depressive disorder."
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "cymbalta"
+  * productName = "Cymbalta 30 mg hard gastro-resistant capsules"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1104,10 +1097,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

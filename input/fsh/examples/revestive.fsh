@@ -952,8 +952,6 @@ Description: "ePI document Bundle for revestive Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -976,8 +974,6 @@ Description: "ePI document Bundle for revestive Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -998,8 +994,8 @@ Usage: #example
 
 Instance: mpe89d4b98290873899b23cafcfe5a6a01
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product revestive"
-Description: "revestive"
+Title: "Medicinal Product Revestive 1.25 mg powder and solvent for solution for injection"
+Description: "Revestive 1.25 mg powder and solvent for solution for injection"
 Usage: #inline
 
  
@@ -1012,14 +1008,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Revestive is indicated for the treatment of patients 4 months corrected gestational age and above with"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "revestive"
+  * productName = "Revestive 1.25 mg powder and solvent for solution for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1039,10 +1032,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

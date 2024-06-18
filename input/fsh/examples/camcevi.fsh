@@ -454,11 +454,9 @@ naturligt homon kaldet gonadotropin-frigivende hormon) og virker på samme måde
 hormon for at sænke niveauet af kønshormonet testosteron i kroppen. </p>
 <p>Prostatacancer er følsom over for hormoner, såsom testosteron, og nedsættelse af testosteronniveauet 
 hjælper med at kontrollere væksten af kræften. </p>
-<p>CAMCEVI bruges til at behandle voksne mænd, der har: 
-– 
-hormonafhængig metastatisk prostatakræft og 
-– 
-højrisiko ikke-metastatisk hormonafhængig prostatakræft i kombination med strålebehandling. </p>         </div>"""   
+<h2>CAMCEVI bruges til at behandle voksne mænd, der har:</h2>
+<h2>hormonafhængig metastatisk prostatakræft og</h2>
+<p>højrisiko ikke-metastatisk hormonafhængig prostatakræft i kombination med strålebehandling. </p>         </div>"""   
           
 
              
@@ -467,36 +465,28 @@ højrisiko ikke-metastatisk hormonafhængig prostatakræft i kombination med str
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take camcevi"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du må ikke få CAMCEVI, 
-– 
-hvis du er en kvinde eller et barn under 18 år. 
-– 
-hvis du er allergisk over for leuprorelin eller over for lignende lægemidler, der påvirker dine 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Du må ikke få CAMCEVI,</h2>
+<h2>hvis du er en kvinde eller et barn under 18 år.</h2>
+<p>hvis du er allergisk over for leuprorelin eller over for lignende lægemidler, der påvirker dine 
 kønshormoner (GnRH-agonister). Lægen vil hjælpe dig med at identificere disse, hvis det er 
 nødvendigt. <br />
-– 
+- 
 hvis du er allergisk over for et af de øvrige indholdsstoffer i CAMCEVI (angivet i punkt 6). 
-– 
+- 
 hvis du har fået fjernet testiklerne ved operation. Dette lægemiddel kan ikke hjælpe med at 
 sænke dit testosteronniveau yderligere, hvis du ikke længere har dine testikler. 
-– 
+- 
 som eneste behandling, hvis du lider af symptomer relateret til tryk på rygmarven eller en tumor 
 i rygsøjlen. I dette tilfælde må CAMCEVI kun anvendes i kombination med andre lægemidler 
 mod prostatacancer. </p>
 <p>Advarsler og forsigtighedsregler </p>
-<p>Du skal søge akut lægehjælp, 
-– 
-hvis du får pludselig hovedpine 
-– 
-hvis du får opkastning 
-– 
-hvis du får synstab eller ser dobbelt 
-– 
-hvis du mister evnen til at bevæge musklerne i eller omkring øjet 
-– 
-hvis du får ændret mentaltilstand 
-– 
-hvis du får tidlige symptomer på hjertesvigt, heriblandt 
+<h2>Du skal søge akut lægehjælp,</h2>
+<h2>hvis du får pludselig hovedpine</h2>
+<h2>hvis du får opkastning</h2>
+<h2>hvis du får synstab eller ser dobbelt</h2>
+<h2>hvis du mister evnen til at bevæge musklerne i eller omkring øjet</h2>
+<h2>hvis du får ændret mentaltilstand</h2>
+<p>hvis du får tidlige symptomer på hjertesvigt, heriblandt 
 • hvis du bliver træt 
 • hvis du får hævede ankler 
 • hvis du får øget vandladningstrang om natten 
@@ -510,40 +500,39 @@ for 2 uger efter den første dosis, og nogle inden for den første time. </p>
 nekrolyse (SJS/TEN), i forbindelse med leuprorelin. Stop med at få leuprorelin og søg straks lægehjælp, 
 hvis du bemærker symptomer, der er relateret til disse alvorlige hudreaktioner, som er beskrevet i punkt 
 4. Kontakt lægen, apotekspersonalet eller sygeplejersken, før du får CAMCEVI, 
-– 
+- 
 hvis du får tegn og symptomer på hjerteproblemer som f.eks hurtige kaotiske hjerteslag. Disse 
 hurtige hjerteslag kan få dig til at besvime eller få krampeanfald. 
-– 
+- 
 hvis du har hjerte-kar-sygdom, heriblandt hjerterytmeproblemer (arytmi), eller hvis du får 
 lægemidler mod disse lidelser. Risikoen for disse hjerterytmeproblemer kan forværres, når du 
 får CAMCEVI. Din læge kan overvåge dit hjerte ved hjælp af et EKG (elektrokardiogram). 
-– 
+- 
 hvis du har prostatakræft, der har spredt sig ind i rygraden eller hjernen. Din læge vil overvåge 
 dig mere hyppigt i løbet af de første par ugers behandling. 
-– 
+- 
 hvis du lider af sukkersyge (diabetes mellitus/højt blodsukker). CAMCEVI kan forværre 
 eksisterende sukkersyge, og derfor har diabetikere brug for hyppigere test af 
 blodsukkerniveauer. 
-–    hvis du har en fedtleversygdom (en tilstand, hvor overskydende fedt ophobes i leveren) </p>
-<p>Kontakt lægen, apotekspersonalet eller sygeplejersken under behandling med CAMCEVI, 
-– 
-hvis du får et hjertetilfælde. Symptomerne omfatter brystsmerter, åndenød, svimmelhed og 
+-    hvis du har en fedtleversygdom (en tilstand, hvor overskydende fedt ophobes i leveren) </p>
+<h2>Kontakt lægen, apotekspersonalet eller sygeplejersken under behandling med CAMCEVI,</h2>
+<p>hvis du får et hjertetilfælde. Symptomerne omfatter brystsmerter, åndenød, svimmelhed og 
 svedtendens. 
-– 
+- 
 hvis du får et slagtilfælde. Symptomerne omfatter halvsidig ansigtslammelse, ikke at kunne 
 løfte sine arme og sløret tale. 
-– 
+- 
 hvis du får knoglebrud. Behandling med CAMCEVI kan øge risikoen for knoglebrud på grund 
 af knogleskørhed (osteoporose/fald i knogletæthed). 
-– 
+- 
 hvis du får et krampeanfald. 
-– 
+- 
 hvis du bemærker, at dit blodsukker stiger. Lægen vil overvåge dit blodsukker under 
 behandlingen. 
-– 
+- 
 hvis du har vandladningsbesvær. Der kan være en blokering i dit urinrør. Din læge vil 
 overvåge dig nøje i løbet af de første ugers behandling. 
-– 
+- 
 hvis du får symptomer på rygmarvskompression, såsom smerte, følelsesløshed eller svaghed i 
 arme, hænder, ben eller fødder. Din læge vil overvåge dig nøje i løbet af de første ugers 
 behandling. </p>
@@ -551,12 +540,12 @@ behandling. </p>
 I løbet af de første ugers behandling er der generelt en kort stigning i blodet af det mandlige 
 kønshormon testosteron. Dette kan føre til en midlertidig forværring i sygdomsrelaterede symptomer 
 samt til nye symptomer, som du måske ikke har oplevet før. Disse omfatter især: 
-– 
+- 
 knoglesmerter. 
-– 
+- 
 problemer med vandladning, smerter, følelsesløshed eller svaghed i arme, hænder, ben eller 
 fødder, eller tab af blære- eller tarmkontrol som følge af rygmarvskompression. 
-– 
+- 
 blod i urinen. 
 Disse symptomer mindskes sædvanligvis i løbet af behandling. Hvis ikke, skal du kontakte lægen. </p>
 <p>Du kan få andre lægemidler, inden du starter med CAMCEVI for at hjælpe med at mindske den 
@@ -618,19 +607,13 @@ behandlingen uden først at tale med din læge. </p>
   * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
-<p>Du skal søge akut lægehjælp, 
-– 
-hvis du får pludselig hovedpine 
-– 
-hvis du får opkastning 
-– 
-hvis du får synstab eller ser dobbelt 
-– 
-hvis du mister evnen til at bevæge musklerne i eller omkring øjet 
-– 
-hvis du får ændret mentaltilstand 
-– 
-hvis du får tidlige symptomer på hjertesvigt, heriblandt 
+<h2>Du skal søge akut lægehjælp,</h2>
+<h2>hvis du får pludselig hovedpine</h2>
+<h2>hvis du får opkastning</h2>
+<h2>hvis du får synstab eller ser dobbelt</h2>
+<h2>hvis du mister evnen til at bevæge musklerne i eller omkring øjet</h2>
+<h2>hvis du får ændret mentaltilstand</h2>
+<p>hvis du får tidlige symptomer på hjertesvigt, heriblandt 
 • hvis du bliver træt 
 • hvis du får hævede ankler 
 • hvis du får øget vandladningstrang om natten 
@@ -640,163 +623,140 @@ Disse kan være tegn på en tilstand kaldet hypofyseapopleksi, der omfatter blø
 blodforsyning til hypofysen, der findes nederst i hjernen. Hypofyseapopleksi kan opstå på grund af en 
 tumor i hypofysen og kan i sjældne tilfælde opstå efter behandlingsstart. De fleste tilfælde opstår inden 
 for 2 uger efter den første dosis, og nogle inden for den første time. </p>
-<p>Hyppigheden er ikke kendt (hyppigheden kan ikke vurderes ud fra tilgængelige data): 
-– 
-rødlige, ikke-forhøjede,  eller cirkulære pletter på overkroppen, ofte med centrale vabler, 
+<h2>Hyppigheden er ikke kendt (hyppigheden kan ikke vurderes ud fra tilgængelige data):</h2>
+<p>rødlige, ikke-forhøjede,  eller cirkulære pletter på overkroppen, ofte med centrale vabler, 
 hudafskalning, sår i mund, svælg, næse, kønsorganer og øjne. Disse alvorlige hududslæt kan 
 komme efter feber og influenzalignende symptomer (Stevens-Johnsons syndrom eller toksisk 
 epidermal nekrolyse). 
-– 
+- 
 hudrødme og kløende udslæt. (Toksisk hududslæt) 
-– 
+- 
 en hudreaktion, der forårsager røde pletter på huden, der kan ligne en målskive med en 
 mørkerød midte omgivet af lysere røde cirkler (erythema multiforme). </p>
 <p>Bivirkninger ved behandlingsstart 
 I løbet af den første uge af behandlingen er der generelt en kort stigning i blodet af det mandlige 
 kønshormon testosteron. Dette kan medføre en midlertidig forværring i de sygdomsrelaterede 
 symptomer samt medføre nye symptomer, som du måske ikke har oplevet før. Disse omfatter især: 
-– 
+- 
 knoglesmerter 
-– 
+- 
 vandladningsproblemer, smerter, følelsesløshed eller svaghed i arme, hænder, ben eller fødder, 
 eller tab af blære- eller tarmkontrol, som kan være symptomer på rygmarvskompression 
-– 
+- 
 blod i urinen. 
 Din læge kan give dig et andet lægemiddel i begyndelsen af behandlingen for at nedsætte nogle af 
 disse indledende bivirkninger (se også punkt 2 Problemer som kan opstå i løbet af de første ugers 
 behandling). </p>
 <p>Bivirkninger på indsprøjtningsstedet 
 Du kan få følgende bivirkninger omkring indsprøjtningsstedet efter din indsprøjtning: 
-– 
+- 
 let brændende fornemmelse og følelsesløshed umiddelbart efter indsprøjtningen (meget 
 almindelig: kan forekomme hos flere end 1 ud af 10 patienter) 
-– 
+- 
 smerter, blå mærker og svien efter indsprøjtningen (almindelig: kan forekomme hos op til 1 ud 
 af 10 patienter) 
-– 
+- 
 kløe og hårdhed omkring indsprøjtningsstedet (ikke almindelig: kan forekomme hos op til 1 ud 
 af 100 patienter) 
-– 
+- 
 beskadiget hud eller øm hud på indsprøjtningsstedet (sjælden: kan forekomme hos op til 1 ud af 
 1.000 patienter) 
-– 
+- 
 dødt væv på indsprøjtningsstedet (meget sjælden, kan forekomme hos op til 1 ud af 10.patienter). 
 Disse bivirkninger er milde og kortvarige. De forekommer kun på tidspunktet for din indsprøjtning. 
 Tal med lægen, hvis du får nogen af disse bivirkninger, </p>
-<p>Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 patienter) 
-– 
-hedeture 
-– 
-blå mærker og/eller rødme i huden 
-– 
-træthed </p>
-<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 patienter) 
-– 
-symptomer på almindelig forkølelse (virusinfektion i næse/svælg) 
-– 
-kvalme, diarré, betændelse i mave og tarm (gastroenteritis/colitis) 
-– 
-kløe<br />
-– 
-nattesved 
-– 
-ledsmerter, smerter i arme og ben, muskelsmerter 
-– 
-behov for at lade vandet oftere end normalt, også om natten, vandladningsbesvær, smerter ved 
+<h2>Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 patienter)</h2>
+<h2>hedeture</h2>
+<h2>blå mærker og/eller rødme i huden</h2>
+<p>træthed </p>
+<h2>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 patienter)</h2>
+<h2>symptomer på almindelig forkølelse (virusinfektion i næse/svælg)</h2>
+<h2>kvalme, diarré, betændelse i mave og tarm (gastroenteritis/colitis)</h2>
+<h2>kløe</h2>
+<h2>nattesved</h2>
+<h2>ledsmerter, smerter i arme og ben, muskelsmerter</h2>
+<p>behov for at lade vandet oftere end normalt, også om natten, vandladningsbesvær, smerter ved 
 vandladning, for lidt vandladning eller behov for at lade vandet mindre hyppigt 
-– 
+- 
 ømhed og/eller hævelse af brstet, formindskelse af testikler, smerter i testiklerne, ufrugtbarhed,<br />
 (manglende rejsning), nedsat penisstørrelse 
-– 
+- 
 tilfælde af voldsom rysten med høj feber (kulderystelser), svaghed i kroppen eller almen følelse 
 af utilpashed 
-– 
+- 
 ændringer i blodprøver, (forlænget blødningstid, ændringer i blodværdier, nedsat antal røde 
 blodlegemer/lavt antal røde blodlegemer). </p>
-<p>Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 patienter) 
-– 
-urinvejsinfektion, lokal hudinfektion 
-– 
-forværring af sukkersyge (diabetes mellitus) 
-– 
-unormale drømme, depression, nedsat sexlyst 
-– 
-svimmelhed, hovedpine, delvist eller totalt tab af følelse i en del af din krop, søvnløshed, 
+<h2>Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 patienter)</h2>
+<h2>urinvejsinfektion, lokal hudinfektion</h2>
+<h2>forværring af sukkersyge (diabetes mellitus)</h2>
+<h2>unormale drømme, depression, nedsat sexlyst</h2>
+<p>svimmelhed, hovedpine, delvist eller totalt tab af følelse i en del af din krop, søvnløshed, 
 unormal ændring i smag og/eller lugt 
-– 
+- 
 ørhed ogtab af balance 
-– 
+- 
 ændringer i EKG-resultater (elektrokardiogram [EKG] (QT-forlængelse)hjerteanfald. 
 Symptomer omfatter brystsmerter, åndenød, svimmelhed og svedtendens 
-– 
+- 
 højt eller lavt blodtryk 
-– 
+- 
 løbende næseåndenød 
-– 
+- 
 forstoppelse, mundtørhed,  (fordøjelsesbesvær med symptomer på mæthed, mavesmerter, 
 bøvsen, kvalme, opkastning, brændende følelse i maven (dyspepsi), opkastning 
-– 
+- 
 følelse af koldsved og øget svedtendens 
-– 
+- 
 rygsmerter, muskelkramper 
-– 
+- 
 blærespasmer, blod i urinen, overaktiv blære (behov for at lade vandet før blæren er fuld), 
 manglende vandladningsevne 
-– 
+- 
 forstørrede bryster, impotensproblemer med testikler (f.eks. hævet, rød eller varm pung, smerter 
 eller ubehag i bækkenområdet) 
-– 
+- 
 søvnighed (døsighed), smerter,feber 
-– 
+- 
 ændringer i blodprøver, vægtøgning 
-– </p>
-<p>Sjældne bivirkninger (kan forekomme hos op til 1 ud af 1.000 patienter) 
-– 
-kroppen bevæger sig på en ukontrollérbar og utilsigtet måde 
-– 
-besvimelse, kollaps 
-– 
-prutten og bøvsen 
-– 
-hårtab, bumser på huden 
-– 
-smerter i brystet </p>
-<p>Hyppigheden er ikke kendt (hyppigheden kan ikke vurderes ud fra tilgængelige data): 
-– 
-inflammation af lungerne, interstitiel lungesygdom 
-– 
-idiopatisk intrakraniel hypertension (øget intrakranielt tryk omkring hjernen kendetegnet 
+- </p>
+<h2>Sjældne bivirkninger (kan forekomme hos op til 1 ud af 1.000 patienter)</h2>
+<h2>kroppen bevæger sig på en ukontrollérbar og utilsigtet måde</h2>
+<h2>besvimelse, kollaps</h2>
+<h2>prutten og bøvsen</h2>
+<h2>hårtab, bumser på huden</h2>
+<p>smerter i brystet </p>
+<h2>Hyppigheden er ikke kendt (hyppigheden kan ikke vurderes ud fra tilgængelige data):</h2>
+<h2>inflammation af lungerne, interstitiel lungesygdom</h2>
+<p>idiopatisk intrakraniel hypertension (øget intrakranielt tryk omkring hjernen kendetegnet 
 ved hovedpine, dobbeltsyn eller andre synsforstyrrelser samt ringen eller summen for et 
 eller begge ører). </p>
 <p>Følgende alvorlige allergiske reaktioner er blevet indberettet ved brug af lægemidler i samme 
 gruppe som CAMCEVI 
-– 
+- 
 åndedrætsbesvær eller svimmelhed (sjælden). </p>
-<p>Følgende bivirkninger er blevet indberettet med andre lægemidler, der indeholder leuprorelin 
-– 
-hævelse af hænder og fødder (ødem) 
-– 
-symptomer på lungeemboli (en blodprop i de kar, der forsyner lungerne), herunder brystsmerter, 
+<h2>Følgende bivirkninger er blevet indberettet med andre lægemidler, der indeholder leuprorelin</h2>
+<h2>hævelse af hænder og fødder (ødem)</h2>
+<p>symptomer på lungeemboli (en blodprop i de kar, der forsyner lungerne), herunder brystsmerter, 
 åndenød, åndedrætsbesvær og ophostning af blod 
-– 
+- 
 en mærkbar hurtig, stærk eller uregelmæssig puls 
-– 
+- 
 svage muskler 
-– 
+- 
 kulderystelser 
-– 
+- 
 udslæt 
-– 
+- 
 nedsat hukommelse 
-– 
+- 
 nedsat syn 
-– 
+- 
 muskelsvind/tab af muskelvæv efter langvarig brug 
-– 
+- 
 knogleskørhed (osteoporose), og derfor er der en højere risiko for knoglebrud. </p>
 <p>Følgende bivirkning er blevet indberettet ved brug af lægemidler i samme gruppe som 
 CAMCEVI 
-– 
+- 
 krampeanfald. </p>
 <p>Indberetning af bivirkninger 
 Hvis du oplever bivirkninger, bør du tale med lægen, apotekspersonalet eller sygeplejersken. Dette 
@@ -826,12 +786,12 @@ ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.  </p>  
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>CAMCEVI indeholder: </p>
-<p>– 
-Aktivt stof/aktive stoffer: leuprorelin.<br />
+<ul>
+<li>Aktivt stof/aktive stoffer: leuprorelin.<br />
 Én fyldt sprøjte med depotinjektionsvæske indeholder leuprorelinmesilat svarende til 42 mg 
-leuprorelin. 
-– 
-Øvrige indholdsstoffer: poly(d,l-lactid) og N-methyl-pyrrolidon. </p>
+leuprorelin. </li>
+<li>Øvrige indholdsstoffer: poly(d,l-lactid) og N-methyl-pyrrolidon. </li>
+</ul>
 <p>Udseende og pakningsstørrelser 
 CAMCEVI er en depotinjektionsvæske. Fyldt sprøjte med råhvid til bleggul tyktflydende og 
 uigennemsigtig suspension. </p>
@@ -855,15 +815,14 @@ hjemmeside http://www.ema.europa.eu. </p>
 <p>Følg vejledningen som anvist for at sikre korrekt klargøring af CAMCEVI før indgivelse. </p>
 <p>Vigtigt: Lad CAMCEVI opnå stuetemperatur (15°C til 25°C) før brug. Det anbefales at bruge 
 handsker under indgivelse. </p>
-<p>CAMCEVI indeholder: 
-– 
-Én blisterpakning med: 
+<h2>CAMCEVI indeholder:</h2>
+<p>Én blisterpakning med: 
 • En steril fyldt sprøjte. 
 • En steril kanyle. 
-– 
+- 
 En Point-Lok® kanylebeskyttelsesenhed (ikke-steril). </p>
 <p>Samlet, fyldt sprøjte med Point-Lok: </p>
-<p>Trin 1 – Klargør lægemidlet:  </p>
+<p>Trin 1 - Klargør lægemidlet:  </p>
 <p>Lad produktet opnå stuetemperatur og inspicér indholdet 
  
 Tag CAMCEVI ud af køleskabet.<br />
@@ -887,7 +846,7 @@ Inspicér lægemidlet visuelt før brug. Den fyldte sprøjte
 skal indeholde råhvid til bleggul viskøs og 
 uigennemsigtig suspension. Må ikke anvendes, hvis der 
 bemærkes fremmedlegemer inde i sprøjtecylinderen. </p>
-<p>Trin 2 – Samling af sprøjte: 
+<p>Trin 2 - Samling af sprøjte: 
 Sæt kanylen på </p>
 <p> 
 Fjern den grå hætte fra sprøjten (A). 
@@ -900,7 +859,7 @@ dreje kanylen for hårdt, så den drejer over gevind for at
 undgå muligt brud og lækage af lægemidlet. Kassér 
 fyldt CAMCEVI-sprøjte, hvis kanylegevindet er 
 beskadiget. </p>
-<p>Trin 3 – Administrationsprocedure: 
+<p>Trin 3 - Administrationsprocedure: 
 Klargør injektionsstedet </p>
 <p>Indgiv behandling </p>
 <p> 
@@ -973,8 +932,6 @@ Description: "ePI document Bundle for camcevi Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -997,8 +954,6 @@ Description: "ePI document Bundle for camcevi Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1019,8 +974,8 @@ Usage: #example
 
 Instance: mpd96fa44827f5ab161c32cbffe0ee34b9
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product camcevi"
-Description: "camcevi"
+Title: "Medicinal Product CAMCEVI 42 mg prolonged-release suspension for injection"
+Description: "CAMCEVI 42 mg prolonged-release suspension for injection"
 Usage: #inline
 
  
@@ -1033,14 +988,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "CAMCEVI is indicated for the treatment of hormone dependent advanced prostate cancer and"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "camcevi"
+  * productName = "CAMCEVI 42 mg prolonged-release suspension for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1060,10 +1012,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

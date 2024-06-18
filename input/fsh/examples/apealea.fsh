@@ -470,11 +470,11 @@ hurtigt, f.eks. tumorceller. </p>
 kræftsygdomme hos voksne: </p>
 <ul>
 <li>
-<p>epitelial æggestokkræft – en kræftsygdom i æggestokkene, dvs. de organer, der producerer 
+<p>epitelial æggestokkræft - en kræftsygdom i æggestokkene, dvs. de organer, der producerer 
 kvindens ægceller  </p>
 </li>
 <li>
-<p>primær bughindekræft – en kræftsygdom i bughindens celler, dvs. den hinde, der beklæder 
+<p>primær bughindekræft - en kræftsygdom i bughindens celler, dvs. den hinde, der beklæder 
 bughulens vægge og de indre organer i bughulen </p>
 </li>
 <li>
@@ -909,7 +909,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på etiketten og æsken efter EXP. Udløbsdatoen er 
 den sidste dag i den nævnte måned. </p>
-<p>Uåbnede hætteglas: Opbevares i køleskab (2 °C – 8 °C). Opbevar hætteglasset i den ydre karton for 
+<p>Uåbnede hætteglas: Opbevares i køleskab (2 °C - 8 °C). Opbevar hætteglasset i den ydre karton for 
 at beskytte mod lys. </p>
 <p>Det anbefales, at Apealea anvendes med det samme efter åbning. </p>
 <p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. Af 
@@ -1051,8 +1051,6 @@ Description: "ePI document Bundle for apealea Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1075,8 +1073,6 @@ Description: "ePI document Bundle for apealea Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1097,8 +1093,8 @@ Usage: #example
 
 Instance: mp16b17145743fb4005511a462dcbf7da1
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product apealea"
-Description: "apealea"
+Title: "Medicinal Product Apealea 60 mg powder for solution for infusion"
+Description: "Apealea 60 mg powder for solution for infusion"
 Usage: #inline
 
  
@@ -1111,14 +1107,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Apealea in combination with carboplatin is indicated for the treatment of adult patients with first"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "apealea"
+  * productName = "Apealea 60 mg powder for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1138,10 +1131,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

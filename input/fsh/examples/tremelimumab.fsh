@@ -697,7 +697,7 @@ ansvarligt for opbevaringen.
 Opbevar lægemidlet utilgængeligt for børn.
 Brug ikke lægemidlet efter den udløbsdato, der står på æsken og hætteglassets etiket efter EXP. 
 Udløbsdatoen er den sidste dag i den nævnte måned.
-Opbevares i køleskab (2 °C – 8 °C).
+Opbevares i køleskab (2 °C - 8 °C).
 Må ikke nedfryses. 
 Opbevares i den originale yderpakning for at beskytte mod lys.
 Brug ikke lægemidlet, hvis det er uklart, misfarvet eller indeholder synlige partikler.
@@ -875,8 +875,6 @@ Description: "ePI document Bundle for tremelimumab Package Leaflet for language 
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -899,8 +897,6 @@ Description: "ePI document Bundle for tremelimumab Package Leaflet for language 
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -921,8 +917,8 @@ Usage: #example
 
 Instance: mp61c550567cdacc51b535f7056828dfc2
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product tremelimumab"
-Description: "tremelimumab"
+Title: "Medicinal Product Tremelimumab AstraZeneca 20 mg/ml concentrate for solution for infusion."
+Description: "Tremelimumab AstraZeneca 20 mg/ml concentrate for solution for infusion."
 Usage: #inline
 
  
@@ -935,14 +931,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Tremelimumab AstraZeneca in combination with durvalumab and platinum-based chemotherapy is"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "tremelimumab"
+  * productName = "Tremelimumab AstraZeneca 20 mg/ml concentrate for solution for infusion."
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -962,10 +955,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

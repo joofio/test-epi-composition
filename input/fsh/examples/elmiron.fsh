@@ -690,8 +690,6 @@ Description: "ePI document Bundle for elmiron Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -714,8 +712,6 @@ Description: "ePI document Bundle for elmiron Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -736,8 +732,8 @@ Usage: #example
 
 Instance: mp5245a6b0f8b8592e9406a25ffe7ba2b2
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product elmiron"
-Description: "elmiron"
+Title: "Medicinal Product elmiron 100 mg capsules, hard"
+Description: "elmiron 100 mg capsules, hard"
 Usage: #inline
 
  
@@ -750,14 +746,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "elmiron is indicated for the treatment of bladder pain syndrome characterized by either glomerulations"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "elmiron"
+  * productName = "elmiron 100 mg capsules, hard"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -777,10 +770,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

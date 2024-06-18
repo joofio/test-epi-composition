@@ -597,7 +597,7 @@ ikke er sænket tilstrækkeligt med enten telmisartan eller med hydrochlorthiazi
 hvis du er allergisk over for hydrochlorthiazid eller andet sulphonamidholdigt lægemiddel.
 -
 hvis du er gravid og mere end 3 måneder henne i din graviditet. (det er også bedst at undgå 
-Tolucombi tidligt i graviditeten – se afsnittet "Graviditet og amning").
+Tolucombi tidligt i graviditeten - se afsnittet "Graviditet og amning").
 59
 -
 hvis du har alvorlige leverproblemer, som f.eks. galdeophobning i galdegangene eller problemer 
@@ -916,9 +916,9 @@ Hver tablet indeholder 80 mg telmisartan og 12,5 mg hydrochlorthiazid.
 Hver tablet indeholder 80 mg telmisartan og 25 mg hydrochlorthiazid.
 -
 Øvrige indholdsstoffer: hydroxypropylcellulose, lactosemonohydrat, magnesiumstearat, 
-mannitol, meglumin, povidon (K30), rød jernoxid (E172) – kun i 40 mg/12,5 mg og 
+mannitol, meglumin, povidon (K30), rød jernoxid (E172) - kun i 40 mg/12,5 mg og 
 80 mg/12,5 mg tabletter, kolloid vandfri silica, natriumhydroxid (E524), natriumstearylfumarat, 
-sorbitol (E420) og gul jernoxid (E172) – kun i 80 mg/25 mg tabletter. Se punkt 2 "Tolucombi 
+sorbitol (E420) og gul jernoxid (E172) - kun i 80 mg/25 mg tabletter. Se punkt 2 "Tolucombi 
 indeholder lactose, sorbitol og natrium".
 Udseende og pakningsstørrelser
 40 mg/12,5 mg tabletter: dobbeltlaget, hvælvet, oval tablet, hvid til næsten hvid eller svagt lyserød på 
@@ -1047,8 +1047,6 @@ Description: "ePI document Bundle for tolucombi Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1071,8 +1069,6 @@ Description: "ePI document Bundle for tolucombi Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1093,8 +1089,8 @@ Usage: #example
 
 Instance: mp524ff85a84e081511904d5b0500b5714
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product tolucombi"
-Description: "tolucombi"
+Title: "Medicinal Product Tolucombi 40 mg/12.5 mg tablets"
+Description: "Tolucombi 40 mg/12.5 mg tablets"
 Usage: #inline
 
  
@@ -1107,14 +1103,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Treatment of essential hypertension."
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "tolucombi"
+  * productName = "Tolucombi 40 mg/12.5 mg tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1134,10 +1127,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

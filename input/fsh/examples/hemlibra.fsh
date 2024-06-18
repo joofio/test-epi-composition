@@ -1816,8 +1816,6 @@ Description: "ePI document Bundle for hemlibra Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1840,8 +1838,6 @@ Description: "ePI document Bundle for hemlibra Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1862,8 +1858,8 @@ Usage: #example
 
 Instance: mp46ce8c3bfb2b68d2cb00bd6f9c79816f
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product hemlibra"
-Description: "hemlibra"
+Title: "Medicinal Product Hemlibra 30 mg/mL solution for injection"
+Description: "Hemlibra 30 mg/mL solution for injection"
 Usage: #inline
 
  
@@ -1876,14 +1872,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Hemlibra is indicated for routine prophylaxis of bleeding episodes in patients with haemophilia A"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "hemlibra"
+  * productName = "Hemlibra 30 mg/mL solution for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1903,10 +1896,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

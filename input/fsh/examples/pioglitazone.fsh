@@ -793,8 +793,6 @@ Description: "ePI document Bundle for pioglitazone Package Leaflet for language 
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -817,8 +815,6 @@ Description: "ePI document Bundle for pioglitazone Package Leaflet for language 
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -839,8 +835,8 @@ Usage: #example
 
 Instance: mp7829b4b361ffed64965739b1e7cc1436
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product pioglitazone"
-Description: "pioglitazone"
+Title: "Medicinal Product Pioglitazone Actavis 15 mg tablets"
+Description: "Pioglitazone Actavis 15 mg tablets"
 Usage: #inline
 
  
@@ -853,14 +849,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Pioglitazone is indicated as second or third line treatment of type 2 diabetes mellitus as described"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "pioglitazone"
+  * productName = "Pioglitazone Actavis 15 mg tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -880,10 +873,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

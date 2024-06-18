@@ -640,7 +640,7 @@ knoglemarven, så nye blodlegemer kan vokse efter behandlingen med Casgevy. </p>
 </li>
 <li>
 <p>Lægen vil tale med dig om den mulige virkning af det konditionerende lægemiddel på 
-frugtbarheden. Se nedenfor under ”Fertilitet hos mænd og kvinder”. </p>
+frugtbarheden. Se nedenfor under "Fertilitet hos mænd og kvinder". </p>
 </li>
 <li>
 <p>Hos personer med SCD kan det være mere besværligt at flytte blodstamcellerne fra 
@@ -687,7 +687,7 @@ gang om året i 15 år for eventuelle tegn på blodkræft. </p>
 <p>Indholdsstoffer i Casgevy, der kaldes dimethylsulfoxid (DMSO), dextran 40 og Cas9, kan medføre 
 alvorlige allergiske reaktioner. Din læge eller sygeplejerske vil overvåge dig for tegn og 
 symptomer på en allergisk reaktion, både under og efter behandlingen med Casgevy. Se også pkt. 
-2 ”Casgevy indeholder natrium og dimethylsulfoxid (DMSO)”. </p>
+2 "Casgevy indeholder natrium og dimethylsulfoxid (DMSO)". </p>
 </li>
 <li>
 <p>Casgevy testes for tilstedeværelse af infektiøse mikrober, men der er stadig en lille risiko for 
@@ -756,7 +756,7 @@ motorkøretøj, betjene maskiner eller deltage i aktiviteter, der kræver, at du
 Dette lægemiddel indeholder ca. 5,3-70 mg natrium (hovedkomponent af madlavnings-/bordsalt) pr. 
 hætteglas. Dette svarer til 0,3-4 % af den anbefalede maksimale daglige indtagelse af natrium for en 
 voksen. Det samlede antal hætteglas, der udgør en dosis, varierer fra patient til patient. </p>
-<p>Dette lægemiddel indeholder ca. 50 mg DMSO pr. ml. Se pkt. 2 ”Advarsler og forsigtighedsregler”. </p>         </div>"""   
+<p>Dette lægemiddel indeholder ca. 50 mg DMSO pr. ml. Se pkt. 2 "Advarsler og forsigtighedsregler". </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take casgevy"
@@ -772,7 +772,7 @@ en maskine, der adskiller de forskellige blodlegemer (dette kaldes aferese). Hel
 sted mere end én gang. Hvert indsamlingstrin tager cirka en uge. </p>
 <p>’Nødceller’ indsamles og opbevares også på hospitalet. Disse er dine eksisterende blodstamceller, og 
 de opbevares ubehandlet i tilfælde af, at der er et problem i behandlingsprocessen. Se ovenfor i pkt. 2, 
-”Hvis Casgevy-behandlingen ikke kan gennemføres eller mislykkes”. </p>
+"Hvis Casgevy-behandlingen ikke kan gennemføres eller mislykkes". </p>
 <p>TRIN 2: Dine blodstamceller sendes til produktionsstedet, hvor de bruges til at producere Casgevy. 
 Det kan tage op til 6 måneder fra det tidspunkt, hvor dine celler indsamles, at producere og teste 
 Casgevy, før det sendes tilbage til din læge. </p>
@@ -1010,8 +1010,8 @@ overensstemmelse med lokale retningslinjer om håndtering af humant materiale. <
 <li>Aktivt stof: exagamglogenautotemcel. Hver ml Casgevy indeholder 4-13 × 106 CD34+-celler 
 (blodstamceller). </li>
 <li>Øvrige indholdsstoffer: en opløsning, der anvendes til konservering af frosne celler, som indeholder 
-natrium, dimethylsulfoxid (DMSO) og dextran 40. Se pkt. 2 ”Det skal du vide, før du begynder at få 
-Casgevy”. </li>
+natrium, dimethylsulfoxid (DMSO) og dextran 40. Se pkt. 2 "Det skal du vide, før du begynder at få 
+Casgevy". </li>
 </ul>
 <p>Udseende og pakningsstørrelser </p>
 <p>Casgevy er en halvgennemsigtig infusionsvæske, dispersion. Casgevy leveres i hætteglas 
@@ -1186,7 +1186,7 @@ og der trykkes med et jævnt tryk, indtil der høres et enkelt smæld. </p>
 <p>Sprøjten fyldt med præparat fjernes fra filteret og lægges til side. </p>
 </li>
 <li>
-<p>5–10 ml natriumchlorid 9 mg/ml (0,9 %) injektionsvæske, opløsning trækkes op i den tomme 
+<p>5-10 ml natriumchlorid 9 mg/ml (0,9 %) injektionsvæske, opløsning trækkes op i den tomme 
 10 ml sprøjte. </p>
 </li>
 <li>
@@ -1254,8 +1254,6 @@ Description: "ePI document Bundle for casgevy Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1278,8 +1276,6 @@ Description: "ePI document Bundle for casgevy Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1300,8 +1296,8 @@ Usage: #example
 
 Instance: mp7231462c5958bc15b9c9fab8da21ba25
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product casgevy"
-Description: "casgevy"
+Title: "Medicinal Product Casgevy 4 - 13 × 106 cells/mL dispersion for infusion"
+Description: "Casgevy 4 - 13 × 106 cells/mL dispersion for infusion"
 Usage: #inline
 
  
@@ -1314,14 +1310,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "β-thalassemia"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "casgevy"
+  * productName = "Casgevy 4 - 13 × 106 cells/mL dispersion for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1341,10 +1334,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

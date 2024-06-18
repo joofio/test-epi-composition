@@ -662,7 +662,7 @@ eller metallisk smag i munden eller en forandret lugt af din urin eller sved, el
 vægttab. </p>
 </li>
 <li>
-<p>De ovennævnte symptomer kan være tegn på "diabetisk ketoacidose" – en sjælden, men 
+<p>De ovennævnte symptomer kan være tegn på "diabetisk ketoacidose" - en sjælden, men 
 alvorlig, til tider livstruende komplikation, du kan få ved diabetes på grund af forhøjet niveau 
 af "ketonstoffer" i urinen eller blodet, som kan ses i laboratorieanalyser. </p>
 </li>
@@ -689,15 +689,15 @@ der ødelægger vævet under huden. Fourniers gangræn skal behandles øjeblikke
 <p>Kontakt lægen, apotekspersonalet eller sygeplejersken, før du tager Dapagliflozin Viatris: </p>
 <ul>
 <li>
-<p>Hvis du har "type 1-diabetes" – den type, der normalt starter, når du er ung, og din krop ikke 
+<p>Hvis du har "type 1-diabetes" - den type, der normalt starter, når du er ung, og din krop ikke 
 producerer noget insulin. </p>
 </li>
 <li>
-<p>Hvis du har diabetes og et nyreproblem – vil din læge måske bede dig om at tage nogle andre 
+<p>Hvis du har diabetes og et nyreproblem - vil din læge måske bede dig om at tage nogle andre 
 eller et andet lægemiddel for at kontrollere dit blodsukker. </p>
 </li>
 <li>
-<p>Hvis du har et leverproblem – vil din læge måske give dig en lavere startdosis. </p>
+<p>Hvis du har et leverproblem - vil din læge måske give dig en lavere startdosis. </p>
 </li>
 <li>
 <p>Hvis du tager lægemidler, der skal sænke dit blodtryk (anti-hypertensiva) og har en 
@@ -857,7 +857,7 @@ Nedenstående symptomer er tegn på angioødem:</p>
 <p>nældefeber og åndedrætsbesvær. </p>
 </li>
 <li>
-<p>diabetisk ketoacidose – dette er sjældent hos patienter med type 2-diabetes (kan forekomme 
+<p>diabetisk ketoacidose - dette er sjældent hos patienter med type 2-diabetes (kan forekomme 
 hos op til 1 ud af 1 000 personer). 
 Nedenstående symptomer er tegn på diabetisk ketoacidose (se også punkt 2, Advarsler og 
 forsigtighedsregler):</p>
@@ -885,7 +885,7 @@ kønsdelene eller området mellem kønsdelene og anus, forekommer meget sjælden
 følgende alvorlige bivirkninger: </p>
 <ul>
 <li>
-<p>urinvejsinfektion – en almindelig bivirkning (kan forekomme hos op til 1 ud af 10 personer). 
+<p>urinvejsinfektion - en almindelig bivirkning (kan forekomme hos op til 1 ud af 10 personer). 
 Følgende er tegn på en alvorlig urinvejsinfektion:</p>
 </li>
 <li>
@@ -1148,8 +1148,6 @@ Description: "ePI document Bundle for dapagliflozin Package Leaflet for language
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1172,8 +1170,6 @@ Description: "ePI document Bundle for dapagliflozin Package Leaflet for language
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1194,8 +1190,8 @@ Usage: #example
 
 Instance: mp47e609a7556335e73540caeda7f501b2
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product dapagliflozin"
-Description: "dapagliflozin"
+Title: "Medicinal Product Dapagliflozin Viatris 5 mg film-coated tablets"
+Description: "Dapagliflozin Viatris 5 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1208,14 +1204,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Type 2 diabetes mellitus"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "dapagliflozin"
+  * productName = "Dapagliflozin Viatris 5 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1235,10 +1228,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

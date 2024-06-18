@@ -573,13 +573,13 @@ blødende sår,
  
 forsnævring af arterierne (systemisk perifer arteriel sygdom), 
  
-hjertesygdom (for alvorlige hjerteproblemer, se ovenfor under “Tag ikke Ceplene”), 
+hjertesygdom (for alvorlige hjerteproblemer, se ovenfor under “Tag ikke Ceplene"), 
  
 tidligere autoimmun sygdom (en sygdom, hvor immunsystemet angriber kroppens egne celler 
 eller væv, såsom systemisk lupus, rheumatoid artritis, inflammatorisk tarmsygdom eller 
 psoriasis). </p>
 <p>Hvis du tager anden medicin, som er nævnt under “Anvendelse af anden medicin sammen med 
-Ceplene”, eller hvis du skal gennemgå en operation eller speciel røntgenundersøgelse, som kræver en 
+Ceplene", eller hvis du skal gennemgå en operation eller speciel røntgenundersøgelse, som kræver en 
 injektion, så tal med lægen om det. </p>
 <p>Hvis du har en infektion, vil din læge omhyggeligt overvåge dig. Hvis du har haft en infektion inden 
 for de sidste 14 dage før denne behandling påbegyndtes, som indebar, at du var nødt til at tage 
@@ -600,11 +600,11 @@ apoteket, før du anvender Ceplene. Nogle af dem må ikke tages samtidigt med be
 Ceplene eller kan kræve særlige forholdsregler: 
  
 Medicin anvendes til at hæmme immunsystemets aktivitet (immunsuppressiva) og til at 
-reducere betændelsestilstande. (se ovenfor under “Tag ikke Ceplene”). 
+reducere betændelsestilstande. (se ovenfor under “Tag ikke Ceplene"). 
  Det drejer sig om steroider såsom prednison og dexamethason.<br />
  
 Medicin, som anvendes til behandling af mavesår, fordøjelsesbesvær (dyspepsi) eller halsbrand 
-(se ovenfor under “Tag ikke Ceplene”). Det drejer sig om såkaldte H2-blokkere såsom 
+(se ovenfor under “Tag ikke Ceplene"). Det drejer sig om såkaldte H2-blokkere såsom 
 cimetidin, ranitidin, famotidin eller nizatidin.<br />
  
 Medicin, som anvendes til behandling af allergi (antihistaminer)<br />
@@ -675,7 +675,7 @@ injektioner, medmindre du har fået særlig instruktion i det af en læge eller 
 familiemedlem, en ven eller anden omsorgsperson, som kan hjælpe dig, hvis du føler dig svimmel 
 eller besvimer.  </p>
 <p>For yderligere oplysninger om, hvordan du skal injicere lægemidlet, kan du læse afsnittet 
-“VEJLEDNING I SELVINJEKTION AF CEPLENE” sidst i indlægssedlen. </p>
+“VEJLEDNING I SELVINJEKTION AF CEPLENE" sidst i indlægssedlen. </p>
 <p>Din læge kan tilråde, at du bruger en sprøjtepumpe for at regulere indsprøjtningen af Ceplene. Hvis du 
 bruger en sprøjtepumpe, bør du gennemlæse pumpeproducentens vejledning og få særlig instruktion 
 hos din læge eller sygeplejerske. </p>
@@ -770,7 +770,7 @@ Væskeansamling i kroppen, især i benene (ødem)
 Vægttab </p>
 <p>Almindelige bivirkninger (det sker hos mellem 1 og 10 ud af 100 personer)  </p>
 <p> 
-Følelse af, at “det hele kører rundt” (vertigo) 
+Følelse af, at “det hele kører rundt" (vertigo) 
  
 Kroppen danner ikke tilstrækkeligt thyroxin, et kemikalie i kroppen, som kaldes et hormon 
 (hypothyroidisme) 
@@ -838,7 +838,7 @@ Labiana Pharmaceuticals, S.L.U.
 C/ Casanova, 27-08757 Corbera de Llobregat (Barcelona) 
 Spanien 
 Denne indlægsseddel blev senest ændret 
-Dette lægemiddel er godkendt under “særlige vilkår”. Det betyder, at det ikke har været muligt at 
+Dette lægemiddel er godkendt under “særlige vilkår". Det betyder, at det ikke har været muligt at 
 opnå fuldstændig dokumentation for Ceplene, fordi det anvendes til en sjælden sygdom. Det 
 Europæiske Lægemiddelagentur vil hvert år vurdere nye oplysninger om Ceplene, og denne 
 indlægsseddel vil om nødvendigt blive ajourført.<br />
@@ -849,7 +849,7 @@ hvordan de behandles.
 VEJLEDNING I SELVINJEKTION AF CEPLENE 
 Dette afsnit indeholder oplysninger om, hvordan du selv injicerer Ceplene. 
 For generelle oplysninger om dosering og anvendelse af Ceplene og IL-2 henvises til afsnit 3, 
-“Sådan skal du tage Ceplene”.  </p>
+“Sådan skal du tage Ceplene".  </p>
 <p>Læs omhyggeligt nedenstående vejledning. Det er vigtigt, at du ikke forsøger at give dig selv 
 injektioner, medmindre du har fået særlig instruktion heri af din læge eller sygeplejerske. Hvis du ikke 
 er sikker på, hvordan du giver injektionen, eller hvis du har spørgsmål, bør du bede din læge eller 
@@ -907,7 +907,7 @@ destruktion.
  BEMÆRK: Hætteglassene indeholder et overskud af opløsning (overfyldning) for at lette 
 udtagning af en enkelt 0,5 ml dosis.  </li>
 <li>Kontrollér sprøjten en ekstra gang for at sikre dig, at du har trukket den rette mængde op.  </li>
-<li>Tag fat i sprøjten og følg informationen “VEJLEDNING I INJEKTION” nedenfor.  </li>
+<li>Tag fat i sprøjten og følg informationen “VEJLEDNING I INJEKTION" nedenfor.  </li>
 </ol>
 <p>VEJLEDNING I INJEKTION </p>
 <p>Du skal i reglen injicere to doser á 0,5 ml om dagen, medmindre din læge har ordineret en lavere dosis 
@@ -974,8 +974,6 @@ Description: "ePI document Bundle for ceplene Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -998,8 +996,6 @@ Description: "ePI document Bundle for ceplene Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1020,8 +1016,8 @@ Usage: #example
 
 Instance: mp9cc5a377e0f85672103b781eea8f9015
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product ceplene"
-Description: "ceplene"
+Title: "Medicinal Product Ceplene 0.5 mg/0.5 mL solution for injection"
+Description: "Ceplene 0.5 mg/0.5 mL solution for injection"
 Usage: #inline
 
  
@@ -1034,14 +1030,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Ceplene maintenance therapy is indicated for adult patients with acute myeloid leukaemia (AML) in"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "ceplene"
+  * productName = "Ceplene 0.5 mg/0.5 mL solution for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1061,10 +1054,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

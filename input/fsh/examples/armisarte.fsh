@@ -772,7 +772,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken og hætteglassets etiket efter EXP. 
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Ubrudt hætteglas 
-Opbevares i køleskab og transporteres nedkølet (2 °C – 8 °C). 
+Opbevares i køleskab og transporteres nedkølet (2 °C - 8 °C). 
 Må ikke nedfryses. 
 Opbevares i den originale yderpakning for at beskytte mod lys.  </p>
 <p>Efter første anbrud af hætteglasset 
@@ -998,8 +998,6 @@ Description: "ePI document Bundle for armisarte Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1022,8 +1020,6 @@ Description: "ePI document Bundle for armisarte Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1044,8 +1040,8 @@ Usage: #example
 
 Instance: mp6c6dd9b522aed0e03ebfe1ea0c0a4560
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product armisarte"
-Description: "armisarte"
+Title: "Medicinal Product Armisarte 25 mg/ml concentrate for solution for infusion"
+Description: "Armisarte 25 mg/ml concentrate for solution for infusion"
 Usage: #inline
 
  
@@ -1058,14 +1054,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Malignant pleural mesothelioma"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "armisarte"
+  * productName = "Armisarte 25 mg/ml concentrate for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1085,10 +1078,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

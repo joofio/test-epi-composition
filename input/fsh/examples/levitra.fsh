@@ -740,8 +740,6 @@ Description: "ePI document Bundle for levitra Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -764,8 +762,6 @@ Description: "ePI document Bundle for levitra Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -786,8 +782,8 @@ Usage: #example
 
 Instance: mpd6a8f1a1ebaa6583d4e909e9b830debb
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product levitra"
-Description: "levitra"
+Title: "Medicinal Product Levitra 5 mg film-coated tablets"
+Description: "Levitra 5 mg film-coated tablets"
 Usage: #inline
 
  
@@ -800,14 +796,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Treatment of erectile dysfunction in adult men. Erectile dysfunction is the inability to achieve or"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "levitra"
+  * productName = "Levitra 5 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -827,10 +820,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

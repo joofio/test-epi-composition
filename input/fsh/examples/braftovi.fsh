@@ -636,7 +636,7 @@ følgende, mens du tager dette lægemiddel:</p>
 <ul>
 <li>
 <p>Hjerteproblemer: Når Braftovi tages sammen med binimetinib, kan det få hjertet til at arbejde 
-mindre godt, ændre hjertets elektriske aktivitet, der kaldes ”QT-forlængelse”, eller forværre 
+mindre godt, ændre hjertets elektriske aktivitet, der kaldes "QT-forlængelse", eller forværre 
 eksisterende hjerteproblemer. Lægen vil undersøge dit hjerte før og under behandlingen med 
 disse lægemidler for at sikre, at det fungerer korrekt. Tal straks med lægen, hvis du har 
 symptomer på hjerteproblemer, som f.eks. at du føler dig svimmel, træt, omtumlet, hvis du har 
@@ -646,7 +646,7 @@ hævede ben. </p>
 <li>
 <p>Blødningsproblemer: Braftovi kan forårsage alvorlige blødningsproblemer. Kontakt omgående 
 lægen, hvis du får tegn på blødningsproblemer som f.eks. at du hoster blod op, får blodpropper, 
-har opkast, der er blodig eller ligner ”kaffegrums”, har røde eller sorte afføringer, der ligner 
+har opkast, der er blodig eller ligner "kaffegrums", har røde eller sorte afføringer, der ligner 
 tjære, har blod i urinen, mavesmerter, usædvanlig blødning fra skeden. Kontakt ligeledes lægen, 
 hvis du har ondt i hovedet, føler dig svimmel eller svag. </p>
 </li>
@@ -816,7 +816,7 @@ du får usædvanlige tegn på blødning, herunder:</p>
 <ul>
 <li>hovedpine, svimmelhed eller svaghed </li>
 <li>ophostning af blod eller blodklumper </li>
-<li>opkastning, der indeholder blod eller ligner ”kaffegrums” </li>
+<li>opkastning, der indeholder blod eller ligner "kaffegrums" </li>
 <li>rød afføring eller sort, tjærelignende afføring </li>
 <li>blod i urinen </li>
 <li>mavesmerter </li>
@@ -948,7 +948,7 @@ dermatitis)
 Udover de alvorlige bivirkninger, der er nævnt ovenfor, kan personer, der tager Braftovi sammen med 
 cetuximab, også få følgende bivirkninger: </p>
 <p>Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 personer) 
-- nye modermærker, som kaldes ”melanocytnævi” 
+- nye modermærker, som kaldes "melanocytnævi" 
 - manglende appetit 
 - søvnproblemer (søvnløshed) 
 - nerveproblemer, der kan forårsage smerter, nedsat følesans eller snurren i hænder og fødder 
@@ -1027,17 +1027,17 @@ succinsyre (E363), crospovidon (E1202), silica, kolloid vandfri (E551), magnesiu
 (E470b) 
 • Kapselskal - gelatine (E441), titandioxid (E171), rød jernoxid (E172), gul jernoxid (E172), sort 
 jernoxid (E172) 
-• Trykblæk – shellak (E904), sort jernoxid (E172), propylenglycol (E1520) </li>
+• Trykblæk - shellak (E904), sort jernoxid (E172), propylenglycol (E1520) </li>
 </ul>
 <p>Udseende og pakningsstørrelser </p>
 <p>Braftovi 50 mg hårde kapsler 
 De hårde kapsler (kapsel) har en orange, uigennemsigtig overdel og en kødfarvet, uigennemsigtig 
-underdel, og er påtrykt et stiliseret ”A” på overdelen og ”LGX 50mg” på underdelen. 
+underdel, og er påtrykt et stiliseret "A" på overdelen og "LGX 50mg" på underdelen. 
 Braftovi 50 mg fås i pakninger med 28 x 1 kapsler eller 112 x 1 kapsler i perforerede 
 enkeltdosisblistere. Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
 <p>Braftovi 75 mg hårde kapsler 
 De hårde kapsler (kapsel) har en kødfarvet, uigennemsigtig overdel og en hvid, uigennemsigtig 
-underdel, og er påtrykt et stiliseret ”A” på overdelen og ”LGX 75mg” på underdelen. 
+underdel, og er påtrykt et stiliseret "A" på overdelen og "LGX 75mg" på underdelen. 
 Braftovi 75 mg fås i pakninger med 42 x 1 kapsler eller 168 x 1 kapsler i perforerede 
 enkeltdosisblistere. Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
 <p>Indehaver af markedsføringstilladelsen 
@@ -1090,8 +1090,6 @@ Description: "ePI document Bundle for braftovi Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1114,8 +1112,6 @@ Description: "ePI document Bundle for braftovi Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1136,8 +1132,8 @@ Usage: #example
 
 Instance: mp7345b00216838e90492587f6ecbdea1c
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product braftovi"
-Description: "braftovi"
+Title: "Medicinal Product Braftovi 50 mg hard capsules"
+Description: "Braftovi 50 mg hard capsules"
 Usage: #inline
 
  
@@ -1150,14 +1146,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Encorafenib is indicated:"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "braftovi"
+  * productName = "Braftovi 50 mg hard capsules"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1177,10 +1170,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

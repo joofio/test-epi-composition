@@ -574,7 +574,7 @@ skal bortskaffe medicinrester. Disse foranstaltninger er vigtige af hensyn til m
 Pulver: argininhydrochlorid, isoleucin, trinatriumcitratdihydrat, glycin, lysinhydrochlorid, 
 polysorbat 80, saltsyre (til pH-justering). 
 Solvens: vand til injektioner.<br />
-Se punkt 2 “CEVENFACTA indeholder natrium”. </p>
+Se punkt 2 “CEVENFACTA indeholder natrium". </p>
 <p>Pulveret til injektionsvæske indeholder: 1 mg/hætteglas (svarende til 45 KIU/hætteglas), 2 
 mg/hætteglas (svarende til 90 KIU/hætteglas), 5 mg/hætteglas (svarende til 225 KIU/hætteglas). 
 Efter rekonstitution er injektionsvæskekoncentrationen på ca. 1 mg/ ml (45 KIU/ ml) eptacog beta 
@@ -711,7 +711,7 @@ hætteglasadapteren, kan du overføre bakterier fra dine fingre til spidsen. </p
 til at holde plastbeskyttelsen (med hætteglasadapteren indeni) direkte over hætteglasset og hold 
 spidsen af adapteren, så den er på linje med den midterste del af den grå gummiprop. </p>
 <p> Pres plastbeskyttelsen hårdt ned, så spidsen på hætteglasadapteren bryder igennem gummiproppen 
-(du kan muligvis høre/se at den ”klikker” på plads) (Fig. G). </p>
+(du kan muligvis høre/se at den "klikker" på plads) (Fig. G). </p>
 <p> Klem forsigtigt plastbeskyttelsen og løft den for at fjerne den fra hætteglasadapteren (Fig. H). </p>
 <p>Rør ikke ved enden af hætteglasadapteren, når du har fjernet plastbeskyttelsen, for at undgå at 
 overføre bakterier fra dine fingre. </p>
@@ -796,8 +796,6 @@ Description: "ePI document Bundle for cevenfacta Package Leaflet for language en
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -820,8 +818,6 @@ Description: "ePI document Bundle for cevenfacta Package Leaflet for language da
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -842,8 +838,8 @@ Usage: #example
 
 Instance: mpc4dcd27eb46fddef4eed0adfcbbf3b5e
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product cevenfacta"
-Description: "cevenfacta"
+Title: "Medicinal Product CEVENFACTA 1 mg (45 KIU) powder and solvent for solution for injection"
+Description: "CEVENFACTA 1 mg (45 KIU) powder and solvent for solution for injection"
 Usage: #inline
 
  
@@ -856,14 +852,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "3"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "cevenfacta"
+  * productName = "CEVENFACTA 1 mg (45 KIU) powder and solvent for solution for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -883,10 +876,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

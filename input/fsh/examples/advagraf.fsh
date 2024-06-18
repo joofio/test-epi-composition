@@ -672,13 +672,13 @@ hvorimod Prograf tages to gange daglig. Dette skyldes, at Advagraf-kapsler har e
 udskiftes med hinanden. </p>
 <p>Kontakt lægen eller apotekspersonalet, før du tager Advagraf:</p>
 <ul>
-<li>hvis De tager noget af den medicin, som er nævnt under ”Brug af anden medicin sammen med 
-Advagraf” </li>
+<li>hvis De tager noget af den medicin, som er nævnt under "Brug af anden medicin sammen med 
+Advagraf" </li>
 <li>hvis De har eller har haft leverproblemer </li>
 <li>hvis De har diarré i mere end én dag </li>
 <li>hvis De får stærke mavesmerter med eller uden andre symptomer, som kulderystelser, feber, 
 kvalme eller opkastning </li>
-<li>hvis De har en ændring i hjerterytmen, som kaldes ”QT-forlængelse” </li>
+<li>hvis De har en ændring i hjerterytmen, som kaldes "QT-forlængelse" </li>
 <li>hvis De har eller har haft beskadigelse af de mindste blodkar, også kendt som trombotisk 
 mikroangiopati/trombotisk trombocytopenisk purpura/hæmolytisk uræmisk syndrom. Fortæl det 
 til Deres læge, hvis De oplever feber, blå mærker under huden (kan vise sig som røde prikker), 
@@ -750,7 +750,7 @@ behandling af halsbrand
 - medicin mod forhøjet blodtryk eller hjerteproblemer (f.eks. nifedipin, nicardipin, diltiazem og 
 verapamil) 
 - antiarytmika (amiodaron), som bruges til behandling af arytmier (uregelmæssig hjerterytme) 
-- lægemidler kendt som ”statiner” til behandling af forhøjet kolesterol og triglycerider 
+- lægemidler kendt som "statiner" til behandling af forhøjet kolesterol og triglycerider 
 - carbamazepin, fenytoin og fenobarbital til behandling af epilepsi 
 - metamizol, som bruges til behandling af smerter og feber 
 - kortikosteroiderne prednisolon og methylprednisolon, der anvendes til behandling af 
@@ -852,7 +852,7 @@ vira, svampe, parasitter eller andre infektioner.
 Fortæl det straks til Deres læge, hvis De får tegn på en infektion, herunder:</p>
 <ul>
 <li>Feber, hoste, ondt i halsen, føler sig svag eller generelt utilpas. </li>
-<li>Hukommelsestab, problemer med at tænke, gangbesvær eller synstab – disse kan skyldes en meget 
+<li>Hukommelsestab, problemer med at tænke, gangbesvær eller synstab - disse kan skyldes en meget 
 sjælden, alvorlig hjerneinfektion, som kan være dødelig (Progressiv Multifocal Leukoencephalopati 
 eller PML). </li>
 </ul>
@@ -1044,25 +1044,25 @@ gelatine.
 Printblæk: Shellac, lecithin (soja), simeticon, rød jernoxid (E172), hydroxypropylcellulose. 
 Udseende og pakningsstørrelser 
 Advagraf 0,5 mg depotkapsler, hårde, med indhold af hvidt pulver er hårde gelatinekapsler præget med 
-rødt ”0.5 mg” på den lysegule kapsel top og ” 647” på den orange kapselbund. 
+rødt "0.5 mg" på den lysegule kapsel top og " 647" på den orange kapselbund. 
 Advagraf 0,5 mg findes som blisterkort eller perforeret enkeltdosisblister med 10 kapsler i en 
 beskyttende foliepose med et tørremiddel. De findes i pakker med 30, 50 og 100 depotkapsler, hårde, i 
 blister og i pakker med 30×1, 50×1 og 100×1 depotkapsler, hårde, i perforeret enkeltdosisblister.  </p>
 </li>
 </ul>
 <p>Advagraf 1 mg depotkapsler, hårde, med indhold af hvidt pulver er hårde gelatinekapsler præget med 
-rødt ”1 mg” på den hvide kapseltop og ” 677” på den orange kapselbund.<br />
+rødt "1 mg" på den hvide kapseltop og " 677" på den orange kapselbund.<br />
 Advagraf 1 mg findes som blisterkort eller perforeret enkeltdosisblister med 10 kapsler i en 
 beskyttende foliepose med et tørremiddel. De findes i pakker med 30, 50, 60 og 100 depotkapsler, 
 hårde, i blister og i pakker med 30×1, 50×1, 60×1 og 100×1 depotkapsler, hårde, i perforeret 
 enkeltdosisblister.  </p>
 <p>Advagraf 3 mg depotkapsler, hårde, med indhold af hvidt pulver er hårde gelatinekapsler præget med 
-rødt ”3 mg” på den orange kapseltop og ” 637” på den orange kapselbund.<br />
+rødt "3 mg" på den orange kapseltop og " 637" på den orange kapselbund.<br />
 Advagraf 3 mg findes som blisterkort eller perforeret enkeltdosisblister med 10 kapsler i en 
 beskyttende foliepose med et tørremiddel. De findes i pakker med 30, 50 og 100 depotkapsler, hårde, i 
 blister og i pakker med 30×1, 50×1 og 100×1 depotkapsler, hårde, i perforeret enkeltdosisblister.  </p>
 <p>Advagraf 5 mg depotkapsler, hårde, med indhold af hvidt pulver er hårde gelatinekapsler præget med 
-rødt ”5 mg” på den grå-røde kapseltop og ” 687” på den orange kapselbund. </p>
+rødt "5 mg" på den grå-røde kapseltop og " 687" på den orange kapselbund. </p>
 <p>Advagraf 5 mg findes som blisterkort eller perforeret enkeltdosisblister med 10 kapsler i en 
 beskyttende foliepose med et tørremiddel. De findes i pakker med 30, 50 og 100 depotkapsler, hårde, i 
 blister og i pakker med 30×1, 50×1 og 100×1 depotkapsler, hårde, i perforeret enkeltdosisblister.  </p>
@@ -1184,8 +1184,6 @@ Description: "ePI document Bundle for advagraf Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1208,8 +1206,6 @@ Description: "ePI document Bundle for advagraf Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1230,8 +1226,8 @@ Usage: #example
 
 Instance: mp2889785717c749fb4c4dfcfcfd9ca297
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product advagraf"
-Description: "advagraf"
+Title: "Medicinal Product Advagraf 0.5 mg prolonged-release hard capsules"
+Description: "Advagraf 0.5 mg prolonged-release hard capsules"
 Usage: #inline
 
  
@@ -1244,14 +1240,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Prophylaxis of transplant rejection in adult kidney or liver allograft recipients."
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "advagraf"
+  * productName = "Advagraf 0.5 mg prolonged-release hard capsules"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1271,10 +1264,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

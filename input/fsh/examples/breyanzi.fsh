@@ -515,7 +515,7 @@ forhindre tilstanden. </p>
 <li>
 <p>Hvis du får visse alvorlige bivirkninger, skal du straks fortælle det til din læge eller 
 sygeplejerske, da du kan få brug for behandling for dem. Se punkt 4 under “Alvorlige 
-bivirkninger”. </p>
+bivirkninger". </p>
 </li>
 <li>
 <p>Din læge vil regelmæssigt kontrollere dit blodtal, da antallet af celler i blodet kan falde. </p>
@@ -667,15 +667,15 @@ har taget dette lægemiddel: </p>
 <ul>
 <li>
 <p>feber, kulderystelser eller rystelser, træthed, hurtig eller ujævn hjerterytme, svimmelhed og 
-åndenød – disse kan være tegn på et alvorligt problem kaldet cytokinfrigivelsessyndrom </p>
+åndenød - disse kan være tegn på et alvorligt problem kaldet cytokinfrigivelsessyndrom </p>
 </li>
 <li>
 <p>forvirring, være mindre opmærksom (nedsat bevidsthed), vanskeligheder med at tale eller sløret 
-tale, rysten (tremor), angst, svimmelhed og hovedpine – disse kan være tegn på problemer med 
+tale, rysten (tremor), angst, svimmelhed og hovedpine - disse kan være tegn på problemer med 
 dit nervesystem </p>
 </li>
 <li>
-<p>Følelse af varme, feber, kulderystelser eller rystelser – disse kan være tegn på infektion 
+<p>Følelse af varme, feber, kulderystelser eller rystelser - disse kan være tegn på infektion 
 Infektionerne kan være forårsaget af:</p>
 </li>
 <li>
@@ -685,11 +685,11 @@ Infektionerne kan være forårsaget af:</p>
 <p>lave niveauer af antistoffer kaldet immunglobuliner </p>
 </li>
 <li>
-<p>Følelse af meget træthed, svaghed og åndenød – disse kan være tegn på lave niveauer af røde 
+<p>Følelse af meget træthed, svaghed og åndenød - disse kan være tegn på lave niveauer af røde 
 blodlegemer (anæmi) </p>
 </li>
 <li>
-<p>lettere blødning eller blå mærker – disse kan være tegn på lave niveauer af blodceller kendt som 
+<p>lettere blødning eller blå mærker - disse kan være tegn på lave niveauer af blodceller kendt som 
 blodplader. </p>
 </li>
 </ul>
@@ -769,7 +769,7 @@ muligvis har brug for akut lægehjælp. </p>
 <ul>
 <li>
 <p>hurtig nedbrydning af kræftceller, hvilket resulterer i frigivelse af giftige affaldsprodukter i 
-blodbanen – et tegn kan være mørk urin med symptomer som kvalme eller smerter på siden af 
+blodbanen - et tegn kan være mørk urin med symptomer som kvalme eller smerter på siden af 
 maven </p>
 </li>
 <li>
@@ -825,7 +825,7 @@ cellekomponenterne afhængigt af koncentrationen af kryokonserveret lægemiddel.
 DMSO), natriumklorid, natriumgluconat, natriumacetat trihydrat, kaliumklorid, 
 magnesiumklorid, humant albumin, N-acetyl-DL-tryptophan, caprylsyre, vand til 
 injektionsvæsker. Se punkt 2, “Breyanzi indeholder natrium, kalium og dimethylsulfoxid 
-(DMSO)”. </p>
+(DMSO)". </p>
 </li>
 </ul>
 <p>Dette lægemiddel indeholder genetisk modificerede humane blodceller. </p>
@@ -948,8 +948,8 @@ Bemærk: Vær omhyggelig med at vælge den rigtige slange med filteret. Klip KUN
 med et filter. </p>
 </li>
 <li>
-<p>Hold en gauge 20, 1–1½ tomme nål med åbningen af nålespidsen væk fra udskillelsesporten.<br />
-a. Indsæt nålen i skillevæggen i en vinkel på 45 ° –60 ° for at punktere skillevæggen 
+<p>Hold en gauge 20, 1-1½ tomme nål med åbningen af nålespidsen væk fra udskillelsesporten.<br />
+a. Indsæt nålen i skillevæggen i en vinkel på 45 ° -60 ° for at punktere skillevæggen 
 til genvindingsporten.<br />
 b. Forøg nålens vinkel gradvist, når nålen kommer ind i hætteglasset.<br />
  a 
@@ -1047,8 +1047,6 @@ Description: "ePI document Bundle for breyanzi Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1071,8 +1069,6 @@ Description: "ePI document Bundle for breyanzi Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1093,8 +1089,8 @@ Usage: #example
 
 Instance: mp0033e02023c8b1bd6906c2cf5f7b744d
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product breyanzi"
-Description: "breyanzi"
+Title: "Medicinal Product Breyanzi 1.1-70 × 106 cells/mL / 1.1-70 × 106 cells/mL dispersion for infusion"
+Description: "Breyanzi 1.1-70 × 106 cells/mL / 1.1-70 × 106 cells/mL dispersion for infusion"
 Usage: #inline
 
  
@@ -1107,14 +1103,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Breyanzi is indicated for the treatment of adult patients with diffuse large B-cell lymphoma (DLBCL),"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "breyanzi"
+  * productName = "Breyanzi 1.1-70 × 106 cells/mL / 1.1-70 × 106 cells/mL dispersion for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1134,10 +1127,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

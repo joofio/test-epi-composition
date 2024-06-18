@@ -487,7 +487,7 @@ Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p> 
   * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
-Alvorlige bivirkninger – stop med at tage CONBRIZA og kontakt lægen omgående. 
+Alvorlige bivirkninger - stop med at tage CONBRIZA og kontakt lægen omgående. 
 Ikke almindelige (det sker hos op til 1 ud af 100 patienter)
 
 Hvis du får symptomer på en blodprop i benene eller lungerne, f.eks. smertefulde hævelser og 
@@ -496,7 +496,7 @@ rødme på benene, pludselige brystsmerter eller vejrtrækningsbesvær.
 Hvis du får symptomer på en blodprop i øjet (i nethindens blodkar), f.eks. ensidige 
 synsforstyrrelser eller forringet syn eller sløret syn eller synstab på ét øje.
 
-Hvis du får nogen af problemerne nævnt under ”Tag ikke CONBRIZA”
+Hvis du får nogen af problemerne nævnt under "Tag ikke CONBRIZA"
 Ikke kendt hyppighed (kan ikke estimeres ud fra forhåndenværende data):
 
 Hvis du har andre bivirkninger, som påvirker øjne og/eller syn (hvis du ser gnister eller 
@@ -561,11 +561,11 @@ til 20 mg bazedoxifen.
 -
 Øvrige indholdsstoffer: Lactosemonohydrat, mikrokrystallinsk cellulose, prægelatineret stivelse 
 (majs), natriumstivelsesglycolat, natriumlaurilsulfat, kolloid vandfri silica, magnesiumstearat, 
-ascorbinsyre, hypromellose, titandioxid (E171) og macrogol 400 (se punkt 2 ”CONBRIZA 
-indeholder lactose og natrium”).
+ascorbinsyre, hypromellose, titandioxid (E171) og macrogol 400 (se punkt 2 "CONBRIZA 
+indeholder lactose og natrium").
 Udseende og pakningstørrelser
 CONBRIZA leveres som en hvid til offwhite, kapselformet, filmovertrukket tablet præget med 
-“WY20”. Tabletten er ca. 1,5 cm lang. Tabletterne er pakket i PVC-/Aclar-blisterkort og fås i 
+“WY20". Tabletten er ca. 1,5 cm lang. Tabletterne er pakket i PVC-/Aclar-blisterkort og fås i 
 pakninger med 7, 28, 30, 84 og 90 tabletter. 
 Ikke alle pakningsstørrelser er nødvendigvis markedsført.
 29
@@ -686,8 +686,6 @@ Description: "ePI document Bundle for conbriza Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -710,8 +708,6 @@ Description: "ePI document Bundle for conbriza Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -732,8 +728,8 @@ Usage: #example
 
 Instance: mpcef8236d2ba001c606577d8a44188d3e
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product conbriza"
-Description: "conbriza"
+Title: "Medicinal Product CONBRIZA 20 mg film-coated tablets"
+Description: "CONBRIZA 20 mg film-coated tablets"
 Usage: #inline
 
  
@@ -746,14 +742,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "CONBRIZA is indicated for the treatment of postmenopausal osteoporosis in women at increased risk"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "conbriza"
+  * productName = "CONBRIZA 20 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -773,10 +766,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

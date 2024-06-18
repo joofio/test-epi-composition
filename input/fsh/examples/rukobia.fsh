@@ -954,8 +954,6 @@ Description: "ePI document Bundle for rukobia Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -978,8 +976,6 @@ Description: "ePI document Bundle for rukobia Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1000,8 +996,8 @@ Usage: #example
 
 Instance: mp4ebd45ede513ed024b967ea8c9e55dab
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product rukobia"
-Description: "rukobia"
+Title: "Medicinal Product Rukobia 600 mg prolonged-release tablets"
+Description: "Rukobia 600 mg prolonged-release tablets"
 Usage: #inline
 
  
@@ -1014,14 +1010,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Rukobia, in combination with other antiretrovirals, is indicated for the treatment of adults with"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "rukobia"
+  * productName = "Rukobia 600 mg prolonged-release tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1041,10 +1034,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

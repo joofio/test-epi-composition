@@ -550,7 +550,7 @@ lægemiddel (angivet i punkt 6) eller over for ritonavir
 − 
 alfuzosin (til behandling af prostataproblemer) 
 − 
-astemizol eller terfenadin (almindeligvis til behandling af allergisymptomer – denne medicin 
+astemizol eller terfenadin (almindeligvis til behandling af allergisymptomer - denne medicin 
 kan fås uden recept) 
 − 
 pimozid (til behandling af skizofreni) 
@@ -729,7 +729,7 @@ vigtigt, at du fortæller lægen om enhver ændring i dit helbred.  </p>
 • forhøjet kolesterol (en type fedt i blodet). </p>
 <p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 personer): 
 • forhøjede triglycerider (en type fedt i blodet). Kvalme eller opkastning, mavesmerter, løs afføring 
-• udslæt (rødt, hævet eller kløende) – hvis udslættet er alvorligt, kan det være, at du skal stoppe med 
+• udslæt (rødt, hævet eller kløende) - hvis udslættet er alvorligt, kan det være, at du skal stoppe med 
 at tage Telzir. 
 • hovedpine, svimmelhed 
 • træthed 
@@ -957,8 +957,6 @@ Description: "ePI document Bundle for telzir Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -981,8 +979,6 @@ Description: "ePI document Bundle for telzir Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1003,8 +999,8 @@ Usage: #example
 
 Instance: mpba3e374637fb155718fa93d3ee87150b
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product telzir"
-Description: "telzir"
+Title: "Medicinal Product Telzir 700 mg film-coated tablets"
+Description: "Telzir 700 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1017,14 +1013,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Telzir in combination with low dose ritonavir is indicated for the treatment of Human"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "telzir"
+  * productName = "Telzir 700 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1044,10 +1037,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

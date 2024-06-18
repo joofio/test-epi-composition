@@ -874,8 +874,6 @@ Description: "ePI document Bundle for mirvaso Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -898,8 +896,6 @@ Description: "ePI document Bundle for mirvaso Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -920,8 +916,8 @@ Usage: #example
 
 Instance: mp7f09c8319207b8e58a7db33f5a93be62
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product mirvaso"
-Description: "mirvaso"
+Title: "Medicinal Product Mirvaso 3 mg/g gel"
+Description: "Mirvaso 3 mg/g gel"
 Usage: #inline
 
  
@@ -934,14 +930,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Mirvaso is indicated for the symptomatic treatment of facial erythema of rosacea in adult patients."
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "mirvaso"
+  * productName = "Mirvaso 3 mg/g gel"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -961,10 +954,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

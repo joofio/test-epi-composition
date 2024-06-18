@@ -528,8 +528,6 @@ Description: "ePI document Bundle for mulpleo Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -552,8 +550,6 @@ Description: "ePI document Bundle for mulpleo Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -574,8 +570,8 @@ Usage: #example
 
 Instance: mpae95ec75d9c7638e000a13f3c8891532
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product mulpleo"
-Description: "mulpleo"
+Title: "Medicinal Product Mulpleo 3 mg film-coated tablets"
+Description: "Mulpleo 3 mg film-coated tablets"
 Usage: #inline
 
  
@@ -588,14 +584,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Mulpleo is indicated for the treatment of severe thrombocytopenia in adult patients with chronic liver"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "mulpleo"
+  * productName = "Mulpleo 3 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -615,10 +608,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -879,7 +879,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken efter EXP. Udløbsdatoen er den sidste 
 dag i den nævnte måned. </p>
 <p>Før første brug: 
-Opbevares i køleskab (2 °C – 8 °C). Må ikke nedfryses. 
+Opbevares i køleskab (2 °C - 8 °C). Må ikke nedfryses. 
 Opbevares i den originale yderpakning med penhætten påsat for at beskytte mod lys. </p>
 <p>Efter første brug: 
 Opbevares ved temperaturer under 30 °C. 
@@ -1017,7 +1017,7 @@ i kroppen eller bliver siddende under huden, skal du søge læge med det samme. 
 <p>Før første brug: </p>
 <ul>
 <li>
-<p>Opbevares i køleskab (2 °C – 8 °C). </p>
+<p>Opbevares i køleskab (2 °C - 8 °C). </p>
 </li>
 <li>
 <p>Må ikke nedfryses. </p>
@@ -1373,7 +1373,7 @@ de to penne har den samme farve trykknap (samme styrke). </p>
 <p>Før første brug: </p>
 <ul>
 <li>
-<p>Opbevares i køleskab (2 °C – 8 °C). </p>
+<p>Opbevares i køleskab (2 °C - 8 °C). </p>
 </li>
 <li>
 <p>Må ikke nedfryses. </p>
@@ -1732,7 +1732,7 @@ de to penne har den samme farve trykknap (samme styrke). </p>
 <p>Før første brug: </p>
 <ul>
 <li>
-<p>Opbevares i køleskab (2 °C – 8 °C). </p>
+<p>Opbevares i køleskab (2 °C - 8 °C). </p>
 </li>
 <li>
 <p>Må ikke nedfryses. </p>
@@ -2020,8 +2020,6 @@ Description: "ePI document Bundle for yorvipath Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -2044,8 +2042,6 @@ Description: "ePI document Bundle for yorvipath Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -2066,8 +2062,8 @@ Usage: #example
 
 Instance: mp734207024d8a0ccf4fa37b0614084df6
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product yorvipath"
-Description: "yorvipath"
+Title: "Medicinal Product Yorvipath 168 micrograms/0.56 mL solution for injection in pre-filled pen"
+Description: "Yorvipath 168 micrograms/0.56 mL solution for injection in pre-filled pen"
 Usage: #inline
 
  
@@ -2080,14 +2076,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Yorvipath is a parathyroid hormone (PTH) replacement therapy indicated for the treatment of adults"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "yorvipath"
+  * productName = "Yorvipath 168 micrograms/0.56 mL solution for injection in pre-filled pen"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -2107,10 +2100,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

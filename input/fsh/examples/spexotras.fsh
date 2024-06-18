@@ -1085,7 +1085,7 @@ fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på etiketten og æsken efter EXP. Udløbsdatoen er 
 den sidste dag i den nævnte måned. </p>
 <p>Opbevares i den originale yderpakning for at beskytte mod lys og fugt. </p>
-<p>Før klargøring: Opbevares i køleskab (2 °C – 8 °C). </p>
+<p>Før klargøring: Opbevares i køleskab (2 °C - 8 °C). </p>
 <p>Efter klargøring: Opbevares ved temperaturer under 25 ºC. Må ikke nedfryses. Bortskaf ubrugt 
 opløsning 35 dage efter rekonstitution. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
@@ -1412,8 +1412,6 @@ Description: "ePI document Bundle for spexotras Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1436,8 +1434,6 @@ Description: "ePI document Bundle for spexotras Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1458,8 +1454,8 @@ Usage: #example
 
 Instance: mpdc7d7a695883d4001becc8f978871435
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product spexotras"
-Description: "spexotras"
+Title: "Medicinal Product Spexotras 0.05 mg/ml powder for oral solution"
+Description: "Spexotras 0.05 mg/ml powder for oral solution"
 Usage: #inline
 
  
@@ -1472,14 +1468,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Low-grade glioma"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "spexotras"
+  * productName = "Spexotras 0.05 mg/ml powder for oral solution"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1499,10 +1492,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

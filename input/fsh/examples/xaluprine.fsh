@@ -531,7 +531,7 @@ anden medicin eller planlægger at tage anden medicin. </p>
 <p>I særdeleshed skal du fortælle det til lægen, sundhedspersonalet eller apotekspersonalet, hvis du tager 
 nogen af følgende lægemidler:</p>
 <ul>
-<li>andre cytotoksiske lægemidler (kemoterapi) – når de anvendes sammen med Xaluprine, er der 
+<li>andre cytotoksiske lægemidler (kemoterapi) - når de anvendes sammen med Xaluprine, er der 
 større risiko for bivirkninger som for eksempel anæmi </li>
 <li>allopurinol eller febuxostat (anvendes til behandling af urinsyregigt) </li>
 <li>orale antikoagulerende midler (anvendes til at fortynde blodet) </li>
@@ -680,8 +680,8 @@ og utilpashed, kan det være et tegn på betændelse i bugspytkirtlen </p>
 - et fald i antallet af hvide blodlegemer og blodplader (kan vise sig ved blodprøver) </p>
 <p>Almindelige (rammer mindre end 1 ud af 10) 
 - utilpashed (kvalme eller opkastning)<br />
-- leverskade – kan vise sig ved blodprøver 
-- et fald i antallet af røde blodlegemer, som kan gøre dig træt, svag eller stakåndet – kaldes anæmi 
+- leverskade - kan vise sig ved blodprøver 
+- et fald i antallet af røde blodlegemer, som kan gøre dig træt, svag eller stakåndet - kaldes anæmi 
 - tab af appetit<br />
 - diarré 
 - betændelse i mundhulen (stomatitis) </p>
@@ -783,8 +783,6 @@ Description: "ePI document Bundle for xaluprine Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -807,8 +805,6 @@ Description: "ePI document Bundle for xaluprine Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -829,8 +825,8 @@ Usage: #example
 
 Instance: mpf55146b06bad26b63272dae234a560c6
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product xaluprine"
-Description: "xaluprine"
+Title: "Medicinal Product Xaluprine 20 mg/ml oral suspension"
+Description: "Xaluprine 20 mg/ml oral suspension"
 Usage: #inline
 
  
@@ -843,14 +839,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Xaluprine is indicated for the treatment of acute lymphoblastic leukaemia (ALL) in adults, adolescents"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "xaluprine"
+  * productName = "Xaluprine 20 mg/ml oral suspension"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -870,10 +863,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -1019,8 +1019,6 @@ Description: "ePI document Bundle for ronapreve Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1043,8 +1041,6 @@ Description: "ePI document Bundle for ronapreve Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1065,8 +1061,8 @@ Usage: #example
 
 Instance: mp0d50af8d664b571d625f5732b765b8b5
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product ronapreve"
-Description: "ronapreve"
+Title: "Medicinal Product Ronapreve 300 mg + 300 mg solution for injection/infusion"
+Description: "Ronapreve 300 mg + 300 mg solution for injection/infusion"
 Usage: #inline
 
  
@@ -1079,14 +1075,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Ronapreve is indicated for:"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "ronapreve"
+  * productName = "Ronapreve 300 mg + 300 mg solution for injection/infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1106,10 +1099,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

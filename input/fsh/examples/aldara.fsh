@@ -546,7 +546,7 @@ behandling af: </p>
 Dette er en almindelig form for hudkræft, som vokser langsomt, og hvor sandsynligheden for at det 
 spreder sig til andre dele af kroppen er meget lille. Det opstår oftest hos midaldrende og ældre 
 personer, især hos personer med lys hud. Det skyldes for kraftig udsættelse for solen. Hvis 
-basalcellekræft ikke behandles, kan det skæmme, især i ansigtet – og derfor er tidlig opdagelse og 
+basalcellekræft ikke behandles, kan det skæmme, især i ansigtet - og derfor er tidlig opdagelse og 
 behandling vigtig. </p>
 <p>●Aktinisk keratose 
 Aktinisk keratose er ru hudområder, som findes på personer, der har været udsat for meget sol 
@@ -678,7 +678,7 @@ Behandlingshyppigheden og -varigheden er forskellig for kønsvorter basalcellekr
 keratose (se de specifikke instruktioner for den enkelte sygdom). </p>
 <p>Instruktioner til påføring af Aldara creme </p>
 <p>● Hvis du behandles for kønsvorter: </p>
-<p>Instruktioner til påføring – (mandag, onsdag og fredag) 
+<p>Instruktioner til påføring - (mandag, onsdag og fredag) 
 1. Før du går i seng, skal du vaske hænder og behandlingsområde med mild sæbe og vand. Aftør 
 grundigt. 
 2. Åbn et nyt brev og tryk noget creme ud på en fingerspids. 
@@ -689,15 +689,15 @@ huden, indtil den er smurt ind.
 6. Vask efter 6 til 10 timer det område, hvor cremen blev påført, med mild sæbe og vand. </p>
 <p>Aldara creme skal påføres 3 gange om ugen.  Påfør for eksempel cremen mandag, onsdag og fredag. 
 Et brev indeholder creme til at dække et område med vorter på 20 cm2 . Mænd med vorter under 
-forhuden bør trække forhuden tilbage hver dag og vaske området (se afsnit. 2 ”Advarsler og 
-forsigtighedsregler”). </p>
+forhuden bør trække forhuden tilbage hver dag og vaske området (se afsnit. 2 "Advarsler og 
+forsigtighedsregler"). </p>
 <p>Fortsæt med at bruge Aldara creme som anbefalet, indtil vorterne er fuldstændig forsvundet<br />
 (halvdelen af kvinder opnår dette indenfor 8 uger og halvdelen af mænd indenfor 12 uger, men hos 
 nogle patienter forsvinder vorterne allerede efter 4 uger). </p>
 <p>Brug ikke Aldara creme i mere end 16 uger til behandling af hver episode af vorter. </p>
 <p>Tal med lægen, hvis du mener, at virkningen af Aldara creme er for stærk eller for svag. </p>
 <p>● Hvis du behandles for basalcellekræft: </p>
-<p>Instruktioner til påføring – (mandag, tirsdag, onsdag, torsdag og fredag) 
+<p>Instruktioner til påføring - (mandag, tirsdag, onsdag, torsdag og fredag) 
 1. Vask dine hænder og behandlingsområdet med mild sæbe og vand, inden du går i seng. Aftør 
 omhyggeligt. 
 2. Åbn et nyt brev og tryk lidt creme ud på fingerspidsen. 
@@ -710,7 +710,7 @@ forsigtigt cremen ind i området, indtil cremen ikke ses længere.
 Dette skal gøres hver dag i 5 på hinanden følgende dage i 6 uger. Du kan for eksempel påføre cremen fra 
 mandag til og med fredag. Påfør ingen creme lørdag og søndag. </p>
 <p>● Hvis du behandles for aktinisk keratose: </p>
-<p>Instruktioner til påføring – (mandag, onsdag og fredag) 
+<p>Instruktioner til påføring - (mandag, onsdag og fredag) 
 1. Vask dine hænder og behandlingsområdet med mild sæbe og vand, inden du går i seng. Aftør 
 omhyggeligt. 
 2. Åbn et nyt brev og tryk lidt creme ud på fingerspidsen. 
@@ -841,9 +841,9 @@ smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </d
 mg imiquimod). </li>
 <li>De øvrige indholdsstoffer er: isostearinsyre, benzylalkohol, cetylalkohol, stearylalkohol, hvid 
 blød paraffin, polysorbat 60, sorbitanstearat, glycerol, methylparahydroxybenzoat, 
-propylparahydroxybenzoat, xanthangummi, renset vand (se også afsnit 2 ”Aldara creme 
+propylparahydroxybenzoat, xanthangummi, renset vand (se også afsnit 2 "Aldara creme 
 indeholder methylparahydroxybenzoat, propylparahydroxybenzoat, cetylalkohol, 
-stearylalkohol og benzylalkohol”). </li>
+stearylalkohol og benzylalkohol"). </li>
 </ul>
 <p>Udseende og pakningstørrelse 
 - Hvert brev med Aldara 5% creme indeholder 250 mg hvid til let gullig creme. 
@@ -916,12 +916,12 @@ Tel: +34 900 102<br />
 Portugal 
 Viatris Healthcare, Lda. 
 Av. D. João II,<br />
-Edifício Atlantis, nº 44C – 7.3 e 7.4 
+Edifício Atlantis, nº 44C - 7.3 e 7.4 
 1990-095 Lisboa 
 Tel: +351 214 127<br />
 France 
 Viatris Santé 
-1 bis place de la Défense – Tour Trinity 
+1 bis place de la Défense - Tour Trinity 
 92400 Courbevoie<br />
 Tél: +33 (0)1 40 80 15<br />
 România 
@@ -985,8 +985,6 @@ Description: "ePI document Bundle for aldara Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1009,8 +1007,6 @@ Description: "ePI document Bundle for aldara Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1031,8 +1027,8 @@ Usage: #example
 
 Instance: mpfc79b24fd8d9aad3e2636eda8908eb2a
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product aldara"
-Description: "aldara"
+Title: "Medicinal Product ALDARA 5% cream"
+Description: "ALDARA 5% cream"
 Usage: #inline
 
  
@@ -1045,14 +1041,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Imiquimod cream is indicated for the topical treatment of:"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "aldara"
+  * productName = "ALDARA 5% cream"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1072,10 +1065,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

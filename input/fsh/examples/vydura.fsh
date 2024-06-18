@@ -455,9 +455,15 @@ dag.
 Til at behandle et migræneanfald, efter det er påbegyndt, er den anbefalede dosis en frysetørret tablet 
 (75 mg rimegepant) efter behov, ikke mere end én gang dagligt.
 Den maksimale daglige dosis er en frysetørret tablet (75 mg rimegepant) dagligt.
-25
-Sådan skal du tage dette lægemiddel
-VYDURA er til oral anvendelse.
+2</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>VYDURA er til oral anvendelse.
 Den frysetørrede tablet kan tages sammen med eller uden mad eller vand.
 Anvisninger:
 Åbnes med tørre hænder. Foliebagsiden af en blister trækkes af, og den 
@@ -474,13 +480,12 @@ Hvis du har glemt at tage VYDURA
 Hvis du tager VYDURA for at forebygge migræne, og du har glemt en dosis, skal du bare tage den 
 næste dosis på det sædvanlige tidspunkt. Du må ikke tage en dobbeltdosis som erstatning for den 
 glemte dosis.
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
-
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""      
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "5. How to store vydura"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "5. How to store vydura"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
 Hold straks op med at bruge VYDURA og kontakt lægen, hvis du får tegn på en allergisk 
@@ -494,10 +499,11 @@ indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rappo
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
 om sikkerheden af dette lægemiddel.</p>         </div>"""      
         
+        
 * section[=].section[+]
-  * title = "5. How to store vydura"
+  * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store vydura"
+  * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
 Brug ikke lægemidlet efter den udløbsdato, der står på æsken og blisteren efter EXP. Udløbsdatoen er 
@@ -507,150 +513,6 @@ Må ikke opbevares ved temperaturer over 30 °C. Opbevares i den originale blist
 fugt.
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
 ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
-        
-        
-* section[=].section[+]
-  * title = "6. Contents of the pack and other information"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>VYDURA indeholder:</h2>
-<h2>Aktivt stof: rimegepant. Hver frysetørret tablet indeholder 75 mg rimegepant (som sulfat).</h2>
-<p>Øvrige indholdsstoffer: gelatine, mannitol, myntesmag og sucralose.
-Udseende og pakningsstørrelser
-VYDURA 75 mg frysetørrede tabletter er hvide til off-white, runde og præget med symbolet 
-.
-Pakningsstørrelser:
-
-2 x 1 frysetørret tablet i perforerede enkeltdosisblistere.
-
-8 x 1 frysetørret tablet i perforerede enkeltdosisblistere.
-
-16 x 1 frysetørret tablet i perforerede enkeltdosisblistere.
-Ikke alle pakningsstørrelser er nødvendigvis markedsført.
-Indehaver af markedsføringstilladelsen
-Pfizer Europe MA EEIG
-Boulevard de la Plaine 17
-1050 Bruxelles
-Belgien
-Fremstiller
-HiTech Health Limited
-5-7 Main Street
-Blackrock
-Co. Dublin
-A94 R5Y4
-Irland
-Millmount Healthcare Limited
-Block-7, City North Business Campus
-Stamullen
-Co. Meath
-K32 YD60
-Irland
-Pfizer Ireland Pharmaceuticals
-Little Connell
-Newbridge
-Co. Kildare
-W12 HX57
-Irland
-Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
-repræsentant for indehaveren af markedsføringstilladelsen:
-27
-België/Belgique/Belgien
-Luxembourg/Luxemburg
-Pfizer NV/SA
-Tél/Tel: +32 (0)2 554 62 11
-Lietuva
-Pfizer Luxembourg SARL filialas Lietuvoje
-Tel. +370 5 251 4000
-България
-Пфайзер Люксембург САРЛ, Клон България 
-Тел: +359 2 970 4333
-Magyarország
-Pfizer Kft. 
-Tel.: + 36 1 488 37 00
-Česká republika
-Pfizer, spol. s r.o.
-Tel: +420 283 004 111
-Malta
-Vivian Corporation Ltd.
-Tel.: +356 21344610
-Danmark
-Pfizer ApS
-Tlf.: +45 44 20 11 00
-Nederland
-Pfizer bv
-Tel: +31 (0) 800 63 34 636
-Deutschland
-PFIZER PHARMA GmbH
-Tel: +49 (0)30 550055-51000
-Norge
-Pfizer AS
-Tlf: +47 67 52 61 00
-Eesti
-Pfizer Luxembourg SARL Eesti filiaal
-Tel: +372 666 7500
-Österreich
-Pfizer Corporation Austria Ges.m.b.H.
-Tel: +43 (0)1 521 15-0
-Ελλάδα
-Pfizer Ελλάς Α.Ε.
-Τηλ.: +30 210 6785800
-Polska
-Pfizer Polska Sp. z o.o.
-Tel.: +48 22 335 61 00
-España
-Pfizer, S.L.
-Tel: +34 91 490 99 00
-Portugal
-Laboratórios Pfizer, Lda.
-Tel: +351 21 423 5500
-France
-Pfizer 
-Tél: +33 (0)1 58 07 34 40
-România
-Pfizer Romania S.R.L.
-Tel: +40 (0) 21 207 28 00
-Hrvatska
-Pfizer Croatia d.o.o.
-Tel: +385 1 3908 777
-Slovenija
-Pfizer Luxembourg SARL
-Pfizer, podružnica za svetovanje s področja 
-farmacevtske dejavnosti, Ljubljana
-Tel.: +386 (0)1 52 11 400
-Ireland
-Pfizer Healthcare Ireland
-Tel: +1800 633 363 (toll free) 
-Tel: +44 (0)1304 616161
-Slovenská republika
-Pfizer Luxembourg SARL, organizačná zložka
-Tel: + 421 2 3355 5500
-Ísland
-Icepharma hf.
-Sími: +354 540 8000
-Suomi/Finland
-Pfizer Oy
-Puh/Tel: +358 (0)9 430 040
-28
-Italia
-Pfizer S.r.l.
-Tel: +39 06 33 18 21
-Sverige
-Pfizer AB
-Tel: +46 (0)8 550 520 00
-Κύπρος
-Pfizer Ελλάς Α.Ε. (Cyprus Branch)
-Τηλ.: +357 22817690
-United Kingdom (Northern Ireland)
-Pfizer Limited
-Tel: +44 (0) 1304 616161
-Latvija
-Pfizer Luxembourg SARL filiāle Latvijā
-Tel: + 371 670 35 775
-Denne indlægsseddel blev senest ændret .
-Andre informationskilder
-Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu.</p>         </div>"""      
 
 
 
@@ -662,8 +524,6 @@ InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for vydura Package Leaflet for language en"
 Description: "ePI document Bundle for vydura Package Leaflet for language en"
 Usage: #example
-
-
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
@@ -688,8 +548,6 @@ Description: "ePI document Bundle for vydura Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -710,8 +568,8 @@ Usage: #example
 
 Instance: mp443c755443342bac5ae9c42b145300e0
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product vydura"
-Description: "vydura"
+Title: "Medicinal Product VYDURA 75 mg oral lyophilisate"
+Description: "VYDURA 75 mg oral lyophilisate"
 Usage: #inline
 
  
@@ -724,14 +582,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "VYDURA is indicated for the"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "vydura"
+  * productName = "VYDURA 75 mg oral lyophilisate"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -751,10 +606,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

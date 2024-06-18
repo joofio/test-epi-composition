@@ -462,14 +462,14 @@ spondylartrit. </p>
 </li>
 </ul>
 <p>Pædiatrisk plaque psoriasis 
-Cosentyx bruges til behandling af en hudlidelse, kaldet ”plaque psoriasis”, som forårsager betændelse, 
+Cosentyx bruges til behandling af en hudlidelse, kaldet "plaque psoriasis", som forårsager betændelse, 
 der påvirker huden. Cosentyx reducerer betændelsen og andre symptomer på lidelsen. Cosentyx 
 bruges til unge og børn (i alderen 6 år og derover) med moderat til svær plaque psoriasis. </p>
 <p>Fordelen ved at bruge Cosentyx til plaque psoriasis er, at du (eller dit barn) får en afglatning af huden, 
 og at det reducerer symptomer, fx afskalning, kløe og smerte. </p>
 <p>Juvenil idiopatisk artrit, herunder entesopatirelateret artrit og juvenil psoriasisartrit 
 Cosentyx bruges til patienter (i alderen 6 år og derover) til behandling af lidelser med juvenil 
-idiopatisk artrit-kategorier kaldet ”entesopatirelateret artrit” og ”juvenil psoriasisartrit”. Disse lidelser 
+idiopatisk artrit-kategorier kaldet "entesopatirelateret artrit" og "juvenil psoriasisartrit". Disse lidelser 
 er inflammatoriske sygdomme, der påvirker ledene og de steder, hvor senerne hæfter på knoglen. </p>
 <p>Fordelen ved at bruge Cosentyx til entesopatirelateret artrit og juvenil psoriasisartrit er, at det 
 reducerer symptomerne og forbedrer din (eller dit barns) fysiske funktion. </p>         </div>"""   
@@ -533,7 +533,7 @@ Cosentyx kan eventuelt forårsage alvorlige bivirkninger, herunder infektioner o
 Du skal være opmærksom på tegn på disse sygdomme, mens du (eller dit barn) tager Cosentyx. </p>
 <p>Hold op med at tage Cosentyx og kontakt din læge, eller søg omgående lægehjælp, hvis du (eller dit 
 barn) bemærker tegn på en potentielt alvorlig infektion eller en allergisk reaktion. Disse tegn er anført 
-under ”Alvorlige bivirkninger” i punkt 4. Børn og unge 
+under "Alvorlige bivirkninger" i punkt 4. Børn og unge 
 Cosentyx bør ikke bruges til børn under 6 år med plaque psoriasis, da der ikke er gennemført studier 
 for denne aldersgruppe. </p>
 <p>Cosentyx må ikke bruges til børn under 6 år med juvenil idiopatisk artrit (entesopatirelateret artrit og 
@@ -584,8 +584,8 @@ lægen bør i fællesskab beslutte, efter tilstrækkelig undervisning, om du sel
 eller, om en omsorgsperson skal give indsprøjtningen. </p>
 <p>Det er vigtigt, at du ikke forsøger at indsprøjte Cosentyx, før undervisning af din læge, 
 sundhedspersonen eller apotekspersonalet. </p>
-<p>Du kan finde detaljerede oplysninger om, hvordan du indsprøjter Cosentyx, i afsnittet ”Anvisninger til 
-brug af Cosentyx 75 mg fyldt injektionssprøjte” sidst i denne indlægsseddel. </p>
+<p>Du kan finde detaljerede oplysninger om, hvordan du indsprøjter Cosentyx, i afsnittet "Anvisninger til 
+brug af Cosentyx 75 mg fyldt injektionssprøjte" sidst i denne indlægsseddel. </p>
 <p>Brugervejledningen kan også findes via følgende QR-kode og hjemmeside: 
 ‘QR-kode skal inkluderes’ 
 www.cosentyx.eu </p>
@@ -645,7 +645,7 @@ symptomer på psoriasis vende tilbage. </p>
 <p>Alvorlige bivirkninger 
 Stop med at bruge Cosentyx og kontakt din læge, eller søg omgående lægehjælp, hvis du (eller dit 
 barn) oplever en eller flere af nedenstående bivirkninger. </p>
-<p>Potentielt alvorlig infektion – tegnene kan være: </p>
+<p>Potentielt alvorlig infektion - tegnene kan være: </p>
 <ul>
 <li>
 <p>feber, influenzalignende symptomer, nattesved </p>
@@ -660,7 +660,7 @@ barn) oplever en eller flere af nedenstående bivirkninger. </p>
 <p>brændende fornemmelse når du tisser </p>
 </li>
 </ul>
-<p>Alvorlig allergisk reaktion – tegnene kan være: </p>
+<p>Alvorlig allergisk reaktion - tegnene kan være: </p>
 <ul>
 <li>
 <p>problemer med at trække vejret eller synke </p>
@@ -777,7 +777,7 @@ med at fremskaffe mere information om sikkerheden af dette lægemiddel. </p>    
 <p>Brug ikke lægemidlet </p>
 <ul>
 <li>
-<p>efter den udløbsdato, der står på pakningen eller etiketten på sprøjten efter ”EXP”. </p>
+<p>efter den udløbsdato, der står på pakningen eller etiketten på sprøjten efter "EXP". </p>
 </li>
 <li>
 <p>hvis væsken indeholder umiddelbart synlige partikler, er uklar eller tydeligt brun. </p>
@@ -964,7 +964,7 @@ køleskab ved mellem 2 °C - 8 °C. MÅ IKKE NEDFRYSES.
 2. Husk at tage injektionssprøjten ud af køleskabet, og lad den opnå stuetemperatur, før den 
 klargøres til indsprøjtning (15-30 minutter). 
 3. Brug ikke injektionssprøjten efter den udløbsdato, der står på yderpakningen eller på 
-injektionssprøjtens etiket efter ”EXP”. Returner hele pakningen til apoteket, hvis udløbsdatoen 
+injektionssprøjtens etiket efter "EXP". Returner hele pakningen til apoteket, hvis udløbsdatoen 
 er overskredet. </p>
 <p>Indsprøjtningsstedet </p>
 <p>Indsprøjtningsstedet er det sted på kroppen, hvor du vil 
@@ -1056,8 +1056,6 @@ Description: "ePI document Bundle for cosentyx Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1080,8 +1078,6 @@ Description: "ePI document Bundle for cosentyx Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1102,8 +1098,8 @@ Usage: #example
 
 Instance: mp61ceafb9e1df8e2286f86826be123eb9
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product cosentyx"
-Description: "cosentyx"
+Title: "Medicinal Product Cosentyx 75 mg solution for injection in pre-filled syringe"
+Description: "Cosentyx 75 mg solution for injection in pre-filled syringe"
 Usage: #inline
 
  
@@ -1116,14 +1112,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Paediatric plaque psoriasis"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "cosentyx"
+  * productName = "Cosentyx 75 mg solution for injection in pre-filled syringe"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1143,10 +1136,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

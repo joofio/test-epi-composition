@@ -470,7 +470,7 @@ impotens), dvs. manglende evne til at få eller opretholde tilstrækkelig rejsni
 penis og medvirker til, at den holder sig hård og rejst, når du er seksuelt ophidset. Spedra helbreder 
 ikke din lidelse.  </p>
 <p>Det er vigtigt at være klar over, at Spedra kun virker, når man bliver stimuleret seksuelt. Du og din 
-partner har stadig brug for forspil for at blive klar til sex – ligesom hvis du ikke havde taget noget 
+partner har stadig brug for forspil for at blive klar til sex - ligesom hvis du ikke havde taget noget 
 lægemiddel. </p>
 <p>Spedra vil ikke hjælpe dig, hvis du ikke har rejsningsproblemer. Spedra er ikke beregnet til kvinder. </p>         </div>"""   
           
@@ -535,7 +535,7 @@ hvis du har en blødningsforstyrrelse eller aktivt mavesår. </p>
 <p>Hvis noget af ovenstående gør sig gældende for dig, skal du straks fortælle det til lægen eller på 
 apoteket, før du tager Spedra. Er du i tvivl, så spørg lægen eller apotekspersonalet. </p>
 <p>Syns- eller høreforstyrrelser 
-Nogle mænd, der har taget lægemidler som Spedra, har fået problemer med synet og hørelsen – se 
+Nogle mænd, der har taget lægemidler som Spedra, har fået problemer med synet og hørelsen - se 
 nærmere under “alvorlige bivirkninger" i afsnit 4. Det vides ikke, om problemerne hænger direkte 
 sammen med Spedra, med eventuelle andre sygdomme eller med en kombination af flere faktorer. </p>
 <p>Hvis du oplever en pludselig nedsættelse af synet eller tab af synet, eller dit syn er forvrænget eller 
@@ -555,16 +555,16 @@ bakterielle infektioner såsom clarithromycin eller telithromycin (se i begyndel
 “Tag ikke Spedra"). </p>
 <p>Sig det til lægen eller på apoteket, hvis du tager nogen af følgende lægemidler:<br />
  
-såkaldte "alfablokkere"– anvendes mod prostataproblemer eller til at sænke for højt blodtryk </p>
+såkaldte "alfablokkere"- anvendes mod prostataproblemer eller til at sænke for højt blodtryk </p>
 <p> 
 lægemidler mod uregelmæssig hjerterytme (arytmi) såsom kinidin, prokainamid, amiodaron og 
 sotalol 
  
 antibiotika mod infektioner såsom erythromycin<br />
  
-phenobarbital eller primidon – mod epilepsi<br />
+phenobarbital eller primidon - mod epilepsi<br />
  
-carbamazepin – mod epilepsi, til stabilisering af sindsstemning eller mod visse typer smerter. 
+carbamazepin - mod epilepsi, til stabilisering af sindsstemning eller mod visse typer smerter. 
  
 andre lægemidler, der kan mindske nedbrydningen af Spedra i kroppen (moderate CYP3A4-
 hæmmere), herunder amprenavir, aprepitant, diltiazem, fluconazol, fosamprenavir og 
@@ -623,7 +623,7 @@ end normalt. </p>
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. </p>
 <p>Alvorlige bivirkninger </p>
 <p>Hold op med at bruge Spedra, og fortæl det straks til lægen, hvis du får en eller flere af følgende 
-alvorlige bivirkninger – du kan have behov for øjeblikkelig lægehjælp:<br />
+alvorlige bivirkninger - du kan have behov for øjeblikkelig lægehjælp:<br />
  
 en rejsning, der ikke vil gå væk (priapisme). Hvis du får en rejsning, der varer længere end 4 
 timer, skal den behandles snarest muligt, ellers kan din penis blive varigt beskadiget (med bl.a. 
@@ -843,7 +843,7 @@ Berlin-Chemie/Menarini Polska Sp. z o.o.
 Tel.: +48 22 566 21 France 
 MENARINI France 
 Tél: +33 (0)1 45 60 77 Portugal 
-A. Menarini Portugal – Farmacêutica, S.A. 
+A. Menarini Portugal - Farmacêutica, S.A. 
 Tel: +351 210 935 Hrvatska 
 Berlin-Chemie Menarini Hrvatska d.o.o. 
 Tel: + 385 1 4821 România 
@@ -900,8 +900,6 @@ Description: "ePI document Bundle for spedra Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -924,8 +922,6 @@ Description: "ePI document Bundle for spedra Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -946,8 +942,8 @@ Usage: #example
 
 Instance: mp67eb9f5d8991acd60b19f2204c2773c0
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product spedra"
-Description: "spedra"
+Title: "Medicinal Product Spedra 50 mg tablets"
+Description: "Spedra 50 mg tablets"
 Usage: #inline
 
  
@@ -960,14 +956,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Treatment of erectile dysfunction in adult men."
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "spedra"
+  * productName = "Spedra 50 mg tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -987,10 +980,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

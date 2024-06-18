@@ -447,7 +447,7 @@ Hepatitis B-infektion spredes ved seksuel kontakt med nogen, der har infektionen
 inficeret blod (f.eks. ved at dele kanyler). Zeffix vil ikke forhindre, at du kan overføre hepatitis B-infektion 
 til andre. For at beskytte andre personer mod at blive smittet med hepatitis B: 
  Brug kondom ved oralsex, analsex eller samleje 
- Undgå overførsel af blod – lad f.eks. være med at dele nåle. </p>
+ Undgå overførsel af blod - lad f.eks. være med at dele nåle. </p>
 <p>Brug af andre lægemidler sammen med Zeffix 
 Fortæl altid lægen eller apotekspersonalet, hvis du tager andre lægemidler, for nylig har taget andre 
 lægemidler eller planlægger at tage andre lægemidler. Dette gælder også lægemidler, som ikke er købt på 
@@ -750,8 +750,6 @@ Description: "ePI document Bundle for zeffix Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -774,8 +772,6 @@ Description: "ePI document Bundle for zeffix Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -796,8 +792,8 @@ Usage: #example
 
 Instance: mp30a17ceddf8c54eac9abf3a410be28f9
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product zeffix"
-Description: "zeffix"
+Title: "Medicinal Product Zeffix 100 mg film-coated tablets"
+Description: "Zeffix 100 mg film-coated tablets"
 Usage: #inline
 
  
@@ -810,14 +806,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Zeffix is indicated for the treatment of chronic hepatitis B in adults with:"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "zeffix"
+  * productName = "Zeffix 100 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -837,10 +830,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

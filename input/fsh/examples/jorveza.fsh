@@ -890,8 +890,6 @@ Description: "ePI document Bundle for jorveza Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -914,8 +912,6 @@ Description: "ePI document Bundle for jorveza Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -936,8 +932,8 @@ Usage: #example
 
 Instance: mp84f7be3473056391e7ee18f2463847a8
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product jorveza"
-Description: "jorveza"
+Title: "Medicinal Product Jorveza 0.5 mg orodispersible tablets"
+Description: "Jorveza 0.5 mg orodispersible tablets"
 Usage: #inline
 
  
@@ -950,14 +946,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Jorveza is indicated for the treatment of eosinophilic esophagitis (EoE) in adults (older than 18 years"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "jorveza"
+  * productName = "Jorveza 0.5 mg orodispersible tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -977,10 +970,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

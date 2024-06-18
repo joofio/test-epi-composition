@@ -768,8 +768,6 @@ Description: "ePI document Bundle for fluenz Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -792,8 +790,6 @@ Description: "ePI document Bundle for fluenz Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -814,8 +810,8 @@ Usage: #example
 
 Instance: mp2a76f37ef539585b5462eb33582e394e
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product fluenz"
-Description: "fluenz"
+Title: "Medicinal Product Fluenz Tetra nasal spray suspension"
+Description: "Fluenz Tetra nasal spray suspension"
 Usage: #inline
 
  
@@ -828,14 +824,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Prophylaxis of influenza in children and adolescents from 24 months to less than 18 years of age."
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "fluenz"
+  * productName = "Fluenz Tetra nasal spray suspension"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -855,10 +848,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

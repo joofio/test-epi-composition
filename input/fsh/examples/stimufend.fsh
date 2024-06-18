@@ -564,7 +564,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken og på injektionssprøjtens etiket efter 
 EXP. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
-<p>Opbevares i køleskab (2°C – 8°C).  </p>
+<p>Opbevares i køleskab (2°C - 8°C).  </p>
 <p>Stimufend kan udsættes for stuetemperatur (ikke over 30°C) i maksimalt en enkelt periode på op til timer. Stimufend, der opbevares ved stuetemperatur i mere end 72 timer, skal kasseres. Spørg din 
 læge, sygeplejerske eller apotekspersonalet, hvis du har spørgsmål til opbevaring.  </p>
 <p>Må ikke nedfryses.  </p>
@@ -858,8 +858,6 @@ Description: "ePI document Bundle for stimufend Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -882,8 +880,6 @@ Description: "ePI document Bundle for stimufend Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -904,8 +900,8 @@ Usage: #example
 
 Instance: mp8bc140c4c39805aec0aad4cf6453fabf
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product stimufend"
-Description: "stimufend"
+Title: "Medicinal Product Stimufend 6 mg solution for injection in pre-filled syringe"
+Description: "Stimufend 6 mg solution for injection in pre-filled syringe"
 Usage: #inline
 
  
@@ -918,14 +914,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Reduction in the duration of neutropenia and the incidence of febrile neutropenia in adult patients"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "stimufend"
+  * productName = "Stimufend 6 mg solution for injection in pre-filled syringe"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -945,10 +938,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

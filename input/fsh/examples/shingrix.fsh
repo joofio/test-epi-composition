@@ -809,8 +809,6 @@ Description: "ePI document Bundle for shingrix Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -833,8 +831,6 @@ Description: "ePI document Bundle for shingrix Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -855,8 +851,8 @@ Usage: #example
 
 Instance: mp85904308e7b268e4375d9d3d2cf40f57
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product shingrix"
-Description: "shingrix"
+Title: "Medicinal Product Shingrix powder and suspension for suspension for injection"
+Description: "Shingrix powder and suspension for suspension for injection"
 Usage: #inline
 
  
@@ -869,14 +865,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Shingrix is indicated for prevention of herpes zoster (HZ) and post-herpetic neuralgia (PHN), in:"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "shingrix"
+  * productName = "Shingrix powder and suspension for suspension for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -896,10 +889,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

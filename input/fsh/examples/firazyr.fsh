@@ -983,8 +983,6 @@ Description: "ePI document Bundle for firazyr Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1007,8 +1005,6 @@ Description: "ePI document Bundle for firazyr Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1029,8 +1025,8 @@ Usage: #example
 
 Instance: mp28ca2cc7e6d8de308e6b9675ddc2a14c
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product firazyr"
-Description: "firazyr"
+Title: "Medicinal Product Firazyr 30 mg solution for injection in pre-filled syringe"
+Description: "Firazyr 30 mg solution for injection in pre-filled syringe"
 Usage: #inline
 
  
@@ -1043,14 +1039,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Firazyr is indicated for symptomatic treatment of acute attacks of hereditary angioedema (HAE) in"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "firazyr"
+  * productName = "Firazyr 30 mg solution for injection in pre-filled syringe"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1070,10 +1063,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

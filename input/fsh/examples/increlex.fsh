@@ -942,8 +942,6 @@ Description: "ePI document Bundle for increlex Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -966,8 +964,6 @@ Description: "ePI document Bundle for increlex Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -988,8 +984,8 @@ Usage: #example
 
 Instance: mp56dfb582fe4596bebf9f4c8e3931299d
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product increlex"
-Description: "increlex"
+Title: "Medicinal Product INCRELEX 10 mg/ml solution for injection"
+Description: "INCRELEX 10 mg/ml solution for injection"
 Usage: #inline
 
  
@@ -1002,14 +998,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "For the long-term treatment of growth failure in children and adolescents from 2 to 18 years with"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "increlex"
+  * productName = "INCRELEX 10 mg/ml solution for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1029,10 +1022,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

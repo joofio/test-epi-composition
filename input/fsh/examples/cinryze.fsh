@@ -1059,8 +1059,6 @@ Description: "ePI document Bundle for cinryze Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1083,8 +1081,6 @@ Description: "ePI document Bundle for cinryze Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1105,8 +1101,8 @@ Usage: #example
 
 Instance: mp117ee803a8e1cf06b103ca0933d5bdf2
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product cinryze"
-Description: "cinryze"
+Title: "Medicinal Product Cinryze 500 IU powder and solvent for solution for injection"
+Description: "Cinryze 500 IU powder and solvent for solution for injection"
 Usage: #inline
 
  
@@ -1119,14 +1115,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Treatment and pre-procedure prevention of angioedema attacks in adults, adolescents and children"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "cinryze"
+  * productName = "Cinryze 500 IU powder and solvent for solution for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1146,10 +1139,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

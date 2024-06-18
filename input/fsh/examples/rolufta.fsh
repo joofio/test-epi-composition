@@ -884,8 +884,6 @@ Description: "ePI document Bundle for rolufta Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -908,8 +906,6 @@ Description: "ePI document Bundle for rolufta Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -930,8 +926,8 @@ Usage: #example
 
 Instance: mp06bb7b199fc5a315ff3aceb8ab9ff2c8
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product rolufta"
-Description: "rolufta"
+Title: "Medicinal Product Rolufta Ellipta 55 micrograms inhalation powder, pre-dispensed"
+Description: "Rolufta Ellipta 55 micrograms inhalation powder, pre-dispensed"
 Usage: #inline
 
  
@@ -944,14 +940,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Rolufta Ellipta is indicated as a maintenance bronchodilator treatment to relieve symptoms in adult"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "rolufta"
+  * productName = "Rolufta Ellipta 55 micrograms inhalation powder, pre-dispensed"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -971,10 +964,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

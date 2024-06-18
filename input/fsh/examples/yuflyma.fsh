@@ -2204,11 +2204,11 @@ sikkerheden af dette lægemiddel. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på etiketten/kartonen efter EXP. </p>
-<p>Opbevares i køleskab (2 °C – 8 °C). Må ikke nedfryses. </p>
+<p>Opbevares i køleskab (2 °C - 8 °C). Må ikke nedfryses. </p>
 <p>Opbevar den fyldte injektionssprøjte med kanylebeskyttelse i den ydre karton for at beskytte mod lys. </p>
 <p>Alternativ opbevaring: </p>
 <p>Når det er nødvendigt (for eksempel når du rejser), kan en fyldt Yuflyma-injektionssprøjte med 
-kanylebeskyttelse opbevares ved stuetemperatur (op til 25°C) i en periode på højest 31 dage – vær 
+kanylebeskyttelse opbevares ved stuetemperatur (op til 25°C) i en periode på højest 31 dage - vær 
 sikker på at beskytte den mod lys. Når injektionssprøjten er taget ud af køleskabet til opbevaring ved 
 stuetemperatur, skal den anvendes inden for 31 dage eller kasseres, også selv om den lægges tilbage 
 i køleskabet. </p>
@@ -2242,7 +2242,7 @@ kanylebeskyttelse følger der 1 alkoholserviet med pr. sprøjte. </p>
 <p>Indehaver af markedsføringstilladelsen </p>
 <p>Celltrion Healthcare Hungary Kft. 
 1062 Budapest 
-Váci út 1–3. WestEnd Office Building B torony 
+Váci út 1-3. WestEnd Office Building B torony 
 Ungarn </p>
 <p>Fremstiller: </p>
 <p>Millmount Healthcare Ltd. 
@@ -2316,7 +2316,7 @@ Tel.: +36 1 231 0France
 Celltrion Healthcare France SAS 
 Tél.: +33 (0)1 71 25 27<br />
 Portugal 
-PharmaKERN Portugal – Produtos Farmacêuticos, 
+PharmaKERN Portugal - Produtos Farmacêuticos, 
 Sociedade Unipessoal, Lda. 
 Tel: +351 214 200<br />
 Hrvatska 
@@ -2405,18 +2405,13 @@ Tag 1 fyldt injektionssprøjte ud af æsken, der er opbevaret i dit køleskab. <
 <ul>
 <li>Hold den fyldte injektionssprøjte, når den tages ud af æsken. Rør ikke stemplet. 
 c. 
-Sørg for at have følgende materialer: 
-– 
-Fyldt injektionssprøjte 
-– 
-Alkoholserviet 
-Ikke inkluderet i æsken: 
-– 
-Vatkugle eller gaze 
-– 
-Plaster 
-– 
-Affaldsbeholder til skarpe genstande </li>
+Sørg for at have følgende materialer: </li>
+<li>Fyldt injektionssprøjte </li>
+<li>Alkoholserviet 
+Ikke inkluderet i æsken: </li>
+<li>Vatkugle eller gaze </li>
+<li>Plaster </li>
+<li>Affaldsbeholder til skarpe genstande </li>
 </ul>
 <p>Stempel 
 Fingerfla
@@ -2476,16 +2471,16 @@ varmet op. </p>
 varmekilder såsom varmt vand eller mikrobølgeovn. </li>
 </ul>
 <p>EXP: MÅNED ÅR 
-15 – minutter </p>
+15 - minutter </p>
 <p>Figur E 
 5. Vælg et passende injektionssted </p>
 <p>a. 
 Du kan injicere i: 
-– 
+- 
 forsiden af dine lår. 
-– 
+- 
 din mave bortset fra 5 cm omkring navlen. 
-– 
+- 
 det ydre område af overarmen (KUN hvis 
 du er omsorgsperson). </p>
 <ul>
@@ -2642,18 +2637,13 @@ Tag 1 fyldt injektionssprøjte ud af æsken, der er opbevaret i dit køleskab. <
 <ul>
 <li>Hold den fyldte injektionssprøjte, når den tages ud af æsken. Rør ikke stemplet. 
 c. 
-Sørg for at have følgende materialer: 
-– 
-Fyldt injektionssprøjte 
-– 
-Alkoholserviet 
-Ikke inkluderet i æsken: 
-– 
-Vatkugle eller gaze 
-– 
-Plaster 
-– 
-Affaldsbeholder til skarpe genstande </li>
+Sørg for at have følgende materialer: </li>
+<li>Fyldt injektionssprøjte </li>
+<li>Alkoholserviet 
+Ikke inkluderet i æsken: </li>
+<li>Vatkugle eller gaze </li>
+<li>Plaster </li>
+<li>Affaldsbeholder til skarpe genstande </li>
 </ul>
 <p>Stempel 
 Fingerflange 
@@ -2718,16 +2708,16 @@ hjælp af varmekilder såsom varmt vand eller
 mikrobølgeovn. </li>
 </ul>
 <p>EXP: MÅNED ÅR 
-15 – minutter </p>
+15 - minutter </p>
 <p>Figur E 
 5. Vælg et passende injektionssted </p>
 <p>a. 
 Du kan injicere i: 
-– 
+- 
 forsiden af dine lår. 
-– 
+- 
 din mave bortset fra 5cm omkring navlen. 
-– 
+- 
 det ydre område af overarmen (KUN hvis du 
 er omsorgsperson). </p>
 <ul>
@@ -2901,8 +2891,6 @@ Description: "ePI document Bundle for yuflyma Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -2925,8 +2913,6 @@ Description: "ePI document Bundle for yuflyma Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -2947,8 +2933,8 @@ Usage: #example
 
 Instance: mp25519bb07426cab26500e5ad89df90b0
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product yuflyma"
-Description: "yuflyma"
+Title: "Medicinal Product Yuflyma 40 mg solution for injection in pre-filled syringe"
+Description: "Yuflyma 40 mg solution for injection in pre-filled syringe"
 Usage: #inline
 
  
@@ -2961,14 +2947,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Rheumatoid arthritis"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "yuflyma"
+  * productName = "Yuflyma 40 mg solution for injection in pre-filled syringe"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -2988,10 +2971,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

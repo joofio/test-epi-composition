@@ -440,7 +440,7 @@ Der kan meget sjældent opstå krampeanfald hos spædbørn under 4 måneder. Bø
 sværere bivirkninger, der påvirker vejrtrækningen, end ældre børn. Dit barn vil blive overvåget for 
 tegn på bivirkninger, der påvirker nerverne, og for åndedrætsproblemer. </p>
 <p>Bleeksem med sårdannelse i området rundt om anus (perianalt) kan opstå hos spædbørn, småbørn og 
-blebørn, da treosulfan, som udskilles i urinen, kan skade huden. Derfor skal bleen skiftes hyppigt i 6–
+blebørn, da treosulfan, som udskilles i urinen, kan skade huden. Derfor skal bleen skiftes hyppigt i 6-
 8 timer efter hver dosis af dette lægemiddel. </p>
 <p>Der er ikke tilstrækkelige oplysninger om anvendelsen af treosulfan til børn under 1 måned. </p>
 <p>Brug af anden medicin sammen med Trecondi 
@@ -471,10 +471,10 @@ motorkøretøj eller betjene maskiner. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug til voksne 
 Dette lægemiddel anvendes i kombination med fludarabin. 
-Den anbefalede dosis er 10–14 g/m² legemsoverfladeareal (beregnes ud fra din højde og vægt). </p>
+Den anbefalede dosis er 10-14 g/m² legemsoverfladeareal (beregnes ud fra din højde og vægt). </p>
 <p>Brug til børn og unge 
 Dette lægemiddel anvendes i kombination med fludarabin og i de fleste tilfælde også med thiotepa. 
-Den anbefalede dosis er 10–14 g/m² legemsoverfladeareal. </p>
+Den anbefalede dosis er 10-14 g/m² legemsoverfladeareal. </p>
 <p>Sådan gives Trecondi 
 Du vil få givet dette lægemiddel af din læge. Det gives via et drop (infusion) i en vene i løbet af 
 2 timer i 3 dage før en blodstamcelleinfusion. </p>         </div>"""         
@@ -870,8 +870,6 @@ Description: "ePI document Bundle for trecondi Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -894,8 +892,6 @@ Description: "ePI document Bundle for trecondi Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -916,8 +912,8 @@ Usage: #example
 
 Instance: mp133076b034a4711dfc1fe81f7acd828f
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product trecondi"
-Description: "trecondi"
+Title: "Medicinal Product Trecondi 1 g powder for solution for infusion"
+Description: "Trecondi 1 g powder for solution for infusion"
 Usage: #inline
 
  
@@ -930,14 +926,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Treosulfan in combination with fludarabine is indicated as part of conditioning treatment prior to"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "trecondi"
+  * productName = "Trecondi 1 g powder for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -957,10 +950,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

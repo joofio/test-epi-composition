@@ -485,7 +485,7 @@ at De har fået dette lægemiddel. Kontakt den nuklearmedicinske læge, hvis De 
 Eftersom dette lægemiddel gives af en læge under kontrollerede forhold, er det usandsynligt, at De vil 
 få en overdosis. Deres nuklearmedicinske læge vil foreslå, at De drikker meget væske for at hjælpe 
 kroppen med at slippe af med medicinen. De skal være påpasselig med den urin, som De udskiller i 
-forbindelse med vandladning – Deres læge vil fortælle Dem, hvad De skal gøre. Dette er normal 
+forbindelse med vandladning - Deres læge vil fortælle Dem, hvad De skal gøre. Dette er normal 
 praksis for lægemidler som Striascan. Det ioflupan (123I), som forbliver i Deres krop, vil naturligt 
 miste dets radioaktivitet.  </p>
 <p>Spørg den nuklearmedicinske læge, der overvåger undersøgelsen, hvis der er noget, De er i tvivl om. </p>         </div>"""         
@@ -574,7 +574,7 @@ forseglet med et gummilukke og metalforsegling. </p>
 <p>Pakningsstørrelse: 1 hætteglas med 2,5 ml eller 5 ml. </p>
 <p>Indehaver af markedsføringstilladelsen og fremstiller </p>
 <p>CIS bio international 
-RN 306 – Saclay 
+RN 306 - Saclay 
 B.P. F-91192 Gif-sur-Yvette Cedex 
 FRANKRIG </p>
 <p>Denne indlægsseddel blev senest ændret MM/ÅÅÅÅ </p>
@@ -600,8 +600,6 @@ Description: "ePI document Bundle for striascan Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -624,8 +622,6 @@ Description: "ePI document Bundle for striascan Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -646,8 +642,8 @@ Usage: #example
 
 Instance: mpf556f9575aa3afd9667732b8d9b41fc4
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product striascan"
-Description: "striascan"
+Title: "Medicinal Product Striascan 74 MBq/mL solution for injection"
+Description: "Striascan 74 MBq/mL solution for injection"
 Usage: #inline
 
  
@@ -660,14 +656,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "This medicinal product is for diagnostic use only."
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "striascan"
+  * productName = "Striascan 74 MBq/mL solution for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -687,10 +680,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -952,8 +952,6 @@ Description: "ePI document Bundle for epidyolex Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -976,8 +974,6 @@ Description: "ePI document Bundle for epidyolex Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -998,8 +994,8 @@ Usage: #example
 
 Instance: mp75a506f08e3ae1e41989ef75918dcae1
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product epidyolex"
-Description: "epidyolex"
+Title: "Medicinal Product Epidyolex 100 mg/ml oral solution"
+Description: "Epidyolex 100 mg/ml oral solution"
 Usage: #inline
 
  
@@ -1012,14 +1008,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Epidyolex is indicated for use as adjunctive therapy of seizures associated with Lennox-Gastaut"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "epidyolex"
+  * productName = "Epidyolex 100 mg/ml oral solution"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1039,10 +1032,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

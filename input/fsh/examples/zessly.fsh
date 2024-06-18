@@ -1317,7 +1317,7 @@ Opbevar lægemidlet utilgængeligt for børn
 Brug ikke lægemidlet efter den udløbsdato, der står på etiketten og pakningen efter EXP. 
 Udløbsdatoen er den sidste dag i den nævnte måned
 •
-Opbevares i køleskab (2 °C – 8 °C)
+Opbevares i køleskab (2 °C - 8 °C)
 •
 Lægemidlet kan også opbevares i den originale pakning uden for køleskab ved højst 30 °C i en 
 enkelt periode på op til 6 måneder, men den oprindelige udløbsdato må ikke overskrides. I 
@@ -1327,7 +1327,7 @@ der er trykt på æsken, alt efter, hvilken dato der kommer først.
 •
 Det anbefales, at Zessly anvendes så hurtigt som muligt (inden for 3 timer), efter det er klargjort 
 til infusion. Hvis opløsningen er klargjort under aseptiske betingelser, kan den dog opbevares i 
-køleskab ved 2°C – 8°C i 24 timer.
+køleskab ved 2°C - 8°C i 24 timer.
 •
 Brug ikke dette lægemiddel, hvis det er misfarvet, eller hvis det indeholder partikler.</p>         </div>"""      
         
@@ -1454,8 +1454,8 @@ hjemmeside http://www.ema.europa.eu.
 <hr />
 <p>Nedenstående oplysninger er kun til sundhedspersoner:
 Patientinformationskortet skal udleveres til patienter, som er i behandling med infliximab.
-Instruktion i anvendelse og håndtering – opbevaring
-Opbevares ved 2 °C – 8 °C.
+Instruktion i anvendelse og håndtering - opbevaring
+Opbevares ved 2 °C - 8 °C.
 Zessly kan opbevares ved temperaturer på op til højst 30 °C i en enkelt periode på op til 6 måneder, 
 men den oprindelige udløbsdato må ikke overskrides. Den nye udløbsdato skal skrives på pakningen. 
 Når Zessly er taget ud af køleskabet, må det ikke sættes tilbage på køl igen.
@@ -1488,7 +1488,7 @@ filter (porestørrelse 1,2 μm eller derunder). Da der ikke er anvendt konserver
 anbefales det, at indgivelsen af infusionsvæsken påbegyndes så hurtigt som muligt og inden for 
 3 timer efter rekonstitution og fortynding. Når rekonstitution og fortynding er udført under 
 aseptiske forhold, kan Zessly infusionsvæske anvendes inden for 24 timer, hvis den opbevares 
-ved 2 °C – 8 °C. Opbevar ikke rester af den ikke anvendte infusionsvæske til fornyet brug.
+ved 2 °C - 8 °C. Opbevar ikke rester af den ikke anvendte infusionsvæske til fornyet brug.
 5. Der er ikke gennemført biokemiske forligelighedsstudier for at vurdere samtidig indgivelse af 
 Zessly med andre midler. Infunder ikke Zessly i den samme intravenøse slange med andre 
 midler.
@@ -1506,8 +1506,6 @@ InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for zessly Package Leaflet for language en"
 Description: "ePI document Bundle for zessly Package Leaflet for language en"
 Usage: #example
-
-
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
@@ -1532,8 +1530,6 @@ Description: "ePI document Bundle for zessly Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1554,8 +1550,8 @@ Usage: #example
 
 Instance: mp909f6f2d2e9597ae246c0a311cd0f289
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product zessly"
-Description: "zessly"
+Title: "Medicinal Product Zessly 100 mg powder for concentrate for solution for infusion"
+Description: "Zessly 100 mg powder for concentrate for solution for infusion"
 Usage: #inline
 
  
@@ -1568,14 +1564,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Rheumatoid arthritis"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "zessly"
+  * productName = "Zessly 100 mg powder for concentrate for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1595,10 +1588,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

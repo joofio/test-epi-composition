@@ -740,11 +740,11 @@ Kontakt lægen, sygeplejersken eller apotekspersonalet, før du får Cancidas, h
 <p>du er allergisk over for anden medicin</p>
 </li>
 <li>
-<p>du nogensinde har haft leverproblemer – du skal måske have en anden dosis af lægemidlet</p>
+<p>du nogensinde har haft leverproblemer - du skal måske have en anden dosis af lægemidlet</p>
 </li>
 <li>
 <p>du er i behandling med ciclosporin (anvendes til at forhindre afstødning af et transplanteret organ
-eller til at undertrykke immunforsvaret) – da det kan være nødvendigt, at lægen tager ekstra
+eller til at undertrykke immunforsvaret) - da det kan være nødvendigt, at lægen tager ekstra
 blodprøver under behandlingen</p>
 </li>
 <li>
@@ -836,18 +836,18 @@ eller apotekspersonalet. </p>
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
 Kontakt straks lægen eller sygeplejersken, hvis du bemærker en eller flere af følgende
-bivirkninger – du kan have brug for omgående lægehjælp:</p>
+bivirkninger - du kan have brug for omgående lægehjælp:</p>
 <ul>
 <li>
-<p>udslæt, kløe, varmefølelse, hævelse af ansigt, læber eller svælg eller vejrtrækningsbesvær – du
+<p>udslæt, kløe, varmefølelse, hævelse af ansigt, læber eller svælg eller vejrtrækningsbesvær - du
 kan have fået en histaminreaktion på medicinen.</p>
 </li>
 <li>
-<p>vejrtrækningsbesvær med hiven efter vejret eller forværring af udslæt – du kan have fået en
+<p>vejrtrækningsbesvær med hiven efter vejret eller forværring af udslæt - du kan have fået en
 allergisk reaktion på medicinen.</p>
 </li>
 <li>
-<p>hoste, alvorlige vejrtrækningsproblemer – hvis du er voksen og har invasiv aspergillose, kan du
+<p>hoste, alvorlige vejrtrækningsproblemer - hvis du er voksen og har invasiv aspergillose, kan du
 få alvorlige vejrtrækningsproblemer, som kan medføre åndedrætssvigt.</p>
 </li>
 <li>
@@ -1012,7 +1012,7 @@ måned.
 Opbevares i køleskab ved 2-8 C.
 Når Cancidas er fremstillet, skal det anvendes med det samme. Dette skyldes, at det ikke indeholder
 konserveringsmiddel. Kun uddannet sundhedspersonale, som har læst den fuldstændige vejledning, må
-fremstille medicinen (se nedenfor ”Brugsvejledning til rekonstitution og fortynding af Cancidas”).
+fremstille medicinen (se nedenfor "Brugsvejledning til rekonstitution og fortynding af Cancidas").
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke
 smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
         
@@ -1032,401 +1032,9 @@ Cancidas 70 mg pulver til koncentrat til infusionsvæske, opløsning
 Et hætteglas Cancidas indeholder 70 mg caspofungin.</p>
 </li>
 <li>
-<p>Øvrige indholdsstoffer: saccharose, mannitol (E421), eddikesyre og natriumhydroxid (se punkt 2
-Det skal du vide, før du får Cancidas).
-Udseende og pakningsstørrelser
-Cancidas er et sterilt, hvidt/brækket hvidt kompakt pulver.
-Hver pakning indeholder 1 hætteglas med pulver.
-36
-Indehaver af markedsføringstilladelsen og fremstiller
-Indehaver af markedsføringstilladelsen 
-Fremstiller
-Merck Sharp &amp; Dohme B.V. 
-Waarderweg 2031 BN Haarlem 
-Holland 
-Merck Sharp &amp; Dohme B.V.
-Waarderweg 2031 BN Haarlem
-Holland
-eller
-FAREVA Mirabel
-Route de Marsat-Riom
-63963 Clermont-Ferrand Cedex 9
-Frankrig
-Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale
-repræsentant for indehaveren af markedsføringstilladelsen:
-België/Belgique/Belgien
-MSD Belgium 
-Tél/Tel: +32(0)27766211
-dpoc_belux@msd.com
-Lietuva
-UAB Merck Sharp &amp; Dohme 
-Tel.: +370 5 278 02 47
-msd_lietuva@merck.com
-България
-Мерк Шарп и Доум България ЕООД
-Тел.: +359 2 819 3737
-info-msdbg@merck.com
-Luxembourg/Luxemburg
-MSD Belgium 
-Tél/Tel: +32(0)27766211
-dpoc_belux@msd.com
-Česká republika
-Merck Sharp &amp; Dohme s.r.o.
-Tel.: +420 233 010 111
-dpoc_czechslovak@merck.com 
-Magyarország
-MSD Pharma Hungary Kft. 
-Tel.: +36 1 888 5300
-hungary_msd@merck.com
-Danmark
-MSD Danmark ApS 
-Tlf: +45 44 82 40 00
-dkmail@merck.com
-Malta
-Merck Sharp &amp; Dohme Cyprus Limited
-Tel.: 8007 4433 (+ 356 99917558)
-malta_info@merck.com
-Deutschland
-MSD Sharp &amp; Dohme GmbH 
-Tel: 0800 673 673 673 (+49 (0) 89 4561 0)
-e-mail@msd.de
-Nederland
-Merck Sharp &amp; Dohme B.V.
-Tel: 0800 9999000 (+31 23 5153153)
-medicalinfo.nl@merck.com
-Eesti
-Merck Sharp &amp; Dohme OÜ 
-Tel.: +372 6144 msdeesti@merck.com
-Norge
-MSD (Norge) AS 
-Tlf: +47 32 20 73 00
-msdnorge@msd.no
-Ελλάδα
-MSD Α.Φ.Β.Ε.Ε
-Τηλ: + 30 210 98 97 300
-dpoc_greece@merck.com
-Österreich
-Merck Sharp &amp; Dohme Ges.m.b.H. 
-Tel: +43 (0) 1 26 044
-dpoc_austria@merck.com
-37
-España
-Merck Sharp &amp; Dohme de España, S.A. 
-Tel: +34 91 321 06 00
-msd_info@merck.com 
-Polska
-MSD Polska Sp. z o.o. 
-Tel.: +48 22 549 51 00
-msdpolska@merck.com
-France
-MSD France
-Tél: +33 (0) 1 80 46 40 40
-Portugal
-Merck Sharp &amp; Dohme, Lda 
-Tel: +351 21 4465700
-inform_pt@merck.com
-Hrvatska
-Merck Sharp &amp; Dohme d.o.o. 
-Tel: + 385 1 6611 333
-croatia_info@merck.com
-România
-Merck Sharp &amp; Dohme Romania S.R.L.
-Tel: + 4021 529 29 00
-msdromania@merck.com
-Ireland
-Merck Sharp &amp; Dohme Ireland (Human Health)
-Limited 
-Tel: +353 (0)1 2998700
-medinfo_ireland@msd.com
-Slovenija
-Merck Sharp &amp; Dohme, inovativna zdravila d.o.o.
-Tel: + 386 1 5204201
-msd_slovenia@merck.com 
-Ísland
-Vistor hf.
-Sími: +354 535 7000
-Slovenská republika
-Merck Sharp &amp; Dohme, s.r.o. 
-Tel.: +421 2 58282010
-dpoc_czechslovak@merck.com
-Italia
-MSD Italia S.r.l. 
-Tel: 800 23 99 89 (+39 06 361911)
-medicalinformation.it@msd.com
-Suomi/Finland
-MSD Finland Oy 
-Puh/Tel: +358 (0) 9 804 650
-info@msd.fi
-Κύπρος
-Merck Sharp &amp; Dohme Cyprus Limited
-Τηλ.: 800 00 673 (+357 22866700)
-cyprus_info@merck.com</p>
+<p>Øvrige indholdsstoffer: saccharose, mannitol (E421), eddikesyre og natriumhydroxid (se punkt </p>
 </li>
-</ul>
-<p>Sverige
-Merck Sharp &amp; Dohme (Sweden) AB 
-Tel: +46 (0) 77 5700488
-medicinskinfo@merck.com
-Latvija
-SIA Merck Sharp &amp; Dohme Latvija 
-Tel: +371 67364 224
-msd_lv@merck.com
-United Kingdom (Northern Ireland)
-Merck Sharp &amp; Dohme Ireland (Human Health)
-Limited 
-Tel: +353 (0)1 2998700
-medinfoNI@msd.com
-Denne indlægsseddel blev senest ændret
-Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs
-hjemmeside http://www.ema.europa.eu.</p>
-<hr />
-<p>Nedenstående oplysninger er til læger og sundhedspersonale:
-Brugsvejledning til rekonstitution og fortynding af Cancidas:
-Rekonstitution af Cancidas:
-BRUG IKKE SOLVENS INDEHOLDENDE GLUCOSE da CANCIDAS ikke er stabilt i solvens
-indeholdende glucose. CANCIDAS MÅ IKKE BLANDES ELLER INFUNDERES SAMMEN MED
-38
-ANDEN MEDICIN, da der ikke findes data vedrørende forligelighed mellem Cancidas og andre
-intravenøse substanser, tilsætningsstoffer eller medicin. Efterse infusionsvæsken for partikler eller
-misfarvning. 
-Cancidas 50 mg pulver til koncentrat til infusionsvæske, opløsning
-VEJLEDNING TIL ANVENDELSE HOS VOKSNE PATIENTER (50 mg hætteglas)
-Trin 1 Rekonstitution af almindelige hætteglas
-For at rekonstituere pulveret, skal hætteglasset opnå stuetemperatur, og 10,5 ml vand til
-injektionsvæsker tilsættes aseptisk. Koncentrationen i det rekonstituerede hætteglas vil være
-5,2 mg/ml.
-Det hvide/brækket hvide kompakte frysetørrede pulver vil opløses fuldstændig. Bland forsigtigt, indtil
-der fremkommer en klar opløsning. Det rekonstituerede koncentrat skal undersøges visuelt for
-partikler eller misfarvning. Det rekonstituerede koncentrat kan opbevares i op til 24 timer ved 25 C
-eller derunder.
-Trin 2 Tilsætning af rekonstitueret Cancidas til infusionsvæske til patienten
-Solvens til den endelige infusionsvæske er: Natriumchlorid-infusionsvæske eller Ringer-lactat-
-infusionsvæske. Infusionsvæsken fremstilles ved aseptisk at tilsætte et passende volumen af
-rekonstitueret koncentrat (som vist i tabellen nedenfor) til en 250 ml infusionspose eller -flaske.
-Infusion af et reduceret volumen på 100 ml kan anvendes ved daglige doser på 50 mg eller 35 mg,
-hvis dette er nødvendigt af medicinske årsager. Infusionsvæsken må ikke anvendes, hvis den er uklar,
-eller hvis der er bundfald. 
-50 mg HÆTTEGLAS: FREMSTILLING AF INFUSIONSVÆSKE TIL VOKSNE
-DOSIS* 
-Volumen af
-rekonstitueret
-Cancidas til
-overførsel til
-intravenøs pose
-eller flaske
-Standard-fremstilling
-(rekonstitueret Cancidas
-overført til 250 ml)
-endelig koncentration
-Reduceret
-infusionsvolumen
-(rekonstitueret
-Cancidas overført
-til 100 ml) endelig
-koncentration
-50 mg 
-10 ml 
-0,20 mg/ml
--
-50 mg ved reduceret volumen 
-10 ml 
--
-0,47 mg/ml
-35 mg ved moderat nedsat
-leverfunktion 
-(fra et 50 mg hætteglas)
-7 ml 
-0,14 mg/ml
--
-35 mg ved moderat nedsat
-leverfunktion (fra et 50 mg
-hætteglas) ved reduceret
-volumen
-7 ml 
--
-0,34 mg/ml</p>
-<ul>
-<li>der skal anvendes 10,5 ml ved rekonstitution af alle hætteglas.
-VEJLEDNING TIL ANVENDELSE HOS BØRN (50 mg hætteglas)
-Beregning af legemsoverfladeareal mhp. dosering til børn
-Før fremstilling af infusionsvæske skal patientens legemsoverfladeareal beregnes ved hjælp af
-følgende formel: (Mostellerformlen)
-3600
-vægt (kg)
-Højde (cm) 
-Legemsoverfladeareal (m ) 
-2 
-
-=</li>
-</ul>
-<p> Mosteller RD: Simplified Calculation of Body Surface Area. N Engl J Med 1987 Oct 22;317(17):1098 (letter)
-39
-Fremstilling af 70 mg/m
-2 infusionsvæske til børn &gt;3 måneder (ved brug af 50-mg hætteglas)
-1. Bestem den mætningsdosis, der skal anvendes til barnet, ved hjælp af patientens
-legemsoverfladeareal (som beregnet ovenfor) og følgende ligning:
-Legemsoverfladeareal (m2) x 70 mg/m2 = Mætningsdosis
-Den maksimale mætningsdosis på Dag 1 må ikke overstige 70 mg uanset den beregnede dosis.
-2. Det køleskabskolde hætteglas med Cancidas bringes til stuetemperatur.
-3. Tilsæt aseptisk 10,5 ml vand til injektionsvæskera. Dette giver en endelig
-caspofunginkoncentration i hætteglasset på 5,2 mg/ml. Det rekonstituerede koncentrat kan
-opbevares i op til 24 timer ved 25 °C eller derunderb. 
-4. Udtag det volumen af lægemidlet, der svarer til den beregnede mætningsdosis (Trin 1), fra
-hætteglasset. Overfør aseptisk dette volumen (ml)c rekonstitueret Cancidas til en i.v.-pose (eller
-flaske) med 250 ml 0,9%, 0,45% eller 0,225% natriumchloridinfusionsvæske eller Ringer-
-lactatinfusionsvæske. Alternativt kan voluminet (ml)c af rekonstitueret Cancidas overføres til en
-reduceret mængde 0,9%, 0,45% eller 0,225% natriumchloridinfusionsvæske eller Ringer-
-lactatinfusionsvæske, men den endelige koncentration af infusionsvæsken må ikke overstige
-0,5 mg/ml. Infusionsvæsken skal anvendes inden for 24 timer, hvis den opbevares ved 25 °C
-eller derunder, og inden for 48 timer, hvis den opbevares i køleskab ved 2-8 °C.
-Fremstilling af 50 mg/m
-2 infusionsvæke til børn &gt;3 måneder (ved brug af 50-mg hætteglas)
-1. Bestem den daglige vedligeholdelsesdosis, der skal anvendes til barnet, ved hjælp af patientens
-legemsoverfladeareal (som beregnet ovenfor) og følgende ligning:
-Legemsoverfladeareal (m2) x 50 mg/m2 = Daglig vedligeholdelsesdosis
-Den daglige vedligeholdelsesdosis må ikke overstige 70 mg uanset den beregnede dosis.
-2. Det køleskabskolde hætteglas med Cancidas bringes til stuetemperatur.
-3. Tilsæt aseptisk 10,5 ml vand til injektionsvæskera. Dette giver en endelig
-caspofunginkoncentration i hætteglasset på 5,2 mg/ml. Det rekonstituerede koncentrat kan
-opbevares i op til 24 timer ved 25 °C eller derunderb.
-4. Udtag det volumen af lægemidlet, der svarer til den beregnede daglige vedligeholdelsesdosis
-(Trin 1), fra hætteglasset. Overfør aseptisk dette volumen (ml)c rekonstitueret Cancidas til en
-i.v.-pose (eller flaske) med 250 ml 0,9%, 0,45% eller 0,225% natriumchloridinfusionsvæske
-eller Ringer-lactatinfusionsvæske. Alternativt kan voluminet (ml)c af rekonstitueret Cancidas
-overføres til en reduceret mængde 0,9%, 0,45% eller 0,225% natriumchloridinfusionsvæske
-eller Ringer-lactatinfusionsvæske, men den endelige koncentration af infusionsvæsken må ikke
-overstige 0,5 mg/ml. Infusionsvæsken skal anvendes inden for 24 timer, hvis den opbevares ved
-25 °C eller derunder, og inden for 48 timer, hvis den opbevares i køleskab ved 2-8 °C.
-Bemærkninger vedrørende fremstilling:
-a. Det hvide/brækket hvide pulver vil opløses fuldstændigt. Bland forsigtigt, indtil en klar
-opløsning fremkommer. 
-b. Kontroller visuelt den rekonstituerede opløsning for partikler og misfarvning under
-rekonstitutionen og før infusion. Anvend ikke koncentratet/infusionsvæsken, hvis det/den er
-uklar eller der er bundfald. 
-c. 
-Cancidas er formuleret mhp. at kunne give den fulde dosis, der er angivet på hætteglassets etiket
-(50 mg), når 10 ml trækkes op af hætteglasset.
-40
-Cancidas 70 mg pulver til koncentrat til infusionsvæske, opløsning 
-VEJLEDNING TIL ANVENDELSE HOS VOKSNE PATIENTER (70 mg hætteglas)
-Trin 1 Rekonstitution af almindelige hætteglas
-For at rekonstituere pulveret, skal hætteglasset opnå stuetemperatur, og 10,5 ml vand til
-injektionsvæsker tilsættes aseptisk. Koncentrationen i det rekonstituerede hætteglas vil være
-7,2 mg/ml.
-Det hvide/brækket hvide kompakte frysetørrede pulver vil opløses fuldstændig. Bland forsigtigt, indtil
-der fremkommer en klar opløsning. Det rekonstituerede koncentrat skal undersøges visuelt for
-partikler eller misfarvning. Det rekonstituerede koncentrat kan opbevares i op til 24 timer ved 25 C
-eller derunder.
-Trin 2 Tilsætning af rekonstitueret Cancidas til infusionsvæske til patienten
-Solvens til den endelige infusionsvæske er: Natriumchlorid-infusionsvæske eller Ringer-lactat-
-infusionsvæske. Infusionsvæsken fremstilles ved aseptisk at tilsætte et passende volumen
-rekonstitueret koncentrat (som vist i tabellen nedenfor) til en 250 ml infusionspose eller -flaske.
-Infusion af et reduceret volumen på 100 ml kan anvendes ved daglige doser på 50 mg eller 35 mg,
-hvis dette er nødvendigt af medicinske årsager. Infusionsvæsken må ikke anvendes, hvis den er uklar,
-eller hvis der er bundfald. 
-70 mg HÆTTEGLAS: FREMSTILLING AF INFUSIONSVÆSKE TIL VOKSNE
-DOSIS<em> 
-Volumen af 
-rekonstitueret 
-Cancidas til 
-overførsel til 
-intravenøs pose 
-eller flaske 
-Standard-fremstilling 
-(rekonstitueret Cancidas 
-overført til 250 ml) 
-endelig koncentration 
-Reduceret
-infusionsvolumen
-(rekonstitueret
-Cancidas overført til
-100 ml) endelig
-koncentration
-70 mg 
-10 ml 
-0,28 mg/ml 
-Anbefales ikke
-70 mg
-(fra to 50 mg hætteglas)</em>* 14 ml 
-0,28 mg/ml 
-Anbefales ikke
-35 mg ved moderat nedsat
-leverfunktion (fra et 70 mg 
-hætteglas)
-5 ml 
-0,14 mg/ml 
-0,34 mg/ml</p>
-<ul>
-<li>der skal anvendes 10,5 ml ved rekonstitution af alle hætteglas</li>
-</ul>
-<p>**hvis 70 mg hætteglas ikke er tilgængeligt, kan 70 mg dosis fremstilles ud fra to 50 mg hætteglas
-VEJLEDNING TIL ANVENDELSE HOS BØRN (70 mg hætteglas)
-Beregning af legemsoverfladeareal mhp. dosering til børn
-Før fremstilling af infusionsvæske skal patientens legemsoverfladeareal beregnes ved hjælp af
-følgende formel: (Mostellerformlen)
-3600
-vægt (kg)
-Højde (cm) 
-Legemsoverfladeareal (m ) 
-2 
-
-=</p>
-<p>Fremstilling af 70 mg/m
-2 infusionsvæske til børn &gt;3 måneder (ved brug af 70-mg hætteglas)
-1. Bestem den mætningsdosis, der skal anvendes til barnet, ved hjælp af patientens
-legemsoverfladeareal (som beregnet ovenfor) og følgende ligning:
-Legemsoverfladeareal (m2) x 70 mg/m2 = Mætningsdosis
-Den maksimale mætningsdosis på Dag 1 må ikke overstige 70 mg uanset den beregnede dosis.
-2. Det køleskabskolde hætteglas med Cancidas bringes til stuetemperatur.
- Mosteller RD: Simplified Calculation of Body Surface Area. N Engl J Med 1987 Oct 22;317(17):1098 (letter)
-41
-3. Tilsæt aseptisk 10,5 ml vand til injektionsvæskera. Dette giver en endelig
-caspofunginkoncentration i hætteglasset på 7,2 mg/ml. Det rekonstituerede koncentrat kan
-opbevares i op til 24 timer ved 25 °C eller derunderb. 
-4. Udtag det volumen af lægemidlet, der svarer til den beregnede mætningsdosis (Trin 1), fra
-hætteglasset. Overfør aseptisk dette volumen (ml)c rekonstitueret Cancidas til en i.v.-pose (eller
-flaske) med 250 ml 0,9%, 0,45% eller 0,225% natriumchloridinfusionsvæske eller Ringer-
-lactatinfusionsvæske. Alternativt kan voluminet (ml)c af rekonstitueret Cancidas overføres til en
-reduceret mængde 0,9%, 0,45% eller 0,225% natriumchloridinfusionsvæske eller Ringer-
-lactatinfusionsvæske, men den endelige koncentration af infusionsvæsken må ikke overstige
-0,5 mg/ml. Infusionsvæsken skal anvendes inden for 24 timer, hvis den opbevares ved 25 °C
-eller derunder, og inden for 48 timer, hvis den opbevares i køleskab ved 2-8 °C.
-Fremstilling af 50 mg/m
-2 infusionsvæske til børn &gt;3 måneder (ved brug af 70-mg hætteglas)
-1. Bestem den daglige vedligeholdelsesdosis, der skal anvendes til barnet ved hjælp af patientens
-legemsoverfladeareal (som beregnet ovenfor) og følgende ligning:
-Legemsoverfladeareal (m2) x 50 mg/m2 = Daglig vedligeholdelsesdosis
-Den daglige vedligeholdelsesdosis må ikke overstige 70 mg uanset den beregnede dosis.
-2. Det køleskabskolde hætteglas med Cancidas bringes til stuetemperatur.
-3. Tilsæt aseptisk 10,5 ml vand til injektionsvæskera. Dette giver en endelig
-caspofunginkoncentration i hætteglasset på 7,2 mg/ml. Det rekonstituerede koncentrat kan
-opbevares i op til 24 timer ved 25 °C eller derunderb.
-4. Udtag det volumen af lægemidlet, der svarer til den beregnede daglige vedligeholdelsesdosis
-(Trin 1), fra hætteglasset. Overfør aseptisk dette volumen (ml)c rekonstitueret Cancidas til en
-i.v.-pose (eller flaske) med 250 ml 0,9%, 0,45% eller 0,225% natriumchloridinfusionsvæske
-eller Ringer-lactatinfusionsvæske. Alternativt kan voluminet (ml)c af rekonstitueret Cancidas
-overføres til en reduceret mængde 0,9%, 0,45% eller 0,225% natriumchloridinfusionsvæske
-eller Ringer-lactatinfusionsvæske, men den endelige koncentration af infusionsvæsken må ikke
-overstige 0,5 mg/ml. Infusionsvæsken skal anvendes inden for 24 timer, hvis den opbevares ved
-25 °C eller derunder, og inden for 48 timer, hvis den opbevares i køleskab ved 2-8 °C.
-Bemærkninger vedrørende fremstilling:
-a. Det hvide/brækket hvide pulver vil opløses fuldstændigt. Bland forsigtigt, indtil en klar
-opløsning fremkommer. 
-b. Kontroller 
-visuelt 
-den 
-rekonstituerede 
-opløsning 
-for 
-partikler 
-og 
-misfarvning 
-under
-rekonstitutionen og før infusion. Anvend ikke koncentratet/infusionsvæsken, hvis det/den er
-uklar eller der er bundfald. 
-c. 
-Cancidas er formuleret mhp. at kunne give den fulde dosis, der er angivet på hætteglassets etiket
-(70 mg), når 10 ml trækkes op af hætteglasset.</p>         </div>"""      
+</ul>         </div>"""      
 
 
 
@@ -1438,8 +1046,6 @@ InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for cancidas Package Leaflet for language en"
 Description: "ePI document Bundle for cancidas Package Leaflet for language en"
 Usage: #example
-
-
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
@@ -1464,8 +1070,6 @@ Description: "ePI document Bundle for cancidas Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1486,8 +1090,8 @@ Usage: #example
 
 Instance: mpad129f06143be4f32271a42d5b4c5f85
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product cancidas"
-Description: "cancidas"
+Title: "Medicinal Product CANCIDAS 50 mg powder for concentrate for solution for infusion"
+Description: "CANCIDAS 50 mg powder for concentrate for solution for infusion"
 Usage: #inline
 
  
@@ -1500,14 +1104,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "•"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "cancidas"
+  * productName = "CANCIDAS 50 mg powder for concentrate for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1527,10 +1128,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

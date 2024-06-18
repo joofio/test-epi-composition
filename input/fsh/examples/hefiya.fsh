@@ -1058,11 +1058,11 @@ punkt 6). </p>
 <p>hvis du har en alvorlig infektion, herunder tuberkulose, sepsis (blodforgiftning) eller andre 
 opportunistiske infektioner (usædvanlige infektioner, som er forbundet med et svækket 
 immunforsvar). Det er vigtigt, at du informerer lægen, hvis du har symptomer på infektioner, 
-f.eks. feber, sår, træthedsfornemmelse, tandproblemer (se ”Advarsler og forsigtighedsregler”). </p>
+f.eks. feber, sår, træthedsfornemmelse, tandproblemer (se "Advarsler og forsigtighedsregler"). </p>
 </li>
 <li>
 <p>hvis du lider af moderat eller alvorlig hjertesvigt. Det er vigtigt at informere lægen, hvis du har 
-eller har haft en alvorlig hjertesygdom (se ”Advarsler og forsigtighedsregler”). </p>
+eller har haft en alvorlig hjertesygdom (se "Advarsler og forsigtighedsregler"). </p>
 </li>
 </ul>
 <p>Advarsler og forsigtighedsregler </p>
@@ -1253,7 +1253,7 @@ infektion.  </p>
 <li>
 <p>Det er vigtigt, at du fortæller barnets læge og andre sundhedspersoner om din brug af Hefiya 
 under graviditeten, før dit barn får nogen vaccinationer. For mere information om vacciner, se 
-afsnittet ”Advarsler og forsigtighedsregler”. </p>
+afsnittet "Advarsler og forsigtighedsregler". </p>
 </li>
 </ul>
 <p>Trafik- og arbejdssikkerhed </p>
@@ -1565,7 +1565,7 @@ gives én uge før start af den
 sædvanlige dosis. </p>
 <p>Metode og indgivelsesvej </p>
 <p>Hefiya indgives ved injektion under huden (subkutan injektion). </p>
-<p>Detaljeret vejledning om, hvordan Hefiya injiceres, gives i punkt 7 ”Brugsvejledning”. </p>
+<p>Detaljeret vejledning om, hvordan Hefiya injiceres, gives i punkt 7 "Brugsvejledning". </p>
 <p>Hvis du har brugt for meget Hefiya </p>
 <p>Hvis du ved en fejltagelse injicerer Hefiya hyppigere end forskrevet, skal du kontakte lægen eller 
 apotekspersonalet og forklare, at du har brugt mere lægemiddel end nødvendigt. Tag altid lægemidlets 
@@ -2057,11 +2057,11 @@ bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på etiketten/blisterpakningen/pakningen efter 
 EXP. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
-<p>Opbevares i køleskab (2 – 8°C). Må ikke nedfryses.  </p>
+<p>Opbevares i køleskab (2 - 8°C). Må ikke nedfryses.  </p>
 <p>Opbevar den fyldte pen i den ydre karton for at beskytte mod lys. </p>
 <p>Alternativ opbevaring: </p>
 <p>Hvis det er nødvendigt (f.eks. når du rejser), kan Hefiya opbevares ved stuetemperatur (op til 25°C) i 
-en periode på højst 21 dage – sørg for at beskytte det mod lys. Når din fyldte pen er taget ud af 
+en periode på højst 21 dage - sørg for at beskytte det mod lys. Når din fyldte pen er taget ud af 
 køleskabet og opbevaret ved stuetemperatur, skal pennen bruges indenfor 21 dage eller kasseres, 
 også selv om den senere lægges tilbage i køleskabet. Du skal registrere den dato, hvor din fyldte pen 
 først tages ud af køleskabet, og den dato efter hvilken, den skal kasseres. </p>
@@ -2220,7 +2220,7 @@ tabte den, uden at hætten var på. </p>
 behagelig injektion. </p>
 </li>
 <li>
-<p>smid den brugte pen bort, straks efter at du har brugt den. Brug ikke pennen igen. Se ”8. Bortskaffelse af brugte penne” i slutningen af denne brugsvejledning. </p>
+<p>smid den brugte pen bort, straks efter at du har brugt den. Brug ikke pennen igen. Se "8. Bortskaffelse af brugte penne" i slutningen af denne brugsvejledning. </p>
 </li>
 </ul>
 <p>Sådan skal du opbevare din pen: </p>
@@ -2230,7 +2230,7 @@ behagelig injektion. </p>
 </li>
 <li>
 <p>Hvis det er nødvendigt (f.eks. når du rejser), kan Hefiya opbevares ved stuetemperatur (op 
-til 25 °C) i en periode på højst 21 dage – sørg for at beskytte den mod lys. Når pennen er taget 
+til 25 °C) i en periode på højst 21 dage - sørg for at beskytte den mod lys. Når pennen er taget 
 ud af køleskabet og har været opbevaret ved stuetemperatur, skal pennen bruges 
 indenfor 21 dage eller kasseres, også selv om den senere lægges tilbage i køleskabet. Du skal 
 registrere den dato, hvor pennen først tages ud af køleskabet, og den dato efter hvilken, den skal 
@@ -2267,7 +2267,7 @@ mod lys. </p>
 </li>
 </ul>
 <p>Figur B: ting, der ikke er inkluderet i pakningen </p>
-<p>Se ”8. Bortskaffelse af brugte penne” i slutningen af denne brugsvejledning. </p>
+<p>Se "8. Bortskaffelse af brugte penne" i slutningen af denne brugsvejledning. </p>
 <p>Før injektion </p>
 <p>Forberedelse af pennen </p>
 <ul>
@@ -2473,8 +2473,6 @@ Description: "ePI document Bundle for hefiya Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -2497,8 +2495,6 @@ Description: "ePI document Bundle for hefiya Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -2519,8 +2515,8 @@ Usage: #example
 
 Instance: mp1cf3225341c0e6fa2558014a933b7feb
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product hefiya"
-Description: "hefiya"
+Title: "Medicinal Product Hefiya 20 mg solution for injection in pre-filled syringe"
+Description: "Hefiya 20 mg solution for injection in pre-filled syringe"
 Usage: #inline
 
  
@@ -2533,14 +2529,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Rheumatoid arthritis"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "hefiya"
+  * productName = "Hefiya 20 mg solution for injection in pre-filled syringe"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -2560,10 +2553,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

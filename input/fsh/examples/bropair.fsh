@@ -1125,8 +1125,6 @@ Description: "ePI document Bundle for bropair Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1149,8 +1147,6 @@ Description: "ePI document Bundle for bropair Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1171,8 +1167,8 @@ Usage: #example
 
 Instance: mpc86344d735226a69a1900045e5d0cddb
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product bropair"
-Description: "bropair"
+Title: "Medicinal Product BroPair Spiromax 12.75 micrograms/100 micrograms inhalation powder"
+Description: "BroPair Spiromax 12.75 micrograms/100 micrograms inhalation powder"
 Usage: #inline
 
  
@@ -1185,14 +1181,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "BroPair Spiromax is indicated in the regular treatment of asthma in adults and adolescents aged 12 years and"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "bropair"
+  * productName = "BroPair Spiromax 12.75 micrograms/100 micrograms inhalation powder"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1212,10 +1205,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

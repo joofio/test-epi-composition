@@ -795,9 +795,8 @@ andexanet alfa
 Apixaban
 ≤ 5 mg
 Lav dosis
-Lav dosis</p>
-<blockquote>
-<p>5 mg
+Lav dosis
+&gt; 5 mg
 Høj dosis
 Revertering af rivaroxaban
 Det anbefalede dosisprogram for andexanet alfa er baseret på dosen af rivaroxaban, som patienten 
@@ -819,7 +818,7 @@ Rivaroxaban
 ≤ 10 mg
 Lav dosis
 Lav dosis
-10 mg
+&gt; 10 mg
 Høj dosis
 Patienter, der behandles med FXa-inhibitorbehandling, har tilgrundliggende sygdomstilstande, der
 prædisponerer dem for tromboemboliske hændelser. Revertering af FXa-inhibitorbehandling
@@ -910,8 +909,7 @@ administration.
 6. Administrér den rekonstituerede opløsning ved den passende hastighed.
 Bortskaffelse
 Alle brugte sprøjter, kanyler og hætteglas, herunder en eventuel ikke anvendt del af den 
-rekonstituerede opløsning, skal bortskaffes i henhold til lokale retningslinjer.</p>
-</blockquote>         </div>"""      
+rekonstituerede opløsning, skal bortskaffes i henhold til lokale retningslinjer.</p>         </div>"""      
 
 
 
@@ -923,8 +921,6 @@ InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for ondexxya Package Leaflet for language en"
 Description: "ePI document Bundle for ondexxya Package Leaflet for language en"
 Usage: #example
-
-
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
@@ -949,8 +945,6 @@ Description: "ePI document Bundle for ondexxya Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -971,8 +965,8 @@ Usage: #example
 
 Instance: mp44ebb648c2633169fc2072c9adc62d64
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product ondexxya"
-Description: "ondexxya"
+Title: "Medicinal Product Ondexxya 200 mg powder for solution for infusion"
+Description: "Ondexxya 200 mg powder for solution for infusion"
 Usage: #inline
 
  
@@ -985,14 +979,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "For adult patients treated with a direct factor Xa (FXa) inhibitor (apixaban or rivaroxaban) when"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "ondexxya"
+  * productName = "Ondexxya 200 mg powder for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1012,10 +1003,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -450,7 +450,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Virkning 
 Dette lægemiddel indeholder det aktive stof follitropin alfa, der næsten er identisk med det naturlige 
-hormon “follikelstimulerende hormon” (FSH), som kroppen selv producerer. FSH er et gonadotropin, 
+hormon “follikelstimulerende hormon" (FSH), som kroppen selv producerer. FSH er et gonadotropin, 
 som er en type hormon, der er vigtig for menneskers frugtbarhed og forplantning. Hos kvinder er FSH 
 nødvendigt til vækst og udvikling af ægsækkene (folliklerne) i æggestokkene, som indeholder 
 ægcellerne. Hos mænd er FSH nødvendigt for sædproduktionen. </p>
@@ -460,24 +460,24 @@ nødvendigt til vækst og udvikling af ægsækkene (folliklerne) i æggestokkene
 <li>
 <p>til at hjælpe med at frigive et æg fra æggestokken (ægløsning) hos kvinder, som ikke har 
 ægløsning, og som ikke har reageret på behandling med et lægemiddel, der kaldes 
-“clomifencitrat”. </p>
+“clomifencitrat". </p>
 </li>
 <li>
-<p>sammen med et andet lægemiddel, der kaldes “lutropin alfa” (“luteiniserende hormon” eller 
+<p>sammen med et andet lægemiddel, der kaldes “lutropin alfa" (“luteiniserende hormon" eller 
 LH) til at hjælpe med at frigive æg fra æggestokken (ægløsning) hos kvinder, hvis krop 
 producerer meget få gonadotropiner (FSH og LH). </p>
 </li>
 <li>
 <p>til at hjælpe med at udvikle flere follikler (hver follikel indeholder et æg) hos kvinder, som 
 gennemgår assisteret reproduktionsteknologi (procedurer, der kan hjælpe dig med at blive 
-gravid), f.eks. reagensglasbefrugtning (”in vitro-fertilisering”), oplægning af en blanding af 
-sædceller og ægceller i æggelederne (”gamete intra-fallopian transfer”) eller oplægning af 
-befrugtede ægceller i æggelederne (”zygote intra-fallopian transfer”). </p>
+gravid), f.eks. reagensglasbefrugtning ("in vitro-fertilisering"), oplægning af en blanding af 
+sædceller og ægceller i æggelederne ("gamete intra-fallopian transfer") eller oplægning af 
+befrugtede ægceller i æggelederne ("zygote intra-fallopian transfer"). </p>
 </li>
 </ul>
 <p>Hos voksne mænd bruges Bemfola: </p>
 <ul>
-<li>sammen med et andet lægemiddel, som kaldes ”humant choriongonadotropin” (hCG), til at 
+<li>sammen med et andet lægemiddel, som kaldes "humant choriongonadotropin" (hCG), til at 
 hjælpe med at producere sæd hos mænd, som er ufrugtbare på grund af et lavt niveau af visse 
 hormoner. </li>
 </ul>         </div>"""   
@@ -547,12 +547,12 @@ skal du straks tale med lægen, som kan bede dig om at holde op med at tage læg
 Hvis du ikke har ægløsning, og hvis den anbefalede dosis og behandlingsplan bliver overholdt, er 
 forekomsten af OHSS mindre sandsynlig. Bemfola-behandling fører sjældent til svær OHSS, 
 medmindre det lægemiddel, man anvender for at inducere afsluttende follikelmodning (indeholdende 
-humant choriongonadotropin – hCG) er indgivet. Hvis du udvikler OHSS, vil din læge måske ikke 
+humant choriongonadotropin - hCG) er indgivet. Hvis du udvikler OHSS, vil din læge måske ikke 
 give hCG i denne behandlingscyklus, og du vil muligvis blive bedt om ikke at have samleje eller at 
 bruge barriereprævention i mindst 4 døgn. </p>
 <p>Flerfoldsgraviditet 
 Når du bruger Bemfola, har du en højere risiko for at blive gravid med flere end ét foster ad gangen 
-(”flerfoldsgraviditet”, i de fleste tilfælde tvillinger), end hvis du bliver gravid ad naturlig vej. </p>
+("flerfoldsgraviditet", i de fleste tilfælde tvillinger), end hvis du bliver gravid ad naturlig vej. </p>
 <p>Flerfoldsgraviditet kan medføre medicinske komplikationer for dig selv og dine spædbørn. Du kan 
 nedsætte risikoen for flerfoldsgraviditet ved at tage den rette dosis Bemfola på de rette tidspunkter. 
 Risikoen for flerfoldsgraviditet som følge af assisteret befrugtning er relateret til din alder, kvaliteten 
@@ -646,7 +646,7 @@ lægemidlet på en dag, som passer dig. </p>
 </li>
 <li>
 <p>Når du opnår den ønskede virkning, vil du få en enkelt injektion på 250 mikrogram 
-“rekombinant hCG” (r-hCG, et hCG, som er fremstillet i et laboratorium ved en særlig DNA-
+“rekombinant hCG" (r-hCG, et hCG, som er fremstillet i et laboratorium ved en særlig DNA-
 teknik) eller 5 000 til 10 000 IE hCG 24 til 48 timer efter den sidste Bemfola-injektion. Det 
 bedste tidspunkt at have samleje er på selve dagen for hCG-injektionen og dagen efter. </p>
 </li>
@@ -655,7 +655,7 @@ bedste tidspunkt at have samleje er på selve dagen for hCG-injektionen og dagen
 Bemfola stoppes. I den efterfølgende behandlingscyklus vil din læge give dig en højere startdosis af 
 Bemfola end før. </p>
 <p>Hvis din krop reagerer for kraftigt, vil behandlingen blive stoppet, og du vil ikke få hCG (se afsnit 2, 
-“Ovarielt hyperstimulationssyndrom (OHSS)”). I den efterfølgende cyklus vil din læge give dig en 
+“Ovarielt hyperstimulationssyndrom (OHSS)"). I den efterfølgende cyklus vil din læge give dig en 
 lavere dosis af Bemfola end før. </p>
 <p>Hvis du er blevet diagnosticeret med meget lave niveauer af FSH- og LH-hormoner </p>
 <ul>
@@ -671,8 +671,8 @@ lavere dosis af Bemfola end før. </p>
 ønskede virkning. </p>
 </li>
 <li>
-<p>Når du får den ønskede virkning, vil du få en enkelt injektion af 250 mikrogram ”rekombinant 
-hCG” (r-hCG, et hCG, som er fremstillet i et laboratorium ved en særlig DNA-teknik) eller 
+<p>Når du får den ønskede virkning, vil du få en enkelt injektion af 250 mikrogram "rekombinant 
+hCG" (r-hCG, et hCG, som er fremstillet i et laboratorium ved en særlig DNA-teknik) eller 
 5 000-10 000 IE hCG 24 til 48 timer efter de sidste injektioner af Bemfola og lutropin alfa. 
 Det bedste tidspunkt at have samleje er på selve dagen for hCG-injektionen og dagen efter. 
 Alternativt kan der foretages intrauterin insemination eller en anden medicinsk assisteret 
@@ -683,7 +683,7 @@ reproduktionsprocedure, baseret på lægens bedømmelse. </p>
 stoppes. I den efterfølgende behandlingscyklus vil din læge give dig en højere startdosis af Bemfola 
 end før. </p>
 <p>Hvis din krop reagerer for kraftigt, vil behandlingen med Bemfola blive stoppet, og du vil ikke få hCG 
-(se afsnit 2, “Ovarielt hyperstimulationssyndrom (OHSS)”). I den efterfølgende cyklus vil din læge 
+(se afsnit 2, “Ovarielt hyperstimulationssyndrom (OHSS)"). I den efterfølgende cyklus vil din læge 
 give dig en lavere dosis af Bemfola end før. </p>
 <p>Hvis du har behov for at udvikle flere æg til udtagning inden assisteret befrugtning </p>
 <ul>
@@ -701,7 +701,7 @@ sædvanligvis ca. 10 dage, men kan tage fra 5 og op til 20 dage. Din læge vil b
 og/eller et ultralydsapparat til at kontrollere, hvornår dette punkt er nået. </p>
 </li>
 <li>
-<p>Når dine æg er klar, vil du få en enkelt injektion af 250 mikrogram ”rekombinant hCG” (r-
+<p>Når dine æg er klar, vil du få en enkelt injektion af 250 mikrogram "rekombinant hCG" (r-
 hCG, et hCG, som er fremstillet i et laboratorium ved en særlig rekombinant DNA-teknik) 
 eller 5 000 IE-10 000 IE hCG 24 til 48 timer efter den sidste Bemfola-injektion. Dette gør 
 æggene klar til udtagning. </p>
@@ -728,7 +728,7 @@ fortsætte med disse to lægemidler i mindst 18 måneder. </p>
 <p>Hvis du har brugt for meget Bemfola 
 Virkningerne af en overdosering af Bemfola er ukendt. Man kan dog antage, at ovarielt 
 hyperstimulationssyndrom (OHSS) indtræder, hvilket beskrives i afsnit. 4. OHSS vil kun opstå, hvis 
-hCG også indgives (se afsnit 2, under “Ovarielt hyperstimulationssyndrom (OHSS)”).  </p>
+hCG også indgives (se afsnit 2, under “Ovarielt hyperstimulationssyndrom (OHSS)").  </p>
 <p>Hvis du har glemt at bruge Bemfola 
 Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis, hvis du har glemt at tage 
 Bemfola. Tal med din læge så snart, du bemærker, at du har glemt en dosis. </p>
@@ -747,7 +747,7 @@ Bemfola. Tal med din læge så snart, du bemærker, at du har glemt en dosis. </
 <p>Smerter i nederste del af maven i kombination med kvalme eller opkastning kan være 
 symptomer på ovarielt hyperstimulationssyndrom (OHSS). Dette kan være tegn på, at 
 æggestokkene har overreageret på behandlingen, og at der har udviklet sig store cyster i 
-æggestokkene (se også afsnit 2 “Ovarielt hyperstimulationssyndrom (OHSS)”). Denne 
+æggestokkene (se også afsnit 2 “Ovarielt hyperstimulationssyndrom (OHSS)"). Denne 
 bivirkning er almindelig (kan optræde hos op til 1 ud af 10 behandlede). </p>
 </li>
 <li>
@@ -762,7 +762,7 @@ forekomme sjældent (kan optræde hos op til 1 ud af 1 000 behandlede). </p>
 <li>
 <p>Alvorlige komplikationer med blodpropper (tromboemboliske hændelser), nogle gange 
 uafhængigt af OHSS kan forekomme meget sjældent (kan optræde hos op til 1 ud af 10 behandlede). Det kan give brystsmerter, stakåndethed, slagtilfælde eller hjerteanfald (se også 
-afsnit 2,”Problemer med blodpropper (tromboemboliske hændelser)”). </p>
+afsnit 2,"Problemer med blodpropper (tromboemboliske hændelser)"). </p>
 </li>
 </ul>
 <p>Alvorlige bivirkninger hos mænd og kvinder </p>
@@ -934,8 +934,6 @@ Description: "ePI document Bundle for bemfola Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -958,8 +956,6 @@ Description: "ePI document Bundle for bemfola Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -980,8 +976,8 @@ Usage: #example
 
 Instance: mp63388d6288bf341989180dcca08d726e
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product bemfola"
-Description: "bemfola"
+Title: "Medicinal Product Bemfola 75 IU/0.125 mL solution for injection in pre-filled pen"
+Description: "Bemfola 75 IU/0.125 mL solution for injection in pre-filled pen"
 Usage: #inline
 
  
@@ -994,14 +990,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "In adult women"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "bemfola"
+  * productName = "Bemfola 75 IU/0.125 mL solution for injection in pre-filled pen"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1021,10 +1014,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

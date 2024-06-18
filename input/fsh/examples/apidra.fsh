@@ -540,8 +540,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "1. What apidra is and what it is used for"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Apidra anvendes til at nedsætte for højt blodsukker hos patienter med sukkersyge (”diabetes 
-mellitus”). Det kan anvendes til voksne, unge og børn fra 6 år og opefter. Diabetes mellitus er en 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Apidra anvendes til at nedsætte for højt blodsukker hos patienter med sukkersyge ("diabetes 
+mellitus"). Det kan anvendes til voksne, unge og børn fra 6 år og opefter. Diabetes mellitus er en 
 sygdom, som skyldes, at kroppen ikke danner tilstrækkeligt insulin til at holde blodsukkeret under 
 kontrol. </p>
 <p>Det fremstilles ved hjælp af bioteknologi. Det virker hurtigt inden for 10-20 minutter og virker i ca. 4 
@@ -804,8 +804,8 @@ bruges forkert.
 Det betyder, at du måske ikke altid får insulin nok til at behandle din diabetes. 
 Hvis dette sker, skal du straks søge lægehjælp. 
 Du skal altid have et alternativt insulin-system i reserve, så du kan sprøjte insulin ind under 
-huden (se punkt 3 ”Håndtering af insulinpumpesystem” og ”Hvad skal du gøre, hvis pumpesystemet 
-svigter, eller hvis pumpen bruges forkert?”). 
+huden (se punkt 3 "Håndtering af insulinpumpesystem" og "Hvad skal du gøre, hvis pumpesystemet 
+svigter, eller hvis pumpen bruges forkert?"). 
 For mere information om tegn og symptomer på hyperglykæmi henvises til den indrammede tekst 
 sidst i denne indlægsseddel. </p>
 <p>Andre bivirkninger 
@@ -845,7 +845,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
 Brug ikke Apidra efter den udløbsdato, der står på pakningen og på hætteglasset efter Exp. 
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Uanbrudte hætteglas 
-Opbevares i køleskab (2°C – 8°C). 
+Opbevares i køleskab (2°C - 8°C). 
 Må ikke nedfryses. 
 Apidra må ikke komme i direkte berøring med frostboks eller fryseelementer. 
 Opbevar hætteglasset i den ydre karton for at beskytte mod lys. </p>
@@ -868,9 +868,9 @@ medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""
 <li>Aktivt stof: insulin glulisin. Hver milliliter af opløsningen indeholder 100 enheder af det aktive 
 stof insulin glulisin (svarende til 3,49 mg). Hvert hætteglas indeholder 10 ml injektionsvæske, 
 opløsning, svarende til 1.000 enheder.   </li>
-<li>Øvrige indholdsstoffer: metacresol (se afsnit 2 under ”Apidra indeholder metacresol”), 
-natriumchlorid (se afsnit 2 ”Vigtig information om nogen af de øvrige indholdsstoffer i 
-Apidra”), trometamol, polysorbat 20, koncentreret saltsyre, natriumhydroxid, vand til 
+<li>Øvrige indholdsstoffer: metacresol (se afsnit 2 under "Apidra indeholder metacresol"), 
+natriumchlorid (se afsnit 2 "Vigtig information om nogen af de øvrige indholdsstoffer i 
+Apidra"), trometamol, polysorbat 20, koncentreret saltsyre, natriumhydroxid, vand til 
 injektionsvæsker. </li>
 </ul>
 <p>Udseende og pakningsstørrelser </p>
@@ -930,7 +930,7 @@ Sanofi-Aventis Μονοπρόσωπη AEBE
 Τηλ: +30 210 900 16<br />
 Österreich 
 sanofi-aventis GmbH 
-Tel: +43 1 80 185 – 0 </p>
+Tel: +43 1 80 185 - 0 </p>
 <p>España 
 sanofi-aventis, S.A.U. 
 Tel: +34 93 485 94<br />
@@ -995,8 +995,8 @@ Hvis du for eksempel:</p>
 virkning, f.eks. på grund af forkert opbevaring, </li>
 <li>dyrker mindre motion end sædvanligt eller er stresset (følelsesmæssigt ude af balance eller er 
 ophidset), eller hvis du har en skade, er blevet opereret, har en infektion eller feber, </li>
-<li>du tager eller har taget visse andre lægemidler (se punkt 2 ”Brug af anden medicin sammen med 
-Apidra”). </li>
+<li>du tager eller har taget visse andre lægemidler (se punkt 2 "Brug af anden medicin sammen med 
+Apidra"). </li>
 </ul>
 <p>Advarselssymptomer på hyperglykæmi 
 Tørst, øget vandladning, træthed, tør hud, ansigtsrødme, nedsat appetit, lavt blodtryk, hurtig puls og 
@@ -1023,8 +1023,8 @@ sukkerlignende stoffer kaldes kulhydrater, medens kunstige sødemidler IKKE er k
 <li>dyrker mere motion end normalt eller udfører en anden form for fysisk aktivitet, </li>
 <li>er ved at komme dig efter en skade eller en operation eller andre former for stress, </li>
 <li>er ved at komme dig efter en sygdom eller efter feber, </li>
-<li>tager eller er holdt op med at tage visse andre lægemidler (se punkt 2 ”Brug af anden medicin 
-sammen med Apidra”). </li>
+<li>tager eller er holdt op med at tage visse andre lægemidler (se punkt 2 "Brug af anden medicin 
+sammen med Apidra"). </li>
 </ul>
 <p>Der er endvidere større risiko for at få hypoglykæmi hvis:</p>
 <ul>
@@ -1050,7 +1050,7 @@ nedsat reaktionsevne, depression, konfusion, taleforstyrrelser (til tider fuldst
 synsforstyrrelser, skælven, lammelser, prikkende og stikkende fornemmelse (paræstesi), følelsesløshed 
 og prikken og stikken omkring munden, svimmelhed, manglende selvbeherskelse, hjælpeløshed, 
 kramper og bevidstløshed. </p>
-<p>De første symptomer, der advarer dig om hypoglykæmi (”advarselssymptomer”), kan ændre sig, være 
+<p>De første symptomer, der advarer dig om hypoglykæmi ("advarselssymptomer"), kan ændre sig, være 
 svækket eller kan helt mangle, hvis:</p>
 <ul>
 <li>du tilhører den ældre aldersgruppe,  </li>
@@ -1059,8 +1059,8 @@ svækket eller kan helt mangle, hvis:</p>
 <li>du for nylig har haft for lavt blodsukker (hypoglykæmi), f.eks. dagen før, eller hvis tilstanden 
 udvikles langsomt, </li>
 <li>du har et næsten normalt eller i det mindste betydeligt forbedret blodsukker, </li>
-<li>du tager eller har taget visse andre lægemidler (se punkt 2 ”Brug af anden medicin sammen med 
-Apidra”). </li>
+<li>du tager eller har taget visse andre lægemidler (se punkt 2 "Brug af anden medicin sammen med 
+Apidra"). </li>
 </ul>
 <p>I sådanne tilfælde kan du udvikle alvorlig hypoglykæmi (og endda besvime), før du selv bliver klar 
 over problemet. Sørg for at være fortrolig med dine advarselssymptomer. Hvis det er nødvendigt kan 
@@ -1126,8 +1126,6 @@ Description: "ePI document Bundle for apidra Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1150,8 +1148,6 @@ Description: "ePI document Bundle for apidra Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1172,8 +1168,8 @@ Usage: #example
 
 Instance: mp4dc5c04be0c555d6e01b7c14e83eaf76
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product apidra"
-Description: "apidra"
+Title: "Medicinal Product Apidra 100 Units/ml solution for injection in a vial"
+Description: "Apidra 100 Units/ml solution for injection in a vial"
 Usage: #inline
 
  
@@ -1186,14 +1182,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Treatment of adults, adolescents and children 6 years or older, with diabetes mellitus, where treatment"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "apidra"
+  * productName = "Apidra 100 Units/ml solution for injection in a vial"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1213,10 +1206,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

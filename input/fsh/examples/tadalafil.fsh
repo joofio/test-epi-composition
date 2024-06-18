@@ -577,8 +577,8 @@ Disse bivirkninger er som regel lette til moderate. </p>
 søge læge:</p>
 <ul>
 <li>Allergiske reaktioner herunder hududslæt (hyppighed: Ikke almindelig). </li>
-<li>Brystsmerter – brug ikke nitrater, men søg straks lægehjælp (hyppighed: Ikke almindelig). </li>
-<li>Priapisme – forlænget og muligvis smertefuld rejsning efter indtagelse af tadalafil (hyppighed: 
+<li>Brystsmerter - brug ikke nitrater, men søg straks lægehjælp (hyppighed: Ikke almindelig). </li>
+<li>Priapisme - forlænget og muligvis smertefuld rejsning efter indtagelse af tadalafil (hyppighed: 
 Sjælden). 
 Hvis du får sådan en rejsning, som vedvarer i mere end 4 timer, skal du straks søge lægehjælp. </li>
 <li>Pludseligt opstået synstab (hyppighed: Sjælden). </li>
@@ -780,8 +780,6 @@ Description: "ePI document Bundle for tadalafil Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -804,8 +802,6 @@ Description: "ePI document Bundle for tadalafil Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -826,8 +822,8 @@ Usage: #example
 
 Instance: mpd115286718a651dcd06cf9dfb35e2ceb
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product tadalafil"
-Description: "tadalafil"
+Title: "Medicinal Product Tadalafil Mylan 2.5 mg film-coated tablets"
+Description: "Tadalafil Mylan 2.5 mg film-coated tablets"
 Usage: #inline
 
  
@@ -840,14 +836,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Treatment of erectile dysfunction in adult males."
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "tadalafil"
+  * productName = "Tadalafil Mylan 2.5 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -867,10 +860,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

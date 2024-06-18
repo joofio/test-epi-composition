@@ -544,33 +544,33 @@ andre lægemidler, og visse andre lægemidler kan påvirke, hvordan dette lægem
 følgende lægemidler: </p>
 <p>Følgende lægemidler kan øge virkningen af avapritinib og kan øge bivirkningerne:</p>
 <ul>
-<li>Boceprevir – bruges til at behandle hepatitis C </li>
-<li>Cobicistat, indinavir, lopinavir, nelfinavir, ritonavir, saquinavir – bruges til at behandle hiv-
+<li>Boceprevir - bruges til at behandle hepatitis C </li>
+<li>Cobicistat, indinavir, lopinavir, nelfinavir, ritonavir, saquinavir - bruges til at behandle hiv-
 infektioner/aids </li>
-<li>Clarithromycin, erythromycin, telithromycin – bruges til at behandle bakterieinfektioner </li>
-<li>Itraconazol, ketoconazol, posaconazol, voriconazol – bruges til at behandle alvorlige 
+<li>Clarithromycin, erythromycin, telithromycin - bruges til at behandle bakterieinfektioner </li>
+<li>Itraconazol, ketoconazol, posaconazol, voriconazol - bruges til at behandle alvorlige 
 svampeinfektioner </li>
-<li>Conivaptan – bruges til at behandle et lavt indhold af natrium i blodet (hyponatriæmi) </li>
+<li>Conivaptan - bruges til at behandle et lavt indhold af natrium i blodet (hyponatriæmi) </li>
 </ul>
 <p>Følgende lægemidler kan reducere effekten af avapritinib:</p>
 <ul>
-<li>Rifampicin – bruges til at behandle tuberkulose (TB) og visse andre bakterieinfektioner  </li>
-<li>Carbamazepin, phenytoin, fosphenytoin, primidon, phenobarbital – bruges til at behandle epilepsi  </li>
-<li>Prikbladet perikon (hypericum perforatum) – naturlægemiddel anvendt mod depression </li>
-<li>Bosentan – bruges til at behandle forhøjet blodtryk </li>
-<li>Efavirenz og etravirin – bruges til at behandle hiv-infektioner/aids </li>
-<li>Modafinil – bruges til at behandle søvnforstyrrelser </li>
-<li>Dabrafenib – bruges til at behandle visse kræftformer </li>
-<li>Nafcillin – bruges til at behandle visse bakterieinfektioner </li>
-<li>Dexamethason – bruges til at reducere inflammation </li>
+<li>Rifampicin - bruges til at behandle tuberkulose (TB) og visse andre bakterieinfektioner  </li>
+<li>Carbamazepin, phenytoin, fosphenytoin, primidon, phenobarbital - bruges til at behandle epilepsi  </li>
+<li>Prikbladet perikon (hypericum perforatum) - naturlægemiddel anvendt mod depression </li>
+<li>Bosentan - bruges til at behandle forhøjet blodtryk </li>
+<li>Efavirenz og etravirin - bruges til at behandle hiv-infektioner/aids </li>
+<li>Modafinil - bruges til at behandle søvnforstyrrelser </li>
+<li>Dabrafenib - bruges til at behandle visse kræftformer </li>
+<li>Nafcillin - bruges til at behandle visse bakterieinfektioner </li>
+<li>Dexamethason - bruges til at reducere inflammation </li>
 </ul>
 <p>Dette lægemiddel kan påvirke, hvor godt følgende lægemidler virker eller øge deres bivirkninger:</p>
 <ul>
-<li>Alfentanil – bruges til at kontrollere smerter under operationer og medicinske procedurer </li>
-<li>Atazanavir – bruges til at behandle hiv-infektion/aids </li>
-<li>Midazolam – bruges til anæstesi, bedøvelse eller for at reducere angst </li>
-<li>Simvastatin – bruges til behandling af højt kolesterol </li>
-<li>Sirolimus, tacrolimus – bruges til at forebygge afstødning af transplanterede organer </li>
+<li>Alfentanil - bruges til at kontrollere smerter under operationer og medicinske procedurer </li>
+<li>Atazanavir - bruges til at behandle hiv-infektion/aids </li>
+<li>Midazolam - bruges til anæstesi, bedøvelse eller for at reducere angst </li>
+<li>Simvastatin - bruges til behandling af højt kolesterol </li>
+<li>Sirolimus, tacrolimus - bruges til at forebygge afstødning af transplanterede organer </li>
 </ul>
 <p>Spørg din læge eller apotekspersonalet til råds, før du tager nogen form for lægemiddel. </p>
 <p>Brug af AYVAKYT sammen med mad og drikke 
@@ -611,7 +611,7 @@ væsentlige natriumfrit. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
 lægen eller apotekspersonalet.  </p>
 <p>Hvilken styrke AYVAKYT skal du bruge<br />
-Den anbefalede dosis AYVAKYT vil afhænge af din sygdom – se nedenfor.<br />
+Den anbefalede dosis AYVAKYT vil afhænge af din sygdom - se nedenfor.<br />
 AYVAKYT fås i tabletter med forskellige styrker. Styrkerne er 25 mg, 50 mg, 100 mg, 200 mg og 
 300 mg. Din læge vil rådgive dig om styrken og antallet af tabletter, du skal tage: </p>
 <p>Behandling af AdvSM 
@@ -740,14 +740,14 @@ ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>   
 </li>
 <li>
 <p>Tabletkernen indeholder: mikrokrystallinsk cellulose, copovidon, croscarmellosenatrium 
-og magnesiumstearat (se punkt 2 ”AYVAKYT indeholder natrium”). </p>
+og magnesiumstearat (se punkt 2 "AYVAKYT indeholder natrium"). </p>
 </li>
 <li>Tabletovertrækket indeholder: talcum, macrogol 3350, polyvinylalkohol og titandioxid 
 (E171). </li>
 </ul>
 <p>Udseende og pakningsstørrelser 
 AYVAKYT 25 mg filmovertrukne tabletter er runde, hvide tabletter med en diameter på 5 mm og med 
-”BLU” præget på den ene side og ”25” præget på den anden side.  </p>
+"BLU" præget på den ene side og "25" præget på den anden side.  </p>
 <p>AYVAKYT leveres i en beholder med 30 filmovertrukne tabletter. Hver æske indeholder én beholder. </p>
 <p>Cylinderen med tørremiddel skal blive i beholderen. </p>
 <p>Indehaver af markedsføringstilladelsen og fremstiller 
@@ -771,7 +771,7 @@ Tél/Tel/Teл/Tlf/Sími/Puh: +31 85 064 4e-mail: MedinfoEurope@blueprintmedicine
 <p>Ελλάδα, Κύπρος 
 Swixx Biopharma S.M.S.A.<br />
 Τηλ: +30 214 444 9Denne indlægsseddel blev senest ændret  </p>
-<p>Dette lægemiddel er godkendt under ”betingede omstændigheder”.<br />
+<p>Dette lægemiddel er godkendt under "betingede omstændigheder".<br />
 Det betyder, at der forventes yderligere dokumentation for lægemidlet. 
 Det Europæiske Lægemiddelagentur vil mindst en gang om året vurdere nye oplysninger om 
 lægemidlet, og denne indlægsseddel vil om nødvendigt blive ajourført. </p>
@@ -805,8 +805,6 @@ Description: "ePI document Bundle for ayvakyt Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -829,8 +827,6 @@ Description: "ePI document Bundle for ayvakyt Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -851,8 +847,8 @@ Usage: #example
 
 Instance: mpf40cac7981e52d03bbfe471a7f88b25f
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product ayvakyt"
-Description: "ayvakyt"
+Title: "Medicinal Product AYVAKYT 25 mg film-coated tablets"
+Description: "AYVAKYT 25 mg film-coated tablets"
 Usage: #inline
 
  
@@ -865,14 +861,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Unresectable or metastatic gastrointestinal stromal tumour (GIST)"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "ayvakyt"
+  * productName = "AYVAKYT 25 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -892,10 +885,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

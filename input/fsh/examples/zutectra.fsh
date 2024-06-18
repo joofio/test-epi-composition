@@ -883,8 +883,6 @@ Description: "ePI document Bundle for zutectra Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -907,8 +905,6 @@ Description: "ePI document Bundle for zutectra Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -929,8 +925,8 @@ Usage: #example
 
 Instance: mp73960cef65d43cea9c4f68f4818ce9c6
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product zutectra"
-Description: "zutectra"
+Title: "Medicinal Product Zutectra 500 IU solution for injection in pre-filled syringe"
+Description: "Zutectra 500 IU solution for injection in pre-filled syringe"
 Usage: #inline
 
  
@@ -943,14 +939,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Prevention of hepatitis B virus (HBV) re-infection in HBsAg and HBV-DNA negative adult patients at"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "zutectra"
+  * productName = "Zutectra 500 IU solution for injection in pre-filled syringe"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -970,10 +963,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -974,8 +974,6 @@ Description: "ePI document Bundle for gavreto Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -998,8 +996,6 @@ Description: "ePI document Bundle for gavreto Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1020,8 +1016,8 @@ Usage: #example
 
 Instance: mpdb55bd922aa6d7007a8fefbeb8bc2264
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product gavreto"
-Description: "gavreto"
+Title: "Medicinal Product GAVRETO 100 mg hard capsules"
+Description: "GAVRETO 100 mg hard capsules"
 Usage: #inline
 
  
@@ -1034,14 +1030,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Gavreto is indicated as monotherapy for the treatment of adult patients with rearranged during"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "gavreto"
+  * productName = "GAVRETO 100 mg hard capsules"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1061,10 +1054,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

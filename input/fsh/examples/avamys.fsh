@@ -603,7 +603,7 @@ Søg lægehjælp hurtigst muligt. </p>
 <p>Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 personer) 
 • Næseblod (som regel let), især hvis du bruger Avamys i mere end 6 uger. </p>
 <p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 personer)<br />
-• Sår i næsen – hvilket kan give irritation og ubehag i næsen. Du kan måske også opleve en smule 
+• Sår i næsen - hvilket kan give irritation og ubehag i næsen. Du kan måske også opleve en smule 
 blod, når du pudser næse.<br />
 • Hovedpine. 
 • Åndenød. </p>
@@ -720,7 +720,7 @@ Tel.: + 48 (0)22 576 9France
 Laboratoire GlaxoSmithKline 
 Tél.: + 33 (0)1 39 17 84 diam@gsk.com </p>
 <p>Portugal 
-GlaxoSmithKline – Produtos Farmacêuticos, Lda. 
+GlaxoSmithKline - Produtos Farmacêuticos, Lda. 
 Tel: + 351 21 412 95 FI.PT@gsk.com  </p>
 <p>Hrvatska 
 GlaxoSmithKline (Ireland) Limited 
@@ -772,10 +772,10 @@ flasken lodret op imod lyset. Du kan på den måde se væskestanden i vinduet. <
 <li>
 <p>Første gang du bruger næsesprayen, skal den rystes omhyggeligt i ca. 10 sekunder med hætten 
 på. Dette er vigtigt, fordi Avamys er en tyk suspension, som bliver flydende, når du ryster den 
-grundigt – se billede b. Den kan kun afgive et pust, når den er flydende. </p>
+grundigt - se billede b. Den kan kun afgive et pust, når den er flydende. </p>
 </li>
 <li>
-<p>Dosisknappen skal presses hårdt ind for at afgive et pust – se billede c. </p>
+<p>Dosisknappen skal presses hårdt ind for at afgive et pust - se billede c. </p>
 </li>
 </ul>
 <p>H
@@ -812,7 +812,7 @@ Dosisknap </p>
 <ul>
 <li>
 <p>Hvis du har problemer med at presse dosisknappen ind med tommelfingeren, kan du bruge begge 
-hænder – se billede d. </p>
+hænder - se billede d. </p>
 </li>
 <li>
 <p>Næsesprayen skal altid have hætten på, når du ikke bruger den. Hætten holder støv ude, holder 
@@ -842,14 +842,14 @@ vejledningen herunder: </p>
 <p>Ryst næsesprayen grundigt i ca. 10 sekunder med hætten på. </p>
 </li>
 <li>
-<p>Fjern hætten ved at klemme hårdt om siderne på den med tommel- og pegefinger – se billede e. </p>
+<p>Fjern hætten ved at klemme hårdt om siderne på den med tommel- og pegefinger - se billede e. </p>
 </li>
 <li>
 <p>Hold næsesprayen lodret; hæld den derefter let, så næsestudsen peger væk fra dig. </p>
 </li>
 <li>
 <p>Tryk dosisknappen på siden hårdt ind. Gør det mindst 6 gange, til der kommer fint forstøvet 
-væske ud i luften – se billede f. </p>
+væske ud i luften - se billede f. </p>
 </li>
 </ol>
 <p>Næsesprayen er nu klar til brug. </p>
@@ -858,11 +858,11 @@ væske ud i luften – se billede f. </p>
 <li>Ryst næsesprayen grundigt. </li>
 <li>Tag hætten af. </li>
 <li>Puds næse, så der er fri passage i næsen, og bøj hovedet lidt forover. </li>
-<li>Før næsestudsen ind i det ene næsebor – se billede g. Hold næsestudsen, så den peger lidt ud 
+<li>Før næsestudsen ind i det ene næsebor - se billede g. Hold næsestudsen, så den peger lidt ud 
 mod næsens yderside, væk fra næseskillevæggen. På den måde fordeles medicinen bedst i 
 næsen. </li>
 <li>
-<p>Tryk dosisknappen hårdt ind, mens du trækker vejret ind gennem næsen – se billede h. </p>
+<p>Tryk dosisknappen hårdt ind, mens du trækker vejret ind gennem næsen - se billede h. </p>
 </li>
 <li>
 <p>Fjern næsesprayen fra næsen og pust ud gennem munden. </p>
@@ -875,7 +875,7 @@ næsen. </li>
 <p>Hver gang du har brugt den: </p>
 <ol>
 <li>
-<p>Tør næsestudsen og indersiden af hætten med en tør, ren klud – se billede i og j. </p>
+<p>Tør næsestudsen og indersiden af hætten med en tør, ren klud - se billede i og j. </p>
 </li>
 <li>
 <p>Brug ikke vand til rengøringen. </p>
@@ -897,7 +897,7 @@ lavt, er der muligvis ikke nok tilbage til at få et pust ud. </p>
 få hul igennem. </p>
 </li>
 <li>
-<p>Prøv at få den til at virke ved at følge vejledningen under ”Klargøring af næsesprayen”. </p>
+<p>Prøv at få den til at virke ved at følge vejledningen under "Klargøring af næsesprayen". </p>
 </li>
 <li>
 <p>Hvis den stadig ikke virker, eller hvis væsken kommer ud som en stråle, så tal med apoteket om 
@@ -915,8 +915,6 @@ InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for avamys Package Leaflet for language en"
 Description: "ePI document Bundle for avamys Package Leaflet for language en"
 Usage: #example
-
-
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
@@ -941,8 +939,6 @@ Description: "ePI document Bundle for avamys Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -963,8 +959,8 @@ Usage: #example
 
 Instance: mp2ca22762bd601998a0d2f8f18a04be53
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product avamys"
-Description: "avamys"
+Title: "Medicinal Product AVAMYS 27.5 micrograms/spray, nasal spray suspension"
+Description: "AVAMYS 27.5 micrograms/spray, nasal spray suspension"
 Usage: #inline
 
  
@@ -977,14 +973,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Avamys is indicated in adults, adolescents and children (6 years and over)"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "avamys"
+  * productName = "AVAMYS 27.5 micrograms/spray, nasal spray suspension"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1004,10 +997,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -900,8 +900,6 @@ Description: "ePI document Bundle for kentera Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -924,8 +922,6 @@ Description: "ePI document Bundle for kentera Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -946,8 +942,8 @@ Usage: #example
 
 Instance: mpa346fcd48e1745156d4e5145052e15e4
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product kentera"
-Description: "kentera"
+Title: "Medicinal Product Kentera 3.9 mg / 24 hours transdermal patch"
+Description: "Kentera 3.9 mg / 24 hours transdermal patch"
 Usage: #inline
 
  
@@ -960,14 +956,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Symptomatic treatment of urge incontinence and/or increased urinary frequency and urgency as may"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "kentera"
+  * productName = "Kentera 3.9 mg / 24 hours transdermal patch"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -987,10 +980,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

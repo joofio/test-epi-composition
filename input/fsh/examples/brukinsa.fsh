@@ -592,53 +592,53 @@ blodpropper, </p>
 </ul>
 <p>Kontakt lægen, apotekspersonalet eller sygeplejersken, før du tager BRUKINSA, hvis noget af 
 ovenstående gælder for dig (eller hvis du er i tvivl). </p>
-<p>Fortæl også din læge, hvis du tager et af følgende lægemidler – virkningerne af BRUKINSA eller 
+<p>Fortæl også din læge, hvis du tager et af følgende lægemidler - virkningerne af BRUKINSA eller 
 anden medicin kan blive påvirket, hvis du tager BRUKINSA sammen med en af følgende lægemidler: </p>
 <ul>
 <li>
-<p>antibiotika til behandling af bakterielle infektioner – ciprofloxacin, clarithromycin, 
+<p>antibiotika til behandling af bakterielle infektioner - ciprofloxacin, clarithromycin, 
 erythromycin, nafcillin eller rifampicin </p>
 </li>
 <li>
-<p>medicin mod svampeinfektioner – fluconazol, itraconazol, ketoconazol, posaconazol, 
+<p>medicin mod svampeinfektioner - fluconazol, itraconazol, ketoconazol, posaconazol, 
 voriconazol </p>
 </li>
 <li>
-<p>medicin mod hiv-infektion – efavirenz, etravirin, indinavir, lopinavir, ritonavir, telaprevir </p>
+<p>medicin mod hiv-infektion - efavirenz, etravirin, indinavir, lopinavir, ritonavir, telaprevir </p>
 </li>
 <li>
-<p>medicin til forebyggelse af kvalme og opkast i forbindelse med kemoterapi – aprepitant </p>
+<p>medicin til forebyggelse af kvalme og opkast i forbindelse med kemoterapi - aprepitant </p>
 </li>
 <li>
-<p>medicin mod depression – fluvoxamin, perikon </p>
+<p>medicin mod depression - fluvoxamin, perikon </p>
 </li>
 <li>
-<p>medicin kaldet kinasehæmmere til behandling af andre kræftformer – imatinib </p>
+<p>medicin kaldet kinasehæmmere til behandling af andre kræftformer - imatinib </p>
 </li>
 <li>
-<p>medicin mod forhøjet blodtryk eller smerter i brystet – bosentan, diltiazem, verapamil </p>
+<p>medicin mod forhøjet blodtryk eller smerter i brystet - bosentan, diltiazem, verapamil </p>
 </li>
 <li>
-<p>hjertemedicin/antiarytmika – digoxin, dronedaron, kinidin </p>
+<p>hjertemedicin/antiarytmika - digoxin, dronedaron, kinidin </p>
 </li>
 <li>
 <p>medicin til forebyggelse af anfald, til behandling af epilepsi eller til behandling af en smertefuld 
-tilstand i ansigtet kaldet trigeminusneuralgi – carbamazepin, mephenytoin, phenytoin </p>
+tilstand i ansigtet kaldet trigeminusneuralgi - carbamazepin, mephenytoin, phenytoin </p>
 </li>
 <li>
-<p>medicin mod migræne og klyngehovedpine – dihydroergotamin, ergotamin </p>
+<p>medicin mod migræne og klyngehovedpine - dihydroergotamin, ergotamin </p>
 </li>
 <li>
-<p>medicin mod ekstrem søvnighed og andre søvnproblemer – modafinil </p>
+<p>medicin mod ekstrem søvnighed og andre søvnproblemer - modafinil </p>
 </li>
 <li>
-<p>medicin mod psykose og Tourettes lidelse – pimozid </p>
+<p>medicin mod psykose og Tourettes lidelse - pimozid </p>
 </li>
 <li>
-<p>medicin til anæstesi – alfentanil, fentanyl </p>
+<p>medicin til anæstesi - alfentanil, fentanyl </p>
 </li>
 <li>
-<p>medicin, der kaldes immunsuppressive midler – ciclosporin, sirolimus, tacrolimus </p>
+<p>medicin, der kaldes immunsuppressive midler - ciclosporin, sirolimus, tacrolimus </p>
 </li>
 </ul>
 <p>BRUKINSA med mad 
@@ -704,14 +704,14 @@ Du må ikke stoppe med at tage dette lægemiddel, medmindre lægen siger, du ska
 <p>Stop med at tage BRUKINSA, og søg straks lægehjælp, hvis du bemærker en eller flere af 
 følgende bivirkninger: </p>
 <ul>
-<li>kløende, ujævnt udslæt, vejrtrækningsbesvær, hævelse af ansigt, læber, tunge eller hals – du 
+<li>kløende, ujævnt udslæt, vejrtrækningsbesvær, hævelse af ansigt, læber, tunge eller hals - du 
 kan have en allergisk reaktion på lægemidlet. </li>
 </ul>
 <p>Søg straks læge, hvis du oplever en eller flere af følgende bivirkninger: </p>
 <p>Meget almindelige (kan forekomme hos flere end 1 ud af 10 personer): </p>
 <ul>
 <li>feber, kulderystelser, kropssmerter, træthed, forkølelses- eller influenzasymptomer, åndenød, 
-hyppig og smertefuld vandladning – dette kan være tegn på en infektion (virus-, bakterie- eller  </li>
+hyppig og smertefuld vandladning - dette kan være tegn på en infektion (virus-, bakterie- eller  </li>
 </ul>
 <p>svampeinfektion). Det kan dreje sig om infektioner i næsen, bihulerne eller halsen (infektion i 
 de øvre luftveje), lungebetændelse eller urinvejsinfektion. </p>
@@ -837,7 +837,7 @@ apotekspersonalet, hvordan du skal bortskaffe medicinrester. Dette vil hjælpe t
 </li>
 <li>
 <p>kapselindhold: mikrokrystallinsk cellulose, croscarmellosenatrium, natriumlaurylsulfat (E487), 
-kolloid vandfri silica, magnesiumstearat (se pkt. 2 “BRUKINSA indeholder natrium”). </p>
+kolloid vandfri silica, magnesiumstearat (se pkt. 2 “BRUKINSA indeholder natrium"). </p>
 </li>
 <li>kapselskal: gelatine og titandioxid (E171) </li>
 <li>trykfarve: shellak (E904), sort jernoxid (E172) og propylenglykol (E1520). </li>
@@ -854,7 +854,7 @@ D02 TIrland
 Tlf. 
  +353 1 566 7E-mail  bg.ireland@beigene.com  </p>
 <p>Fremstiller </p>
-<p>BeiGene Switzerland GmbH – Dutch Branch 
+<p>BeiGene Switzerland GmbH - Dutch Branch 
 Evert van de Beekstraat 1, 1118 CL Schiphol, Holland </p>
 <p>BeiGene Germany GmbH 
 Georges-Köhler-Str. 2, 79539 Lörrach, Tyskland </p>
@@ -967,8 +967,6 @@ Description: "ePI document Bundle for brukinsa Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -991,8 +989,6 @@ Description: "ePI document Bundle for brukinsa Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1013,8 +1009,8 @@ Usage: #example
 
 Instance: mpc2d0e28fbe1723337dab22fe407d0234
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product brukinsa"
-Description: "brukinsa"
+Title: "Medicinal Product BRUKINSA 80 mg hard capsules"
+Description: "BRUKINSA 80 mg hard capsules"
 Usage: #inline
 
  
@@ -1027,14 +1023,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "BRUKINSA as monotherapy is indicated for the treatment of adult patients with Waldenström’s"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "brukinsa"
+  * productName = "BRUKINSA 80 mg hard capsules"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1054,10 +1047,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

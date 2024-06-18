@@ -657,7 +657,7 @@ Clonidin, guanfacin, til behandling af for højt blodtryk.
 
 Mefloquin, til forebyggelse af malaria.
 
-Pilocarpin, til behandling af forhøjet tryk i øjet (grøn stær – en alvorlig øjensygdom).
+Pilocarpin, til behandling af forhøjet tryk i øjet (grøn stær - en alvorlig øjensygdom).
 
 Antikolinerge midler, til at genoprette muskelfunktion.
 
@@ -1078,8 +1078,6 @@ Description: "ePI document Bundle for xalkori Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1102,8 +1100,6 @@ Description: "ePI document Bundle for xalkori Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1124,8 +1120,8 @@ Usage: #example
 
 Instance: mp1c9a12a6360cb16de82a801c02ba58e9
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product xalkori"
-Description: "xalkori"
+Title: "Medicinal Product XALKORI 200 mg hard capsules"
+Description: "XALKORI 200 mg hard capsules"
 Usage: #inline
 
  
@@ -1138,14 +1134,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "XALKORI as monotherapy is indicated for:"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "xalkori"
+  * productName = "XALKORI 200 mg hard capsules"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1165,10 +1158,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

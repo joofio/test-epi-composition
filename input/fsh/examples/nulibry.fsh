@@ -805,8 +805,6 @@ Description: "ePI document Bundle for nulibry Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -829,8 +827,6 @@ Description: "ePI document Bundle for nulibry Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -851,8 +847,8 @@ Usage: #example
 
 Instance: mpeaeff7283270f9b7e51abc26d498e673
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product nulibry"
-Description: "nulibry"
+Title: "Medicinal Product NULIBRY 9.5 mg powder for solution for injection."
+Description: "NULIBRY 9.5 mg powder for solution for injection."
 Usage: #inline
 
  
@@ -865,14 +861,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "NULIBRY is indicated for the treatment of patients with molybdenum cofactor deficiency (MoCD)"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "nulibry"
+  * productName = "NULIBRY 9.5 mg powder for solution for injection."
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -892,10 +885,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

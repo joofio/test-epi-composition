@@ -1218,8 +1218,6 @@ Description: "ePI document Bundle for ryzodeg Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1242,8 +1240,6 @@ Description: "ePI document Bundle for ryzodeg Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1264,8 +1260,8 @@ Usage: #example
 
 Instance: mp47f74762e12054bd07cc18f7f2dc9dfb
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product ryzodeg"
-Description: "ryzodeg"
+Title: "Medicinal Product Ryzodeg 100 units/mL solution for injection in pre-filled pen"
+Description: "Ryzodeg 100 units/mL solution for injection in pre-filled pen"
 Usage: #inline
 
  
@@ -1278,14 +1274,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Treatment of diabetes mellitus in adults, adolescents and children from the age of 2 years."
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "ryzodeg"
+  * productName = "Ryzodeg 100 units/mL solution for injection in pre-filled pen"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1305,10 +1298,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

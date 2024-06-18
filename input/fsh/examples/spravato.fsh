@@ -1119,8 +1119,6 @@ Description: "ePI document Bundle for spravato Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1143,8 +1141,6 @@ Description: "ePI document Bundle for spravato Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1165,8 +1161,8 @@ Usage: #example
 
 Instance: mp15885cc7c5a4f088fdfc128fa6bb5034
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product spravato"
-Description: "spravato"
+Title: "Medicinal Product Spravato 28 mg nasal spray, solution"
+Description: "Spravato 28 mg nasal spray, solution"
 Usage: #inline
 
  
@@ -1179,14 +1175,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Spravato, in combination with a SSRI or SNRI, is indicated for adults with treatment-resistant Major"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "spravato"
+  * productName = "Spravato 28 mg nasal spray, solution"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1206,10 +1199,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -575,7 +575,7 @@ Tel.: + 48 (0)22 576 9France<br />
 Laboratoire GlaxoSmithKline 
 Tél: + 33 (0)1 39 17 84 diam@gsk.com </p>
 <p>Portugal<br />
-GlaxoSmithKline – Produtos Farmacêuticos, Lda. 
+GlaxoSmithKline - Produtos Farmacêuticos, Lda. 
 Tel: + 351 21 412 95 FI.PT@gsk.com 
 Hrvatska 
 GlaxoSmithKline Trading Services Limited<br />
@@ -658,7 +658,7 @@ bortskaffes. </p>
 </li>
 <li>
 <p>Infusionsposer kan indeholde et yderligere overskud af natriumchlorid 9 mg/ml (0,9 %) 
-injektionsvæske, opløsning – dette kan også fjernes, hvis det anses for nødvendigt. </p>
+injektionsvæske, opløsning - dette kan også fjernes, hvis det anses for nødvendigt. </p>
 </li>
 <li>
 <p>Med en steril kanyle og sprøjte trækkes volumen af Dectova op af hætteglasset/-glassene og 
@@ -689,8 +689,6 @@ Description: "ePI document Bundle for dectova Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -713,8 +711,6 @@ Description: "ePI document Bundle for dectova Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -735,8 +731,8 @@ Usage: #example
 
 Instance: mp42901eb273bd1fa1c559a078fd30641d
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product dectova"
-Description: "dectova"
+Title: "Medicinal Product Dectova 10 mg/mL solution for infusion"
+Description: "Dectova 10 mg/mL solution for infusion"
 Usage: #inline
 
  
@@ -749,14 +745,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Dectova is indicated for the treatment of complicated and potentially life-threatening influenza A or B virus"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "dectova"
+  * productName = "Dectova 10 mg/mL solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -776,10 +769,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

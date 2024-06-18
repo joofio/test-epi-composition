@@ -804,7 +804,7 @@ Der findes ingen oplysninger, om brugen af Benepali påvirker evnen til at føre
 betjene maskiner. </p>
 <p>Benepali indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. 25 mg, det vil sige, at det i det 
-væsentlige er “natriumfrit”. </p>         </div>"""   
+væsentlige er “natriumfrit". </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take benepali"
@@ -1016,7 +1016,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen og etiketten på den fyldte 
 injektionssprøjte efter EXP. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
-<p>Opbevares i køleskab (2 °C – 8 °C). Må ikke nedfryses. </p>
+<p>Opbevares i køleskab (2 °C - 8 °C). Må ikke nedfryses. </p>
 <p>Opbevar den fyldte injektionssprøjte i den ydre karton for at beskytte mod lys. </p>
 <p>Når sprøjten er taget ud af køleskabet, skal du vente ca. 30 minutter på at Benepali-opløsningen i 
 sprøjten opnår stuetemperatur. Må ikke opvarmes på nogen anden måde. Herefter anbefales 
@@ -1044,8 +1044,8 @@ smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </d
 <ul>
 <li>Aktivt stof: etanercept. Hver fyldt injektionssprøjte indeholder 25 mg etanercept. </li>
 <li>Øvrige indholdsstoffer: saccharose, natriumchlorid, natriumdihydrogenphosphatmonohydrat, 
-dinatriumhydrogenphosphatheptahydrat og vand til injektionsvæsker (se punkt 2 ”Benepali 
-indeholder natrium”). </li>
+dinatriumhydrogenphosphatheptahydrat og vand til injektionsvæsker (se punkt 2 "Benepali 
+indeholder natrium"). </li>
 </ul>
 <p>Udseende og pakningsstørrelser 
 Benepali leveres som en fyldt injektionssprøjte, der indeholder en klar til svagt opaliserende, farveløs 
@@ -1249,7 +1249,7 @@ eller på områder med læsioner. </p>
 <p>Vask hænderne med sæbe og vand. </p>
 <p>Trin 2: </p>
 <p>Tør huden på injektionsstedet af med en spritserviet. 
-Se ”Vælg det sted, hvor du vil injicere” for vejledning i valg 
+Se "Vælg det sted, hvor du vil injicere" for vejledning i valg 
 af injektionssted. </p>
 <ul>
 <li>Du må ikke røre stedet igen, inden du injicerer. </li>
@@ -1257,7 +1257,7 @@ af injektionssted. </p>
 <p>Trin 3:  </p>
 <p>Træk kanylehætten lige af, og bortskaf den i 
 kanyleboksen. 
-Se ”Vælg det sted, hvor du vil injicere” for vejledning i valg 
+Se "Vælg det sted, hvor du vil injicere" for vejledning i valg 
 af injektionssted. </p>
 <ul>
 <li>
@@ -1345,8 +1345,6 @@ Description: "ePI document Bundle for benepali Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1369,8 +1367,6 @@ Description: "ePI document Bundle for benepali Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1391,8 +1387,8 @@ Usage: #example
 
 Instance: mpc5a54b11d8107e662bc760b43da975c8
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product benepali"
-Description: "benepali"
+Title: "Medicinal Product Benepali 25 mg solution for injection in pre-filled syringe"
+Description: "Benepali 25 mg solution for injection in pre-filled syringe"
 Usage: #inline
 
  
@@ -1405,14 +1401,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Rheumatoid arthritis"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "benepali"
+  * productName = "Benepali 25 mg solution for injection in pre-filled syringe"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1432,10 +1425,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -884,20 +884,7 @@ Den rekonstituerede vaccine må ikke nedfryses.
 Hele hætteglassets indhold af rekonstitueret vaccine trækkes op i en injektionssprøjte, kanylen skiftes
 og hele mængden injiceres subkutant eller intramuskulært.
 Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.
-Se også afsnit 3 Sådan får du ProQuad. </p>
-<p>47
-Indlægsseddel: Information til brugeren
-ProQuad
-Pulver og solvens til injektionsvæske, suspension i forfyldt injektionssprøjte
-levende vaccine mod mæslinger, fåresyge, røde hunde og skoldkopper
-Læs denne indlægsseddel grundigt, inden du eller dit barn bliver vaccineret, da den indeholder
-vigtige oplysninger.
-- Gem indlægssedlen. Du kan få brug for at læse den igen.
-- Spørg lægen eller apotekspersonalet, hvis der er mere du vil vide.
-- Lægen har ordineret denne vaccine til dig eller dit barn personligt. Lad derfor være med at give
-vaccinen til andre.
-- Kontakt lægen eller apotekspersonalet, hvis du eller dit barn får bivirkninger, herunder
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p>         </div>"""      
+Se også afsnit </p>         </div>"""      
 
 
 
@@ -909,8 +896,6 @@ InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for proquad Package Leaflet for language en"
 Description: "ePI document Bundle for proquad Package Leaflet for language en"
 Usage: #example
-
-
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
@@ -935,8 +920,6 @@ Description: "ePI document Bundle for proquad Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -957,8 +940,8 @@ Usage: #example
 
 Instance: mp188ccb87c0d4f4c736200f4cfc1c3e01
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product proquad"
-Description: "proquad"
+Title: "Medicinal Product ProQuad powder and solvent for suspension for injection"
+Description: "ProQuad powder and solvent for suspension for injection"
 Usage: #inline
 
  
@@ -971,14 +954,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "ProQuad is indicated for simultaneous vaccination against measles, mumps, rubella and varicella in"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "proquad"
+  * productName = "ProQuad powder and solvent for suspension for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -998,10 +978,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

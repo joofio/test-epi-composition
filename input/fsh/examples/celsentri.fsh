@@ -924,8 +924,8 @@ natriumstivelsesglycolat; magnesiumstearat. </p>
 <p>Filmovertræk: polyvinylalkohol, titandioxid (E171), macrogol 3350, talcum, sojalecithin, 
 indigocarmin (E132). </p>
 <p>Udseende og pakningsstørrelser </p>
-<p>Celsentri filmovertrukne tabletter er blå og mærket ”MVC 25”, ”MVC 75”, MVC 150” eller ”MVC 
-300”. </p>
+<p>Celsentri filmovertrukne tabletter er blå og mærket "MVC 25", "MVC 75", MVC 150" eller "MVC 
+300". </p>
 <p>Celsentri 25 mg og 75 mg filmovertrukne tabletter findes i en beholder med 120 tabletter. 
 Celsentri 150 mg og 300 mg filmovertrukne tabletter findes i en beholder med 180 tabletter og i 
 blisterpakninger med 30, 60, 90 filmovertrukne tabletter samt i en multipakning med 180 (2 pakninger 
@@ -1062,8 +1062,6 @@ Description: "ePI document Bundle for celsentri Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1086,8 +1084,6 @@ Description: "ePI document Bundle for celsentri Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1108,8 +1104,8 @@ Usage: #example
 
 Instance: mpdca30493c6f4767af4ee8b161b941f44
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product celsentri"
-Description: "celsentri"
+Title: "Medicinal Product CELSENTRI 25 mg film-coated tablets"
+Description: "CELSENTRI 25 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1122,14 +1118,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "CELSENTRI, in combination with other antiretroviral medicinal products, is indicated for"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "celsentri"
+  * productName = "CELSENTRI 25 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1149,10 +1142,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

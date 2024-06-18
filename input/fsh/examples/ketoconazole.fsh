@@ -825,8 +825,6 @@ Description: "ePI document Bundle for ketoconazole Package Leaflet for language 
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -849,8 +847,6 @@ Description: "ePI document Bundle for ketoconazole Package Leaflet for language 
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -871,8 +867,8 @@ Usage: #example
 
 Instance: mpa28a8b9246548829f22c8b8c14ca6138
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product ketoconazole"
-Description: "ketoconazole"
+Title: "Medicinal Product Ketoconazole HRA 200 mg tablets"
+Description: "Ketoconazole HRA 200 mg tablets"
 Usage: #inline
 
  
@@ -885,14 +881,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Ketoconazole HRA is indicated for the treatment of endogenous Cushing’s syndrome in adults and adolescents"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "ketoconazole"
+  * productName = "Ketoconazole HRA 200 mg tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -912,10 +905,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

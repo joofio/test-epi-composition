@@ -461,7 +461,7 @@ Kontakt lægen, før du tager Anagrelide Viatris: </p>
 <p>Hvis du har medfødt forlænget QT-interval, eller du har det i familien (kan ses på EKG’et, en 
 registrering af hjertets elektriske aktivitet), eller du tager andre lægemidler, der fører til 
 unormale EKG-ændringer, eller du har lavt indhold af salte, f.eks. kalium, magnesium eller 
-calcium (se afsnittet ”Brug af anden medicin sammen med Anagrelide Viatris”); </p>
+calcium (se afsnittet "Brug af anden medicin sammen med Anagrelide Viatris"); </p>
 </li>
 <li>
 <p>Hvis du har problemer med lever eller nyrer. </p>
@@ -470,7 +470,7 @@ calcium (se afsnittet ”Brug af anden medicin sammen med Anagrelide Viatris”)
 <p>I kombination med acetylsalicylsyre (et stof, der findes i mange former for medicin og anvendes til 
 smertelindring og febernedsættelse samt til at forhindre blodet i at størkne. Det kaldes også aspirin) er 
 der en forøget risiko for større blødninger (se “Brug af anden medicin sammen med Anagrelide 
-Viatris”). </p>
+Viatris"). </p>
 <p>Indtag altid den nøjagtige dosis af Anagrelide Viatris, som lægen har ordineret. Stop ikke med at tage 
 medicinen uden først at tale med din læge. Du må ikke pludselig stoppe med at tage denne medicin 
 uden at kontakte din læge, da det kan øge risikoen for slagtilfælde. </p>
@@ -668,7 +668,7 @@ smide medicinrester i afløbet eller skraldespanden. </p>         </div>"""
 0,5 mg anagrelid. </li>
 <li>Øvrige indholdsstoffer: Lactose, croscarmellosenatrium, povidon, mikrokrystallinsk cellulose, 
 magnesiumstearat, gelatine og titandioxid (E171). Se afsnit 2 “Anagrelide Viatris indeholder 
-lactose og natrium”. </li>
+lactose og natrium". </li>
 </ul>
 <p>Udseende og pakningsstørrelser 
 Anagrelide Viatris 0,5 mg hårde kapsler har en hvid underdel og overdel. Kapslen er fyldt med et 
@@ -810,8 +810,6 @@ Description: "ePI document Bundle for anagrelide Package Leaflet for language en
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -834,8 +832,6 @@ Description: "ePI document Bundle for anagrelide Package Leaflet for language da
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -856,8 +852,8 @@ Usage: #example
 
 Instance: mp6993a685d10576536183960090af1fdd
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product anagrelide"
-Description: "anagrelide"
+Title: "Medicinal Product Anagrelide Viatris 0.5 mg hard capsules"
+Description: "Anagrelide Viatris 0.5 mg hard capsules"
 Usage: #inline
 
  
@@ -870,14 +866,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Anagrelide is indicated for the reduction of elevated platelet counts in at risk essential"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "anagrelide"
+  * productName = "Anagrelide Viatris 0.5 mg hard capsules"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -897,10 +890,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -787,8 +787,6 @@ Description: "ePI document Bundle for eklira Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -811,8 +809,6 @@ Description: "ePI document Bundle for eklira Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -833,8 +829,8 @@ Usage: #example
 
 Instance: mp8a4d23dcb809afdd72ca3100738e1a7e
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product eklira"
-Description: "eklira"
+Title: "Medicinal Product Eklira Genuair 322 micrograms inhalation powder"
+Description: "Eklira Genuair 322 micrograms inhalation powder"
 Usage: #inline
 
  
@@ -847,14 +843,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Eklira Genuair is indicated as a maintenance bronchodilator treatment to relieve symptoms in adult"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "eklira"
+  * productName = "Eklira Genuair 322 micrograms inhalation powder"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -874,10 +867,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

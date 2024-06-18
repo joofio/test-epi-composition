@@ -841,8 +841,6 @@ Description: "ePI document Bundle for procoralan Package Leaflet for language en
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -865,8 +863,6 @@ Description: "ePI document Bundle for procoralan Package Leaflet for language da
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -887,8 +883,8 @@ Usage: #example
 
 Instance: mp79284ae9650b8005359d0f56c68b8ad4
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product procoralan"
-Description: "procoralan"
+Title: "Medicinal Product Procoralan 5 mg film-coated tablets"
+Description: "Procoralan 5 mg film-coated tablets"
 Usage: #inline
 
  
@@ -901,14 +897,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Symptomatic treatment of chronic stable angina pectoris"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "procoralan"
+  * productName = "Procoralan 5 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -928,10 +921,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

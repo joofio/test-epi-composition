@@ -778,8 +778,6 @@ Description: "ePI document Bundle for targretin Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -802,8 +800,6 @@ Description: "ePI document Bundle for targretin Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -824,8 +820,8 @@ Usage: #example
 
 Instance: mpeb08c3555eb0d4fb795135600da399fc
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product targretin"
-Description: "targretin"
+Title: "Medicinal Product Targretin 75 mg soft capsules"
+Description: "Targretin 75 mg soft capsules"
 Usage: #inline
 
  
@@ -838,14 +834,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Targretin is indicated for the treatment of skin manifestations of advanced stage cutaneous T-cell"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "targretin"
+  * productName = "Targretin 75 mg soft capsules"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -865,10 +858,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

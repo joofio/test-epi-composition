@@ -837,7 +837,7 @@ forskellige kvindelige hormoner, nemlig estetrol og drospirenon.
 - De 4 hvide filmovertrukne tabletter er inaktive tabletter, der ikke indeholder hormoner, og som 
 kaldes placebotabletter. 
 - P-piller, der indeholder to forskellige hormoner, som f.eks. Drovelis, kaldes “kombinations-p-
-piller” eller “kombinerede p-piller”. De arbejder sammen for at forhindre ægløsning (frigivelse 
+piller" eller “kombinerede p-piller". De arbejder sammen for at forhindre ægløsning (frigivelse 
 af et æg fra æggestokken) og for at reducere risikoen for, at et frigivet æg bliver befrugtet og gør 
 dig gravid. </p>         </div>"""   
           
@@ -850,7 +850,7 @@ dig gravid. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Generelt </p>
 <p>Før du begynder at tage Drovelis, skal du læse oplysningerne vedrørende blodpropper i punkt 2. Det 
-er især vigtigt at læse symptomerne på en blodprop – se punkt 2 ‘Blodpropper’.  </p>
+er især vigtigt at læse symptomerne på en blodprop - se punkt 2 ‘Blodpropper’.  </p>
 <p>Før du kan begynde at tage Drovelis, vil din læge stille dig nogle spørgsmål vedrørende din og din 
 nærmeste families sygdomshistorie. Lægen vil også måle dit blodtryk og vil eventuelt, afhængigt af 
 din situation, tage andre prøver. </p>
@@ -869,11 +869,11 @@ præventionsmetode kan være bedre for dig. </p>
 <ul>
 <li>hvis du har (eller har haft) en blodprop i et blodkar i benene (dyb venetrombose, DVT), i 
 lungerne (lungeemboli, PE) eller andre organer </li>
-<li>hvis du ved, at du har en sygdom, som påvirker blodets evne til at størkne – f.eks. protein C-
+<li>hvis du ved, at du har en sygdom, som påvirker blodets evne til at størkne - f.eks. protein C-
 mangel, protein S-mangel, antitrombin-III-mangel, faktor V Leiden eller 
 antifosfolipidantistoffer </li>
 <li>hvis du skal opereres, eller hvis du er sengeliggende i en længere periode (se under punktet 
-“Blodpropper”) </li>
+“Blodpropper") </li>
 <li>hvis du har haft et hjerteanfald eller et slagtilfælde </li>
 <li>hvis du har (eller har haft) angina pectoris (en tilstand, der forårsager stærke brystsmerter og 
 kan være det første tegn på et hjerteanfald) eller forbigående iltmangel i hjernen på grund af en 
@@ -888,7 +888,7 @@ pulsårerne:</p>
 <li>meget højt blodtryk </li>
 <li>et meget højt indhold af fedt i blodet (kolesterol eller triglycerider) </li>
 <li>en tilstand kaldet hyperhomocysteinæmi </li>
-<li>hvis du har (eller nogensinde har haft) en form for migræne kaldet ”migræne med aura” </li>
+<li>hvis du har (eller nogensinde har haft) en form for migræne kaldet "migræne med aura" </li>
 <li>hvis du har (eller har haft) en godartet eller ondartet svulst i leveren </li>
 <li>hvis du har (eller har haft) en alvorlig leversygdom, og din lever endnu ikke fungerer normalt </li>
 <li>hvis dine nyrer ikke fungerer godt (nyresvigt) </li>
@@ -899,7 +899,7 @@ lægemiddel (angivet i punkt 6).  </li>
 </ul>
 <p>Hvis noget af dette optræder for første gang, mens du tager Drovelis, skal du stoppe med at tage 
 Drovelis med det samme og kontakte din læge. Brug i mellemtiden et ikke-hormonelt 
-præventionsmiddel. Se også “Generelt” i punkt 2 ovenfor. </p>
+præventionsmiddel. Se også “Generelt" i punkt 2 ovenfor. </p>
 <p>Advarsler og forsigtighedsregler<br />
 Kontakt lægen eller apotekspersonalet, før du tager Drovelis. </p>
 <p>Hvornår skal du kontakte din læge? </p>
@@ -907,9 +907,9 @@ Kontakt lægen eller apotekspersonalet, før du tager Drovelis. </p>
 <ul>
 <li>hvis du bemærker mulige tegn på en blodprop, som kan betyde, at du har fået en blodprop i 
 benet (dvs. dyb venetrombose), en blodprop i lungen (dvs. lungeemboli), et hjerteanfald eller et 
-slagtilfælde (se punktet “Blodpropper” nedenfor). </li>
+slagtilfælde (se punktet “Blodpropper" nedenfor). </li>
 </ul>
-<p>Se “Sådan opdager du en blodprop” for en beskrivelse af symptomerne på disse alvorlige bivirkninger. </p>
+<p>Se “Sådan opdager du en blodprop" for en beskrivelse af symptomerne på disse alvorlige bivirkninger. </p>
 <p>Fortæl din læge, hvis du har eller får en af følgende tilstande. 
 Hvis tilstanden udvikler sig eller bliver værre, mens du tager Drovelis, skal du også kontakte din læge. 
 - hvis en nær slægtning har eller har haft brystkræft 
@@ -920,25 +920,25 @@ kløende udslæt samt vejrtrækningsproblemer.
 - hvis du har en leversygdom eller lidelser i galdeblæren 
 - hvis du har sukkersyge (diabetes) 
 - hvis du har depression 
-- hvis du har epilepsi (se punkt 2 “Brug af andre lægemidler sammen med Drovelis”) 
+- hvis du har epilepsi (se punkt 2 “Brug af andre lægemidler sammen med Drovelis") 
 - hvis du har Crohns sygdom eller kronisk tarmbetændelse (ulcerativ colitis) 
-- hvis du har systemisk lupus erythematosus (SLE – en sygdom, der påvirker dit naturlige 
+- hvis du har systemisk lupus erythematosus (SLE - en sygdom, der påvirker dit naturlige 
 forsvarssystem) 
-- hvis du har hæmolytisk uræmisk syndrom (HUS – en lidelse, hvor blodpropper forårsager 
+- hvis du har hæmolytisk uræmisk syndrom (HUS - en lidelse, hvor blodpropper forårsager 
 nyresvigt) 
 - hvis du har seglcelleanæmi (en arvelig sygdom i de røde blodceller) 
 - hvis du har forhøjet indhold af fedt i blodet (hypertriglyceridæmi), eller hvis nogen i din 
 nærmeste familie har denne lidelse. Hypertriglyceridæmi har været forbundet med en øget risiko 
 for at udvikle pankreatitis (betændelse i bugspytkirtlen) 
 - hvis du skal opereres, eller hvis du er sengeliggende i en længere periode (se 
-punkt 2 ”Blodpropper”) 
+punkt 2 "Blodpropper") 
 - hvis du lige har født, har du en øget risiko for blodpropper. Du skal spørge din læge, hvor tidligt 
 efter fødslen, du kan starte med at tage Drovelis. 
 - hvis du har en betændelseslignende reaktion (inflammation) i venerne under huden (overfladisk 
 tromboflebitis) 
 - hvis du har åreknuder 
 - hvis du har eller har haft chloasma (en misfarvning af huden, især i ansigtet eller på halsen, 
-såkaldte “graviditetspletter”). I dette tilfælde skal du undgå direkte eksponering for sollys eller 
+såkaldte “graviditetspletter"). I dette tilfælde skal du undgå direkte eksponering for sollys eller 
 ultraviolet lys. 
 - hvis du har en sygdom, der forekom for første gange under graviditet eller ved tidligere brug af 
 kønshormoner (for eksempel høretab, en blodsygdom kaldet porfyri, hududslæt med blærer 
@@ -949,8 +949,8 @@ kroppen [Sydenhams chorea]. </p>
 sammenlignet med, hvis du ikke anvender et sådant middel. I sjældne tilfælde kan en blodprop 
 tilstoppe blodkarrene og forårsage alvorlige problemer. </p>
 <p>Blodpropper kan udvikle sig 
-- i vener (kaldes “venøs trombose”, “venøs tromboemboli” eller VTE) 
-- i pulsårer (kaldes “arteriel trombose”, “arteriel tromboemboli” eller ATE). </p>
+- i vener (kaldes “venøs trombose", “venøs tromboemboli" eller VTE) 
+- i pulsårer (kaldes “arteriel trombose", “arteriel tromboemboli" eller ATE). </p>
 <p>Helbredelse efter en blodprop er ikke altid fuldstændig. Der kan i sjældne tilfælde indtræffe alvorlige 
 varige mén, og i meget sjældne tilfælde kan blodproppen være dødelig. </p>
 <p>Det er vigtigt at huske på, at den samlede risiko for en skadelig blodprop på grund af Drovelis er 
@@ -1052,7 +1052,7 @@ norethisteron eller norgestimat, vil cirka 5-7 udvikle en blodprop inden for et 
 sammenlignet med risikoen ved et kombineret hormonelt præventionsmiddel, som indeholder 
 levonorgestrel. 
 - Risikoen for at få en blodprop vil variere alt efter din personlige sygehistorie (se “Forhold som 
-øger din risiko for en blodprop” nedenfor). </p>
+øger din risiko for en blodprop" nedenfor). </p>
 <p>Risiko for at udvikle en 
 blodprop i løbet af et år 
 Kvinder, som ikke tager en kombinations-p-pille, og som ikke 
@@ -1121,7 +1121,7 @@ kvinder på kombinations-p-piller, fordi de undersøges oftere af lægen. Efter 
 kombinations-p-piller stoppes, falder den øgede risiko gradvist. Det er vigtigt, at du undersøger dine 
 bryster regelmæssigt, og du skal kontakte din læge, hvis du mærker en knude. Du skal også fortælle 
 din læge, hvis en nær slægtning har eller har haft brystkræft (se punkt 2 “Advarsler og 
-forholdsregler”). </p>
+forholdsregler"). </p>
 <p>I sjældne tilfælde er der blevet set godartede (ikke kræftrelaterede) leversvulster, og i endnu færre 
 tilfælde ondartede (kræftrelaterede) leversvulster hos p-pille-brugere. Kontakt din læge, hvis du har 
 usædvanligt stærke underlivssmerter. </p>
@@ -1205,7 +1205,7 @@ Drovelis må ikke tages af kvinder, som er gravide, eller som tror, de kan være
 Hvis du bliver gravid, mens du tager Drovelis, skal du straks stoppe med at tage Drovelis og kontakte 
 din læge.  </p>
 <p>Hvis du ønsker at blive gravid, kan du til enhver tid stoppe med at tage Drovelis (se punkt 3 “Hvis du 
-holder op med at tage Drovelis”). </p>
+holder op med at tage Drovelis"). </p>
 <p>Drovelis anbefales ikke under amning. Hvis du ønsker at bruge p-piller, mens du ammer, skal du 
 kontakte din læge. </p>
 <p>Trafik- og arbejdssikkerhed 
@@ -1230,7 +1230,7 @@ Hver gang du starter på et nyt blisterkort med Drovelis, skal du tage den førs
 (se ‘Start’). Vælg blandt de 7 ugedagsklistermærker det klistermærke, der begynder med din første 
 dag. Hvis du f.eks. begynder på en onsdag, skal du bruge ugedagsklistermærket, der starter med ‘Ons’. 
 Sæt det i feltet på forsiden af blisterkortet på “
-”-symbolet. Hver dag vil være ud for en række piller. 
+"-symbolet. Hver dag vil være ud for en række piller. 
 Dette giver dig mulighed for at kontrollere, om du har taget din daglige tablet. 
 Tag en tablet hver dag på ca. samme tidspunkt, med et glas vand om nødvendigt. </p>
 <p>Følg pilenes retning på blisterkortet, og tag først de lyserøde aktive tabletter og derefter de hvide 
@@ -1267,7 +1267,7 @@ skal du bruge barriereprævention (f.eks. et kondom) i de første 7 dage, hvor d
 du, efter fødsel, har haft samleje, før du starter på Drovelis, så vær sikker på, at du ikke er gravid eller 
 vent til din næste menstruation.  </p>
 <p>Hvis du ammer og gerne vil starte med Drovelis (igen) efter fødslen 
-Læs afsnittet “Amning”. </p>
+Læs afsnittet “Amning". </p>
 <p>Spørg lægen eller apotekspersonalet, hvad du skal gøre, hvis du ikke er sikker på, hvornår du skal 
 begynde. </p>
 <p>Hvis du har taget for meget Drovelis 
@@ -1337,7 +1337,7 @@ Det er næsten den samme situation, når du glemmer en tablet. Efter opkastning 
 tage en anden pink aktiv tablet fra en reserveblister så hurtigt som muligt. Hvis det er muligt, skal du 
 tage den inden for 24 timer fra det tidspunkt, hvor du normalt tager din p-pille. Hvis dette ikke er 
 muligt, eller de 24 timer eller mere er gået, skal du følge rådene under “Hvis du har glemt at tage 
-Drovelis”.  </p>
+Drovelis".  </p>
 <p>Mere end 1 lyserød 
 aktiv tablet glemt på 1 
 blisterkort </p>
@@ -1401,8 +1401,8 @@ andet blisterkort færdigt ved at tage de 4 hvide placebotabletter. Start dereft
 Det kan være en god idé at spørge din læge til råds, før du beslutter at udskyde din menstruation. </p>
 <p>Hvis du ønsker at ændre den første dag for din menstruation 
 Hvis du tager tabletterne som anvist, vil din menstruation begynde i løbet af placebo-dagene. Hvis du 
-vil ændre denne dag, skal du reducere antallet af placebodage – de dage hvor du tager de hvide 
-placebotabletter – men du må aldrig øge antallet (4 er maksimum). Hvis du for eksempel starter med at 
+vil ændre denne dag, skal du reducere antallet af placebodage - de dage hvor du tager de hvide 
+placebotabletter - men du må aldrig øge antallet (4 er maksimum). Hvis du for eksempel starter med at 
 tage de hvide placebotabletter på en fredag, og du ønsker at ændre dette til en tirsdag (3 dage 
 tidligere), skal du begynde på et nyt blisterkort 3 dage tidligere end normalt. Det kan være, du ikke får 
 din menstruation i denne forkortede periode, mens du tager de hvide placebotabletter. Mens du bruger 
@@ -1428,7 +1428,7 @@ Hvis du får en bivirkning, især hvis den er alvorlig og vedvarende, eller hvis
 helbred, som du mener, kan være forårsaget af Drovelis, skal du tale med din læge. </p>
 <p>Der er en øget risiko for blodpropper i venerne (venøs tromboemboli (VTE)) eller blodpropper i 
 pulsårerne (arteriel tromboemboli (ATE)) hos alle kvinder, der tager kombinerede hormonelle 
-præventionsmidler. Se punkt 2 “Det skal du vide, før du begynder at tage Drovelis” for nærmere 
+præventionsmidler. Se punkt 2 “Det skal du vide, før du begynder at tage Drovelis" for nærmere 
 oplysninger om de forskellige risici ved at tage kombinerede hormonelle præventionsmidler. </p>
 <p>De følgende bivirkninger er blevet forbundet med brugen af Drovelis: </p>
 <p>Almindelige (kan forekomme hos op til 1 ud af 10 personer):</p>
@@ -1588,8 +1588,6 @@ Description: "ePI document Bundle for drovelis Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1612,8 +1610,6 @@ Description: "ePI document Bundle for drovelis Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1634,8 +1630,8 @@ Usage: #example
 
 Instance: mp83e465306011aa98a59a237fbe1da484
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product drovelis"
-Description: "drovelis"
+Title: "Medicinal Product Drovelis 3 mg/14.2 mg film-coated tablets"
+Description: "Drovelis 3 mg/14.2 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1648,14 +1644,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Oral contraception."
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "drovelis"
+  * productName = "Drovelis 3 mg/14.2 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1675,10 +1668,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

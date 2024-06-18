@@ -710,8 +710,6 @@ Description: "ePI document Bundle for nuvaxovid Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -734,8 +732,6 @@ Description: "ePI document Bundle for nuvaxovid Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -756,8 +752,8 @@ Usage: #example
 
 Instance: mp0b2c64f281f8a04082b537d7d8030a6f
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product nuvaxovid"
-Description: "nuvaxovid"
+Title: "Medicinal Product Nuvaxovid dispersion for injection"
+Description: "Nuvaxovid dispersion for injection"
 Usage: #inline
 
  
@@ -770,14 +766,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Nuvaxovid is indicated for active immunisation to prevent COVID-19 caused by SARS-CoV-2 in"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "nuvaxovid"
+  * productName = "Nuvaxovid dispersion for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -797,10 +790,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

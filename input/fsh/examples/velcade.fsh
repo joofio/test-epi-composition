@@ -1085,7 +1085,7 @@ Betændelse i rygmarvsnerven
 Nedsat funktion af skjoldbruskkirtlen
 83
 
-Budd–Chiaris syndrom (de kliniske symptomer på blokering af levervenerne)
+Budd-Chiaris syndrom (de kliniske symptomer på blokering af levervenerne)
 
 Forandringer i eller unormalt afføringsmønster
 
@@ -1547,8 +1547,6 @@ Description: "ePI document Bundle for velcade Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1571,8 +1569,6 @@ Description: "ePI document Bundle for velcade Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1593,8 +1589,8 @@ Usage: #example
 
 Instance: mp227bd9b21ea0c447e44bb88e14511a9d
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product velcade"
-Description: "velcade"
+Title: "Medicinal Product VELCADE 1 mg powder for solution for injection"
+Description: "VELCADE 1 mg powder for solution for injection"
 Usage: #inline
 
  
@@ -1607,14 +1603,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "VELCADE as monotherapy or in combination with pegylated liposomal doxorubicin or"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "velcade"
+  * productName = "VELCADE 1 mg powder for solution for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1634,10 +1627,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

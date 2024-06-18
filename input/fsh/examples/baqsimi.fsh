@@ -430,7 +430,7 @@ Fortæl det altid til lægen eller apotekspersonalet, hvis du bruger anden medic
 anden medicin eller planlægger at bruge anden medicin. </p>
 <p>Følgende lægemidler kan påvirke den måde, hvorpå Baqsimi virker:</p>
 <ul>
-<li>insulin – bruges til at behandle diabetes. Insulin har den modsatte effekt af glukagon på 
+<li>insulin - bruges til at behandle diabetes. Insulin har den modsatte effekt af glukagon på 
 blodsukkeret. </li>
 <li>Indometacin, bruges til at behandle ledsmerter og stivhed. Indometacin nedsætter effekten af 
 glukagon. </li>
@@ -527,7 +527,7 @@ sikkerheden af dette lægemiddel. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken, tuben og enkeltdosisbeholderen efter 
-”EXP”. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+"EXP". Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Må ikke opbevares ved temperaturer over 30°C. </p>
 <p>Opbevar enkeltdosisbeholderen i den forseglede tube, indtil den er klar til brug for at beskytte mod 
 fugt.  </p>
@@ -662,8 +662,6 @@ Description: "ePI document Bundle for baqsimi Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -686,8 +684,6 @@ Description: "ePI document Bundle for baqsimi Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -708,8 +704,8 @@ Usage: #example
 
 Instance: mp022de2712c9cec11ed019ca691afcec1
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product baqsimi"
-Description: "baqsimi"
+Title: "Medicinal Product Baqsimi 3 mg nasal powder in single-dose container"
+Description: "Baqsimi 3 mg nasal powder in single-dose container"
 Usage: #inline
 
  
@@ -722,14 +718,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Baqsimi is indicated for the treatment of severe hypoglycaemia in adults, adolescents, and children"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "baqsimi"
+  * productName = "Baqsimi 3 mg nasal powder in single-dose container"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -749,10 +742,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

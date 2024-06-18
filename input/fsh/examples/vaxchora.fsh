@@ -423,13 +423,13 @@ immunsystemet klar til at bekæmpe kolerabakterier, hvis personen kommer i konta
   * code.text = "2. What you need to know before you take vaxchora"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Vaxchora 
-– 
+- 
 hvis du er allergisk over for et eller flere af indholdsstofferne i dette lægemiddel (angivet i 
 afsnit 6). 
-– 
+- 
 hvis du har haft en allergisk reaktion i forbindelse med tidligere indtagelse af Vaxchora. 
-– 
-hvis du har et svækket immunsystem – f.eks. hvis du er født med et svækket immunsystem, eller 
+- 
+hvis du har et svækket immunsystem - f.eks. hvis du er født med et svækket immunsystem, eller 
 hvis du modtager behandlinger som f.eks. behandling med kortikosteroider i høje doser, 
 lægemidler mod kræft eller strålebehandling, der kan svække immunsystemet. </p>
 <p>Advarsler og forsigtighedsregler 
@@ -451,17 +451,17 @@ Vaxchora kan påvirke virkningen af andre lægemidler og vacciner. </p>
 <p>Det er især vigtigt, at du fortæller det til lægen, apotekspersonalet eller sygeplejersken, hvis du tager: </p>
 <ul>
 <li>
-<p>antibiotika – Vaxchora virker måske ikke, hvis du tager den, mens du også tager antibiotika. Tag 
+<p>antibiotika - Vaxchora virker måske ikke, hvis du tager den, mens du også tager antibiotika. Tag 
 tidligst Vaxchora 14 dage efter den sidste dosis antibiotika. Undgå antibiotika i 10 dage efter 
 indtagelse af Vaxchora. </p>
 </li>
 <li>
-<p>klorokin til beskyttelse mod malaria – Vaxchora virker måske ikke, hvis du tager den, mens du 
+<p>klorokin til beskyttelse mod malaria - Vaxchora virker måske ikke, hvis du tager den, mens du 
 også tager klorokin. Tag Vaxchora mindst 10 dage, inden du starter på klorokin, eller mindst 
 14 dage efter, at du har taget klorokin. </p>
 </li>
 <li>
-<p>tyfusvaccinen Ty21a – Vaxchora virker måske ikke, hvis du tager den samtidig med Ty21a. Du 
+<p>tyfusvaccinen Ty21a - Vaxchora virker måske ikke, hvis du tager den samtidig med Ty21a. Du 
 bør tage Vaxchora mindst 2 timer før eller efter, at du har taget Ty21a. </p>
 </li>
 </ul>
@@ -567,7 +567,7 @@ Trin 4 </p>
 der er på flaske, og som er koldt eller har 
 rumtemperatur, og hæld det i et rent glas. </p>
 <p>Der skal anvendes vand på flaske, for at 
-vaccinen kan virke optimalt – brug af vand, 
+vaccinen kan virke optimalt - brug af vand, 
 som ikke er på flaske (f.eks. vand fra hanen), 
 kan gøre vaccinen ineffektiv. 
 Trin 5 </p>
@@ -730,7 +730,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar vaccinen utilgængeligt for børn. </p>
 <p>Brug ikke Vaxchora efter den udløbsdato (EXP), der står på æsken. Udløbsdatoen er den sidste dag i 
 den nævnte måned. </p>
-<p>Opbevares i køleskab (2 °C – 8 °C). 
+<p>Opbevares i køleskab (2 °C - 8 °C). 
 Opbevares i den originale pakning. 
 I den originale pakning er Vaxchora stabilt i op til 12 timer ved 25 °C. Udsæt ikke Vaxchora for 
 temperaturer over 25 °C. </p>
@@ -746,14 +746,13 @@ eller sygeplejersken, hvordan du skal bortskaffe medicinrester eller affald hera
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Vaxchora indeholder: 
-– 
-Hver dosis indeholder 4×108 til 2×109 levedygtige celler fra V. cholerae-stamme CVD 103-
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Vaxchora indeholder:</h2>
+<p>Hver dosis indeholder 4×108 til 2×109 levedygtige celler fra V. cholerae-stamme CVD 103-
 HgR. 
-– 
+- 
 Øvrige indholdsstoffer: saccharose, hydrolyseret kasein, ascorbinsyre, lactose, 
 natriumbicarbonat og natriumcarbonat. 
-– 
+- 
 Denne vaccine indeholder genmodificerede organismer (GMO’er). </p>
 <p>Udseende og pakningsstørrelser 
 Æsken indeholder to breve. Det ene brev indeholder et hvidt til grålighvidt brusepulver med 
@@ -785,8 +784,6 @@ Description: "ePI document Bundle for vaxchora Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -809,8 +806,6 @@ Description: "ePI document Bundle for vaxchora Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -831,8 +826,8 @@ Usage: #example
 
 Instance: mp6ae111423490277c4fbffcad4c0c9c2c
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product vaxchora"
-Description: "vaxchora"
+Title: "Medicinal Product Vaxchora effervescent powder and powder for oral suspension"
+Description: "Vaxchora effervescent powder and powder for oral suspension"
 Usage: #inline
 
  
@@ -845,14 +840,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Vaxchora is indicated for active immunisation against disease caused by Vibrio cholerae serogroup"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "vaxchora"
+  * productName = "Vaxchora effervescent powder and powder for oral suspension"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -872,10 +864,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

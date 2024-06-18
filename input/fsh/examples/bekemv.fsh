@@ -600,7 +600,7 @@ dette lægemiddel. </p>
 <p>Symptomer ved meningokokinfektion </p>
 <p>Når man bruger BEKEMV, er det vigtigt, at visse infektioner opdages og behandles hurtigt. Du får 
 derfor udleveret et kort, som du altid skal bære på dig. På kortet står der en liste over karakteristiske 
-symptomer. Kortet kaldes: ”Patientsikkerhedskort”. </p>
+symptomer. Kortet kaldes: "Patientsikkerhedskort". </p>
 <p>Hvis du kommer ud for nogen af nedenstående symptomer, skal du straks henvende dig til lægen: 
 ‑ 
 hovedpine med kvalme eller opkastning 
@@ -733,7 +733,7 @@ Vedligeholdelsesfase
 du spørge din læge til råds. </p>
 <p>Hvis du har glemt at møde op for at få BEKEMV </p>
 <p>Hvis du har glemt at komme til en behandling, skal du straks spørge lægen til råds og læse 
-nedenstående afsnit ”Hvis du holder op med at få BEKEMV”. </p>
+nedenstående afsnit "Hvis du holder op med at få BEKEMV". </p>
 <p>Hvis du holder op med at få BEKEMV mod PNH </p>
 <p>Hvis du afbryder eller helt stopper behandlingen med BEKEMV, kan symptomerne på PNH komme 
 igen og være mere alvorlige. Din læge vil diskutere de mulige uønskede virkninger heraf med dig og 
@@ -924,9 +924,9 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
   * code.text = "5. How to store bekemv"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
-<p>Få ikke lægemidlet efter den udløbsdato, der står på æsken og etiketten på hætteglasset efter ”EXP”. 
+<p>Få ikke lægemidlet efter den udløbsdato, der står på æsken og etiketten på hætteglasset efter "EXP". 
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
-<p>Opbevares i køleskab (2 °C – 8 °C). Må ikke nedfryses. </p>
+<p>Opbevares i køleskab (2 °C - 8 °C). Må ikke nedfryses. </p>
 <p>Hætteglassene med BEKEMV i den originale emballage må kun opbevares uden for køleskabet i en 
 enkelt periode på op til 7 dage. Efter denne periode kan produktet sættes tilbage i køleskabet. 
 Opbevares i den originale yderpakning for at beskytte mod lys. Efter fortynding skal produktet 
@@ -957,7 +957,7 @@ ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>   
 <li>polysorbat - vand til injektionsvæsker </li>
 </ul>
 <p>Udseende og pakningsstørrelser </p>
-<p>BEKEMV er et koncentrat til infusionsvæske, opløsning (30 ml i et hætteglas – pakningsstørrelse 
+<p>BEKEMV er et koncentrat til infusionsvæske, opløsning (30 ml i et hætteglas - pakningsstørrelse 
 1 stk.). 
 BEKEMV er en klar til opaliserende, farveløs til svagt gul opløsning. </p>
 <p>Indehaver af markedsføringstilladelsen og fremstiller 
@@ -1159,12 +1159,12 @@ lægens skøn. Hvis infusionshastigheden nedsættes, må den samlede infusionsva
 <ol>
 <li>Særlig håndtering og opbevaring </li>
 </ol>
-<p>Opbevares i køleskab (2 °C – 8 °C). Må ikke nedfryses. Opbevares i den originale yderpakning for at 
+<p>Opbevares i køleskab (2 °C - 8 °C). Må ikke nedfryses. Opbevares i den originale yderpakning for at 
 beskytte mod lys. Hætteglassene med BEKEMV i den originale emballage må kun opbevares uden for 
 køleskabet i en enkelt periode på op til 7 dage. Efter denne periode kan produktet sættes tilbage i 
 køleskabet. 
 Brug ikke lægemidlet efter den udløbsdato, der står på pakningen og etiketten på hætteglasset 
-efter ”EXP”. Udløbsdatoen er den sidste dag i den nævnte måned. </p>         </div>"""      
+efter "EXP". Udløbsdatoen er den sidste dag i den nævnte måned. </p>         </div>"""      
 
 
 
@@ -1176,8 +1176,6 @@ InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for bekemv Package Leaflet for language en"
 Description: "ePI document Bundle for bekemv Package Leaflet for language en"
 Usage: #example
-
-
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
@@ -1202,8 +1200,6 @@ Description: "ePI document Bundle for bekemv Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1224,8 +1220,8 @@ Usage: #example
 
 Instance: mp1c1262aecbe28e7e1156f50a5c6d2fe6
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product bekemv"
-Description: "bekemv"
+Title: "Medicinal Product BEKEMV 300 mg concentrate for solution for infusion"
+Description: "BEKEMV 300 mg concentrate for solution for infusion"
 Usage: #inline
 
  
@@ -1238,14 +1234,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "BEKEMV is indicated in adults and children for the treatment of paroxysmal nocturnal"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "bekemv"
+  * productName = "BEKEMV 300 mg concentrate for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1265,10 +1258,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -431,7 +431,7 @@ punkt 6).
 Kontakt lægen, før du får Byooviz. 
 - Byooviz gives som en indsprøjtning i øjet. Lejlighedsvist kan en infektion i den indre del af øjet, 
 smerter eller rødme (inflammation), løsning eller rift i et af lagene bagest i øjet (nethindeløsning 
-eller –rift og løsning eller rift i nethindepigmentepitel) eller uklarhed af linsen (katarakt) 
+eller -rift og løsning eller rift i nethindepigmentepitel) eller uklarhed af linsen (katarakt) 
 forekomme efter behandling med Byooviz. Det er vigtigt at identificere og behandle sådan en 
 infektion eller nethindeløsning så hurtigt som muligt. Du bedes straks oplyse din læge det, hvis du 
 udvikler symptomer såsom øjensmerter eller øget ubehag, forværring af rødme i øjet, sløret eller 
@@ -443,7 +443,7 @@ indsprøjtning.
 eller hvis du har haft et slagtilfælde eller oplevet forbigående tegn på slagtilfælde (svaghed eller 
 lammelse af arme, ben eller ansigt, besvær med at tale eller opfatte). Denne information vil blive 
 medtaget i vurderingen af, om Byooviz er en passende behandling til dig. </p>
-<p>Se punkt 4 (“Bivirkninger”) for at få mere detaljeret information om de bivirkninger, som kan opstå 
+<p>Se punkt 4 (“Bivirkninger") for at få mere detaljeret information om de bivirkninger, som kan opstå 
 under behandling med Byooviz. </p>
 <p>Børn og unge (under 18 år) 
 Byooviz er ikke blevet undersøgt hos børn og unge og bør derfor ikke anvendes.  </p>
@@ -476,8 +476,8 @@ lokalbedøvelse for at mindske eller forhindre smerte i forbindelse med injektio
 <p>Behandlingen indledes med én Byooviz-injektion hver måned. Din læge vil kontrollere dit øje, og 
 afhængigt af, hvordan du reagerer på behandlingen, vil lægen beslutte, om og hvornår du skal have 
 efterfølgende behandling. </p>
-<p>Detaljerede instruktioner for brugen er angivet sidst i denne indlægsseddel under ”Forberedelse og 
-administration af Byooviz”. </p>
+<p>Detaljerede instruktioner for brugen er angivet sidst i denne indlægsseddel under "Forberedelse og 
+administration af Byooviz". </p>
 <p>Ældre (65 år og derover) 
 Byooviz kan anvendes til personer på 65 år og derover uden dosisjustering. </p>
 <p>Hvis du holder op med at få behandling med Byooviz 
@@ -497,8 +497,8 @@ Byooviz. </p>
 fra injektionsproceduren og ses som regel i øjet. </p>
 <p>De mest alvorlige bivirkninger er beskrevet herunder: 
 Almindelige bivirkninger, der er alvorlige (kan forekomme hos op til 1 ud af 10 personer): Løsning eller 
-rift i laget bagest i øjet (nethindeløsning eller –rift), som resulterer i lysglimt, som bevæger sig som 
-”flyvende fluer”, der kan udvikle sig til et midlertidigt synstab, eller uklarhed af linsen (grå stær). Ikke 
+rift i laget bagest i øjet (nethindeløsning eller -rift), som resulterer i lysglimt, som bevæger sig som 
+"flyvende fluer", der kan udvikle sig til et midlertidigt synstab, eller uklarhed af linsen (grå stær). Ikke 
 almindelige bivirkninger, der er alvorlige (kan forekomme hos op til 1 ud af 100 personer): Blindhed, 
 infektion i øjeæblet (endoftalmit) med inflammation indeni øjet. </p>
 <p>De symptomer, du kan opleve, er øjensmerter eller øget ubehag i dit øje, forværring af rødme i øjet, sløret 
@@ -507,7 +507,7 @@ samme til din læge, hvis du oplever nogen af disse bivirkninger. </p>
 <p>De bivirkninger, som forekommer oftest, er beskrevet herunder: 
 Meget almindelige bivirkninger (kan forekomme flere end 1 ud af 10 personer) 
 Bivirkninger i øjet omfatter: Inflammation i øjet, blødning bagerst i øjet (retinal blødning), 
-synsforstyrrelser, øjensmerter, små partikler eller pletter i synsfeltet (”flyvende fluer”), blodskudt øje, 
+synsforstyrrelser, øjensmerter, små partikler eller pletter i synsfeltet ("flyvende fluer"), blodskudt øje, 
 øjenirritation, en fornemmelse af at have noget i øjet, øget tåreproduktion, inflammation eller infektion i 
 øjenlågskanterne, tørt øje, røde øjne eller øjenkløe og forhøjet tryk i øjet. 
 Bivirkninger uden for øjet omfatter: Ondt i halsen, tilstoppet næse, løbende næse, hovedpine og smerte i 
@@ -540,7 +540,7 @@ bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af
 <li>Opbevar lægemidlet utilgængeligt for børn. </li>
 <li>Brug ikke lægemidlet efter den udløbsdato, der står på kartonen og hætteglassets etiket efter 
 EXP. Udløbsdatoen er den sidste dag i den nævnte måned. </li>
-<li>Opbevares i køleskab (2 °C – 8 °C). Må ikke nedfryses. </li>
+<li>Opbevares i køleskab (2 °C - 8 °C). Må ikke nedfryses. </li>
 <li>Før brug kan det uåbnede hætteglas opbevares temperaturer, der ikke overstiger 30 ºC i op til 
 2 måneder. </li>
 <li>Opbevar hætteglasset i den ydre karton for at beskytte mod lys. </li>
@@ -668,7 +668,7 @@ Tel: + 371 66 16 40  </p>
 Du kan finde yderligere oplysninger om Byooviz på Det Europæiske Lægemiddelagenturs 
 hjemmeside http://www.ema.europa.eu. </p>
 <p>NEDENSTÅENDE OPLYSNINGER ER KUN TIL SUNDHEDSPERSONALE: </p>
-<p>Se også punkt 3 ”Sådan gives Byooviz”. </p>
+<p>Se også punkt 3 "Sådan gives Byooviz". </p>
 <p>Forberedelse og administration af Byooviz til voksne </p>
 <p>Engangshætteglas kun til intravitreal anvendelse. </p>
 <p>Byooviz skal indgives af en øjenlæge med erfaring i intravitreale injektioner. </p>
@@ -794,8 +794,6 @@ Description: "ePI document Bundle for byooviz Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -818,8 +816,6 @@ Description: "ePI document Bundle for byooviz Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -840,8 +836,8 @@ Usage: #example
 
 Instance: mpb4d9b93668736e17b1df580d2cd21bf6
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product byooviz"
-Description: "byooviz"
+Title: "Medicinal Product Byooviz 10 mg/ml solution for injection"
+Description: "Byooviz 10 mg/ml solution for injection"
 Usage: #inline
 
  
@@ -854,14 +850,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Byooviz is indicated in adults for:"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "byooviz"
+  * productName = "Byooviz 10 mg/ml solution for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -881,10 +874,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

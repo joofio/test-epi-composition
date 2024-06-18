@@ -762,7 +762,7 @@ insulinbehandling (kan forekomme hos flere end 1 ud af 10 patienter). Lavt blods
 ikke er nok sukker i dit blod. Hvis dit blodsukkerniveau falder for meget, kan du besvime (blive 
 bevidstløs). Alvorlig hypoglykæmi kan forårsage hjerneskade og kan være livstruende. For mere 
 information se den indrammede del sidst i denne indlægsseddel. </p>
-<p>Alvorlige allergiske reaktioner (sjældne, kan forekomme hos op til 1 ud af 1.000 patienter) – 
+<p>Alvorlige allergiske reaktioner (sjældne, kan forekomme hos op til 1 ud af 1.000 patienter) - 
 symptomerne kan inkludere omfattende hudreaktioner (udslæt og kløe overalt på kroppen), alvorlige 
 hævelser i hud eller slimhinder (angioødem), åndenød, blodtryksfald med hurtig hjerterytme og 
 svedudbrud. Alvorlige allergiske reaktioner over for insulin kan være livstruende. Du skal straks kontakte 
@@ -840,7 +840,7 @@ smide medicinrester i afløbet eller toilettet eller skraldespanden. </p>       
 <li>Aktivt stof: Insulin glargin. Hver ml opløsning indeholder 100 enheder af det aktive stof insulin 
 glargin (svarende til 3,64 mg). </li>
 <li>Øvrige indholdsstoffer: Zinkoxid, metacresol, glycerol, natriumhydroxid (se punkt 2 
-”ABASAGLAR indeholder natrium”), saltsyre og vand til injektionsvæsker. </li>
+"ABASAGLAR indeholder natrium"), saltsyre og vand til injektionsvæsker. </li>
 </ul>
 <p>Udseende og pakningsstørrelser 
 ABASAGLAR 100 enheder/ml injektionsvæske, opløsning i cylinderampul er en klar og farveløs 
@@ -963,7 +963,7 @@ virkning f.eks. på grund af forkert opbevaring, </li>
 <li>dyrker mindre motion end sædvanlig eller er stresset (følelsesmæssigt ude af balance, ophidselse), 
 eller hvis du har en skade, er blevet opereret, har en infektion eller feber, </li>
 <li>du tager eller har taget visse andre lægemidler (se punkt 2 “Brug af anden medicin sammen med 
-ABASAGLAR”). </li>
+ABASAGLAR"). </li>
 </ul>
 <p>Advarselssymptomer på hyperglykæmi 
 Tørst, øget vandladning, træthed, tør hud, ansigtsrødme, nedsat appetit, lavt blodtryk, hjertebanken og 
@@ -1021,7 +1021,7 @@ fornemmelse (paræstesi), følelsesløshed og prikken og stikken omkring munden,
 manglende selvbeherskelse, hjælpeløshed, kramper, bevidsthedstab. </p>
 </li>
 </ul>
-<p>De første symptomer på, at der er ved at opstå hypoglykæmi (”advarselssymptomer”), kan ændre sig, 
+<p>De første symptomer på, at der er ved at opstå hypoglykæmi ("advarselssymptomer"), kan ændre sig, 
 svækkes eller kan helt mangle, hvis:</p>
 <ul>
 <li>du er ældre, hvis du har haft diabetes i lang tid eller hvis du lider af en bestemt form for sygdomme i 
@@ -1090,8 +1090,6 @@ Description: "ePI document Bundle for abasaglar Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1114,8 +1112,6 @@ Description: "ePI document Bundle for abasaglar Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1136,8 +1132,8 @@ Usage: #example
 
 Instance: mp8774c315768c11f1f8299f9a299778e8
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product abasaglar"
-Description: "abasaglar"
+Title: "Medicinal Product ABASAGLAR 100 units/mL solution for injection in a cartridge"
+Description: "ABASAGLAR 100 units/mL solution for injection in a cartridge"
 Usage: #inline
 
  
@@ -1150,14 +1146,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Treatment of diabetes mellitus in adults, adolescents and children aged 2 years and above."
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "abasaglar"
+  * productName = "ABASAGLAR 100 units/mL solution for injection in a cartridge"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1177,10 +1170,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

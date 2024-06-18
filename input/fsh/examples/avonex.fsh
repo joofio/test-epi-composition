@@ -628,7 +628,7 @@ invaliderende virkninger af MS. Din læge vil rådgive dig om, hvor længe du ka
 eller hvornår du bør ophøre med at bruge Avonex. </p>
 <p>Sådan virker AVONEX </p>
 <p>Multipel sklerose forbindes med nervebeskadigelse (i hjerne eller rygsøjle). Ved MS reagerer din 
-krops forsvarssystem imod sit eget myelin – den ‘isolering’ der omgiver nervefibrene. Når myelinet er 
+krops forsvarssystem imod sit eget myelin - den ‘isolering’ der omgiver nervefibrene. Når myelinet er 
 beskadiget, bliver meddelelserne mellem hjernen og andre dele af kroppen afbrudt. Det er dette, der 
 forårsager MS-symptomerne. Avonex synes at virke ved at det forhindrer kroppens forsvarssystem i at 
 angribe myelinet. </p>         </div>"""   
@@ -670,8 +670,8 @@ blødning eller anæmi </li>
 form for fysisk aktivitet; hævede ankler, kortåndethed (kongestivt hjertesvigt); eller 
 uregelmæssige hjerteslag (arytmi) </li>
 <li>irritation på et injektionssted, der kan føre til skade på hud og væv (nekrose ved 
-injektionsstedet). Når du er klar til at injicere, skal du nøje følge anvisningerne i punkt 7 ”Sådan 
-injicerer du AVONEX” sidst i denne indlægsseddel. Dette er for at nedsætte risikoen for 
+injektionsstedet). Når du er klar til at injicere, skal du nøje følge anvisningerne i punkt 7 "Sådan 
+injicerer du AVONEX" sidst i denne indlægsseddel. Dette er for at nedsætte risikoen for 
 reaktioner på injektionsstedet. </li>
 </ul>
 <p>Kontakt din læge, hvis du har en eller flere af disse tilstande, eller hvis de bliver værre, mens du 
@@ -753,7 +753,7 @@ Avonex i en periode på tre dage, skal du omgående søge råd hos din læge ell
 <p>Hvis du har glemt at tage en injektion </p>
 <p>Hvis du glemmer at tage din sædvanlige ugentlige dosis, skal du injicere en dosis, så snart du kan. 
 Lad der derefter gå én uge, inden du igen bruger Avonex. Fortsæt med at tage din Avonex-injektion på 
-denne ”nye” dag hver uge. Hvis der er én bestemt ugedag, hvor du foretrækker at tage Avonex, skal du 
+denne "nye" dag hver uge. Hvis der er én bestemt ugedag, hvor du foretrækker at tage Avonex, skal du 
 tale med din læge om, hvordan du kommer tilbage til denne foretrukne ugedag. </p>
 <p>Du må ikke tage to injektioner som erstatning for den glemte injektion. </p>         </div>"""         
 
@@ -799,7 +799,7 @@ de havde oplevet disse bivirkninger. Dette giver dig en idé om, hvor stor sands
 får lignende bivirkninger. </p>
 <p>Meget almindelige bivirkninger 
 (kan forekomme hos flere end 1 ud af 10 brugere) 
-- influenzalignende symptomer – hovedpine, muskelsmerte, kulderystelser eller feber: se afsnittet 
+- influenzalignende symptomer - hovedpine, muskelsmerte, kulderystelser eller feber: se afsnittet 
 Influenzalignende symptomer nedenfor<br />
 - hovedpine. </p>
 <p>Almindelige bivirkninger 
@@ -868,7 +868,7 @@ flere år efter påbegyndelse af behandling med interferon beta-præparater. </p
 - En følelse af at være lige ved at besvime: din læge vil muligvis give dig din første Avonex-
 injektion. Den kan få dig til at føle dig svimmel. Muligvis vil du endda besvime. Dette vil dog 
 næppe ske igen. 
-- Lige efter en injektion, vil dine muskler måske føles spændte eller meget svage – næsten 
+- Lige efter en injektion, vil dine muskler måske føles spændte eller meget svage - næsten 
 som om du får et attak. Dette sker kun sjældent. Det sker kun under selve injektionen, og 
 virkningerne går hurtigt over. Dette kan ske når som helst, efter at behandlingen med Avonex er 
 påbegyndt. 
@@ -1073,7 +1073,7 @@ Forberedelse </p>
 <li>Kontrollér udløbsdatoen på plastbakkens låg. Må ikke anvendes, hvis udløbsdatoen 
 er overskredet. </li>
 <li>Riv papirlåget helt af. Kontrollér, at plastbakken indeholder én fyldt sprøjte og én 
-injektionskanyle (se diagrammet “Plastbakkens indhold”). </li>
+injektionskanyle (se diagrammet “Plastbakkens indhold"). </li>
 <li>Lad sprøjten varme op </li>
 <li>
 <p>Lad sprøjten ligge ved stuetemperatur i en halv time. Det gør injektionen mere 
@@ -1181,8 +1181,6 @@ Description: "ePI document Bundle for avonex Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1205,8 +1203,6 @@ Description: "ePI document Bundle for avonex Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1227,8 +1223,8 @@ Usage: #example
 
 Instance: mp36f1b29a7444210831ac7deab30ae673
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product avonex"
-Description: "avonex"
+Title: "Medicinal Product AVONEX 30 micrograms/0.5 ml solution for injection."
+Description: "AVONEX 30 micrograms/0.5 ml solution for injection."
 Usage: #inline
 
  
@@ -1241,14 +1237,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "AVONEX is indicated in adults for the treatment of"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "avonex"
+  * productName = "AVONEX 30 micrograms/0.5 ml solution for injection."
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1268,10 +1261,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

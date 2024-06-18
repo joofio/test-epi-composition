@@ -654,7 +654,7 @@ Sanofi Pasteur Sp. z o. o.
 Tel.: +48 22 280 00 France 
 Sanofi Pasteur Europe 
 Tél: 0800 222 Appel depuis l’étranger : +33 1 57 63 23 Portugal 
-Sanofi – Produtos Farmacêuticos, Lda. 
+Sanofi - Produtos Farmacêuticos, Lda. 
 Tel: + 351 21 35 89 Hrvatska 
 Swixx Biopharma d.o.o. 
 Tel: +385 1 2078 România 
@@ -702,8 +702,6 @@ Description: "ePI document Bundle for supemtek Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -726,8 +724,6 @@ Description: "ePI document Bundle for supemtek Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -748,8 +744,8 @@ Usage: #example
 
 Instance: mp06d503464480447969e787c60d8f32dd
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product supemtek"
-Description: "supemtek"
+Title: "Medicinal Product Supemtek solution for injection in pre-filled syringe"
+Description: "Supemtek solution for injection in pre-filled syringe"
 Usage: #inline
 
  
@@ -762,14 +758,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Supemtek is indicated for active immunization for the prevention of influenza disease in adults."
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "supemtek"
+  * productName = "Supemtek solution for injection in pre-filled syringe"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -789,10 +782,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -443,7 +443,7 @@ Kontakt lægen eller apotekspersonalet, før du tager SOTYKTU: </p>
 </li>
 <li>
 <p>hvis du har hjerteproblemer eller sygdomme, der gør det mere sandsynligt, at du udvikler 
-hjertesygdomme – det vides ikke, om SOTYKTU øger risikoen for hjertesygdom </p>
+hjertesygdomme - det vides ikke, om SOTYKTU øger risikoen for hjertesygdom </p>
 </li>
 <li>
 <p>hvis du har haft eller har risiko for at få blodpropper i venerne i benene (dyb venetrombose) 
@@ -710,8 +710,6 @@ Description: "ePI document Bundle for sotyktu Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -734,8 +732,6 @@ Description: "ePI document Bundle for sotyktu Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -756,8 +752,8 @@ Usage: #example
 
 Instance: mp8ff5d67e0b7de732bda1082340f24212
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product sotyktu"
-Description: "sotyktu"
+Title: "Medicinal Product SOTYKTU 6 mg film-coated tablets"
+Description: "SOTYKTU 6 mg film-coated tablets"
 Usage: #inline
 
  
@@ -770,14 +766,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "SOTYKTU is indicated for the treatment of moderate to severe plaque psoriasis in adults who are"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "sotyktu"
+  * productName = "SOTYKTU 6 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -797,10 +790,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

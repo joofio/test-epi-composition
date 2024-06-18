@@ -691,19 +691,19 @@ aldersgrupper. </p>
 Fortæl det altid til lægen eller apotekspersonalet, hvis du tager et eller flere af følgende lægemidler, da 
 de kan mindske eller øge mængden af venetoclax i dit blod:</p>
 <ul>
-<li>lægemidler til behandling af svampeinfektioner – fluconazol, itraconazol, ketoconazol, 
+<li>lægemidler til behandling af svampeinfektioner - fluconazol, itraconazol, ketoconazol, 
 posaconazol eller voriconazol </li>
-<li>antibiotika til behandling af bakterieinfektioner – ciprofloxacin, clarithromycin, erythromycin, 
+<li>antibiotika til behandling af bakterieinfektioner - ciprofloxacin, clarithromycin, erythromycin, 
 nafcillin, rifampicin </li>
-<li>lægemider til forebyggelse af krampeanfald og behandling af epilepsi – carbamazepin, phenytoin  </li>
-<li>lægemidler til behandling af hiv-infektion – efavirenz, etravirin, ritonavir </li>
-<li>lægemidler til behandling af forhøjet blodtryk eller hjertekrampe (angina pectoris) – 
+<li>lægemider til forebyggelse af krampeanfald og behandling af epilepsi - carbamazepin, phenytoin  </li>
+<li>lægemidler til behandling af hiv-infektion - efavirenz, etravirin, ritonavir </li>
+<li>lægemidler til behandling af forhøjet blodtryk eller hjertekrampe (angina pectoris) - 
 diltiazem,verapamil </li>
-<li>lægemidler, der bruges til at sænke indholdet af kolesterol i blodet – colestyramin, colestipol, 
+<li>lægemidler, der bruges til at sænke indholdet af kolesterol i blodet - colestyramin, colestipol, 
 colesevelam </li>
 <li>et lægemiddel, der bruges til behandling af unormalt højt blodtryk i lungernes blodkar (pulmonal 
-arteriel hypertension) – bosentan </li>
-<li>et lægemiddel mod en søvnforstyrrelse (narkolepsi) – modafinil </li>
+arteriel hypertension) - bosentan </li>
+<li>et lægemiddel mod en søvnforstyrrelse (narkolepsi) - modafinil </li>
 <li>naturlægemidler, der indeholder perikon </li>
 </ul>
 <p>Det kan være nødvendigt, at lægen ændrer din Venclyxto-dosis. </p>
@@ -711,20 +711,20 @@ arteriel hypertension) – bosentan </li>
 deres virkning: </p>
 <ul>
 <li>
-<p>blodfortyndende lægemidler – warfarin eller dabigatran </p>
+<p>blodfortyndende lægemidler - warfarin eller dabigatran </p>
 </li>
 <li>
-<p>et lægemiddel, der anvendes til at behandle hjerteproblemer – digoxin  </p>
+<p>et lægemiddel, der anvendes til at behandle hjerteproblemer - digoxin  </p>
 </li>
 <li>
-<p>et lægemiddel mod kræft – everolimus  </p>
+<p>et lægemiddel mod kræft - everolimus  </p>
 </li>
 <li>
-<p>et lægemiddel, der bruges til at forebygge afstødning af et organ efter en transplantation – 
+<p>et lægemiddel, der bruges til at forebygge afstødning af et organ efter en transplantation - 
 sirolimus  </p>
 </li>
 <li>
-<p>lægemidler, der anvendes til at sænke indholdet af kolesterol i blodet – kaldet statiner </p>
+<p>lægemidler, der anvendes til at sænke indholdet af kolesterol i blodet - kaldet statiner </p>
 </li>
 </ul>
 <p>Fortæl det altid til lægen eller apotekspersonalet, hvis du tager anden medicin, for nylig har taget 
@@ -884,7 +884,7 @@ apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.  </
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. 
 Dette lægemiddel kan give følgende alvorlige bivirkninger: </p>
-<p>Tumorlysesyndrom (almindelig bivirkning – kan forekomme hos op til 1 ud af 10 personer) 
+<p>Tumorlysesyndrom (almindelig bivirkning - kan forekomme hos op til 1 ud af 10 personer) 
 Stop med at tage Venclyxto og søg læge med det samme, hvis du får symptomer på 
 tumorlysesyndrom: </p>
 <ul>
@@ -919,7 +919,7 @@ tumorlysesyndrom: </p>
 <p>mavesmerter og udspilet mave </p>
 </li>
 </ul>
-<p>Lavt antal hvide blodlegemer (neutropeni) og infektioner (meget almindelig bivirkning – kan 
+<p>Lavt antal hvide blodlegemer (neutropeni) og infektioner (meget almindelig bivirkning - kan 
 forekomme hos flere end 1 ud af 10 personer) 
 Lægen vil tjekke dine blodtal under behandlingen med Venclyxto. Et lavt antal hvide blodlegemer kan 
 medføre øget risiko for infektioner. Tegnene kan være feber, kulderystelser, svaghed eller forvirring, 
@@ -934,7 +934,7 @@ Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 personer)
 <p>lungebetændelse </p>
 </li>
 <li>
-<p>infektion i de øvre luftveje – tegnene kan f.eks. være løbende næse, ondt i halsen eller hoste </p>
+<p>infektion i de øvre luftveje - tegnene kan f.eks. være løbende næse, ondt i halsen eller hoste </p>
 </li>
 <li>
 <p>diarré </p>
@@ -1263,8 +1263,6 @@ Description: "ePI document Bundle for venclyxto Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1287,8 +1285,6 @@ Description: "ePI document Bundle for venclyxto Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1309,8 +1305,8 @@ Usage: #example
 
 Instance: mp03819170889474c02f91ff032bd7d943
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product venclyxto"
-Description: "venclyxto"
+Title: "Medicinal Product Venclyxto 10 mg film-coated tablets"
+Description: "Venclyxto 10 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1323,14 +1319,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Venclyxto in combination with obinutuzumab is indicated for the treatment of adult patients with"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "venclyxto"
+  * productName = "Venclyxto 10 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1350,10 +1343,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

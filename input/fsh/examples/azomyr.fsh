@@ -678,13 +678,13 @@ smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </d
 <li>Aktivt stof: desloratadin 5 mg </li>
 <li>Øvrige indholdsstoffer i tabletten: calciumhydrogenphosphatdihydrat, mikrokrystallinsk 
 cellulose, majsstivelse og talkum. Tabletovertrækket består af filmovertræk (indeholdende 
-lactosemonohydrat (se punkt 2 “Azomyr-tabletter indeholder lactose”), hypromellose, 
+lactosemonohydrat (se punkt 2 “Azomyr-tabletter indeholder lactose"), hypromellose, 
 titandioxid, macrogol 400, indigotin (E132)), klart lag (indeholdende hypromellose, 
 macrogol 400), carnaubavoks og hvid bivoks. </li>
 </ul>
 <p>Udseende og pakningsstørrelser 
-Azomyr 5 mg filmovertrukne tabletter er lyseblå, runde og præget med forlængede bogstaver “S” og 
-“P” på en side og klar på den anden. 
+Azomyr 5 mg filmovertrukne tabletter er lyseblå, runde og præget med forlængede bogstaver “S" og 
+“P" på en side og klar på den anden. 
 Azomyr 5 mg filmovertrukne tabletter er pakket i blisterpakninger med 1, 2, 3, 5, 7, 10, 14, 15, 20, 21, 
 30, 50 eller 100 tabletter. 
 Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
@@ -786,7 +786,7 @@ Organon Pharma B.V., Cyprus branch
 Organon Sweden AB 
 Tel: +46 8 502 597 dpoc.sweden@organon.com </p>
 <p>Latvija 
-Ārvalsts komersanta “Organon Pharma B.V.” 
+Ārvalsts komersanta “Organon Pharma B.V." 
 pārstāvniecība 
 Tel: +371 66968dpoc.latvia@organon.com </p>
 <p>United Kingdom (Northern Ireland) 
@@ -819,8 +819,6 @@ Description: "ePI document Bundle for azomyr Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -843,8 +841,6 @@ Description: "ePI document Bundle for azomyr Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -865,8 +861,8 @@ Usage: #example
 
 Instance: mp49a6edf85307fce92cb7f88732583618
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product azomyr"
-Description: "azomyr"
+Title: "Medicinal Product Azomyr 5 mg film-coated tablets"
+Description: "Azomyr 5 mg film-coated tablets"
 Usage: #inline
 
  
@@ -879,14 +875,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Azomyr is indicated in adults and adolescents aged 12 years and older for the relief of symptoms"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "azomyr"
+  * productName = "Azomyr 5 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -906,10 +899,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

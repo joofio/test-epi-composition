@@ -462,59 +462,59 @@ andre lægemidler eller planlægger at tage andre lægemidler. </p>
 virker på. Disse lægemidler omfatter nogle i de følgende grupper: </p>
 <ul>
 <li>
-<p>Prikbladet perikum – et naturlægemiddel, der bruges til at behandle depression </p>
+<p>Prikbladet perikum - et naturlægemiddel, der bruges til at behandle depression </p>
 </li>
 <li>
-<p>itraconazol, ketoconazol, voriconazol, posaconazol – bruges til at behandle svampeinfektioner </p>
+<p>itraconazol, ketoconazol, voriconazol, posaconazol - bruges til at behandle svampeinfektioner </p>
 </li>
 <li>
-<p>rifampicin – bruges til at behandle bakterieinfektioner, </p>
+<p>rifampicin - bruges til at behandle bakterieinfektioner, </p>
 </li>
 <li>
-<p>darunavir, saquinavir, tipranavir – anvendes til behandling af HIV </p>
+<p>darunavir, saquinavir, tipranavir - anvendes til behandling af HIV </p>
 </li>
 <li>
-<p>phenytoin, carbamazepin – anvendes til at behandle epilepsi eller en smertefuld sygdom i 
+<p>phenytoin, carbamazepin - anvendes til at behandle epilepsi eller en smertefuld sygdom i 
 ansigtet, der kaldes trigeminusneuralgi, eller til at kontrollere alvorlige humørsvingninger, når 
 andre lægemidler ikke virker </p>
 </li>
 <li>
-<p>buspiron – anvendes til at behandle visse mentale forstyrrelser </p>
+<p>buspiron - anvendes til at behandle visse mentale forstyrrelser </p>
 </li>
 <li>
-<p>sirolimus, tacrolimus – anvendes til at kontrollere kroppens immunforsvar efter en transplantation </p>
+<p>sirolimus, tacrolimus - anvendes til at kontrollere kroppens immunforsvar efter en transplantation </p>
 </li>
 <li>
-<p>digoxin – anvendes til behandling af hjerteproblemer </p>
+<p>digoxin - anvendes til behandling af hjerteproblemer </p>
 </li>
 <li>
-<p>lomitapid, lovastatin – anvendes til behandling af anormale kolesterolniveauer </p>
+<p>lomitapid, lovastatin - anvendes til behandling af anormale kolesterolniveauer </p>
 </li>
 <li>
-<p>alfentanil – anvendes til smertelindring </p>
+<p>alfentanil - anvendes til smertelindring </p>
 </li>
 <li>
-<p>avanafil, vardenafil – anvendes til behandling af erektil dysfunktion (impotens) </p>
+<p>avanafil, vardenafil - anvendes til behandling af erektil dysfunktion (impotens) </p>
 </li>
 <li>
-<p>darifenacin – anvendes til behandling af urininkontinens </p>
+<p>darifenacin - anvendes til behandling af urininkontinens </p>
 </li>
 <li>
-<p>midazolam, triazolam – anvendes til behandling af kramper, angstlidelser, panikangst, uro og 
+<p>midazolam, triazolam - anvendes til behandling af kramper, angstlidelser, panikangst, uro og 
 søvnløshed </p>
 </li>
 <li>
-<p>repaglinid – anvendes til behandling af type 2-diabetes </p>
+<p>repaglinid - anvendes til behandling af type 2-diabetes </p>
 </li>
 <li>
-<p>ebastin – et antihistamin, der anvendes til behandling af sæsonbetinget- og 
+<p>ebastin - et antihistamin, der anvendes til behandling af sæsonbetinget- og 
 helårshøfeber </p>
 </li>
 <li>
-<p>everolimus, ibrutinib – anvendes til behandling af visse kræfttyper </p>
+<p>everolimus, ibrutinib - anvendes til behandling af visse kræfttyper </p>
 </li>
 <li>
-<p>naloxegol – anvendes til behandling af forstoppelse </p>
+<p>naloxegol - anvendes til behandling af forstoppelse </p>
 </li>
 </ul>
 <p>Graviditet og amning 
@@ -786,8 +786,6 @@ Description: "ePI document Bundle for tukysa Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -810,8 +808,6 @@ Description: "ePI document Bundle for tukysa Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -832,8 +828,8 @@ Usage: #example
 
 Instance: mp31b0725ade6496816df8ac216511de2c
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product tukysa"
-Description: "tukysa"
+Title: "Medicinal Product TUKYSA 50 mg film-coated tablets"
+Description: "TUKYSA 50 mg film-coated tablets"
 Usage: #inline
 
  
@@ -846,14 +842,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "TUKYSA is indicated in combination with trastuzumab and capecitabine for the treatment of adult"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "tukysa"
+  * productName = "TUKYSA 50 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -873,10 +866,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

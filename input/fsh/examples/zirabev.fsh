@@ -1044,7 +1044,7 @@ fremskaffe mere information om sikkerheden af dette lægemiddel.</p>         </d
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
 Brug ikke lægemidlet efter den udløbsdato, der står på den ydre karton og på hætteglasset, efter 
 forkortelsen "EXP". Udløbsdatoen er den sidste dag i den nævnte måned.
-Opbevares i køleskab (2 °C – 8 °C). Må ikke nedfryses.
+Opbevares i køleskab (2 °C - 8 °C). Må ikke nedfryses.
 Opbevar hætteglasset i den ydre karton for at beskytte mod lys.
 Infusionsopløsningen skal anvendes umiddelbart efter fortyndingen. Hvis den ikke anvendes straks, 
 er opbevaringstider og -betingelser brugerens ansvar og bør normalt ikke overstige 24 timer ved 
@@ -1192,8 +1192,6 @@ Description: "ePI document Bundle for zirabev Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1216,8 +1214,6 @@ Description: "ePI document Bundle for zirabev Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1238,8 +1234,8 @@ Usage: #example
 
 Instance: mp8ceafeb1fcccbf6af415d119af979934
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product zirabev"
-Description: "zirabev"
+Title: "Medicinal Product Zirabev 25 mg/ml concentrate for solution for infusion."
+Description: "Zirabev 25 mg/ml concentrate for solution for infusion."
 Usage: #inline
 
  
@@ -1252,14 +1248,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Zirabev in combination with fluoropyrimidine-based chemotherapy is indicated for treatment of adult"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "zirabev"
+  * productName = "Zirabev 25 mg/ml concentrate for solution for infusion."
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1279,10 +1272,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

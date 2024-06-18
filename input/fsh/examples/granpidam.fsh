@@ -396,8 +396,8 @@ i lungerne (pulmonal arteriel hypertension). </p>         </div>"""
 - hvis du er allergisk over for sildenafil eller et af de øvrige indholdsstoffer i Granpidam (angivet 
 i punkt 6). 
 - hvis du tager lægemidler, som indeholder nitrater eller nitrogenoxiddonorer som amylnitrit 
-(“poppers”). Denne type lægemiddel gives ofte til lindring af smerter i brystet (eller “angina 
-pectoris”). Granpidam kan øge disse præparaters virkning i uønsket, alvorlig grad. Fortæl det til 
+(“poppers"). Denne type lægemiddel gives ofte til lindring af smerter i brystet (eller “angina 
+pectoris"). Granpidam kan øge disse præparaters virkning i uønsket, alvorlig grad. Fortæl det til 
 din læge, hvis du tager nogle af disse præparater. Er du i tvivl, så spørg lægen eller 
 apotekspersonalet. 
 - hvis du tager riociguat. Dette lægemiddel bruges til at behandle pulmonal arteriel hypertension 
@@ -449,8 +449,8 @@ Fortæl det altid til lægen eller apotekspersonalet, hvis du bruger andre læge
 andre lægemidler eller planlægger at bruge andre lægemidler. </p>
 <ul>
 <li>lægemidler, der indeholder nitrater eller såkaldte nitrogenoxiddonorer som f.eks. amylnitrit 
-(“poppers”). Denne type lægemidler bruges ofte til lindring af angina pectoris eller 
-“brystsmerter” (se punkt 2 Brug ikke Granpidam). </li>
+(“poppers"). Denne type lægemidler bruges ofte til lindring af angina pectoris eller 
+“brystsmerter" (se punkt 2 Brug ikke Granpidam). </li>
 <li>lægemidler, der indeholder riociguat. </li>
 <li>behandling af pulmonal hypertension (f.eks. bosentan eller iloprost). </li>
 <li>lægemidler, der indeholder perikon (naturlægemidler), rifampicin (mod tuberkulose), 
@@ -591,12 +591,12 @@ ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>   
 <li>Aktivt stof: sildenafil. Hver tablet indeholder 20 mg sildenafil (som citrat). </li>
 <li>Øvrige indholdsstoffer: 
 Tabletkerne: Mikrokrystallinsk cellulose, calciumhydrogenfosfat, croscarmellosenatrium (se 
-punkt 2 ”Granpidam indeholder natrium”), hypromellose 2910 (E464), magnesiumstearat. 
+punkt 2 "Granpidam indeholder natrium"), hypromellose 2910 (E464), magnesiumstearat. 
 Filmovertræk: Hypromellose 2910 (E464), titandioxid (E171), lactosemonohydrat, triacetin. </li>
 </ul>
 <p>Udseende og pakningsstørrelse 
 Hvide til råhvide, runde, bikonvekse, filmovertrukne tabletter med en diameter på ca. 6,6 mm, præget 
-med ”20” på den ene side og glatte på den anden side. </p>
+med "20" på den ene side og glatte på den anden side. </p>
 <p>Granpidam 20 mg filmovertrukne tabletter leveres i PVC/alu-blisterpakninger med 90 tabletter og 
 300 tabletter. </p>
 <p>Granpidam 20 mg filmovertrukne tabletter fås også i PVC/Alu perforeret enhedsdosis-blisterpakninger 
@@ -637,8 +637,6 @@ Description: "ePI document Bundle for granpidam Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -661,8 +659,6 @@ Description: "ePI document Bundle for granpidam Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -683,8 +679,8 @@ Usage: #example
 
 Instance: mp24658ce59b10f683d894acb365dd27b9
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product granpidam"
-Description: "granpidam"
+Title: "Medicinal Product Granpidam 20 mg film-coated tablets"
+Description: "Granpidam 20 mg film-coated tablets"
 Usage: #inline
 
  
@@ -697,14 +693,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Adults"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "granpidam"
+  * productName = "Granpidam 20 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -724,10 +717,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

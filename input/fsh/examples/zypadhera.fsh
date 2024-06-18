@@ -392,7 +392,7 @@ Usage: #inline
   * code.text =  "1. What zypadhera is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>ZYPADHERA indeholder det aktive stof olanzapin. ZYPADHERA tilhører en gruppe af lægemidler, 
-der kaldes antipsykotika, og bruges til behandling af skizofreni – en sygdom med symptomer såsom at 
+der kaldes antipsykotika, og bruges til behandling af skizofreni - en sygdom med symptomer såsom at 
 man hører, ser og mærker ting, som ikke eksisterer, er mistroisk, ualmindelig mistænksom og 
 indesluttet. Mennesker med denne sygdom kan også føle sig deprimerede, angste eller anspændte. </p>
 <p>ZYPADHERA er beregnet til voksne patienter, som er tilstrækkeligt stabiliseret med oral olanzapin. </p>         </div>"""   
@@ -548,7 +548,7 @@ at bruge anden medicin.  </p>
 <p>Det er særlig vigtigt, at du fortæller det til din læge, hvis du tager: 
 • Medicin for Parkinsons sygdom. 
 • Carbamazepin (mod epilepsi og stemningsforstyrrelser), fluvoxamin ( mod depression) eller 
-ciprofloxacin (mod infektion) – det kan blive nødvendigt at ændre din dosis af ZYPADHERA. </p>
+ciprofloxacin (mod infektion) - det kan blive nødvendigt at ændre din dosis af ZYPADHERA. </p>
 <p>Hvis du allerede tager medicin mod depression, medicin mod angst eller søvnløshed (sovemedicin) 
 kan du føle dig døsig, hvis du får ZYPADHERA. </p>
 <p>Brug af ZYPADHERA sammen med alkohol 
@@ -683,7 +683,7 @@ sikkerheden af dette lægemiddel. </p>         </div>"""
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken efter EXP. Udløbsdatoen er den sidste 
 dag i den nævnte måned. </p>
 <p>Må ikke opbevares i køleskab eller nedfryses. </p>
-<p>Der er vist kemisk og fysisk stabilitet for suspensionen i hætteglasset i 24 timer ved 20 – 25 ºC. Fra et 
+<p>Der er vist kemisk og fysisk stabilitet for suspensionen i hætteglasset i 24 timer ved 20 - 25 ºC. Fra et 
 mikrobiologisk synspunkt bør produktet anvendes straks. Hvis det ikke anvendes straks, er<br />
 opbevaringstid og  -forhold forud for anvendelse brugerens ansvar og vil normalt ikke være længere 
 end 24 timer ved 20 - 25 ºC. Brug ikke lægemidlet hvis du bemærker en misfarvning eller andre tegn 
@@ -869,8 +869,6 @@ Description: "ePI document Bundle for zypadhera Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -893,8 +891,6 @@ Description: "ePI document Bundle for zypadhera Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -915,8 +911,8 @@ Usage: #example
 
 Instance: mp73e905abf90c6054f35e5dd38ca6e3a6
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product zypadhera"
-Description: "zypadhera"
+Title: "Medicinal Product ZYPADHERA 210 mg powder and solvent for prolonged release suspension for injection"
+Description: "ZYPADHERA 210 mg powder and solvent for prolonged release suspension for injection"
 Usage: #inline
 
  
@@ -929,14 +925,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Maintenance treatment of adult patients with schizophrenia sufficiently stabilised during acute treatment"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "zypadhera"
+  * productName = "ZYPADHERA 210 mg powder and solvent for prolonged release suspension for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -956,10 +949,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

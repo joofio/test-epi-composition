@@ -744,50 +744,34 @@ skal stoppes. Hvis behandlingen stoppes før tid, kan dine symptomer komme tilba
 <p>Alvorlige bivirkninger </p>
 <p>Søg akut lægehjælp, hvis du får nogen af følgende meget almindelige bivirkninger (kan 
 forekomme hos flere end 1 ud af 10 personer): </p>
+<h2>* Lavt antal hvide blodlegemer (neutropeni), som kan forårsage følgende tegn og symptomer:</h2>
+<h2>feber, som er en kropstemperatur på 38,5 °C eller højere: Dette kaldes febril neutropeni</h2>
+<h2>kulderystelser eller svedeture</h2>
+<h2>ondt i halsen, sår i munden eller tandpine</h2>
+<h2>mavesmerter</h2>
+<h2>smerter nær anus eller sår omkring anus</h2>
+<h2>smerter eller svien, når du lader vandet, eller at du lader vandet ofte</h2>
+<h2>diarré</h2>
+<p>hoste eller stakåndethed </p>
 <ul>
-<li>
-<p>Lavt antal hvide blodlegemer (neutropeni), som kan forårsage følgende tegn og symptomer: 
-– 
-feber, som er en kropstemperatur på 38,5 °C eller højere: Dette kaldes febril neutropeni<br />
-– 
-kulderystelser eller svedeture 
-– 
-ondt i halsen, sår i munden eller tandpine 
-– 
-mavesmerter 
-– 
-smerter nær anus eller sår omkring anus 
-– 
-smerter eller svien, når du lader vandet, eller at du lader vandet ofte 
-– 
-diarré 
-– 
-hoste eller stakåndethed </p>
-</li>
 <li>
 <p>Diarré (selv uden andre tegn) </p>
 </li>
 <li>
 <p>Overfølsomhedsreaktioner (herunder infusionsrelaterede reaktioner), som kan forårsage 
-følgende tegn og symptomer: 
-– 
-opsvulmede læber, tunge, øjne, svælg eller ansigt 
-– 
-hævelse eller et hævet, kløende, rødt hududslæt 
-– 
-udbrud af hævede, svagt røde knopper eller plaque (hævelser) på huden, der opstår 
-pludseligt 
-– 
-feber 
-– 
-et pludseligt anfald af svær rysten ledsaget af en følelse af at være kold 
-– 
-voldsomme svedeture 
-– 
-hvæsende vejrtrækning, sammensnørring af bryst eller hals, stakåndethed, svimmelhed, 
-følelse af at besvime, åndenød 
-– 
-brystsmerter, hjertebanken  </p>
+følgende tegn og symptomer: </p>
+</li>
+<li>opsvulmede læber, tunge, øjne, svælg eller ansigt </li>
+<li>hævelse eller et hævet, kløende, rødt hududslæt </li>
+<li>udbrud af hævede, svagt røde knopper eller plaque (hævelser) på huden, der opstår 
+pludseligt </li>
+<li>feber </li>
+<li>et pludseligt anfald af svær rysten ledsaget af en følelse af at være kold </li>
+<li>voldsomme svedeture </li>
+<li>hvæsende vejrtrækning, sammensnørring af bryst eller hals, stakåndethed, svimmelhed, 
+følelse af at besvime, åndenød </li>
+<li>
+<p>brystsmerter, hjertebanken  </p>
 </li>
 <li>
 <p>Kvalme, opkastning </p>
@@ -1181,8 +1165,6 @@ Description: "ePI document Bundle for trodelvy Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1205,8 +1187,6 @@ Description: "ePI document Bundle for trodelvy Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1227,8 +1207,8 @@ Usage: #example
 
 Instance: mp27ec6b1f73b141fda5344cc71ceec655
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product trodelvy"
-Description: "trodelvy"
+Title: "Medicinal Product Trodelvy 200 mg powder for concentrate for solution for infusion."
+Description: "Trodelvy 200 mg powder for concentrate for solution for infusion."
 Usage: #inline
 
  
@@ -1241,14 +1221,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Trodelvy as monotherapy is indicated for the treatment of adult patients with unresectable or"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "trodelvy"
+  * productName = "Trodelvy 200 mg powder for concentrate for solution for infusion."
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1268,10 +1245,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -479,8 +479,6 @@ Description: "ePI document Bundle for axumin Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -503,8 +501,6 @@ Description: "ePI document Bundle for axumin Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -525,8 +521,8 @@ Usage: #example
 
 Instance: mpe7c357e85455d1fe389fd3b297f16867
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product axumin"
-Description: "axumin"
+Title: "Medicinal Product Axumin 1,600 MBq/mL solution for injection"
+Description: "Axumin 1,600 MBq/mL solution for injection"
 Usage: #inline
 
  
@@ -539,14 +535,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "This medicinal product is for diagnostic use only."
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "axumin"
+  * productName = "Axumin 1,600 MBq/mL solution for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -566,10 +559,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

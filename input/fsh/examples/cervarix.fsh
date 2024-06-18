@@ -584,7 +584,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar denne vaccine utilgængeligt for børn. </p>
 <p>Brug ikke denne vaccine efter den udløbsdato, der står på pakningen efter EXP. Udløbsdatoen er den 
 sidste dag i den nævnte måned. </p>
-<p>Opbevares i køleskab (2 °C – 8 °C). 
+<p>Opbevares i køleskab (2 °C - 8 °C). 
 Må ikke nedfryses. 
 Opbevares i den originale yderpakning for at beskytte mod lys. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
@@ -757,8 +757,6 @@ Description: "ePI document Bundle for cervarix Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -781,8 +779,6 @@ Description: "ePI document Bundle for cervarix Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -803,8 +799,8 @@ Usage: #example
 
 Instance: mp115d908e795ff40926f89a9e90717eae
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product cervarix"
-Description: "cervarix"
+Title: "Medicinal Product Cervarix suspension for injection in pre-filled syringe"
+Description: "Cervarix suspension for injection in pre-filled syringe"
 Usage: #inline
 
  
@@ -817,14 +813,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Cervarix is a vaccine for use from the age of 9 years for the prevention of premalignant ano-genital"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "cervarix"
+  * productName = "Cervarix suspension for injection in pre-filled syringe"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -844,10 +837,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

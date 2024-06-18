@@ -730,7 +730,7 @@ bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på ampullen, brevet eller æsken efter EXP. Udløbsdatoen 
 er den sidste dag i den nævnte måned. </p>
-<p>Opbevares i køleskab (2 °C – 8 °C). Hvis du ikke har adgang til et køleskab (såsom når du transporterer din 
+<p>Opbevares i køleskab (2 °C - 8 °C). Hvis du ikke har adgang til et køleskab (såsom når du transporterer din 
 medicin), kan du opbevare æsken med medicin (selvom brevene er åbnet) ved under 25°C i op til 4 uger. 
 Hvis produktet har været opbevaret ved stuetemperatur i længere end 4 uger, skal det bortskaffes i henhold til 
 lokale krav. </p>
@@ -764,9 +764,9 @@ Moosstrasse 3
 D-82319 Starnberg 
 Tyskland </p>
 <p>Tlf.:<br />
- +49 (0) 89 – 74 28 46 - 10<br />
+ +49 (0) 89 - 74 28 46 - 10<br />
 Fax:<br />
- +49 (0) 89 – 74 28 46 E-mail:   info@paripharma.com  </p>
+ +49 (0) 89 - 74 28 46 E-mail:   info@paripharma.com  </p>
 <p>Denne indlægsseddel blev senest ændret </p>
 <p>Andre informationskilder </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
@@ -783,8 +783,6 @@ InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for vantobra Package Leaflet for language en"
 Description: "ePI document Bundle for vantobra Package Leaflet for language en"
 Usage: #example
-
-
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
@@ -809,8 +807,6 @@ Description: "ePI document Bundle for vantobra Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -831,8 +827,8 @@ Usage: #example
 
 Instance: mpa2aa072350b7f0283a86de62e6b164d2
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product vantobra"
-Description: "vantobra"
+Title: "Medicinal Product Vantobra 170 mg nebuliser solution"
+Description: "Vantobra 170 mg nebuliser solution"
 Usage: #inline
 
  
@@ -845,14 +841,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Vantobra is indicated for the management of chronic pulmonary infection due to Pseudomonas aeruginosa in"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "vantobra"
+  * productName = "Vantobra 170 mg nebuliser solution"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -872,10 +865,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

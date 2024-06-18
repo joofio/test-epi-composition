@@ -715,8 +715,6 @@ Description: "ePI document Bundle for nemdatine Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -739,8 +737,6 @@ Description: "ePI document Bundle for nemdatine Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -761,8 +757,8 @@ Usage: #example
 
 Instance: mp19f088d0c7284b3f1b2eff5965fbb50a
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product nemdatine"
-Description: "nemdatine"
+Title: "Medicinal Product Nemdatine 5 mg film-coated tablets"
+Description: "Nemdatine 5 mg film-coated tablets"
 Usage: #inline
 
  
@@ -775,14 +771,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Treatment of adult patients with moderate to severe Alzheimer’s disease."
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "nemdatine"
+  * productName = "Nemdatine 5 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -802,10 +795,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

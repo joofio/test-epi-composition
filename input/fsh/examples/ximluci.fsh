@@ -566,7 +566,7 @@ Kontakt lægen før du får Ximluci.
 -
 Ximluci gives som en indsprøjtning i øjet. Lejlighedsvist kan en infektion i den indre del af øjet, 
 smerter eller rødme (inflammation), løsning eller rift i et af lagene bagest i øjet (nethindeløsning 
-eller –rift og løsning eller rift i nethindepigmentepitel) eller uklarhed af linsen (katarakt) 
+eller -rift og løsning eller rift i nethindepigmentepitel) eller uklarhed af linsen (katarakt) 
 forekomme efter behandling med Ximluci. Det er vigtigt at identificere og behandle sådan en 
 infektion eller nethindeløsning så hurtigt som muligt. Du bedes straks oplyse din læge det, hvis 
 du udvikler symptomer såsom øjensmerter eller øget ubehag, forværring af rødme i øjet, sløret 
@@ -641,7 +641,7 @@ injektionsproceduren og ses som regel i øjet.
 Alvorlige bivirkninger:
 Almindelige (kan forekomme hos op til 1 ud af 10 personer): 
 
-Løsning eller rift i laget bagest i øjet (nethindeløsning eller –rift), som resulterer i lysglimt, 
+Løsning eller rift i laget bagest i øjet (nethindeløsning eller -rift), som resulterer i lysglimt, 
 som bevæger sig som "flyvende fluer", der kan udvikle sig til et midlertidigt synstab, eller 
 uklarhed af linsen (grå stær).
 Ikke almindelige (kan forekomme hos op til 1 ud af 100 personer): Blindhed 
@@ -767,7 +767,7 @@ Opbevar lægemidlet utilgængeligt for børn.
 Brug ikke lægemidlet efter den udløbsdato, der står på æsken og hætteglas-etiketten efter EXP. 
 Udløbsdatoen er den sidste dag i den nævnte måned.
 -
-Opbevares i køleskab (2 °C – 8 °C). Må ikke nedfryses.
+Opbevares i køleskab (2 °C - 8 °C). Må ikke nedfryses.
 -
 Forud for brug kan det uåbnede hætteglas opbevares ved stuetemperatur (25 ºC) i op til 48 timer
 -
@@ -1032,8 +1032,6 @@ Description: "ePI document Bundle for ximluci Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1056,8 +1054,6 @@ Description: "ePI document Bundle for ximluci Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1078,8 +1074,8 @@ Usage: #example
 
 Instance: mp11587ff1554abe28faf73fc5e54ae7a8
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product ximluci"
-Description: "ximluci"
+Title: "Medicinal Product Ximluci 10 mg/mL solution for injection"
+Description: "Ximluci 10 mg/mL solution for injection"
 Usage: #inline
 
  
@@ -1092,14 +1088,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Ximluci is indicated in adults for:"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "ximluci"
+  * productName = "Ximluci 10 mg/mL solution for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1119,10 +1112,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

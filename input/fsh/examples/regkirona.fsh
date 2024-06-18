@@ -904,8 +904,6 @@ Description: "ePI document Bundle for regkirona Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -928,8 +926,6 @@ Description: "ePI document Bundle for regkirona Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -950,8 +946,8 @@ Usage: #example
 
 Instance: mp7c3f725d5ce5b04f0bcec4815df3bcb5
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product regkirona"
-Description: "regkirona"
+Title: "Medicinal Product Regkirona 60 mg/mL concentrate for solution for infusion"
+Description: "Regkirona 60 mg/mL concentrate for solution for infusion"
 Usage: #inline
 
  
@@ -964,14 +960,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Regdanvimab is indicated for the treatment of adults with coronavirus disease 2019 (COVID-19) who"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "regkirona"
+  * productName = "Regkirona 60 mg/mL concentrate for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -991,10 +984,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

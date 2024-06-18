@@ -685,7 +685,7 @@ immunsuppressive midler  </li>
 bakterier eller andet, der kan være livstruende </li>
 <li>oplever en fløjtende lyd, når du trækker vejret (hvæsen), åndedrætsbesvær, udslæt, kløe eller 
 hævelser (tegn på en reaktion mod infusionen). For nærmere oplysninger henvises til 
-”Infusionsreaktioner” i pkt. 4 </li>
+"Infusionsreaktioner" i pkt. 4 </li>
 <li>har problemer med en forandring af hudens følsomhed, specielt i hænder eller fødder, så som 
 følelsesløshed, snurren, en brændende fornemmelse, smerter, ubehag eller svækkelse 
 (neuropati) </li>
@@ -868,13 +868,13 @@ hos flere end 1 ud af 10 personer)
 - forhøjede leverenzymniveauer 
 - usædvanligt hårtab eller udtynding </p>
 <p>Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 personer) 
-- Tumorlysesyndrom – en potentielt livstruende tilstand, hvor du kan opleve svimmelhed, nedsat 
+- Tumorlysesyndrom - en potentielt livstruende tilstand, hvor du kan opleve svimmelhed, nedsat 
 vandladning, forvirring, opkastning, kvalme, hævelse, stakåndethed eller forstyrrelser af 
 hjerterytmen.<br />
 - nye eller tilbagevendende cytomegalovirusinfektioner (CMV) 
 - infektion i blodet (blodforgiftning) og/eller septisk shock (en livstruende form for 
 blodforgiftning) 
-- Stevens-Johnsons syndrom og toksisk epidermal nekrolyse – en sjælden, alvorlig sygdom, hvor 
+- Stevens-Johnsons syndrom og toksisk epidermal nekrolyse - en sjælden, alvorlig sygdom, hvor 
 du kan opleve influenza-lignende symptomer efterfulgt af et smertefuldt rødt eller lilla udslæt, 
 der spreder sig og danner blærer, herunder omfattende afskalning af huden<br />
 - nedsat antal hvide blodlegemer med deraf følgende feber 
@@ -911,10 +911,10 @@ lungebetændelse
 - forhøjet blodsukker 
 - forhøjede leverenzymniveauer </p>
 <p>Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 personer) 
-- Tumorlysesyndrom – en potentielt livstruende tilstand, hvor du kan opleve svimmelhed, nedsat 
+- Tumorlysesyndrom - en potentielt livstruende tilstand, hvor du kan opleve svimmelhed, nedsat 
 vandladning, forvirring, opkastning, kvalme, hævelse, stakåndethed eller forstyrrelser af 
 hjerterytmen.<br />
-- Stevens-Johnsons syndrom – en sjælden, alvorlig sygdom, hvor du kan opleve 
+- Stevens-Johnsons syndrom - en sjælden, alvorlig sygdom, hvor du kan opleve 
 influenza-lignende symptomer efterfulgt af et smertefuldt rødt eller lilla udslæt, der spreder sig 
 og danner blærer, herunder omfattende afskalning af huden<br />
 - nye eller tilbagevendende cytomegalovirusinfektioner (CMV) </p>
@@ -1109,8 +1109,6 @@ Description: "ePI document Bundle for adcetris Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1133,8 +1131,6 @@ Description: "ePI document Bundle for adcetris Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1155,8 +1151,8 @@ Usage: #example
 
 Instance: mpb75c9cca851bae600c4e2cbce08a2816
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product adcetris"
-Description: "adcetris"
+Title: "Medicinal Product ADCETRIS 50 mg powder for concentrate for solution for infusion."
+Description: "ADCETRIS 50 mg powder for concentrate for solution for infusion."
 Usage: #inline
 
  
@@ -1169,14 +1165,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Hodgkin lymphoma"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "adcetris"
+  * productName = "ADCETRIS 50 mg powder for concentrate for solution for infusion."
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1196,10 +1189,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

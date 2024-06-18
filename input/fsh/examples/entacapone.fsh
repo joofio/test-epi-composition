@@ -485,12 +485,18 @@ eller apoteket, som kan undersøge, om din medicin kan tages sammen med Entacapo
 </li>
 <li>
 <p>hvis du tidligere har haft en sjælden reaktion på antipsykotisk medicin kaldet malignt 
-neuroleptikasyndrom (NMS). Se symptomer på NMS i punkt 4 Bivirkninger  </p>
+neuroleptikasyndrom (NMS). Se symptomer på NMS i punkt </p>
 </li>
-<li>
-<p>hvis du tidligere har haft en sjælden muskelsygdom, der kaldes rhabdomyolyse, som ikke var 
-udløst af en skade. </p>
-</li>
+</ul>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take entacapone"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take entacapone"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>hvis du tidligere har haft en sjælden muskelsygdom, der kaldes rhabdomyolyse, som ikke var 
+udløst af en skade. </li>
 </ul>
 <p>Advarsler og forsigtighedsregler 
 Kontakt lægen eller apoteket før du tager Entacapone Teva:<br />
@@ -564,12 +570,13 @@ Entacapone Teva taget sammen med levodopa kan nedsætte dit blodtryk, hvilket ka
 dig ør i hovedet eller svimmel. Du skal være meget forsigtig, når du kører bil eller betjener maskiner.  </p>
 <p>Entacapone Teva taget sammen med levodopa kan endvidere gøre dig meget søvnig eller af og til få 
 dig til pludseligt at falde i søvn. Hvis du får disse bivirkninger, må du ikke køre bil motorcykel eller 
-arbejde med værktøj eller maskiner. </p>         </div>"""   
-                    
+arbejde med værktøj eller maskiner. </p>         </div>"""         
+
+        
 * section[=].section[+]
-  * title =  "3. How to take entacapone"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take entacapone"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid Entacapone Teva nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så 
 spørg lægen eller på apoteket.  </p>
@@ -596,13 +603,12 @@ Du må kun ophøre med at tage Entacapone Teva, hvis din læge har sagt det.  </
 behandling af Parkinsons sygdom. Pludseligt stop med brug af Entacapone Teva og anden medicin til 
 behandling af Parkinsons sygdom kan give uønskede bivirkninger. Se punkt 2 Advarsler og 
 forsigtighedsregler. </p>
-<p>Spørg lægen eller på apoteket, hvis der er noget, du er i tvivl om. </p>         </div>"""         
-
+<p>Spørg lægen eller på apoteket, hvis der er noget, du er i tvivl om. </p>         </div>"""      
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "5. How to store entacapone"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "5. How to store entacapone"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. De 
 hyppigste bivirkninger, der skyldes brug af Entacapone Teva, er milde til moderate. </p>
@@ -728,10 +734,11 @@ pårørende kan også indberette bivirkninger direkte til Sundhedsstyrelsen via 
 rapporteringssystem anført i Appendiks V*. Ved at indrapportere bivirkninger kan du hjælpe 
 med at fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
         
+        
 * section[=].section[+]
-  * title = "5. How to store entacapone"
+  * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store entacapone"
+  * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar dette lægemiddel utilgængeligt for børn. </p>
 <p>Brug ikke dette lægemiddel efter den udløbsdato, der står på pakningen og på etiketten på 
@@ -739,140 +746,6 @@ tabletbeholderen efter EXP. Udløbsdatoen er den sidste dag i den nævnte måned
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Spørg på apoteket, hvordan du skal aflevere medicinrester. Af hensyn til miljøet må du ikke smide 
 medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
-        
-        
-* section[=].section[+]
-  * title = "6. Contents of the pack and other information"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Entacapone Teva indeholder:</p>
-<ul>
-<li>Aktivt stof: Entacapon. Hver filmovertrukken tablet indeholder 200 mg entacapon. </li>
-<li>Øvrige indholdsstoffer i tabletkernen: cellulose, mikrokrystallinsk; povidon, stivelse, 
-prægelatineret, magnesiumstearat og i filmovertrækket poly(vinylalkohol); talcum; titandioxid 
-(E171); macrogol; jernoxid-gul (E172); lecithin, soja og jernoxid-rød (E172). </li>
-</ul>
-<p>Udseende og pakningsstørrelser 
-Entacapone Teva 200 mg filmovertrukne tabletter er lysebrune, bikonvekse, ellipseformede tabletter 
-med en længde på ca. 18 mm og en bredde på ca. 10 mm, præget med "E200" på den ene side og uden 
-prægning på den anden side. </p>
-<p>Entacapone Teva fås i HPDE-tabletbeholdere med skruelåg i polypropylen med isat tørremiddel med 
-30, 60, 100 eller 175 filmovertrukne tabletter. Ikke alle pakningsstørrelser er nødvendigvis 
-markedsført. </p>
-<p>Indehaver af markedsføringstilladelsen 
-Teva B.V. 
-Swensweg 5 
-2031GA Haarlem </p>
-<p>Nederlandene </p>
-<p>Fremstiller 
-TEVA Pharmaceutical Works Private Limited Company 
-Pallagi út 13, 
-4042 Debrecen, 
-Ungarn </p>
-<p>Pharmachemie B.V.<br />
-Swensweg 5, 
-2031 GA Haarlem,<br />
-Nederlandene </p>
-<p>Teva Czech Industries s.r.o.<br />
-Ostravska 29, c.p. 305, 
-74770 Opava-Komarov, 
-Den Tjekkiske Republik </p>
-<p>Teva Operations Poland Sp.z.o.o. 
-ul. Mogilska 80, 
-31-546, Krakow, 
-Polen </p>
-<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
-repræsentant for indehaveren af markedsføringstilladelsen: </p>
-<p>België/Belgique/Belgien<br />
-Teva Pharma Belgium N.V./S.A./AG 
-Tél/Tel: +32 38207373<br />
-Lietuva 
-UAB Teva Baltics 
-Tel: +370 52660 
-България<br />
-Тева Фарма ЕАД 
-Teл: +359 24899585<br />
-Luxembourg/Luxemburg<br />
-ratiopharm GmbH<br />
-Allemagne/Deutschland 
-Tél/Tel: +49 73140 
-Česká republika<br />
-Teva Pharmaceuticals CR, s.r.o.<br />
-Tel: +420 251007111<br />
-Magyarország<br />
-Teva Gyógyszergyár Zrt.<br />
-Tel: +36 12886 
-Danmark<br />
-Teva Denmark A/S<br />
-Tlf: +45 44985511<br />
-Malta<br />
-Teva Pharmaceuticals Ireland 
-L-Irlanda 
-Tel: +44 2075407 
-Deutschland 
-TEVA GmbH 
-Tel: +49 73140Nederland<br />
-Teva Nederland B.V. 
-Tel: +31 8000228 
-Eesti 
-UAB Teva Baltics Eesti filiaal 
-Tel: +372 6610Norge 
-Teva Norway AS 
-Tlf: +47 66775 </p>
-<p>Ελλάδα 
-Specifar Α.Β.Ε.Ε. 
-Τηλ: +30 2118805Österreich 
-ratiopharm Arzneimittel Vertriebs-GmbH 
-Tel: +43 1970 
-España 
-Teva Pharma, S.L.U. 
-Tel: +34 913873Polska 
-Teva Pharmaceuticals Polska Sp. z o.o. 
-Tel: +48 223459 
-France 
-Teva Santé 
-Tél: +33 155917Portugal 
-Teva Pharma - Produtos Farmacêuticos, Lda. 
-Tel: +351 214767 
-Hrvatska 
-Pliva Hrvatska d.o.o. 
-Tel: +385 13720 
-România 
-Teva Pharmaceuticals S.R.L. 
-Tel: +40 212306 
-Ireland 
-Teva Pharmaceuticals Ireland 
-Tel: +44 2075407Slovenija 
-Pliva Ljubljana d.o.o. 
-Tel: +386 15890 
-Ísland 
-Teva Pharma Iceland ehf. 
-Sími: +354 5503Slovenská republika 
-TEVA Pharmaceuticals Slovakia s.r.o. 
-Tel: +421 257267 </p>
-<p>Italia 
-Teva Italia S.r.l. 
-Tel: +39 028917 
-Suomi/Finland 
-Teva Finland Oy 
-Puh/Tel: +358 201805 
-Κύπρος 
-Specifar Α.Β.Ε.Ε. 
-Ελλάδα 
-Τηλ: +30 2118805Sverige 
-Teva Sweden AB 
-Tel: +46 42121 </p>
-<p>Latvija 
-UAB Teva Baltics filiāle Latvijā 
-Tel: +371 67323 
-United Kingdom (Northern Ireland) 
-Teva Pharmaceuticals Ireland 
-Ireland 
-Tel: +44 2075407 </p>
-<p>Denne indlægsseddel blev senest ændret iseptember 2015. Andre informationskilder 
-Du kan finde yderligere oplysninger om dette lægemiddel på det Europæiske Lægemiddelagenturs 
-hjemmeeside http://www.ema.europa.eu/  </p>         </div>"""      
 
 
 
@@ -884,8 +757,6 @@ InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for entacapone Package Leaflet for language en"
 Description: "ePI document Bundle for entacapone Package Leaflet for language en"
 Usage: #example
-
-
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
@@ -910,8 +781,6 @@ Description: "ePI document Bundle for entacapone Package Leaflet for language da
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -932,8 +801,8 @@ Usage: #example
 
 Instance: mp9d6bde1dfdbe6ae73a503b7573b2e412
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product entacapone"
-Description: "entacapone"
+Title: "Medicinal Product Entacapone Teva 200 mg film-coated tablets"
+Description: "Entacapone Teva 200 mg film-coated tablets"
 Usage: #inline
 
  
@@ -946,14 +815,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Entacapone is indicated as an adjunct to standard preparations of levodopa/benserazide or"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "entacapone"
+  * productName = "Entacapone Teva 200 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -973,10 +839,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

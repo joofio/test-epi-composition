@@ -1556,7 +1556,7 @@ lægemiddel. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke dette lægemiddel efter den udløbsdato, der står på æsken og etiketten på hætteglasset efter 
 Exp. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
-<p>Opbevares i køleskab (2 °C – 8 °C). 
+<p>Opbevares i køleskab (2 °C - 8 °C). 
 Må ikke nedfryses. 
 Opbevares i den originale yderpakning for at beskytte mod lys. </p>
 <p>Eventuelt resterende infusionsvæske må ikke opbevares til senere brug. Ikke anvendte lægemidler 
@@ -1692,16 +1692,16 @@ Der skal anvendes en separat infusionsslange. </p>
 injektionsvæske eller 50 mg/ml (5 %) glucose injektionsvæske. </p>
 <p>Opbevaringsbetingelser og holdbarhed: 
 Uåbnet hætteglas 
-YERVOY skal opbevares i køleskab (2 °C – 8 °C). Hætteglassene skal opbevares i den originale 
+YERVOY skal opbevares i køleskab (2 °C - 8 °C). Hætteglassene skal opbevares i den originale 
 yderpakning for at beskytte mod lys. YERVOY må ikke nedfryses. </p>
 <p>Brug ikke YERVOY efter den udløbsdato, der står på æsken og etiketten på hætteglasset efter EXP. 
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>YERVOY infusion 
 Ud fra en mikrobiologisk betragtning bør medicinen infunderes eller fortyndes og infunderes 
 umiddelbart efter åbning. Det er påvist, at det ufortyndede eller fortyndede koncentrat (mellem 1 og 
-4 mg/ml) har en kemisk og fysisk anvendelsesstabilitet ved stuetemperatur (20 °C – 25 °C) i 24 timer 
-eller i køleskab (2 °C – 8 °C). Hvis infusionsvæsken (ufortyndet eller fortyndet) ikke anvendes straks, 
-skal den opbevares i køleskab (2 °C – 8 °C) eller ved stuetemperatur (20 °C – 25 °C) og anvendes 
+4 mg/ml) har en kemisk og fysisk anvendelsesstabilitet ved stuetemperatur (20 °C - 25 °C) i 24 timer 
+eller i køleskab (2 °C - 8 °C). Hvis infusionsvæsken (ufortyndet eller fortyndet) ikke anvendes straks, 
+skal den opbevares i køleskab (2 °C - 8 °C) eller ved stuetemperatur (20 °C - 25 °C) og anvendes 
 inden for 24 timer. Anden opbevaringstid og andre opbevaringsforhold er brugerens ansvar. </p>
 <p>Destruktion: 
 Opbevar ikke nogen rester af den ikke anvendte infusionsopløsning til senere brug. Ikke anvendte 
@@ -1717,8 +1717,6 @@ InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for yervoy Package Leaflet for language en"
 Description: "ePI document Bundle for yervoy Package Leaflet for language en"
 Usage: #example
-
-
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
@@ -1743,8 +1741,6 @@ Description: "ePI document Bundle for yervoy Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1765,8 +1761,8 @@ Usage: #example
 
 Instance: mpa2652d1642d1c9344c422837d3b948bc
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product yervoy"
-Description: "yervoy"
+Title: "Medicinal Product YERVOY 5 mg/ml concentrate for solution for infusion"
+Description: "YERVOY 5 mg/ml concentrate for solution for infusion"
 Usage: #inline
 
  
@@ -1779,14 +1775,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Melanoma"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "yervoy"
+  * productName = "YERVOY 5 mg/ml concentrate for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1806,10 +1799,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -687,8 +687,6 @@ Description: "ePI document Bundle for sitagliptin Package Leaflet for language e
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -711,8 +709,6 @@ Description: "ePI document Bundle for sitagliptin Package Leaflet for language d
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -733,8 +729,8 @@ Usage: #example
 
 Instance: mp0dd5f884d9dc5fa6d9fea8dd6125a60a
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product sitagliptin"
-Description: "sitagliptin"
+Title: "Medicinal Product Sitagliptin SUN 25 mg film-coated tablets"
+Description: "Sitagliptin SUN 25 mg film-coated tablets"
 Usage: #inline
 
  
@@ -747,14 +743,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "3"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "sitagliptin"
+  * productName = "Sitagliptin SUN 25 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -774,10 +767,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

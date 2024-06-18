@@ -651,8 +651,6 @@ Description: "ePI document Bundle for ontozry Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -675,8 +673,6 @@ Description: "ePI document Bundle for ontozry Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -697,8 +693,8 @@ Usage: #example
 
 Instance: mpfca2b0949c2af4853c1cd5b425813585
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product ontozry"
-Description: "ontozry"
+Title: "Medicinal Product Ontozry 12.5 mg tablets"
+Description: "Ontozry 12.5 mg tablets"
 Usage: #inline
 
  
@@ -711,14 +707,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Ontozry is indicated for the adjunctive treatment of focal-onset seizures with or without secondary"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "ontozry"
+  * productName = "Ontozry 12.5 mg tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -738,10 +731,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

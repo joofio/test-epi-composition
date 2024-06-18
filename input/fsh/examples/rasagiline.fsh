@@ -752,8 +752,6 @@ Description: "ePI document Bundle for rasagiline Package Leaflet for language en
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -776,8 +774,6 @@ Description: "ePI document Bundle for rasagiline Package Leaflet for language da
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -798,8 +794,8 @@ Usage: #example
 
 Instance: mpb0e9ca3c0296dbd9d61e291d9ccda718
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product rasagiline"
-Description: "rasagiline"
+Title: "Medicinal Product Rasagiline ratiopharm 1 mg tablets"
+Description: "Rasagiline ratiopharm 1 mg tablets"
 Usage: #inline
 
  
@@ -812,14 +808,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Rasagiline ratiopharm is indicated in adults for the treatment of idiopathic Parkinson’s disease as"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "rasagiline"
+  * productName = "Rasagiline ratiopharm 1 mg tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -839,10 +832,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

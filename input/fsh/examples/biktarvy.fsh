@@ -1104,7 +1104,7 @@ indeholder vigtige oplysninger.
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
 ikke er nævnt i denne indlægsseddel. Se punkt 4. Hvis Biktarvy er ordineret til dit barn, skal du bemærke, at alle oplysninger i denne 
-indlægsseddel er rettet mod dit barn (i det tilfælde skal du læse ”dit barn” i stedet for ”du/dig”). </p>
+indlægsseddel er rettet mod dit barn (i det tilfælde skal du læse "dit barn" i stedet for "du/dig"). </p>
 <p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>         </div>"""      
 
 
@@ -1117,8 +1117,6 @@ InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for biktarvy Package Leaflet for language en"
 Description: "ePI document Bundle for biktarvy Package Leaflet for language en"
 Usage: #example
-
-
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
@@ -1143,8 +1141,6 @@ Description: "ePI document Bundle for biktarvy Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1165,8 +1161,8 @@ Usage: #example
 
 Instance: mp63b15a3bb9d18a00ecd0962bc011c765
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product biktarvy"
-Description: "biktarvy"
+Title: "Medicinal Product Biktarvy 30 mg/120 mg/15 mg film-coated tablets"
+Description: "Biktarvy 30 mg/120 mg/15 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1179,14 +1175,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Biktarvy is indicated for the treatment of human immunodeficiency virus-1 (HIV-1) infection in adults"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "biktarvy"
+  * productName = "Biktarvy 30 mg/120 mg/15 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1206,10 +1199,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

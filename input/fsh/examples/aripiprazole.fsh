@@ -617,7 +617,7 @@ på dig selv. </p>
 mængder urin, øget appetit og svaghedsfølelse) eller arvelig sukkersyge (diabetes) </p>
 </li>
 <li>
-<p>krampeanfald – i givet fald vil din læge overvåge dig tættere </p>
+<p>krampeanfald - i givet fald vil din læge overvåge dig tættere </p>
 </li>
 <li>
 <p>ufrivillige, uregelmæssige muskelsammentrækninger, specielt i ansigtet </p>
@@ -694,7 +694,7 @@ generaliseret angst, OCD (obsessiv-kompulsiv tilstand) og social fobi samt migr�
 OCD (obsessiv-kompulsiv tilstand) og social fobi samt migræne og smerter </p>
 </li>
 <li>
-<p>selektive serotoningenoptagelseshæmmere (SSRI´er) (fx paroxetin og fluoxetin) til behandling 
+<p>selektive serotoningenoptagelseshæmmere (SSRI'er) (fx paroxetin og fluoxetin) til behandling 
 af depression, OCD, panik og angst </p>
 </li>
 <li>
@@ -1090,11 +1090,11 @@ Derudover er der indberettet slagtilfælde eller forbigående slagtilfælde. </p
 <p>Hos børn og unge kan endvidere ses følgende bivirkninger 
 Unge mennesker i alderen 13 år og derover fik bivirkninger, der var sammenlignelige i hyppighed og 
 type af bivirkninger hos voksne, undtagen for træthed, ukontrollerbare, spjættende eller rykkende 
-bevægelser, rastløshed og træthed, der blev observeret med hyppigheden ”meget almindelig” (flere 
+bevægelser, rastløshed og træthed, der blev observeret med hyppigheden "meget almindelig" (flere 
 end 1 ud af 10 patienter), og mavesmerter i den øverste del af maven, tør mund, øget hjerterytme 
 (puls), vægtstigning, øget appetit, muskeltrækninger, ukontrollerede bevægelser af arme og ben samt 
 svimmelhed, specielt ved skift fra liggende eller siddende til oprejst stilling, hvor hyppigheden var 
-”almindelig” (flere end 1 ud af 100 patienter). </p>
+"almindelig" (flere end 1 ud af 100 patienter). </p>
 <p>Indberetning af bivirkninger 
 Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
@@ -1280,8 +1280,6 @@ Description: "ePI document Bundle for aripiprazole Package Leaflet for language 
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1304,8 +1302,6 @@ Description: "ePI document Bundle for aripiprazole Package Leaflet for language 
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1326,8 +1322,8 @@ Usage: #example
 
 Instance: mp662d78825e427448ea8547cad3dd9ef3
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product aripiprazole"
-Description: "aripiprazole"
+Title: "Medicinal Product Aripiprazole Zentiva 5 mg tablets"
+Description: "Aripiprazole Zentiva 5 mg tablets"
 Usage: #inline
 
  
@@ -1340,14 +1336,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Aripiprazole Zentiva is indicated for the treatment of schizophrenia in adults and in adolescents aged"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "aripiprazole"
+  * productName = "Aripiprazole Zentiva 5 mg tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1367,10 +1360,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

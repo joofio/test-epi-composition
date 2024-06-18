@@ -573,10 +573,10 @@ repræsentant for indehaveren af markedsføringstilladelsen: </p>
 Covis Pharma Europe B.V. 
 Tél/Tel:  80013 
 Lietuva<br />
-UAB “BERLIN CHEMIE MENARINI BALTIC”<br />
+UAB “BERLIN CHEMIE MENARINI BALTIC"<br />
 Tel: +370 52 691<br />
 България<br />
-“Берлин-Хеми/А. Менарини България” EООД 
+“Берлин-Хеми/А. Менарини България" EООД 
 тел.: +359 2 454 09 50  </p>
 <p>Luxembourg/Luxemburg<br />
 Covis Pharma Europe B.V. 
@@ -621,7 +621,7 @@ Tel.: 0800919France<br />
 MENARINI France<br />
 Tél: +33 (0)1 45 60 77 20  </p>
 <p>Portugal<br />
-A. Menarini Portugal – Farmacêutica, S.A.<br />
+A. Menarini Portugal - Farmacêutica, S.A.<br />
 Tel: +351 210 935 500  </p>
 <p>Hrvatska<br />
 Berlin-Chemie Menarini Hrvatska d.o.o.<br />
@@ -718,9 +718,9 @@ Gå til ’PUNKT 2: Inhalér din medicin’. </p>
 <p>Hvad skal du gøre, hvis kontrolvinduet stadigvæk er rødt efter at have trykket på knappen 
 (Figur H). </p>
 <p>Figur H 
-Dosis er ikke forberedt. Gå tilbage til ’PUNKT 1 Forbered din dosis’ og gentag punkt 1.1 – 
+Dosis er ikke forberedt. Gå tilbage til ’PUNKT 1 Forbered din dosis’ og gentag punkt 1.1 - 
 1.6. PUNKT 2: Inhalér din medicin 
-Læs punkt 2.1 – 2.7 igennem før brug. Hold inhalatoren lige.<br />
+Læs punkt 2.1 - 2.7 igennem før brug. Hold inhalatoren lige.<br />
 2.1 Hold inhalatoren væk fra munden og pust helt ud. Ånd aldrig ud gennem inhalatoren (Figur 
 I).<br />
 GRØNT </p>
@@ -746,7 +746,7 @@ medicin korrekt.  </p>
 <p>Hvad skal du gøre, hvis kontrolvinduet stadigvæk er grønt efter inhalation (Figur L). </p>
 <p>Figur L </p>
 <p>Det betyder, at du ikke har inhaleret din medicin korrekt. Gå tilbage til ’PUNKT 2 Inhalér din 
-medicin’ og gentag punkt 2.1 – 2.7. Hvis kontrolvinduet stadigvæk ikke er skiftet til rødt, har du måske glemt at slippe den grønne knap før 
+medicin’ og gentag punkt 2.1 - 2.7. Hvis kontrolvinduet stadigvæk ikke er skiftet til rødt, har du måske glemt at slippe den grønne knap før 
 inhalation, eller du har måske ikke inhaleret kraftigt nok. Hvis dette sker, så prøv igen. Du skal sikre 
 dig, at du har sluppet den grønne knap, og at du har åndet helt ud. Tag derefter en kraftig, dyb 
 indånding gennem mundstykket. 
@@ -798,8 +798,6 @@ Description: "ePI document Bundle for bretaris Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -822,8 +820,6 @@ Description: "ePI document Bundle for bretaris Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -844,8 +840,8 @@ Usage: #example
 
 Instance: mp54a021f4e4e92ada183e2df4eec44f64
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product bretaris"
-Description: "bretaris"
+Title: "Medicinal Product Bretaris Genuair 322 micrograms inhalation powder"
+Description: "Bretaris Genuair 322 micrograms inhalation powder"
 Usage: #inline
 
  
@@ -858,14 +854,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Bretaris Genuair is indicated as a maintenance bronchodilator treatment to relieve symptoms in adult"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "bretaris"
+  * productName = "Bretaris Genuair 322 micrograms inhalation powder"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -885,10 +878,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

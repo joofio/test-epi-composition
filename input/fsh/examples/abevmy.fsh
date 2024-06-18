@@ -950,8 +950,8 @@ måde. Hvis Abevmy injiceres direkte i øjet (ikke-godkendt brug), kan følgende
 forekomme:</p>
 <ul>
 <li>infektion eller vævsirritation (inflammation) i øjeæblet </li>
-<li>røde øjne, små partikler eller pletter i synsfeltet (”flyvende fluer”), øjensmerter </li>
-<li>lysglimt, som bevæger sig som ”flyvende fluer”, og som udvikler sig til tab af noget af synet </li>
+<li>røde øjne, små partikler eller pletter i synsfeltet ("flyvende fluer"), øjensmerter </li>
+<li>lysglimt, som bevæger sig som "flyvende fluer", og som udvikler sig til tab af noget af synet </li>
 <li>forhøjet tryk i øjet </li>
 <li>blødning i øjet </li>
 </ul>
@@ -969,8 +969,8 @@ information om sikkerheden af dette lægemiddel </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på den ydre karton og på hætteglasset efter 
-forkortelsen ”EXP”. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
-<p>Opbevares i køleskab (2 ºC – 8 ºC). 
+forkortelsen "EXP". Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Opbevares i køleskab (2 ºC - 8 ºC). 
 Må ikke fryses. 
 Hætteglassene skal altid opbevares i den originale yderpakning for at beskytte mod lys. </p>
 <p>Infusionsopløsningen skal anvendes umiddelbart efter fortyndingen. Hvis den ikke anvendes 
@@ -1119,8 +1119,6 @@ Description: "ePI document Bundle for abevmy Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1143,8 +1141,6 @@ Description: "ePI document Bundle for abevmy Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1165,8 +1161,8 @@ Usage: #example
 
 Instance: mp5e76230e59397f1e6fa849c96667af6e
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product abevmy"
-Description: "abevmy"
+Title: "Medicinal Product Abevmy 25 mg/mL concentrate for solution for infusion."
+Description: "Abevmy 25 mg/mL concentrate for solution for infusion."
 Usage: #inline
 
  
@@ -1179,14 +1175,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Abevmy in combination with fluoropyrimidine-based chemotherapy is indicated for treatment of adult"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "abevmy"
+  * productName = "Abevmy 25 mg/mL concentrate for solution for infusion."
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1206,10 +1199,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -521,16 +521,11 @@ målcellerne. Denne behandling kaldes fotodynamisk behandling (PDT). </p>       
   * code.text = "2. What you need to know before you take ameluz"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Ameluz  </p>
+<h2>* hvis du er allergisk over for</h2>
+<h2>5-aminolevulinsyre eller et af de øvrige indholdsstoffer i Ameluz (angivet i punkt 6)</h2>
+<h2>lysfølsomme stoffer, som kaldes porfyriner</h2>
+<p>soja eller jordnødder </p>
 <ul>
-<li>
-<p>hvis du er allergisk over for 
-– 
-5-aminolevulinsyre eller et af de øvrige indholdsstoffer i Ameluz (angivet i punkt 6) 
-– 
-lysfølsomme stoffer, som kaldes porfyriner 
-– 
-soja eller jordnødder </p>
-</li>
 <li>
 <p>hvis du har en sygdom kaldet porfyri, der nedsætter evnen til at danne rødt farvestof i blodet </p>
 </li>
@@ -548,16 +543,13 @@ hukommelsestab. </p>
 <li>
 <p>Du bør ikke anvende Ameluz, hvis du bruger immunundertrykkende lægemidler. </p>
 </li>
-<li>
-<p>Undgå at påføre Ameluz 
-– 
-på læsioner, der bløder. 
-– 
-i øjnene og på slimhinder. 
-– 
-på hudområder, der er angrebet af andre sygdomme eller har tatoveringer, da dette kan 
+</ul>
+<h2>* Undgå at påføre Ameluz</h2>
+<h2>på læsioner, der bløder.</h2>
+<h2>i øjnene og på slimhinder.</h2>
+<p>på hudområder, der er angrebet af andre sygdomme eller har tatoveringer, da dette kan 
 forhindre et positivt resultat og gøre det svært at vurdere behandlingen. </p>
-</li>
+<ul>
 <li>
 <p>Intensiv forberedelser af læsioner (f.eks. kemisk peeling efterfulgt af ablativ laser) kan føre til 
 flere smerter under PDT. </p>
@@ -587,18 +579,18 @@ reaktioner efter lyspåvirkning, f.eks. </p>
 </li>
 <li>
 <p>medicin, der virker vanddrivende gennem nyrerne, hvor navnet på det aktive stof oftest ender 
-på “thiazid” eller “tiazid”, såsom hydrochlorthiazid </p>
+på “thiazid" eller “tiazid", såsom hydrochlorthiazid </p>
 </li>
 <li>
 <p>Visse typer medicin til behandling af sukkersyge (diabetes) som glibenclamid og glimepirid </p>
 </li>
 <li>
 <p>medicin til behandling af psykiske sygdomme, kvalme eller opkastning, hvor navnet på det 
-aktive stof oftest ender på “azin”. </p>
+aktive stof oftest ender på “azin". </p>
 </li>
 <li>
 <p>medicin til behandling af bakterieinfektioner, hvor navnet på det aktive stof begynder 
-med ”sulfa” eller ender på “oxacin” eller “cyklin”, såsom tetracyklin </p>
+med "sulfa" eller ender på “oxacin" eller “cyklin", såsom tetracyklin </p>
 </li>
 </ul>
 <p>Graviditet og amning 
@@ -726,71 +718,39 @@ af brugen af Ameluz i naturligt eller kunstigt dagslys viste tilsvarende typer b
 for smerter, med en mindre intensitet. Nogle reaktioner på påføringsstedet er blevet observeret før 
 anvendelse af lys. </p>
 <p>Meget almindelig: kan forekomme hos flere end 1 ud af 10 personer </p>
-<ul>
-<li>reaktioner på påføringsstedet 
-– 
-hudrødme 
-– 
-smerter (inkl. brændende smerter) 
-– 
-irritation 
-– 
-kløe 
-– 
-hævelse i vævet på grund af væske 
-– 
-skorper 
-– 
-afskalning af huden 
-– 
-hårdhed i vævet 
-– 
-unormal følelse såsom snurren, prikken eller følelsesløshed  </li>
-</ul>
+<h2>* reaktioner på påføringsstedet</h2>
+<h2>hudrødme</h2>
+<h2>smerter (inkl. brændende smerter)</h2>
+<h2>irritation</h2>
+<h2>kløe</h2>
+<h2>hævelse i vævet på grund af væske</h2>
+<h2>skorper</h2>
+<h2>afskalning af huden</h2>
+<h2>hårdhed i vævet</h2>
+<p>unormal følelse såsom snurren, prikken eller følelsesløshed  </p>
 <p>Almindelig: kan forekomme hos op til 1 ud af 10 personer </p>
+<h2>* reaktioner på påføringsstedet</h2>
+<h2>blærer</h2>
+<h2>udsivning af væske</h2>
+<h2>afslidning</h2>
+<h2>andre reaktioner</h2>
+<h2>ubehag</h2>
+<h2>øget følsomhed for smerter</h2>
+<h2>blødning</h2>
+<p>varme </p>
 <ul>
-<li>
-<p>reaktioner på påføringsstedet 
-– 
-blærer 
-– 
-udsivning af væske 
-– 
-afslidning<br />
-– 
-andre reaktioner 
-– 
-ubehag 
-– 
-øget følsomhed for smerter 
-– 
-blødning 
-– 
-varme </p>
-</li>
-<li>
-<p>hovedpine </p>
-</li>
+<li>hovedpine </li>
 </ul>
 <p>Ikke almindelig: kan forekomme hos op til 1 ud af 100 personer </p>
+<h2>* reaktioner på påføringsstedet</h2>
+<h2>farveændring</h2>
+<h2>pusholdige blærer</h2>
+<h2>sår</h2>
+<h2>hævelse</h2>
+<h2>betændelseslignende reaktioner</h2>
+<h2>eksem med pusholdige blærer</h2>
+<p>allergisk reaktion1 </p>
 <ul>
-<li>
-<p>reaktioner på påføringsstedet 
-– 
-farveændring 
-– 
-pusholdige blærer 
-– 
-sår 
-– 
-hævelse 
-– 
-betændelseslignende reaktioner 
-– 
-eksem med pusholdige blærer 
-– 
-allergisk reaktion1 </p>
-</li>
 <li>
 <p>vabler </p>
 </li>
@@ -851,9 +811,9 @@ lægemiddel. </p>         </div>"""
   * code.text = "5. How to store ameluz"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar dette lægemiddel utilgængeligt for børn. </p>
-<p>Brug ikke dette lægemiddel efter den udløbsdato, der står på tuben og æsken efter ”EXP” eller ”Anv. 
-inden”. Udløbsdatoen er den sidste dag i den nævnte måned.  </p>
-<p>Opbevares i køleskab (2 °C – 8 °C). </p>
+<p>Brug ikke dette lægemiddel efter den udløbsdato, der står på tuben og æsken efter "EXP" eller "Anv. 
+inden". Udløbsdatoen er den sidste dag i den nævnte måned.  </p>
+<p>Opbevares i køleskab (2 °C - 8 °C). </p>
 <p>Hold tuben tæt tillukket efter anbrud. Smid tuben væk 4 måneder efter, den er åbnet.  </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
 ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
@@ -1042,8 +1002,6 @@ Description: "ePI document Bundle for ameluz Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1066,8 +1024,6 @@ Description: "ePI document Bundle for ameluz Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1088,8 +1044,8 @@ Usage: #example
 
 Instance: mp27a52606a6d06c382d79e38520d58ce1
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product ameluz"
-Description: "ameluz"
+Title: "Medicinal Product Ameluz 78 mg/g gel"
+Description: "Ameluz 78 mg/g gel"
 Usage: #inline
 
  
@@ -1102,14 +1058,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Treatment of actinic keratosis of mild to moderate severity (Olsen grade 1 to 2; see section 5.1) and of"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "ameluz"
+  * productName = "Ameluz 78 mg/g gel"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1129,10 +1082,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

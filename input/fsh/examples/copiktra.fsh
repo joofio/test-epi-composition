@@ -483,104 +483,104 @@ lægemidlers virkemåde, og visse andre lægemidler kan påvirke Copiktras virke
 <p>Fortæl det til lægen eller apotekspersonalet, hvis du tager et eller flere af følgende lægemidler: </p>
 <ul>
 <li>
-<p>alfentanil, fentanyl, metadon, buprenorphin/naloxon – til lindring af smerter </p>
+<p>alfentanil, fentanyl, metadon, buprenorphin/naloxon - til lindring af smerter </p>
 </li>
 <li>
-<p>alfuzosin – til behandling af forstørret prostata </p>
+<p>alfuzosin - til behandling af forstørret prostata </p>
 </li>
 <li>
-<p>amiodaron, bepridil, disopyramid, lidocain, quinidin – til behandling af hjerteproblemer </p>
+<p>amiodaron, bepridil, disopyramid, lidocain, quinidin - til behandling af hjerteproblemer </p>
 </li>
 <li>
-<p>amlodipin, diltiazem, felodipin, nicardipin, nifedipin, verapamil – til behandling af 
+<p>amlodipin, diltiazem, felodipin, nicardipin, nifedipin, verapamil - til behandling af 
 forhøjet blodtryk og hjerteproblemer </p>
 </li>
 <li>
 <p>amprenavir, atazanavir, darunavir, efavirenz, etravirin, fosamprenavir, indinavir, 
-lopinavir, nelfinavir, ritonavir, saquinavir – til behandling af hiv-infektioner </p>
+lopinavir, nelfinavir, ritonavir, saquinavir - til behandling af hiv-infektioner </p>
 </li>
 <li>
-<p>aprepitant – til forebyggelse af opkastning </p>
+<p>aprepitant - til forebyggelse af opkastning </p>
 </li>
 <li>
-<p>boceprevir, telaprevir – til behandling af hepatitis C </p>
+<p>boceprevir, telaprevir - til behandling af hepatitis C </p>
 </li>
 <li>
-<p>bosentan – til behandling af pulmonal hypertension (forhøjet blodtryk i lungerne, der giver 
+<p>bosentan - til behandling af pulmonal hypertension (forhøjet blodtryk i lungerne, der giver 
 vejrtrækningsbesvær) </p>
 </li>
 <li>
-<p>budesonid, fluticason – steroider til behandling af høfeber og astma, og salmeterol til 
+<p>budesonid, fluticason - steroider til behandling af høfeber og astma, og salmeterol til 
 behandling af astma </p>
 </li>
 <li>
-<p>buspiron, clorazepat, diazepam, estazolam, flurazepam, zolpidem – til behandling af 
+<p>buspiron, clorazepat, diazepam, estazolam, flurazepam, zolpidem - til behandling af 
 forstyrrelser i nervesystemet </p>
 </li>
 <li>
-<p>carbamazepin, mephenytoin, phenytoin – til forebyggelse af krampeanfald </p>
+<p>carbamazepin, mephenytoin, phenytoin - til forebyggelse af krampeanfald </p>
 </li>
 <li>
-<p>ciclosporin, sirolimus, tacrolimus – til forebyggelse af organafstødning efter transplantation </p>
+<p>ciclosporin, sirolimus, tacrolimus - til forebyggelse af organafstødning efter transplantation </p>
 </li>
 <li>
-<p>ciprofloxacin, clarithromycin, erythromycin, nafcillin, telithromycin – til behandling af 
+<p>ciprofloxacin, clarithromycin, erythromycin, nafcillin, telithromycin - til behandling af 
 bakterieinfektioner </p>
 </li>
 <li>
-<p>cisaprid – til lindring af visse maveproblemer </p>
+<p>cisaprid - til lindring af visse maveproblemer </p>
 </li>
 <li>
-<p>colchicin – til behandling af urinsyregigt </p>
+<p>colchicin - til behandling af urinsyregigt </p>
 </li>
 <li>
-<p>conivaptan – til behandling af hjerteproblemer </p>
+<p>conivaptan - til behandling af hjerteproblemer </p>
 </li>
 <li>
-<p>dabigatran, warfarin – til forebyggelse af blodpropper </p>
+<p>dabigatran, warfarin - til forebyggelse af blodpropper </p>
 </li>
 <li>
-<p>dasatinib, imatinib, nilotinib, paclitaxel, vinblastin, vincristin – til behandling af kræft </p>
+<p>dasatinib, imatinib, nilotinib, paclitaxel, vinblastin, vincristin - til behandling af kræft </p>
 </li>
 <li>
-<p>dihydroergotamin, ergotamin – til behandling af migræne </p>
+<p>dihydroergotamin, ergotamin - til behandling af migræne </p>
 </li>
 <li>
-<p>fluconazol, itraconazol, ketoconazol, posaconazol, voriconazol – til behandling af 
+<p>fluconazol, itraconazol, ketoconazol, posaconazol, voriconazol - til behandling af 
 svampeinfektioner </p>
 </li>
 <li>
-<p>midazolam, triazolam – til behandling af søvnforstyrrelser eller lindring af angst (ved 
+<p>midazolam, triazolam - til behandling af søvnforstyrrelser eller lindring af angst (ved 
 indtagelse gennem munden) </p>
 </li>
 <li>
-<p>modafinil – til behandling af usædvanlig søvnighed </p>
+<p>modafinil - til behandling af usædvanlig søvnighed </p>
 </li>
 <li>
-<p>p-piller eller p-implantat – til forebyggelse af graviditet </p>
+<p>p-piller eller p-implantat - til forebyggelse af graviditet </p>
 </li>
 <li>
-<p>pimozid – til behandling af unormale tanker eller følelser </p>
+<p>pimozid - til behandling af unormale tanker eller følelser </p>
 </li>
 <li>
-<p>quetiapin – til behandling af skizofreni, bipolar lidelse og svær depression </p>
+<p>quetiapin - til behandling af skizofreni, bipolar lidelse og svær depression </p>
 </li>
 <li>
-<p>rifabutin, rifampicin – til behandling af bakterieinfektioner, herunder tuberkulose </p>
+<p>rifabutin, rifampicin - til behandling af bakterieinfektioner, herunder tuberkulose </p>
 </li>
 <li>
-<p>sildenafil, tadalafil – til behandling af impotens og pulmonal hypertension (forhøjet blodtryk 
+<p>sildenafil, tadalafil - til behandling af impotens og pulmonal hypertension (forhøjet blodtryk 
 i lungerne, der giver vejrtrækningsbesvær) </p>
 </li>
 <li>
-<p>statiner som f.eks. atorvastatin, lovastatin, simvastatin – til sænkning af 
+<p>statiner som f.eks. atorvastatin, lovastatin, simvastatin - til sænkning af 
 kolesterolniveauet </p>
 </li>
 <li>
-<p>Prikbladet perikum (Hypericum perforatum) – et naturlægemiddel mod depression og angst </p>
+<p>Prikbladet perikum (Hypericum perforatum) - et naturlægemiddel mod depression og angst </p>
 </li>
 <li>
-<p>trazodon – til behandling af depression </p>
+<p>trazodon - til behandling af depression </p>
 </li>
 </ul>
 <p>Brug af Copiktra sammen med mad og drikke 
@@ -808,8 +808,6 @@ Description: "ePI document Bundle for copiktra Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -832,8 +830,6 @@ Description: "ePI document Bundle for copiktra Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -854,8 +850,8 @@ Usage: #example
 
 Instance: mp74778e8109bf478af8bf20ce15b25c4c
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product copiktra"
-Description: "copiktra"
+Title: "Medicinal Product Copiktra 15 mg hard capsules"
+Description: "Copiktra 15 mg hard capsules"
 Usage: #inline
 
  
@@ -868,14 +864,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Copiktra monotherapy is indicated for the treatment of adult patients with:"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "copiktra"
+  * productName = "Copiktra 15 mg hard capsules"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -895,10 +888,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

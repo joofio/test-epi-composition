@@ -524,7 +524,7 @@ steroider (anvendes til behandling af inflammation eller allergier), da de kan �
 hvis du pludselig får røde øjne og ondt i øjet, eller forværring af dette, oplever, at øjnene løber 
 mere i vand eller får uklart syn og/eller lysfølsomhed. Der kan være behov for omgående 
 behandling.
-Se også afsnit 4, ”Bivirkninger”.
+Se også afsnit 4, "Bivirkninger".
 Børn og unge
 Giotrif bør ikke anvendes til børn eller unge. Du må ikke give dette lægemiddel til børn eller unge 
 under 18 år.
@@ -659,7 +659,7 @@ blive værre, på hudområder, der bliver udsat for sollys. Solbeskyttelse med d
 beklædning og solcreme anbefales.
 
 Inflammation i lungerne (ikke almindeligt, kan forekomme hos op til 1 ud af 100 personer)
-kaldes for ”interstitiel lungesygdom”
+kaldes for "interstitiel lungesygdom"
 Hvis du får åndenød eller pludselig forværring af åndenød, der måske er ledsaget af hoste eller 
 feber, skal du fortælle det til lægen med det samme.
 
@@ -754,7 +754,7 @@ ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.
 silica (E551), crospovidon type A, magnesiumstearat (E470b), hypromellose (E464), 
 macrogol 400, titandioxid (E171), talcum (E553b), polysorbat 80 (E433).
 Udseende og pakningsstørrelser
-Giotrif 20 mg filmovertrukne tabletter er hvide til gullige og runde. De er præget med koden ”T20” på 
+Giotrif 20 mg filmovertrukne tabletter er hvide til gullige og runde. De er præget med koden "T20" på 
 den ene side og Boehringer Ingelheim firmalogo på den anden side.
 Giotrif filmovertrukne tabletter findes i pakninger med 1, 2 eller 4 perforerede enkeltdosisblistere. 
 Hver blister indeholder 7 × 1 filmovertrukne tabletter og er pakket i en foliepose sammen med et brev
@@ -910,8 +910,6 @@ Description: "ePI document Bundle for giotrif Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -934,8 +932,6 @@ Description: "ePI document Bundle for giotrif Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -956,8 +952,8 @@ Usage: #example
 
 Instance: mp25a85065b03a3ebba78fc6bd23994177
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product giotrif"
-Description: "giotrif"
+Title: "Medicinal Product GIOTRIF 20 mg film-coated tablets"
+Description: "GIOTRIF 20 mg film-coated tablets"
 Usage: #inline
 
  
@@ -970,14 +966,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "GIOTRIF as monotherapy is indicated for the treatment of"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "giotrif"
+  * productName = "GIOTRIF 20 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -997,10 +990,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

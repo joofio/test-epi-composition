@@ -525,7 +525,7 @@ nyreproblemer. </p>
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. </p>
 <p>Tal straks med sundhedspersonalet eller lægen, hvis du oplever nogle af følgende alvorlige 
-bivirkninger – du kan have brug for akut lægehjælp: </p>
+bivirkninger - du kan have brug for akut lægehjælp: </p>
 <p>Sjælden (kan forekomme hos 1 ud af 1000 behandlede) </p>
 <ul>
 <li>
@@ -838,13 +838,13 @@ Bondronat koncentrat til infusionsvæske, opløsning skal gives som en intraven�
 <p>Til dette formål skal hætteglassenes indhold anvendes på følgende måde: </p>
 <ul>
 <li>
-<p>Forebyggelse af knoglerelaterede hændelser hos patienter med brystkræft og knoglemetastaser – 
+<p>Forebyggelse af knoglerelaterede hændelser hos patienter med brystkræft og knoglemetastaser - 
 tilsættes til 100 ml isotonisk natriumchlorid-infusionsvæske eller 100 ml 5 % 
 glucoseinfusionsvæske og infunderes over mindst 15 minutter. Se også afsnittet ovenfor 
 vedrørende dosering af patienter med nedsat nyrefunktion </p>
 </li>
 <li>
-<p>Behandling af tumorinduceret hyperkalcæmi – tilsættes til 500 ml isotonisk 
+<p>Behandling af tumorinduceret hyperkalcæmi - tilsættes til 500 ml isotonisk 
 natriumchloridinfusionsvæske eller 500 ml 5 % glucoseinfusionsvæske og infunderes over 2 
 timer. </p>
 </li>
@@ -854,8 +854,8 @@ For at undgå potentielle uforligeligheder, skal Bondronat koncentrat til infusi
 blandes med isotonisk natriumchlorid eller med 5 % glucoseinfusionsvæske. Opløsninger 
 indeholdende calcium må ikke blandes med Bondronat koncentrat til infusionsvæske, opløsning. </p>
 <p>Fortyndede opløsninger er til engangsbrug. Kun klare opløsninger uden partikler må anvendes. </p>
-<p>Det anbefales at opløsningen anvendes straks efter fortynding (se pkt. 5 i denne indlægsseddel ” 
-Opbevaring”). </p>
+<p>Det anbefales at opløsningen anvendes straks efter fortynding (se pkt. 5 i denne indlægsseddel " 
+Opbevaring"). </p>
 <p>Bondronat koncentrat til infusionsvæske, opløsning skal efter fortynding gives som en intravenøs 
 infusion. Det skal omhyggeligt sikres, at Bondronat koncentrat til infusionsvæske, opløsning ikke 
 administreres som intra-arterielt eller paravenøst, da det kan forårsage vævsskade. </p>
@@ -910,8 +910,6 @@ Description: "ePI document Bundle for bondronat Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -934,8 +932,6 @@ Description: "ePI document Bundle for bondronat Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -956,8 +952,8 @@ Usage: #example
 
 Instance: mpf352e985084276fc8e67c6d45807c1bf
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product bondronat"
-Description: "bondronat"
+Title: "Medicinal Product Bondronat 2 mg concentrate for solution for infusion."
+Description: "Bondronat 2 mg concentrate for solution for infusion."
 Usage: #inline
 
  
@@ -970,14 +966,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Bondronat is indicated in adults for"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "bondronat"
+  * productName = "Bondronat 2 mg concentrate for solution for infusion."
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -997,10 +990,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

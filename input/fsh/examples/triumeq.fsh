@@ -672,7 +672,7 @@ anvendes til multipel sklerose)
 → Fortæl lægen, hvis du tror, at noget af dette gælder for dig. </li>
 </ul>
 <p>Advarsler og forsigtighedsregler  </p>
-<p>VIGTIGT – Overfølsomhedsreaktioner </p>
+<p>VIGTIGT - Overfølsomhedsreaktioner </p>
 <p>Triumeq indeholder abacavir og dolutegravir. Begge disse aktive stoffer kan forårsage en alvorlig 
 allergisk reaktion kendt som en overfølsomhedsreaktion. Du bør aldrig tage abacavir eller 
 abacavirholdige produkter igen, hvis du har en overfølsomhedsreaktion: Det kan være livstruende.  </p>
@@ -782,7 +782,7 @@ B-infektion. </p>
 (sindslidelse). </p>
 </li>
 <li>
-<p>prikbladet perikon (hypericum perforatum – St. Johns urt), som er et naturpræparat til 
+<p>prikbladet perikon (hypericum perforatum - St. Johns urt), som er et naturpræparat til 
 behandling af depression. </p>
 </li>
 <li>
@@ -863,7 +863,7 @@ skal tages inden for 4 timer, skal du dog springe den glemte dosis over og tage 
 sædvanlige tidspunkt. Fortsæt herefter behandlingen som før.  </p>
 <p>→ Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
 <p>Hvis du holder op med at tage Triumeq 
-Hvis du er holdt op med at tage Triumeq af en eller anden grund – særligt hvis det er, fordi du mener, 
+Hvis du er holdt op med at tage Triumeq af en eller anden grund - særligt hvis det er, fordi du mener, 
 at du får bivirkninger, eller fordi du har en anden sygdom: 
 Tal med lægen, inden du begynder at tage Triumeq igen. Lægen vil undersøge, om dine 
 symptomer skyldtes en overfølsomhedsreaktion. Hvis lægen mener, de kan være relateret til en 
@@ -940,7 +940,7 @@ hvis du får symptomer fra mindst to af følgende grupper:</p>
 MERE tage Triumeq eller nogen andre lægemidler, der indeholder abacavir. Hvis du gør det, kan 
 du inden for få timer få et alvorligt blodtryksfald, der kan medføre død. Du bør heller aldrig igen tage 
 lægemidler, der indeholder dolutegravir. </p>
-<p>Hvis du er holdt op med at tage Triumeq af en eller anden grund – særligt hvis det er, fordi du mener, 
+<p>Hvis du er holdt op med at tage Triumeq af en eller anden grund - særligt hvis det er, fordi du mener, 
 at du får bivirkninger, eller fordi du har en anden sygdom: </p>
 <p>Tal med lægen, inden du begynder at tage Triumeq igen. Lægen vil undersøge, om dine 
 bivirkninger skyldtes en overfølsomhedsreaktion. Hvis lægen mener, de kan være forårsaget af en 
@@ -1258,7 +1258,7 @@ ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>   
 <li>Aktive stoffer: dolutegravir, abacavir og lamivudin. Hver tablet indeholder dolutegravirnatrium 
 svarende til 50 mg dolutegravir, 600 mg abacavir (som sulfat) og 300 mg lamivudin. </li>
 <li>Øvrige indholdsstoffer: mannitol (E421), mikrokrystallinsk cellulose, povidon (K29/32), 
-natriumstivelsesglycolat, magnesiumstearat, polyvinylalkohol – delvist hydrolyseret, 
+natriumstivelsesglycolat, magnesiumstearat, polyvinylalkohol - delvist hydrolyseret, 
 titandioxid, macrogol/PEG, talcum, sort jernoxid og rød jernoxid). </li>
 <li>Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
 væsentlige natriumfrit. </li>
@@ -1398,8 +1398,6 @@ Description: "ePI document Bundle for triumeq Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1422,8 +1420,6 @@ Description: "ePI document Bundle for triumeq Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1444,8 +1440,8 @@ Usage: #example
 
 Instance: mp130bba2ea8da812c1b9f9db0b62fdb3a
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product triumeq"
-Description: "triumeq"
+Title: "Medicinal Product Triumeq 50 mg/600 mg/300 mg film-coated tablets"
+Description: "Triumeq 50 mg/600 mg/300 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1458,14 +1454,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Triumeq is indicated for the treatment of Human Immunodeficiency Virus (HIV) infected adults,"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "triumeq"
+  * productName = "Triumeq 50 mg/600 mg/300 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1485,10 +1478,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

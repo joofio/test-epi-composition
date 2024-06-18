@@ -914,8 +914,6 @@ Description: "ePI document Bundle for epclusa Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -938,8 +936,6 @@ Description: "ePI document Bundle for epclusa Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -960,8 +956,8 @@ Usage: #example
 
 Instance: mpe9ae841f23c2665e4711986b64a357a9
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product epclusa"
-Description: "epclusa"
+Title: "Medicinal Product Epclusa 400 mg/100 mg film-coated tablets"
+Description: "Epclusa 400 mg/100 mg film-coated tablets"
 Usage: #inline
 
  
@@ -974,14 +970,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Epclusa is indicated for the treatment of chronic hepatitis C virus (HCV) infection in patients 3 years"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "epclusa"
+  * productName = "Epclusa 400 mg/100 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1001,10 +994,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -786,7 +786,7 @@ påvirke behandlingen med Vokanamet. Du skal eventuelt have kontrolleret dit blo
 nyrefunktion hyppigere, eller lægen kan ændre din dosis af Vokanamet. Det er især vigtigt, at du 
 nævner følgende:
 
-insulin eller et sulfonylurinstof (f.eks. glimepirid eller glipizid) mod diabetes – i så fald vil 
+insulin eller et sulfonylurinstof (f.eks. glimepirid eller glipizid) mod diabetes - i så fald vil 
 lægen måske nedsætte din dosis for at undgå, at dit blodsukker bliver alt for lavt (hypoglykæmi)
 
 vanddrivende lægemidler (diuretika)
@@ -964,7 +964,7 @@ hurtig puls.
 Tal med lægen snarest muligt, hvis du får en eller flere af følgende bivirkninger:
 Hypoglykæmi (meget almindelig - kan berøre flere end 1 ud af 10 personer)
 
-lavt blodsukker (hypoglykæmi), – når dette lægemiddel tages sammen med insulin eller et 
+lavt blodsukker (hypoglykæmi), - når dette lægemiddel tages sammen med insulin eller et 
 sulfonylurinstof (såsom glimepirid eller glipizid).
 Mulige tegn på lavt blodsukker:
 -
@@ -1025,7 +1025,7 @@ nyresvigt (hovedsageligt som en konsekvens af et forhøjet væsketab fra kroppen
 
 amputation af en underekstremitet (primært en tå) især hvis du har høj risiko for hjertesygdom
 
-forhudsforsnævring – problemer med at trække forhuden omkring penishovedet tilbage
+forhudsforsnævring - problemer med at trække forhuden omkring penishovedet tilbage
 
 hudreaktioner efter eksponering for sollys.
 Ikke kendt (hyppigheden kan ikke fastslås ud fra forhåndenværende data)
@@ -1038,7 +1038,7 @@ canagliflozin:
 meget almindelig: kvalme, opkastning, diaré, mavepine og appetitmangel
 
 almindelig: en metallisk smag (smagsforstyrrelse), nedsat indhold af B12-vitamin (kan give 
-anæmi – lavt antal røde blodlegemer)
+anæmi - lavt antal røde blodlegemer)
 
 meget sjældne: unormale prøver for leverfunktion, leverbetændelse (hepatitis) og kløe.
 Indberetning af bivirkninger
@@ -1200,7 +1200,7 @@ MENARINI France
 Tél: +33 (0)1 45 60 77 20
 im@menarini.fr
 Portugal
-A. Menarini Portugal – Farmacêutica, S.A.
+A. Menarini Portugal - Farmacêutica, S.A.
 Tel: +351 210 935 500
 menporfarma@menarini.pt
 Hrvatska
@@ -1269,8 +1269,6 @@ Description: "ePI document Bundle for vokanamet Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1293,8 +1291,6 @@ Description: "ePI document Bundle for vokanamet Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1315,8 +1311,8 @@ Usage: #example
 
 Instance: mp5c0f905ecf8d9d64edae4669c049439b
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product vokanamet"
-Description: "vokanamet"
+Title: "Medicinal Product Vokanamet 50 mg/850 mg film-coated tablets"
+Description: "Vokanamet 50 mg/850 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1329,14 +1325,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Vokanamet is indicated in adults with type 2 diabetes mellitus as an adjunct to diet and exercise:"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "vokanamet"
+  * productName = "Vokanamet 50 mg/850 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1356,10 +1349,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

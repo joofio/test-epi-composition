@@ -541,8 +541,8 @@ Det anvendes til voksne over 18 år. </p>
 <li>hvis du er allergisk over for pretomanid, antibiotika tilhørende gruppen ved navn 
 nitroimidazoler eller et af de øvrige indholdsstoffer i dette lægemiddel (angivet i punkt 6). </li>
 </ul>
-<p>Eftersom pretomanid skal anvendes i kombination med andre lægemidler mod tuberkulose – linezolid 
-og bedaquilin – bedes du også læse punktet "Tag ikke" i indlægssedlen for disse lægemidler. Hvis du 
+<p>Eftersom pretomanid skal anvendes i kombination med andre lægemidler mod tuberkulose - linezolid 
+og bedaquilin - bedes du også læse punktet "Tag ikke" i indlægssedlen for disse lægemidler. Hvis du 
 er usikker på oplysningerne i indlægssedlen, så spørg din læge eller apotekspersonalet. </p>
 <p>Advarsler og forsigtighedsregler </p>
 <p>Kontakt lægen, apotekspersonalet eller sygeplejersken, før du tager Dovprela, hvis du: </p>
@@ -1101,8 +1101,6 @@ Description: "ePI document Bundle for dovprela Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1125,8 +1123,6 @@ Description: "ePI document Bundle for dovprela Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1147,8 +1143,8 @@ Usage: #example
 
 Instance: mpfa9d30a0cae60aa39e101b95ccee3379
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product dovprela"
-Description: "dovprela"
+Title: "Medicinal Product Dovprela 200 mg tablet"
+Description: "Dovprela 200 mg tablet"
 Usage: #inline
 
  
@@ -1161,14 +1157,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Dovprela is indicated in combination with bedaquiline and linezolid, in adults, for the treatment of"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "dovprela"
+  * productName = "Dovprela 200 mg tablet"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1188,10 +1181,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

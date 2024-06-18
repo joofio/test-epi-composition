@@ -326,7 +326,7 @@ Usage: #inline
   * code.text =  "1. What aloxi is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Aloxi indeholder det aktive stof palonosetron. Det hører til en gruppe af lægemidler, der kaldes 
-”serotonin (5HT3)- antagonister”. </p>
+"serotonin (5HT3)- antagonister". </p>
 <p>Aloxi anvendes til voksne som en hjælp til at stoppe Deres kvalme eller opkastning, når De får 
 kræftbehandlinger, som kaldes kemoterapi. </p>
 <p>Det virker ved at blokere virkningen af et kemisk stof, der kaldes serotonin, som kan give kvalme eller 
@@ -354,7 +354,7 @@ Kontakt lægen eller apotekspersonalet, før De bruger Aloxi, hvis: </p>
 </li>
 <li>
 <p>De har haft hjerteproblemer, eller hvis der er tendens til hjerteproblemer i Deres familie, såsom 
-ændringer af Deres hjerteslag (”QT-forlængelse”) </p>
+ændringer af Deres hjerteslag ("QT-forlængelse") </p>
 </li>
 <li>
 <p>De har en ubalance af visse mineraler i blodet, som ikke er blevet behandlet, såsom kalium og 
@@ -369,9 +369,9 @@ skal især fortælle dem det, hvis De tager de følgende lægemidler: </p>
 <p>Lægemidler mod depression eller angst 
 Fortæl det altid til lægen eller apotekspersonalet, hvis De tager lægemidler mod depression eller 
 angst, herunder: 
-• lægemidler, der kaldes SSRI’er (”selektive serotoningenoptagshæmmere”), såsom fluoxetin, 
+• lægemidler, der kaldes SSRI’er ("selektive serotoningenoptagshæmmere"), såsom fluoxetin, 
 paroxetin, sertralin, fluvoxamin, citalopram, escitalopram 
-• lægemidler, der kaldes SNRI’er (”serotonin-noradrenalingenoptagshæmmere”), såsom 
+• lægemidler, der kaldes SNRI’er ("serotonin-noradrenalingenoptagshæmmere"), såsom 
 venlafaxin, duloxetin (kan føre til udvikling af serotoninsyndrom og bør anvendes med 
 forsigtighed). </p>
 <p>Kontakt lægen eller apotekspersonalet, før De tager Aloxi, hvis noget af det ovenstående gælder for 
@@ -449,7 +449,7 @@ De følgende bivirkninger kan opstå med dette lægemiddel: </p>
 <p>Alvorlige bivirkninger 
 Fortæl det straks til lægen, hvis De bemærker en eller flere af de følgende alvorlige bivirkninger: </p>
 <ul>
-<li>Allergisk reaktion – tegnene kan omfatte hævelse af læber, ansigt, tunge eller hals, 
+<li>Allergisk reaktion - tegnene kan omfatte hævelse af læber, ansigt, tunge eller hals, 
 vejrtrækningsbesvær eller kollaps, kløende, ujævnt udslæt (nældefeber). Dette er meget sjældent: 
 kan forekomme hos op til 1 ud af 10.000 personer. 
 Fortæl det straks til lægen, hvis De bemærker en eller flere af de alvorlige bivirkninger anført overfor. </li>
@@ -536,8 +536,6 @@ Description: "ePI document Bundle for aloxi Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -560,8 +558,6 @@ Description: "ePI document Bundle for aloxi Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -582,8 +578,8 @@ Usage: #example
 
 Instance: mpe32583165e64f7b46ac4a8e9d8029de8
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product aloxi"
-Description: "aloxi"
+Title: "Medicinal Product Aloxi 250 micrograms solution for injection."
+Description: "Aloxi 250 micrograms solution for injection."
 Usage: #inline
 
  
@@ -596,14 +592,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Aloxi is indicated in adults for:"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "aloxi"
+  * productName = "Aloxi 250 micrograms solution for injection."
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -623,10 +616,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

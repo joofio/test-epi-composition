@@ -735,7 +735,7 @@ Tel: +49 (0)89 206020 UK (XI)
 Otsuka Novel Products GmbH 
 Tel: +49 (0)89 206020<br />
 Denne indlægsseddel blev senest ændret &lt;{MM/ÅÅÅÅ}&gt;. </p>
-<p>Dette lægemiddel er godkendt under ”betingede omstændigheder”. Det betyder, at der forventes 
+<p>Dette lægemiddel er godkendt under "betingede omstændigheder". Det betyder, at der forventes 
 yderligere dokumentation for lægemidlet. 
 Det Europæiske Lægemiddelagentur vil mindst en gang om året vurdere nye oplysninger om 
 lægemidlet, og denne indlægsseddel vil om nødvendigt blive ajourført. </p>
@@ -769,8 +769,6 @@ Description: "ePI document Bundle for deltyba Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -793,8 +791,6 @@ Description: "ePI document Bundle for deltyba Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -815,8 +811,8 @@ Usage: #example
 
 Instance: mp247338c6ac4af4d25ce31dba51e05ac4
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product deltyba"
-Description: "deltyba"
+Title: "Medicinal Product Deltyba 50 mg film-coated tablets"
+Description: "Deltyba 50 mg film-coated tablets"
 Usage: #inline
 
  
@@ -829,14 +825,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Deltyba is indicated for use as part of an appropriate combination regimen for pulmonary multi-drug"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "deltyba"
+  * productName = "Deltyba 50 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -856,10 +849,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

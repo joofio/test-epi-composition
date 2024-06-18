@@ -636,20 +636,25 @@ Sulfonylurinstoffer som glibenclamid er påvist at være effektive ved visse gen
 årsag til neonatal diabetes. </p>
 <p>Dette lægemiddel er en oral suspension, der skal tages gennem munden, som er en mere bekvem 
 behandling til nyfødte og børn end regelmæssige injektioner af insulin. </p>
-<p>Kontakt lægen, hvis dit barn får det værre eller ikke får det bedre i løbet af et par dage. </p>
-<ol>
-<li>Det skal du vide, før du begynder at give AMGLIDIA 
-Giv ikke AMGLIDIA </li>
-<li>hvis dit barn er allergisk over for glibenclamid eller et af de øvrige indholdsstoffer i dette 
-lægemiddel (angivet i punkt 6) </li>
-<li>hvis dit barn har højt indhold af sure stoffer af typen ketoner i blodet (ketoacidose) </li>
-<li>hvis dit barn lider af manglende evne til at nedbryde kemiske stoffer kaldet porfyriner i kroppen 
-(porfyri) </li>
-<li>hvis dit barn er i behandling med bosentan, et lægemiddel til behandling af f.eks. problemer 
-med blodbanen. </li>
-<li>hvis dit barn har svært nedsat nyrefunktion </li>
-<li>hvis dit barn har svært nedsat leverfunktion. </li>
-</ol>
+<p>Kontakt lægen, hvis dit barn får det værre eller ikke får det bedre i løbet af et par dage. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take amglidia"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take amglidia"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Giv ikke AMGLIDIA 
+- hvis dit barn er allergisk over for glibenclamid eller et af de øvrige indholdsstoffer i dette 
+lægemiddel (angivet i punkt 6) 
+- hvis dit barn har højt indhold af sure stoffer af typen ketoner i blodet (ketoacidose) 
+- hvis dit barn lider af manglende evne til at nedbryde kemiske stoffer kaldet porfyriner i kroppen 
+(porfyri) 
+- hvis dit barn er i behandling med bosentan, et lægemiddel til behandling af f.eks. problemer 
+med blodbanen. 
+- hvis dit barn har svært nedsat nyrefunktion 
+- hvis dit barn har svært nedsat leverfunktion. </p>
 <p>Advarsler og forsigtighedsregler 
 Kontakt lægen, før dit barn får Amglidia. </p>
 <p>Dit barn kan få for lavt blodsukker (hypoglykæmi), efter at det har fået Amglidia. Fortæl det til 
@@ -880,13 +885,11 @@ blevet rådet til at følge en diæt med lavt saltindhold (natrium). </p>
 <p>AMGLIDIA indeholder benzoatsalt 
 Dette lægemiddel indeholder 5 mg benzoatsalt pr. ml oral suspension. Benzoatsalt kan bevirke øget 
 gulsot (gulfarvning af hud og øjne) hos nyfødte (op til 4 uger gamle). </p>         </div>"""   
-          
-
-             
+                    
 * section[=].section[+]
-  * title = "2. What you need to know before you take amglidia"
+  * title =  "3. How to take amglidia"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take amglidia"
+  * code.text = "3. How to take amglidia"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
 lægen eller apotekspersonalet. </p>
@@ -984,12 +987,13 @@ tilbage og medføre alvorlig forstyrrelse af stofskiftet med højt indhold af ke
 lægemidlet uden at aftale det med den læge, der har ansvaret for dit barn. Få anvisninger fra lægen. </p>
 <p>Du vil blive bedt om at medbringe den tilbageværende rest af Amglidia oral suspension til lægen 
 ved hver konsultation. </p>
-<p>Spørg dit barns læge eller apotekspersonalet, hvis der er noget du er i tvivl om. </p>         </div>"""   
-                    
+<p>Spørg dit barns læge eller apotekspersonalet, hvis der er noget du er i tvivl om. </p>         </div>"""         
+
+        
 * section[=].section[+]
-  * title =  "3. How to take amglidia"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take amglidia"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. </p>
 <p>Alvorlige bivirkninger </p>
@@ -1053,13 +1057,12 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apoteket. Dette g
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""         
-
+sikkerheden af dette lægemiddel. </p>         </div>"""      
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "5. How to store amglidia"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "5. How to store amglidia"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken og flasken efter EXP. Udløbsdatoen er 
@@ -1069,10 +1072,11 @@ Anvendes inden 30 dage efter anbrud. Flasken holdes tæt lukket. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
 medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
         
+        
 * section[=].section[+]
-  * title = "5. How to store amglidia"
+  * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store amglidia"
+  * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>AMGLIDIA indeholder:</p>
 <ul>
@@ -1219,19 +1223,6 @@ medicinen til andre. Det kan være skadeligt for andre, selvom de har de samme s
 dit barn har. 
 - Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
 ikke er er nævnt her. Se punkt 4. Oversigt over indlægssedlen </p>         </div>"""      
-        
-        
-* section[=].section[+]
-  * title = "6. Contents of the pack and other information"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
-<li>Det skal du vide, før du begynder at give Amglidia </li>
-<li>Sådan skal du give Amglidia </li>
-<li>Bivirkninger 
-1</li>
-</ol>         </div>"""      
 
 
 
@@ -1243,8 +1234,6 @@ InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for amglidia Package Leaflet for language en"
 Description: "ePI document Bundle for amglidia Package Leaflet for language en"
 Usage: #example
-
-
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
@@ -1269,8 +1258,6 @@ Description: "ePI document Bundle for amglidia Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1291,8 +1278,8 @@ Usage: #example
 
 Instance: mp0bc0b6806130152cd23da1d4d304334e
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product amglidia"
-Description: "amglidia"
+Title: "Medicinal Product AMGLIDIA 0.6 mg/mL oral suspension AMGLIDIA 6 mg/mL oral suspension"
+Description: "AMGLIDIA 0.6 mg/mL oral suspension AMGLIDIA 6 mg/mL oral suspension"
 Usage: #inline
 
  
@@ -1305,14 +1292,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "AMGLIDIA is indicated for the treatment of neonatal diabetes mellitus, for use in newborns, infants"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "amglidia"
+  * productName = "AMGLIDIA 0.6 mg/mL oral suspension AMGLIDIA 6 mg/mL oral suspension"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1332,10 +1316,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

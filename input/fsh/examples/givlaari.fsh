@@ -421,7 +421,7 @@ og PBG kan beskadige nerver og forårsage alvorlige anfald af smerter, kvalme, m
 såsom smerter og kvalme mellem anfaldene. Længerevarende komplikationer, der kan observeres hos 
 personer med akut hepatisk porfyri, inkluderer højt blodtryk, kronisk nyresygdom og leversygdom. </p>
 <p>Sådan virker Givlaari </p>
-<p>Lægemidlet virker ved at reducere mængden af et enzym kaldet ‘ALAS1’ – der kontrollerer, hvor 
+<p>Lægemidlet virker ved at reducere mængden af et enzym kaldet ‘ALAS1’ - der kontrollerer, hvor 
 meget ALA og PBG leveren producerer. Ved at reducere ALAS1, producerer leveren mindre ALA og 
 PBG. Dette kan hjælpe med at reducere sygdommens virkninger. </p>         </div>"""   
           
@@ -442,7 +442,7 @@ indholdsstoffer i lægemidlet (angivet i pkt. 6). </li>
 <p>Alvorlig allergisk reaktion </p>
 <ul>
 <li>Kontakt lægen eller sygeplejersken med det samme, hvis du oplever tegn eller symptomer på en 
-alvorlig allergisk reaktion. Tegnene er anført under ”Alvorlige bivirkninger” i pkt. 4. * Hvis du har en alvorlig allergisk reaktion, vil lægen eller sygeplejersken standse brugen af 
+alvorlig allergisk reaktion. Tegnene er anført under "Alvorlige bivirkninger" i pkt. 4. * Hvis du har en alvorlig allergisk reaktion, vil lægen eller sygeplejersken standse brugen af 
 lægemidlet med det samme, og du skal taget andre lægemidler for at kontrollere symptomerne. </li>
 </ul>
 <p>Leverproblemer </p>
@@ -526,11 +526,11 @@ Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>   
 <p>Alvorlige bivirkninger </p>
 <p>Alvorlige allergiske reaktioner (ikke almindelige: kan forekomme hos op til 1 ud af 100 personer) </p>
 <p>Kontakt din læge eller sygeplejerske med det samme, hvis du får ét af de følgende tegn på en alvorlig 
-allergisk reaktion (anafylaktisk reaktion) – injektionen skal stoppes, og det kan være, du skal tage 
+allergisk reaktion (anafylaktisk reaktion) - injektionen skal stoppes, og det kan være, du skal tage 
 anden medicin for at behandle reaktionen: </p>
 <ul>
 <li>
-<p>hævelse – hovedsageligt af læber, tunge eller hals, hvilket gør det svært at synke eller trække 
+<p>hævelse - hovedsageligt af læber, tunge eller hals, hvilket gør det svært at synke eller trække 
 vejret </p>
 </li>
 <li>
@@ -574,7 +574,7 @@ nedsat glomerulær filtrationshastighed (tegn på mulige nyreproblemer) </p>
 <p>Almindelige: kan forekomme hos op til 1 ud af 10 personer </p>
 <ul>
 <li>
-<p>En type af allergisk reaktion (overfølsomhed) – med symptomer, såsom nældefeber, udslæt, 
+<p>En type af allergisk reaktion (overfølsomhed) - med symptomer, såsom nældefeber, udslæt, 
 hævede øjne, hævet mund eller ansigt, vejrtrækningsbesvær, kløe. </p>
 </li>
 <li>
@@ -820,8 +820,6 @@ Description: "ePI document Bundle for givlaari Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -844,8 +842,6 @@ Description: "ePI document Bundle for givlaari Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -866,8 +862,8 @@ Usage: #example
 
 Instance: mp5e3f046139a16b84f12a9b50f2d2b2ef
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product givlaari"
-Description: "givlaari"
+Title: "Medicinal Product Givlaari 189 mg/mL solution for injection."
+Description: "Givlaari 189 mg/mL solution for injection."
 Usage: #inline
 
  
@@ -880,14 +876,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Givlaari is indicated for the treatment of acute hepatic porphyria (AHP) in adults and adolescents aged"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "givlaari"
+  * productName = "Givlaari 189 mg/mL solution for injection."
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -907,10 +900,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

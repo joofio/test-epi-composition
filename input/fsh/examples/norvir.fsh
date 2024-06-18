@@ -1215,8 +1215,14 @@ nyresten
 Fortæl det til din læge, hvis du får kvalme, kaster op eller får ondt i maven, da dette kan være tegn på 
 betændelse i bugspytkirtlen.  Du skal også fortælle det til din læge, hvis du får stivhed, ømhed og 
 smerter i led (især hofte, knæ og skulder) samt bevægelsesbesvær, da dette kan være tegn på 
-knoglenekrose.  Se også punkt 2 Det skal du vide, før du eller dit barn begynder at tage Norvir.
-Hos nogle patienter med hæmofili A og B er der rapporteret om tilfælde af øget blødningstendens 
+knoglenekrose.  Se også punkt </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store norvir"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store norvir"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hos nogle patienter med hæmofili A og B er der rapporteret om tilfælde af øget blødningstendens 
 under behandling med Norvir eller en anden proteasehæmmer. Skulle dette ske for dig, bør du 
 øjeblikkelig kontakte din læge.<br />
 Abnorm leverfunktionstest, leverbetændelse (hepatitis) og sjældent gulsot er blevet rapporteret hos 
@@ -1239,10 +1245,11 @@ også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
 information om sikkerheden af dette lægemiddel.</p>         </div>"""      
         
+        
 * section[=].section[+]
-  * title = "5. How to store norvir"
+  * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store norvir"
+  * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>106
 Opbevar Norvir utilgængeligt for børn.
@@ -1253,137 +1260,6 @@ den originale flaske for at beskytte mod fugt.
 Brug ikke lægemidlet, hvis du bemærker nogen som helst misfarvning.
 Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
 medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
-        
-        
-* section[=].section[+]
-  * title = "6. Contents of the pack and other information"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Norvir indeholder:
-
-Aktivt stof: ritonavir. Hver filmovertrukken tablet indeholder 100 mg ritonavir.
-
-Øvrige tablet-indholdsstoffer: copovidon; sorbitanlaurat; calciumhydrogenfosfat, vandfri; silica 
-kolloid vandfri; natriumstearylfumarat.
-
-tabletovertræk indeholder: hypromellose; titandioxid; macrogoler; hydroxypropylcellulose; 
-talcum; silica kolloid vandfri; polysorbat 80. Norvirs udseende og pakningsstørrelse
-Norvir filmovertrukne tabletter er hvide, præget med koden “NK" på den ene side.
-Der findes tre pakningsstørrelser af Norvir-tabletter: 
-
-1 beholder med 30 tabletter
-
-1 beholder med 60 tabletter
-
-Multipakning som består af 3 beholdere, som hver indeholder 30 filmovertrukne tabletter (tabletter) 
-Ikke alle pakningsstørrelser er nødvendigvis markedsført.
-Norvir fås også som et pulver til oral suspension indeholdende 100 mg ritonavir.
-Indehaveren af markedsføringstilladelsen 
-AbbVie Deutschland GmbH &amp; Co. KG, Knollstrasse, 67061 Ludwigshafen, Tyskland
-Fremstillere
-AbbVie Deutschland GmbH &amp; Co. KG
-Knollstrasse
-67061 Ludwigshafen
-Tyskland
-Hvis du vil have yderligere oplysninger om Norvir, skal du henvende dig til den lokale repræsentant 
-for indehaveren af markedsføringstilladelsen:
-107
-België/Belgique/Belgien
-AbbVie SA
-Tél/Tel: +32 10 477811
-Lietuva
-AbbVie UAB 
-Tel: +370 5 205 3023
-България
-АбВи ЕООД
-Тел.: +359 2 90 30 430
-Luxembourg/Luxemburg
-AbbVie SA
-Belgique/Belgien
-Tél/Tel: +32 10 477811
-Česká republika
-AbbVie s.r.o. 
-Tel: +420 233 098 111
-Magyarország
-AbbVie Kft.
-Tel.: +36 1 455 8600
-Danmark
-AbbVie A/S
-Tlf: +45 72 30 20 28
-Malta
-V.J.Salomone Pharma Limited 
-Tel: +356 22983201
-Deutschland
-AbbVie Deutschland GmbH &amp; Co. KG
-Tel: 00800 222843 33 (gebührenfrei)
-Tel: +49 (0) 611 / 1720-0
-Nederland
-AbbVie B.V.
-Tel: +31 (0)88 322 2843
-Eesti
-AbbVie OÜ
-Tel: +372 623 1011
-Norge
-AbbVie AS
-Tlf: +47 67 81 80 00
-Ελλάδα
-AbbVie ΦΑΡΜΑΚΕΥΤΙΚΗ Α.Ε.
-Τηλ: +30 214 4165 555
-Österreich
-AbbVie GmbH 
-Tel: +43 1 20589-0
-España
-AbbVie Spain, S.L.U. 
-Tel: +34 9 1 384 0910
-Polska
-AbbVie Sp. z o.o.
-Tel.: +48 22 372 78 France
-AbbVie
-Tél: +33 (0)1 45 60 13 00
-Portugal
-AbbVie, Lda. 
-Tel: +351 (0)21 1908400
-Hrvatska 
-AbbVie d.o.o.
-Tel: +385 (0)1 5625 501
-România
-AbbVie S.R.L.
-Tel: +40 21 529 30 35
-Ireland
-AbbVie Limited 
-Tel: +353 (0)1 4287900
-Slovenija
-AbbVie Biofarmacevtska družba d.o.o.
-Tel: +386 (1)32 08 060
-Ísland
-Vistor hf.
-Tel: +354 535 7000
-Slovenská republika
-AbbVie s.r.o.
-Tel: +421 2 5050 0777
-Italia
-AbbVie S.r.l. 
-Tel: +39 06 928921
-Suomi/Finland
-AbbVie Oy
-Puh/Tel: +358 (0)10 2411 200
-Κύπρος
-Lifepharma (Z.A.M.) Ltd
-Τηλ: +357 22 34 74 40
-Sverige
-AbbVie AB
-Tel: +46 (0)8 684 44 600
-108
-Latvija
-AbbVie SIA 
-Tel: +371 67605000
-United Kingdom (Northern Ireland)
-AbbVie Deutschland GmbH &amp; Co. KG
-Tel: +44 (0)1628 561090
-Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}
-Du kan finde yderligere information om Norvir på Det europæiske Lægemiddelagentur hjemmeside 
-http://www.ema.europa.eu.</p>         </div>"""      
 
 
 
@@ -1395,8 +1271,6 @@ InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for norvir Package Leaflet for language en"
 Description: "ePI document Bundle for norvir Package Leaflet for language en"
 Usage: #example
-
-
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
@@ -1421,8 +1295,6 @@ Description: "ePI document Bundle for norvir Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1443,8 +1315,8 @@ Usage: #example
 
 Instance: mp05f8c1dee8f03d43d5a47046b61f2f18
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product norvir"
-Description: "norvir"
+Title: "Medicinal Product Norvir 100 mg powder for oral suspension"
+Description: "Norvir 100 mg powder for oral suspension"
 Usage: #inline
 
  
@@ -1457,14 +1329,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Ritonavir is indicated in combination with other antiretroviral agents for the treatment of HIV-1"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "norvir"
+  * productName = "Norvir 100 mg powder for oral suspension"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1484,10 +1353,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

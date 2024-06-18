@@ -743,7 +743,7 @@ behandling af knogleskørhed (osteoporose).  </p>
 </li>
 </ul>
 <p>Medicin, der kan sløre symptomerne på for lavt blodsukker 
-Betablokkere og anden medicin (f.eks. clonidin, guanethidin, reserpin – mod for højt blodtryk) kan 
+Betablokkere og anden medicin (f.eks. clonidin, guanethidin, reserpin - mod for højt blodtryk) kan 
 gøre det sværere at genkende advarselstegnene på for lavt blodsukker (hypoglykæmi). Det kan endog 
 skjule eller helt undertrykke de første advarselstegn, som fortæller, at dit blodsukker er for lavt. </p>
 <p>Hvis noget af ovenstående gælder for dig (eller hvis du er i tvivl), skal du tale med din læge, 
@@ -1109,7 +1109,7 @@ Sanofi-Aventis Μονοπρόσωπη ΑΕΒΕ
 Τηλ: +30 210 900 16<br />
 Österreich 
 sanofi-aventis GmbH 
-Tel: +43 1 80 185 – 0 </p>
+Tel: +43 1 80 185 - 0 </p>
 <p>España 
 sanofi-aventis, S.A. 
 Tel: +34 93 485 94<br />
@@ -1192,7 +1192,7 @@ Hvis for eksempel: </p>
 <p>Du dyrker mindre motion, end du plejer. </p>
 </li>
 <li>
-<p>Du er stresset – f.eks. hvis du er følelsesmæssigt ude af balance eller ophidset. </p>
+<p>Du er stresset - f.eks. hvis du er følelsesmæssigt ude af balance eller ophidset. </p>
 </li>
 <li>
 <p>Du har været ude for et uheld, har en infektion eller har feber, eller hvis du er blevet opereret. </p>
@@ -1233,11 +1233,11 @@ Hvis for eksempel: </p>
 <p>Du springer måltider over eller spiser senere. </p>
 </li>
 <li>
-<p>Du ikke spiser nok eller spiser mad, der indeholder færre kulhydrater end normalt – kunstige 
+<p>Du ikke spiser nok eller spiser mad, der indeholder færre kulhydrater end normalt - kunstige 
 sødestoffer er ikke kulhydrater. </p>
 </li>
 <li>
-<p>Du drikker alkohol – især hvis du ikke spiser ret meget. </p>
+<p>Du drikker alkohol - især hvis du ikke spiser ret meget. </p>
 </li>
 <li>
 <p>Du mister kulhydrater, når du kaster op eller har diarré. </p>
@@ -1259,7 +1259,7 @@ medicin sammen med Suliqua"). </p>
 <p>Hypoglykæmi opstår oftere, hvis: </p>
 <ul>
 <li>
-<p>Du lige er begyndt på Suliqua-behandlingen – hvis du får lavt blodsukker, er det mest 
+<p>Du lige er begyndt på Suliqua-behandlingen - hvis du får lavt blodsukker, er det mest 
 sandsynligt, at det optræder om morgenen.  </p>
 </li>
 <li>
@@ -1363,7 +1363,7 @@ muligvis ikke den rigtige dosis. </li>
 <p>Vigtige oplysninger </p>
 <ul>
 <li>
-<p>Du må aldrig låne din pen ud – den er kun til dig. </p>
+<p>Du må aldrig låne din pen ud - den er kun til dig. </p>
 </li>
 <li>
 <p>Anvend aldrig din pen, hvis den er beskadiget, eller hvis du ikke er sikker på, at den virker, som 
@@ -1497,9 +1497,11 @@ nulstille til "0". </li>
 <p>Det kan være nødvendigt at gentage dette trin op til 3 gange, før der kommer væske ud. </p>
 </li>
 <li>
-<p>Hvis der ikke kommer væske ud efter tredje forsøg, kan nålen være tilstoppet. Hvis dette sker: 
-– udskift nålen (se TRIN 6 og TRIN 2), 
-– gentag sikkerhedstesten (TRIN 3). </p>
+<p>Hvis der ikke kommer væske ud efter tredje forsøg, kan nålen være tilstoppet. Hvis dette sker: </p>
+</li>
+<li>udskift nålen (se TRIN 6 og TRIN 2), </li>
+<li>
+<p>gentag sikkerhedstesten (TRIN 3). </p>
 </li>
 <li>
 <p>Brug ikke din pen, hvis der stadig ikke kommer væske ud af nålespidsen. Brug en ny pen. </p>
@@ -1715,8 +1717,6 @@ Description: "ePI document Bundle for suliqua Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1739,8 +1739,6 @@ Description: "ePI document Bundle for suliqua Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1761,8 +1759,8 @@ Usage: #example
 
 Instance: mp9150fcc2bde4114d1671dc57e6fd4ca7
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product suliqua"
-Description: "suliqua"
+Title: "Medicinal Product Suliqua 100 units/ml + 50 micrograms/ml solution for injection in pre-filled pen"
+Description: "Suliqua 100 units/ml + 50 micrograms/ml solution for injection in pre-filled pen"
 Usage: #inline
 
  
@@ -1775,14 +1773,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Suliqua is indicated for the treatment of adults with insufficiently controlled type 2 diabetes mellitus to"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "suliqua"
+  * productName = "Suliqua 100 units/ml + 50 micrograms/ml solution for injection in pre-filled pen"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1802,10 +1797,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

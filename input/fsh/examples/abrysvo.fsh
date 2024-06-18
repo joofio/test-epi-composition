@@ -474,7 +474,7 @@ fornemmelse i huden og svækkelse af arme og ben og kan udvikle sig til en lamme
 eller hele kroppen).
 Meget sjældne (kan forekomme hos op til 1 ud af 10 000 personer)
 
-allergiske reaktioner – tegn på en allergisk reaktion omfatter hævelser i ansigt, læber, tunge eller 
+allergiske reaktioner - tegn på en allergisk reaktion omfatter hævelser i ansigt, læber, tunge eller 
 svælg, nældefeber, vejrtræknings- eller synkebesvær og svimmelhed. Se også afsnit 2. Fortæl det straks til lægen, hvis du bemærker tegn på disse alvorlige bivirkninger.
 Følgende bivirkninger blev indberettet hos gravide
 Meget almindelige (kan forekomme hos flere end 1 ud af 10 personer)
@@ -520,7 +520,7 @@ information om sikkerheden af dette lægemiddel.
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
 Brug ikke lægemidlet efter den udløbsdato, der står på æsken og etiketten efter EXP. Udløbsdatoen er 
 den sidste dag i den nævnte måned.
-Opbevares i køleskab (2 ºC – 8 ºC).
+Opbevares i køleskab (2 ºC - 8 ºC).
 Må ikke nedfryses. Skal kasseres, hvis æsken har været nedfrosset.
 Efter rekonstitution skal Abrysvo administreres umiddelbart eller inden for 4 timer ved opbevaring ved 
 temperaturer mellem 15 °C og 30 °C. Må ikke nedfryses.</p>         </div>"""      
@@ -702,71 +702,7 @@ Abrysvo er udelukkende til intramuskulær anvendelse.
 Det uåbnede hætteglas er stabilt i 5 dage, når det opbevares ved temperaturer fra 8 °C til 30 °C. I 
 slutningen af denne periode skal Abrysvo enten anvendes eller kasseres. Disse oplysninger er kun 
 tiltænkt som vejledning til sundhedspersoner i tilfælde af midlertidige temperaturudsving.
-33
-Opbevaring af rekonstitueret vaccine
-Abrysvo skal anvendes umiddelbart efter rekonstitution eller inden for 4 timer. Den rekonstituerede 
-vaccine skal opbevares ved temperaturer mellem 15 ºC og 30 ºC. Rekonstitueret vaccine må ikke 
-nedfryses.
-Der er påvist kemisk og fysisk stabilitet under brug i 4 timer ved temperaturer fra 15 ºC til 30 ºC. Fra 
-et mikrobiologisk synspunkt skal præparatet anvendes straks. Hvis det ikke anvendes straks, er 
-opbevaringstiderne og -forholdene forud for anvendelsen brugerens ansvar.
-Klargøring til administration
-Ved brug af hætteglas med antigener til Abrysvo (pulver), fyldt injektionssprøjte med solvens og 
-hætteglasadapter
-Pulveret må kun rekonstitueres med solvensen i den medfølgende fyldte injektionssprøjte ved hjælp af 
-hætteglasadapteren.
-Fyldt injektionssprøjte med solvens til Abrysvo
-Hætteglas med antigener
-til Abrysvo (pulver)
-Hætteglasadapter
-Sprøjtehætte
-Luer lock-adapter
-Hætteglassets prop (hvor det 
-aftagelige låg fjernet)
-Trin 1. Sæt hætteglasadapteren på
-
-Tag topafdækningen af hætteglasadapterens pakning, og tag det aftagelige låg af 
-hætteglasset.
-
-Behold hætteglasadapteren i pakningen, hold den lige over hætteglassets prop, og 
-sæt de to dele sammen ved at trykke lige nedad. Tryk ikke hætteglasadapteren skråt 
-ind, da det kan resultere i lækage. Fjern pakningen.
-Trin 2. Rekonstituer pulverdelen (antigener) for at danne Abrysvo
-
-I forbindelse med samling af sprøjten, må sprøjten kun holdes ved at gribe om Luer 
-lock-adapteren. Dette gælder ved alle trin. Dette forhindrer, at Luer lock-adapteren 
-går løs under brug.
-
-Drej for at fjerne sprøjtehætten, og drej så for at tilslutte sprøjten til 
-hætteglasadapteren. Hold op med at dreje, når der føles modstand.
-
-Injicér hele sprøjtens indhold ind i hætteglasset. Hold stempelstangen nede, og 
-sving forsigtigt hætteglasset rundt, indtil pulveret er fuldstændig opløst (ca. 
-1-2 minutter). Undlad at ryste.
-34
-Trin 3. Træk rekonstitueret vaccine op
-
-Vend hætteglasset på hovedet, og træk langsomt hele indholdet ind i sprøjten for at 
-sikre en 0,5 ml-dosis af Abrysvo.
-
-Drej for at fjerne sprøjten fra hætteglasadapteren.
-
-Påsæt en steril kanyle, der er egnet til intramuskulær injektion.
-Den klargjorte vaccine er en klar og farveløs opløsning. Kontrollér vaccinen visuelt for større partikler 
-og misfarvning forud for administration. Vaccinen må ikke bruges, hvis der findes større partikler eller 
-misfarvning.
-Ved brug af hætteglas med antigener til Abrysvo (pulver) og hætteglas med solvens
-Pulveret må kun rekonstitueres med det medfølgende hætteglas med solvens.
-1. Træk hele indholdet af hætteglasset med solvens op med en steril kanyle og en steril sprøjte og 
-injicér hele sprøjtens indhold ind i hætteglasset med pulver. 
-2. Sving forsigtigt hætteglasset rundt i cirkelbevægelser, indtil pulveret er fuldstændig opløst. Må 
-ikke omrystes. 
-3. Træk 0,5 ml op fra hætteglasset med den rekonstituerede vaccine. 
-Den klargjorte vaccine er en klar og farveløs opløsning. Kontrollér vaccinen visuelt for større partikler 
-og misfarvning forud for administration. Vaccinen må ikke bruges, hvis der findes større partikler eller 
-misfarvning.
-Bortskaffelse
-Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.</p>         </div>"""      
+3</p>         </div>"""      
 
 
 
@@ -778,8 +714,6 @@ InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for abrysvo Package Leaflet for language en"
 Description: "ePI document Bundle for abrysvo Package Leaflet for language en"
 Usage: #example
-
-
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
@@ -804,8 +738,6 @@ Description: "ePI document Bundle for abrysvo Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -826,8 +758,8 @@ Usage: #example
 
 Instance: mp0e4b0f32f27cd3409c6b65f9b73ff49f
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product abrysvo"
-Description: "abrysvo"
+Title: "Medicinal Product Abrysvo powder and solvent for solution for injection"
+Description: "Abrysvo powder and solvent for solution for injection"
 Usage: #inline
 
  
@@ -840,14 +772,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Abrysvo is indicated for:"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "abrysvo"
+  * productName = "Abrysvo powder and solvent for solution for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -867,10 +796,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

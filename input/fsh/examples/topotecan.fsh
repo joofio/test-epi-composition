@@ -562,7 +562,7 @@ om sikkerheden af dette lægemiddel.</p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
 Brug ikke Topotecan Hospira efter den udløbsdato, der står på pakningen efter Exp. Udløbsdatoen er
 den sidste dag i den nævnte måned.
-Opbevares i køleskab (2°C – 8°C). Må ikke fryses.
+Opbevares i køleskab (2°C - 8°C). Må ikke fryses.
 Opbevar hætteglasset i den ydre karton for at beskytte mod lys.
 Denne medicin er til engangsbrug. Efter åbning skal produktet anvendes straks. Hvis det ikke 
 anvendes straks, kan Topotecan Hospira anvendes i op til 24 timer ved opbevaring i køleskab 
@@ -700,7 +700,7 @@ hjemmeside http://www.ema.europa.eu
 Nedenstående oplysninger til læger og sundhedspersonale:
 Opbevaring, brug, håndtering og bortskaffelse af Topotecan Hospira
 Opbevaring
-Uåbnede hætteglas: Opbevares i køleskab (2°C – 8°C). Må ikke nedfryses. Opbevar hætteglasset i den
+Uåbnede hætteglas: Opbevares i køleskab (2°C - 8°C). Må ikke nedfryses. Opbevar hætteglasset i den
 ydre karton for at beskytte mod lys.
 Brug
 For yderligere oplysninger henvises til produktresumeet.
@@ -732,7 +732,7 @@ Der foreligger begrænsede data. Bør ikke bruges.
 Der er påvist kemisk og fysisk stabilitet i 24 timer ved 25°C under normale lysforhold og ved 2°C-8°C 
 ved beskyttelse mod lys. Ud fra et mikrobiologisk synspunkt bør produktet anvendes straks. Hvis det 
 ikke bruges straks, er opbevaringstiden og -betingelserne efter anbrud og indtil anvendelsen brugerens 
-ansvar. Opbevaringstiden vil normalt ikke være længere end 24 timer ved 2°C–8°C, medmindre 
+ansvar. Opbevaringstiden vil normalt ikke være længere end 24 timer ved 2°C-8°C, medmindre 
 rekonstitutionen/fortyndingen er sket under kontrollerede og validerede aseptiske forhold. 
 Håndtering og bortskaffelse
 Følg de normale procedurer for korrekt håndtering og bortskaffelse af lægemidler mod cancer:
@@ -760,8 +760,6 @@ Description: "ePI document Bundle for topotecan Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -784,8 +782,6 @@ Description: "ePI document Bundle for topotecan Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -806,8 +802,8 @@ Usage: #example
 
 Instance: mpc70f3196826e850a6889cb4c778ecf4a
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product topotecan"
-Description: "topotecan"
+Title: "Medicinal Product Topotecan Hospira 4 mg/4 ml concentrate for solution for infusion"
+Description: "Topotecan Hospira 4 mg/4 ml concentrate for solution for infusion"
 Usage: #inline
 
  
@@ -820,14 +816,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Topotecan monotherapy is indicated for the treatment of:"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "topotecan"
+  * productName = "Topotecan Hospira 4 mg/4 ml concentrate for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -847,10 +840,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

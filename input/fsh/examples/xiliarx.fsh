@@ -742,7 +742,7 @@ Tel.: +48 22 375 4France
 Novartis Pharma S.A.S. 
 Tél: +33 1 55 47 66<br />
 Portugal 
-Laboratório Normal – Produtos Farmacêuticos 
+Laboratório Normal - Produtos Farmacêuticos 
 Lda. 
 Tel. +351 21 000 8 
 Hrvatska 
@@ -796,8 +796,6 @@ Description: "ePI document Bundle for xiliarx Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -820,8 +818,6 @@ Description: "ePI document Bundle for xiliarx Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -842,8 +838,8 @@ Usage: #example
 
 Instance: mpb681cc309a06b1eb9ced4a87b0d16f81
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product xiliarx"
-Description: "xiliarx"
+Title: "Medicinal Product Xiliarx 50 mg tablets"
+Description: "Xiliarx 50 mg tablets"
 Usage: #inline
 
  
@@ -856,14 +852,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Vildagliptin is indicated as an adjunct to diet and exercise to improve glycaemic control in adults with"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "xiliarx"
+  * productName = "Xiliarx 50 mg tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -883,10 +876,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

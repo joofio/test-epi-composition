@@ -542,7 +542,7 @@ Bliv ved med at tage Axura, så længe De har gavn af det. Deres læge bør rege
 behandling. </p>
 <p>Hvis De har taget for meget Axura 
 - Generelt bør indtagelse af for meget Axura ikke være skadeligt for Dem. De kan opleve 
-forøgede symptomer, som beskrevet i punkt 4 “Bivirkninger”. 
+forøgede symptomer, som beskrevet i punkt 4 “Bivirkninger". 
 - Hvis De tager en stor overdosis af Axura, skal De søge læge, da De kan have behov for 
 medicinsk behandling. </p>
 <p>Hvis De har glemt at tage Axura 
@@ -613,7 +613,7 @@ magnesiumstearat, som alle findes i tablettens kerne; og hypromellose, macrogol 
 (E 171) og gul jernoxid (E 172), som alle findes i tablettens overtræk. </p>
 <p>Axuras udseende og pakningsstørrelse 
 Axura filmovertrukne tabletter er bleggule til gule, ovale, filmovertrukne tabletter med delekærv og 
-præget ”1-0” på den ene side og ”M M” på den anden side. </p>
+præget "1-0" på den ene side og "M M" på den anden side. </p>
 <p>Axura filmovertrukne tabletter fås i blisterpakninger med 14 tabletter, 28 tabletter, 30 tabletter, 
 42 tabletter, 50 tabletter, 56 tabletter, 98 tabletter, 100 tabletter, 112 tabletter og multipakninger med 
 840 (20 x 42) tabletter, 980 (10 x 98) tabletter og 1.000 (20 x 50) tabletter. </p>
@@ -741,8 +741,6 @@ Description: "ePI document Bundle for axura Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -765,8 +763,6 @@ Description: "ePI document Bundle for axura Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -787,8 +783,8 @@ Usage: #example
 
 Instance: mpdec3a1f5841f1029014aecf2cec0d0c8
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product axura"
-Description: "axura"
+Title: "Medicinal Product Axura 10 mg film-coated tablets"
+Description: "Axura 10 mg film-coated tablets"
 Usage: #inline
 
  
@@ -801,14 +797,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Treatment of patients with moderate to severe Alzheimer’s disease."
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "axura"
+  * productName = "Axura 10 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -828,10 +821,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

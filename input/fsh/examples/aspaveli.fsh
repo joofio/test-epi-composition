@@ -1001,7 +1001,7 @@ Symptomer eller problemer, der kan opstå pga. ødelæggelse af røde blodlegeme
 ASPAVELI. </p>
 <p>Den mest alvorlige bivirkning er alvorlig infektion. </p>
 <p>Fortæl det straks til din læge, hvis du oplever nogle af følgende symptomer (se punkt 2 
-”Infektionssymptomer”). </p>
+"Infektionssymptomer"). </p>
 <p>Hvis du ikke helt forstår, hvad nedenstående bivirkninger er, kan du bede lægen forklare dem. </p>
 <p>Meget almindelig (kan forekomme hos flere end 1 ud af 10 personer):</p>
 <ul>
@@ -1080,11 +1080,11 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
 <p>Opbevares utilgængeligt for børn. </p>
 </li>
 <li>
-<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken efter ”EXP”. Udløbsdatoen er den 
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken efter "EXP". Udløbsdatoen er den 
 sidste dag i den nævnte måned. </p>
 </li>
 <li>
-<p>Opbevares i køleskab (2 °C – 8 °C). </p>
+<p>Opbevares i køleskab (2 °C - 8 °C). </p>
 </li>
 <li>
 <p>Opbevares i den originale æske for at beskytte mod lys. </p>
@@ -1103,9 +1103,9 @@ du ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>ASPAVELI indeholder: 
 Aktivt stof: pegcetacoplan 1 080 mg (54 mg/ml i et 20 ml hætteglas). </p>
-<p>Øvrige hjælpestoffer: sorbitol (E 420) (se punkt 2 “ASPAVELI indeholder sorbitol”), vandfri 
-eddikesyre, natriumacetat trihydrat (se punkt 2 “ASPAVELI indeholder natrium”), natriumhydroxid 
-(se punkt 2 “ASPAVELI indeholder natrium”), og vand til injektionsvæsker. </p>
+<p>Øvrige hjælpestoffer: sorbitol (E 420) (se punkt 2 “ASPAVELI indeholder sorbitol"), vandfri 
+eddikesyre, natriumacetat trihydrat (se punkt 2 “ASPAVELI indeholder natrium"), natriumhydroxid 
+(se punkt 2 “ASPAVELI indeholder natrium"), og vand til injektionsvæsker. </p>
 <p>Udseende og pakningsstørrelser 
 ASPAVELI er en klar, farveløs til svagt gullig subkutan infusionsvæske, opløsning (54 mg/ml i et 
 20 ml hætteglas). Opløsninger, der er uklare eller har partikler eller farveændring må ikke anvendes. </p>
@@ -1139,8 +1139,6 @@ Description: "ePI document Bundle for aspaveli Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1163,8 +1161,6 @@ Description: "ePI document Bundle for aspaveli Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1185,8 +1181,8 @@ Usage: #example
 
 Instance: mpe4987c505b33cb8f74903d77ffd0fb1e
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product aspaveli"
-Description: "aspaveli"
+Title: "Medicinal Product ASPAVELI 1 080 mg solution for infusion"
+Description: "ASPAVELI 1 080 mg solution for infusion"
 Usage: #inline
 
  
@@ -1199,14 +1195,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "ASPAVELI is indicated in the treatment of adult patients with paroxysmal nocturnal haemoglobinuria"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "aspaveli"
+  * productName = "ASPAVELI 1 080 mg solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1226,10 +1219,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

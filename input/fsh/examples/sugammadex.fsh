@@ -379,8 +379,8 @@ påvirkes af dem. </p>
 </li>
 </ul>
 <p>Sugammadex Piramal kan påvirke virkningen af hormonelle præventionsmidler </p>
-<p>Sugammadex Piramal kan nedsætte effekten af hormonelle præventionsmidler – inklusive p-piller, 
-vaginalring, implantat eller hormonspiral – fordi det reducerer mængden af hormonet progestogen, som du 
+<p>Sugammadex Piramal kan nedsætte effekten af hormonelle præventionsmidler - inklusive p-piller, 
+vaginalring, implantat eller hormonspiral - fordi det reducerer mængden af hormonet progestogen, som du 
 får. Den mængde progestogen, du mister ved anvendelsen af Sugammadex Piramal, svarer til at glemme 
 en p-pille. 
 → 
@@ -452,7 +452,7 @@ Hvis disse bivirkninger opstår, mens du er bedøvet, vil de blive set og behand
 tager en indånding </p>
 </li>
 <li>
-<p>Let bedøvelse – du kan begynde at komme ud af den dybe søvn, så du behøver mere 
+<p>Let bedøvelse - du kan begynde at komme ud af den dybe søvn, så du behøver mere 
 bedøvelsesmiddel. Dette kan medføre, at du bevæger dig eller hoster ved slutningen af 
 operationen </p>
 </li>
@@ -471,7 +471,7 @@ operationen </p>
 der har eller har haft lungeproblemer </p>
 </li>
 <li>
-<p>Allergiske reaktioner (lægemiddeloverfølsomhed) – såsom udslæt, rødmen, opsvulmet tunge 
+<p>Allergiske reaktioner (lægemiddeloverfølsomhed) - såsom udslæt, rødmen, opsvulmet tunge 
 og/eller svælg, stakåndethed, ændringer i blodtrykket eller hjerterytmen, der nogle gange 
 bevirker et alvorligt fald i blodtrykket. Alvorlige allergiske eller allergilignende reaktioner kan 
 være livstruende 
@@ -502,7 +502,7 @@ Opbevar lægemidlet utilgængeligt for børn.
 Brug ikke lægemidlet efter den udløbsdato, der står på kartonen og etiketten efter EXP. 
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Opbevar hætteglasset i den ydre karton for at beskytte mod lys. 
-Efter første åbning og fortynding opbevares i køleskab (2 °C – 8 °C) og skal anvendes inden for 
+Efter første åbning og fortynding opbevares i køleskab (2 °C - 8 °C) og skal anvendes inden for 
 48 timer. </p>         </div>"""      
         
         
@@ -547,8 +547,6 @@ Description: "ePI document Bundle for sugammadex Package Leaflet for language en
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -571,8 +569,6 @@ Description: "ePI document Bundle for sugammadex Package Leaflet for language da
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -593,8 +589,8 @@ Usage: #example
 
 Instance: mp16018c8f310d03d6a566ded2f2a2880a
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product sugammadex"
-Description: "sugammadex"
+Title: "Medicinal Product Sugammadex Piramal 100 mg/mL solution for injection"
+Description: "Sugammadex Piramal 100 mg/mL solution for injection"
 Usage: #inline
 
  
@@ -607,14 +603,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Reversal of neuromuscular blockade induced by rocuronium or vecuronium in adults."
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "sugammadex"
+  * productName = "Sugammadex Piramal 100 mg/mL solution for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -634,10 +627,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

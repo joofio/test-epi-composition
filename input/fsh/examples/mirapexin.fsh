@@ -1207,8 +1207,6 @@ Description: "ePI document Bundle for mirapexin Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1231,8 +1229,6 @@ Description: "ePI document Bundle for mirapexin Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1253,8 +1249,8 @@ Usage: #example
 
 Instance: mp2a9a5e18ea12db555fa903817024b9fe
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product mirapexin"
-Description: "mirapexin"
+Title: "Medicinal Product MIRAPEXIN 0.088 mg tablets"
+Description: "MIRAPEXIN 0.088 mg tablets"
 Usage: #inline
 
  
@@ -1267,14 +1263,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "MIRAPEXIN is indicated in adults for treatment of the signs and symptoms of idiopathic Parkinson’s"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "mirapexin"
+  * productName = "MIRAPEXIN 0.088 mg tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1294,10 +1287,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

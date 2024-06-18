@@ -570,49 +570,49 @@ nedenfor listede medicin. Noget medicin kan påvirke virkningen af Tyverb, og Ty
 virkningen af anden medicin. Dette gælder for noget medicin i de følgende grupper: </p>
 <ul>
 <li>
-<p>perikon – naturmedicin, der bruges til at behandle depression </p>
+<p>perikon - naturmedicin, der bruges til at behandle depression </p>
 </li>
 <li>
 <p>erythromycin, ketoconazol, itraconazol, posaconazol, voriconazol, rifabutin, rifampicin, 
-telithromycin – medicin, der bruges til at behandle infektioner </p>
+telithromycin - medicin, der bruges til at behandle infektioner </p>
 </li>
 <li>
-<p>ciclosporin – medicin, der bruges til at undertrykke immunforsvaret, f.eks. efter 
+<p>ciclosporin - medicin, der bruges til at undertrykke immunforsvaret, f.eks. efter 
 organtransplantationer </p>
 </li>
 <li>
-<p>ritonavir, saquinavir – medicin, der bruges til at behandle hiv </p>
+<p>ritonavir, saquinavir - medicin, der bruges til at behandle hiv </p>
 </li>
 <li>
-<p>phenytoin, carbamazepin – medicin, der bruges til at behandle krampeanfald </p>
+<p>phenytoin, carbamazepin - medicin, der bruges til at behandle krampeanfald </p>
 </li>
 <li>
-<p>cisaprid – medicin, der bruges til at behandle visse lidelser i fordøjelsessystemet </p>
+<p>cisaprid - medicin, der bruges til at behandle visse lidelser i fordøjelsessystemet </p>
 </li>
 <li>
-<p>pimozid – medicin, der bruges til at behandle visse mentale lidelser </p>
+<p>pimozid - medicin, der bruges til at behandle visse mentale lidelser </p>
 </li>
 <li>
-<p>kinidin, digoxin – medicin, der bruges til at behandle visse hjerteproblemer </p>
+<p>kinidin, digoxin - medicin, der bruges til at behandle visse hjerteproblemer </p>
 </li>
 <li>
-<p>repaglinid – medicin, der bruges til at behandle sukkersyge </p>
+<p>repaglinid - medicin, der bruges til at behandle sukkersyge </p>
 </li>
 <li>
-<p>verapamil – medicin, der bruges til at behandle for højt blodtryk eller hjerteproblemer </p>
+<p>verapamil - medicin, der bruges til at behandle for højt blodtryk eller hjerteproblemer </p>
 </li>
 <li>
-<p>nefazodon – medicin, der bruges til at behandle depression </p>
+<p>nefazodon - medicin, der bruges til at behandle depression </p>
 </li>
 <li>
-<p>topotecan, paclitaxel, irinotecan, docetaxel – medicin, der bruges til at behandle visse former for 
+<p>topotecan, paclitaxel, irinotecan, docetaxel - medicin, der bruges til at behandle visse former for 
 kræft </p>
 </li>
 <li>
-<p>rosuvastatin – medicin, der bruges til at behandle et højt kolesteroltal </p>
+<p>rosuvastatin - medicin, der bruges til at behandle et højt kolesteroltal </p>
 </li>
 <li>
-<p>medicin mod mavesyre – bruges til at behandle mavesår eller fordøjelsesbesvær. </p>
+<p>medicin mod mavesyre - bruges til at behandle mavesår eller fordøjelsesbesvær. </p>
 </li>
 </ul>
 <p>Fortæl det til lægen, hvis du bruger, eller for nylig har brugt, noget af denne medicin. </p>
@@ -675,7 +675,7 @@ den. </p>
 </li>
 <li>
 <p>Tag Tyverb mindst én time før eller mindst én time efter et måltid. Tag Tyverb på samme 
-tid hver dag i forhold til måltiderne – du kunne for eksempel altid tage din tablet én time inden 
+tid hver dag i forhold til måltiderne - du kunne for eksempel altid tage din tablet én time inden 
 morgenmaden. </p>
 </li>
 </ul>
@@ -803,7 +803,7 @@ eller åndenød. </p>
 mørkfarvning af urinen, smerter eller ubehag i den højre side af den øverste maveregion </p>
 </li>
 <li>
-<p>neglelidelser – såsom ømhed på grund af infektion og hævede neglebånd </p>
+<p>neglelidelser - såsom ømhed på grund af infektion og hævede neglebånd </p>
 </li>
 <li>
 <p>hudfissurer (dybe revner i huden eller sprukken hud) </p>
@@ -1037,8 +1037,6 @@ Description: "ePI document Bundle for tyverb Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1061,8 +1059,6 @@ Description: "ePI document Bundle for tyverb Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1083,8 +1079,8 @@ Usage: #example
 
 Instance: mp98293235ce75cd341e491c62f161e333
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product tyverb"
-Description: "tyverb"
+Title: "Medicinal Product Tyverb 250 mg film-coated tablets"
+Description: "Tyverb 250 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1097,14 +1093,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Tyverb is indicated for the treatment of adult patients with breast cancer, whose tumours overexpress"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "tyverb"
+  * productName = "Tyverb 250 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1124,10 +1117,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

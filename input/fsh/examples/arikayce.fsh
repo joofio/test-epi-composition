@@ -383,7 +383,7 @@ indholdsstoffer i ARIKAYCE liposomal (angivet i punkt 6)
 <p>Advarsler og forsigtighedsregler 
 Kontakt lægen eller apotekspersonalet, før du bruger ARIKAYCE liposomal, hvis:</p>
 <ul>
-<li>du bruger en bronkodilatator (“symptomlindrende”) til vejrtrækningsproblemer, da du vil blive 
+<li>du bruger en bronkodilatator (“symptomlindrende") til vejrtrækningsproblemer, da du vil blive 
 bedt om at bruge den først, før du bruger ARIKAYCE liposomal; </li>
 <li>du har nyreproblemer; det kan være nødvendigt, du får lavet en nyretest før start på 
 behandlingen; </li>
@@ -414,7 +414,7 @@ anden medicin eller planlægger at tage anden medicin. </p>
 <p>Der skal udvises særlig forsigtighed, hvis du tager anden medicin, da visse andre lægemidler kan 
 påvirke eller påvirkes af ARIKAYCE liposomal, for eksempel:</p>
 <ul>
-<li>diuretika (“vandtabletter”), såsom ethacrynsyre, furosemid eller mannitol; </li>
+<li>diuretika (“vandtabletter"), såsom ethacrynsyre, furosemid eller mannitol; </li>
 <li>andre lægemidler, der kan påvirke dine nyrer, hørelsen eller balancen eller reducere 
 muskelstyrken. </li>
 </ul>
@@ -442,7 +442,7 @@ dagen ved anvendelse af Lamira -forstøveren. Efter 6 måneders behandling vil l
 om, hvorvidt du skal fortsætte eller stoppe behandlingen. Den maksimale behandlingsvarighed er 
 18 måneder.  </p>
 <p>Sådan tages ARIKAYCE liposomal </p>
-<p>Hvis du bruger en bronkodilatator (“symptomlindrende”), bruges denne først, før du bruger 
+<p>Hvis du bruger en bronkodilatator (“symptomlindrende"), bruges denne først, før du bruger 
 ARIKAYCE liposomal. 
 Hvert hætteglas er kun til engangsbrug. 
 - Brug kun ARIKAYCE liposomal med Lamira -forstøverenheden og -aerosolhovedet forbundet 
@@ -540,7 +540,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på hætteglasset efter EXP. Udløbsdatoen er den 
 sidste dag i den nævnte måned. </p>
-<p>Opbevares i køleskab (2 °C – 8 °C). Må ikke nedfryses. Kassér hætteglas, der har været nedfrosset. </p>
+<p>Opbevares i køleskab (2 °C - 8 °C). Må ikke nedfryses. Kassér hætteglas, der har været nedfrosset. </p>
 <p>Hvis den dosis, du ønsker at bruge, er på køl, skal du tage hætteglasset ud af køleskabet og give det 
 mulighed for at nå stuetemperatur, før det bruges.  </p>
 <p>Alternativt kan ARIKAYCE liposomal opbevares ved stuetemperatur under 25 °C, men kun i op til 
@@ -681,8 +681,6 @@ Description: "ePI document Bundle for arikayce Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -705,8 +703,6 @@ Description: "ePI document Bundle for arikayce Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -727,8 +723,8 @@ Usage: #example
 
 Instance: mp5567fe4258ad803585d82a002a45d53a
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product arikayce"
-Description: "arikayce"
+Title: "Medicinal Product ARIKAYCE liposomal 590 mg nebuliser dispersion"
+Description: "ARIKAYCE liposomal 590 mg nebuliser dispersion"
 Usage: #inline
 
  
@@ -741,14 +737,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "ARIKAYCE liposomal is indicated for the treatment of non-tuberculous mycobacterial (NTM) lung"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "arikayce"
+  * productName = "ARIKAYCE liposomal 590 mg nebuliser dispersion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -768,10 +761,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

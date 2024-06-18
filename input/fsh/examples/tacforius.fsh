@@ -847,7 +847,7 @@ vira, svampe, parasitter eller andre infektioner.
 Fortæl det straks til din læge, hvis du får tegn på en infektion, herunder:</p>
 <ul>
 <li>Feber, hoste, ondt i halsen, føler sig svag eller generelt utilpas. </li>
-<li>Hukommelsestab, problemer med at tænke, gangbesvær eller synstab – disse kan skyldes en meget 
+<li>Hukommelsestab, problemer med at tænke, gangbesvær eller synstab - disse kan skyldes en meget 
 sjælden, alvorlig hjerneinfektion, som kan være dødelig (Progressiv Multifocal 
 Leukoencephalopati eller PML). </li>
 </ul>
@@ -1185,8 +1185,6 @@ Description: "ePI document Bundle for tacforius Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1209,8 +1207,6 @@ Description: "ePI document Bundle for tacforius Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1231,8 +1227,8 @@ Usage: #example
 
 Instance: mpdff98a1057e854dd22ade83cc61ef07f
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product tacforius"
-Description: "tacforius"
+Title: "Medicinal Product Tacforius 0.5 mg prolonged-release hard capsules"
+Description: "Tacforius 0.5 mg prolonged-release hard capsules"
 Usage: #inline
 
  
@@ -1245,14 +1241,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Prophylaxis of transplant rejection in adult kidney or liver allograft recipients."
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "tacforius"
+  * productName = "Tacforius 0.5 mg prolonged-release hard capsules"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1272,10 +1265,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

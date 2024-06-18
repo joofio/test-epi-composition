@@ -604,8 +604,6 @@ Description: "ePI document Bundle for luminity Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -628,8 +626,6 @@ Description: "ePI document Bundle for luminity Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -650,8 +646,8 @@ Usage: #example
 
 Instance: mp8a94445977c6995eab70c753c18b38b0
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product luminity"
-Description: "luminity"
+Title: "Medicinal Product Luminity 150 microlitres/ml gas and solvent for dispersion for injection/infusion"
+Description: "Luminity 150 microlitres/ml gas and solvent for dispersion for injection/infusion"
 Usage: #inline
 
  
@@ -664,14 +660,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "This medicinal product is for diagnostic use only."
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "luminity"
+  * productName = "Luminity 150 microlitres/ml gas and solvent for dispersion for injection/infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -691,10 +684,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

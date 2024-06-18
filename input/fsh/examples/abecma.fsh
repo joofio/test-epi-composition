@@ -373,7 +373,7 @@ Usage: #inline
   * code.text =  "1. What abecma is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad Abecma er 
-Abecma er en type lægemiddel, der kaldes en “genetisk modificeret cellebehandling”. Det aktive stof i 
+Abecma er en type lægemiddel, der kaldes en “genetisk modificeret cellebehandling". Det aktive stof i 
 lægemidlet er idecabtagen vicleucel, som er lavet af dine egne hvide blodlegemer, kaldet T-celler. </p>
 <p>Anvendelse 
 Abecma bruges til at behandle voksne med myelomatose, som er kræft i knoglemarven. 
@@ -458,7 +458,7 @@ Før du får Abecma, vil din læge: </p>
 <ul>
 <li>
 <p>Der er alvorlige bivirkninger, som du skal fortælle din læge eller sygeplejerske om med det 
-samme, og som kan kræve, at du straks får lægehjælp. Se “Alvorlige bivirkninger” i punkt 4. * Din læge vil regelmæssigt kontrollere dine blodtal, da antallet af blodlegemer kan falde. </p>
+samme, og som kan kræve, at du straks får lægehjælp. Se “Alvorlige bivirkninger" i punkt 4. * Din læge vil regelmæssigt kontrollere dine blodtal, da antallet af blodlegemer kan falde. </p>
 </li>
 <li>
 <p>Bliv tæt på det sygehus, hvor du fik Abecma, i mindst 4 uger. Se punkt 3 og 4. * Du må ikke donere blod, organer, væv eller celler til transplantation. </p>
@@ -527,7 +527,7 @@ infusionsperioden. </p>         </div>"""
 <li>
 <p>Din læge vil tage noget af dit blod med en slange (et kateter) i en vene. Nogle af dine hvide 
 blodlegemer vil blive skilt fra dit blod, og resten af dit blod føres tilbage til kroppen. Dette 
-kaldes “leukaferese” og kan tage 3 til 6 timer. Det kan være nødvendigt at gentage denne 
+kaldes “leukaferese" og kan tage 3 til 6 timer. Det kan være nødvendigt at gentage denne 
 proces. </p>
 </li>
 <li>
@@ -689,7 +689,7 @@ sikkerheden af dette lægemiddel. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Nedenstående oplysninger er kun til læger. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på kassettens og infusionsposens etiket efter 
-“EXP”. </p>
+“EXP". </p>
 <p>Opbevares og transporteres nedfrosset i dampfase af flydende nitrogen (≤ -130 °C). Produktet må først 
 optøs, når det skal bruges. Må ikke nedfryses igen. </p>
 <p>Brug ikke dette lægemiddel, hvis infusionsposen er beskadiget eller lækker. </p>         </div>"""      
@@ -712,7 +712,7 @@ T-celler. </p>
 <li>
 <p>Øvrige indholdsstoffer (hjælpestoffer): Cryostor CS10, natriumchlorid, natriumgluconat, 
 natriumacetattrihydrat, kaliumchlorid, magnesiumchlorid, vand til injektionsvæsker. Se punkt 2, 
-“Abecma indeholder natrium, kalium og dimethylsulfoxid (DMSO)”. </p>
+“Abecma indeholder natrium, kalium og dimethylsulfoxid (DMSO)". </p>
 </li>
 </ul>
 <p>Dette lægemiddel indeholder genmodificerede humane blodceller. </p>
@@ -865,8 +865,6 @@ Description: "ePI document Bundle for abecma Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -889,8 +887,6 @@ Description: "ePI document Bundle for abecma Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -911,8 +907,8 @@ Usage: #example
 
 Instance: mp7e98051b7b877024b322905712140ea8
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product abecma"
-Description: "abecma"
+Title: "Medicinal Product Abecma 260 - 500 x 106 cells dispersion for infusion"
+Description: "Abecma 260 - 500 x 106 cells dispersion for infusion"
 Usage: #inline
 
  
@@ -925,14 +921,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Abecma is indicated for the treatment of adult patients with relapsed and refractory multiple myeloma"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "abecma"
+  * productName = "Abecma 260 - 500 x 106 cells dispersion for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -952,10 +945,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

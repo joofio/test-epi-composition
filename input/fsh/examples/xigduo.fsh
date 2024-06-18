@@ -646,14 +646,14 @@ Laktatacidose er en alvorlig tilstand, der skal behandles på et hospital.
 Kontakt lægen, apotekspersonalet eller sundhedspersonalet, før du tager Xigduo og under 
 behandling:
 
-hvis du har "type 1-diabetes" – den type, som sædvanligvis starter, når man er ung, og hvor
+hvis du har "type 1-diabetes" - den type, som sædvanligvis starter, når man er ung, og hvor
 kroppen overhovedet ikke producerer insulin. Xigduo må ikke bruges til behandlling af denne 
 sygdom.
 
 hvis du oplever hurtigt vægttab, kvalme, opkastning, mavesmerter, udtalt tørst, hurtig og dyb 
 vejrtrækning, forvirring, usædvanlig søvnighed eller træthed, dine ånde lugter sødligt, en sød 
 eller metallisk smag i munden eller en forandret lugt af din urin eller sved skal du straks 
-kontakte læge eller skadestue. Disse symptomer kan være tegn på "diabetisk ketoacidose" – en 
+kontakte læge eller skadestue. Disse symptomer kan være tegn på "diabetisk ketoacidose" - en 
 54
 sjælden, men alvorlig, til tider livstruende komplikation, du kan få ved diabetes på grund af 
 forhøjet niveau af "ketonstoffer" i urinen eller blodet, som kan ses i laboratorieanalyser. 
@@ -836,7 +836,7 @@ kønsdelene eller området mellem kønsdelene og anus; forekommer meget sjælden
 Stop med at tage Xigduo, og opsøg hurtigst muligt en læge, hvis du får nogen af følgende 
 alvorlige eller potentielt alvorlige bivirkninger:
 
-Urinvejsinfektion – en almindelig bivirkning (kan forekomme hos op til 1 ud af 10 personer).
+Urinvejsinfektion - en almindelig bivirkning (kan forekomme hos op til 1 ud af 10 personer).
 Følgende er tegn på en alvorlig urinvejsinfektion:</p>
 </li>
 <li>
@@ -848,7 +848,7 @@ Følgende er tegn på en alvorlig urinvejsinfektion:</p>
 Hvis du ser blod i urinen, skal du straks fortælle det til din læge; dette forekommer dog sjældent.
 Kontakt straks din læge, hvis du får nogen af følgende bivirkninger:
 
-Lavt blodsukker (hypoglykæmi) – en meget almindelig bivirkning (kan forekomme hos mere 
+Lavt blodsukker (hypoglykæmi) - en meget almindelig bivirkning (kan forekomme hos mere 
 end 1 ud af 10 personer) - når denne medicin tages sammen med et sulfonylurinstof eller anden 
 medicin, der sænker mængden af sukker i dit blod, som f.eks. insulin
 Følgende er tegn på lavt blodsukker:</p>
@@ -1088,8 +1088,6 @@ Description: "ePI document Bundle for xigduo Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1112,8 +1110,6 @@ Description: "ePI document Bundle for xigduo Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1134,8 +1130,8 @@ Usage: #example
 
 Instance: mpffe3f48f1c6e032b0eea8f43920778fb
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product xigduo"
-Description: "xigduo"
+Title: "Medicinal Product Xigduo 5 mg/850 mg film-coated tablets"
+Description: "Xigduo 5 mg/850 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1148,14 +1144,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Xigduo is indicated in adults for the treatment of type 2 diabetes mellitus as an adjunct to diet and"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "xigduo"
+  * productName = "Xigduo 5 mg/850 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1175,10 +1168,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -904,8 +904,6 @@ Description: "ePI document Bundle for nustendi Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -928,8 +926,6 @@ Description: "ePI document Bundle for nustendi Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -950,8 +946,8 @@ Usage: #example
 
 Instance: mpf38fd388d9d557d533fdef41848d682d
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product nustendi"
-Description: "nustendi"
+Title: "Medicinal Product Nustendi 180 mg/10 mg film-coated tablets"
+Description: "Nustendi 180 mg/10 mg film-coated tablets"
 Usage: #inline
 
  
@@ -964,14 +960,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Nustendi is indicated in adults with primary hypercholesterolaemia (heterozygous familial and non-"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "nustendi"
+  * productName = "Nustendi 180 mg/10 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -991,10 +984,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

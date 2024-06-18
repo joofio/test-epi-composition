@@ -542,17 +542,16 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Afinitor er et lægemiddel mod kræft, som indeholder det aktive stof everolimus. Everolimus nedsætter 
 blodtilførslen til kræftknuden og hæmmer væksten og spredningen af kræftceller. </p>
-<p>Afinitor anvendes til behandling af voksne patienter med: 
-– 
-fremskreden hormonreceptorpositiv brystkræft hos postmenopausale kvinder, hvor andre 
+<h2>Afinitor anvendes til behandling af voksne patienter med:</h2>
+<p>fremskreden hormonreceptorpositiv brystkræft hos postmenopausale kvinder, hvor andre 
 behandlinger (såkaldte "ikke-steroide aromatasehæmmere") ikke længere er i stand til at holde 
 sygdommen under kontrol. Det gives sammen med et lægemiddel, som kaldes exemestan, en 
 steroid aromatasehæmmer, som anvendes til hormonel kræftbehandling. 
-– 
+- 
 fremskredne tumorer (kræftknuder) kaldet neuroendokrine tumorer, som stammer fra maven, 
 tarmene, lungerne eller bugspytkirtlen. Det gives, hvis tumorerne ikke kan opereres og ikke 
 producerer for meget af bestemte hormoner eller andre beslægtede stoffer. 
-– 
+- 
 fremskreden nyrekræft (fremskreden renalcellekarcinom), hvor andre behandlinger (såkaldt 
 VEGF-rettet behandling) ikke har kunnet standse din sygdom. </p>         </div>"""   
           
@@ -602,7 +601,7 @@ tage Afinitor. </p>
 </li>
 <li>
 <p>hvis du før har haft hepatitis B, da hepatitis B kan blive reaktiveret under behandling med 
-Afinitor (se afsnit 4 ”Bivirkninger”). </p>
+Afinitor (se afsnit 4 "Bivirkninger"). </p>
 </li>
 <li>
 <p>hvis du har fået eller skal til at få strålebehandling. </p>
@@ -684,7 +683,7 @@ rifampicin, som bruges til behandling af tuberkulose (TB).
 − 
 efavirenz eller nevirapin, der bruges til behandling af HIV-infektion/AIDS. 
 − 
-perikon (Hypericum perforatum)– et naturlægemiddel, der bruges til behandling af depression 
+perikon (Hypericum perforatum)- et naturlægemiddel, der bruges til behandling af depression 
 og andre tilstande. 
 − 
 dexamethason, et kortikosteroid, som bruges til behandling af en lang række tilstande, blandt 
@@ -860,7 +859,7 @@ livstruende konsekvenser. </p>
 </li>
 <li>
 <p>Træthed, stakåndethed, svimmelhed, bleg hud, tegn på lavt indhold af røde blodlegemer 
-(blodmangel – anæmi) </p>
+(blodmangel - anæmi) </p>
 </li>
 <li>
 <p>Hævelse af arme, hænder, fødder, ankler eller andre dele af kroppen (tegn på vand i kroppen) </p>
@@ -1076,12 +1075,12 @@ Hver Afinitor 10 mg tablet indeholder 10 mg everolimus.
 Øvrige indholdsstoffer: butylhydroxytoluen , magnesiumstearat, lactosemonohydrat, 
 hypromellose, crospovidon type A og vandfri lactose. </p>
 <p>Udseende og pakningsstørrelser 
-Afinitor 2,5 mg tabletter er hvide til svagt gullige, aflange tabletter. De er præget med “LCL” på den 
-ene side og “NVR” på den anden. 
-Afinitor 5 mg tabletter er hvide til svagt gullige, aflange tabletter. De er præget med “5” på den ene 
-side og “NVR” på den anden. 
-Afinitor 10 mg tabletter er hvide til svagt gullige, aflange tabletter. De er præget med “UHE” på den 
-ene side og “NVR” på den anden. </p>
+Afinitor 2,5 mg tabletter er hvide til svagt gullige, aflange tabletter. De er præget med “LCL" på den 
+ene side og “NVR" på den anden. 
+Afinitor 5 mg tabletter er hvide til svagt gullige, aflange tabletter. De er præget med “5" på den ene 
+side og “NVR" på den anden. 
+Afinitor 10 mg tabletter er hvide til svagt gullige, aflange tabletter. De er præget med “UHE" på den 
+ene side og “NVR" på den anden. </p>
 <p>Afinitor 2,5 mg fås i blisterpakninger med 30 eller 90 tabletter. 
 Afinitor 5 mg og Afinitor 10 mg fås i blisterpakninger med 10, 30 eller 90 tabletter. 
 Ikke alle pakningsstørrelser eller styrker er nødvendigvis markedsført i dit land. </p>
@@ -1198,8 +1197,6 @@ Description: "ePI document Bundle for afinitor Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1222,8 +1219,6 @@ Description: "ePI document Bundle for afinitor Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1244,8 +1239,8 @@ Usage: #example
 
 Instance: mpda6b4339076346d51f1c98fff12b57db
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product afinitor"
-Description: "afinitor"
+Title: "Medicinal Product Afinitor 2.5 mg tablets"
+Description: "Afinitor 2.5 mg tablets"
 Usage: #inline
 
  
@@ -1258,14 +1253,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Hormone receptor-positive advanced breast cancer"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "afinitor"
+  * productName = "Afinitor 2.5 mg tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1285,10 +1277,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -528,8 +528,6 @@ Description: "ePI document Bundle for idefirix Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -552,8 +550,6 @@ Description: "ePI document Bundle for idefirix Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -574,8 +570,8 @@ Usage: #example
 
 Instance: mp3713afe50f1010dc6d3a525f7492a818
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product idefirix"
-Description: "idefirix"
+Title: "Medicinal Product Idefirix 11 mg powder for concentrate for solution for infusion"
+Description: "Idefirix 11 mg powder for concentrate for solution for infusion"
 Usage: #inline
 
  
@@ -588,14 +584,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Idefirix is indicated for desensitisation treatment of highly sensitised adult kidney transplant patients"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "idefirix"
+  * productName = "Idefirix 11 mg powder for concentrate for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -615,10 +608,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

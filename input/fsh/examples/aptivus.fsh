@@ -707,7 +707,7 @@ Usage: #inline
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvis Aptivus er ordineret til dit barn, så bemærk venligst, at denne information er beregnet til 
-dit barn. Du skal i så fald erstatte ”du” med ”dit barn”.</p>         </div>"""   
+dit barn. Du skal i så fald erstatte "du" med "dit barn".</p>         </div>"""   
 
 
 
@@ -959,7 +959,7 @@ fluticason (medicin mod astma)
 -
 atorvastatin (kolesterolsænkende medicin)
 -
-salmeterol (medicin mod astma – vedligeholdelsesbehandling, forebyggende mod astmalignende 
+salmeterol (medicin mod astma - vedligeholdelsesbehandling, forebyggende mod astmalignende 
 anfald ved kronisk obstruktiv lungesygdom (KOL)
 -
 bosentan (medicin mod forhøjet blodtryk i lungernes blodkarsystem) 
@@ -1006,7 +1006,7 @@ at tage Aptivus under graviditet.
 Amning anbefales ikke hos kvinder, der er hiv-positive, da hiv-infektion kan overføres til barnet 
 gennem modermælken.
 Hvis du ammer eller påtænker at amme, bør du drøfte det med lægen hurtigst muligt. Se også afsnit 2, 
-”p-piller eller kvindelige kønshormoner”.
+"p-piller eller kvindelige kønshormoner".
 Aptivus indeholder meget små mængder alkohol (se Aptivus kapsler indeholder ethanol).
 Trafik- og arbejdssikkerhed
 Nogle af bivirkningerne ved Aptivus kan påvirke evnen til at føre bil eller betjene maskiner (f.eks. 
@@ -1236,8 +1236,8 @@ smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </di
 <h2>Aktivt stof: Tipranavir. En kapsel indeholder 250 mg tipranavir.</h2>
 <p>Øvrige indholdsstoffer: Polyoxyleret ricinusolie, ethanol (alkohol), mono-/diglycerider af 
 caprylsyre/caprinsyre, propylenglykol, renset vand, trometamol og propylgallat. Selve kapslen 
-består af gelatine, rød jernoxid (E172), propylenglykol, renset vand, ”sorbitol-specialglycerin-
-blanding” (d-sorbitol, 1,4-sorbitan, mannitol og glycerin) og titandioxid (E 171). Det sorte blæk 
+består af gelatine, rød jernoxid (E172), propylenglykol, renset vand, "sorbitol-specialglycerin-
+blanding" (d-sorbitol, 1,4-sorbitan, mannitol og glycerin) og titandioxid (E 171). Det sorte blæk 
 indeholder propylenglykol, sort jernoxid (E172), polyvinylacetatphthalat, makrogol og 
 ammoniumhydroxid.
 Udseende og pakningsstørrelse
@@ -1378,8 +1378,6 @@ Description: "ePI document Bundle for aptivus Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1402,8 +1400,6 @@ Description: "ePI document Bundle for aptivus Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1424,8 +1420,8 @@ Usage: #example
 
 Instance: mpa8020a852a9fed523fd88e0aa8dbc86d
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product aptivus"
-Description: "aptivus"
+Title: "Medicinal Product Aptivus 250 mg soft capsules"
+Description: "Aptivus 250 mg soft capsules"
 Usage: #inline
 
  
@@ -1438,14 +1434,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Aptivus, co-administered with low dose ritonavir, is indicated for combination antiretroviral treatment"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "aptivus"
+  * productName = "Aptivus 250 mg soft capsules"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1465,10 +1458,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

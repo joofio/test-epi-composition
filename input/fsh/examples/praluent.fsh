@@ -1946,8 +1946,6 @@ Description: "ePI document Bundle for praluent Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1970,8 +1968,6 @@ Description: "ePI document Bundle for praluent Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1992,8 +1988,8 @@ Usage: #example
 
 Instance: mp64b30ed73e72ca1303293950b9a53566
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product praluent"
-Description: "praluent"
+Title: "Medicinal Product Praluent 75 mg solution for injection in pre-filled pen"
+Description: "Praluent 75 mg solution for injection in pre-filled pen"
 Usage: #inline
 
  
@@ -2006,14 +2002,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Primary hypercholesterolaemia and mixed dyslipidaemia"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "praluent"
+  * productName = "Praluent 75 mg solution for injection in pre-filled pen"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -2033,10 +2026,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

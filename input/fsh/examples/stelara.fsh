@@ -565,7 +565,7 @@ Hvis du har haft kræft. Immunsuppressiva som Stelara svækker dele af immunsyst
 kan øge risikoen for kræft.
 
 Hvis du er blevet behandlet for psoriasis med andre biologiske lægemidler (et lægemiddel, 
-der er fremstillet ud fra en biologisk kilde, og som normalt gives som en indsprøjtning) –
+der er fremstillet ud fra en biologisk kilde, og som normalt gives som en indsprøjtning) -
 kan risikoen for kræft være forhøjet.
 
 Hvis du har eller for nylig har haft en infektion, eller hvis du har unormale åbninger i 
@@ -574,16 +574,16 @@ huden (fistler).
 Hvis du har fået nye skader i huden eller forandringer i områder med psoriasis eller på 
 normal hud.
 
-Hvis du får anden behandling for psoriasis og/eller psoriasisartrit – såsom et andet 
+Hvis du får anden behandling for psoriasis og/eller psoriasisartrit - såsom et andet 
 immunsuppressivum eller lysbehandling (når kroppen behandles med en type ultraviolet (UV) 
 lys). Disse behandlinger kan også svække dele af immunsystemet. Samtidig brug af disse 
 behandlinger og Stelara er ikke undersøgt. Det er muligt, at det øger risikoen for sygdomme, der 
 forbindes med et svækket immunsystem.
 
-Hvis du får eller tidligere har fået injektionsbehandling mod allergi – det vides ikke, om 
+Hvis du får eller tidligere har fået injektionsbehandling mod allergi - det vides ikke, om 
 Stelara kan påvirke disse behandlinger.
 
-Hvis du er over 65 år – i så fald kan du være mere tilbøjelig til at få infektioner.
+Hvis du er over 65 år - i så fald kan du være mere tilbøjelig til at få infektioner.
 Tal med din læge eller apotekspersonalet, før du begynder at få Stelara, hvis du ikke er sikker på, om 
 noget af ovenstående gælder for dig.
 Visse patienter har oplevet lupus-lignende reaktioner, herunder kutan lupus eller lupus-lignende 
@@ -635,7 +635,7 @@ fødslen, medmindre dit barns læge anbefaler andet.
 
 Ustekinumab kan passere over i modermælken i meget små mængder. Tal med din læge, hvis 
 du ammer eller planlægger at amme. Sammen med din læge skal du beslutte, om du skal amme 
-eller bruge Stelara – du må ikke begge dele.
+eller bruge Stelara - du må ikke begge dele.
 Trafik- og arbejdssikkerhed
 Stelara påvirker ikke eller kun i ubetydelig grad arbejdssikkerheden eller evnen til at færdes sikkert i 
 trafikken.
@@ -663,11 +663,10 @@ Lægen vil fastlægge den anbefalede intravenøse dosis til dig ud fra din krops
 Din kropsvægt
 Dosis
 ≤ 55 kg
-260 mg</p>
-<blockquote>
-<p>55 kg til ≤ 85 kg
+260 mg
+&gt; 55 kg til ≤ 85 kg
 390 mg
-85 kg
+&gt; 85 kg
 520 mg
 
 Efter den indledende intravenøse dosis skal du have den næste dosis Stelara 90 mg som en
@@ -682,8 +681,7 @@ Kontakt lægen, hvis du glemmer eller ikke når aftalen hos lægen, hvor du skal
 Hvis du holder op med at bruge Stelara
 Det er ikke farligt at holde op med at få Stelara, men hvis du stopper behandlingen, kan dine 
 symptomer vende tilbage.
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>
-</blockquote>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
 
         
 * section[=].section[+]
@@ -694,7 +692,7 @@ Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
 Alvorlige bivirkninger
 Nogle patienter kan få alvorlige bivirkninger, der kan kræve omgående behandling.
-Allergiske reaktioner – kan kræve omgående behandling. Kontakt straks lægen eller 
+Allergiske reaktioner - kan kræve omgående behandling. Kontakt straks lægen eller 
 skadestue, hvis du bemærker nogle af følgende tegn:
 
 Alvorlige allergiske reaktioner (anafylaksi) er sjældne hos personer, der bruger Stelara 
@@ -702,7 +700,7 @@ Alvorlige allergiske reaktioner (anafylaksi) er sjældne hos personer, der bruge
 
 Almindelige tegn på en allergisk reaktion omfatter hududslæt og nældefeber (kan 
 forekomme hos op til 1 ud af 100 brugere).
-Infusionsrelaterede reaktioner – ved behandling for Crohns sygdom eller colitis ulcerosa 
+Infusionsrelaterede reaktioner - ved behandling for Crohns sygdom eller colitis ulcerosa 
 vil du få den første dosis Stelara som et drop i en blodåre i armen (intravenøs infusion). 
 Nogle patienter har fået alvorlige allergiske reaktioner under infusionen.
 I sjældne tilfælde er der blevet indberettet allergiske lungereaktioner og lungebetændelse 
@@ -710,7 +708,7 @@ hos patienter, der fik ustekinumab. Kontakt straks lægen, hvis du får symptome
 eksempel hoste, åndenød og feber.
 Hvis du får en alvorlig allergisk reaktion, vil lægen måske beslutte, at du ikke må få Stelara 
 igen.
-Infektioner – kan kræve omgående behandling. Kontakt straks lægen, hvis du bemærker 
+Infektioner - kan kræve omgående behandling. Kontakt straks lægen, hvis du bemærker 
 nogle af følgende tegn:
 
 Næse- og halsinfektioner og forkølelser er almindelige (kan forekomme hos op til 1 ud af 
@@ -751,7 +749,7 @@ som kan medføre alvorlige komplikationer. Fortæl det til lægen, hvis du får 
 ikke vil gå væk eller bliver ved med at vende tilbage. Din læge kan beslutte, at du ikke må få 
 Stelara, før infektionen er væk. Fortæl også din læge, hvis du har åbne rifter eller sår, da der kan 
 gå betændelse i dem.
-Hudafskalning – øget rødme og afskalning af huden på et større område af kroppen kan 
+Hudafskalning - øget rødme og afskalning af huden på et større område af kroppen kan 
 være symptomer på sygdommene erytroderm psoriasis eller eksfoliativ dermatitis, som er 
 alvorlige hudsygdomme. Kontakt straks lægen, hvis du bemærker et af disse tegn.
 Andre bivirkninger
@@ -834,7 +832,7 @@ skal ikke opbevare eller håndtere det.
 
 Opbevar lægemidlet utilgængeligt for børn.
 
-Opbevares i køleskab (2 °C – 8 °C). Må ikke nedfryses.
+Opbevares i køleskab (2 °C - 8 °C). Må ikke nedfryses.
 
 Opbevar hætteglasset i den ydre karton for at beskytte det mod lys.
 
@@ -1062,8 +1060,6 @@ Description: "ePI document Bundle for stelara Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1086,8 +1082,6 @@ Description: "ePI document Bundle for stelara Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1108,8 +1102,8 @@ Usage: #example
 
 Instance: mp58c54bdf6fab9e6178694c2f025cc813
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product stelara"
-Description: "stelara"
+Title: "Medicinal Product STELARA 130 mg concentrate for solution for infusion"
+Description: "STELARA 130 mg concentrate for solution for infusion"
 Usage: #inline
 
  
@@ -1122,14 +1116,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Crohn’s Disease"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "stelara"
+  * productName = "STELARA 130 mg concentrate for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1149,10 +1140,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

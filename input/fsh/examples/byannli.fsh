@@ -810,7 +810,7 @@ Blodpropper i venerne, især i benene. Dette er sjældent (kan ramme op til 1 ud
 blodkarrene til lungerne (lungeemboli).
 
 Tegn på et slagtilfælde, hyppigheden er ikke kendt (kan ikke estimeres ud fra forhåndenværende 
-data). Symptomerne omfatter:<em> pludselig forandring i din sindstilstand</em> pludselig svækkelse eller følelsesløshed i ansigtet, arme eller ben – især i den ene side –
+data). Symptomerne omfatter:<em> pludselig forandring i din sindstilstand</em> pludselig svækkelse eller følelsesløshed i ansigtet, arme eller ben - især i den ene side -
 eller taleforstyrrelser, også selv om det er kortvarigt.
 
 Malignt neuroleptikasyndrom. Dette er sjældent (kan ramme op til 1 ud af 1 000 personer). 
@@ -1141,10 +1141,10 @@ België/Belgique/Belgien
 Janssen-Cilag NV
 Tel/Tél: +32 14 64 94 11
 Lietuva
-UAB “JOHNSON &amp; JOHNSON”
+UAB “JOHNSON &amp; JOHNSON"
 Tel: +370 5 278 68 88
 България
-”Джонсън &amp; Джонсън България” ЕООД
+"Джонсън &amp; Джонсън България" ЕООД
 Тел.:+359 2 489 94 00
 Luxembourg/Luxemburg
 Janssen-Cilag NV
@@ -1168,7 +1168,7 @@ Nederland
 Janssen-Cilag B.V.
 Tel: +31 76 711 1111
 Eesti
-UAB “JOHNSON &amp; JOHNSON” Eesti filiaal
+UAB “JOHNSON &amp; JOHNSON" Eesti filiaal
 Tel.: +372 617 7410
 Norge
 Janssen-Cilag AS
@@ -1225,7 +1225,7 @@ Sverige
 Janssen-Cilag AB
 Tfn: +46 8 626 50 00
 Latvija
-UAB “JOHNSON &amp; JOHNSON” filiāle Latvijā
+UAB “JOHNSON &amp; JOHNSON" filiāle Latvijā
 Tel: +371 678 93561
 United Kingdom (Northern Ireland)
 Janssen Sciences Ireland UC
@@ -1390,8 +1390,6 @@ Description: "ePI document Bundle for byannli Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1414,8 +1412,6 @@ Description: "ePI document Bundle for byannli Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1436,8 +1432,8 @@ Usage: #example
 
 Instance: mpda701b68ad298c1e026dc2b82539868e
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product byannli"
-Description: "byannli"
+Title: "Medicinal Product BYANNLI 700 mg prolonged-release suspension for injection in pre-filled syringe"
+Description: "BYANNLI 700 mg prolonged-release suspension for injection in pre-filled syringe"
 Usage: #inline
 
  
@@ -1450,14 +1446,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "BYANNLI, a 6-monthly injection, is indicated for the maintenance treatment of schizophrenia in adult"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "byannli"
+  * productName = "BYANNLI 700 mg prolonged-release suspension for injection in pre-filled syringe"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1477,10 +1470,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

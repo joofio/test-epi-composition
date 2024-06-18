@@ -1061,8 +1061,6 @@ Description: "ePI document Bundle for micardisplus Package Leaflet for language 
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1085,8 +1083,6 @@ Description: "ePI document Bundle for micardisplus Package Leaflet for language 
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1107,8 +1103,8 @@ Usage: #example
 
 Instance: mp18d3cb5ee6c8628dd45333381c7f88b9
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product micardisplus"
-Description: "micardisplus"
+Title: "Medicinal Product MicardisPlus 40 mg/12.5 mg tablets"
+Description: "MicardisPlus 40 mg/12.5 mg tablets"
 Usage: #inline
 
  
@@ -1121,14 +1117,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Treatment of essential hypertension."
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "micardisplus"
+  * productName = "MicardisPlus 40 mg/12.5 mg tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1148,10 +1141,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

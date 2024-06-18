@@ -698,16 +698,16 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Copalia HCT tabletter indeholder tre stoffer, som kaldes amlodipin, valsartan og hydrochlorthiazid. 
 Alle disse stoffer hjælper med at kontrollere et højt blodtryk. 
-– 
-Amlodipin tilhører en gruppe stoffer, som kaldes ”calciumkanal-antagonister”. Amlodipin 
+- 
+Amlodipin tilhører en gruppe stoffer, som kaldes "calciumkanal-antagonister". Amlodipin 
 forhindrer calcium i at bevæge sig ind i muskelcellerne i blodårernes vægge, hvilket forhindrer, 
 at blodårerne trækker sig sammen. 
-– 
-Valsartan tilhører en gruppe stoffer, som kaldes ”angiotensin II-receptorantagonister”. 
+- 
+Valsartan tilhører en gruppe stoffer, som kaldes "angiotensin II-receptorantagonister". 
 Angiotensin II produceres i kroppen og får blodårerne til at trække sig sammen, så blodtrykket 
 øges. Valsartan virker ved at blokere effekten af angiotensin II. 
-– 
-Hydrochlorthiazid tilhører en gruppe stoffer, som kaldes ”thiazid-diuretika”. Hydrochlorthiazid 
+- 
+Hydrochlorthiazid tilhører en gruppe stoffer, som kaldes "thiazid-diuretika". Hydrochlorthiazid 
 øger udskillelsen af urin, hvilket ligeledes sænker blodtrykket. 
 Som et resultat af alle tre stoffers virkning, bliver blodårerne mere afslappede og blodtrykket sænkes. </p>
 <p>Copalia HCT bruges til at behandle forhøjet blodtryk hos voksne patienter, hvis blodtryk allerede er 
@@ -723,7 +723,7 @@ tablet, som indeholder alle tre stoffer. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Copalia HCT 
 - hvis du er mere end 3 måneder henne i graviditeten (det anbefales også at undgå brug af Copalia 
-HCT tidligt i graviditeten – se afsnittet om Graviditet). 
+HCT tidligt i graviditeten - se afsnittet om Graviditet). 
 - hvis du er allergisk over for amlodipin eller andre calciumantagonister, valsartan, 
 hydrochlorthiazid, sulfonamid-afledte stoffer (medicin, som bruges til at behandle infektioner i 
 brystet eller urinvejene), eller et af de øvrige indholdsstoffer i Copalia HCT (angivet i punkt 6). 
@@ -761,17 +761,17 @@ forsnævring i nyrernes blodårer.
 den højeste dosis af Copalia HCT (10 mg/320 mg/25 mg). 
 - hvis du har haft et hjerteanfald. Følg nøje lægens anvisning vedrørende startdosis nøje. Lægen 
 vil muligvis også undersøge din nyrefunktion. 
-- hvis din læge har fortalt dig, at du har en forsnævring af hjerteklappen (dette kaldes ”aorta- eller 
-mitralklapstenose”) eller hvis du har en unormal fortykkelse af hjertemusklen (dette kaldes 
-”obstruktiv hypertrofisk kardiomyopati”). 
+- hvis din læge har fortalt dig, at du har en forsnævring af hjerteklappen (dette kaldes "aorta- eller 
+mitralklapstenose") eller hvis du har en unormal fortykkelse af hjertemusklen (dette kaldes 
+"obstruktiv hypertrofisk kardiomyopati"). 
 - hvis du lider af aldosteronisme. Dette er en sygdom, hvor dine binyrer producerer for meget af 
 hormonet aldosteron. Hvis dette gælder for dig, frarådes det, at du tager Copalia HCT. 
-- hvis du lider af sygdommen systemisk lupus erythematosus (også kaldet ”lupus” eller ”SLE”). 
+- hvis du lider af sygdommen systemisk lupus erythematosus (også kaldet "lupus" eller "SLE"). 
 - hvis du har højt blodsukker (diabetes). 
 - hvis du har et højt niveau af kolesterol eller triglycerider i blodet. 
 - hvis du oplever hudreaktioner, som fx udslæt efter at have været i solen. 
 - hvis du har været overfølsom over for anden blodtrykssænkende medicin eller diuretika (en type 
-medicin også kaldet ”vanddrivende tabletter”), specielt hvis du lider af astma og allergi. 
+medicin også kaldet "vanddrivende tabletter"), specielt hvis du lider af astma og allergi. 
 - hvis du har været syg (opkastning eller diarré). 
 - hvis du har oplevet opsvulmen, særligt af ansigtet og halsen, mens du har taget anden medicin 
 (inklusive ACE-hæmmere). Hvis du får disse symptomer, skal du stoppe med at tage Copalia 
@@ -797,7 +797,7 @@ vejrtrækningsbesvær efter at have taget Copalia HCT, skal du straks søge læg
 </ul>
 <p>Din læge vil eventuelt måle din nyrefunktion, dit blodtryk og elektrolytter (f.eks. kalium) i dit blod 
 med jævne mellemrum. </p>
-<p>Se også information under ovrskriften ”Tag ikke Copalia HCT”. </p>
+<p>Se også information under ovrskriften "Tag ikke Copalia HCT". </p>
 <p>Hvis noget af ovenstående gælder for dig, skal du fortælle det til din læge. </p>
 <p>Børn og unge 
 Brug af Copalia HCT til børn og unge under 18 år frarådes. </p>
@@ -821,8 +821,8 @@ ene medicin. Dette gælder især, hvis du tager medicin, som er anført herunder
 eller salterstatninger, der indeholder kalium, kaliumbesparende medicin og heparin; </p>
 </li>
 <li>
-<p>ACE-hæmmere eller aliskiren (se også information under overskrifterne ”Tag ikke Copalia 
-HCT” og ”Advarsler og forsigtighedsregler”). </p>
+<p>ACE-hæmmere eller aliskiren (se også information under overskrifterne "Tag ikke Copalia 
+HCT" og "Advarsler og forsigtighedsregler"). </p>
 </li>
 </ul>
 <p>Forsigtighed skal udvises ved brug af: </p>
@@ -879,7 +879,7 @@ insulin); </p>
 <p>medicin, som kan øge blodsukkeret (betablokkere, diazoxid); </p>
 </li>
 <li>
-<p>medicin, som kan medføre ”torsades de pointes” (uregelmæssig hjerterytme), som fx 
+<p>medicin, som kan medføre "torsades de pointes" (uregelmæssig hjerterytme), som fx 
 antiarytmika (medicin, som bruges til behandling af hjerteproblemer) og visse antipsykotika; </p>
 </li>
 <li>
@@ -910,7 +910,7 @@ medicin (NSAID), inkl. selektive cyclooxygenase-2-hæmmere (Cox-2-hæmmere); </p
 <p>muskelrelaksantia (medicin, som bruges under operationer til at afslappe musklerne); </p>
 </li>
 <li>
-<p>glyceryltrinitrat (nitroglycerin) og andre nitrater eller andre stoffer, som kaldes ”vasodilatorer” 
+<p>glyceryltrinitrat (nitroglycerin) og andre nitrater eller andre stoffer, som kaldes "vasodilatorer" 
 (mod hjertekramper/angina pectoris); </p>
 </li>
 <li>
@@ -960,13 +960,10 @@ oplever disse symptomer, må du ikke køre bil eller betjene maskiner. </p>     
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtig efter lægens anvisning. Er du i tvivl, så spørg lægen. Dette vil hjælpe 
 dig med at opnå den bedste virkning og mindske risikoen for bivirkninger. </p>
-<p>Den sædvanlige dosis af Copalia HCT er én tablet daglig. 
-– 
-Det er bedst, at du tager din medicin på samme tidspunkt hver dag, helst om morgenen. 
-– 
-Synk tabletten hel sammen med et glas vand. 
-– 
-Du kan tage Copalia HCT sammen med eller uden mad. Tag ikke Copalia HCT sammen med 
+<h2>Den sædvanlige dosis af Copalia HCT er én tablet daglig.</h2>
+<h2>Det er bedst, at du tager din medicin på samme tidspunkt hver dag, helst om morgenen.</h2>
+<h2>Synk tabletten hel sammen med et glas vand.</h2>
+<p>Du kan tage Copalia HCT sammen med eller uden mad. Tag ikke Copalia HCT sammen med 
 grapefrugt eller grapefrugtjuice. </p>
 <p>Afhængigt af hvordan du reagerer på behandlingen, kan lægen foreslå en højere eller lavere dosis. </p>
 <p>Du må ikke tage mere end den foreskrevne dosis. </p>
@@ -1528,18 +1525,18 @@ magnesiumstearat; hypromellose (substitutionstype 2910 (3 mPa.s)); macrogol 4000
 jernoxid (E 172). </p>
 <p>Udseende og pakningsstørrelser 
 Copalia HCT 5 mg/160 mg/12,5 mg filmovertrukne tabletter er hvide, ovale tabletter præget med 
-”NVR” på den ene side og ”VCL” på den anden side. Størrelse: ca. 15 mm (længde) x 5,9 mm 
+"NVR" på den ene side og "VCL" på den anden side. Størrelse: ca. 15 mm (længde) x 5,9 mm 
 (bredde). </p>
 <p>Copalia HCT 10 mg/160 mg/12,5 mg filmovertrukne tabletter er svagt gule, ovale tabletter præget 
-med ”NVR” på den ene side og ”VDL” på den anden side. Størrelse: ca. 15 mm (længde) x 5,9 mm 
+med "NVR" på den ene side og "VDL" på den anden side. Størrelse: ca. 15 mm (længde) x 5,9 mm 
 (bredde). </p>
-<p>Copalia HCT 5 mg/160 mg/25 mg filmovertrukne tabletter er gule, ovale tabletter præget med ”NVR” 
-på den ene side og ”VEL” på den anden side. Størrelse: ca. 15 mm (længde) x 5,9 mm (bredde). </p>
+<p>Copalia HCT 5 mg/160 mg/25 mg filmovertrukne tabletter er gule, ovale tabletter præget med "NVR" 
+på den ene side og "VEL" på den anden side. Størrelse: ca. 15 mm (længde) x 5,9 mm (bredde). </p>
 <p>Copalia HCT 10 mg/160 mg/25 mg filmovertrukne tabletter er brun-gule, ovale tabletter præget med 
-”NVR” på den ene side og ”VHL” på den anden side. Størrelse: ca. 15 mm (længde) x 5,9 mm 
+"NVR" på den ene side og "VHL" på den anden side. Størrelse: ca. 15 mm (længde) x 5,9 mm 
 (bredde). </p>
 <p>Copalia HCT 10 mg/320 mg/25 mg filmovertrukne tabletter er brun-gule, ovale tabletter præget med 
-”NVR” på den ene side og ”VFL” på den anden side. Størrelse: ca. 19 mm (længde) x 7,5 mm 
+"NVR" på den ene side og "VFL" på den anden side. Størrelse: ca. 19 mm (længde) x 7,5 mm 
 (bredde). </p>
 <p>Copalia HCT er tilgængelig i pakninger, der indeholder 14, 28, 30, 56, 90, 98 eller 280 filmovertrukne 
 tabletter, i multipakninger med 280 tabletter (bestående af 4 kartoner, der hver indeholder 70 tabletter 
@@ -1662,8 +1659,6 @@ Description: "ePI document Bundle for copalia Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1686,8 +1681,6 @@ Description: "ePI document Bundle for copalia Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1708,8 +1701,8 @@ Usage: #example
 
 Instance: mp4cfe8c40a5179c3c87314b55050e4442
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product copalia"
-Description: "copalia"
+Title: "Medicinal Product Copalia HCT 5 mg/160 mg/12.5 mg film-coated tablets"
+Description: "Copalia HCT 5 mg/160 mg/12.5 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1722,14 +1715,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Treatment of essential hypertension as substitution therapy in adult patients whose blood pressure is"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "copalia"
+  * productName = "Copalia HCT 5 mg/160 mg/12.5 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1749,10 +1739,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

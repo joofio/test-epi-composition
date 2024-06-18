@@ -645,7 +645,7 @@ føler dig koldere end andre mennesker eller din stemme bliver dybere, mens du t
 </ul>
 <p>Fortæl det til din læge, hvis noget af ovenstående gælder for dig. Du har måske behov for at blive 
 behandlet for dem, eller din læge kan beslutte at ændre din dosis af CABOMETYX eller helt stoppe 
-behandlingen. Se også punkt 4, ”Bivirkninger”. 
+behandlingen. Se også punkt 4, "Bivirkninger". 
 Du skal også fortælle din tandlæge, at du tager dette lægemiddel. Det er vigtigt at du udøver god 
 mundhygiejne under behandlingen. </p>
 <p>Børn og unge </p>
@@ -684,7 +684,7 @@ da grapefrugt kan øge mængden af CABOMETYX i dit blod. </p>
 <p>Undgå at blive gravid under behandlingen med CABOMETYX. Hvis du eller din partner kan blive 
 gravid, så anvend passende antikonception under behandlingen og i mindst 4 måneder efter, at behandlingen 
 er afsluttet. Tal med din læge om, hvilke antikonceptionsmetoder der er passende, mens du tager dette 
-lægemiddel (se også under ”Brug af anden medicin sammen med CABOMETYX” ovenfor). </p>
+lægemiddel (se også under "Brug af anden medicin sammen med CABOMETYX" ovenfor). </p>
 <p>Fortæl det til lægen, hvis du eller din partner bliver gravid eller planlægger at blive gravid, mens du tager 
 dette lægemiddel.  </p>
 <p>Tal med din læge, INDEN du tager dette lægemiddel, hvis du eller din partner overvejer eller planlægger 
@@ -748,7 +748,7 @@ yderligere spørgsmål til brugen af dette lægemiddel. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. Hvis du 
 får bivirkninger, vil din læge måske bede dig om at tage CABOMETYX i en lavere dosis. Din læge kan også 
 ordinere andre lægemidler som hjælp til at mindske dine bivirkninger. </p>
-<p>Fortæl det straks til din læge, hvis du lægger mærke til nogen af følgende bivirkninger – du kan have 
+<p>Fortæl det straks til din læge, hvis du lægger mærke til nogen af følgende bivirkninger - du kan have 
 behov for hurtig lægehjælp: </p>
 <ul>
 <li>
@@ -1217,7 +1217,7 @@ Nieuwe Donk 9
 4879 AC Etten-Leur 
 Holland </p>
 <p>Rottendorf Pharma GmbH 
-Ostenfelderstrasse 51 – D-59320 Ennigerloh 
+Ostenfelderstrasse 51 - D-59320 Ennigerloh 
 Tyskland </p>
 <p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale repræsentant 
 for indehaveren af markedsføringstilladelsen: </p>
@@ -1226,7 +1226,7 @@ Italia
 Ipsen NV 
 België /Belgique/Belgien 
 Tél/Tel: + 32 9 243 96 Ipsen SpA 
-Tel: + 39 – 02 39 22  </p>
+Tel: + 39 - 02 39 22  </p>
 <p>България 
 Latvija<br />
 PharmaSwiss EOOD 
@@ -1295,8 +1295,6 @@ Description: "ePI document Bundle for cabometyx Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1319,8 +1317,6 @@ Description: "ePI document Bundle for cabometyx Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1341,8 +1337,8 @@ Usage: #example
 
 Instance: mp36b89eaa45afd7ab0e486d51fb7ebc12
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product cabometyx"
-Description: "cabometyx"
+Title: "Medicinal Product CABOMETYX 20 mg film-coated tablets"
+Description: "CABOMETYX 20 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1355,14 +1351,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Renal cell carcinoma (RCC)"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "cabometyx"
+  * productName = "CABOMETYX 20 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1382,10 +1375,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

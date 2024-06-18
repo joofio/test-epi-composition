@@ -723,7 +723,7 @@ undgås, hvis det er muligt:
 
 Ritonavir (lægemiddel mod hiv) i doser på 100 mg 2 gange dagligt.
 
-Glasdegib (lægemiddel mod kræft) – hvis du har behov for at bruge begge lægemidler, vil din 
+Glasdegib (lægemiddel mod kræft) - hvis du har behov for at bruge begge lægemidler, vil din 
 læge overvåge din hjerterytme hyppigt.
 Fortæl det til lægen, hvis du tager følgende lægemidler, da behandling samtidig med VFEND bør 
 undgås, hvis det er muligt. Det kan være nødvendigt at justere voriconazoldosis:
@@ -888,7 +888,7 @@ Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er 
 De fleste bivirkninger er milde og forbigående. Dog kan der forekomme alvorligere bivirkninger, hvor 
 lægehjælp er nødvendig.
 126
-Alvorlige bivirkninger – stop med at tage VFEND, og søg straks læge
+Alvorlige bivirkninger - stop med at tage VFEND, og søg straks læge
 
 Udslæt
 
@@ -1235,8 +1235,6 @@ Description: "ePI document Bundle for vfend Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1259,8 +1257,6 @@ Description: "ePI document Bundle for vfend Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1281,8 +1277,8 @@ Usage: #example
 
 Instance: mp74e50e4505c090a88581d2832252680c
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product vfend"
-Description: "vfend"
+Title: "Medicinal Product VFEND 50 mg film-coated tablets"
+Description: "VFEND 50 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1295,14 +1291,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "VFEND, is a broad-spectrum, triazole antifungal agent and is indicated in adults and children aged 2 years"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "vfend"
+  * productName = "VFEND 50 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1322,10 +1315,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

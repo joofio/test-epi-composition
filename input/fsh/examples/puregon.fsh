@@ -1025,8 +1025,6 @@ Description: "ePI document Bundle for puregon Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1049,8 +1047,6 @@ Description: "ePI document Bundle for puregon Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1071,8 +1067,8 @@ Usage: #example
 
 Instance: mpcfa624691d24d77fe98aa5c98b02fbeb
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product puregon"
-Description: "puregon"
+Title: "Medicinal Product Puregon 150 IU/0.18 mL solution for injection"
+Description: "Puregon 150 IU/0.18 mL solution for injection"
 Usage: #inline
 
  
@@ -1085,14 +1081,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "In adult females:"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "puregon"
+  * productName = "Puregon 150 IU/0.18 mL solution for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1112,10 +1105,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

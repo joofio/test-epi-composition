@@ -273,8 +273,6 @@ Description: "ePI document Bundle for beyfortus Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -295,8 +293,8 @@ Usage: #example
 
 Instance: mpa66c014f097e72b89c0a0ea0e94b80cb
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product beyfortus"
-Description: "beyfortus"
+Title: "Medicinal Product Beyfortus 50 mg solution for injection in pre-filled syringe"
+Description: "Beyfortus 50 mg solution for injection in pre-filled syringe"
 Usage: #inline
 
  
@@ -309,14 +307,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Beyfortus is indicated for the prevention of Respiratory Syncytial Virus (RSV) lower respiratory tract"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "beyfortus"
+  * productName = "Beyfortus 50 mg solution for injection in pre-filled syringe"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -336,10 +331,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

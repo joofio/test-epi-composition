@@ -743,7 +743,7 @@ Tyskland  </p>
 <p>Fremstiller<br />
 Takeda Ireland Limited, Bray Business Park, Kilruddery, County Wicklow, Irland 
 Delpharm Novara S.r.l., Via Crosa, 86, 28065 Cerano (NO), Italien<br />
-Takeda GmbH, Production Site Oranienburg,Lehnitzstrasse 70 – 98, 16515 Oranienburg, Tyskland </p>
+Takeda GmbH, Production Site Oranienburg,Lehnitzstrasse 70 - 98, 16515 Oranienburg, Tyskland </p>
 <p>Denne indlægsseddel blev senest ændret 08/2023. Andre informationskilder </p>
 <p>De kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
 hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
@@ -758,8 +758,6 @@ InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for tandemact Package Leaflet for language en"
 Description: "ePI document Bundle for tandemact Package Leaflet for language en"
 Usage: #example
-
-
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
@@ -784,8 +782,6 @@ Description: "ePI document Bundle for tandemact Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -806,8 +802,8 @@ Usage: #example
 
 Instance: mpbef5164082ea0e74f1594414cc1788ab
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product tandemact"
-Description: "tandemact"
+Title: "Medicinal Product Tandemact 30 mg/2 mg tablets"
+Description: "Tandemact 30 mg/2 mg tablets"
 Usage: #inline
 
  
@@ -820,14 +816,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Tandemact is indicated as second line treatment of adult patients with type 2 diabetes mellitus who"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "tandemact"
+  * productName = "Tandemact 30 mg/2 mg tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -847,10 +840,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

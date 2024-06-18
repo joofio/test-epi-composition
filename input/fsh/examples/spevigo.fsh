@@ -559,7 +559,7 @@ symptomer
 følelse af at være ved at besvime
 Du kan også få allergiske reaktioner nogle dage eller uger efter, at du har fået Spevigo.
 Søg straks lægehjælp, hvis du udvikler et udbredt hududslæt, som du ikke har haft før, feber og/eller 
-ansigtshævelse 2–8 uger efter, at du har fået lægemidlet. Det kan være tegn på en forsinket allergisk 
+ansigtshævelse 2-8 uger efter, at du har fået lægemidlet. Det kan være tegn på en forsinket allergisk 
 reaktion (overfølsomhed).
 Fortæl det snarest muligt til lægen, hvis du har bemærker tegn eller symptomer på en infektion. 
 Meget almindelig (kan forekomme hos flere end 1 ud af 10 personer). Disse kan omfatte: 
@@ -641,7 +641,7 @@ Boehringer Ingelheim RCV GmbH &amp; Co KG
 Lietuvos filialas
 Tel: +370 5 2595942
 България
-Бьорингер Ингелхайм РЦВ ГмбХ и Ко. КГ –
+Бьорингер Ингелхайм РЦВ ГмбХ и Ко. КГ -
 клон България
 Тел: +359 2 958 79 98
 Luxembourg/Luxemburg
@@ -787,7 +787,7 @@ bestående af polyethersulfon (PES, neutralt og positivt ladet) og positivt lade
 Opbevaringsbetingelser
 Uåbnet hætteglas
 
-Opbevares i køleskab (2 °C – 8 °C). Må ikke nedfryses.
+Opbevares i køleskab (2 °C - 8 °C). Må ikke nedfryses.
 
 Opbevares i den originale yderpakning for at beskytte mod lys.
 
@@ -833,8 +833,6 @@ Description: "ePI document Bundle for spevigo Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -857,8 +855,6 @@ Description: "ePI document Bundle for spevigo Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -879,8 +875,8 @@ Usage: #example
 
 Instance: mp6b301f6c675105f98d980bf8971e8028
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product spevigo"
-Description: "spevigo"
+Title: "Medicinal Product Spevigo 450 mg concentrate for solution for infusion"
+Description: "Spevigo 450 mg concentrate for solution for infusion"
 Usage: #inline
 
  
@@ -893,14 +889,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Spevigo is indicated for the treatment of flares in adult patients with generalised pustular psoriasis"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "spevigo"
+  * productName = "Spevigo 450 mg concentrate for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -920,10 +913,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -533,7 +533,7 @@ eller et af de øvrige indholdsstoffer i Atriance (angivet i punkt 6). </li>
 Der er set alvorlige bivirkninger i nervesystemet ved brug af Atriance. Symptomer kan være mentale 
 (fx træthed) eller fysiske (fx kramper, en sovende eller prikkende fornemmelse, svaghed og 
 lammelse). Lægen vil regelmæssigt undersøge dig for disse symptomer under behandlingen (se 
-også punkt 4 ”Bivirkninger”). </p>
+også punkt 4 "Bivirkninger"). </p>
 <p>Før du begynder at få denne medicin, skal du fortælle det til lægen: </p>
 <ul>
 <li>
@@ -554,7 +554,7 @@ Din læge vil regelmæssigt tage blodprøver under behandlingen for at undersøg
 blodsygdomme, som kan skyldes brugen af Atriance. </p>
 <p>Ældre 
 Hvis du er ældre, kan du være mere følsom over for bivirkninger i nervesystemet (se afsnittet herover 
-”Advarsler og forsigtighedsregler”). Din læge vil regelmæssigt undersøge dig for disse symptomer 
+"Advarsler og forsigtighedsregler"). Din læge vil regelmæssigt undersøge dig for disse symptomer 
 under behandlingen. </p>
 <p>Tal med lægen, hvis noget af ovennævnte gælder for dig. </p>
 <p>Brug af anden medicin sammen med Atriance 
@@ -698,7 +698,7 @@ eller øjne, samt tale. </p>
 <p>En utilsigtet rytmisk rysten af et eller flere lemmer (skælven). </p>
 </li>
 <li>
-<p>Muskelsvaghed (muligvis i forbindelse med perifer neuropati – se ovenfor); ledsmerter, 
+<p>Muskelsvaghed (muligvis i forbindelse med perifer neuropati - se ovenfor); ledsmerter, 
 rygsmerter, smerter i hænder og fødder, bl.a. en stikkende og prikkende følelse, samt en 
 fornemmelse af følelsesløshed. </p>
 </li>
@@ -787,7 +787,7 @@ hætteglas indeholder 250 mg nelarabin. </p>
 </li>
 <li>
 <p>Øvrige indholdsstoffer: Natriumchlorid, vand til injektionsvæsker, saltsyre, natriumhydroxid (se 
-afsnit 2 ”Atriance indeholder natrium”). </p>
+afsnit 2 "Atriance indeholder natrium"). </p>
 </li>
 </ul>
 <p>Udseende og pakningsstørrelser 
@@ -823,7 +823,7 @@ Lietuva
 Sandoz Pharmaceuticals d.d 
 Branch Office Lithuania 
 Seimyniskiu 3A 
-LT – 09312 Vilnius 
+LT - 09312 Vilnius 
 Tel: +370 5 2636<br />
 България 
 КЧТ Сандоз България<br />
@@ -860,7 +860,7 @@ Veluwezoom NL-1327 AH Almere
 Tel: +31 (0)36 5241info.sandoz-nl@sandoz.com </p>
 <p>Eesti 
 Sandoz d.d. Eesti filiaal 
-Pärnu mnt EE – 11312 Tallinn 
+Pärnu mnt EE - 11312 Tallinn 
 Tel: +372 6652 
 Norge 
 Sandoz A/S 
@@ -946,7 +946,7 @@ Danmark
 Tel: +45 6395 1info.sverige@sandoz.com </p>
 <p>Latvija 
 Sandoz d.d. Latvia filiāle 
-K.Valdemāra 33 – LV-1010 Rīga 
+K.Valdemāra 33 - LV-1010 Rīga 
 Tel: +371 67892 
 United Kingdom (Northern Ireland) 
 Sandoz Pharmaceuticals d.d. 
@@ -954,7 +954,7 @@ Verovskova SI-1000 Ljubljana
 Slovenia 
 Tel: +43 5338 2 </p>
 <p>Denne indlægsseddel blev senest ændret </p>
-<p>Dette lægemiddel er godkendt under ”særlige vilkår”. Det betyder, at det grundet sygdommens 
+<p>Dette lægemiddel er godkendt under "særlige vilkår". Det betyder, at det grundet sygdommens 
 sjældenhed ikke har været muligt at opnå fuldstændig dokumentation for lægemidlet. 
 Det Europæiske Lægemiddelagentur vil hvert år vurdere nye oplysninger om lægemidlet, og denne 
 indlægsseddel vil om nødvendigt blive ajourført. </p>
@@ -1004,8 +1004,6 @@ Description: "ePI document Bundle for atriance Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1028,8 +1026,6 @@ Description: "ePI document Bundle for atriance Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1050,8 +1046,8 @@ Usage: #example
 
 Instance: mpa02a33fb6a7ba9862e8f1f45d0ac3e13
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product atriance"
-Description: "atriance"
+Title: "Medicinal Product Atriance 5 mg/ml solution for infusion"
+Description: "Atriance 5 mg/ml solution for infusion"
 Usage: #inline
 
  
@@ -1064,14 +1060,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Nelarabine is indicated for the treatment of patients with T-cell acute lymphoblastic leukaemia"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "atriance"
+  * productName = "Atriance 5 mg/ml solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1091,10 +1084,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

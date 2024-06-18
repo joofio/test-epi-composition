@@ -786,7 +786,7 @@ brystsmerter og åndedrætsbesvær. Hvis du får nogle af disse symptomer, skal 
 søge læge eller skadestue.
 
 er dement og oplever en pludselig forandring i din sindstilstand eller pludselig svækkelse eller 
-følelsesløshed i ansigtet, arme eller ben – især i den ene side – eller taleforstyrrelser, også selv 
+følelsesløshed i ansigtet, arme eller ben - især i den ene side - eller taleforstyrrelser, også selv 
 om det er kortvarigt. Disse symptomer kan være tegn på et slagtilfælde.
 
 får feber, muskelstivhed, svedudbrud eller svækket bevidsthed (en tilstand kaldet malignt 
@@ -1353,8 +1353,6 @@ Description: "ePI document Bundle for trevicta Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1377,8 +1375,6 @@ Description: "ePI document Bundle for trevicta Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1399,8 +1395,8 @@ Usage: #example
 
 Instance: mp3b1bfab780521579dbd0b44f84c44d4c
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product trevicta"
-Description: "trevicta"
+Title: "Medicinal Product TREVICTA 175 mg prolonged release suspension for injection"
+Description: "TREVICTA 175 mg prolonged release suspension for injection"
 Usage: #inline
 
  
@@ -1413,14 +1409,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "TREVICTA, a 3-monthly injection, is indicated for the maintenance treatment of schizophrenia in"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "trevicta"
+  * productName = "TREVICTA 175 mg prolonged release suspension for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1440,10 +1433,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

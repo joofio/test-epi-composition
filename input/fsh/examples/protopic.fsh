@@ -781,8 +781,6 @@ Description: "ePI document Bundle for protopic Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -805,8 +803,6 @@ Description: "ePI document Bundle for protopic Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -827,8 +823,8 @@ Usage: #example
 
 Instance: mpc96fdfd81478e739fb65928482a4a6c6
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product protopic"
-Description: "protopic"
+Title: "Medicinal Product Protopic 0.03% ointment"
+Description: "Protopic 0.03% ointment"
 Usage: #inline
 
  
@@ -841,14 +837,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Protopic 0.03% ointment is indicated in adults, adolescents and children from the age of 2 years."
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "protopic"
+  * productName = "Protopic 0.03% ointment"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -868,10 +861,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -837,7 +837,7 @@ ubehandlet resultere i diabetisk koma og i værste fald død. </p>         </div
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar dette lægemiddel utilgængeligt for børn.  </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på etiketten og pakningen med cylinderampuller efter 
 EXP. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
-<p>Før ibrugtagning: Opbevares i køleskab ved 2°C – 8°C. Må ikke opbevares tæt på køleelementet. Må 
+<p>Før ibrugtagning: Opbevares i køleskab ved 2°C - 8°C. Må ikke opbevares tæt på køleelementet. Må 
 ikke fryses. </p>
 <p>Under brug eller medbragt som reserve: Må ikke opbevares i køleskab eller fryses. Du kan have det 
 med dig og opbevare det ved stuetemperatur (under 30°C) i op til 6 uger. </p>
@@ -853,13 +853,13 @@ medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Actraphane 30 indeholder </p>
-<p>– 
-Aktivt stof: Humant insulin. Actraphane er en blanding bestående af 30% opløseligt humant insulin 
+<ul>
+<li>Aktivt stof: Humant insulin. Actraphane er en blanding bestående af 30% opløseligt humant insulin 
 og 70% humant isophaninsulin. 1 ml indeholder 100 IE humant insulin. Hver cylinderampul 
-indeholder 300 IE humant insulin i 3 ml injektionsvæske, suspension. 
-– 
-Øvrige indholdsstoffer: Zinkchlorid, glycerol, metacresol, phenol, dinatriumphosphatdihydrat, 
-natriumhydroxid, saltsyre, protaminsulfat og vand til injektionsvæsker. </p>
+indeholder 300 IE humant insulin i 3 ml injektionsvæske, suspension. </li>
+<li>Øvrige indholdsstoffer: Zinkchlorid, glycerol, metacresol, phenol, dinatriumphosphatdihydrat, 
+natriumhydroxid, saltsyre, protaminsulfat og vand til injektionsvæsker. </li>
+</ul>
 <p>Udseende og pakningsstørrelser </p>
 <p>Actraphane er en injektionsvæske, suspension. Efter opblanding skal injektionsvæsken fremstå ensartet 
 hvid og uklar. 
@@ -887,14 +887,14 @@ pen
 humant insulin </p>
 <p>Læs denne indlægsseddel grundigt, inden du begynder at bruge dette lægemiddel, da den 
 indeholder vigtige oplysninger.<br />
-– 
+- 
 Gem indlægssedlen. Du kan få brug for at læse den igen. 
-– 
+- 
 Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er mere, du vil vide. 
-– 
+- 
 Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen til 
 andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
-– 
+- 
 Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis en bivirkning bliver værre, eller du får 
 bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>         </div>"""      
 
@@ -908,8 +908,6 @@ InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for actraphane Package Leaflet for language en"
 Description: "ePI document Bundle for actraphane Package Leaflet for language en"
 Usage: #example
-
-
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
@@ -934,8 +932,6 @@ Description: "ePI document Bundle for actraphane Package Leaflet for language da
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -956,8 +952,8 @@ Usage: #example
 
 Instance: mp6083cc71113edb8591d330c3acd904d8
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product actraphane"
-Description: "actraphane"
+Title: "Medicinal Product Actraphane 30 40 international units/ml suspension for injection in vial."
+Description: "Actraphane 30 40 international units/ml suspension for injection in vial."
 Usage: #inline
 
  
@@ -970,14 +966,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Actraphane is indicated for treatment of diabetes mellitus."
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "actraphane"
+  * productName = "Actraphane 30 40 international units/ml suspension for injection in vial."
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -997,10 +990,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -429,7 +429,7 @@ ikke være noget problem, men tal med lægen først. </p>
 <p>du har blødningsforstyrrelser eller nemt får blå mærker </p>
 </li>
 <li>
-<p>du tidligere er besvimet ved injektion – besvimelse kan ske før eller efter enhver 
+<p>du tidligere er besvimet ved injektion - besvimelse kan ske før eller efter enhver 
 kanyleinjetion. 
 Kontakt lægen eller apotekspersonalet, før du får Arexvy, hvis noget af det ovenstående gælder for 
 dig, eller hvis du er i tvivl. </p>
@@ -564,7 +564,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
 den sidste dag i den nævnte måned. </p>
 </li>
 <li>
-<p>Opbevares i køleskab (2 °C – 8 °C). </p>
+<p>Opbevares i køleskab (2 °C - 8 °C). </p>
 </li>
 <li>
 <p>Må ikke nedfryses. </p>
@@ -606,7 +606,7 @@ smitsomt. </p>
 kaliumdihydrogenphosphat (E 340), dikaliumphosphat (E 340). * Suspension: Dioleoylphosphatidylcholin (E 322), cholesterol, natriumchlorid, 
 vandfri dinatriumphosphat (E 339), kaliumdihydrogenphosphat (E 340) og vand 
 til injektionsvæsker. 
-Se punkt 2 ”Arexvy indeholder natrium og kalium” </li>
+Se punkt 2 "Arexvy indeholder natrium og kalium" </li>
 </ul>
 <p>Udseende og pakningsstørrelser </p>
 <ul>
@@ -694,7 +694,7 @@ Tél : + 33 (0) 1 39 17 84 diam@gsk.com </p>
 GlaxoSmithKline Biologicals SA 
 Tel.: +385 800787 
 Portugal 
-GlaxoSmithKline – Produtos Farmacêuticos, Lda. 
+GlaxoSmithKline - Produtos Farmacêuticos, Lda. 
 Tel : + 351 21 412 95 FI.PT@gsk.com </p>
 <p>România 
 GlaxoSmithKline Biologicals SA 
@@ -752,7 +752,7 @@ udseendet. Hvis en af delene observeres, må vaccinen ikke rekonstitueres. </p>
 <p>Den rekonstituerede vaccine er en opaliserende, farveløs til lys brunlig væske. </p>
 <p>Den rekonstituerede vaccine skal inspiceres visuelt for eventuelle fremmede partikler og/eller 
 variationer i udseendet. Hvis en af delene observeres, må vaccinen ikke administreres. </p>
-<p>Der er påvist kemisk og fysisk stabilitet under brug i 4 timer ved 2 °C – 8 °C eller ved stuetemperatur 
+<p>Der er påvist kemisk og fysisk stabilitet under brug i 4 timer ved 2 °C - 8 °C eller ved stuetemperatur 
 op til 25 °C. 
 Ud fra et mikrobiologisk synspunkt skal lægemidlet anvendes straks. Hvis det ikke anvendes straks, er 
 opbevaringstider og -betingelser før anvendelse brugerens ansvar og bør ikke være længere end 
@@ -782,8 +782,6 @@ Description: "ePI document Bundle for arexvy Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -806,8 +804,6 @@ Description: "ePI document Bundle for arexvy Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -828,8 +824,8 @@ Usage: #example
 
 Instance: mpb7c55b769302b712ca67d42dcf561d3e
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product arexvy"
-Description: "arexvy"
+Title: "Medicinal Product Arexvy powder and suspension for suspension for injection"
+Description: "Arexvy powder and suspension for suspension for injection"
 Usage: #inline
 
  
@@ -842,14 +838,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Arexvy is indicated for active immunisation for the prevention of lower respiratory tract disease"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "arexvy"
+  * productName = "Arexvy powder and suspension for suspension for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -869,10 +862,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

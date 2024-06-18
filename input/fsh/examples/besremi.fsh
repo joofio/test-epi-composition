@@ -723,12 +723,12 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
   * code.text = "5. How to store besremi"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængelig for børn. </p>
-<p>Brug ikke lægemidlet efter den udløbsdato, der står på etiketten og den ydre æske efter ”EXP”. 
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på etiketten og den ydre æske efter "EXP". 
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
-<p>Opbevares i køleskab (2 °C – 8 °C). 
+<p>Opbevares i køleskab (2 °C - 8 °C). 
 Må ikke nedfryses. 
 Opbevar den fyldte pen i den ydre emballage for at beskytte mod lys. </p>
-<p>Efter åbning: Den fyldte pen kan opbevares i maks. 30 dage i køleskabet (2 °C – 8 °C), når den 
+<p>Efter åbning: Den fyldte pen kan opbevares i maks. 30 dage i køleskabet (2 °C - 8 °C), når den 
 opbevares med påsat penhætte og opbevares i den ydre emballage for at beskytte mod lys. </p>
 <p>Dette lægemiddel må ikke bruges, hvis den fyldte pen ser beskadiget ud, opløsningen er grumset, 
 indeholder partikler eller flager eller har nogen anden farve end farveløs til svagt gul. </p>
@@ -1002,8 +1002,6 @@ Description: "ePI document Bundle for besremi Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1026,8 +1024,6 @@ Description: "ePI document Bundle for besremi Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1048,8 +1044,8 @@ Usage: #example
 
 Instance: mp65cdaa8e626b314e9a691e6afef8bf66
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product besremi"
-Description: "besremi"
+Title: "Medicinal Product Besremi 250 micrograms/0.5 mL solution for injection in pre-filled pen"
+Description: "Besremi 250 micrograms/0.5 mL solution for injection in pre-filled pen"
 Usage: #inline
 
  
@@ -1062,14 +1058,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Besremi is indicated as monotherapy in adults for the treatment of polycythaemia vera without"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "besremi"
+  * productName = "Besremi 250 micrograms/0.5 mL solution for injection in pre-filled pen"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1089,10 +1082,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

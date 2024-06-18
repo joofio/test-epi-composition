@@ -1006,8 +1006,6 @@ Description: "ePI document Bundle for enerzair Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1030,8 +1028,6 @@ Description: "ePI document Bundle for enerzair Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1052,8 +1048,8 @@ Usage: #example
 
 Instance: mp1fb50c5ea5593a30c5ce21444dd8c032
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product enerzair"
-Description: "enerzair"
+Title: "Medicinal Product Enerzair Breezhaler 114 micrograms/46 micrograms/136 micrograms inhalation powder, hard"
+Description: "Enerzair Breezhaler 114 micrograms/46 micrograms/136 micrograms inhalation powder, hard"
 Usage: #inline
 
  
@@ -1066,14 +1062,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Enerzair Breezhaler is indicated as a maintenance treatment of asthma in adult patients not adequately"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "enerzair"
+  * productName = "Enerzair Breezhaler 114 micrograms/46 micrograms/136 micrograms inhalation powder, hard"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1093,10 +1086,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -465,7 +465,7 @@ aktivitet. </p>         </div>"""
 <li>Hvis du tager nogen form for nitrater såsom amylnitrit, som bruges til behandling af 
 brystsmerter (angina pectoris). Tadalafil har vist sig at øge virkningen af disse typer medicin. 
 Fortæl det til din læge, hvis du tager nogen form for nitrat, eller hvis du er i tvivl. </li>
-<li>Hvis du på noget tidspunkt tidligere har haft synstab – en tilstand beskrevet som en ’blodprop i 
+<li>Hvis du på noget tidspunkt tidligere har haft synstab - en tilstand beskrevet som en ’blodprop i 
 øjet’ (non-arteritis anterior iskæmisk opticusneuropati - NAION) </li>
 <li>Hvis du har haft et hjerteanfald inden for de sidste 3 måneder </li>
 <li>Hvis du har lavt blodtryk </li>
@@ -569,7 +569,7 @@ Bivirkningerne er som regel lette til moderate. </p>
 søge læge: </p>
 <p>Almindelige (kan forekomme hos op til 1 ud af 10 personer) 
 - Allergiske reaktioner herunder hududslæt 
-- Brystsmerter – brug ikke nitrater, men søg straks lægehjælp  </p>
+- Brystsmerter - brug ikke nitrater, men søg straks lægehjælp  </p>
 <p>Ikke almindelige (kan forekomme hos op til 1 ud af 100 personer) 
 - Priapisme, en forlænget og muligvis smertefuld rejsning efter indtagelse af dette lægemiddel. 
 Hvis du får sådan en rejsning, som vedvarer i mere end 4 timer, skal du straks søge lægehjælp. </p>
@@ -793,8 +793,6 @@ Description: "ePI document Bundle for talmanco Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -817,8 +815,6 @@ Description: "ePI document Bundle for talmanco Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -839,8 +835,8 @@ Usage: #example
 
 Instance: mp7d70fe375a5923a60727e1f723f93cda
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product talmanco"
-Description: "talmanco"
+Title: "Medicinal Product Talmanco 20 mg film-coated tablets"
+Description: "Talmanco 20 mg film-coated tablets"
 Usage: #inline
 
  
@@ -853,14 +849,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Talmanco is indicated in adults for the treatment of pulmonary arterial hypertension (PAH) classified"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "talmanco"
+  * productName = "Talmanco 20 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -880,10 +873,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

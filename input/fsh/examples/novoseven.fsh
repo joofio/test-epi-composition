@@ -1128,112 +1128,7 @@ stedet.  </p>
 </ul>
 <p>J </p>
 <p>Brug det opblandede NovoSeven straks for at undgå infektioner.  </p>
-<p>Hvis du ikke kan bruge det straks, se punkt 5 Opbevaring på den anden side af indlægssedlen. 
-Opbevar kun den opblandede injektionsvæske, hvis du har fået vejledning herom af din læge eller 
-sygeplejerske. </p>
-<p>(I) 
-Hvis din dosis kræver mere end et hætteglas, gentages trinene A til J med yderligere hætteglas, fyldte 
-sprøjter og hætteglasadaptere, indtil du når den nødvendige dosis. </p>
-<ul>
-<li>
-<p>Hold stempelstangen presset helt i bund. </p>
-</li>
-<li>
-<p>Vend sprøjten med hætteglasset på hovedet. </p>
-</li>
-<li>
-<p>Stop med at holde stempelstangen i bund og lad 
-den trække sig tilbage af sig selv, mens den 
-opblandede injektionsvæske fylder sprøjten. </p>
-</li>
-<li>
-<p>Træk stempelstangen en smule ned for at trække 
-den opblandede injektionsvæske ind i sprøjten. </p>
-</li>
-<li>
-<p>I tilfælde af, at du kun har brug for en del af den 
-opblandede injektionsvæske, skal du bruge skalaen på 
-sprøjten, for at se hvor meget af injektionsvæsken du 
-trækker op, sådan som din læge eller sygeplejerske 
-har instrueret. </p>
-</li>
-<li>
-<p>Injicér luften tilbage i hætteglasset, hvis der på noget 
-tidspunkt er for meget luft i sprøjten. </p>
-</li>
-<li>
-<p>Med hætteglasset på hovedet bankes der let på 
-sprøjten, for at lade eventuelle luftbobler stige til 
-tops. </p>
-</li>
-<li>
-<p>Pres forsigtigt på stempelstangen, indtil alle 
-luftbobler er væk. </p>
-</li>
-</ul>
-<p>K </p>
-<ul>
-<li>
-<p>Skru hætteglasadaptoren af hætteglasset. </p>
-</li>
-<li>
-<p>Rør ikke ved sprøjtens spids. Hvis du rører ved 
-sprøjtens spids, kan det overføre bakterier fra dine 
-fingre. </p>
-</li>
-</ul>
-<p>L </p>
-<p>Injektion af NovoSeven med fyldt sprøjte via forbindelser uden nål til intravenøse (i.v.) katetre. 
-Advarsel: Den fyldte sprøjte er lavet af glas og er designet til at kunne passe sammen med standard luer-lock 
-forbindelser. Nogle forbindelser uden nål, der har en indvendig spids, passer ikke sammen med den fyldte 
-sprøjte. Dette kan forhindre indgivelse af lægemidlet og/eller resultere i at forbindelsen uden nål beskadiges. </p>
-<p>Følg vejledningen i brug af forbindelser uden nåle. For at indgivelse kan ske via en forbindelse uden nål, kan 
-det være nødvendigt at trække den rekonstituerede opløsning op i en standard 10 ml steril luer-lock 
-plastiksprøjte. Dette skal gøres umiddelbart efter trin J. </p>
-<ol>
-<li>Injicér den opblandede opløsning  </li>
-</ol>
-<p>NovoSeven er nu klar til injektion i en vene. </p>
-<ul>
-<li>
-<p>Injicér den opblandede injektionsvæske som instrueret af din læge eller sygeplejerske. </p>
-</li>
-<li>
-<p>Injicér langsomt over 2-5 minutter.  </p>
-</li>
-</ul>
-<p>Injektion af opløsningen gennem et udstyr til central venøs adgang (CVAD), såsom et centralt venøst kateter 
-eller en permanent port: </p>
-<ul>
-<li>
-<p>Anvend en ren og bakteriefri (aseptisk) fremgangsmetode. Følg instruktionen i brug af din forbindelse 
-og CVAD i samråd med din læge eller sygeplejerske. </p>
-</li>
-<li>
-<p>Injektion ind i et CVAD kræver muligvis en steril 10 ml plastiksprøjte til udtræk af den opblandede 
-injektionsvæske. </p>
-</li>
-<li>
-<p>Hvis slangen til CVAD skal skylles igennem enten før eller efter injektion af NovoSeven, bruges 0,9 % 
-natriumchlorid injektionsvæske, opløsning. </p>
-</li>
-</ul>
-<p>Bortskaffelse </p>
-<ul>
-<li>
-<p>Efter injektion kasseres sprøjten med 
-administrationssættet, hætteglasset med 
-hætteglasadaptoren og ikke anvendt NovoSeven samt 
-andet affald, som instrueret af din læge eller 
-sygeplejerske. </p>
-</li>
-<li>
-<p>Smid ikke ud med husholdingsaffaldet. </p>
-</li>
-</ul>
-<p>M </p>
-<p>Skil ikke udstyret fra hinanden før bortskaffelse.  </p>
-<p>Genbrug ikke udstyret. </p>         </div>"""      
+<p>Hvis du ikke kan bruge det straks, se punkt </p>         </div>"""      
 
 
 
@@ -1245,8 +1140,6 @@ InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for novoseven Package Leaflet for language en"
 Description: "ePI document Bundle for novoseven Package Leaflet for language en"
 Usage: #example
-
-
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
@@ -1271,8 +1164,6 @@ Description: "ePI document Bundle for novoseven Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1293,8 +1184,8 @@ Usage: #example
 
 Instance: mpbeff2655528d75e602c405816fbf6082
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product novoseven"
-Description: "novoseven"
+Title: "Medicinal Product NovoSeven 1 mg (50 KIU) powder and solvent for solution for injection"
+Description: "NovoSeven 1 mg (50 KIU) powder and solvent for solution for injection"
 Usage: #inline
 
  
@@ -1307,14 +1198,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "NovoSeven is indicated for the treatment of bleeding episodes and for the prevention of bleeding in"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "novoseven"
+  * productName = "NovoSeven 1 mg (50 KIU) powder and solvent for solution for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1334,10 +1222,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

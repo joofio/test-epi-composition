@@ -767,8 +767,6 @@ Description: "ePI document Bundle for vildagliptin Package Leaflet for language 
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -791,8 +789,6 @@ Description: "ePI document Bundle for vildagliptin Package Leaflet for language 
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -813,8 +809,8 @@ Usage: #example
 
 Instance: mp0cf0f03b0e4fcf8a0933d166c0dbe690
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product vildagliptin"
-Description: "vildagliptin"
+Title: "Medicinal Product Vildagliptin/Metformin hydrochloride Accord 50 mg/850 mg film-coated tablets"
+Description: "Vildagliptin/Metformin hydrochloride Accord 50 mg/850 mg film-coated tablets"
 Usage: #inline
 
  
@@ -827,14 +823,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Vildagliptin/Metformin hydrochloride Accord  is indicated as an adjunct to diet and exercise to"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "vildagliptin"
+  * productName = "Vildagliptin/Metformin hydrochloride Accord 50 mg/850 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -854,10 +847,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

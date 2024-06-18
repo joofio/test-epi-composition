@@ -504,7 +504,7 @@ ciclosporin, sirolimus, tacrolimus </li>
 <li>et lægemiddel, der anvendes til at mindske mængden af mavesyre, kaldet omeprazolet  </li>
 <li>et lægemiddel, der anvendes til at hjælpe med at kontrollere højt blodtryk, kaldet valsartan </li>
 <li>en gruppe af lægemidler, der anvendes til at hjælpe med at sænke kolesterol, kaldet statiner </li>
-<li>hormonelle lægemidler, der anvendes til prævention, se punkt "prævention – for mænd og 
+<li>hormonelle lægemidler, der anvendes til prævention, se punkt "prævention - for mænd og 
 kvinder" nedenfor. 
 Hvis noget af det ovenstående gælder for dig (eller hvis du er i tvivl), skal du kontakte lægen, 
 apotekspersonalet eller sygeplejersken. </li>
@@ -777,8 +777,6 @@ Description: "ePI document Bundle for vitrakvi Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -801,8 +799,6 @@ Description: "ePI document Bundle for vitrakvi Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -823,8 +819,8 @@ Usage: #example
 
 Instance: mpf7d3ef50226760b75f06fdcf55be16ab
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product vitrakvi"
-Description: "vitrakvi"
+Title: "Medicinal Product VITRAKVI 25 mg hard capsules"
+Description: "VITRAKVI 25 mg hard capsules"
 Usage: #inline
 
  
@@ -837,14 +833,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "VITRAKVI as monotherapy is indicated for the treatment of adult and paediatric patients with solid"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "vitrakvi"
+  * productName = "VITRAKVI 25 mg hard capsules"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -864,10 +857,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

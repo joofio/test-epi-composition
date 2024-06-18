@@ -586,7 +586,7 @@ Binger Strasse 173
 55216 Ingelheim am Rhein
 Tyskland
 Boehringer Ingelheim Hellas Single Member S.A.
-5th km Paiania – Markopoulo
+5th km Paiania - Markopoulo
 Koropi Attiki, 19441
 Grækenland
 29
@@ -605,7 +605,7 @@ Boehringer Ingelheim RCV GmbH &amp; Co KG
 Lietuvos filialas
 Tel: +370 5 2595942
 България
-Бьорингер Ингелхайм РЦВ ГмбХ и Ко КГ –
+Бьорингер Ингелхайм РЦВ ГмбХ и Ко КГ -
 клон България
 Тел: +359 2 958 79 98
 Luxembourg/Luxemburg
@@ -714,8 +714,6 @@ Description: "ePI document Bundle for trajenta Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -738,8 +736,6 @@ Description: "ePI document Bundle for trajenta Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -760,8 +756,8 @@ Usage: #example
 
 Instance: mpc69b74a6bb42f26caea2acbf89949208
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product trajenta"
-Description: "trajenta"
+Title: "Medicinal Product Trajenta 5 mg film-coated tablets"
+Description: "Trajenta 5 mg film-coated tablets"
 Usage: #inline
 
  
@@ -774,14 +770,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Trajenta is indicated in adults with type 2 diabetes mellitus as an adjunct to diet and exercise to"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "trajenta"
+  * productName = "Trajenta 5 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -801,10 +794,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

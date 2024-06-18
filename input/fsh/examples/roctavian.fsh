@@ -955,8 +955,6 @@ Description: "ePI document Bundle for roctavian Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -979,8 +977,6 @@ Description: "ePI document Bundle for roctavian Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1001,8 +997,8 @@ Usage: #example
 
 Instance: mp6154ec9930909dd76813cd26c37e2a8e
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product roctavian"
-Description: "roctavian"
+Title: "Medicinal Product ROCTAVIAN 2 × 1013 vector genomes/mL solution for infusion"
+Description: "ROCTAVIAN 2 × 1013 vector genomes/mL solution for infusion"
 Usage: #inline
 
  
@@ -1015,14 +1011,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "ROCTAVIAN is indicated for the treatment of severe haemophilia A (congenital factor VIII"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "roctavian"
+  * productName = "ROCTAVIAN 2 × 1013 vector genomes/mL solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1042,10 +1035,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

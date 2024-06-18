@@ -484,10 +484,10 @@ glaukom (grøn stær). </p>
 - hvis du har alvorlige nyreproblemer. 
 - hvis du er allergisk over for brinzolamid eller et af de øvrige indholdsstoffer i dette lægemiddel 
 (angivet i punkt 6). 
-- hvis du er allergisk over for lægemidler, der tilhører ”sulfonamiderne”. Eksempler omfatter 
+- hvis du er allergisk over for lægemidler, der tilhører "sulfonamiderne". Eksempler omfatter 
 lægemidler, der anvendes til behandling af sukkersyge eller infektioner, samt vanddrivende 
 lægemidler. AZOPT kan forårsage samme type allergi. 
-- hvis du lider af for høj surhedsgrad i blodet (en tilstand kaldet ”hyperkloræmisk acidose”). </p>
+- hvis du lider af for høj surhedsgrad i blodet (en tilstand kaldet "hyperkloræmisk acidose"). </p>
 <p>Spørg lægen eller apotekspersonalet, hvis der er mere, du vil vide. </p>
 <p>Advarsler og forsigtighedsregler 
 Kontakt lægen eller apotekspersonalet, før du bruger AZOPT 
@@ -566,7 +566,7 @@ Figur 3 </p>
 <p>Hold flasken med bunden i vejret mellem tommel- og langfinger. </p>
 </li>
 <li>
-<p>Læg hovedet tilbage. Træk forsigtig ned i dit nederste øjenlåg, indtil der dannes en “lomme” 
+<p>Læg hovedet tilbage. Træk forsigtig ned i dit nederste øjenlåg, indtil der dannes en “lomme" 
 mellem det nedre øjenlåg og dit øje. Dråben skal placeres der (figur 1). </p>
 </li>
 <li>
@@ -700,7 +700,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
   * code.text = "5. How to store azopt"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
-<p>Brug ikke lægemidlet efter den udløbsdato, der står på flasken og kartonen efter ”EXP”. Udløbsdatoen 
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på flasken og kartonen efter "EXP". Udløbsdatoen 
 er den sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Flasken skal kasseres 4 uger efter åbning for at forhindre, at indholdet bliver forurenet. Når du 
@@ -845,8 +845,6 @@ Description: "ePI document Bundle for azopt Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -869,8 +867,6 @@ Description: "ePI document Bundle for azopt Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -891,8 +887,8 @@ Usage: #example
 
 Instance: mp831dc32174e3de65bc27162f5e1c766f
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product azopt"
-Description: "azopt"
+Title: "Medicinal Product AZOPT 10 mg/ml eye drops, suspension"
+Description: "AZOPT 10 mg/ml eye drops, suspension"
 Usage: #inline
 
  
@@ -905,14 +901,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "AZOPT is indicated to decrease elevated intraocular pressure in:"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "azopt"
+  * productName = "AZOPT 10 mg/ml eye drops, suspension"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -932,10 +925,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

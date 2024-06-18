@@ -750,14 +750,14 @@ Hvis en fyldt injektionssprøjte tabes på en hård overflade, må den ikke anve
 <p>Trin 1: Kontrollér at enheden er intakt 
 Vær sikker på, at enheden er intakt/ikke beskadiget. Du må ikke anvende præparatet, hvis du 
 bemærker nogen form for beskadigelse (brud på injektionssprøjte eller kanylens beskyttelseshætte) 
-eller løse komponeneter. Hvis kanylens beskyttelseshætte er i sikkerhedsposition før brug – som vist 
-på billede 9 – betyder dette, at enheden allerede har været brugt. Som tommelfingerregel må 
+eller løse komponeneter. Hvis kanylens beskyttelseshætte er i sikkerhedsposition før brug - som vist 
+på billede 9 - betyder dette, at enheden allerede har været brugt. Som tommelfingerregel må 
 præparatet ikke anvendes, hvis det ikke er i overensstemmelse med billede 1. Er dette tilfældet, så 
 bortskaffes præparatet i en kanylebeholder. </p>
 <p>Billede 1 </p>
 <p>Trin 2: Fjern kanylehætten 
 1. Fjern beskyttelseshætten som vist på billede 2. Hold omkring kanylens beskyttelseshætte med 
-den ene hånd – med kanylens spids væk fra dig og uden at røre ved stempelstangen. Træk 
+den ene hånd - med kanylens spids væk fra dig og uden at røre ved stempelstangen. Træk 
 beskyttelseshætten af med en lige bevægelse med den anden hånd. Efter beskyttelseshætten er 
 fjernet, bortskaffes den i kanylebeholderen.<br />
 2. Du kan se en lille luftboble i den fyldte injektionssprøjte. Du behøver ikke at fjerne luftboblen 
@@ -855,7 +855,7 @@ som muligt. Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis
 hævelse af ansigt (anafylaksi), hududslæt, kløende udslæt (urticaria), hævelse i ansigt, læber, 
 mund, tunge eller hals (angioødem) og stakåndethed (dyspnø).  </li>
 <li>hvis du får hoste, feber og stakåndethed (dyspnø), da dette kan være tegn på lungesvigt (Acute 
-Respiratory Distress Syndrome – ARDS).  </li>
+Respiratory Distress Syndrome - ARDS).  </li>
 <li>hvis du får nyreskade (glomerulonefritis). Der er blevet observeret nyreskader hos patienter, 
 som fik filgrastim. Ring straks til lægen, hvis dit ansigt bliver oppustet eller dine ankler hæver, 
 du får blod i urinen eller din urin bliver brunfarvet og du lægger mærke til, at du ikke lader 
@@ -871,7 +871,7 @@ forbundet med mindre hyppig vandladning, åndedrætsbesvær, oppustet mave og f�
 opfyldning samt en generel følelse af træthed. Disse symptomer udvikler sig almindeligvis 
 hurtigt. </li>
 </ul>
-<p>Dette kan være symptomer på en tilstand, som kaldes ”kapillær lækagesyndrom”, og som får blod til at 
+<p>Dette kan være symptomer på en tilstand, som kaldes "kapillær lækagesyndrom", og som får blod til at 
 lække fra de små blodkar ud i kroppen og kræver akut lægehjælp. </p>
 <ul>
 <li>
@@ -888,7 +888,7 @@ lægehjælp. </p>
 <p>En almindelig bivirkning under brug af Accofil er smerter i dine muskler eller knogler (muskel- og 
 ledsmerter), som kan afhjælpes ved at tage smertestillende lægemidler (analgetika). Hos patienter, der 
 gennemgår en stamcelle- eller knoglemarvstransplantation, kan der opstå graft versus host-sygdom 
-(GvHD) – dette er donorcellernes reaktion mod patienten, der får transplantationen. Tegn og 
+(GvHD) - dette er donorcellernes reaktion mod patienten, der får transplantationen. Tegn og 
 symptomer omfatter udslæt i håndflader eller fodsåler samt sår i munden, maven, leveren, på huden 
 eller i dine øjne, lunger, skede og led.  </p>
 <p>Der kan ses et forhøjet antal hvide blodlegemer og et nedsat antal blodplader, hvilket sænker dit blods 
@@ -1054,7 +1054,7 @@ opbevaringstider og -betingelser er på brugerens eget ansvar og må ikke overst
 ± 2°C, medmindre fortynding er udført under kontrollerede og validerede aseptiske betingelser. </p>
 <p>Brug af den fyldte sprøjte med kanylebeskytter 
 Kanylebeskytteren dækker kanylen efter injektionen for at forhindre stikskader. Dette påvirker ikke 
-brugen af sprøjten – denne bruges som normalt. Tryk stempelstangen ned og giv et fast tryk ved 
+brugen af sprøjten - denne bruges som normalt. Tryk stempelstangen ned og giv et fast tryk ved 
 slutningen af injektionen for at sikre, at tømning af sprøjten er fuldført. Klem godt fast om huden, 
 indtil injektionen er fuldført. Hold sprøjten stille, og løft langsomt din tommelfinger fra 
 stempelstangens hoved. Stempelstangen vil bevæge sig opad med tommelfingeren, og fjederen vil 
@@ -1089,8 +1089,6 @@ Description: "ePI document Bundle for accofil Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1113,8 +1111,6 @@ Description: "ePI document Bundle for accofil Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1135,8 +1131,8 @@ Usage: #example
 
 Instance: mp8d69d820c695d3ae73c4c08229874072
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product accofil"
-Description: "accofil"
+Title: "Medicinal Product Accofil 30 MU/0.5 ml solution for injection/infusion in pre-filled syringe"
+Description: "Accofil 30 MU/0.5 ml solution for injection/infusion in pre-filled syringe"
 Usage: #inline
 
  
@@ -1149,14 +1145,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Accofil is indicated for the reduction in the duration of neutropenia and the incidence of febrile"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "accofil"
+  * productName = "Accofil 30 MU/0.5 ml solution for injection/infusion in pre-filled syringe"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1176,10 +1169,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

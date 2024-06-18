@@ -574,10 +574,10 @@ smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </d
 <li>Aktivt stof: desloratadin. Hver filmovertrukken tablet indeholder 5 mg desloratadin. </li>
 <li>Øvrige indholdsstoffer i tabletkernen: mikrocrystallinsk cellulose (E460), hypromellose (E464), 
 saltsyre (E507) (til pH justering), natriumhydroxid (E524) (til pH justering), majsstivelse, 
-lactosemonohydrat (se pkt. 2 under ”Dasselta indeholder lactose og natrium”.) og talcum 
+lactosemonohydrat (se pkt. 2 under "Dasselta indeholder lactose og natrium".) og talcum 
 (E553b). </li>
 <li>Øvrige indholdsstoffer I filovertrækket: hypromellose (E464), macrogol, lactosemonohydrat (se 
-pkt. 2 under ”Dasselta indeholder lactose og natrium”.), titandioxide (E171) og indigocarmin 
+pkt. 2 under "Dasselta indeholder lactose og natrium".), titandioxide (E171) og indigocarmin 
 (E132). </li>
 </ul>
 <p>Udseende og pakningsstørrelser 
@@ -693,7 +693,7 @@ indeholder desloratadin bør ændres i overenstemmelse hermed. </p>
 (MAH’er), identificerede WHO et potentielt sikkerhedssignal i form af øjentørhed for 
 desloratadin under rapporteringsperioden. Baseret på de antikolinergiske egenskaber vedrørende 
 desloratadin, samt understøttet af rapporterne med kort tid til opståelse og både de- og 
-rechallenge mekanismer, overvejer PRAC at ”øjentørhed” bør overvejes medtaget på 
+rechallenge mekanismer, overvejer PRAC at "øjentørhed" bør overvejes medtaget på 
 produktetiketter og i indlægssedler til patienter. </p>
 <p>CHMP tilslutter sig PRAC's videnskabelige konklusioner. </p>
 <p>Begrundelser for ændring af betingelserne for markedsføringstilladelsen/-tilladelserne </p>
@@ -712,8 +712,6 @@ InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for dasselta Package Leaflet for language en"
 Description: "ePI document Bundle for dasselta Package Leaflet for language en"
 Usage: #example
-
-
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
@@ -738,8 +736,6 @@ Description: "ePI document Bundle for dasselta Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -760,8 +756,8 @@ Usage: #example
 
 Instance: mpb8e0f0c67dccb3d602a95a4f091082dc
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product dasselta"
-Description: "dasselta"
+Title: "Medicinal Product Dasselta 5 mg film-coated tablets"
+Description: "Dasselta 5 mg film-coated tablets"
 Usage: #inline
 
  
@@ -774,14 +770,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Dasselta is indicated in adults and adolescents aged 12 years and older for the relief of symptoms"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "dasselta"
+  * productName = "Dasselta 5 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -801,10 +794,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

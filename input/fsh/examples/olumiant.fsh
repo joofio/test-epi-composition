@@ -1017,8 +1017,6 @@ Description: "ePI document Bundle for olumiant Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1041,8 +1039,6 @@ Description: "ePI document Bundle for olumiant Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1063,8 +1059,8 @@ Usage: #example
 
 Instance: mpe9af86ad22ac9c13e3208cd0b150b229
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product olumiant"
-Description: "olumiant"
+Title: "Medicinal Product Olumiant 1 mg film-coated tablets"
+Description: "Olumiant 1 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1077,14 +1073,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Rheumatoid arthritis"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "olumiant"
+  * productName = "Olumiant 1 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1104,10 +1097,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

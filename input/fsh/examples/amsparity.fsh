@@ -940,10 +940,10 @@ punkt 6).
 hvis dit barn har en alvorlig infektion, herunder aktiv tuberkulose, sepsis (blodforgiftning) eller 
 opportunistiske infektioner (usædvanlige infektioner forbundet med et svækket immunsystem). 
 Det er vigtigt, at du informerer barnets læge, hvis dit barn har symptomer på infektioner, f.eks. 
-feber, sår, træthedsfornemmelse, tandproblemer (se “Advarsler og forsigtighedsregler”). 
+feber, sår, træthedsfornemmelse, tandproblemer (se “Advarsler og forsigtighedsregler"). 
 
 hvis dit barn lider af moderat eller alvorlig hjerteinsufficiens. Det er vigtigt at informere lægen, 
-hvis dit barn har eller har haft en alvorlig hjertesygdom (se ”Advarsler og forsigtighedsregler”). 
+hvis dit barn har eller har haft en alvorlig hjertesygdom (se "Advarsler og forsigtighedsregler"). 
 Advarsler og forsigtighedsregler 
 Kontakt barnets læge eller apotekspersonalet, før barnet bruger Amsparity.
 Det er vigtigt, at du og dit barns læge registrerer handelsnavnet og batchnummeret på dit barns 
@@ -1089,14 +1089,14 @@ Amsparity kan anvendes under amning.
 Hvis dit barn har fået Amsparity, mens hun var gravid, kan hendes spædbarn have en højere risiko for 
 at få en infektion. Det er vigtigt, at du fortæller spædbarnets læge og andre sundhedspersoner, at hun 
 fik Amsparity under graviditeten, før spædbarnet får nogen vaccinationer. For mere information om 
-vacciner, se afsnittet ”Advarsler og forsigtighedsregler”.
+vacciner, se afsnittet "Advarsler og forsigtighedsregler".
 Trafik- og arbejdssikkerhed 
 Amsparity kan påvirke dit barns evne til at føre motorkøretøj, cykle eller betjene maskiner i mindre 
 grad. Dit barn kan få en fornemmelse af, at rummet drejer rundt (vertigo), og synsforstyrrelser efter at 
 have taget Amsparity. 
 Amsparity indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. 0,8 ml dosis, dvs. det er i det 
-væsentlige ”natrium-frit”.</p>         </div>"""   
+væsentlige "natrium-frit".</p>         </div>"""   
           
 
              
@@ -1171,7 +1171,7 @@ Dit barns læge kan også ordinere en startdosis på 80 mg, som kan indgives en 
 sædvanlige dosis.
 Anvendelsesmåde og administrationsvej 
 Amsparity indgives ved injektion under huden (subkutan injektion). 
-Der findes detaljeret instruktion om injektion af Amsparity i ”Brugsanvisningen”.
+Der findes detaljeret instruktion om injektion af Amsparity i "Brugsanvisningen".
 Hvis du har brugt for meget Amsparity 
 Hvis du ved et uheld injicerer dit barn med en større mængde Amsparity injektionsvæske, eller hvis du 
 injicerer Amsparity hyppigere, end du bør, skal du ringe til dit barns læge eller apotekspersonalet og 
@@ -1520,11 +1520,11 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. 
 Brug ikke lægemidlet efter den udløbsdato, der står på etiketten/æsken efter EXP. 
-Opbevares i køleskab (2 °C – 8°C). Må ikke nedfryses. 
+Opbevares i køleskab (2 °C - 8°C). Må ikke nedfryses. 
 Opbevar hætteglasset i den ydre karton for at beskytte mod lys. 
 Alternativ opbevaring:
 Hvis det er nødvendigt (f.eks. under rejser), kan et enkelt hætteglas med Amsparity opbevares ved 
-stuetemperatur (op til 30 °C) i en periode på højst 30 dage – vær sikker på at beskytte det mod lys. 
+stuetemperatur (op til 30 °C) i en periode på højst 30 dage - vær sikker på at beskytte det mod lys. 
 Når hætteglasset er taget ud af køleskabet og har været opbevaret ved stuetemperatur, skal 
 hætteglasset bruges inden for 30 dage eller kasseres, også selv om det sættes tilbage i køleskab.
 Du skal registrere den dato, hvor hætteglasset først tages ud af køleskabet, og den dato efter hvilken, 
@@ -1932,8 +1932,6 @@ Description: "ePI document Bundle for amsparity Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1956,8 +1954,6 @@ Description: "ePI document Bundle for amsparity Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1978,8 +1974,8 @@ Usage: #example
 
 Instance: mpcb456248863851baf93dc89f0a0fc5bf
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product amsparity"
-Description: "amsparity"
+Title: "Medicinal Product Amsparity 20 mg solution for injection in pre-filled syringe"
+Description: "Amsparity 20 mg solution for injection in pre-filled syringe"
 Usage: #inline
 
  
@@ -1992,14 +1988,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Juvenile idiopathic arthritis"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "amsparity"
+  * productName = "Amsparity 20 mg solution for injection in pre-filled syringe"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -2019,10 +2012,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

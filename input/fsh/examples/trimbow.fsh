@@ -976,7 +976,7 @@ snavs. </li>
 <li>Hold inhalatoren opret med mundstykket forneden, og placer mundstykket mellem tænderne 
 uden at bide i det. Luk læberne rundt om mundstykket med en flad tunge nedenunder. </li>
 <li>Træk vejret langsomt og dybt ind gennem munden for at fylde lungerne med luft (dette bør tage 
-omtrent 4–5 sekunder). Lige efter du begynder at trække vejret ind, skal du med en fast hånd 
+omtrent 4-5 sekunder). Lige efter du begynder at trække vejret ind, skal du med en fast hånd 
 trykke ned foroven på trykbeholderen for at levere et pust. </li>
 <li>Hold vejret så længe som muligt, og fjern til sidst inhalatoren fra munden, og pust langsomt ud. 
 Du må ikke puste ud i inhalatoren. </li>
@@ -1508,8 +1508,6 @@ Description: "ePI document Bundle for trimbow Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1532,8 +1530,6 @@ Description: "ePI document Bundle for trimbow Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1554,8 +1550,8 @@ Usage: #example
 
 Instance: mpb1dc557df32bb39c63c00547638eca2f
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product trimbow"
-Description: "trimbow"
+Title: "Medicinal Product Trimbow 87 micrograms/5 micrograms/9 micrograms pressurised inhalation, solution"
+Description: "Trimbow 87 micrograms/5 micrograms/9 micrograms pressurised inhalation, solution"
 Usage: #inline
 
  
@@ -1568,14 +1564,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Chronic obstructive pulmonary disease (COPD)"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "trimbow"
+  * productName = "Trimbow 87 micrograms/5 micrograms/9 micrograms pressurised inhalation, solution"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1595,10 +1588,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

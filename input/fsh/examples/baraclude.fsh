@@ -547,8 +547,8 @@ Tabletovertræk: hypromellose, macrogol 400, titandioxid (E171) og polysorbat 80
 </li>
 </ul>
 <p>Udseende og pakningsstørrelser 
-De filmovertrukne tabletter er hvide til grålighvide og trekantede. De er mærkede “BMS” på den ene 
-side og “1611” på den anden. Baraclude 0,5 mg filmovertrukne tabletter fås i æsker med 30 x 1 eller 
+De filmovertrukne tabletter er hvide til grålighvide og trekantede. De er mærkede “BMS" på den ene 
+side og “1611" på den anden. Baraclude 0,5 mg filmovertrukne tabletter fås i æsker med 30 x 1 eller 
 90 x 1 filmovertrukket tablet (enkeltdosis-blistere) og i beholdere med 30 filmovertrukne tabletter. </p>
 <p>Ikke alle pakningsstørrelser markedsføres nødvendigvis i dit land. </p>
 <p>Indehaver af markedsføringstilladelse og fremstiller 
@@ -603,8 +603,6 @@ Description: "ePI document Bundle for baraclude Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -627,8 +625,6 @@ Description: "ePI document Bundle for baraclude Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -649,8 +645,8 @@ Usage: #example
 
 Instance: mp1f96cd88f64662096f991c68963865d4
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product baraclude"
-Description: "baraclude"
+Title: "Medicinal Product Baraclude 0.5 mg film-coated tablets"
+Description: "Baraclude 0.5 mg film-coated tablets"
 Usage: #inline
 
  
@@ -663,14 +659,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Baraclude is indicated for the treatment of chronic hepatitis B virus (HBV) infection (see section 5.1)"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "baraclude"
+  * productName = "Baraclude 0.5 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -690,10 +683,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

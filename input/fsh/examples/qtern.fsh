@@ -1150,8 +1150,6 @@ Description: "ePI document Bundle for qtern Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1174,8 +1172,6 @@ Description: "ePI document Bundle for qtern Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1196,8 +1192,8 @@ Usage: #example
 
 Instance: mp7735eb5a61959c532a72049da08ec908
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product qtern"
-Description: "qtern"
+Title: "Medicinal Product Qtern 5 mg/10 mg film-coated tablets"
+Description: "Qtern 5 mg/10 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1210,14 +1206,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Qtern, fixed dose combination of saxagliptin and dapagliflozin, is indicated in adults aged 18 years and"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "qtern"
+  * productName = "Qtern 5 mg/10 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1237,10 +1230,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

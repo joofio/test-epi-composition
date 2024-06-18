@@ -575,14 +575,14 @@ ryggen der ikke forsvinder.<br />
 Kontakt straks lægen, hvis du får disse symptomer. </li>
 </ul>
 <p>Ikke kendt: hyppigheden kan ikke estimeres udfra tilgængelig data<br />
-- Tarmobstruktion – en svær form for forstoppelse med yderligere symptomer som f.eks. 
+- Tarmobstruktion - en svær form for forstoppelse med yderligere symptomer som f.eks. 
 mavesmerter, oppustethed eller opkastning. 
 Kontakt straks lægen, hvis du får disse symptomer. </p>
 <p>Andre bivirkninger 
 Meget almindelige: kan forekomme hos flere end 1 ud af 10 personer 
-- Kvalme – dette er normalt kun kortvarigt 
-- Opkastning – dette er normalt kun kortvarigt 
-- Diarré – dette er normalt kun kortvarigt 
+- Kvalme - dette er normalt kun kortvarigt 
+- Opkastning - dette er normalt kun kortvarigt 
+- Diarré - dette er normalt kun kortvarigt 
 - Mavesmerter 
 Disse bivirkninger er som regel ikke alvorlige. De er mest almindelige i starten af behandlingen med 
 dulaglutid men aftager over tid hos de fleste.   </p>
@@ -603,7 +603,7 @@ under meget almindelige bivirkninger. </li>
 <li>Forstoppelse </li>
 <li>Tarmluft (flatulens) </li>
 <li>Oppustet mave </li>
-<li>Reflux eller halsbrænd (også kaldet gastroøsofageal reflukssygdom – GERD) - en tilstand, hvor 
+<li>Reflux eller halsbrænd (også kaldet gastroøsofageal reflukssygdom - GERD) - en tilstand, hvor 
 mavesyre løber op fra maven igennem spiserøret og videre til munden. </li>
 <li>Bøvsen </li>
 <li>Træthed </li>
@@ -634,7 +634,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på etiketten på pennen og på æsken efter<br />
 EXP. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
-<p>Opbevares i køleskab (2ºC – 8ºC). Må ikke nedfryses. </p>
+<p>Opbevares i køleskab (2ºC - 8ºC). Må ikke nedfryses. </p>
 <p>Opbevares i den originale pakning for at beskytte mod lys. </p>
 <p>Trulicity kan tages ud af køleskabet og opbevares ved en temperatur, der ikke overstiger 30°C, i højst 
 14 dage.  </p>
@@ -1664,8 +1664,6 @@ Description: "ePI document Bundle for trulicity Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1688,8 +1686,6 @@ Description: "ePI document Bundle for trulicity Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1710,8 +1706,8 @@ Usage: #example
 
 Instance: mp03f601e925d2ca197b11b72dd4a3dc32
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product trulicity"
-Description: "trulicity"
+Title: "Medicinal Product Trulicity 0.75 mg solution for injection in pre-filled pen"
+Description: "Trulicity 0.75 mg solution for injection in pre-filled pen"
 Usage: #inline
 
  
@@ -1724,14 +1720,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Type 2 Diabetes Mellitus"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "trulicity"
+  * productName = "Trulicity 0.75 mg solution for injection in pre-filled pen"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1751,10 +1744,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

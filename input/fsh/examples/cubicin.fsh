@@ -861,7 +861,7 @@ fremskaffe mere information om sikkerheden af dette lægemiddel.</li>
 <li>Opbevar lægemidlet utilgængeligt for børn.</li>
 <li>Brug ikke lægemidlet efter den udløbsdato, der står på æsken og etiketten efter EXP.
 Udløbsdatoen er den sidste dag i den nævnte måned.</li>
-<li>Opbevares i køleskab (2 C – 8 C).</li>
+<li>Opbevares i køleskab (2 C - 8 C).</li>
 </ul>         </div>"""      
         
         
@@ -1064,7 +1064,7 @@ og lidocain.
 Den samlede opbevaringstid (rekonstitueret opløsning i hætteglas og fortyndet opløsning i
 infusionsbeholder) ved 25 °C må ikke overstige 12 timer (eller 24 timer ved opbevaring i køleskab).
 Stabilitet af den fortyndede opløsning i infusionsbeholdere er fastsat til 12 timer ved 25 °C eller
-24 timer ved opbevaring i køleskab ved 2 °C – 8 °C.
+24 timer ved opbevaring i køleskab ved 2 °C - 8 °C.
 Cubicin givet som 2 minutters intravenøs injektion (kun til voksne)
 Vand må ikke anvendes til rekonstitution af Cubicin til intravenøs injektion. Cubicin må kun
 rekonstitueres med natriumchlorid 9 mg/ml (0,9%).
@@ -1099,10 +1099,10 @@ sprøjten for at få al opløsningen ud af hætteglasset.</li>
 <li>Fjern luft, store luftbobler og eventuel overskydende opløsning for at få den korrekte dosis.</li>
 <li>Den rekonstituerede opløsning injiceres intravenøst over et tidsrum på 2 minutter.
 Der er påvist kemisk og fysisk stabilitet under brug af den rekonstituerede opløsning i hætteglasset i
-12 timer ved 25 °C og i op til 48 timer ved opbevaring i køleskab (2 °C – 8 °C).
+12 timer ved 25 °C og i op til 48 timer ved opbevaring i køleskab (2 °C - 8 °C).
 Ud fra et mikrobiologisk synspunkt skal præparatet dog anvendes med det samme. Anvendes
 opløsningen ikke med det samme, har brugeren ansvar for opbevaringsbetingelser og holdbarhed, som
-normalt kun er 24 timer ved 2 °C – 8 °C, medmindre rekonstitution/fortynding har fundet sted under
+normalt kun er 24 timer ved 2 °C - 8 °C, medmindre rekonstitution/fortynding har fundet sted under
 anvendelse af kontrolleret og godkendt aseptisk teknik.
 44
 Dette lægemiddel må ikke blandes med andre end de ovenfor nævnte lægemidler.
@@ -1133,8 +1133,6 @@ Description: "ePI document Bundle for cubicin Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1157,8 +1155,6 @@ Description: "ePI document Bundle for cubicin Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1179,8 +1175,8 @@ Usage: #example
 
 Instance: mpe2a8db799211e459b47eab2397a33e4f
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product cubicin"
-Description: "cubicin"
+Title: "Medicinal Product Cubicin 350 mg powder for solution for injection or infusion"
+Description: "Cubicin 350 mg powder for solution for injection or infusion"
 Usage: #inline
 
  
@@ -1193,14 +1189,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Cubicin is indicated for the treatment of the following infections (see sections 4.4 and 5.1)."
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "cubicin"
+  * productName = "Cubicin 350 mg powder for solution for injection or infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1220,10 +1213,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

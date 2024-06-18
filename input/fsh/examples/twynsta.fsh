@@ -534,7 +534,7 @@ Twynsta (angivet i punkt 6).
 hvis du er allergisk over for andre lægemidler af dihydropyridintypen (en type calciumblokker).
 
 hvis du er gravid og er mere end 3 måneder henne. (Det foretrækkes også at undgå Twynsta 
-tidligt i graviditeten – se punktet Graviditet.)
+tidligt i graviditeten - se punktet Graviditet.)
 120
 
 hvis du har svære leverproblemer eller galdevejsobstruktion (problemer med afløb af galde fra 
@@ -965,8 +965,6 @@ Description: "ePI document Bundle for twynsta Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -989,8 +987,6 @@ Description: "ePI document Bundle for twynsta Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1011,8 +1007,8 @@ Usage: #example
 
 Instance: mp29c0f14d298ca5f6a2e50f72e58ec9cf
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product twynsta"
-Description: "twynsta"
+Title: "Medicinal Product Twynsta 40 mg/5 mg tablets"
+Description: "Twynsta 40 mg/5 mg tablets"
 Usage: #inline
 
  
@@ -1025,14 +1021,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Treatment of essential hypertension in adults:"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "twynsta"
+  * productName = "Twynsta 40 mg/5 mg tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1052,10 +1045,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -591,7 +591,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke dette lægemiddel efter den udløbsdato, der står på etiketten og kartonen efter EXP. 
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
-<p>Opbevares i køleskab (2 °C – 8 °C). 
+<p>Opbevares i køleskab (2 °C - 8 °C). 
 Må ikke nedfryses. 
 Opbevar hætteglasset i den ydre karton for at beskytte mod lys. </p>
 <p>I holdbarhedsperioden kan hætteglasset med pulver opbevares ved stuetemperatur (op til 30 °C) i én 
@@ -619,7 +619,7 @@ rekombinant dna-teknologi). Hvert hætteglas med pulver indeholder nominelt 250,
 <li>Hætteglasset med solvens indeholder 5 ml vand til injektionsvæsker. </li>
 <li>Øvrige indholdsstoffer: mannitol, trehalosedihydrat, histidin, glutathion, natriumchlorid, 
 calciumchloriddihydrat, tris(hydroxymethyl)aminomethan og polysorbat 80. Se punkt 2 
-”ADYNOVI indeholder natrium”. </li>
+"ADYNOVI indeholder natrium". </li>
 </ul>
 <p>Udseende og pakningsstørrelser </p>
 <p>ADYNOVI leveres som pulver og solvens til injektionsvæske, opløsning (pulver til injektionsvæske, 
@@ -811,26 +811,26 @@ Blødning </p>
 <p>Tidlig hæmartrose, 
 muskelblødning eller 
 oral blødning. 
-20 – Injektion gentages hver 12. til 24. time. 
+20 - Injektion gentages hver 12. til 24. time. 
 Mindst 1 dag, indtil blødningsepisoden 
 kendetegnet ved smerter er ophørt, 
 eller heling er opnået. </p>
 <p>Mere udbredt hæmartrose, 
 muskelblødning eller hæmatom 
-30 – Injektion gentages hver 12. til 24. time 
+30 - Injektion gentages hver 12. til 24. time 
 i 3-4 dage eller mere, indtil smerte og 
 akut funktionsindskrænkning er 
 forsvundet. </p>
 <p>Livstruende blødninger. 
-60 – Injektion gentages hver 8.-24. time, 
+60 - Injektion gentages hver 8.-24. time, 
 indtil faren er ovre. 
 Kirurgi </p>
 <p>Mindre 
 Inklusive tandudtrækning. 
-30 – Hver 24. time mindst 1 dag, indtil 
+30 - Hver 24. time mindst 1 dag, indtil 
 opheling er opnået. </p>
 <p>Større 
-80 –<br />
+80 -<br />
 (præ- og postoperative) 
 Injektion gentages hver 8. til 24. time, 
 indtil tilstrækkelig sårheling er opnået. 
@@ -880,8 +880,6 @@ Description: "ePI document Bundle for adynovi Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -904,8 +902,6 @@ Description: "ePI document Bundle for adynovi Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -926,8 +922,8 @@ Usage: #example
 
 Instance: mp02998b2db7fd4b184d980a78d8dee404
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product adynovi"
-Description: "adynovi"
+Title: "Medicinal Product ADYNOVI 250 IU / 5 ml powder and solvent for solution for injection"
+Description: "ADYNOVI 250 IU / 5 ml powder and solvent for solution for injection"
 Usage: #inline
 
  
@@ -940,14 +936,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Treatment and prophylaxis of bleeding in patients 12 years and above with haemophilia A (congenital"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "adynovi"
+  * productName = "ADYNOVI 250 IU / 5 ml powder and solvent for solution for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -967,10 +960,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -504,10 +504,10 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Amlodipine/Valsartan Mylan tabletter indeholder to aktive stoffer, som kaldes amlodipin og valsartan. 
 Begge disse stoffer hjælper med at kontrollere højt blodtryk. 
-- Amlodipin tilhører en gruppe stoffer, som kaldes ”calcium-antagonister”. Amlodipin forhindrer 
+- Amlodipin tilhører en gruppe stoffer, som kaldes "calcium-antagonister". Amlodipin forhindrer 
 calcium i at bevæge sig ind i blodårernes vægge. Det medfører, at blodårerne ikke trækker sig 
 sammen. 
-- Valsartan tilhører en gruppe stoffer, som kaldes ”angiotensin II-receptorantagonister”. 
+- Valsartan tilhører en gruppe stoffer, som kaldes "angiotensin II-receptorantagonister". 
 Angiotensin II produceres i kroppen og får blodårerne til at trække sig sammen, så blodtrykket 
 øges. Valsartan virker ved at blokere effekten af angiotensin II. 
 Dette betyder, at begge stoffer forhindrer blodårerne i at trække sig sammen. Som et resultat, bliver 
@@ -549,12 +549,12 @@ Kontakt lægen, før du tager Amlodipine/Valsartan Mylan:</p>
 <li>hvis du har problemer med lever eller nyrer. </li>
 <li>hvis du har fået en nyretransplantation, eller hvis du har fået at vide, at du har en forsnævring i 
 blodtilførslen til nyrerne. </li>
-<li>hvis du har en tilstand, som påvirker binyrerne, og som kaldes ”primær hyperaldosteroisme”. </li>
+<li>hvis du har en tilstand, som påvirker binyrerne, og som kaldes "primær hyperaldosteroisme". </li>
 <li>hvis du har haft hjertesvigt eller et hjerteanfald. Følg nøje lægens anvisning vedrørende 
 startdosis. Lægen vil muligvis også undersøge din nyrefunktion. </li>
-<li>hvis din læge har fortalt dig, at du har en forsnævring af hjerteklappen (kaldes ”aorta- eller 
-mitralklapstenose”) eller at du har en unormal fortykkelse af hjertemusklen (kaldes ”obstruktiv 
-hypertrofisk kardiomyopati”). </li>
+<li>hvis din læge har fortalt dig, at du har en forsnævring af hjerteklappen (kaldes "aorta- eller 
+mitralklapstenose") eller at du har en unormal fortykkelse af hjertemusklen (kaldes "obstruktiv 
+hypertrofisk kardiomyopati"). </li>
 <li>hvis du har oplevet opsvulmen, særligt af ansigtet og halsen, mens du har taget anden medicin 
 (inklusive ACE-hæmmere). Hvis du får disse symptomer, skal du stoppe med at tage 
 Amlodipine/Valsartan Mylan og kontakte din læge med det samme. Du bør aldrig tage 
@@ -582,8 +582,8 @@ og/eller tage andre forholdsregler. I nogle tilfælde kan det være nødvendigt 
 noget af medicinen. Det gælder især for den medicin, som er beskrevet herunder:</p>
 <ul>
 <li>hvis du samtidig tager en ACE-hæmmer eller aliskiren (se også information under 
-overskrifterne ”Tag ikke Amlodipine/Valsartan Mylan” og ”Advarsler og forsigtighedsregler”); </li>
-<li>diuretika (en type medicin, som også kaldes ”vanddrivende tabletter”, og som forhøjer den 
+overskrifterne "Tag ikke Amlodipine/Valsartan Mylan" og "Advarsler og forsigtighedsregler"); </li>
+<li>diuretika (en type medicin, som også kaldes "vanddrivende tabletter", og som forhøjer den 
 mængde urin, du producerer); </li>
 <li>medicin til behandling af visse typer depression (lithium); </li>
 <li>kaliumbesparende diuretika, kaliumtilskud, salterstatninger, som indeholder kalium eller andre 
@@ -598,7 +598,7 @@ primidon); </p>
 <li>
 <p>perikon; </p>
 </li>
-<li>glyceryltrinitrat (nitroglycerin) og andre nitrater eller andre stoffer, som kaldes ”vasodilatorer”; </li>
+<li>glyceryltrinitrat (nitroglycerin) og andre nitrater eller andre stoffer, som kaldes "vasodilatorer"; </li>
 <li>medicin mod hiv/aids (f.eks. ritonavir, indinavir, nelfinavir); </li>
 <li>medicin til behandling af svampeinfektioner (f.eks. ketoconazol, itraconazol); </li>
 <li>medicin til behandling af bakterieinfektioner (f.eks. rifampicin, erythromycin, clarithromycin, 
@@ -789,13 +789,13 @@ silica, hypromellose, macrogol 8000, talcum, titandioxid (E171), gul jernoxid (E
 <p>Udseende og pakningstørrelser 
 Amlodipine/Valsartan Mylan 5 mg/80 mg filmovertrukne tabletter </p>
 <p>Amlodipine/Valsartan Mylan 5 mg/80 mg tabletter er lysegule, runde, bikonvekse, filmovertrukne 
-tabletter, mærket med ”AV1” på den ene side og ”M” på den anden side. </p>
+tabletter, mærket med "AV1" på den ene side og "M" på den anden side. </p>
 <p>Amlodipine/Valsartan Mylan 5 mg/160 mg filmovertrukne tabletter </p>
 <p>Amlodipine/Valsartan Mylan 5 mg/160 mg tabletter er gule, ovale, bikonvekse filmovertrukne 
-tabletter mærket med “AV2” på den ene side og “M” på den anden side. </p>
+tabletter mærket med “AV2" på den ene side og “M" på den anden side. </p>
 <p>Amlodipine/Valsartan Mylan 10 mg/160 mg filmovertrukne tabletter </p>
 <p>Amlodipine/Valsartan Mylan 10 mg/160 mg tabletter er lysebrune, ovale, bikonvekse filmovertrukne 
-tabletter mærket med “AV3” på den ene side og “M” på den anden side. </p>
+tabletter mærket med “AV3" på den ene side og “M" på den anden side. </p>
 <p>Amlodipine/Valsartan Mylan er tilgængelig i blisterpakninger indeholdende 14, 28, 30, 56, 90 eller 
 98 tabletter. Alle pakninger er tilgængelige i perforerede enkeltdosisblister. Tabletpakningerne med 
 14, 28, 56 og 98 tabletter findes også som standard blisterpakninger. 
@@ -913,8 +913,6 @@ Description: "ePI document Bundle for amlodipine Package Leaflet for language en
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -937,8 +935,6 @@ Description: "ePI document Bundle for amlodipine Package Leaflet for language da
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -959,8 +955,8 @@ Usage: #example
 
 Instance: mp613075564472c8742b180667f231d172
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product amlodipine"
-Description: "amlodipine"
+Title: "Medicinal Product Amlodipine/Valsartan Mylan 5 mg/80 mg film-coated tablets"
+Description: "Amlodipine/Valsartan Mylan 5 mg/80 mg film-coated tablets"
 Usage: #inline
 
  
@@ -973,14 +969,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Treatment of essential hypertension."
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "amlodipine"
+  * productName = "Amlodipine/Valsartan Mylan 5 mg/80 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1000,10 +993,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

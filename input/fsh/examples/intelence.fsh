@@ -1040,8 +1040,6 @@ Description: "ePI document Bundle for intelence Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1064,8 +1062,6 @@ Description: "ePI document Bundle for intelence Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1086,8 +1082,8 @@ Usage: #example
 
 Instance: mp5e413a0f6e2a52f2ac02e5e2b260ebdf
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product intelence"
-Description: "intelence"
+Title: "Medicinal Product INTELENCE 25 mg tablets"
+Description: "INTELENCE 25 mg tablets"
 Usage: #inline
 
  
@@ -1100,14 +1096,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "INTELENCE, in combination with a boosted protease inhibitor and other antiretroviral medicinal"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "intelence"
+  * productName = "INTELENCE 25 mg tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1127,10 +1120,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

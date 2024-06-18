@@ -613,7 +613,7 @@ I behandlingen af voksne patienter med type 2-sukkersyge (18 år og derover) læ
 til kost- og motionsplan, når sukkersygen ikke kan kontrolleres med metformin alene eller 
 metformin i kombination med andre lægemidler mod sukkersyge.
 
-Synjardy kan også bruges sammen med andre lægemidler mod diabetes – både lægemidler, der 
+Synjardy kan også bruges sammen med andre lægemidler mod diabetes - både lægemidler, der 
 tages gennem munden, og lægemidler, der gives som indsprøjtning, herunder insulin.
 70
 
@@ -668,7 +668,7 @@ Risiko for laktatacidose
 Synjardy kan forårsage en meget sjælden, men meget alvorlig bivirkning, der kaldes laktatacidose 
 (mælkesyreforgiftning), især hvis du har nedsat nyrefunktion. Der er også øget risiko for at udvikle 
 laktatacidose ved ukontrolleret diabetes, alvorlige infektioner, langvarig faste eller alkoholindtagelse, 
-dehydrering (væskemangel – se yderligere oplysninger nedenfor), leverproblemer og enhver tilstand 
+dehydrering (væskemangel - se yderligere oplysninger nedenfor), leverproblemer og enhver tilstand 
 med nedsat iltforsyning til en legemsdel (såsom akut alvorlig hjertesygdom).
 Kontakt lægen for at få yderligere vejledning, hvis noget af ovennævnte gælder for dig.
 Stop med at tage Synjardy i en kort periode, hvis du har en tilstand, som kan være forbundet 
@@ -698,13 +698,13 @@ hvis du oplever hurtigt vægttab, kvalme eller opkastning, mavesmerter, udtalt t
 dyb vejrtrækning, forvirring, usædvanlig søvnighed eller træthed, din ånde lugter sødligt, en sød 
 eller metallisk smag i munden eller en unormal lugt fra din urin eller sved, skal du straks 
 kontakte en læge eller det nærmeste hospital. Disse symptomer kan være tegn på diabetisk 
-ketoacidose – en sjælden, men alvorlig og somme tider livstruende komplikation, du kan få ved 
+ketoacidose - en sjælden, men alvorlig og somme tider livstruende komplikation, du kan få ved 
 diabetes som følge af forhøjet niveau af ketonstoffer i urinen eller blodet, målt ved 
 laboratorieanalyser. Risikoen for at udvikle diabetisk ketoacidose kan være øget ved 
 længerevarende faste, stort alkoholforbrug, dehydrering, pludselig nedsættelse af insulindosis 
 eller et større behov for insulin på grund af et større kirurgisk indgreb eller alvorlig sygdom.
 
-hvis du har “type 1-sukkersyge" – denne type starter som regel hos unge og her laver kroppen 
+hvis du har “type 1-sukkersyge" - denne type starter som regel hos unge og her laver kroppen 
 slet ikke noget insulin. Du må ikke tage Synjardy, hvis du har type 1-sukkersyge.
 
 hvis du kan have risiko for dehydrering, for eksempel:<em> hvis du er syg, har diarré eller feber, eller hvis du ikke kan spise eller drikke</em> hvis du tager lægemidler, der øger urinproduktionen (diuretika) eller sænker blodtrykket* hvis du er 75 år eller ældre
@@ -1037,7 +1037,7 @@ Binger Strasse 173
 55216 Ingelheim am Rhein
 Tyskland
 Boehringer Ingelheim Hellas Single Member S.A.
-5th km Paiania – Markopoulo
+5th km Paiania - Markopoulo
 Koropi Attiki, 19441
 Grækenland
 Patheon France
@@ -1181,8 +1181,6 @@ Description: "ePI document Bundle for synjardy Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1205,8 +1203,6 @@ Description: "ePI document Bundle for synjardy Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1227,8 +1223,8 @@ Usage: #example
 
 Instance: mp9f38251e073c17d25793bbd3bb27c758
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product synjardy"
-Description: "synjardy"
+Title: "Medicinal Product Synjardy 5 mg/850 mg film-coated tablets"
+Description: "Synjardy 5 mg/850 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1241,14 +1237,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Synjardy is indicated for the treatment of adults with type 2 diabetes mellitus as an adjunct to diet and"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "synjardy"
+  * productName = "Synjardy 5 mg/850 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1268,10 +1261,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

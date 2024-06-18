@@ -479,7 +479,7 @@ med en betablokker. </li>
 bruges sammen med standardbehandling med betablokker, eller når patienten ikke må få eller 
 ikke kan tåle betablokker. </li>
 </ul>
-<p>Stabil angina pectoris (også kaldet ”hjertekrampe”): 
+<p>Stabil angina pectoris (også kaldet "hjertekrampe"): 
 Stabil hjertekrampe er en hjertesygdom, som opstår, når hjertet ikke får tilstrækkeligt med ilt. De mest 
 almindelige symptomer på hjertekrampe er smerter eller ubehag i brystet.  </p>
 <p>Kronisk hjertesvigt: 
@@ -527,7 +527,7 @@ ritonavir) eller nefazodon (medicin til behandling af depressioner) eller diltia
 Kontakt lægen eller apotekspersonalet, før De tager Corlentor 
 - hvis De lider af forstyrrelser i hjertets rytme (uregelmæssig puls, hjertebanken, smerter i 
 brystkassen) eller vedvarende hjerteflimmer (hurtig, meget uregelmæssig puls) eller en 
-abnormitet i elektrokardiogrammet (ekg) kaldet ”lang QT-syndrom” 
+abnormitet i elektrokardiogrammet (ekg) kaldet "lang QT-syndrom" 
 - hvis De har symptomer som træthed, svimmelhed eller kortåndethed (det kan betyde, at Deres 
 hjerte slår for langsomt) 
 -<br />
@@ -536,8 +536,8 @@ minuttet) eller uregelmæssig uden nogen tydelig grund, hvilket gør det vanskel
 pulsen) 
 - hvis De for nylig har haft et slagtilfælde (blodprop i hjernen/hjerneblødning) 
 - hvis De lider af lavt blodtryk i let til moderat grad 
-- hvis Deres blodtryk ikke er under kontrol – især efter en ændring i Deres blodtryksbehandling 
-- hvis De lider af alvorligt hjertesvigt eller hjertesvigt med en abnormitet i ekg kaldet ”grenblok” 
+- hvis Deres blodtryk ikke er under kontrol - især efter en ændring i Deres blodtryksbehandling 
+- hvis De lider af alvorligt hjertesvigt eller hjertesvigt med en abnormitet i ekg kaldet "grenblok" 
 - hvis De lider af en kronisk nethindesygdom i øjet 
 - hvis De lider af moderate leverproblemer 
 - hvis De lider af svære problemer med nyrerne 
@@ -581,16 +581,16 @@ Undgå grapefrugtjuice under behandling med Corlentor. </p>
 <p>Graviditet og amning 
 Hvis De er gravid eller ammer, har mistanke om, at De er gravid, eller planlægger at blive gravid, skal 
 De spørge Deres læge eller apotekspersonalet til råds, før De tager dette lægemiddel. 
-De må ikke tage Corlentor, hvis De er gravid eller planlægger at blive gravid (se under ”Tag ikke 
-Corlentor”). 
+De må ikke tage Corlentor, hvis De er gravid eller planlægger at blive gravid (se under "Tag ikke 
+Corlentor"). 
 Tal med Deres læge, hvis De er gravid og har taget Corlentor.<br />
-Tag ikke Corlentor, hvis De kan blive gravid, medmindre De anvender sikker prævention (se ”Tag 
-ikke Corlentor”). 
-De må ikke tage Corlentor, hvis De ammer (se under ”Tag ikke Corlentor”). Tal med lægen, hvis De 
+Tag ikke Corlentor, hvis De kan blive gravid, medmindre De anvender sikker prævention (se "Tag 
+ikke Corlentor"). 
+De må ikke tage Corlentor, hvis De ammer (se under "Tag ikke Corlentor"). Tal med lægen, hvis De 
 ammer eller ønsker at amme, da amning skal ophøre, hvis De tager Corlentor. </p>
 <p>Trafik- og arbejdssikkerhed 
 Corlentor kan forårsage forbigående lysfænomener (forbigående lysglimt i synsfeltet, se under 
-”Bivirkninger”). Hvis De får det, skal De udvise forsigtighed, når De kører bil eller betjener maskiner, 
+"Bivirkninger"). Hvis De får det, skal De udvise forsigtighed, når De kører bil eller betjener maskiner, 
 specielt på tidspunkter, hvor der kan forekomme pludselige ændringer i lysintensiteten, især ved 
 nattekørsel.  </p>
 <p>Corlentor indeholder lactose 
@@ -709,9 +709,9 @@ magnesiumstearat (E 470 B), gul jernoxid (E 172), rød jernoxid (E 172).  </li>
 </ul>
 <p>Udseende og pakningsstørrelser 
 Corlentor 5 mg tabletter er laksefarvede, aflange filmovertrukne tabletter med delekærv på begge 
-sider, mærket med ”5” på den ene side og 
+sider, mærket med "5" på den ene side og 
  på den anden. 
-Corlentor 7,5 mg tabletter er laksefarvede, trekantede filmovertrukne tabletter, mærket med ”7.5” på 
+Corlentor 7,5 mg tabletter er laksefarvede, trekantede filmovertrukne tabletter, mærket med "7.5" på 
 den ene side og 
  på den anden.  </p>
 <p>Tabletterne fås i kalenderpakninger (blisterkort af aluminium/PVC) med 14, 28, 56, 84, 98, 100 eller 
@@ -729,7 +729,7 @@ F-45520 Gidy
 Frankrig </p>
 <p>Servier (Ireland) Industries Ltd 
 Gorey Road 
-Arklow – Co. Wicklow 
+Arklow - Co. Wicklow 
 Irland </p>
 <p>Przedsiebiorstwo Farmaceutyczne ANPHARM S.A. 
 ul. Annopol 6B -<br />
@@ -743,7 +743,7 @@ repræsentant for indehaveren af markedsføringstilladelsen: </p>
 <p>België/Belgique/Belgien 
 S.A. Servier Benelux N.V. 
 Tél/Tel: +32 (0)2 529 43 Lietuva 
-UAB ”SERVIER PHARMA” 
+UAB "SERVIER PHARMA" 
 Tel: +370 (5) 2 63 86<br />
 България 
 Сервие Медикал ЕООД 
@@ -840,8 +840,6 @@ Description: "ePI document Bundle for corlentor Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -864,8 +862,6 @@ Description: "ePI document Bundle for corlentor Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -886,8 +882,8 @@ Usage: #example
 
 Instance: mpefd5322cfb4c4cd93acfd97776160afe
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product corlentor"
-Description: "corlentor"
+Title: "Medicinal Product Corlentor 5 mg film-coated tablets"
+Description: "Corlentor 5 mg film-coated tablets"
 Usage: #inline
 
  
@@ -900,14 +896,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Symptomatic treatment of chronic stable angina pectoris"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "corlentor"
+  * productName = "Corlentor 5 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -927,10 +920,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

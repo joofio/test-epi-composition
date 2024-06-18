@@ -1374,8 +1374,6 @@ Description: "ePI document Bundle for ruxience Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1398,8 +1396,6 @@ Description: "ePI document Bundle for ruxience Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1420,8 +1416,8 @@ Usage: #example
 
 Instance: mpce47e28e6dc466e32ff754112a937d33
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product ruxience"
-Description: "ruxience"
+Title: "Medicinal Product Ruxience 100 mg concentrate for solution for infusion"
+Description: "Ruxience 100 mg concentrate for solution for infusion"
 Usage: #inline
 
  
@@ -1434,14 +1430,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Ruxience is indicated in adults for the following indications:"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "ruxience"
+  * productName = "Ruxience 100 mg concentrate for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1461,10 +1454,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

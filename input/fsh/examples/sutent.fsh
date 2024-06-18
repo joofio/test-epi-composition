@@ -714,19 +714,19 @@ er købt på recept.
 Visse lægemidler kan påvirke mængden af Sutent i kroppen. Fortæl det derfor til lægen, hvis du
 bruger lægemidler, som indeholder nogle af følgende aktive stoffer: 
 
-ketoconazol, itraconazol – bruges til behandling af svampeinfektion
+ketoconazol, itraconazol - bruges til behandling af svampeinfektion
 
-erythromycin, clarithromycin, rifampicin – bruges til behandling af infektion
+erythromycin, clarithromycin, rifampicin - bruges til behandling af infektion
 
-ritonavir – til behandling af hiv
+ritonavir - til behandling af hiv
 
-dexamethason – et binyrebarkhormon, som bruges til behandling af flere forskellige tilstande 
+dexamethason - et binyrebarkhormon, som bruges til behandling af flere forskellige tilstande 
 (som fx allergi/vejrtrækningsproblemer og hudsygdomme)
 
-phenytoin, carbamazepin, phenobarbital – bruges til behandling af bl.a. epilepsi og andre 
+phenytoin, carbamazepin, phenobarbital - bruges til behandling af bl.a. epilepsi og andre 
 forstyrrelser i nervesystemet 
 
-naturlægemiddel, som indeholder perikon (Hypericum perforatum) – bruges til 
+naturlægemiddel, som indeholder perikon (Hypericum perforatum) - bruges til 
 lindring af nervøsitet og nedtrykthed
 Brug af Sutent sammen med mad og drikke
 Sutent bør ikke tages sammen med grapefrugtjuice. 
@@ -954,7 +954,7 @@ Hyppighed ikke kendt (kan ikke estimeres fra forhåndenværende data):
 En udvidelse og svækkelse af en blodårevæg eller en rift i en blodårevæg (aneurismer og 
 arterielle dissektioner).
 
-Manglende energi, forvirring, søvnighed, bevidstløshed/koma – disse symptomer kan være tegn 
+Manglende energi, forvirring, søvnighed, bevidstløshed/koma - disse symptomer kan være tegn 
 på forgiftning af hjernen som følge af et højt indhold af ammonium i blodet 
 (hyperammonæmisk encefalopati).
 Indberetning af bivirkninger
@@ -1041,7 +1041,7 @@ Boulevard de la Plaine 17
 Belgien
 Fremstiller
 Pfizer Italia S.r.l.
-Via del Commercio – Zona Industriale 63100 Marino del Tronto (Ascoli Piceno)
+Via del Commercio - Zona Industriale 63100 Marino del Tronto (Ascoli Piceno)
 Italien
 Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
 repræsentant for indehaveren af markedsføringstilladelsen:
@@ -1174,8 +1174,6 @@ Description: "ePI document Bundle for sutent Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1198,8 +1196,6 @@ Description: "ePI document Bundle for sutent Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1220,8 +1216,8 @@ Usage: #example
 
 Instance: mpa3cd214d19f3341c3aa081ac17f909d1
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product sutent"
-Description: "sutent"
+Title: "Medicinal Product Sutent 12.5 mg hard capsules"
+Description: "Sutent 12.5 mg hard capsules"
 Usage: #inline
 
  
@@ -1234,14 +1230,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Gastrointestinal stromal tumour (GIST)"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "sutent"
+  * productName = "Sutent 12.5 mg hard capsules"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1261,10 +1254,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

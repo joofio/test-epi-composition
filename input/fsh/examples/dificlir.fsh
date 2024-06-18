@@ -594,7 +594,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
   * code.text = "5. How to store dificlir"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
-<p>Brug ikke lægemidlet efter den udløbsdato, der står på kartonen efter ”EXP”. Udløbsdatoen er den 
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på kartonen efter "EXP". Udløbsdatoen er den 
 sidste dag i den nævnte måned. </p>
 <p>Spørg apotekspersonalet, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke 
 smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
@@ -615,8 +615,8 @@ Filmovertræk: Polyvinylalkohol, titandioxid (E171), talcum, polyethylenglycol o
 (soja) </li>
 </ul>
 <p>Udseende og pakningsstørrelser 
-DIFICLIR 200 mg filmovertrukne tabletter er kapselformede tabletter, hvide til råhvide med ”FDX” 
-på den ene side og ”200” på den anden side. </p>
+DIFICLIR 200 mg filmovertrukne tabletter er kapselformede tabletter, hvide til råhvide med "FDX" 
+på den ene side og "200" på den anden side. </p>
 <p>DIFICLIR fås i: 
 100 x 1 filmovertrukken tablet i alu/alu perforerede enkeltdosisblistre. 
 20 x 1 filmovertrukken tablet i alu/alu perforerede enkeltdosisblistre. </p>
@@ -654,8 +654,6 @@ Description: "ePI document Bundle for dificlir Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -678,8 +676,6 @@ Description: "ePI document Bundle for dificlir Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -700,8 +696,8 @@ Usage: #example
 
 Instance: mpe96a2b015f0fafafc915826cda7b875c
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product dificlir"
-Description: "dificlir"
+Title: "Medicinal Product DIFICLIR 200 mg film-coated tablets"
+Description: "DIFICLIR 200 mg film-coated tablets"
 Usage: #inline
 
  
@@ -714,14 +710,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "DIFICLIR film-coated tablets is indicated for the treatment of Clostridioides difficile infections (CDI)"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "dificlir"
+  * productName = "DIFICLIR 200 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -741,10 +734,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

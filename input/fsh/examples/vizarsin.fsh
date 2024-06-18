@@ -804,8 +804,6 @@ Description: "ePI document Bundle for vizarsin Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -828,8 +826,6 @@ Description: "ePI document Bundle for vizarsin Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -850,8 +846,8 @@ Usage: #example
 
 Instance: mp4f21ade1d3a44922f890a931e55ca9a9
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product vizarsin"
-Description: "vizarsin"
+Title: "Medicinal Product Vizarsin 25 mg film-coated tablets"
+Description: "Vizarsin 25 mg film-coated tablets"
 Usage: #inline
 
  
@@ -864,14 +860,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Vizarsin is indicated in adult men with erectile dysfunction, which is the inability to achieve or"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "vizarsin"
+  * productName = "Vizarsin 25 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -891,10 +884,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

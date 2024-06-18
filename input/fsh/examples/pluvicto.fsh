@@ -899,8 +899,6 @@ Description: "ePI document Bundle for pluvicto Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -923,8 +921,6 @@ Description: "ePI document Bundle for pluvicto Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -945,8 +941,8 @@ Usage: #example
 
 Instance: mpb22e4f6e000233f7a0ddfe37c0cbf809
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product pluvicto"
-Description: "pluvicto"
+Title: "Medicinal Product Pluvicto 1 000 MBq/mL solution for injection/infusion"
+Description: "Pluvicto 1 000 MBq/mL solution for injection/infusion"
 Usage: #inline
 
  
@@ -959,14 +955,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Pluvicto in combination with androgen deprivation therapy (ADT) with or without androgen receptor"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "pluvicto"
+  * productName = "Pluvicto 1 000 MBq/mL solution for injection/infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -986,10 +979,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

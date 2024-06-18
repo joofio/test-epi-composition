@@ -596,7 +596,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken efter "Anv. inden". Udløbsdatoen er den 
 sidste dag i den nævnte måned. </p>
-<p>Opbevares i køleskab (2 °C – 8 °C). Må ikke nedfryses. Opbevares i den originale yderpakning for at 
+<p>Opbevares i køleskab (2 °C - 8 °C). Må ikke nedfryses. Opbevares i den originale yderpakning for at 
 beskytte mod lys. </p>
 <p>Voxzogo kan opbevares ved stuetemperatur (under 30 °C) i op til 90 dage, men ikke længere end 
 udløbsdatoen. Voxzogo må ikke anbringes i køleskab efter opbevaring ved stuetemperatur. Notér 
@@ -1043,8 +1043,6 @@ Description: "ePI document Bundle for voxzogo Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1067,8 +1065,6 @@ Description: "ePI document Bundle for voxzogo Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1089,8 +1085,8 @@ Usage: #example
 
 Instance: mpe6fbce999498edd4c95f0774e58fd4a0
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product voxzogo"
-Description: "voxzogo"
+Title: "Medicinal Product Voxzogo 0.4 mg powder and solvent for solution for injection"
+Description: "Voxzogo 0.4 mg powder and solvent for solution for injection"
 Usage: #inline
 
  
@@ -1103,14 +1099,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Voxzogo is indicated for the treatment of achondroplasia in patients 4 months of age and older whose"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "voxzogo"
+  * productName = "Voxzogo 0.4 mg powder and solvent for solution for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1130,10 +1123,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

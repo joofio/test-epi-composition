@@ -708,8 +708,6 @@ Description: "ePI document Bundle for roteas Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -732,8 +730,6 @@ Description: "ePI document Bundle for roteas Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -754,8 +750,8 @@ Usage: #example
 
 Instance: mpd3bf47e7430f03a3543b0c027649dc7a
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product roteas"
-Description: "roteas"
+Title: "Medicinal Product Roteas 15 mg film-coated tablets"
+Description: "Roteas 15 mg film-coated tablets"
 Usage: #inline
 
  
@@ -768,14 +764,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Roteas is indicated in prevention of stroke and systemic embolism in adult patients with nonvalvular"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "roteas"
+  * productName = "Roteas 15 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -795,10 +788,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

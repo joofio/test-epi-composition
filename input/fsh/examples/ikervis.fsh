@@ -711,8 +711,6 @@ Description: "ePI document Bundle for ikervis Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -735,8 +733,6 @@ Description: "ePI document Bundle for ikervis Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -757,8 +753,8 @@ Usage: #example
 
 Instance: mp1f85f95883d4c92167ca0868ad5c50fd
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product ikervis"
-Description: "ikervis"
+Title: "Medicinal Product IKERVIS 1 mg/mL eye drops, emulsion"
+Description: "IKERVIS 1 mg/mL eye drops, emulsion"
 Usage: #inline
 
  
@@ -771,14 +767,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Treatment of severe keratitis in adult patients with dry eye disease, which has not improved despite"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "ikervis"
+  * productName = "IKERVIS 1 mg/mL eye drops, emulsion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -798,10 +791,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

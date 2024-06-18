@@ -462,7 +462,7 @@ maskiner. </p>         </div>"""
   * code.text = "3. How to take gliolan"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel er et pulver, som først skal blandes med drikkevand inden brug. Dette gøres altid af 
-apotekspersonalet eller en sygeplejerske – ikke af dig selv. Den normale dosis er 20 mg 5-ALA HCl 
+apotekspersonalet eller en sygeplejerske - ikke af dig selv. Den normale dosis er 20 mg 5-ALA HCl 
 pr. kilogram legemsvægt. Apotekeren eller sygeplejersken vil beregne den nøjagtige dosis, som du har 
 brug for, og den mængde opløsning (i ml), som du skal drikke. Du skal drikke den tilberedte opløsning 
 2-4 timer inden bedøvelsen. </p>
@@ -648,7 +648,7 @@ Fannin Ltd
 Fannin House 
 South County Business Park 
 Leopardstown 
-IRL – Dublin Tel: + 353 (0)1 290 7medical@dccvital.com </p>
+IRL - Dublin Tel: + 353 (0)1 290 7medical@dccvital.com </p>
 <p>Denne indlægsseddel blev senest ændret  </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
 hjemmeside http://www.ema.europa.eu. </p>
@@ -665,8 +665,6 @@ InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for gliolan Package Leaflet for language en"
 Description: "ePI document Bundle for gliolan Package Leaflet for language en"
 Usage: #example
-
-
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
@@ -691,8 +689,6 @@ Description: "ePI document Bundle for gliolan Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -713,8 +709,8 @@ Usage: #example
 
 Instance: mp28443e1a5133f6583423ca208758fe45
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product gliolan"
-Description: "gliolan"
+Title: "Medicinal Product Gliolan 30 mg/ml powder for oral solution."
+Description: "Gliolan 30 mg/ml powder for oral solution."
 Usage: #inline
 
  
@@ -727,14 +723,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Gliolan is indicated in adults for visualisation of malignant tissue during surgery for malignant glioma"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "gliolan"
+  * productName = "Gliolan 30 mg/ml powder for oral solution."
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -754,10 +747,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

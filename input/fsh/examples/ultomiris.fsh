@@ -776,7 +776,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken efter "EXP". Udløbsdatoen er den sidste 
 dag i den nævnte måned. 
-Opbevares i køleskab (2 °C–8 °C).<br />
+Opbevares i køleskab (2 °C-8 °C).<br />
 Må ikke nedfryses. </p>
 <p>Opbevares i den originale yderpakning for at beskytte mod lys. 
 Efter fortynding med natriumchlorid 9 mg/ml (0,9 %) injektionsvæske, opløsning skal lægemidlet 
@@ -798,7 +798,7 @@ monohydrat, natriumchlorid, polysorbat 80, vand til injektionsvæsker. </li>
 </ul>
 <p>Dette lægemiddel indeholder natrium (se punkt 2 "Ultomiris indeholder natrium"). </p>
 <p>Udseende og pakningsstørrelser 
-Ultomiris fås som et koncentrat til injektionsvæske, opløsning (30 ml i et hætteglas – 
+Ultomiris fås som et koncentrat til injektionsvæske, opløsning (30 ml i et hætteglas - 
 pakningsstørrelse på 1). 
 Ultomiris er en klar til gennemsigtig opløsning med let hvidlig farve, der er så godt som fri for 
 partikler. </p>
@@ -1013,7 +1013,7 @@ b Ultomiris må kun fortyndes med natriumchlorid 9 mg/ml (0,9 %) injektionsvæsk
 <ul>
 <li>Infusionsposen med den fortyndede Ultomiris-opløsning rystes forsigtigt for at sikre, at 
 lægemidlet og fortyndingsmidlet blandes grundigt. Ultomiris må ikke omrystes. </li>
-<li>Den fortyndede opløsning skal have tid til at nå stuetemperatur (18 °C – 25 °C) før 
+<li>Den fortyndede opløsning skal have tid til at nå stuetemperatur (18 °C - 25 °C) før 
 administration ved eksponering for omgivende luft i ca. 30 minutter. </li>
 <li>Den fortyndede opløsning må ikke opvarmes i en mikrobølgeovn eller med andre varmekilder 
 end den omgivende rumtemperatur. </li>
@@ -1022,7 +1022,7 @@ konserveringsmidler. </li>
 <li>Den klargjorte opløsning skal administreres straks efter fortynding. Infusionen skal 
 administreres via et 0,2 µm filter. </li>
 <li>Hvis lægemidlet ikke anvendes straks efter fortynding, må opbevaringstiderne ikke overskride 
-24 timer ved 2 °C – 8 °C eller 6 timer ved stuetemperatur under hensyntagen til den forventede 
+24 timer ved 2 °C - 8 °C eller 6 timer ved stuetemperatur under hensyntagen til den forventede 
 infusionstid.  </li>
 </ul>
 <p>3- Administration 
@@ -1067,8 +1067,6 @@ Description: "ePI document Bundle for ultomiris Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1091,8 +1089,6 @@ Description: "ePI document Bundle for ultomiris Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1113,8 +1109,8 @@ Usage: #example
 
 Instance: mp1d2f698bc3b19bc75adea93b8b5c0811
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product ultomiris"
-Description: "ultomiris"
+Title: "Medicinal Product Ultomiris 300 mg/3 mL concentrate for solution for infusion"
+Description: "Ultomiris 300 mg/3 mL concentrate for solution for infusion"
 Usage: #inline
 
  
@@ -1127,14 +1123,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Paroxysmal nocturnal haemoglobinuria (PNH)"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "ultomiris"
+  * productName = "Ultomiris 300 mg/3 mL concentrate for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1154,10 +1147,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

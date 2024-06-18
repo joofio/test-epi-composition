@@ -663,8 +663,6 @@ Description: "ePI document Bundle for mozobil Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -687,8 +685,6 @@ Description: "ePI document Bundle for mozobil Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -709,8 +705,8 @@ Usage: #example
 
 Instance: mpb1fb2a2948a2c3c9fab67f4b0e8ec1e3
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product mozobil"
-Description: "mozobil"
+Title: "Medicinal Product Mozobil 20 mg/ml solution for injection"
+Description: "Mozobil 20 mg/ml solution for injection"
 Usage: #inline
 
  
@@ -723,14 +719,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Adult patients"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "mozobil"
+  * productName = "Mozobil 20 mg/ml solution for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -750,10 +743,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

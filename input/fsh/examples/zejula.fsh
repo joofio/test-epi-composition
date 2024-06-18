@@ -600,15 +600,15 @@ behov for akut behandling: </p>
 <p>Meget almindelig (kan forekomme hos mere end 1 ud af 10 personer) </p>
 <ul>
 <li>
-<p>Blå mærker eller blødning, der varer længere end normalt, hvis du kommer til skade – dette kan 
+<p>Blå mærker eller blødning, der varer længere end normalt, hvis du kommer til skade - dette kan 
 være tegn på et lavt antal blodplader (trombocytopeni). </p>
 </li>
 <li>
-<p>Åndenød, udtalt træthed, bleg hud eller hurtig puls – dette kan være tegn på et lavt antal røde 
+<p>Åndenød, udtalt træthed, bleg hud eller hurtig puls - dette kan være tegn på et lavt antal røde 
 blodlegemer (blodmangel (anæmi)). </p>
 </li>
 <li>
-<p>Feber eller infektion – et lavt antal hvide blodlegemer (neutropeni) kan medføre øget risiko for 
+<p>Feber eller infektion - et lavt antal hvide blodlegemer (neutropeni) kan medføre øget risiko for 
 infektioner. Tegnene kan være feber, kulderystelser, svaghed eller forvirring, hoste, smerter 
 eller en brændende fornemmelse, når du tisser. Nogle infektioner kan være alvorlige og kan 
 have dødelig udgang. </p>
@@ -620,7 +620,7 @@ have dødelig udgang. </p>
 <p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 personer) </p>
 <ul>
 <li>Allergisk reaktion (herunder alvorlig allergisk reaktion, der kan være livstruende). Tegn på dette 
-inkluderer hævede og kløende udslæt (nældefeber) og hævelse – nogle gange i ansigtet eller 
+inkluderer hævede og kløende udslæt (nældefeber) og hævelse - nogle gange i ansigtet eller 
 munden (angioødem), hvilket medfører åndedrætsbesvær og kollaps eller tab af bevidsthed.<br />
 •<br />
 Lavt antal blodlegemer på grund af et problem i knoglemarven eller blodkræft stammende fra 
@@ -826,7 +826,7 @@ Trykfarve: shellac (E 904), propylenglycol (E 1520), kaliumhydroxid (E 525), sor
 (E 172), natriumhydroxid (E 524), povidon (E 1201) og titandioxid (E 171). </p>
 </li>
 </ul>
-<p>Dette lægemiddel indeholder lactose og tartrazin – se punkt 2 for yderligere oplysninger. </p>
+<p>Dette lægemiddel indeholder lactose og tartrazin - se punkt 2 for yderligere oplysninger. </p>
 <p>Udseende og pakningsstørrelser </p>
 <p>Zejula hårde kapsler har en hvid uigennemsigtig underdel og en lilla uigennemsigtig overdel. Den 
 hvide uigennemsigtige underdel er påtrykt "100 mg" med sort blæk, og den lilla overdel er påtrykt 
@@ -909,7 +909,7 @@ France
 Laboratoire GlaxoSmithKline 
 Tél: + 33 (0)1 39 17 84 diam@gsk.com </p>
 <p>Portugal 
-GlaxoSmithKline – Produtos Farmacêuticos, Lda. 
+GlaxoSmithKline - Produtos Farmacêuticos, Lda. 
 Tel: + 351 21 412 95 FI.PT@gsk.com<br />
 Hrvatska 
 GlaxoSmithKline (Ireland) Limited 
@@ -974,8 +974,6 @@ Description: "ePI document Bundle for zejula Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -998,8 +996,6 @@ Description: "ePI document Bundle for zejula Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1020,8 +1016,8 @@ Usage: #example
 
 Instance: mpa48fce64d5ddc98dc0fe03d5edc214e9
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product zejula"
-Description: "zejula"
+Title: "Medicinal Product Zejula 100 mg hard capsules"
+Description: "Zejula 100 mg hard capsules"
 Usage: #inline
 
  
@@ -1034,14 +1030,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Zejula is indicated:"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "zejula"
+  * productName = "Zejula 100 mg hard capsules"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1061,10 +1054,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

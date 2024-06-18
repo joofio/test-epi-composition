@@ -545,7 +545,7 @@ Advarsler og forsigtighedsregler
 Kontakt lægen eller apotekspersonalet, før du tager Vargatef
 -
 hvis du har eller har haft problemer med leveren, hvis du har eller har haft problemer med 
-blødning – især blødning i lungerne for nylig.
+blødning - især blødning i lungerne for nylig.
 -
 hvis du har eller har haft problemer med nyrerne, eller hvis der er blevet målt en øget mængde 
 protein i din urin.
@@ -727,7 +727,7 @@ Følgende bivirkninger er observeret under behandling med dette lægemiddel:
 40
 Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 personer)
 
-Diarré – se ovenfor 
+Diarré - se ovenfor 
 
 Smerter, følelsesløshed og/eller en prikkende/snurrende fornemmelse i fingre og tæer (perifer 
 neuropati)
@@ -757,7 +757,7 @@ blodprøver
 Hårtab (alopeci).
 Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 personer)
 
-Blodforgiftning (sepsis) – se ovenfor
+Blodforgiftning (sepsis) - se ovenfor
 
 Nedsat antal hvide blodlegemer ledsaget af feber (febril neutropeni)
 
@@ -991,8 +991,6 @@ Description: "ePI document Bundle for vargatef Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1015,8 +1013,6 @@ Description: "ePI document Bundle for vargatef Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1037,8 +1033,8 @@ Usage: #example
 
 Instance: mp83c6c3334f07b6c02aea88893af34509
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product vargatef"
-Description: "vargatef"
+Title: "Medicinal Product Vargatef 100 mg soft capsules"
+Description: "Vargatef 100 mg soft capsules"
 Usage: #inline
 
  
@@ -1051,14 +1047,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Vargatef is indicated in combination with docetaxel for the treatment of adult patients with locally"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "vargatef"
+  * productName = "Vargatef 100 mg soft capsules"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1078,10 +1071,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

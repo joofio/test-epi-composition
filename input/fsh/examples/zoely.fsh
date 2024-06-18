@@ -827,7 +827,7 @@ eventuelt frigivet æg bliver befrugtet, og du bliver gravid. </p>
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Generelt  </p>
 <p>Før du begynder at tage Zoely, skal du læse oplysningerne vedrørende blodpropper (trombose) i punkt 
-2. Det er især vigtigt at læse om symptomerne på en blodprop – se punkt 2 “Blodpropper". </p>
+2. Det er især vigtigt at læse om symptomerne på en blodprop - se punkt 2 “Blodpropper". </p>
 <p>Før du kan begynde at tage Zoely, vil din læge stille dig nogle spørgsmål vedrørende din og din 
 nærmeste families sygdomshistorik for at kunne give dig en individuel rådgivning om behandlingen. 
 Lægen vil også måle dit blodtryk og vil eventuelt, afhængigt af din situation, tage andre prøver. </p>
@@ -850,7 +850,7 @@ der kan være bedre for dig. </p>
 lungerne (lungeemboli, PE) eller andre organer; </p>
 </li>
 <li>
-<p>hvis du har en sygdom, som påvirker blodets evne til at størkne – f.eks. protein C-mangel, 
+<p>hvis du har en sygdom, som påvirker blodets evne til at størkne - f.eks. protein C-mangel, 
 protein S-mangel, antitrombin-III-mangel, faktor V Leiden eller antifosfolipid-antistoffer; </p>
 </li>
 <li>
@@ -867,15 +867,13 @@ iltmangel i hjernen på grund af en blodprop (transitorisk iskæmisk anfald, TIA
 </li>
 <li>
 <p>hvis du har en eller flere af følgende sygdomme, der kan øge din risiko for en blodprop i 
-pulsårerne:<br />
-– 
-alvorlig sukkersyge (diabetes) med beskadigede blodkar 
-– 
-meget højt blodtryk 
-– 
-et meget højt indhold af en bestemt type fedt i blodet (kolesterol eller triglycerider) 
-– 
-en tilstand kaldet hyperhomocysteinæmi </p>
+pulsårerne:  </p>
+</li>
+<li>alvorlig sukkersyge (diabetes) med beskadigede blodkar </li>
+<li>meget højt blodtryk </li>
+<li>et meget højt indhold af en bestemt type fedt i blodet (kolesterol eller triglycerider) </li>
+<li>
+<p>en tilstand kaldet hyperhomocysteinæmi </p>
 </li>
 <li>
 <p>hvis du nogensinde har haft en form for migræne kaldet "migræne med aura"; </p>
@@ -1548,8 +1546,8 @@ tage de 4 gule placebotabletter, og start så på det tredje blisterkort. Spørg
 apotekspersonalet til råds, hvis du ikke er sikker på, hvad du skal gøre. </p>
 <p>Hvis du ønsker at ændre den første dag for din menstruation 
 Hvis du tager tabletterne som anvist, vil din menstruation begynde i løbet af placebo-dagene. Hvis du 
-vil ændre denne dag, skal du reducere antallet af placebo-dage – de dage hvor du tager de gule 
-placebotabletter – men forøg dem aldrig (4 er maksimum). Hvis du for eksempel starter med at tage de 
+vil ændre denne dag, skal du reducere antallet af placebo-dage - de dage hvor du tager de gule 
+placebotabletter - men forøg dem aldrig (4 er maksimum). Hvis du for eksempel starter med at tage de 
 gule placebotabletter på en fredag, og du ønsker at ændre dette til en tirsdag (3 dage tidligere), skal du 
 begynde på et nyt blisterkort 3 dage tidligere end normalt. Det kan være, du ikke får din menstruation i 
 denne forkortede periode med gule placebotabletter. Mens du bruger den næste blisterpakke, kan du få 
@@ -1956,8 +1954,6 @@ Description: "ePI document Bundle for zoely Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1980,8 +1976,6 @@ Description: "ePI document Bundle for zoely Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -2002,8 +1996,8 @@ Usage: #example
 
 Instance: mp03f98a1996ed57d7e15b1f1c7ae087d9
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product zoely"
-Description: "zoely"
+Title: "Medicinal Product Zoely 2.5 mg/1.5 mg film-coated tablets"
+Description: "Zoely 2.5 mg/1.5 mg film-coated tablets"
 Usage: #inline
 
  
@@ -2016,14 +2010,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Oral contraception."
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "zoely"
+  * productName = "Zoely 2.5 mg/1.5 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -2043,10 +2034,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

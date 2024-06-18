@@ -524,7 +524,7 @@ vejrtrækningsproblemer. </p>
 <p>Hvis du har en langsom puls, hjertesvigt eller forstyrrelser i hjerterytmen (uregelmæssig puls). </p>
 </li>
 <li>
-<p>Hvis du lider af for høj surhedsgrad i blodet (en tilstand kaldet ”hyperkloræmisk acidose”). </p>
+<p>Hvis du lider af for høj surhedsgrad i blodet (en tilstand kaldet "hyperkloræmisk acidose"). </p>
 </li>
 <li>
 <p>Hvis du har alvorlige nyreproblemer. </p>
@@ -673,7 +673,7 @@ skal den fjernes, inden præparatet tages i brug. </p>
 </li>
 <li>
 <p>Læn hovedet tilbage. Træk ned i det nederste øjenlåg med en ren finger, indtil der dannes en 
-”lomme” mellem øjenlåget og øjet. Dråben skal placeres der (billede 1). </p>
+"lomme" mellem øjenlåget og øjet. Dråben skal placeres der (billede 1). </p>
 </li>
 <li>
 <p>Hold spidsen af flasken tæt hen til øjet. Brug spejlet, hvis det gør det nemmere. </p>
@@ -791,7 +791,7 @@ puls, hjertebanken, en slags forstyrrelse i hjerterytmen, unormal stigning i pul
 nedsat hjertefunktion, hjerteanfald, forhøjet blodtryk, nedsat blodtilførsel til hjernen, 
 slagtilfælde, ødem (væskeophobning), hjertesvigt (hjertesygdom med åndenød og hævede 
 fødder og ben på grund af væskeophobning), hævede arme og ben, lavt blodtryk, misfarvning 
-af fingre, tæer og sommetider også andre legemsdele, (Raynauds fænomen − hvide, ”døde” 
+af fingre, tæer og sommetider også andre legemsdele, (Raynauds fænomen − hvide, "døde" 
 fingre og tæer), kolde hænder og fødder. </p>
 </li>
 <li>
@@ -1014,8 +1014,6 @@ Description: "ePI document Bundle for azarga Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1038,8 +1036,6 @@ Description: "ePI document Bundle for azarga Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1060,8 +1056,8 @@ Usage: #example
 
 Instance: mp244f0d5975a83ec03b917d6f24b1b649
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product azarga"
-Description: "azarga"
+Title: "Medicinal Product AZARGA 10 mg/ml + 5 mg/ml eye drops, suspension"
+Description: "AZARGA 10 mg/ml + 5 mg/ml eye drops, suspension"
 Usage: #inline
 
  
@@ -1074,14 +1070,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Decrease of intraocular pressure (IOP) in adult patients with open-angle glaucoma or ocular"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "azarga"
+  * productName = "AZARGA 10 mg/ml + 5 mg/ml eye drops, suspension"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1101,10 +1094,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

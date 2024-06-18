@@ -437,7 +437,7 @@ punkt 6) </p>
 f.eks. calcitriol) </p>
 </li>
 <li>
-<p>du allerede har et højt niveau af fosfat i blodet (”hyperfosfatæmi”) </p>
+<p>du allerede har et højt niveau af fosfat i blodet ("hyperfosfatæmi") </p>
 </li>
 <li>
 <p>du har svær nyresygdom eller nyresvigt. </p>
@@ -494,7 +494,7 @@ fortælle dig, hvilke det drejer sig om. </p>
 <p>Kontakt lægen, før du tager CRYSVITA: </p>
 <ul>
 <li>
-<p>hvis du tager lægemidler, der virker på samme måde som calcium i kroppen (”calcimimetika”). 
+<p>hvis du tager lægemidler, der virker på samme måde som calcium i kroppen ("calcimimetika"). 
 Hvis de bruges samtidigt, kan de sænke calciumniveauet i blodet. </p>
 </li>
 <li>
@@ -702,7 +702,7 @@ sundhedspersonalet eller apotekspersonalet. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>CRYSVITA indeholder: 
 Aktivt stof: burosumab. Hvert hætteglas indeholder enten 10, 20 eller 30 mg burosumab. 
 Øvrige indholdsstoffer: L-histidin, D-sorbitol (E420), polysorbat 80, L-methionin, 10 % saltsyre og 
-vand til injektionsvæsker. (Se ”CRYSVITA indeholder sorbitol” i punkt 2 for yderligere oplysninger). </p>
+vand til injektionsvæsker. (Se "CRYSVITA indeholder sorbitol" i punkt 2 for yderligere oplysninger). </p>
 <p>Udseende og pakningsstørrelser 
 CRYSVITA leveres som en klar til let opaliserende, farveløs til svagt gul/brun injektionsvæske, 
 opløsning i et lille hætteglas af glas. Hver pakning indeholder 1 hætteglas. </p>
@@ -966,8 +966,6 @@ Description: "ePI document Bundle for crysvita Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -990,8 +988,6 @@ Description: "ePI document Bundle for crysvita Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1012,8 +1008,8 @@ Usage: #example
 
 Instance: mp8727047706feba67762f580057591e03
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product crysvita"
-Description: "crysvita"
+Title: "Medicinal Product CRYSVITA 10 mg solution for injection"
+Description: "CRYSVITA 10 mg solution for injection"
 Usage: #inline
 
  
@@ -1026,14 +1022,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "CRYSVITA is indicated for the treatment of X-linked hypophosphataemia, in children and adolescents"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "crysvita"
+  * productName = "CRYSVITA 10 mg solution for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1053,10 +1046,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

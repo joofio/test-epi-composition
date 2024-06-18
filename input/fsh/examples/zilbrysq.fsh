@@ -578,7 +578,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på sprøjtens etiket og den ydre karton efter EXP. 
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
-<p>Opbevares i køleskab (2 °C – 8 °C). 
+<p>Opbevares i køleskab (2 °C - 8 °C). 
 Må ikke nedfryses. 
 Opbevar den fyldte injektionssprøjte i den ydre karton for at beskytte mod lys. </p>
 <p>Du kan opbevare den fyldte injektionssprøjte med Zilbrysq ved stuetemperatur i den originale karton 
@@ -921,8 +921,6 @@ Description: "ePI document Bundle for zilbrysq Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -945,8 +943,6 @@ Description: "ePI document Bundle for zilbrysq Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -967,8 +963,8 @@ Usage: #example
 
 Instance: mp46af9fe042942e0b323406b7f9580690
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product zilbrysq"
-Description: "zilbrysq"
+Title: "Medicinal Product Zilbrysq 16.6 mg solution for injection in pre-filled syringe"
+Description: "Zilbrysq 16.6 mg solution for injection in pre-filled syringe"
 Usage: #inline
 
  
@@ -981,14 +977,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Zilbrysq is indicated as an add-on to standard therapy for the treatment of generalised myasthenia"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "zilbrysq"
+  * productName = "Zilbrysq 16.6 mg solution for injection in pre-filled syringe"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1008,10 +1001,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

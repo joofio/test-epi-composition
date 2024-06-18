@@ -491,7 +491,7 @@ den anbefalede maksimale daglige indtagelse af natrium for en voksen eller en un
 behandling af ASMD eller andre metaboliske sygdomme. </p>
 <p>Den dosis, du får, er baseret på din kropsvægt og du vil få lægemidlet hver anden uge. Behandlingen 
 starter med en lav dosis af lægemidlet, som langsomt øges. 
-Infusionen varer normalt omkring 3 – 4 timer, men afhængigt af din læges vurdering kan den være af 
+Infusionen varer normalt omkring 3 - 4 timer, men afhængigt af din læges vurdering kan den være af 
 kortere eller længere varighed, og den kan være af kortere varighed i perioden, hvor din dosis øges. </p>
 <p>Voksne patienter 
 Den anbefalede startdosis af Xenpozyme er 0,1 mg for hvert kg kropsvægt. Dette øges på en planlagt 
@@ -545,7 +545,7 @@ stoppe infusionen med Xenpozyme og påbegynde passende medicinsk behandling. </p
 <p>Hovedpine </p>
 </li>
 <li>
-<p>Feber – forhøjet kropstemperatur </p>
+<p>Feber - forhøjet kropstemperatur </p>
 </li>
 <li>
 <p>Hævet, kløende udslæt (nældefeber) </p>
@@ -678,11 +678,11 @@ lægemiddel. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke Xenpozyme efter den udløbsdato, der står på etiketten eller kartonen. Udløbsdatoen er den 
 sidste dag i den nævnte måned. </p>
-<p>Opbevares i køleskab (2 °C – 8 °C). </p>
+<p>Opbevares i køleskab (2 °C - 8 °C). </p>
 <p>Det anbefales, at lægemidlet anvendes umiddelbart efter fortynding. </p>
 <p>Hvis det ikke anvendes med det samme, kan den rekonstituerede opløsning opbevares i op til 24 timer 
-ved 2 °C – 8 °C. </p>
-<p>Efter fortynding kan opløsningen opbevares i op til 24 timer ved 2 °C – 8 °C efterfulgt af 12 timer 
+ved 2 °C - 8 °C. </p>
+<p>Efter fortynding kan opløsningen opbevares i op til 24 timer ved 2 °C - 8 °C efterfulgt af 12 timer 
 (infusionstid medregnet) ved stuetemperatur. </p>
 <p>Spørg lægen eller sygeplejersken hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet 
 må du ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
@@ -760,7 +760,7 @@ Sanofi-Aventis Μονοπρόσωπη AEBE
 Τηλ: +30 210 900 16<br />
 Österreich 
 sanofi-aventis GmbH 
-Tel: +43 1 80 185 – 0 </p>
+Tel: +43 1 80 185 - 0 </p>
 <p>España 
 sanofi-aventis, S.A.<br />
 Tel: +34 93 485 94<br />
@@ -835,7 +835,7 @@ hætteglas: patientdosis (i mg) divideret med 20 mg/hætteglas = antal hættegla
 rekonstitueres. Hvis antallet af hætteglas omfatter en decimal, rundes der op til det næste hele 
 tal. 
 2) 
-Tag det nødvendige antal hætteglas ud af køleskabet og lad dem stå i ca. 20 – 30 minutter for at 
+Tag det nødvendige antal hætteglas ud af køleskabet og lad dem stå i ca. 20 - 30 minutter for at 
 lade dem opnå stuetemperatur. 
 3) 
 Rekonstituér hvert hætteglas ved at injicere  </p>
@@ -854,7 +854,7 @@ Træk det volumen af den rekonstituerede opløsning, der svarer til den ordinere
 det korrekte antal hætteglas, og fortynd med natriumchloridopløsning 9 mg/ml (0,9 %) til 
 injektion i en sprøjte eller infusionspose afhængigt af infusionsvolumenet (se tabel 1 for det 
 anbefalede samlede infusionsvolumen baseret på patientens alder og/eller vægt). </p>
-<p>Tabel 1 – Anbefalede infusionsvolumener </p>
+<p>Tabel 1 - Anbefalede infusionsvolumener </p>
 <p>Kropsvægt ≥ 3 kg til 
 &lt; 10 kg 
 Kropsvægt ≥ 10 kg 
@@ -980,8 +980,6 @@ Description: "ePI document Bundle for xenpozyme Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1004,8 +1002,6 @@ Description: "ePI document Bundle for xenpozyme Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1026,8 +1022,8 @@ Usage: #example
 
 Instance: mp1c8a533780954e330a4c10339c9c24f7
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product xenpozyme"
-Description: "xenpozyme"
+Title: "Medicinal Product Xenpozyme 4 mg powder for concentrate for solution for infusion"
+Description: "Xenpozyme 4 mg powder for concentrate for solution for infusion"
 Usage: #inline
 
  
@@ -1040,14 +1036,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Xenpozyme is indicated as an enzyme replacement therapy for the treatment of non-Central Nervous"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "xenpozyme"
+  * productName = "Xenpozyme 4 mg powder for concentrate for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1067,10 +1060,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

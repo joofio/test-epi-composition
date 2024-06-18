@@ -454,7 +454,7 @@ Hvis en dosis bliver sprunget over, vil din læge afgøre, hvornår den næste d
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
 <p>Kontakt din læge eller sygeplejersken med det samme, hvis du bemærker nogen af følgende 
-bivirkninger – du kan have brug for akut medicinsk behandling: </p>
+bivirkninger - du kan have brug for akut medicinsk behandling: </p>
 <p>Almindelig: kan påvirke op til 1 ud af 10 personer: </p>
 <ul>
 <li>
@@ -693,8 +693,6 @@ Description: "ePI document Bundle for vyepti Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -717,8 +715,6 @@ Description: "ePI document Bundle for vyepti Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -739,8 +735,8 @@ Usage: #example
 
 Instance: mpfbb3ae3b0ec47d0ddb6ffbdc6984439f
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product vyepti"
-Description: "vyepti"
+Title: "Medicinal Product VYEPTI 100 mg concentrate for solution for infusion."
+Description: "VYEPTI 100 mg concentrate for solution for infusion."
 Usage: #inline
 
  
@@ -753,14 +749,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "VYEPTI is indicated for the prophylaxis of migraine in adults who have at least 4 migraine days per"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "vyepti"
+  * productName = "VYEPTI 100 mg concentrate for solution for infusion."
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -780,10 +773,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

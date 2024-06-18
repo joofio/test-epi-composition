@@ -611,13 +611,9 @@ din læge. </p>
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
 <p>Kontakt straks din læge, hvis en eller flere af følgende alvorlige bivirkninger opstår: 
 Meget almindelig (kan forekomme hos mere end 1 ud af 10 personer) </p>
-<ul>
-<li>blodprøver, der viser forøget indhold af 
-– 
-leverenzymer (et tegn på leversygdomme) 
-– 
-bilirubin: et gult stof, der dannes ved nedbrydning af blodpigment. </li>
-</ul>
+<h2>* blodprøver, der viser forøget indhold af</h2>
+<h2>leverenzymer (et tegn på leversygdomme)</h2>
+<p>bilirubin: et gult stof, der dannes ved nedbrydning af blodpigment. </p>
 <p>Almindelig (kan forekomme hos op til 1 ud af 10 personer) </p>
 <ul>
 <li>lungebetændelse (symptomer herpå kan være hvæsende vejrtrækning, åndedrætsbesvær eller 
@@ -726,29 +722,21 @@ smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </d
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tavneos indeholder: </p>
 <ul>
-<li>
-<p>Aktivt stof: avacopan. 
- Hver hård kapsel indeholder 10 mg avacopan. </p>
-</li>
-<li>
-<p>Øvrige indholdsstoffer: 
-– 
-macrogolglycerolhydroxystearat 
-– 
-macrogol (4000) 
-– 
-gelatine 
-– 
-polysorbat – 
-rød jerndioxid (E172), gul jernoxid (E172), sort jernoxid (E172) 
-– 
-titandioxid (E171) 
-– 
-shellak 
-– 
-kaliumhydroxid. </p>
-</li>
+<li>Aktivt stof: avacopan. 
+ Hver hård kapsel indeholder 10 mg avacopan. </li>
 </ul>
+<h2>* Øvrige indholdsstoffer:</h2>
+<h2>macrogolglycerolhydroxystearat</h2>
+<h2>macrogol (4000)</h2>
+<h2>gelatine</h2>
+<p>polysorbat - 
+rød jerndioxid (E172), gul jernoxid (E172), sort jernoxid (E172) 
+- 
+titandioxid (E171) 
+- 
+shellak 
+- 
+kaliumhydroxid. </p>
 <p>Udseende og pakningsstørrelser </p>
 <p>Tavneos hårde kapsler med gul krop og lys orange hætte med "CCX168" præget med sort blæk. 
 Kapslerne er 22 mm lange med en diameter på 8 mm. 
@@ -768,13 +756,13 @@ Kapslerne er pakket i plastikflasker med børnesikret lukning. </p>
 <p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
 <p>Indehaver af markedsføringstilladelsen </p>
 <p>Vifor Fresenius Medical Care Renal Pharma France 
-100–101 Terrasse Boieldieu 
+100-101 Terrasse Boieldieu 
 Tour Franklin La Défense 8 
 92042 Paris la Défense Cedex 
 Frankrig </p>
 <p>Fremstiller </p>
 <p>Vifor France 
-100–101 Terrasse Boieldieu 
+100-101 Terrasse Boieldieu 
 Tour Franklin La Défense 8 
 92042 Paris La Défense Cedex 
 Frankrig </p>
@@ -800,8 +788,6 @@ Description: "ePI document Bundle for tavneos Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -824,8 +810,6 @@ Description: "ePI document Bundle for tavneos Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -846,8 +830,8 @@ Usage: #example
 
 Instance: mp74cee07ffddb72142d80fc4c20efe6f2
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product tavneos"
-Description: "tavneos"
+Title: "Medicinal Product Tavneos 10 mg hard capsules"
+Description: "Tavneos 10 mg hard capsules"
 Usage: #inline
 
  
@@ -860,14 +844,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Tavneos, in combination with a rituximab or cyclophosphamide regimen, is indicated for the treatment"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "tavneos"
+  * productName = "Tavneos 10 mg hard capsules"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -887,10 +868,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

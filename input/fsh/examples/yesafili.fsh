@@ -711,7 +711,7 @@ Opbevar lægemidlet utilgængeligt for børn.
 Brug ikke lægemidlet efter den udløbsdato, der står på kartonen og etiketten efter EXP. 
 Udløbsdatoen er den sidste dag i den nævnte måned. 
  
-Opbevares i køleskab (2 ºC – 8 ºC). Må ikke nedfryses. 
+Opbevares i køleskab (2 ºC - 8 ºC). Må ikke nedfryses. 
  
 Det uåbnede hætteglas kan opbevares uden for køleskab ved temperaturer under 25 °C i op til 
 24 timer. 
@@ -882,8 +882,6 @@ Description: "ePI document Bundle for yesafili Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -906,8 +904,6 @@ Description: "ePI document Bundle for yesafili Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -928,8 +924,8 @@ Usage: #example
 
 Instance: mp287bc5c0cd4c93468a645b4df30664e2
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product yesafili"
-Description: "yesafili"
+Title: "Medicinal Product Yesafili 40 mg/mL solution for injection in a vial"
+Description: "Yesafili 40 mg/mL solution for injection in a vial"
 Usage: #inline
 
  
@@ -942,14 +938,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Yesafili is indicated for adults for the treatment of"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "yesafili"
+  * productName = "Yesafili 40 mg/mL solution for injection in a vial"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -969,10 +962,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

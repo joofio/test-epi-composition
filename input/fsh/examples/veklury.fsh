@@ -1169,8 +1169,6 @@ Description: "ePI document Bundle for veklury Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1193,8 +1191,6 @@ Description: "ePI document Bundle for veklury Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1215,8 +1211,8 @@ Usage: #example
 
 Instance: mp0884c8c34711aaaaa6729d5f920f611f
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product veklury"
-Description: "veklury"
+Title: "Medicinal Product Veklury 100 mg powder for concentrate for solution for infusion"
+Description: "Veklury 100 mg powder for concentrate for solution for infusion"
 Usage: #inline
 
  
@@ -1229,14 +1225,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Veklury is indicated for the treatment of coronavirus disease 2019 (COVID-19) in:"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "veklury"
+  * productName = "Veklury 100 mg powder for concentrate for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1256,10 +1249,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

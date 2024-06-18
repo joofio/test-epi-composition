@@ -1056,8 +1056,6 @@ Description: "ePI document Bundle for elebrato Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1080,8 +1078,6 @@ Description: "ePI document Bundle for elebrato Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1102,8 +1098,8 @@ Usage: #example
 
 Instance: mp07dfba600182595cfe2f36d89c5d2642
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product elebrato"
-Description: "elebrato"
+Title: "Medicinal Product Elebrato Ellipta 92 micrograms/55 micrograms/22 micrograms inhalation powder, pre-dispensed"
+Description: "Elebrato Ellipta 92 micrograms/55 micrograms/22 micrograms inhalation powder, pre-dispensed"
 Usage: #inline
 
  
@@ -1116,14 +1112,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Elebrato Ellipta is indicated as a maintenance treatment in adult patients with moderate to severe chronic"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "elebrato"
+  * productName = "Elebrato Ellipta 92 micrograms/55 micrograms/22 micrograms inhalation powder, pre-dispensed"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1143,10 +1136,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

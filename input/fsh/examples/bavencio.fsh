@@ -918,7 +918,7 @@ smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </d
 <p>Aktivt stof: avelumab. </p>
 <p>Et hætteglas på 10 ml indeholder 200 mg avelumab. Hver ml koncentrat indeholder 20 mg avelumab. </p>
 <p>Øvrige indholdsstoffer: Mannitol, koncentreret eddikesyre, polysorbat 20, natriumhydroxid, vand til 
-injektionsvæsker (se punkt 2 ”Bavencio har et lavt natriumindhold”). </p>
+injektionsvæsker (se punkt 2 "Bavencio har et lavt natriumindhold"). </p>
 <p>Udseende og pakningsstørrelser 
 Bavencio er et klart, farveløst til let gulligt koncentrat til infusionsvæske, opløsning (koncentrat, 
 sterilt). </p>
@@ -1012,8 +1012,6 @@ Description: "ePI document Bundle for bavencio Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1036,8 +1034,6 @@ Description: "ePI document Bundle for bavencio Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1058,8 +1054,8 @@ Usage: #example
 
 Instance: mp9bd3cc7b420f9f1fa6edcaaaf015de7b
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product bavencio"
-Description: "bavencio"
+Title: "Medicinal Product Bavencio 20 mg/mL concentrate for solution for infusion"
+Description: "Bavencio 20 mg/mL concentrate for solution for infusion"
 Usage: #inline
 
  
@@ -1072,14 +1068,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Bavencio is indicated as monotherapy for the treatment of adult patients with metastatic Merkel cell"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "bavencio"
+  * productName = "Bavencio 20 mg/mL concentrate for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1099,10 +1092,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

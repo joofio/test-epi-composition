@@ -892,7 +892,7 @@ den næste dosis. </p>
 </ul>
 <p>Ikke kendt: kan ikke vurderes ud fra forhåndenværende data </p>
 <ul>
-<li>Pure red cell aplasi (PRCA) – (anæmi, unormal træthed, mangel på energi) </li>
+<li>Pure red cell aplasi (PRCA) - (anæmi, unormal træthed, mangel på energi) </li>
 </ul>
 <p>Cancerpatienter </p>
 <p>Meget almindelig: kan ramme mere end 1 ud af 10 personer </p>
@@ -973,7 +973,7 @@ fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.  </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen og på den fyldte injektionssprøjte 
 efter EXP. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
-<p>Opbevares i køleskab (2 °C – 8 °C). Må ikke nedfryses. Brug ikke Aranesp, hvis De tror, at det har 
+<p>Opbevares i køleskab (2 °C - 8 °C). Må ikke nedfryses. Brug ikke Aranesp, hvis De tror, at det har 
 været nedfrosset. </p>
 <p>Opbevar den fyldte sprøjte i den ydre pakning for at beskytte mod lys. </p>
 <p>Når sprøjten er taget ud af køleskabet og har været opbevaret ved stuetemperatur i ca. 30 minutter før 
@@ -1267,8 +1267,6 @@ Description: "ePI document Bundle for aranesp Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1291,8 +1289,6 @@ Description: "ePI document Bundle for aranesp Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1313,8 +1309,8 @@ Usage: #example
 
 Instance: mp53644ac8be35bb2e5f6359de25449b5d
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product aranesp"
-Description: "aranesp"
+Title: "Medicinal Product Aranesp 10 micrograms solution for injection in pre-filled syringe."
+Description: "Aranesp 10 micrograms solution for injection in pre-filled syringe."
 Usage: #inline
 
  
@@ -1327,14 +1323,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Treatment of symptomatic anaemia associated with chronic renal failure (CRF) in adults and"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "aranesp"
+  * productName = "Aranesp 10 micrograms solution for injection in pre-filled syringe."
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1354,10 +1347,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

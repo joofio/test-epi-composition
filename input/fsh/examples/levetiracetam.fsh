@@ -1084,8 +1084,6 @@ Description: "ePI document Bundle for levetiracetam Package Leaflet for language
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1108,8 +1106,6 @@ Description: "ePI document Bundle for levetiracetam Package Leaflet for language
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1130,8 +1126,8 @@ Usage: #example
 
 Instance: mpe4c758c9b76c24f48a2ecc149820b3c6
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product levetiracetam"
-Description: "levetiracetam"
+Title: "Medicinal Product Levetiracetam Teva 250 mg film-coated tablets"
+Description: "Levetiracetam Teva 250 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1144,14 +1140,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Levetiracetam Teva is indicated as monotherapy in the treatment of partial onset seizures with or"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "levetiracetam"
+  * productName = "Levetiracetam Teva 250 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1171,10 +1164,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

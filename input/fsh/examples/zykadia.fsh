@@ -917,8 +917,6 @@ Description: "ePI document Bundle for zykadia Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -941,8 +939,6 @@ Description: "ePI document Bundle for zykadia Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -963,8 +959,8 @@ Usage: #example
 
 Instance: mp7257cd6c13151214e1f46cfc5506ac0d
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product zykadia"
-Description: "zykadia"
+Title: "Medicinal Product Zykadia 150 mg hard capsules"
+Description: "Zykadia 150 mg hard capsules"
 Usage: #inline
 
  
@@ -977,14 +973,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Zykadia as monotherapy is indicated for the first-line treatment of adult patients with anaplastic"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "zykadia"
+  * productName = "Zykadia 150 mg hard capsules"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1004,10 +997,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

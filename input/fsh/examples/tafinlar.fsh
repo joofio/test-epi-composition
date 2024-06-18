@@ -1044,7 +1044,7 @@ Spørg lægen, apotekspersonalet eller sygeplejersken til råds. </p>
 Det vides ikke, om indholdsstofferne i dette lægemiddel går over i modermælken. 
 Hvis du ammer eller planlægger at amme, skal du fortælle det til lægen. Du og din læge vil sammen 
 afgøre, om du skal tage dette lægemiddel eller amme. </p>
-<p>Frugtbarhed – både mænd og kvinder 
+<p>Frugtbarhed - både mænd og kvinder 
 Det er i dyrestudier set, at det aktive stof dabrafenib kan nedsætte mænds frugtbarhed permanent. 
 Derudover kan mænd, der tager Tafinlar, få et lavere sædtal og deres sædtal vil muligvis ikke vende 
 tilbage til det samme niveau, som før behandlingen, efter at de er holdt op med at tage dette 
@@ -1206,7 +1206,7 @@ trametinib. Tegn og symptomer på hjerteproblemer omfatter: </p>
 <p>hævelse i benene. </p>
 </li>
 </ul>
-<p>Fortæl det hurtigst muligt til lægen, hvis du får nogen af disse symptomer – både hvis de optræder 
+<p>Fortæl det hurtigst muligt til lægen, hvis du får nogen af disse symptomer - både hvis de optræder 
 for første gang, eller hvis de bliver værre. </p>
 <p>Forandringer i huden 
 Der er rapporteret tilfælde af alvorlige hudreaktioner hos personer, der tog Tafinlar i kombination med 
@@ -1251,9 +1251,9 @@ Hvis du bemærker følgende: </p>
 <li>
 <p>en skønhedsplet, der ændrer størrelse eller farve 
 ➔ 
-Skal du hurtigst muligt fortælle det til lægen, apotekspersonalet eller sygeplejersken 
-– både hvis de optræder for første gang, eller hvis de bliver værre. </p>
+Skal du hurtigst muligt fortælle det til lægen, apotekspersonalet eller sygeplejersken </p>
 </li>
+<li>både hvis de optræder for første gang, eller hvis de bliver værre. </li>
 </ul>
 <p>Hudreaktioner (udslæt) kan opstå, når Tafinlar tages i kombination med trametinib. Tal med lægen, 
 hvis du får udslæt, mens du tager Tafinlar i kombination med trametinib. </p>
@@ -1431,7 +1431,7 @@ hænder og fødder og/eller muskelsvaghed </p>
 <p>Når du tager Tafinlar og trametinib sammen, kan du få en hvilken som helst af de bivirkninger, der er 
 angivet ovenfor, omend hyppigheden kan ændre sig (hyppigere eller sjældnere). </p>
 <p>Du kan også få yderligere bivirkninger, fordi du tager trametinib samtidig med Tafinlar. </p>
-<p>Fortæl det hurtigst muligt til lægen, hvis du får nogen af disse symptomer – enten for første gang, eller 
+<p>Fortæl det hurtigst muligt til lægen, hvis du får nogen af disse symptomer - enten for første gang, eller 
 hvis de bliver værre. </p>
 <p>Læs også indlægssedlen for trametinib, hvor der er oplysninger om de bivirkninger, du kan få af 
 trametinib. </p>
@@ -1805,8 +1805,6 @@ Description: "ePI document Bundle for tafinlar Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1829,8 +1827,6 @@ Description: "ePI document Bundle for tafinlar Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1851,8 +1847,8 @@ Usage: #example
 
 Instance: mp16019d0f068b393be3091cc008ef79bf
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product tafinlar"
-Description: "tafinlar"
+Title: "Medicinal Product Tafinlar 50 mg hard capsules"
+Description: "Tafinlar 50 mg hard capsules"
 Usage: #inline
 
  
@@ -1865,14 +1861,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Melanoma"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "tafinlar"
+  * productName = "Tafinlar 50 mg hard capsules"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1892,10 +1885,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

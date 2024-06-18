@@ -627,8 +627,6 @@ Description: "ePI document Bundle for evkeeza Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -651,8 +649,6 @@ Description: "ePI document Bundle for evkeeza Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -673,8 +669,8 @@ Usage: #example
 
 Instance: mpde3f46573279b69427e72992f0f64b7e
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product evkeeza"
-Description: "evkeeza"
+Title: "Medicinal Product Evkeeza 150 mg/ml concentrate for solution for infusion"
+Description: "Evkeeza 150 mg/ml concentrate for solution for infusion"
 Usage: #inline
 
  
@@ -687,14 +683,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Evkeeza is indicated as an adjunct to diet and other low-density lipoprotein-cholesterol (LDL-C)"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "evkeeza"
+  * productName = "Evkeeza 150 mg/ml concentrate for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -714,10 +707,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

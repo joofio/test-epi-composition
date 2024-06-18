@@ -987,8 +987,6 @@ Description: "ePI document Bundle for mepact Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1011,8 +1009,6 @@ Description: "ePI document Bundle for mepact Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1033,8 +1029,8 @@ Usage: #example
 
 Instance: mp28badbaa1dfc6b119cb5212548687175
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product mepact"
-Description: "mepact"
+Title: "Medicinal Product MEPACT 4 mg powder for concentrate for dispersion for infusion"
+Description: "MEPACT 4 mg powder for concentrate for dispersion for infusion"
 Usage: #inline
 
  
@@ -1047,14 +1043,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "MEPACT is indicated in children, adolescents and young adults for the treatment of high-grade"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "mepact"
+  * productName = "MEPACT 4 mg powder for concentrate for dispersion for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1074,10 +1067,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

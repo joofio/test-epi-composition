@@ -812,13 +812,13 @@ Cystadrops er klare og tyktflydende øjendråber (opløsning).  </p>
 <p>Ikke alle pakningsstørrelser er nødvendigvis markedsført i dit land </p>
 <p>Indehaver af markedsføringstilladelsen 
 Recordati Rare Diseases 
-Immeuble “Le Wilson”<br />
+Immeuble “Le Wilson"<br />
 70 Avenue du Général de Gaulle 
 92800 Puteaux<br />
 Frankrig </p>
 <p>Fremstiller 
 Recordati Rare Diseases 
-Immeuble “Le Wilson”<br />
+Immeuble “Le Wilson"<br />
 70 Avenue du Général de Gaulle 
 92800 Puteaux<br />
 Frankrig </p>
@@ -940,8 +940,6 @@ Description: "ePI document Bundle for cystadrops Package Leaflet for language en
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -964,8 +962,6 @@ Description: "ePI document Bundle for cystadrops Package Leaflet for language da
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -986,8 +982,8 @@ Usage: #example
 
 Instance: mpa88819de549a51e3dd5eb81cc2cbcd10
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product cystadrops"
-Description: "cystadrops"
+Title: "Medicinal Product Cystadrops 3.8 mg/mL eye drops solution"
+Description: "Cystadrops 3.8 mg/mL eye drops solution"
 Usage: #inline
 
  
@@ -1000,14 +996,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Cystadrops is indicated for the treatment of corneal cystine crystal deposits in adults and children from"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "cystadrops"
+  * productName = "Cystadrops 3.8 mg/mL eye drops solution"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1027,10 +1020,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

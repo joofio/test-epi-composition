@@ -474,8 +474,8 @@ Lægemidler, der nedsætter virkningen af Bridion
 Bridion kan påvirke virkningen af hormonelle præventionsmidler</p>
 </li>
 <li>
-<p>Bridion kan nedsætte effekten af hormonelle præventionsmidler – inklusive p-piller,
-vaginalring, implantat eller hormonspiral – fordi det reducerer mængden af hormonet
+<p>Bridion kan nedsætte effekten af hormonelle præventionsmidler - inklusive p-piller,
+vaginalring, implantat eller hormonspiral - fordi det reducerer mængden af hormonet
 progestogen, som du får. Den mængde progestogen, du mister ved anvendelsen af Bridion,
 svarer til at glemme en p-pille.
 → hvis du tager p-pillen samme dag, som du får Bridion, skal du følge vejledningen for
@@ -547,7 +547,7 @@ Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 personer)</p>
 tager en indånding</p>
 </li>
 <li>
-<p>Let bedøvelse – du kan begynde at komme ud af den dybe søvn, så du behøver mere
+<p>Let bedøvelse - du kan begynde at komme ud af den dybe søvn, så du behøver mere
 bedøvelsesmiddel. Dette kan medføre, at du bevæger dig eller hoster ved slutningen af
 operationen</p>
 </li>
@@ -564,7 +564,7 @@ Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 personer)</p
 der har eller har haft lungeproblemer</p>
 </li>
 <li>
-<p>Allergiske reaktioner (lægemiddeloverfølsomhed) – såsom udslæt, rødmen, opsvulmet tunge
+<p>Allergiske reaktioner (lægemiddeloverfølsomhed) - såsom udslæt, rødmen, opsvulmet tunge
 og/eller svælg, stakåndethed, ændringer i blodtrykket eller hjerterytmen, der nogle gange
 bevirker et alvorligt fald i blodtrykket. Alvorlige allergiske eller allergilignende reaktioner kan
 være livstruende
@@ -597,7 +597,7 @@ Brug ikke lægemidlet efter den udløbsdato, der står på kartonen og etiketten
 er den sidste dag i den nævnte måned.
 Opbevares ved temperaturer under 30 °C. Må ikke nedfryses. Opbevar hætteglasset i den ydre karton
 for at beskytte mod lys.
-Efter første åbning og fortynding opbevares i køleskab (2 °C – 8 °C) og skal anvendes inden for
+Efter første åbning og fortynding opbevares i køleskab (2 °C - 8 °C) og skal anvendes inden for
 24 timer.</p>         </div>"""      
         
         
@@ -777,8 +777,6 @@ Description: "ePI document Bundle for bridion Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -801,8 +799,6 @@ Description: "ePI document Bundle for bridion Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -823,8 +819,8 @@ Usage: #example
 
 Instance: mp36510bf45b0e72d68ab742851da42239
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product bridion"
-Description: "bridion"
+Title: "Medicinal Product Bridion 100 mg/mL solution for injection"
+Description: "Bridion 100 mg/mL solution for injection"
 Usage: #inline
 
  
@@ -837,14 +833,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Reversal of neuromuscular blockade induced by rocuronium or vecuronium in adults."
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "bridion"
+  * productName = "Bridion 100 mg/mL solution for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -864,10 +857,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

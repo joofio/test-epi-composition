@@ -1022,8 +1022,6 @@ Description: "ePI document Bundle for riltrava Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1046,8 +1044,6 @@ Description: "ePI document Bundle for riltrava Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1068,8 +1064,8 @@ Usage: #example
 
 Instance: mp832482791de362ad81d3371194ed350b
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product riltrava"
-Description: "riltrava"
+Title: "Medicinal Product Riltrava Aerosphere 5 micrograms/7.2 micrograms/160 micrograms pressurised inhalation,"
+Description: "Riltrava Aerosphere 5 micrograms/7.2 micrograms/160 micrograms pressurised inhalation,"
 Usage: #inline
 
  
@@ -1082,14 +1078,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Riltrava Aerosphere is indicated as a maintenance treatment in adult patients with moderate to severe"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "riltrava"
+  * productName = "Riltrava Aerosphere 5 micrograms/7.2 micrograms/160 micrograms pressurised inhalation,"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1109,10 +1102,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

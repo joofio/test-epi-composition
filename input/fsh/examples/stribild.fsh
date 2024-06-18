@@ -784,7 +784,7 @@ hovedpine) </li>
 depression og angst) eller lægemiddel, der indeholder det </li>
 <li>lovastatin, simvastatin (anvendes til at sænke kolesterol i blodet) </li>
 <li>pimozid, lurasidon (anvendes til at behandle unormale tanker og følelser) </li>
-<li>sildenafil (anvendes til at behandle pulmonal arteriel hypertension – en lungesygdom, der 
+<li>sildenafil (anvendes til at behandle pulmonal arteriel hypertension - en lungesygdom, der 
 gør det vanskeligt at trække vejret) </li>
 <li>oralt administreret midazolam, triazolam (anvendes til at hjælpe dig med at sove og/eller 
 lindre angst) </li>
@@ -847,7 +847,7 @@ og får ordineret Stribild, vil Deres læge overvåge Dem nøje. </li>
 som vejer under 35 kg, er ikke undersøgt. </p>
 <p>Brug af andre lægemidler sammen med Stribild </p>
 <p>Der er nogle lægemidler, der aldrig bør tages sammen med Stribild. 
-Disse lægemidler er nævnt under overskriften "Tag ikke Stribild – Hvis De tager et af disse 
+Disse lægemidler er nævnt under overskriften "Tag ikke Stribild - Hvis De tager et af disse 
 lægemidler". </p>
 <p>Fortæl altid lægen eller apotekspersonalet, hvis De tager andre lægemidler, for nylig har taget 
 andre lægemidler eller planlægger at tage andre lægemidler. Stribild kan påvirke andre lægemidler. 
@@ -1111,10 +1111,10 @@ hiv-infektion behandles, er det ikke altid muligt at afgøre, om nogle af de uø
 forårsaget af Stribild eller af anden medicin, som De tager samtidigt, eller af selve hiv-sygdommen. </p>
 <p>Alvorlige bivirkninger: Fortæl det straks til lægen </p>
 <ul>
+<li>Laktatacidose (for meget mælkesyre i blodet) er en sjælden, men muligvis livstruende 
+bivirkning ved nogle former for hiv-medicin. Laktatacidose forekommer hyppigere hos kvinder </li>
 <li>
-<p>Laktatacidose (for meget mælkesyre i blodet) er en sjælden, men muligvis livstruende 
-bivirkning ved nogle former for hiv-medicin. Laktatacidose forekommer hyppigere hos kvinder 
-– især hvis de er overvægtige og hos personer med leversygdom. Følgende kan være tegn på 
+<p>især hvis de er overvægtige og hos personer med leversygdom. Følgende kan være tegn på 
 laktatacidose:</p>
 </li>
 <li>
@@ -1480,8 +1480,6 @@ Description: "ePI document Bundle for stribild Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1504,8 +1502,6 @@ Description: "ePI document Bundle for stribild Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1526,8 +1522,8 @@ Usage: #example
 
 Instance: mp4c7f4cd465ecc4c332f786a217090e6e
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product stribild"
-Description: "stribild"
+Title: "Medicinal Product Stribild 150 mg/150 mg/200 mg/245 mg film-coated tablets"
+Description: "Stribild 150 mg/150 mg/200 mg/245 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1540,14 +1536,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Stribild is indicated for the treatment of human immunodeficiency virus-1 (HIV-1) infection in adults"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "stribild"
+  * productName = "Stribild 150 mg/150 mg/200 mg/245 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1567,10 +1560,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

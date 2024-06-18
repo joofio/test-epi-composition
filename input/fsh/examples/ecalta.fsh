@@ -816,8 +816,6 @@ Description: "ePI document Bundle for ecalta Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -840,8 +838,6 @@ Description: "ePI document Bundle for ecalta Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -862,8 +858,8 @@ Usage: #example
 
 Instance: mpd1ac9f4f2138f35170941f82d23b13ed
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product ecalta"
-Description: "ecalta"
+Title: "Medicinal Product ECALTA 100 mg powder for concentrate for solution for infusion"
+Description: "ECALTA 100 mg powder for concentrate for solution for infusion"
 Usage: #inline
 
  
@@ -876,14 +872,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Treatment of invasive candidiasis in adults and paediatric patients aged 1 month to < 18 years (see"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "ecalta"
+  * productName = "ECALTA 100 mg powder for concentrate for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -903,10 +896,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

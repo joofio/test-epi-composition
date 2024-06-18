@@ -948,8 +948,6 @@ Description: "ePI document Bundle for onbrez Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -972,8 +970,6 @@ Description: "ePI document Bundle for onbrez Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -994,8 +990,8 @@ Usage: #example
 
 Instance: mp5a85179f4445f6400b4f1fbf3a650302
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product onbrez"
-Description: "onbrez"
+Title: "Medicinal Product Onbrez Breezhaler 150 microgram inhalation powder, hard capsules"
+Description: "Onbrez Breezhaler 150 microgram inhalation powder, hard capsules"
 Usage: #inline
 
  
@@ -1008,14 +1004,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Onbrez Breezhaler is indicated for maintenance bronchodilator treatment of airflow obstruction in"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "onbrez"
+  * productName = "Onbrez Breezhaler 150 microgram inhalation powder, hard capsules"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1035,10 +1028,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

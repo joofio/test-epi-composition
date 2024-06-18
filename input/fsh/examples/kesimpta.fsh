@@ -928,8 +928,6 @@ Description: "ePI document Bundle for kesimpta Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -952,8 +950,6 @@ Description: "ePI document Bundle for kesimpta Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -974,8 +970,8 @@ Usage: #example
 
 Instance: mp4c58d0c1d9c4a5073dfc9d3ac749320b
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product kesimpta"
-Description: "kesimpta"
+Title: "Medicinal Product Kesimpta 20 mg solution for injection in pre-filled syringe"
+Description: "Kesimpta 20 mg solution for injection in pre-filled syringe"
 Usage: #inline
 
  
@@ -988,14 +984,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Kesimpta is indicated for the treatment of adult patients with relapsing forms of multiple sclerosis"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "kesimpta"
+  * productName = "Kesimpta 20 mg solution for injection in pre-filled syringe"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1015,10 +1008,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

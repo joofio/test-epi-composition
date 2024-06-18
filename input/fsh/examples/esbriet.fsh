@@ -920,8 +920,6 @@ Description: "ePI document Bundle for esbriet Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -944,8 +942,6 @@ Description: "ePI document Bundle for esbriet Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -966,8 +962,8 @@ Usage: #example
 
 Instance: mp6455d7711efcb7c39e76872d121d19e0
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product esbriet"
-Description: "esbriet"
+Title: "Medicinal Product Esbriet 267 mg hard capsules"
+Description: "Esbriet 267 mg hard capsules"
 Usage: #inline
 
  
@@ -980,14 +976,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Esbriet is indicated in adults for the treatment of idiopathic pulmonary fibrosis (IPF)."
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "esbriet"
+  * productName = "Esbriet 267 mg hard capsules"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1007,10 +1000,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

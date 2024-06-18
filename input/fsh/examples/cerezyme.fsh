@@ -380,12 +380,12 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Cerezyme indeholder det aktive stof imiglucerase og anvendes til at behandle patienter, der har en 
 bekræftet diagnose på Type 1 eller Type 3 Gauchers sygdom, og som udviser tegn på sygdommen, 
 såsom: anæmi (lavt antal røde blodlegemer), en tendens til let at bløde (grundet det lave antal 
-blodplader – en type blodceller), forstørrelse af milt eller lever eller knoglesygdom. </p>
+blodplader - en type blodceller), forstørrelse af milt eller lever eller knoglesygdom. </p>
 <p>Mennesker med Gauchers sygdom har lave niveauer af et enzym, der hedder β-glucosidasesyre. Dette 
 enzym hjælper kroppen med at kontrollere niveauer af glukosylceramid. Glukosylceramid er en 
 naturlig substans i kroppen, fremstillet af sukker og fedt. Ved Gauchers sygdom kan niveauerne af 
 glukosylceramid være for høje. </p>
-<p>Cerezyme er et kunstigt enzym, der kaldes imiglucerase – dette kan erstatte det naturlige enzym 
+<p>Cerezyme er et kunstigt enzym, der kaldes imiglucerase - dette kan erstatte det naturlige enzym 
 β-glucosidasesyre, der mangler eller ikke er aktivt nok hos patienter med Gauchers sygdom. </p>
 <p>Oplysningerne i denne indlægsseddel gælder for alle patientgrupper, inklusive børn, unge, voksne og 
 de ældre. </p>         </div>"""   
@@ -454,10 +454,10 @@ får den rette dosis. Dette kan være hver 6. til 12. måned. </p>
 kronisk neuronopatisk Gauchers sygdom. Derfor kan der ikke anbefales noget særligt 
 doseringsregimen. </p>
 <p>ICGG Gaucher-registret 
-Du kan bede din læge om at registrere dine patientoplysninger i “ICGG Gaucher Registry”. Formålet 
+Du kan bede din læge om at registrere dine patientoplysninger i “ICGG Gaucher Registry". Formålet 
 med dette register er at øge forståelsen af Gauchers sygdom og kontrollere, hvor godt enzym 
 substitutionsbehandling, som Cerezyme, fungerer. Dette skulle lede til en forbedring af sikkerheden og 
-effektiv anvendelse af Cerezyme. Dine patientdata vil blive registreret anonymt – ingen vil vide, at det 
+effektiv anvendelse af Cerezyme. Dine patientdata vil blive registreret anonymt - ingen vil vide, at det 
 er oplysninger om dig. </p>
 <p>Hvis du har fået for meget Cerezyme 
 Der er ikke rapporteret tilfælde af overdosering med Cerezyme. </p>
@@ -527,10 +527,10 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
   * code.text = "5. How to store cerezyme"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
-<p>Brug ikke lægemidlet efter den udløbsdato, der står på etiketten og pakningen efter “EXP”. 
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på etiketten og pakningen efter “EXP". 
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Uåbnede hætteglas: 
-Opbevares i køleskab (2°C – 8°C). </p>
+Opbevares i køleskab (2°C - 8°C). </p>
 <p>Fortyndet opløsning: 
 Det anbefales, at Cerezyme anvendes umiddelbart efter, at det er blevet blandet med sterilt vand. Den 
 blandede opløsning i hætteglasset kan ikke opbevares og bør straks fortyndes i en infusionspose. Den 
@@ -578,11 +578,11 @@ Tel: +31 20 245 4Norge
 sanofi-aventis Norge AS 
 Tlf: + 47 67 10 71 Österreich 
 sanofi-aventis GmbH 
-Tel: + 43 1 80 185 – 0 
+Tel: + 43 1 80 185 - 0 
 Polska 
 Sanofi sp. z o.o. 
 Tel: +48 22 280 00 Portugal 
-Sanofi – Produtos Farmacêuticos, Lda. 
+Sanofi - Produtos Farmacêuticos, Lda. 
 Tel: +351 21 35 89 România 
 Sanofi Romania SRL 
 Tel: +40 (0) 21 317 31 Slovenija 
@@ -634,7 +634,7 @@ hjemmeside http://www.ema.europa.eu. Der er også links til andre websteder om s
 og om, hvordan de behandles. </p>
 <hr />
 <p>Nedenstående oplysninger er til læger og sundhedspersonale: </p>
-<p>Instruktioner for anvendelse – rekonstituering, fortynding og administration 
+<p>Instruktioner for anvendelse - rekonstituering, fortynding og administration 
 Hvert hætteglas Cerezyme er kun til engangsbrug. Efter rekonstituering indeholder hvert hætteglas 
 Cerezyme 400 enheder imiglucerase i 10 ml (40 enheder pr. ml).  </p>
 <p>Det antal hætteglas, der skal rekonstitueres, bestemmes på basis af patientens doseringsregime, og 
@@ -676,8 +676,6 @@ Description: "ePI document Bundle for cerezyme Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -700,8 +698,6 @@ Description: "ePI document Bundle for cerezyme Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -722,8 +718,8 @@ Usage: #example
 
 Instance: mp40a0f9a5b184c9ac5cd6a0a61a321212
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product cerezyme"
-Description: "cerezyme"
+Title: "Medicinal Product Cerezyme 400 Units Powder for concentrate for solution for infusion"
+Description: "Cerezyme 400 Units Powder for concentrate for solution for infusion"
 Usage: #inline
 
  
@@ -736,14 +732,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Cerezyme (imiglucerase) is indicated for use as long-term enzyme replacement therapy in patients"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "cerezyme"
+  * productName = "Cerezyme 400 Units Powder for concentrate for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -763,10 +756,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

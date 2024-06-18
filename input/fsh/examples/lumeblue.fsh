@@ -668,8 +668,6 @@ Description: "ePI document Bundle for lumeblue Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -692,8 +690,6 @@ Description: "ePI document Bundle for lumeblue Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -714,8 +710,8 @@ Usage: #example
 
 Instance: mp5a0e77a26a98f2eac352c48d66309743
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product lumeblue"
-Description: "lumeblue"
+Title: "Medicinal Product Lumeblue 25 mg prolonged-release tablets"
+Description: "Lumeblue 25 mg prolonged-release tablets"
 Usage: #inline
 
  
@@ -728,14 +724,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Lumeblue is indicated as a diagnostic agent enhancing visualisation of colorectal lesions in adult"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "lumeblue"
+  * productName = "Lumeblue 25 mg prolonged-release tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -755,10 +748,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

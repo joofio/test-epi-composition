@@ -538,9 +538,9 @@ seglcelleanæmi). </li>
 blodtryk stiger, kan lægen give dig medicin til at sænke det. Hvis du allerede får blodtrykssænkende 
 medicin, kan lægen vælge at øge dosis. Det kan også være nødvendigt, at du får en lavere dosis 
 Biopoin eller holder en mindre pause i behandlingen med Biopoin. </p>
-<p>Kontakt straks lægen, hvis du får hovedpine – især hvis du pludselig får jagende, migrænelignende 
+<p>Kontakt straks lægen, hvis du får hovedpine - især hvis du pludselig får jagende, migrænelignende 
 hovedpine, forvirring, talebesvær, usikker gang, anfald eller kramper. Det kan være tegn på stærkt 
-forhøjet blodtryk – også selv om du plejer at have normalt eller lavt blodtryk. Det skal omgående 
+forhøjet blodtryk - også selv om du plejer at have normalt eller lavt blodtryk. Det skal omgående 
 behandles. </p>
 <p>Du skal løbende have taget blodprøver til kontrol af blodets sammensætning og mængden af bestand-
 delene. Desuden skal du have målt blodets indhold af jern før og under behandling med dette 
@@ -573,7 +573,7 @@ for dialyse, vil lægen undersøge, om du skal behandles for dette. Det skyldes,
 udelukkes, at nyresygdommen accelererer. </p>
 <p>Hvis du er i dialyse, anvendes medicin, der hindrer blodet i at størkne. Hvis du får Biopoin, kan det 
 være nødvendigt at øge din dosis af den blodfortyndende medicin. Ellers kan det øgede antal røde 
-blodlegemer tilstoppe den arteriovenøse fistel – en kunstig forbindelse mellem to blodårer, en arterie 
+blodlegemer tilstoppe den arteriovenøse fistel - en kunstig forbindelse mellem to blodårer, en arterie 
 og en vene, som oprettes hos dialysepatienter ved en operation. </p>
 <p>Anæmi hos kræftpatienter 
 Hvis du har kræft, skal du være opmærksom på, at dette lægemiddel kan virke som en vækstfaktor på 
@@ -646,7 +646,7 @@ enten i en vene (intravenøs injektion) eller i vævet lige under huden (subkuta
 indsprøjtninger. Din læge eller sygeplejerske kan vejlede dig i, hvordan du skal gøre. Lad være med at 
 forsøge at give denne medicin til dig selv, før du har fået vejledning. Du kan finde nogle oplysninger 
 om, hvordan du skal bruge den fyldte injektionssprøjte, sidst i indlægssedlen (se punkt “7. Sådan giver 
-du dig selv indsprøjtninger”). Den rette behandling af din sygdom opnår du dog kun gennem et tæt og 
+du dig selv indsprøjtninger"). Den rette behandling af din sygdom opnår du dog kun gennem et tæt og 
 løbende samarbejde med din læge. </p>
 <p>Hver fyldt injektionssprøjte er kun til engangsbrug. </p>
 <p>Hvis du har brugt for meget Biopoin 
@@ -671,7 +671,7 @@ Kontakt lægen, hvis du ønsker at holde pause eller stoppe behandlingen med det
 <ul>
 <li>
 <p>Alvorligt forhøjet blodtryk: 
-Kontakt straks lægen, hvis du får hovedpine – især hvis du får en migræneagtig hovedpine med 
+Kontakt straks lægen, hvis du får hovedpine - især hvis du får en migræneagtig hovedpine med 
 pludselige jag, forvirring, talebesvær, usikker gang, anfald eller kramper. Det kan være tegn på 
 stærkt forhøjet blodtryk (det sker hyppigt hos patienter med kronisk nyresvigt, kan forekomme 
 hos op til 1 ud af 10 personer), selv om du plejer at have normalt eller lavt blodtryk. Det skal 
@@ -724,7 +724,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på den ydre karton og på den fyldte 
 injektionssprøjte efter EXP. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
-<p>Opbevares i køleskab (2 °C – 8 °C). </p>
+<p>Opbevares i køleskab (2 °C - 8 °C). </p>
 <p>Må ikke nedfryses. </p>
 <p>Opbevar den fyldte injektionssprøjte i den ydre karton for at beskytte mod lys. </p>
 <p>Du kan tage Biopoin ud af køleskabet og opbevare den ved højst 25 °C i en enkelt periode på op til 7 
@@ -1156,8 +1156,6 @@ Description: "ePI document Bundle for biopoin Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1180,8 +1178,6 @@ Description: "ePI document Bundle for biopoin Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1202,8 +1198,8 @@ Usage: #example
 
 Instance: mpfa81186e3e04e4ab1612e9604cd7ebca
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product biopoin"
-Description: "biopoin"
+Title: "Medicinal Product Biopoin 1,000 IU/0.5 ml solution for injection in pre-filled syringe"
+Description: "Biopoin 1,000 IU/0.5 ml solution for injection in pre-filled syringe"
 Usage: #inline
 
  
@@ -1216,14 +1212,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "-"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "biopoin"
+  * productName = "Biopoin 1,000 IU/0.5 ml solution for injection in pre-filled syringe"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1243,10 +1236,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

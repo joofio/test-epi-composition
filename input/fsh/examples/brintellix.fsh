@@ -574,7 +574,7 @@ Hvis du tager lægemidler med såkaldt serotonerg virkning, såsom:
 -
 Tramadol og lignende lægemidler (mod stærke smerter). 
 -
-Sumatriptan og lignende lægemidler, hvor navnet på det aktive stof ender på “triptan” 
+Sumatriptan og lignende lægemidler, hvor navnet på det aktive stof ender på “triptan" 
 (mod migræne).
 74
 Når disse lægemidler tages sammen med Brintellix, kan det øge risikoen for serotonergt 
@@ -643,7 +643,7 @@ Linezolid (mod infektioner, der skyldes bakterier).
 -
 Lægemidler med såkaldt serotonerg virkning, såsom tramadol og lignende lægemidler (mod 
 stærke smerter), samt sumatriptan og lignende lægemidler, hvor navnet på det aktive stof ender 
-på “triptan” (mod migræne). Når disse lægemidler tages sammen med Brintellix, kan det øge 
+på “triptan" (mod migræne). Når disse lægemidler tages sammen med Brintellix, kan det øge 
 risikoen for serotonergt syndrom (se punktet Advarsler og forsigtighedsregler).
 -
 Lithium (mod depression og psykiske forstyrrelser) eller tryptophan. 
@@ -659,7 +659,7 @@ antidepressiva, lav dosis af acetylsalicylsyre og ikke-steroide antiinflammatori
 (blodfortyndende midler og smertestillende lægemidler). Disse kan øge blødningstendensen.
 Lægemidler, der øger risikoen for krampeanfald:
 -
-Sumatriptan og lignende lægemidler, hvor navnet på det aktive stof ender på “triptan”.
+Sumatriptan og lignende lægemidler, hvor navnet på det aktive stof ender på “triptan".
 -
 Tramadol (mod stærke smerter). 
 -
@@ -676,7 +676,7 @@ Quinidin (til at behandle forstyrrelser i hjertets rytme).
 -
 Chlorpromazin, chlorprothixen, haloperidol (lægemidler mod psykiske forstyrrelser, som hører 
 til gruppen kaldet phenothiaziner, thioxanthener og butyrophenoner).
-Fortæl din læge, hvis du tager et af lægemidlerne nævnt ovenfor – lægen har brug for at vide, om du i 
+Fortæl din læge, hvis du tager et af lægemidlerne nævnt ovenfor - lægen har brug for at vide, om du i 
 forvejen har risiko for at få krampeanfald.
 Hvis du får taget en urinprøve med henblik på narkotikatest, skal du være opmærksom på, at Brintellix 
 kan give positive resultater for metadon ved anvendelse af visse analysemetoder, også selv om du ikke 
@@ -737,7 +737,7 @@ Bliv ved med at tage Brintellix, selv om der går noget tid, før du mærker, at
 Det anbefales, at du fortsætter behandlingen i mindst 6 måneder efter, at du igen har fået det godt.
 77
 Hvis du har taget for mange Brintellix
-Kontakt straks læge eller skadestue, hvis du har taget mere end den foreskrevne dosis Brintellix – også 
+Kontakt straks læge eller skadestue, hvis du har taget mere end den foreskrevne dosis Brintellix - også 
 selv om du ikke føler dig utilpas. Medbring beholderen og resten af tabletterne. Symptomer på 
 overdosering kan være svimmelhed, kvalme, diaré, mavegener, kløe over hele kroppen, søvnighed og 
 ansigtsrødme. 
@@ -875,8 +875,8 @@ hydrobromid).
 natriumstivelsesglycolat (type A), magnesiumstearat, hypromellose, macrogol 400, titandioxid 
 (E171), rød jernoxid (E172).
 Udseende og pakningsstørrelser
-Lyserød, mandelformet 5 x 8,4 mm filmovertrukket tablet (tablet) præget med “TL” på den ene side 
-og “5” på den anden side.
+Lyserød, mandelformet 5 x 8,4 mm filmovertrukket tablet (tablet) præget med “TL" på den ene side 
+og “5" på den anden side.
 Brintellix filmovertrukne tabletter 5 mg fås i blisterpakninger med 14, 28, 98, 56x1, 98x1, 126 (9x14), 
 490 (5x (98x1)) tabletter samt i beholdere med 100 eller 200 tabletter.
 I pakningerne med 56 x 1, 98 x 1 og 490 stk. er de filmovertrukne tabletter pakket i 
@@ -1015,8 +1015,6 @@ Description: "ePI document Bundle for brintellix Package Leaflet for language en
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1039,8 +1037,6 @@ Description: "ePI document Bundle for brintellix Package Leaflet for language da
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1061,8 +1057,8 @@ Usage: #example
 
 Instance: mp3ae237b889f405112a87443ad9f07b51
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product brintellix"
-Description: "brintellix"
+Title: "Medicinal Product Brintellix 5 mg film-coated tablets"
+Description: "Brintellix 5 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1075,14 +1071,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Brintellix is indicated for the treatment of major depressive episodes in adults."
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "brintellix"
+  * productName = "Brintellix 5 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1102,10 +1095,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

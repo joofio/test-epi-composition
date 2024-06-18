@@ -751,7 +751,7 @@ forandringer i brystvorten
 
 knuder, du kan se eller mærke
 Kræft i æggestokkene
-Kræft i æggestokkene (ovariecancer) ses sjældent – langt sjældnere end brystkræft. HRT-behandling 
+Kræft i æggestokkene (ovariecancer) ses sjældent - langt sjældnere end brystkræft. HRT-behandling 
 med østrogen alene er blevet forbundet med let øget risiko for kræft i æggestokkene.
 34
 Risikoen for kræft i æggestokkene afhænger af kvindens alder. Eksempel: Blandt kvinder i alderen 50-
@@ -827,7 +827,7 @@ epileptiske anfald
 -
 migræne 
 -
-systemisk lupus erythematosus (SLE – en sjælden sygdom i immunsystemet, som 
+systemisk lupus erythematosus (SLE - en sjælden sygdom i immunsystemet, som 
 påvirker mange af kroppens organer)
 -
 væskeophobning.
@@ -916,7 +916,7 @@ brystsmerter eller åndenød
 Tegn på en blodprop i øjet (i blodåre i nethinden), såsom synsforstyrrelser på det ene øje, 
 herunder synstab, smerter og hævelse i øjet, især hvis det opstår pludseligt
 
-En alvorlig allergisk reaktion – symptomerne kan omfatte pludselig hiven efter vejret og 
+En alvorlig allergisk reaktion - symptomerne kan omfatte pludselig hiven efter vejret og 
 smerter eller sammentrækning i brystet, hævelse af øjenlåg, ansigt, læber, mund, tunge 
 eller hals, åndenød, kollaps
 
@@ -930,7 +930,7 @@ feber, kvalme og opkastning
 Pludselige mavesmerter og klart rødt blod i afføringen, med eller uden diarré, som 
 skyldes en pludselig blokering af en arterie, der forsyner tarmene (iskæmisk colitis) 
 
-Et hjerteanfald – symptomerne vil som regel være smerter, herunder brystsmerter, der 
+Et hjerteanfald - symptomerne vil som regel være smerter, herunder brystsmerter, der 
 breder sig til kæben, halsen og overarmen. Ud over smerterne kan du føle dig svedig, 
 stakåndet, døsig og svag og have kvalme eller du kan besvime.
 Meget sjældne: kan forekomme hos op til 1 ud af 10.000 personer
@@ -1231,8 +1231,6 @@ Description: "ePI document Bundle for duavive Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1255,8 +1253,6 @@ Description: "ePI document Bundle for duavive Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1277,8 +1273,8 @@ Usage: #example
 
 Instance: mp082e15b5bc22cfe8d68c67168679c322
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product duavive"
-Description: "duavive"
+Title: "Medicinal Product DUAVIVE 0.45 mg/20 mg modified-release tablets"
+Description: "DUAVIVE 0.45 mg/20 mg modified-release tablets"
 Usage: #inline
 
  
@@ -1291,14 +1287,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "DUAVIVE is indicated for the treatment of oestrogen deficiency symptoms in postmenopausal women"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "duavive"
+  * productName = "DUAVIVE 0.45 mg/20 mg modified-release tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1318,10 +1311,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

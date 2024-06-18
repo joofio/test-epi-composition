@@ -701,8 +701,6 @@ Description: "ePI document Bundle for lokelma Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -725,8 +723,6 @@ Description: "ePI document Bundle for lokelma Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -747,8 +743,8 @@ Usage: #example
 
 Instance: mp37704f8130504ea382184950ae8a2cfe
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product lokelma"
-Description: "lokelma"
+Title: "Medicinal Product Lokelma 5 g powder for oral suspension"
+Description: "Lokelma 5 g powder for oral suspension"
 Usage: #inline
 
  
@@ -761,14 +757,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Lokelma is indicated for the treatment of hyperkalaemia in adult patients (see section 4.4 and 5.1)."
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "lokelma"
+  * productName = "Lokelma 5 g powder for oral suspension"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -788,10 +781,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

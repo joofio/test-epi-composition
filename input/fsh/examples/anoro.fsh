@@ -685,7 +685,7 @@ sinuitis) </p>
 <p>nedsat syn eller smerter i øjnene (mulige tegn på glaukom) </p>
 </li>
 <li>
-<p>besværet og smertefuld vandladning – dette kan være tegn på tilstopning i blæren eller urinretention. </p>
+<p>besværet og smertefuld vandladning - dette kan være tegn på tilstopning i blæren eller urinretention. </p>
 </li>
 </ul>
 <p>Ikke kendt (hyppigheden kan ikke beregnes ud fra tilgængelige data):  </p>
@@ -726,7 +726,7 @@ medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""
 Aktive stoffer: umeclidiniumbromid og vilanterol. </p>
 <p>Hver enkelt inhalation afgiver en leveret dosis (den dosis, der afgives fra mundstykket) på 55 mikrogram 
 umeclidinium (svarende til 65 mikrogram umeclidiniumbromid) og 22 mikrogram vilanterol (som trifenatat). </p>
-<p>Øvrige indholdsstoffer: lactosemonohydrat (se punkt 2 ”Anoro Ellipta indeholder lactose”) og 
+<p>Øvrige indholdsstoffer: lactosemonohydrat (se punkt 2 "Anoro Ellipta indeholder lactose") og 
 magnesiumstearat. </p>
 <p>Udseende og pakningsstørrelser 
 Anoro Ellipta er inhalationspulver, afdelt. 
@@ -753,11 +753,11 @@ for indehaveren af markedsføringstilladelsen: </p>
 GlaxoSmithKline Pharmaceuticals s.a./n.v. 
 Tél/Tel: + 32 (0) 10 85 52  </p>
 <p>Lietuva<br />
-UAB “BERLIN-CHEMIE MENARINI BALTIC” 
+UAB “BERLIN-CHEMIE MENARINI BALTIC" 
 Tel: +370 52 691 lt@berlin-chemie.com 
 България<br />
 “Берлин-Хеми/А. Менарини 
-България” EООД<br />
+България" EООД<br />
 Teл.: +359 2 454 0bcsofia@berlin-chemie.com </p>
 <p>Luxembourg/Luxemburg<br />
 GlaxoSmithKline Pharmaceuticals s.a./n.v. 
@@ -804,7 +804,7 @@ Tel.: + 48 (0)22 576 9 </p>
 Laboratoire GlaxoSmithKline 
 Tél: + 33 (0)1 39 17 84 diam@gsk.com 
 Portugal<br />
-GlaxoSmithKline – Produtos Farmacêuticos, Lda. 
+GlaxoSmithKline - Produtos Farmacêuticos, Lda. 
 Tel: + 351 21 412 95 FI.PT@gsk.com </p>
 <p>Hrvatska 
 Berlin-Chemie Menarini Hrvatska d.o.o.<br />
@@ -860,11 +860,11 @@ den indeholder afdelte doser og er klar til brug med det samme. </p>
 <p>Din æske med Anoro Ellipta inhalator indeholder </p>
 <p>Inhalatoren er pakket i en bakke. Du må ikke åbne bakken, før du er klar til at begynde at bruge din nye 
 inhalator. Når du er klar til at bruge din inhalator, træk da låget af for at åbne bakken. Bakken indeholder en 
-pose med tørremiddel for at beskytte mod fugt. Smid posen med tørremiddel ud – du må ikke åbne, spise 
+pose med tørremiddel for at beskytte mod fugt. Smid posen med tørremiddel ud - du må ikke åbne, spise 
 eller inhalere posen med tørremiddel.  </p>
 <p>Når du tager inhalatoren ud af bakken, vil den være i 'lukket' position. Åbn ikke inhalatoren, før du er klar 
-til at inhalere en dosis af medicinen. Når bakken er åbnet, skal du skrive datoen for ”Kasseres senest” i det 
-dertil beregnede felt på inhalatorens etiket. Datoen ”Kasseres senest” er 6 uger fra den dag, hvor bakken blev 
+til at inhalere en dosis af medicinen. Når bakken er åbnet, skal du skrive datoen for "Kasseres senest" i det 
+dertil beregnede felt på inhalatorens etiket. Datoen "Kasseres senest" er 6 uger fra den dag, hvor bakken blev 
 åbnet. Efter denne dato må inhalatoren ikke længere anvendes. Bakken kan kasseres efter åbning. </p>
 <p>Hvis inhalatoren opbevares på køl, skal den opbevares ved stuetemperatur i mindst én time før brug. 
 Tørremiddel </p>
@@ -925,8 +925,6 @@ Description: "ePI document Bundle for anoro Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -949,8 +947,6 @@ Description: "ePI document Bundle for anoro Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -971,8 +967,8 @@ Usage: #example
 
 Instance: mp7eebcc5370e576e4703db784c7ade61f
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product anoro"
-Description: "anoro"
+Title: "Medicinal Product ANORO ELLIPTA 55 micrograms/22 micrograms inhalation powder, pre-dispensed"
+Description: "ANORO ELLIPTA 55 micrograms/22 micrograms inhalation powder, pre-dispensed"
 Usage: #inline
 
  
@@ -985,14 +981,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "ANORO ELLIPTA is indicated as a maintenance bronchodilator treatment to relieve symptoms in adult"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "anoro"
+  * productName = "ANORO ELLIPTA 55 micrograms/22 micrograms inhalation powder, pre-dispensed"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1012,10 +1005,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

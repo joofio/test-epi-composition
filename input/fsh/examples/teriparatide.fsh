@@ -753,9 +753,9 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken og pennen efter EXP. Udløbsdatoen er 
 den sidste dag i den nævnte måned. </p>
-<p>Teriparatide SUN skal opbevares i køleskab (2°C – 8°C) hele tiden. Du kan anvende Teriparatide 
+<p>Teriparatide SUN skal opbevares i køleskab (2°C - 8°C) hele tiden. Du kan anvende Teriparatide 
 SUN-pennen i op til 28 dage efter den første indsprøjtning, så længe pennen opbevares i et køleskab 
-(2°C – 8°C). </p>
+(2°C - 8°C). </p>
 <p>Teriparatide SUN må ikke nedfryses. For at undgå at pennene fryser ned, må de ikke lægges tæt på en 
 eventuel frostboks i køleskabet. Teriparatide SUN må ikke bruges, hvis det er eller har været 
 nedfrosset. </p>
@@ -1046,7 +1046,7 @@ Nedskriv datoen for din første indsprøjtning i en kalender.
 Kontroller Teriparatide SUN-etiketten for at sikre, at du har den rigtige medicin, og at den ikke har 
 overskredet udløbsdatoen. 
  
-Under indsprøjtning kan du muligvis høre et eller flere klik – dette er normalt for brug af pennen. 
+Under indsprøjtning kan du muligvis høre et eller flere klik - dette er normalt for brug af pennen. 
  
 Teriparatide SUN frarådes til brug af blinde eller synshæmmede uden hjælp af en person, der er 
 instrueret i rigtig brug af pennen. </p>         </div>"""      
@@ -1061,8 +1061,6 @@ InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for teriparatide Package Leaflet for language en"
 Description: "ePI document Bundle for teriparatide Package Leaflet for language en"
 Usage: #example
-
-
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
@@ -1087,8 +1085,6 @@ Description: "ePI document Bundle for teriparatide Package Leaflet for language 
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1109,8 +1105,8 @@ Usage: #example
 
 Instance: mp8e72e27852c8a54465539921267947b7
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product teriparatide"
-Description: "teriparatide"
+Title: "Medicinal Product Teriparatide SUN 20 micrograms/80 microliters solution for injection in pre-filled pen"
+Description: "Teriparatide SUN 20 micrograms/80 microliters solution for injection in pre-filled pen"
 Usage: #inline
 
  
@@ -1123,14 +1119,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Teriparatide SUN is indicated in adults."
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "teriparatide"
+  * productName = "Teriparatide SUN 20 micrograms/80 microliters solution for injection in pre-filled pen"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1150,10 +1143,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

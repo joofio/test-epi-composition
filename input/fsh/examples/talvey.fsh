@@ -825,7 +825,7 @@ lægemiddelrester ikke smides i afløbet, toilettet eller skraldespanden.</p>   
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Talvey indeholder:
 
-Aktivt stof: talquetamab. Talvey fås i to forskellige styrker:<em> 2 mg/ml – et 1,5 ml hætteglas indeholder 3 mg talquetamab</em> 40 mg/ml – et 1 ml hætteglas indeholder 40 mg talquetamab
+Aktivt stof: talquetamab. Talvey fås i to forskellige styrker:<em> 2 mg/ml - et 1,5 ml hætteglas indeholder 3 mg talquetamab</em> 40 mg/ml - et 1 ml hætteglas indeholder 40 mg talquetamab
 45
 
 Øvrige indholdsstoffer: EDTA dinatriumsaltdihydrat, iseddikesyre, polysorbat 20, 
@@ -1272,8 +1272,8 @@ Den samlede dosis (mg) er beregnet baseret på afrundet injektionsvolumen (ml)
 Kontrollér, at Talvey injektionsvæske, opløsning er farveløs til lysegul. Opløsningen må ikke 
 anvendes, hvis den er misfarvet, uigennemsigtig eller indeholder fremmedlegemer.
 
-Tag hætteglasset med den relevante Talvey-styrke ud af køleskabet (2 °C – 8 °C), og lad det nå 
-den omgivende temperatur (15 °C – 30 °C) i mindst 15 minutter. Undlad at opvarme Talvey på 
+Tag hætteglasset med den relevante Talvey-styrke ud af køleskabet (2 °C - 8 °C), og lad det nå 
+den omgivende temperatur (15 °C - 30 °C) i mindst 15 minutter. Undlad at opvarme Talvey på 
 nogen anden måde.
 
 Når hætteglasset har nået den omgivende temperatur, svinges det forsigtigt rundt i ca. 
@@ -1315,8 +1315,6 @@ Description: "ePI document Bundle for talvey Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1339,8 +1337,6 @@ Description: "ePI document Bundle for talvey Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1361,8 +1357,8 @@ Usage: #example
 
 Instance: mpf69e07644f479bf7649f8c501a410e55
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product talvey"
-Description: "talvey"
+Title: "Medicinal Product TALVEY 2 mg/mL solution for injection"
+Description: "TALVEY 2 mg/mL solution for injection"
 Usage: #inline
 
  
@@ -1375,14 +1371,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "TALVEY is indicated as monotherapy for the treatment of adult patients with relapsed and refractory"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "talvey"
+  * productName = "TALVEY 2 mg/mL solution for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1402,10 +1395,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

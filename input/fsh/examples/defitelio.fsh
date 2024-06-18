@@ -370,7 +370,7 @@ voksen.  </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Behandlingen med Defitelio kan kun iværksættes og løbende overvåges af en erfaren læge på et 
 hospital eller på et specialcenter for stamcelletransplantation.  </p>
 <p>Lægemidlet vil blive injiceret langsomt (i løbet af to timer) i en af dine vener. Dette kaldes “intravenøs 
-infusion” eller drop.  </p>
+infusion" eller drop.  </p>
 <p>Du vil få denne behandling fire gange dagligt i mindst 21 dage, eller indtil dine symptomer svinder.<br />
 Den anbefalede dosis til børn fra en måned til 18 år er den samme som til voksne. </p>
 <p>Hvis en dosis af Defitelio er blevet sprunget over 
@@ -513,7 +513,7 @@ opløsning indeholder 80 mg defibrotid. </p>
 </li>
 <li>
 <p>Øvrige indholdsstoffer: natriumcitrat (dihydrat), saltsyre og natriumhydroxid (begge til pH-
-justering) og vand til injektionsvæsker (se afsnit 2 “Defitelio indeholder natrium”). </p>
+justering) og vand til injektionsvæsker (se afsnit 2 “Defitelio indeholder natrium"). </p>
 </li>
 </ul>
 <p>Udseende og pakningsstørrelser 
@@ -527,15 +527,15 @@ Piazza XX Settembre, 2
 Italien </p>
 <p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
 repræsentant for indehaveren af markedsføringstilladelsen: </p>
-<p>AT – BE – BG – CY – CZ – DE – DK – EE – EL – ES – FI – FR – HR 
-– HU – IE – IS – IT – LT – LU – LV – MT – NL – NO – PL – PT – 
-RO – SE – SK – SL – UK(NI) </p>
+<p>AT - BE - BG - CY - CZ - DE - DK - EE - EL - ES - FI - FR - HR 
+- HU - IE - IS - IT - LT - LU - LV - MT - NL - NO - PL - PT - 
+RO - SE - SK - SL - UK(NI) </p>
 <p>Jazz Pharmaceuticals Ireland Limited<br />
 Tel: +353 1 968 1(lokalt telefonnummer i Irland) 
 (der kan være internationale opkaldsafgifter på opkald uden for Irland)<br />
 E-mail: medinfo-int@jazzpharma.com </p>
 <p>Denne indlægsseddel blev senest ændret:  </p>
-<p>Dette lægemiddel er godkendt under “særlige vilkår”.  </p>
+<p>Dette lægemiddel er godkendt under “særlige vilkår".  </p>
 <p>Det betyder, at det af etiske grunde ikke har været muligt at udføre placebokontrollerede kliniske 
 studier og opnå fuldstændig dokumentation for lægemidlet, fordi det anvendes til en sjælden sygdom. </p>
 <p>Det Europæiske Lægemiddelagentur vil hvert år vurdere nye oplysninger om lægemidlet, og denne 
@@ -555,8 +555,6 @@ InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for defitelio Package Leaflet for language en"
 Description: "ePI document Bundle for defitelio Package Leaflet for language en"
 Usage: #example
-
-
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
@@ -581,8 +579,6 @@ Description: "ePI document Bundle for defitelio Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -603,8 +599,8 @@ Usage: #example
 
 Instance: mp2ca0df99b82dc3da3ea077d36f8da2cd
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product defitelio"
-Description: "defitelio"
+Title: "Medicinal Product Defitelio 80 mg/mL concentrate for solution for infusion"
+Description: "Defitelio 80 mg/mL concentrate for solution for infusion"
 Usage: #inline
 
  
@@ -617,14 +613,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Defitelio is indicated for the treatment of severe hepatic veno-occlusive disease (VOD) also known as"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "defitelio"
+  * productName = "Defitelio 80 mg/mL concentrate for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -644,10 +637,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

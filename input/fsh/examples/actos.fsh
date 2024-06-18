@@ -572,7 +572,7 @@ Hver Actos 30 mg tablet indeholder 30 mg pioglitazon (som hydrochlorid).
 Hver Actos 45 mg tablet indeholder 45 mg pioglitazon (som hydrochlorid). 
 − 
 Øvrige indholdsstoffer: lactosemonohydrat, hydroxypropylcellulose, carmellosecalcium og 
-magnesiumstearat. Se punkt 2 ”Actos indeholder lactosemonohydrat”. </p>
+magnesiumstearat. Se punkt 2 "Actos indeholder lactosemonohydrat". </p>
 <p>Udseende og pakningsstørrelser 
 − 
 Actos 15 mg tabletter er hvide til grålighvide, runde, konvekse tabletter, der er mærkede med 
@@ -608,8 +608,6 @@ Description: "ePI document Bundle for actos Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -632,8 +630,6 @@ Description: "ePI document Bundle for actos Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -654,8 +650,8 @@ Usage: #example
 
 Instance: mp5137745e381296dea05060d82180475d
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product actos"
-Description: "actos"
+Title: "Medicinal Product Actos 15 mg tablets"
+Description: "Actos 15 mg tablets"
 Usage: #inline
 
  
@@ -668,14 +664,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Pioglitazone is indicated as second or third line treatment of type 2 diabetes mellitus as described"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "actos"
+  * productName = "Actos 15 mg tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -695,10 +688,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -1103,8 +1103,6 @@ Description: "ePI document Bundle for neulasta Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1127,8 +1125,6 @@ Description: "ePI document Bundle for neulasta Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1149,8 +1145,8 @@ Usage: #example
 
 Instance: mpa292590defa3c39010b96fff24e30c08
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product neulasta"
-Description: "neulasta"
+Title: "Medicinal Product Neulasta 6 mg solution for injection"
+Description: "Neulasta 6 mg solution for injection"
 Usage: #inline
 
  
@@ -1163,14 +1159,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Reduction in the duration of neutropenia and the incidence of febrile neutropenia in adult patients"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "neulasta"
+  * productName = "Neulasta 6 mg solution for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1190,10 +1183,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

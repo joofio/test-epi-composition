@@ -498,13 +498,13 @@ gruppe af lægemidler, der kaldes ‘antiretrovirale lægemidler’.
 Delstrigo indeholder de aktive stoffer:</p>
 <ul>
 <li>
-<p>doravirin – en non-nukleosid revers transkriptasehæmmer (NNRTI)</p>
+<p>doravirin - en non-nukleosid revers transkriptasehæmmer (NNRTI)</p>
 </li>
 <li>
-<p>lamivudin – en nukleosidanalog revers transkriptasehæmmer (NRTI)</p>
+<p>lamivudin - en nukleosidanalog revers transkriptasehæmmer (NRTI)</p>
 </li>
 <li>
-<p>tenofovirdisoproxil – en nukleosidanalog revers transkriptasehæmmer (NRTI).
+<p>tenofovirdisoproxil - en nukleosidanalog revers transkriptasehæmmer (NRTI).
 Anvendelse
 Delstrigo anvendes til behandling af hiv-infektion hos voksne og unge i alderen 12 år og derover, som
 vejer mindst 35 kg. Hiv er det virus, der forårsager aids (‘erhvervet immundefektsyndrom’). Du må
@@ -553,7 +553,7 @@ lægemidler, der indeholder perikon</li>
 <p>lumacaftor (et lægemiddel til behandling af cystisk fibrose).
 Tag ikke Delstrigo, hvis ovenstående gælder for dig. Hvis du er i tvivl, så kontakt lægen,
 apotekspersonalet eller sundhedspersonalet, før du tager Delstrigo. Se også listen under punktet “Brug
-af andre lægemidler sammen med Delstrigo”.
+af andre lægemidler sammen med Delstrigo".
 Advarsler og forsigtighedsregler
 Kontakt lægen, apotekspersonalet eller sygeplejersken, før du tager Delstrigo.
 Forværring af hepatitis B-infektion
@@ -589,7 +589,7 @@ Fortæl lægen, apotekspersonalet eller sygeplejersken, hvis du tager andre læg
 taget andre lægemidler eller planlægger at tage andre lægemidler. Årsagen er, at andre lægemidler kan
 påvirke, hvordan Delstrigo virker, og Delstrigo kan påvirke, hvordan andre lægemidler virker. 
 Der er visse lægemidler, som du ikke må tage sammen med Delstrigo. Se listen under punktet “Tag
-ikke Delstrigo”.
+ikke Delstrigo".
 Kontakt lægen, før du tager følgende lægemidler sammen med Delstrigo, da lægen kan blive nødt til at
 ændre på dosis af din medicin:</p>
 </li>
@@ -667,7 +667,7 @@ der tages som en enkelt tablet til behandling af hiv-infektion.
 Så meget skal du tage
 Den anbefalede dosis er 1 tablet en gang dagligt. Hvis du tager visse lægemidler, kan lægen blive nødt
 til at ændre den mængde doravirin, du tager. Se punktet “Brug af andre lægemidler sammen med
-Delstrigo” for en liste over lægemidler.
+Delstrigo" for en liste over lægemidler.
 Sådan skal du tage dette lægemiddel</p>
 <ul>
 <li>
@@ -1059,8 +1059,6 @@ Description: "ePI document Bundle for delstrigo Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1083,8 +1081,6 @@ Description: "ePI document Bundle for delstrigo Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1105,8 +1101,8 @@ Usage: #example
 
 Instance: mpcba1fe141abc835da1e9a47ec8c07d56
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product delstrigo"
-Description: "delstrigo"
+Title: "Medicinal Product Delstrigo 100 mg/300 mg/245 mg film-coated tablets"
+Description: "Delstrigo 100 mg/300 mg/245 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1119,14 +1115,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Delstrigo is indicated for the treatment of adults infected with human immunodeficiency virus type 1"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "delstrigo"
+  * productName = "Delstrigo 100 mg/300 mg/245 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1146,10 +1139,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

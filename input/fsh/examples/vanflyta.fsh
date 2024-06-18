@@ -559,11 +559,11 @@ kan påvirke den måde, VANFLYTA virker på. </p>
 dette lægemiddel i blodet: </p>
 <ul>
 <li>
-<p>visse lægemidler, der anvendes til at behandle svampeinfektioner – såsom itraconazol, 
+<p>visse lægemidler, der anvendes til at behandle svampeinfektioner - såsom itraconazol, 
 posaconazol eller voriconazol, </p>
 </li>
 <li>
-<p>visse antibiotika – såsom clarithromycin eller telithromycin, </p>
+<p>visse antibiotika - såsom clarithromycin eller telithromycin, </p>
 </li>
 <li>
 <p>nefazodon, et lægemiddel, der anvendes til at behandle svær depression. </p>
@@ -572,25 +572,25 @@ posaconazol eller voriconazol, </p>
 <p>Følgende lægemidler kan reducere virkningen af VANFLYTA: </p>
 <ul>
 <li>
-<p>visse lægemidler, der anvendes til at behandle tuberkulose – såsom rifampicin, </p>
+<p>visse lægemidler, der anvendes til at behandle tuberkulose - såsom rifampicin, </p>
 </li>
 <li>
-<p>visse lægemidler, der anvendes til at behandle krampeanfald eller epilepsi – såsom 
+<p>visse lægemidler, der anvendes til at behandle krampeanfald eller epilepsi - såsom 
 carbamazepin, primidon, phenobarbital eller phenytoin, </p>
 </li>
 <li>
-<p>visse lægemidler, der anvendes til at behandle prostatakræft – såsom apalutamid og 
+<p>visse lægemidler, der anvendes til at behandle prostatakræft - såsom apalutamid og 
 enzalutamid, </p>
 </li>
 <li>
-<p>mitotan – et lægemiddel, der anvendes til at behandle symptomer på tumorer i binyrerne, </p>
+<p>mitotan - et lægemiddel, der anvendes til at behandle symptomer på tumorer i binyrerne, </p>
 </li>
 <li>
-<p>bosentan – et lægemiddel, der anvendes til at behandle højt blodtryk i lungerne (pulmonal 
+<p>bosentan - et lægemiddel, der anvendes til at behandle højt blodtryk i lungerne (pulmonal 
 arteriel hypertension), </p>
 </li>
 <li>
-<p>prikbladet perikon (Hypericum perforatum) – et naturlægemiddel, der anvendes mod angst og 
+<p>prikbladet perikon (Hypericum perforatum) - et naturlægemiddel, der anvendes mod angst og 
 let depression. </p>
 </li>
 </ul>
@@ -930,8 +930,6 @@ Description: "ePI document Bundle for vanflyta Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -954,8 +952,6 @@ Description: "ePI document Bundle for vanflyta Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -976,8 +972,8 @@ Usage: #example
 
 Instance: mp1ff94cd25db3b18c09de52395c558d2d
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product vanflyta"
-Description: "vanflyta"
+Title: "Medicinal Product VANFLYTA 17.7 mg film-coated tablets"
+Description: "VANFLYTA 17.7 mg film-coated tablets"
 Usage: #inline
 
  
@@ -990,14 +986,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "VANFLYTA is indicated in combination with standard cytarabine and anthracycline induction and"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "vanflyta"
+  * productName = "VANFLYTA 17.7 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1017,10 +1010,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

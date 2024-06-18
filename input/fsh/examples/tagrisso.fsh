@@ -513,7 +513,7 @@ Kontakt lægen, apotekspersonalet eller sygeplejersken, før du tager TAGRISSO, 
 du tidligere har haft en betændelseslignende sygdom (inflammation) i dine lunger (en sygdom, 
 der hedder "interstitiel lungesygdom").
 
-du nogensinde har haft hjerteproblemer – lægen vil måske overvåge dig mere omhyggeligt. 
+du nogensinde har haft hjerteproblemer - lægen vil måske overvåge dig mere omhyggeligt. 
 
 du tidligere har haft problemer med øjnene.
 Tal med lægen, apotekspersonalet eller sygeplejersken, inden du tager dette lægemiddel, hvis noget af 
@@ -544,11 +544,11 @@ andre lægemidler virker, og nogle andre lægemidler kan påvirke den måde, hvo
 Fortæl det til lægen, før du tager TAGRISSO, hvis du tager nogle af følgende lægemidler: 
 Nedenstående lægemidler kan nedsætte TAGRISSOs virkning:
 
-Phenytoin, carbamazepin og phenobarbital – bruges mod krampeanfald.
+Phenytoin, carbamazepin og phenobarbital - bruges mod krampeanfald.
 
-Rifabutin og rifampicin – bruges mod tuberkulose (TB).
+Rifabutin og rifampicin - bruges mod tuberkulose (TB).
 
-Perikon (Hypericum perforatum) – et naturlægemiddel, der bruges mod depression.
+Perikon (Hypericum perforatum) - et naturlægemiddel, der bruges mod depression.
 47
 TAGRISSO kan påvirke, hvor godt følgende lægemidler virker og/eller øge bivirkningerne af disse 
 lægemidler:
@@ -563,14 +563,14 @@ Efavirenz og etravirin - bruges til behandling af HIV-infektioner/AIDS
 
 Modafinil - bruges mod søvnforstyrrelser
 
-Dabigatran – bruges forebyggende mod blodpropper
+Dabigatran - bruges forebyggende mod blodpropper
 
-Digoxin – bruges mod uregelmæssige hjerteslag eller andre hjerteproblemer
+Digoxin - bruges mod uregelmæssige hjerteslag eller andre hjerteproblemer
 
-Aliskiren – bruges mod forhøjet blodtryk
+Aliskiren - bruges mod forhøjet blodtryk
 Hvis du tager nogen af ovenstående lægemidler, skal du fortælle det til din læge, inden du tager 
 TAGRISSO. Lægen vil tale med dig om passende behandlingsmuligheder.
-Graviditet – information til kvinder
+Graviditet - information til kvinder
 
 Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive 
 gravid, skal du spørge din læge til råds, før du tager dette lægemiddel. Hvis du bliver gravid 
@@ -583,11 +583,11 @@ bruge effektiv prævention. Se "Prævention - information til kvinder og mænd" 
 Hvis du planlægger at blive gravid, efter du har taget den sidste dosis af dette lægemiddel, skal 
 du spørge lægen om råd. Dette skyldes, at lægemidlet fortsat kan være i din krop (se rådene om 
 prævention nedenfor).
-Graviditet – information til mænd
+Graviditet - information til mænd
 
 Hvis din partner bliver gravid, mens du tager dette lægemiddel, skal du straks fortælle det til din 
 læge.
-Prævention – information til kvinder og mænd
+Prævention - information til kvinder og mænd
 Du skal bruge effektiv prævention under behandlingen.
 
 TAGRISSO kan påvirke, hvor godt svangerskabsforebyggende tabletter (f.eks. p-piller) virker. 
@@ -597,9 +597,9 @@ TAGRISSO kan passere over i sæd. Derfor er det vigtigt, at mænd også bruger e
 prævention.
 Dette skal du også gøre efter afslutning af behandling med TAGRISSO:
 
-Kvinder – brug prævention i 2 måneder efter. 
+Kvinder - brug prævention i 2 måneder efter. 
 
-Mænd – brug prævention i 4 måneder efter.
+Mænd - brug prævention i 4 måneder efter.
 Amning
 Du må ikke amme, mens du tager dette lægemiddel. Dette skyldes, at det ikke er afklaret, om der er en 
 risiko for dit barn.
@@ -635,7 +635,7 @@ Hvis du har svært ved at synke tabletten, kan du blande den op i vand:
 
 Put tabletten i et glas.
 
-Tilsæt 50 ml postevand (uden brus) – brug ikke andre væsker.
+Tilsæt 50 ml postevand (uden brus) - brug ikke andre væsker.
 
 Omrør vandet, indtil tabletten har delt sig i meget små stykker - tabletten vil ikke blive helt 
 opløst.
@@ -688,7 +688,7 @@ eller synsforandringer. Denne bivirkning er ikke almindelig: kan forekomme hos o
 100 personer.
 
 En blodsygdom kaldet aplastisk anæmi, der skyldes, at knoglemarven stopper med at producere 
-nye blodlegemer – tegn, tydende på denne blodsygdom, kan omfatte vedvarende feber, øget
+nye blodlegemer - tegn, tydende på denne blodsygdom, kan omfatte vedvarende feber, øget
 tendens til blå mærker eller blødning, øget træthed og nedsat evne til at bekæmpe infektioner. 
 Denne bivirkning er sjælden: den kan påvirke op til 1 ud af 1 000 personer.
 
@@ -699,15 +699,15 @@ Fortæl det straks til lægen, hvis du bemærker ovenstående alvorlige bivirkni
 Andre bivirkninger
 Meget almindelige (kan påvirke mere end 1 ud af 10 personer)
 
-Diarré – dette kan komme og gå under behandlingen. Fortæl det til lægen, hvis diarréen ikke går 
+Diarré - dette kan komme og gå under behandlingen. Fortæl det til lægen, hvis diarréen ikke går 
 væk eller hvis den bliver voldsom. 
 
-Problemer med hud og negle – tegnene kan omfatte smerte, kløe, tør hud, udslæt, rødme 
+Problemer med hud og negle - tegnene kan omfatte smerte, kløe, tør hud, udslæt, rødme 
 omkring fingerneglene. Dette sker oftere i områder, der er udsat for sol. Det kan hjælpe at bruge 
 fugtighedscreme på hud og negle regelmæssigt. Fortæl det til lægen, hvis problemerne med hud 
 og negle bliver værre.
 
-Stomatitis – betændelse i slimhinden i munden eller sår i munden.
+Stomatitis - betændelse i slimhinden i munden eller sår i munden.
 
 Appetitløshed
 
@@ -720,10 +720,10 @@ Næseblod (epistaksis)
 
 Hårtab (alopeci)
 
-Nældefeber (urticaria) – kløende, hævede plamager forskellige steder på kroppen, som kan være 
+Nældefeber (urticaria) - kløende, hævede plamager forskellige steder på kroppen, som kan være 
 lyserøde eller røde og have en rund form. Fortæl det til lægen, hvis du får denne bivirkning.
 
-Hånd-fod-syndrom – dette kan omfatte rødme, hævelse, prikken eller en brændende 
+Hånd-fod-syndrom - dette kan omfatte rødme, hævelse, prikken eller en brændende 
 fornemmelse med revner i huden på håndfladerne og/eller fodsålerne.
 
 Øget forekomst af et stof i blodet, som kaldes kreatinin (det produceres af kroppen og fjernes af 
@@ -906,8 +906,6 @@ Description: "ePI document Bundle for tagrisso Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -930,8 +928,6 @@ Description: "ePI document Bundle for tagrisso Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -952,8 +948,8 @@ Usage: #example
 
 Instance: mpd7f220f9031e8b4b6b6e866b11abbe3a
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product tagrisso"
-Description: "tagrisso"
+Title: "Medicinal Product TAGRISSO 40 mg film-coated tablets"
+Description: "TAGRISSO 40 mg film-coated tablets"
 Usage: #inline
 
  
@@ -966,14 +962,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "TAGRISSO as monotherapy is indicated for:"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "tagrisso"
+  * productName = "TAGRISSO 40 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -993,10 +986,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

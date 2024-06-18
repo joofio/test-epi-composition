@@ -1023,8 +1023,6 @@ Description: "ePI document Bundle for fosavance Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1047,8 +1045,6 @@ Description: "ePI document Bundle for fosavance Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1069,8 +1065,8 @@ Usage: #example
 
 Instance: mp4bec0630ba2fe20207306bdc003daeb2
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product fosavance"
-Description: "fosavance"
+Title: "Medicinal Product FOSAVANCE 70 mg/2,800 IU tablets"
+Description: "FOSAVANCE 70 mg/2,800 IU tablets"
 Usage: #inline
 
  
@@ -1083,14 +1079,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "FOSAVANCE is indicated for the treatment of postmenopausal osteoporosis in women at risk of"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "fosavance"
+  * productName = "FOSAVANCE 70 mg/2,800 IU tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1110,10 +1103,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

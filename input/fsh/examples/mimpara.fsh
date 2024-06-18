@@ -913,8 +913,6 @@ Description: "ePI document Bundle for mimpara Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -937,8 +935,6 @@ Description: "ePI document Bundle for mimpara Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -959,8 +955,8 @@ Usage: #example
 
 Instance: mp168192a0c6d5270d5bcdb3cfa6cdd926
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product mimpara"
-Description: "mimpara"
+Title: "Medicinal Product Mimpara 30 mg film-coated tablets"
+Description: "Mimpara 30 mg film-coated tablets"
 Usage: #inline
 
  
@@ -973,14 +969,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Secondary hyperparathyroidism"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "mimpara"
+  * productName = "Mimpara 30 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1000,10 +993,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -365,31 +365,31 @@ planlægger at bruge andre lægemidler. </p>
 disse lægemidler: </p>
 <ul>
 <li>
-<p>dabigatran – anvendes til at forebygge slagtilfælde eller venøs trombose/lungeemboli </p>
+<p>dabigatran - anvendes til at forebygge slagtilfælde eller venøs trombose/lungeemboli </p>
 </li>
 <li>
-<p>digoxin – anvendes til at behandle uregelmæssigt hjerteslag eller andre hjerteproblemer </p>
+<p>digoxin - anvendes til at behandle uregelmæssigt hjerteslag eller andre hjerteproblemer </p>
 </li>
 <li>
-<p>aliskiren – anvendes til at behandle højt blodtryk </p>
+<p>aliskiren - anvendes til at behandle højt blodtryk </p>
 </li>
 <li>
-<p>everolimus – anvendes til at behandle kræft </p>
+<p>everolimus - anvendes til at behandle kræft </p>
 </li>
 <li>
-<p>sirolimus – anvendes til at forebygge organafstødelse hos transplanterede patienter </p>
+<p>sirolimus - anvendes til at forebygge organafstødelse hos transplanterede patienter </p>
 </li>
 <li>
-<p>rosuvastatin – anvendes til at behandle høje niveauer af fedtstoffer i blodet </p>
+<p>rosuvastatin - anvendes til at behandle høje niveauer af fedtstoffer i blodet </p>
 </li>
 <li>
-<p>methotrexat – anvendes til at behandle inflammationssygdomme eller kræft </p>
+<p>methotrexat - anvendes til at behandle inflammationssygdomme eller kræft </p>
 </li>
 <li>
-<p>topotecan – anvendes til at behandle kræft </p>
+<p>topotecan - anvendes til at behandle kræft </p>
 </li>
 <li>
-<p>metformin – anvendes til at behandle diabetes </p>
+<p>metformin - anvendes til at behandle diabetes </p>
 </li>
 </ul>
 <p>Graviditet og amning 
@@ -585,8 +585,6 @@ Description: "ePI document Bundle for tepmetko Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -609,8 +607,6 @@ Description: "ePI document Bundle for tepmetko Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -631,8 +627,8 @@ Usage: #example
 
 Instance: mpbaea5a2972e0f05fd505526d61aba839
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product tepmetko"
-Description: "tepmetko"
+Title: "Medicinal Product TEPMETKO 225 mg film-coated tablets"
+Description: "TEPMETKO 225 mg film-coated tablets"
 Usage: #inline
 
  
@@ -645,14 +641,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "TEPMETKO as monotherapy is indicated for the treatment of adult patients with advanced non-small"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "tepmetko"
+  * productName = "TEPMETKO 225 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -672,10 +665,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

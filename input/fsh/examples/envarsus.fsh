@@ -1195,8 +1195,6 @@ Description: "ePI document Bundle for envarsus Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1219,8 +1217,6 @@ Description: "ePI document Bundle for envarsus Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1241,8 +1237,8 @@ Usage: #example
 
 Instance: mpbfce752a769c6bdf68d02de41c720db5
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product envarsus"
-Description: "envarsus"
+Title: "Medicinal Product Envarsus 0.75 mg prolonged-release tablets"
+Description: "Envarsus 0.75 mg prolonged-release tablets"
 Usage: #inline
 
  
@@ -1255,14 +1251,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Prophylaxis of transplant rejection in adult kidney or liver allograft recipients."
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "envarsus"
+  * productName = "Envarsus 0.75 mg prolonged-release tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1282,10 +1275,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

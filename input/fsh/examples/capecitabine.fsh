@@ -536,7 +536,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "1. What capecitabine is and what it is used for"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Capecitabine Teva tilhører en gruppe lægemidler som kaldes “cytostatika”, som standser væksten af 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Capecitabine Teva tilhører en gruppe lægemidler som kaldes “cytostatika", som standser væksten af 
 kræftceller. Capecitabine Teva indeholder capecitabin, som i sig selv ikke virker cytostatisk. Kun når 
 det er optaget i kroppen ændres det til et aktivt anti-cancer stof (fortrinsvis i svulstvæv). </p>
 <p>Capecitabine Teva anvendes til behandling af kræft i tyktarm, endetarm, mave eller bryst. Desuden 
@@ -596,7 +596,7 @@ aktivitet af enzymet, må du ikke tage Capecitabine Teva. Hvis du har reduceret 
 mangel) kan din læge ordinere en reduceret dosis. Hvis du er testet negativ for DPD-mangel, kan 
 alvorlige og livstruende bivirkninger stadig forekomme. </p>
 <p>Kontakt din læge med det samme, hvis du er bekymret for en eller flere af bivirkningerne, eller hvis du 
-får bivirkninger, som ikke fremgår af denne indlægsseddel (se punkt 4 ”Bivirkninger”). </p>
+får bivirkninger, som ikke fremgår af denne indlægsseddel (se punkt 4 "Bivirkninger"). </p>
 <p>Børn og unge 
 Capecitabine Teva er ikke beregnet til børn eller unge. Giv ikke Capecitabine Teva til børn eller unge. </p>
 <p>Brug af anden medicin sammen med Capecitabine Teva 
@@ -755,7 +755,7 @@ behandlingen er stoppet. Hvis bivirkningerne alligevel fortsætter, skal du stra
 Lægen vil måske bede dig om at begynde behandlingen igen med en lavere dosis. </p>
 <p>Hvis alvorlig stomatitis (sår i munden og/eller halsen), slimhindeinflammation, diarré, neutropeni (øget 
 risiko for infektion) eller neurotoksicitet forekommer under første behandlingsserie, kan en DPD-
-mangel være involveret (se punkt 2: ”Advarsler og forsigtighedsregler”). </p>
+mangel være involveret (se punkt 2: "Advarsler og forsigtighedsregler"). </p>
 <p>Hudsymptomer på hænder og fødder kan forårsage, at fingeraftrykket forsvinder, hvilket kan påvirke 
 din identifikation med fingeraftryksscanner. </p>
 <p>Ud over dette kan Capecitabine Teva når det anvendes alene have følgende meget almindelige 
@@ -1002,12 +1002,12 @@ jernoxid (E172). </p>
 </ul>
 <p>Udseende og pakningsstørrelser </p>
 <p>Capecitabine Teva 150 mg filmovertrukne tabletter 
-Ovale, bikonvekse, lys ferskenfarvede filmovertrukne tabletter præget med “C” på den ene side og 
-“150” på den anden. </p>
+Ovale, bikonvekse, lys ferskenfarvede filmovertrukne tabletter præget med “C" på den ene side og 
+“150" på den anden. </p>
 <p>Tabletterne fås i blisterpakninger med 10 filmovertrukne tabletter. Hver pakning indeholder tabletter. </p>
 <p>Capecitabine Teva 500 mg filmovertrukne tabletter 
-Ovale, bikonvekse, lys ferskenfarvede filmovertrukne tabletter præget med “C” på den ene side og 
-“500” på den anden. </p>
+Ovale, bikonvekse, lys ferskenfarvede filmovertrukne tabletter præget med “C" på den ene side og 
+“500" på den anden. </p>
 <p>Tabletterne fås i blisterpakninger med 10 filmovertrukne tabletter. Hver pakning indeholder tabletter. </p>
 <p>Indehaver af markedsføringstilladelsen </p>
 <p>Teva B.V. 
@@ -1129,8 +1129,6 @@ Description: "ePI document Bundle for capecitabine Package Leaflet for language 
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1153,8 +1151,6 @@ Description: "ePI document Bundle for capecitabine Package Leaflet for language 
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1175,8 +1171,8 @@ Usage: #example
 
 Instance: mp98dff93ef4eecdfe1514d96f0f89664a
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product capecitabine"
-Description: "capecitabine"
+Title: "Medicinal Product Capecitabine Teva 150 mg film-coated tablets"
+Description: "Capecitabine Teva 150 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1189,14 +1185,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Capecitabine Teva is indicated for the treatment of:"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "capecitabine"
+  * productName = "Capecitabine Teva 150 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1216,10 +1209,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

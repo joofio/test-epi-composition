@@ -1296,8 +1296,6 @@ Description: "ePI document Bundle for natpar Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1320,8 +1318,6 @@ Description: "ePI document Bundle for natpar Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1342,8 +1338,8 @@ Usage: #example
 
 Instance: mpf6b0c91cf3d8d1303191f090e406eedd
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product natpar"
-Description: "natpar"
+Title: "Medicinal Product Natpar 25 micrograms/dose powder and solvent for solution for injection"
+Description: "Natpar 25 micrograms/dose powder and solvent for solution for injection"
 Usage: #inline
 
  
@@ -1356,14 +1352,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Natpar is indicated as adjunctive treatment of adult patients with chronic hypoparathyroidism who"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "natpar"
+  * productName = "Natpar 25 micrograms/dose powder and solvent for solution for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1383,10 +1376,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

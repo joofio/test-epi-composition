@@ -527,9 +527,8 @@ dosis natriumthiosulfat til forebyggelse af cisplatininduceret ototoksicitet er 
 normaliseret til kropsoverflade i henhold til nedenstående tabel: </p>
 <p>Kropsvægt 
 Dosis 
-Volumen  </p>
-<blockquote>
-<p>10 kg 
+Volumen<br />
+&gt; 10 kg 
 12,8 g/m2 
 160 ml/m2 
 5 til 10 kg 
@@ -538,7 +537,6 @@ Volumen  </p>
 &lt; 5 kg 
 6,4 g/m2 
 80 ml/m2 </p>
-</blockquote>
 <p>Anvisninger for anvendelse, håndtering og bortskaffelse </p>
 <p>Dette lægemiddel er kun beregnet til engangsbrug. Eventuel ikke anvendt opløsning skal bortskaffes i 
 henhold til de lokale retningslinjer. </p>
@@ -567,8 +565,6 @@ Description: "ePI document Bundle for pedmarqsi Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -591,8 +587,6 @@ Description: "ePI document Bundle for pedmarqsi Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -613,8 +607,8 @@ Usage: #example
 
 Instance: mpb61e3b7d3b2a48a0ce57af4f9ff7b307
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product pedmarqsi"
-Description: "pedmarqsi"
+Title: "Medicinal Product Pedmarqsi 80 mg/mL solution for infusion"
+Description: "Pedmarqsi 80 mg/mL solution for infusion"
 Usage: #inline
 
  
@@ -627,14 +621,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Pedmarqsi is indicated for the prevention of ototoxicity induced by cisplatin chemotherapy in patients"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "pedmarqsi"
+  * productName = "Pedmarqsi 80 mg/mL solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -654,10 +645,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

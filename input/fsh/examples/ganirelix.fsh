@@ -757,8 +757,6 @@ Description: "ePI document Bundle for ganirelix Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -781,8 +779,6 @@ Description: "ePI document Bundle for ganirelix Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -803,8 +799,8 @@ Usage: #example
 
 Instance: mpf39d85b5533e098d34a976dedd3b1e91
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product ganirelix"
-Description: "ganirelix"
+Title: "Medicinal Product Ganirelix Gedeon Richter 0.25 mg/0.5 mL solution for injection in pre-filled syringe"
+Description: "Ganirelix Gedeon Richter 0.25 mg/0.5 mL solution for injection in pre-filled syringe"
 Usage: #inline
 
  
@@ -817,14 +813,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Ganirelix Gedeon Richter is indicated for the prevention of premature luteinising hormone (LH)"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "ganirelix"
+  * productName = "Ganirelix Gedeon Richter 0.25 mg/0.5 mL solution for injection in pre-filled syringe"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -844,10 +837,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

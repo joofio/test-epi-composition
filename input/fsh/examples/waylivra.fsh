@@ -576,7 +576,7 @@ sikkerheden af dette lægemiddel. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængelig for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på kartonen og etiketten på sprøjten efter ’EXP’. 
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
-<p>Opbevares i køleskab (2 °C – 8 °C). 
+<p>Opbevares i køleskab (2 °C - 8 °C). 
 Opbevares i den originale karton for at beskytte mod lys.  </p>
 <p>Waylivra kan opbevares ved rumtemperatur (op til 30 °C) i den originale karton i op til 6 uger efter 
 udtagning af køleskabet. I løbet af denne periode kan lægemidlet enten opbevares ved rumtemperatur 
@@ -702,14 +702,14 @@ væsken er uklar eller indeholder flydende partikler. </p>
 <li>Vælg et injektionssted </li>
 </ol>
 <p>Hvis du skal give dig selv en injektion: </p>
-<p>Mave – Maveområde med undtagelse af 5 cm 
+<p>Mave - Maveområde med undtagelse af 5 cm 
 omkring navlen, som vist. </p>
-<p>Lår – Forreste, midterste område, som vist 
+<p>Lår - Forreste, midterste område, som vist 
 (figur E). </p>
 <p>Figur E 
 Hvis du er omsorgsperson og skal give en injektion til 
 en anden; udover ovennævnte steder: </p>
-<p>Arme – Bagerste, øvre område, som vist (figur F).  </p>
+<p>Arme - Bagerste, øvre område, som vist (figur F).  </p>
 <p>Gælder alle injektioner: </p>
 <p>Skift injektionsområde ved hver injektion.  </p>
 <p>Undgå injektioner i taljeområdet, hvor dit tøj kan gnide 
@@ -812,8 +812,8 @@ smerter, rødme eller ubehag (figur P). </p>
 <p>Opbevaring </p>
 <p>Opbevaringsoplysninger </p>
 <p>Når du får udleveret de fyldte injektionssprøjter med Waylivra, skal du opbevare dem i pakningen i 
-køleskabet (2 °C – 8 °C). </p>
-<p>Waylivra kan opbevares i op til 6 uger ved rumtemperatur (8 °C – 30 °C) i den ydre karton for at 
+køleskabet (2 °C - 8 °C). </p>
+<p>Waylivra kan opbevares i op til 6 uger ved rumtemperatur (8 °C - 30 °C) i den ydre karton for at 
 beskytte mod lys. I løbet af denne 6-ugers periode kan lægemidlet enten opbevares ved 
 rumtemperatureller sættes tilbage i køleskabet. </p>
 <p>Den fyldte injektionssprøjte med Waylivra må ikke nedfryses. </p>
@@ -832,8 +832,6 @@ InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for waylivra Package Leaflet for language en"
 Description: "ePI document Bundle for waylivra Package Leaflet for language en"
 Usage: #example
-
-
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
@@ -858,8 +856,6 @@ Description: "ePI document Bundle for waylivra Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -880,8 +876,8 @@ Usage: #example
 
 Instance: mp0095f17772ab958f3f5be1c6c1d9bbac
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product waylivra"
-Description: "waylivra"
+Title: "Medicinal Product Waylivra 285 mg solution for injection in pre-filled syringe"
+Description: "Waylivra 285 mg solution for injection in pre-filled syringe"
 Usage: #inline
 
  
@@ -894,14 +890,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Waylivra is indicated as an adjunct to diet in adult patients with genetically confirmed familial"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "waylivra"
+  * productName = "Waylivra 285 mg solution for injection in pre-filled syringe"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -921,10 +914,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

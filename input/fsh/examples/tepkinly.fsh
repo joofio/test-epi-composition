@@ -496,7 +496,7 @@ Er du i tvivl, så spørg din læge eller sygeplejerske, før du tager Tepkinly.
 <p>Kontakt lægen, apotekspersonalet eller sygeplejersken, før du bruger Tepkinly, hvis du </p>
 <ul>
 <li>
-<p>har aktuelle eller tidligere problemer med dit nervesystem – såsom krampeanfald </p>
+<p>har aktuelle eller tidligere problemer med dit nervesystem - såsom krampeanfald </p>
 </li>
 <li>
 <p>har en infektion </p>
@@ -513,20 +513,20 @@ nedenfor, under eller efter behandling med Tepkinly. Du kan have brug for yderli
 behandling. </p>
 <ul>
 <li>
-<p>Cytokinfrigivelsessyndrom – en livstruende tilstand, der giver feber, opkastning 
+<p>Cytokinfrigivelsessyndrom - en livstruende tilstand, der giver feber, opkastning 
 åndedrætsbesvær/åndenød, kulderystelser, hjertebanken, hovedpine og svimmelhed/ørhed 
 og er forbundet medlægemidler, der stimulerer T-celler. 
 − Før hver injektion under huden kan du få lægemidler, som hjælper med at reducere 
 mulige virkninger af cytokinfrigivelsessyndrom. </p>
 </li>
 <li>
-<p>ICANS (immuneffektorcelle-associeret neurotoksicitetssyndrom) – Symptomerne kan 
+<p>ICANS (immuneffektorcelle-associeret neurotoksicitetssyndrom) - Symptomerne kan 
 omfatte besvær med at bruge sproget (herunder at tale, forstå, skrive og læse), døsighed, 
 forvirring/desorientering, muskelsvaghed, krampeanfald, hævelse i en del af hjernen og 
 hukommelsestab. </p>
 </li>
 <li>
-<p>Tumorlysesyndrom – nogle personer kan få usædvanlige mængder af visse salte i blodet 
+<p>Tumorlysesyndrom - nogle personer kan få usædvanlige mængder af visse salte i blodet 
 på grund af hurtig nedbrydning af kræftceller under behandlingen. Det kaldes 
 tumorlysesyndrom (TLS). </p>
 </li>
@@ -538,11 +538,11 @@ høje mængder urinsyre og hjælpe med at mindske eventuelle virkninger af
 tumorlysesyndrom. </p>
 </li>
 <li>
-<p>Tumor-flare – efterhånden som din kræftsygdom ødelægges, kan den reagere og se ud til at 
+<p>Tumor-flare - efterhånden som din kræftsygdom ødelægges, kan den reagere og se ud til at 
 blive værre - dette kaldes "tumor-flare reaktion". </p>
 </li>
 <li>
-<p>Infektioner – du kan opleve tegn på infektion, som for eksempel feber på 38 °C eller 
+<p>Infektioner - du kan opleve tegn på infektion, som for eksempel feber på 38 °C eller 
 derover, kulderystelser, hoste eller vandladningssmerter, som kan variere alt efter, hvor i 
 kroppen infektionen er. </p>
 </li>
@@ -603,10 +603,10 @@ som for eksempel cytokinfrigivelsessyndrom og feber i cyklus 1 (og potentielt fr
 Disse lægemidler kan omfatte </p>
 <ul>
 <li>
-<p>Kortikosteroider – såsom prednisolon eller tilsvarende </p>
+<p>Kortikosteroider - såsom prednisolon eller tilsvarende </p>
 </li>
 <li>
-<p>Et antihistamin – såsom diphenhydramin </p>
+<p>Et antihistamin - såsom diphenhydramin </p>
 </li>
 <li>
 <p>Paracetamol </p>
@@ -1022,7 +1022,7 @@ ikke nødvendigt at filtrere den fortyndede opløsning. </p>
 <p>Epcoritamab skal efterses visuelt for partikulært materiale og misfarvning før administration. 
 Koncentratet skal være en farveløs til let gul opløsning. Må ikke anvendes, hvis opløsningen er 
 misfarvet eller uklar, eller hvis der er fremmedlegemer til stede. </p>
-<p>Instruktioner i forberedelse af 0,16 mg startdosis – der skal foretages 2 fortyndinger 
+<p>Instruktioner i forberedelse af 0,16 mg startdosis - der skal foretages 2 fortyndinger 
 Brug en sprøjte, et hætteglas og en kanyle i passende størrelse til hvert overførselstrin. 
 1) 
 Forbered hætteglas med Tepkinly 
@@ -1066,7 +1066,7 @@ Mærk sprøjten med lægemiddelnavn, dosisstyrken (0,16 mg), dato og tidspunktet
 <p>6) 
 Bortskaf hætteglasset og en eventuel ubrugt portion Tepkinly i henhold til de lokale 
 retningslinjer. </p>
-<p>Instruktioner i forberedelse af 0,8 mg-mellemdosis – der skal foretages 1 fortynding 
+<p>Instruktioner i forberedelse af 0,8 mg-mellemdosis - der skal foretages 1 fortynding 
 Brug en sprøjte, et hætteglas og en kanyle i passende størrelse til hvert overførselstrin. 
 1) 
 Forbered hætteglas med Tepkinly 
@@ -1130,8 +1130,6 @@ Description: "ePI document Bundle for tepkinly Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1154,8 +1152,6 @@ Description: "ePI document Bundle for tepkinly Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1176,8 +1172,8 @@ Usage: #example
 
 Instance: mp8e3bfdaa73d1dfe2a558d763f021c01e
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product tepkinly"
-Description: "tepkinly"
+Title: "Medicinal Product Tepkinly 4 mg/0.8 ml concentrate for solution for injection"
+Description: "Tepkinly 4 mg/0.8 ml concentrate for solution for injection"
 Usage: #inline
 
  
@@ -1190,14 +1186,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Tepkinly as monotherapy is indicated for the treatment of adult patients with relapsed or refractory"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "tepkinly"
+  * productName = "Tepkinly 4 mg/0.8 ml concentrate for solution for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1217,10 +1210,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

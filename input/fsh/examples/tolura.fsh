@@ -489,7 +489,7 @@ risikogruppen.</p>         </div>"""
 punkt 6).
 -
 hvis du er gravid i andet eller tredje trimester. (Det er også bedst at undgå Tolura i de første 3 
-måneder af graviditeten – se afsnittet om graviditet).
+måneder af graviditeten - se afsnittet om graviditet).
 -
 hvis du har alvorlige leverproblemer, såsom kolestase eller galdevejsobstruktion (problem med 
 udskillelse af galde fra leveren og fra galdeblæren) eller anden alvorlig leversygdom.
@@ -839,8 +839,6 @@ Description: "ePI document Bundle for tolura Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -863,8 +861,6 @@ Description: "ePI document Bundle for tolura Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -885,8 +881,8 @@ Usage: #example
 
 Instance: mpbf55777f1fad69c8fa791ca2ceb30315
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product tolura"
-Description: "tolura"
+Title: "Medicinal Product Tolura 40 mg tablets"
+Description: "Tolura 40 mg tablets"
 Usage: #inline
 
  
@@ -899,14 +895,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Hypertension"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "tolura"
+  * productName = "Tolura 40 mg tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -926,10 +919,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

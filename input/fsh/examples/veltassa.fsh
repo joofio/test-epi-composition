@@ -368,11 +368,11 @@ Kontakt lægen eller apotekspersonalet, før du bruger Veltassa, hvis du eller d
 <p>Problemer med at synke - lægemidlet vil ikke virke, hvis du ikke kan synke det </p>
 </li>
 <li>
-<p>Alvorlige problemer med maven eller tarmene – dette lægemiddel kan forårsage forstoppelse 
+<p>Alvorlige problemer med maven eller tarmene - dette lægemiddel kan forårsage forstoppelse 
 eller diarré hos nogle patienter, </p>
 </li>
 <li>
-<p>fået en større operation i maven eller tarmene – dette lægemiddel virker, når det passerer 
+<p>fået en større operation i maven eller tarmene - dette lægemiddel virker, når det passerer 
 igennem tarmene, så større operationer i dette område kan have en virkning på dette 
 lægemiddels effekt. </p>
 </li>
@@ -575,7 +575,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på kartonen eller brevet efter "EXP". 
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
-<p>Opbevares i køleskab og transporteres nedkølet (2°C – 8°C). </p>
+<p>Opbevares i køleskab og transporteres nedkølet (2°C - 8°C). </p>
 <p>Når du har modtaget dette lægemiddel, kan du opbevare det under 25 °C i op til 6 måneder. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
 smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
@@ -612,13 +612,13 @@ Pulveret til oral suspension er offwhite til lysebrunt med sporadiske hvide part
 <p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
 <p>Indehaver af markedsføringstilladelsen 
 Vifor Fresenius Medical Care Renal Pharma France 
-100–101 Terrasse Boieldieu 
+100-101 Terrasse Boieldieu 
 Tour Franklin La Défense 8 
 92042 Paris La Défense Cedex 
 Frankrig </p>
 <p>Fremstiller 
 Vifor France 
-100–101 Terrasse Boieldieu 
+100-101 Terrasse Boieldieu 
 Tour Franklin La Défense 8 
 92042 Paris La Défense Cedex 
 Frankrig </p>
@@ -636,8 +636,6 @@ InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for veltassa Package Leaflet for language en"
 Description: "ePI document Bundle for veltassa Package Leaflet for language en"
 Usage: #example
-
-
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
@@ -662,8 +660,6 @@ Description: "ePI document Bundle for veltassa Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -684,8 +680,8 @@ Usage: #example
 
 Instance: mpda0c248904d382a9eb3bce64c5a02953
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product veltassa"
-Description: "veltassa"
+Title: "Medicinal Product Veltassa 1 g powder for oral suspension"
+Description: "Veltassa 1 g powder for oral suspension"
 Usage: #inline
 
  
@@ -698,14 +694,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Veltassa is indicated for the treatment of hyperkalaemia in adults and adolescents aged 12 to 17 years."
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "veltassa"
+  * productName = "Veltassa 1 g powder for oral suspension"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -725,10 +718,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

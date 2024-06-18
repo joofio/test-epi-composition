@@ -1566,8 +1566,6 @@ Description: "ePI document Bundle for sixmo Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1590,8 +1588,6 @@ Description: "ePI document Bundle for sixmo Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1612,8 +1608,8 @@ Usage: #example
 
 Instance: mp257716587c0bc57c8b7f0da168f8cf11
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product sixmo"
-Description: "sixmo"
+Title: "Medicinal Product Sixmo 74.2 mg implant"
+Description: "Sixmo 74.2 mg implant"
 Usage: #inline
 
  
@@ -1626,14 +1622,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Sixmo is indicated for substitution treatment for opioid dependence in clinically stable adult patients"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "sixmo"
+  * productName = "Sixmo 74.2 mg implant"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1653,10 +1646,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

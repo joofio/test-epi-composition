@@ -855,8 +855,6 @@ Description: "ePI document Bundle for prehevbri Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -879,8 +877,6 @@ Description: "ePI document Bundle for prehevbri Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -901,8 +897,8 @@ Usage: #example
 
 Instance: mp6ad927719fc570edf8a72cacebe37a51
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product prehevbri"
-Description: "prehevbri"
+Title: "Medicinal Product PreHevbri 10 micrograms suspension for injection"
+Description: "PreHevbri 10 micrograms suspension for injection"
 Usage: #inline
 
  
@@ -915,14 +911,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "PreHevbri is indicated for active immunisation against infection caused by all known subtypes of the"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "prehevbri"
+  * productName = "PreHevbri 10 micrograms suspension for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -942,10 +935,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

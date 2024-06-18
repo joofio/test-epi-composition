@@ -556,8 +556,6 @@ Description: "ePI document Bundle for novothirteen Package Leaflet for language 
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -580,8 +578,6 @@ Description: "ePI document Bundle for novothirteen Package Leaflet for language 
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -602,8 +598,8 @@ Usage: #example
 
 Instance: mp85f7c08e568d2cd0fc2ac32155c57714
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product novothirteen"
-Description: "novothirteen"
+Title: "Medicinal Product NovoThirteen 2500 IU powder and solvent for solution for injection"
+Description: "NovoThirteen 2500 IU powder and solvent for solution for injection"
 Usage: #inline
 
  
@@ -616,14 +612,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Long term prophylaxis of bleeding in patients with congenital factor XIII A-subunit deficiency."
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "novothirteen"
+  * productName = "NovoThirteen 2500 IU powder and solvent for solution for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -643,10 +636,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

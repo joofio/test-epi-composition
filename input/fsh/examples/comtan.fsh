@@ -492,7 +492,7 @@ sygdom pludseligt stoppes, eller hvis dosis pludseligt nedsættes. Se symptomer 
 Bivirkninger. Din læge kan råde dig til langsomt at stoppe behandlingen med Comtan og andre 
 lægemidler til behandling af Parkinsons sygdom.
 Samtidig brug af Comtan og levodopa kan gøre dig mere sløv, og nogen gange kan du pludseligt falde 
-i søvn. Hvis dette sker, må du ikke køre bil eller betjene maskiner (se ”Trafik- og arbejdssikkerhed”).
+i søvn. Hvis dette sker, må du ikke køre bil eller betjene maskiner (se "Trafik- og arbejdssikkerhed").
 Brug af anden medicin sammen med Comtan
 Fortæl altid lægen eller apotekspersonalet, hvis du bruger anden medicin, for nylig har brugt anden 
 medicin eller planlægger at bruge anden medicin. Du skal især fortælle det til lægen, hvis du tager 
@@ -685,7 +685,7 @@ hydrogeneret vegetabilsk olie og magnesiumstearat.
 Filmovertræk: Hypromellose, polysorbat 80, glycerol 85%, saccharose, gul jernoxid (E172), rød 
 jernoxid (E172), titandioxid (E171) og magnesiumstearat.
 Udseende og pakningsstørrelse
-Comtan 200 mg filmovertrukne tabletter er brun-orange, ovale tabletter mærket med ”Comtan” på den 
+Comtan 200 mg filmovertrukne tabletter er brun-orange, ovale tabletter mærket med "Comtan" på den 
 ene side. Tabletterne er pakket i en tabletbeholder. 
 Der findes tre forskellige pakningsstørrelser (beholdere med 30, 60 eller 100 tabletter). Ikke alle 
 pakningsstørrelser er nødvendigvis markedsført.
@@ -810,8 +810,6 @@ Description: "ePI document Bundle for comtan Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -834,8 +832,6 @@ Description: "ePI document Bundle for comtan Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -856,8 +852,8 @@ Usage: #example
 
 Instance: mp2c4585a24a9c8e31d0f67fd3f46f50de
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product comtan"
-Description: "comtan"
+Title: "Medicinal Product Comtan 200 mg film-coated tablets"
+Description: "Comtan 200 mg film-coated tablets"
 Usage: #inline
 
  
@@ -870,14 +866,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Entacapone is indicated as an adjunct to standard preparations of levodopa/benserazide or"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "comtan"
+  * productName = "Comtan 200 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -897,10 +890,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

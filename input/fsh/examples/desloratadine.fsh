@@ -558,7 +558,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
   * code.text = "5. How to store desloratadine"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
-<p>Tag ikke lægemidlet efter den udløbsdato, der står på æsken og blisteren efter ”EXP”. Udløbsdatoen er 
+<p>Tag ikke lægemidlet efter den udløbsdato, der står på æsken og blisteren efter "EXP". Udløbsdatoen er 
 den sidste dag i den nævnte måned. </p>
 <p>Denne medicin kræver ikke særlige opbevaringsforhold. </p>
 <p>Tag ikke lægemidler, hvis du bemærker ændringer i tabletternes udseende. </p>
@@ -718,7 +718,7 @@ indeholder desloratadin bør ændres i overenstemmelse hermed. </p>
 (MAH’er), identificerede WHO et potentielt sikkerhedssignal i form af øjentørhed for desloratadin 
 under rapporteringsperioden. Baseret på de antikolinergiske egenskaber vedrørende desloratadin, samt 
 understøttet af rapporterne med kort tid til opståelse og både de- og rechallenge mekanismer, overvejer 
-PRAC at ”øjentørhed” bør overvejes medtaget på produktetiketter og i indlægssedler til patienter. </p>
+PRAC at "øjentørhed" bør overvejes medtaget på produktetiketter og i indlægssedler til patienter. </p>
 <p>CHMP tilslutter sig PRAC's videnskabelige konklusioner. </p>
 <p>Begrundelser for ændring af betingelserne for markedsføringstilladelsen/-tilladelserne </p>
 <p>På baggrund af de videnskabelige konklusioner for desloratadin er CHMP af den opfattelse, at 
@@ -736,8 +736,6 @@ InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for desloratadine Package Leaflet for language en"
 Description: "ePI document Bundle for desloratadine Package Leaflet for language en"
 Usage: #example
-
-
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
@@ -762,8 +760,6 @@ Description: "ePI document Bundle for desloratadine Package Leaflet for language
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -784,8 +780,8 @@ Usage: #example
 
 Instance: mpd51291e7d675a24203f1a2e152221f98
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product desloratadine"
-Description: "desloratadine"
+Title: "Medicinal Product Desloratadine Teva 5 mg film-coated tablets"
+Description: "Desloratadine Teva 5 mg film-coated tablets"
 Usage: #inline
 
  
@@ -798,14 +794,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Desloratadine Teva is indicated in adults and adolescents aged 12 years and older for the relief of symptoms"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "desloratadine"
+  * productName = "Desloratadine Teva 5 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -825,10 +818,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

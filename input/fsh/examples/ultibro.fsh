@@ -494,7 +494,7 @@ indholdsstoffer (angivet i punkt 6). </p>
 Kontakt lægen, apotekspersonalet eller sygeplejersken, før du tager Ultibro Breezhaler hvis noget af 
 følgende passer på dig:</p>
 <ul>
-<li>hvis du har astma – denne medicin må ikke bruges til behandling af astma. </li>
+<li>hvis du har astma - denne medicin må ikke bruges til behandling af astma. </li>
 <li>hvis du har hjerteproblemer. </li>
 <li>hvis du har kramper eller anfald. </li>
 <li>hvis du har problemer med skjoldbruskkirtlen (tyrotoksikose). </li>
@@ -519,7 +519,7 @@ glaukom. </li>
 <li>besvær med at trække vejret eller synke, hævelse af tunge, læber eller ansigt, hududslæt, 
 kløe og nældefeber (tegn på en allergisk reaktion). </li>
 <li>trykken for brystet, hoste, hvæsen eller åndenød umiddelbart efter, du har taget dette 
-lægemiddel – dette kan være tegn på en tilstand kaldet paradoks bronkospasme. 
+lægemiddel - dette kan være tegn på en tilstand kaldet paradoks bronkospasme. 
  
 Fortæl det øjeblikkeligt til lægen, hvis dine KOL-symptomer som fx stakåndethed, hvæsen 
 eller hoste ikke forbedres eller bliver værre. </li>
@@ -624,13 +624,13 @@ du tale med din læge eller apoteket. </p>
 <p>Almindelige (kan forekomme hos op til 1 ud af 10 personer) 
  
 besvær med at trække vejret eller synke, opsvulmet tunge, læber eller ansigt, nældefeber, 
-hududslæt – dette kan være tegn på en allergisk reaktion. 
+hududslæt - dette kan være tegn på en allergisk reaktion. 
  
 føle sig træt eller være meget tørstig, øget appetit uden at tage på i vægt og hyppigere 
-vandladning end vanligt – dette kan være tegn på forhøjet blodsukkerniveau (hyperglykæmi). </p>
+vandladning end vanligt - dette kan være tegn på forhøjet blodsukkerniveau (hyperglykæmi). </p>
 <p>Ikke almindelig (kan forekomme hos op til 1 ud af 100 personer) 
  
-dundrende brystsmerte med øget svedproduktion – dette kan være et alvorligt hjerteproblem 
+dundrende brystsmerte med øget svedproduktion - dette kan være et alvorligt hjerteproblem 
 (iskæmisk hjertesygdom). 
  
 Hævelse, hovedsageligt af tungen, læber, ansigt eller hals (muligvis tegn på angioødem). 
@@ -638,24 +638,24 @@ Hævelse, hovedsageligt af tungen, læber, ansigt eller hals (muligvis tegn på 
 vejrtrækningsbesvær med hvæsen eller hoste. 
  
 øjensmerte eller utilpashed, midlertidig sløring af synet, visuelle ringe i synet eller farvede 
-billeder samtidig med røde øjne – dette kan være tegn på grøn stær. 
+billeder samtidig med røde øjne - dette kan være tegn på grøn stær. 
  
 uregelmæssig hjerterytme. </p>
 <p>Hvis du oplever en af disse bivirkninger, skal du øjeblikkeligt søge lægehjælp. </p>
 <p>Andre bivirkninger: </p>
 <p>Meget almindelige (kan forekomme hos flere end 1 ud af 10 personer) 
  
-tilstoppet næse, nysen, hoste, hovedpine med eller uden feber – disse kan være tegn på øvre 
+tilstoppet næse, nysen, hoste, hovedpine med eller uden feber - disse kan være tegn på øvre 
 luftvejsinfektion. </p>
 <p>Almindelige 
  
-kombination af ondt i halsen og løbende næse – dette kan være tegn på forkølelse 
+kombination af ondt i halsen og løbende næse - dette kan være tegn på forkølelse 
 (nasofaryngitis). 
  
-smertefuld og hyppig vandladning– dette kan være tegn på en urinvejsinfektion, som kaldes 
+smertefuld og hyppig vandladning- dette kan være tegn på en urinvejsinfektion, som kaldes 
 cystitis. 
  
-følelsen af trykken eller smerte i kinder og pande – dette kan være tegn på bihulebetændelse 
+følelsen af trykken eller smerte i kinder og pande - dette kan være tegn på bihulebetændelse 
 kaldet sinusitis. 
  
 løbende eller tilstoppet næse. 
@@ -672,7 +672,7 @@ maveonde, fordøjelsesproblemer.
  
 huller i tænderne. 
  
-vanskelig og smertefuld vandladning – dette kan skyldes en forhindring i urinrøret eller akut 
+vanskelig og smertefuld vandladning - dette kan skyldes en forhindring i urinrøret eller akut 
 vandladningsstop. 
  
 feber. 
@@ -684,7 +684,7 @@ søvnproblemer.
  
 hurtig hjerterytme. 
  
-hjertebanken – tegn på unormale hjerteslag. 
+hjertebanken - tegn på unormale hjerteslag. 
  
 stemmeforandringer (hæshed). 
  
@@ -1010,7 +1010,7 @@ din medicin. Luk
 inhalatoren og gentag 
 trin 3a til 3c. </p>
 <p>Jeg hostede efter jeg 
-inhalerede – betyder det 
+inhalerede - betyder det 
 noget? 
 Dette kan forekomme. Så 
 længe at kapslen er tom, 
@@ -1018,7 +1018,7 @@ har du fået en tilstrækkelig
 mængde af din medicin. </p>
 <p>Jeg kunne mærke små 
 stykker af kapslen på 
-min tunge – betyder det 
+min tunge - betyder det 
 noget? 
 Dette kan forekomme, og 
 det er ikke farligt. 
@@ -1067,8 +1067,6 @@ Description: "ePI document Bundle for ultibro Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1091,8 +1089,6 @@ Description: "ePI document Bundle for ultibro Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1113,8 +1109,8 @@ Usage: #example
 
 Instance: mpc534ceb0c415b656be1c262cf1f8af94
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product ultibro"
-Description: "ultibro"
+Title: "Medicinal Product Ultibro Breezhaler 85 micrograms/43 micrograms inhalation powder hard capsules"
+Description: "Ultibro Breezhaler 85 micrograms/43 micrograms inhalation powder hard capsules"
 Usage: #inline
 
  
@@ -1127,14 +1123,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Ultibro Breezhaler is indicated as a maintenance bronchodilator treatment to relieve symptoms in adult"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "ultibro"
+  * productName = "Ultibro Breezhaler 85 micrograms/43 micrograms inhalation powder hard capsules"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1154,10 +1147,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

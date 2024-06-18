@@ -1536,8 +1536,6 @@ Description: "ePI document Bundle for okedi Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1560,8 +1558,6 @@ Description: "ePI document Bundle for okedi Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1582,8 +1578,8 @@ Usage: #example
 
 Instance: mp3a36f8c3c4c534a765e5e9ed08db5433
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product okedi"
-Description: "okedi"
+Title: "Medicinal Product OKEDI 75 mg powder and solvent for prolonged-release suspension for injection"
+Description: "OKEDI 75 mg powder and solvent for prolonged-release suspension for injection"
 Usage: #inline
 
  
@@ -1596,14 +1592,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "OKEDI is indicated for the treatment of schizophrenia in adults for whom tolerability and"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "okedi"
+  * productName = "OKEDI 75 mg powder and solvent for prolonged-release suspension for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1623,10 +1616,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

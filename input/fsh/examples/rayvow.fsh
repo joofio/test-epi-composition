@@ -735,8 +735,6 @@ Description: "ePI document Bundle for rayvow Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -759,8 +757,6 @@ Description: "ePI document Bundle for rayvow Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -781,8 +777,8 @@ Usage: #example
 
 Instance: mp8bb757daadba0c9862c13659a934b71b
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product rayvow"
-Description: "rayvow"
+Title: "Medicinal Product RAYVOW 50 mg film-coated tablets"
+Description: "RAYVOW 50 mg film-coated tablets"
 Usage: #inline
 
  
@@ -795,14 +791,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "RAYVOW is indicated for the acute treatment of the headache phase of migraine attacks, with or"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "rayvow"
+  * productName = "RAYVOW 50 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -822,10 +815,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

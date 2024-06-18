@@ -589,8 +589,6 @@ Description: "ePI document Bundle for palonosetron Package Leaflet for language 
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -613,8 +611,6 @@ Description: "ePI document Bundle for palonosetron Package Leaflet for language 
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -635,8 +631,8 @@ Usage: #example
 
 Instance: mp1dcc174da076b834cc635ff47b615cf2
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product palonosetron"
-Description: "palonosetron"
+Title: "Medicinal Product Palonosetron Accord 250 micrograms solution for injection"
+Description: "Palonosetron Accord 250 micrograms solution for injection"
 Usage: #inline
 
  
@@ -649,14 +645,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Palonosetron Accord is indicated in adults for:"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "palonosetron"
+  * productName = "Palonosetron Accord 250 micrograms solution for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -676,10 +669,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

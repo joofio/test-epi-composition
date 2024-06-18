@@ -1433,8 +1433,6 @@ Description: "ePI document Bundle for noxafil Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1457,8 +1455,6 @@ Description: "ePI document Bundle for noxafil Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1479,8 +1475,8 @@ Usage: #example
 
 Instance: mp23bb5acd65ff17ef75a4158a12199fd2
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product noxafil"
-Description: "noxafil"
+Title: "Medicinal Product Noxafil 40 mg/mL oral suspension"
+Description: "Noxafil 40 mg/mL oral suspension"
 Usage: #inline
 
  
@@ -1493,14 +1489,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Noxafil oral suspension is indicated for use in the treatment of the following fungal infections in adults"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "noxafil"
+  * productName = "Noxafil 40 mg/mL oral suspension"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1520,10 +1513,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

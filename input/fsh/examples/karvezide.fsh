@@ -988,8 +988,6 @@ Description: "ePI document Bundle for karvezide Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1012,8 +1010,6 @@ Description: "ePI document Bundle for karvezide Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1034,8 +1030,8 @@ Usage: #example
 
 Instance: mpd0672eae48edc2b3744742b0b1ff7c9b
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product karvezide"
-Description: "karvezide"
+Title: "Medicinal Product Karvezide 150 mg/12.5 mg tablets."
+Description: "Karvezide 150 mg/12.5 mg tablets."
 Usage: #inline
 
  
@@ -1048,14 +1044,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Treatment of essential hypertension."
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "karvezide"
+  * productName = "Karvezide 150 mg/12.5 mg tablets."
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1075,10 +1068,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

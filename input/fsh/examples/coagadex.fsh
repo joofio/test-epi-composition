@@ -541,16 +541,18 @@ medicin kan forhindre Coagadex i at virke. </li>
 </ul>
 <p>Nogle patienter med faktor X-mangel kan udvikle hæmmere (immunstoffer) over for faktor X under 
 behandling. Dette kan betyde, at behandlingen ikke virker efter hensigten. Lægen vil regelmæssigt 
-kontrollere udviklingen af disse immunstoffer – særligt før en operation. Din læge vil sikkert, både før 
-og efter behandling med dette lægemiddel, – særligt ved dit første behandlingsforløb – udføre tests for 
+kontrollere udviklingen af disse immunstoffer - særligt før en operation. Din læge vil sikkert, både før 
+og efter behandling med dette lægemiddel, - særligt ved dit første behandlingsforløb - udføre tests for 
 at kontrollere koncentrationen af faktor X i dit blod. </p>
 <p>Virussikkerhed 
 Når lægemidler fremstilles af humant blod eller plasma, tages der visse forholdsregler for at forhindre, 
 at infektioner overføres til modtageren. Disse omfatter: </p>
-<p>– omhyggelig udvælgelse af blod- og plasmadonorer for at sikre, at de, der risikerer at være inficerede, 
-udelukkes, 
-– testning af doneret plasma for tegn på virus/infektioner, 
-– inklusion af trin i behandlingen af blod eller plasma, som kan inaktivere eller fjerne vira. </p>
+<ul>
+<li>omhyggelig udvælgelse af blod- og plasmadonorer for at sikre, at de, der risikerer at være inficerede, 
+udelukkes, </li>
+<li>testning af doneret plasma for tegn på virus/infektioner, </li>
+<li>inklusion af trin i behandlingen af blod eller plasma, som kan inaktivere eller fjerne vira. </li>
+</ul>
 <p>De foranstaltninger, der træffes, anses som effektive over for følgende vira: human immundefekt virus 
 (HIV), hepatitis B-virus, hepatitis C-virus, hepatitis A-virus or parvovirus B19. Trods disse 
 foranstaltninger, kan muligheden for overførsel af en infektion ikke helt udelukkes, når lægemidler, som 
@@ -746,7 +748,7 @@ af dette lægemiddel. </p>         </div>"""
   * code.text = "5. How to store coagadex"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
-<p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen efter ”EXP”. Udløbsdatoen er den 
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen efter "EXP". Udløbsdatoen er den 
 sidste dag i den nævnte måned. </p>
 <p>Må ikke opbevares ved temperaturer over 30 °C. </p>
 <p>Må ikke nedfryses. </p>
@@ -764,14 +766,13 @@ skraldespanden. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Coagadex indeholder: 
-– 
-Aktivt stof/aktive stoffer: human koagulationsfaktor X. Et hætteglas indeholder normalt 250 IE 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Coagadex indeholder:</h2>
+<p>Aktivt stof/aktive stoffer: human koagulationsfaktor X. Et hætteglas indeholder normalt 250 IE 
 eller 500 IE human koagulationsfaktor X. 
-– 
+- 
 Øvrige indholdsstoffer: citronsyre, dinatriumfosfatdihydrat, natriumklorid, natriumhydroxid og 
 sakkarose (se afsnit 2 for yderligere information om indholdsstoffer). 
-– 
+- 
 Opløsningsmiddel: vand til injektionsvæske.  </p>
 <p>Udseende og pakningsstørrelser 
 Coagadex er en/et hvidt eller råhvidt pulver og er pakket i mængder på 250 IE og 500 IE. Efter blanding 
@@ -933,8 +934,6 @@ Description: "ePI document Bundle for coagadex Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -957,8 +956,6 @@ Description: "ePI document Bundle for coagadex Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -979,8 +976,8 @@ Usage: #example
 
 Instance: mpacef8cbcdfca211b39877dbdf094e7e6
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product coagadex"
-Description: "coagadex"
+Title: "Medicinal Product Coagadex 250 IU powder and solvent for solution for injection"
+Description: "Coagadex 250 IU powder and solvent for solution for injection"
 Usage: #inline
 
  
@@ -993,14 +990,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Coagadex is indicated for the treatment and prophylaxis of bleeding episodes and for perioperative"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "coagadex"
+  * productName = "Coagadex 250 IU powder and solvent for solution for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1020,10 +1014,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

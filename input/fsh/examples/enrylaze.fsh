@@ -729,8 +729,6 @@ Description: "ePI document Bundle for enrylaze Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -753,8 +751,6 @@ Description: "ePI document Bundle for enrylaze Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -775,8 +771,8 @@ Usage: #example
 
 Instance: mpd702c645ce8960ab36c7968fd9f89bfc
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product enrylaze"
-Description: "enrylaze"
+Title: "Medicinal Product Enrylaze 10 mg/0.5 mL solution for injection/infusion."
+Description: "Enrylaze 10 mg/0.5 mL solution for injection/infusion."
 Usage: #inline
 
  
@@ -789,14 +785,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Enrylaze is indicated as a component of a multi-agent chemotherapeutic regimen for the treatment of"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "enrylaze"
+  * productName = "Enrylaze 10 mg/0.5 mL solution for injection/infusion."
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -816,10 +809,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

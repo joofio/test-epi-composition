@@ -541,8 +541,6 @@ Description: "ePI document Bundle for elucirem Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -565,8 +563,6 @@ Description: "ePI document Bundle for elucirem Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -587,8 +583,8 @@ Usage: #example
 
 Instance: mp7b4681f061a21ab4a530ac7b9667ac82
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product elucirem"
-Description: "elucirem"
+Title: "Medicinal Product Elucirem 0.5 mmol/mL solution for injection"
+Description: "Elucirem 0.5 mmol/mL solution for injection"
 Usage: #inline
 
  
@@ -601,14 +597,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "This medicinal product is for diagnostic use only."
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "elucirem"
+  * productName = "Elucirem 0.5 mmol/mL solution for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -628,10 +621,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

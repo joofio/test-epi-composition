@@ -1118,8 +1118,6 @@ Description: "ePI document Bundle for ebymect Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1142,8 +1140,6 @@ Description: "ePI document Bundle for ebymect Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1164,8 +1160,8 @@ Usage: #example
 
 Instance: mp74d4a84c8c26d0880630461280f3d19f
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product ebymect"
-Description: "ebymect"
+Title: "Medicinal Product Ebymect 5 mg/850 mg film-coated tablets"
+Description: "Ebymect 5 mg/850 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1178,14 +1174,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Ebymect is indicated in adults for the treatment of type 2 diabetes mellitus as an adjunct to diet and"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "ebymect"
+  * productName = "Ebymect 5 mg/850 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1205,10 +1198,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

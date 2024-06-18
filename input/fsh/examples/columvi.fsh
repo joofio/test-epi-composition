@@ -506,7 +506,7 @@ lymfom" (DLBCL). Den anvendes, når kræften: </p>
 <li>Det aktive stof i Columvi, glofitamab, er et bispecifikt monoklonalt antistof, en type protein, der 
 binder sig to specifikke steder i kroppen. Det binder sig til et specifikt protein på overfladen af 
 B-celler, herunder også de ondartede B-celler, og også til et andet protein på overfladen af “T-
-celler” (en anden type hvide blodlegemer). Dette aktiverer T-cellerne og får dem til at formere 
+celler" (en anden type hvide blodlegemer). Dette aktiverer T-cellerne og får dem til at formere 
 sig. Dette forårsager en hurtig nedbrydning af B-cellerne, herunder de ondartede celler. </li>
 </ul>         </div>"""   
           
@@ -525,7 +525,7 @@ sig. Dette forårsager en hurtig nedbrydning af B-cellerne, herunder de ondarted
 </li>
 <li>
 <p>hvis du er allergisk over for obinutuzumab, et andet lægemiddel, som du har fået, før du 
-påbegynder behandlingen med Columvi (se også afsnit 3 “Sådan får du Columvi”) eller et af de 
+påbegynder behandlingen med Columvi (se også afsnit 3 “Sådan får du Columvi") eller et af de 
 øvrige indholdsstoffer i dette lægemiddel </p>
 </li>
 </ul>
@@ -557,12 +557,12 @@ behandlingen med Columvi.  </p>
 Columvi. Symptomerne på hver enkelt bivirkning er anført i afsnit 4. * Cytokinfrigivelsessyndrom: en overdreven inflammatorisk tilstand, der er forbundet med 
 medicin, der stimulerer T-celler, karakteriseret ved feber og svækkelse af flere organer i 
 kroppen. Cytokinfrigivelsessyndrom sker oftest i serie 1 efter Columvi er givet (se afsnit 
-3 ”Sådan får du Columvi”). Tæt monitorering er nødvendig. Før hver infusion kan du få 
+3 "Sådan får du Columvi"). Tæt monitorering er nødvendig. Før hver infusion kan du få 
 medicin, som hjælper med at mindske eventuelle bivirkninger af cytokinfrigivelsessyndrom. </p>
 <ul>
 <li>
 <p>Tumorlysesyndrom: nogle mennesker kan få usædvanlige niveauer af nogle salte i blodet (for 
-eksempel kalium og urinsyre) – forårsaget af den hurtige nedbrydning af kræftceller under 
+eksempel kalium og urinsyre) - forårsaget af den hurtige nedbrydning af kræftceller under 
 behandlingen. Lægen eller sygeplejersken vil tage blodprøver for at kontrollere for denne 
 tilstand. Før hver infusion skal du være velhydreret, og du kan få medicin, der kan hjælpe med 
 at reducere et højt niveau af urinsyre. Dette kan hjælpe med at reducere mulige bivirkninger af 
@@ -706,7 +706,7 @@ at stoppe behandlingen. </p>
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
 <p>Alvorlige bivirkninger </p>
 <p>Fortæl lægen med det samme, hvis du får en eller flere af de alvorlige bivirkninger, der er anført 
-nedenfor – du kan have brug for akut medicinsk behandling.  </p>
+nedenfor - du kan have brug for akut medicinsk behandling.  </p>
 <ul>
 <li>
 <p>Cytokinfrigivelsessyndrom (meget almindelig): Symptomerne kan omfatte, men er ikke 
@@ -906,7 +906,7 @@ repræsentant for indehaveren af markedsføringstilladelsen: </p>
 <p>België/ Belgique/Belgien 
 N.V. Roche S.A.<br />
 Tél/Tel: +32 (0) 2 525 82 Lietuva 
-UAB “Roche Lietuva”<br />
+UAB “Roche Lietuva"<br />
 Tel: +370 5 2546 
 България 
 Рош България ЕООД<br />
@@ -1103,8 +1103,6 @@ Description: "ePI document Bundle for columvi Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1127,8 +1125,6 @@ Description: "ePI document Bundle for columvi Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1149,8 +1145,8 @@ Usage: #example
 
 Instance: mpbb22e3a2d3ee768b14a39522c099f1f4
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product columvi"
-Description: "columvi"
+Title: "Medicinal Product Columvi 2.5 mg concentrate for solution for infusion"
+Description: "Columvi 2.5 mg concentrate for solution for infusion"
 Usage: #inline
 
  
@@ -1163,14 +1159,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Columvi as monotherapy is indicated for the treatment of adult patients with relapsed or refractory"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "columvi"
+  * productName = "Columvi 2.5 mg concentrate for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1190,10 +1183,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -476,7 +476,7 @@ smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </d
 Aktivt stof: deferipron. Hver filmovertrukket tablet indeholder 500 mg deferipron. </p>
 <p>Øvrige indholdsstoffer: </p>
 <p>Tabletkerne: Hypromellose 
-Croscarmellosenatrium (se punkt 2 ”Deferiprone Lipomed indeholder natrium”) 
+Croscarmellosenatrium (se punkt 2 "Deferiprone Lipomed indeholder natrium") 
 Silica, kolloid vandfri 
 Mikrokrystallinsk cellulose 
 Magnesiumstearat </p>
@@ -508,8 +508,6 @@ Description: "ePI document Bundle for deferiprone Package Leaflet for language e
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -532,8 +530,6 @@ Description: "ePI document Bundle for deferiprone Package Leaflet for language d
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -554,8 +550,8 @@ Usage: #example
 
 Instance: mp4a09b3a8552105810368cbf52100627e
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product deferiprone"
-Description: "deferiprone"
+Title: "Medicinal Product Deferiprone Lipomed 500 mg film-coated tablets"
+Description: "Deferiprone Lipomed 500 mg film-coated tablets"
 Usage: #inline
 
  
@@ -568,14 +564,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Deferiprone Lipomed monotherapy is indicated for the treatment of iron overload in patients with"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "deferiprone"
+  * productName = "Deferiprone Lipomed 500 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -595,10 +588,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

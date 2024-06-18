@@ -514,10 +514,10 @@ polyethylenglycolsuccinat, mannitol, mikrokrystallinsk cellulose, natriumchlorid
 croscarmellosenatrium, kolloid siliciumdioxid og natriumstearylfumarat (se punkt 2).
 Udseende og pakningsstørrelser
 AQUIPTA 10 mg tabletter
-AQUIPTA 10 mg tablet er en hvid til off-white, rund bikonveks tablet præget med ”A” og ”10” på den 
+AQUIPTA 10 mg tablet er en hvid til off-white, rund bikonveks tablet præget med "A" og "10" på den 
 ene side. Den fås i pakninger indeholdende 28 eller 98 tabletter.
 AQUIPTA 60 mg tabletter
-AQUIPTA 60 mg tablet er en hvid til off-white, oval bikonveks tablet præget med  ”A60” på den ene 
+AQUIPTA 60 mg tablet er en hvid til off-white, oval bikonveks tablet præget med  "A60" på den ene 
 side. Den fås i pakninger indeholdende 28 eller 98 tabletter. 
 Ikke alle pakningsstørrelser er nødvendigvis markedsført.
 Indehaver af markedsføringstilladelsen
@@ -644,8 +644,6 @@ Description: "ePI document Bundle for aquipta Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -668,8 +666,6 @@ Description: "ePI document Bundle for aquipta Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -690,8 +686,8 @@ Usage: #example
 
 Instance: mpaac724bbfae048108e8444486a06d7e6
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product aquipta"
-Description: "aquipta"
+Title: "Medicinal Product AQUIPTA 10 mg tablets"
+Description: "AQUIPTA 10 mg tablets"
 Usage: #inline
 
  
@@ -704,14 +700,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "AQUIPTA is indicated for prophylaxis of migraine in adults who have at least 4 migraine days per"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "aquipta"
+  * productName = "AQUIPTA 10 mg tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -731,10 +724,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

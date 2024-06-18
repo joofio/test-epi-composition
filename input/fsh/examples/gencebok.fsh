@@ -496,7 +496,7 @@ Vedligeholdelsesdosen er 5 mg per kg legemsvægt (svarende til 0,5 ml per kg leg
 <p>Anvendelsesmåde og administrationsvej </p>
 <p>Gencebok vil blive indgivet ved kontrolleret intravenøs infusion ved hjælp af en sprøjte-
 infusionspumpe eller en anden infusionsanordning, der kan give afmålte doser. Denne metode kaldes 
-også et “drop”. 
+også et “drop". 
 Nogle af doserne (vedligeholdelsesdoserne) kan gives gennem munden. 
 Det kan være nødvendigt, at lægen regelmæssigt i løbet af behandlingen tager en blodprøve og 
 kontrollerer niveauet af caffein i spædbarnets blod for at undgå forgiftning. </p>
@@ -708,8 +708,6 @@ Description: "ePI document Bundle for gencebok Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -732,8 +730,6 @@ Description: "ePI document Bundle for gencebok Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -754,8 +750,8 @@ Usage: #example
 
 Instance: mp0e740cbcd467e91defd399867ba46373
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product gencebok"
-Description: "gencebok"
+Title: "Medicinal Product Gencebok 10 mg/ml solution for infusion"
+Description: "Gencebok 10 mg/ml solution for infusion"
 Usage: #inline
 
  
@@ -768,14 +764,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Treatment of primary apnoea of premature newborns."
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "gencebok"
+  * productName = "Gencebok 10 mg/ml solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -795,10 +788,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

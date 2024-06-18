@@ -1467,10 +1467,10 @@ temperatur
 temperatur) 
 Optøningsvarighed 
 Flerdosis hætteglas<br />
-2 – 8 °C * 
+2 - 8 °C * 
 2 timer og 
 30 minutter 
-15 – 25 °C 
+15 - 25 °C 
 1 time </p>
 <p>Spikevax 0,1 mg/ml injektionsvæske, dispersion (flerdosis hætteglas med blå flip-off-hætte) </p>
 <p>Fem (5) doser (hver på 0,5 ml) eller maksimalt ti (10) doser (hver på 0,25 ml) kan udtrækkes fra hvert 
@@ -1495,10 +1495,10 @@ temperatur
 temperatur)<br />
 Optøningsvarighed 
 Flerdosis hætteglas<br />
-2 – 8 °C 
+2 - 8 °C 
 2 timer og 
 30 minutter 
-15 – 25 °C 
+15 - 25 °C 
 1 time </p>
 <p>Spikevax 50 mikrogram injektionsvæske, dispersion i fyldt injektionssprøjte </p>
 <p>Indholdet i den fyldte injektionssprøjte må ikke omrystes eller fortyndes. </p>
@@ -1531,10 +1531,10 @@ Optøningsvarighed
 (min) 
 Fyldte injektionssprøjter i 
 blisterpakning<br />
-2 – 8 
-15 – Æske 
-2 – 8 
-15 –<br />
+2 - 8 
+15 - Æske 
+2 - 8 
+15 -<br />
 Det skal sikres, at produktnavnet på den fyldte injektionssprøjte er Spikevax 50 mikrogram. Hvis 
 produktnavnet er Spikevax bivalent Original/Omicron BA.1 eller Spikevax bivalent Original/Omicron 
 BA.4-5, skal produktresuméerne for disse produkter konsulteres. </p>
@@ -1693,8 +1693,6 @@ Description: "ePI document Bundle for spikevax Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1717,8 +1715,6 @@ Description: "ePI document Bundle for spikevax Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1739,8 +1735,8 @@ Usage: #example
 
 Instance: mp53506f739e6f34ca79778a9dce57bf48
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product spikevax"
-Description: "spikevax"
+Title: "Medicinal Product Spikevax 0.2 mg/mL dispersion for injection"
+Description: "Spikevax 0.2 mg/mL dispersion for injection"
 Usage: #inline
 
  
@@ -1753,14 +1749,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Spikevax is indicated for active immunisation to prevent COVID-19 caused by SARS-CoV-2 in"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "spikevax"
+  * productName = "Spikevax 0.2 mg/mL dispersion for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1780,10 +1773,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

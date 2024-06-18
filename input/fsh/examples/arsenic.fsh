@@ -453,29 +453,28 @@ Hvis du er allergisk over for arsentrioxid eller et af de øvrige indholdsstoffe
 punkt 6). </p>
 <p>Advarsler og forsigtighedsregler 
 Du skal kontakte lægen eller sundhedspersonalet, før du får Arsenic trioxide Mylan, hvis 
-– 
+- 
 du har nedsat nyrefunktion, 
-– 
+- 
 du har leverproblemer. </p>
-<p>Din læge vil tage følgende forsigtighedsregler: 
-– 
-Der vil blive taget prøver for at kontrollere mængden af kalium, magnesium, calcium og 
+<h2>Din læge vil tage følgende forsigtighedsregler:</h2>
+<p>Der vil blive taget prøver for at kontrollere mængden af kalium, magnesium, calcium og 
 kreatinin i blodet, inden du får din første dosis Arsenic trioxide Mylan. 
-– 
+- 
 Du skal have taget et elektrokardiogram (ekg) inden din første dosis. 
-– 
+- 
 Blodprøver (for kalium, magnesium, calcium, og til kontrol af leverfunktionen) bør gentages 
 under behandlingen med Arsenic trioxide Mylan. 
-– 
+- 
 Derudover vil du få taget et elektrokardiogram to gange ugentlig. 
-– 
+- 
 Hvis der er risiko for, at du har en bestemt type unormal hjerterytme (f.eks. torsades de pointes 
 eller QT-forlængelse), vil dit hjerte blive kontrolleret løbende. 
-– 
+- 
 Din læge vil overvåge dit helbred under og efter behandlingen, da arsentrioxid, det aktive stof i 
 Arsenic trioxide Mylan, kan forårsage andre kræftformer. Du skal fortælle om alle nye og 
 usædvanlige symptomer og omstændigheder, når du ser lægen. 
-– 
+- 
 Opfølgning af dine kognitive funktioner og din mobilitet, hvis du har risiko for B1-
 vitaminmangel. </p>
 <p>Børn og unge 
@@ -483,9 +482,8 @@ Arsenic trioxide Mylan anbefales ikke til børn og unge under 18 år. </p>
 <p>Brug af anden medicin sammen med Arsenic trioxide Mylan 
 Fortæl det altid til lægen eller apotekspersonalet, hvis du tager anden medicin eller har gjort det for 
 nylig. Dette gælder også medicin, som ikke er købt på recept. </p>
-<p>Fortæl det især altid til lægen 
-– 
-hvis du bruger forskellige typer medicin, som kan forårsage en ændring i din hjerterytme. Disse 
+<h2>Fortæl det især altid til lægen</h2>
+<p>hvis du bruger forskellige typer medicin, som kan forårsage en ændring i din hjerterytme. Disse 
 kan bl.a. være: </p>
 <ul>
 <li>
@@ -513,11 +511,10 @@ amphotericin B) </p>
 <li>
 <p>cisaprid (medicin som bruges til at lindre visse maveproblemer) 
 Disse lægemidlers virkning på din hjerterytme kan forværres af Arsenic trioxide Mylan. Du skal 
-sørge for at fortælle din læge om al den medicin, du tager. 
-– 
-hvis du tager eller for nyligt har taget medicin, der kan påvirke leveren. Vis beholderen eller 
-pakningen til lægen, hvis du er i tvivl. </p>
+sørge for at fortælle din læge om al den medicin, du tager. </p>
 </li>
+<li>hvis du tager eller for nyligt har taget medicin, der kan påvirke leveren. Vis beholderen eller 
+pakningen til lægen, hvis du er i tvivl. </li>
 </ul>
 <p>Brug af Arsenic trioxide Mylan sammen med mad og drikke 
 Der er ingen begrænsninger med hensyn til mad og drikke, mens du får Arsenic trioxide Mylan. </p>
@@ -568,7 +565,7 @@ Arsenic trioxide Mylan. </p>
 <p>Arsenic trioxide Mylan skal fortyndes med en injektionsvæske, der indeholder enten glucose eller 
 natriumchlorid. </p>
 <p>Arsenic trioxide Mylan gives normalt af en læge eller en sygeplejerske. Den gives som et drop 
-(infusion) i en vene i løbet af 1–2 timer, men infusionen kan vare længere, hvis der optræder 
+(infusion) i en vene i løbet af 1-2 timer, men infusionen kan vare længere, hvis der optræder 
 bivirkninger som blussen og svimmelhed. </p>
 <p>Arsenic trioxide Mylan må ikke blandes med andre lægemidler eller gives som infusion gennem 
 samme slange som anden medicin. </p>
@@ -585,74 +582,65 @@ trioxide Mylan omgående stoppes, og din læge vil behandle arsen-overdoseringen
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. </p>
 <p>Du skal straks fortælle det til lægen eller sygeplejersken, hvis du oplever følgende bivirkninger, 
-da disse kan være tegn på en alvorlig tilstand kaldet ”differentieringssyndrom”, som kan være 
+da disse kan være tegn på en alvorlig tilstand kaldet "differentieringssyndrom", som kan være 
 dødelig: 
-– 
+- 
 vejrtrækningsbesvær 
-– 
+- 
 hoste 
-– 
+- 
 smerter i brystet 
-– 
+- 
 feber </p>
 <p>Du skal straks fortælle det til lægen eller sygeplejersken, hvis du oplever følgende bivirkninger, 
 da disse kan være tegn på en allergisk reaktion: 
-– 
+- 
 vejrtrækningsbesvær 
-– 
+- 
 feber 
-– 
+- 
 pludselig vægtstigning 
-– 
+- 
 væskeophobning 
-– 
+- 
 besvimelse 
-– 
+- 
 kraftig hjertebanken. </p>
 <p>Mens du er i behandling med Arsenic trioxide Mylan, kan du opleve nogle af følgende reaktioner: </p>
-<p>Meget almindelig (kan forekomme hos mere end 1 ud af 10 personer): 
-– 
-træthed (mathed), smerter, feber, hovedpine 
-– 
-kvalme, opkastning, diarré, 
-– 
-svimmelhed, muskelsmerter, følelsesløshed eller snurrende fornemmelser i huden, 
-– 
-udslæt eller kløe, øget blodsukker, ødemer (hævelse som følge af væskeophobning), 
-– 
-kortåndethed, hurtig hjerterytme (puls), unormalt hjertediagram (ekg), 
-– 
-nedsat indhold af kalium eller magnesium i blodet, unormale prøver for leverfunktion inklusive 
+<h2>Meget almindelig (kan forekomme hos mere end 1 ud af 10 personer):</h2>
+<h2>træthed (mathed), smerter, feber, hovedpine</h2>
+<h2>kvalme, opkastning, diarré,</h2>
+<h2>svimmelhed, muskelsmerter, følelsesløshed eller snurrende fornemmelser i huden,</h2>
+<h2>udslæt eller kløe, øget blodsukker, ødemer (hævelse som følge af væskeophobning),</h2>
+<h2>kortåndethed, hurtig hjerterytme (puls), unormalt hjertediagram (ekg),</h2>
+<p>nedsat indhold af kalium eller magnesium i blodet, unormale prøver for leverfunktion inklusive 
 forhøjet indhold af bilirubin eller gammaglutamyltransferase i blodet. </p>
-<p>Almindelig (kan forekomme hos op til 1 ud af 10 personer): 
-– 
-nedsat antal blodceller (blodplader, røde og/eller hvide blodlegemer), øget antal hvide 
+<h2>Almindelig (kan forekomme hos op til 1 ud af 10 personer):</h2>
+<p>nedsat antal blodceller (blodplader, røde og/eller hvide blodlegemer), øget antal hvide 
 blodlegemer, 
-– 
+- 
 kulderystelser, vægtstigning, 
-– 
+- 
 feber på grund af infektion og lavt antal hvide blodlegemer, herpes zoster-infektion, 
-– 
+- 
 smerter i brystet, blødning i lungerne, hypoksi (lavt iltniveau), væskeansamling omkring hjertet 
 eller lungerne, lavt blodtryk, unormal hjerterytme (hjerteslag), 
-– 
+- 
 krampeanfald, led- eller knoglesmerter, årebetændelse, 
-– 
+- 
 forhøjet natrium eller magnesium, ketoner i blod og urin (ketoacidose), unormale prøver for 
 nyrefunktion, nyresvigt, 
-– 
+- 
 mavesmerter, 
-– 
+- 
 hudrødme, opsvulmet ansigt, sløret syn </p>
-<p>Ikke kendt (hyppigheden kan ikke vurderes ud fra tilgængelige data) 
-– 
-lungebetændelse, blodforgiftning 
-– 
-inflammation (betændelsesagtig tilstand) i lungerne som medfører smerter i brystet og åndenød, 
+<h2>Ikke kendt (hyppigheden kan ikke vurderes ud fra tilgængelige data)</h2>
+<h2>lungebetændelse, blodforgiftning</h2>
+<p>inflammation (betændelsesagtig tilstand) i lungerne som medfører smerter i brystet og åndenød, 
 hjertesvigt 
-– 
+- 
 væskemangel (dehydrering), forvirring 
-– 
+- 
 cerebral sygdom (encefalopati, Wernickes encefalopati) med forskellige manifestationer, 
 herunder problemer med at bruge arme og ben, talebesvær og forvirring </p>
 <p>Indberetning af bivirkninger 
@@ -684,13 +672,12 @@ miljøet. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad Arsenic trioxide Mylan indeholder 
-– 
-Aktivt stof: arsentrioxid. Hver ml koncentrat indeholder 1 mg arsentrioxid. Hvert hætteglas med 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Hvad Arsenic trioxide Mylan indeholder</h2>
+<p>Aktivt stof: arsentrioxid. Hver ml koncentrat indeholder 1 mg arsentrioxid. Hvert hætteglas med 
 10 ml indeholder 10 mg arsentrioxid. 
-– 
+- 
 Øvrige indholdsstoffer: natriumhydroxid, saltsyre og vand til injektionsvæsker. Se punkt 2 
-”Arsenic trioxide Mylan indeholder natrium”. </p>
+"Arsenic trioxide Mylan indeholder natrium". </p>
 <p>Udseende og pakningsstørrelser 
 Arsenic trioxide Mylan er et koncentrat til infusionsvæske, opløsning (sterilt koncentrat). Det leveres i 
 hætteglas som en koncentreret, klar, farveløs, vandig opløsning. Hver æske indeholder 1 eller hætteglas til engangsbrug. </p>
@@ -818,15 +805,15 @@ forsvarligt. Gem ikke de ikke-anvendte portioner til senere indgift. </p>
 <p>Brug af Arsenic trioxide Mylan 
 Arsenic trioxide Mylan må ikke blandes med eller indgives i samme intravenøse slange samtidigt med 
 andre lægemidler. </p>
-<p>Arsenic trioxide Mylan skal indgives intravenøst over 1–2 timer. Infusionsvarigheden kan øges op til 
+<p>Arsenic trioxide Mylan skal indgives intravenøst over 1-2 timer. Infusionsvarigheden kan øges op til 
 4 timer, hvis der observeres vasomotoriske reaktioner. Et centralt venekateter er ikke påkrævet. </p>
 <p>Den fortyndede infusionsvæske skal være klar og farveløs. Alle parenterale opløsninger skal nøje 
 efterses for partikler og misfarvning forud for indgivelsen. Infusionsvæsken må ikke anvendes, hvis 
 den indeholder fremmede partikler. </p>
 <p>Efter fortynding i intravenøse opløsninger er Arsenic trioxide Mylan kemisk og fysisk stabilt i 30 dage 
-ved 15–25 °C og i 30 dage i køleskab ved 2–8 °C. Ud fra et mikrobiologisk synspunkt skal produktet 
+ved 15-25 °C og i 30 dage i køleskab ved 2-8 °C. Ud fra et mikrobiologisk synspunkt skal produktet 
 anvendes umiddelbart. Hvis det ikke anvendes umiddelbart, er opbevaringstider og betingelser før 
-anvendelse brugerens ansvar og vil normalt ikke være længere end 24 timer ved 2–8 °C, medmindre 
+anvendelse brugerens ansvar og vil normalt ikke være længere end 24 timer ved 2-8 °C, medmindre 
 fortynding har fundet sted under kontrollerede og aseptiske forhold. </p>
 <p>Procedure for korrekt bortskaffelse 
 Ikke anvendt lægemiddel, eventuelle genstande, der kommer i kontakt hermed samt affald heraf skal 
@@ -842,8 +829,6 @@ InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for arsenic Package Leaflet for language en"
 Description: "ePI document Bundle for arsenic Package Leaflet for language en"
 Usage: #example
-
-
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
@@ -868,8 +853,6 @@ Description: "ePI document Bundle for arsenic Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -890,8 +873,8 @@ Usage: #example
 
 Instance: mp0765874a313ce115023e01847b82b59e
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product arsenic"
-Description: "arsenic"
+Title: "Medicinal Product Arsenic trioxide Mylan 1 mg/ml concentrate for solution for infusion"
+Description: "Arsenic trioxide Mylan 1 mg/ml concentrate for solution for infusion"
 Usage: #inline
 
  
@@ -904,14 +887,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Arsenic trioxide Mylan is indicated for induction of remission, and consolidation in adult patients"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "arsenic"
+  * productName = "Arsenic trioxide Mylan 1 mg/ml concentrate for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -931,10 +911,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

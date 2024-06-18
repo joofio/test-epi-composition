@@ -412,7 +412,7 @@ sygdom, da Vyxeos liposomal har et indholdsstof, der kaldes for kobbergluconat. 
 </li>
 </ul>
 <p>Din læge vil kontrollere dig hvad angår dit generelle helbred under behandlingen og vil muligvis også 
-give dig anden medicin til at understøtte din behandling – enten inden behandling med Vyxeos 
+give dig anden medicin til at understøtte din behandling - enten inden behandling med Vyxeos 
 liposomal eller samtidigt. Tal med din lægen, apotekspersonalet eller sundhedspersonalet, før du får 
 Vyxeos liposomal, hvis et eller flere af ovenstående punkter gør sig gældende for dig, eller du er i 
 tvivl. </p>
@@ -781,8 +781,6 @@ Description: "ePI document Bundle for vyxeos Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -805,8 +803,6 @@ Description: "ePI document Bundle for vyxeos Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -827,8 +823,8 @@ Usage: #example
 
 Instance: mp691dd468387a7314644483dde7be004c
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product vyxeos"
-Description: "vyxeos"
+Title: "Medicinal Product Vyxeos liposomal 44 mg/100 mg powder for concentrate for solution for infusion."
+Description: "Vyxeos liposomal 44 mg/100 mg powder for concentrate for solution for infusion."
 Usage: #inline
 
  
@@ -841,14 +837,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Vyxeos liposomal is indicated for the treatment of adults with newly diagnosed, therapy-related acute"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "vyxeos"
+  * productName = "Vyxeos liposomal 44 mg/100 mg powder for concentrate for solution for infusion."
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -868,10 +861,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

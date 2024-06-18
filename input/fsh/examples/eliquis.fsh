@@ -1232,8 +1232,6 @@ Description: "ePI document Bundle for eliquis Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1256,8 +1254,6 @@ Description: "ePI document Bundle for eliquis Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1278,8 +1274,8 @@ Usage: #example
 
 Instance: mp34ad0d9c563d0ccd4014e8e8bf3c5d98
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product eliquis"
-Description: "eliquis"
+Title: "Medicinal Product Eliquis 2.5 mg film-coated tablets"
+Description: "Eliquis 2.5 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1292,14 +1288,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Prevention of venous thromboembolic events (VTE) in adult patients who have undergone elective hip"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "eliquis"
+  * productName = "Eliquis 2.5 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1319,10 +1312,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

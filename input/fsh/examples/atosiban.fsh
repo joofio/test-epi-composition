@@ -636,8 +636,6 @@ Description: "ePI document Bundle for atosiban Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -660,8 +658,6 @@ Description: "ePI document Bundle for atosiban Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -682,8 +678,8 @@ Usage: #example
 
 Instance: mpb7ea2b843cac38255840aa11da0bbc43
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product atosiban"
-Description: "atosiban"
+Title: "Medicinal Product Atosiban SUN 6.75 mg/0.9 ml solution for injection"
+Description: "Atosiban SUN 6.75 mg/0.9 ml solution for injection"
 Usage: #inline
 
  
@@ -696,14 +692,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Atosiban is indicated to delay imminent pre-term birth in pregnant adult women with:"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "atosiban"
+  * productName = "Atosiban SUN 6.75 mg/0.9 ml solution for injection"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -723,10 +716,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

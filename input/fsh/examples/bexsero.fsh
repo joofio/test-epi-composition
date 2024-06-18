@@ -517,7 +517,7 @@ du spørge din læge til råds, før du får Bexsero. Lægen kan anbefale, at du
 du er i risiko for at blive udsat for meningokokinfektion. </p>
 <p>Trafik- og arbejdssikkerhed </p>
 <p>Bexsero påvirker ikke eller kun i ubetydelig grad evnen til at føre motorkøretøj og betjene maskiner. 
-Visse af de virkninger, der er omtalt i punkt 4 ”Bivirkninger”, kan dog midlertidigt påvirke evnen til 
+Visse af de virkninger, der er omtalt i punkt 4 "Bivirkninger", kan dog midlertidigt påvirke evnen til 
 at føre motorkøretøj og betjene maskiner. </p>
 <p>Bexsero indeholder natriumchlorid </p>
 <p>Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
@@ -628,7 +628,7 @@ af dette lægemiddel. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar vaccinen utilgængeligt for børn. </p>
 <p>Brug ikke vaccinen efter den udløbsdato, der står på æsken og den fyldte injektionssprøjte efter EXP. 
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
-<p>Opbevares i køleskab (2 °C – 8 °C). Må ikke nedfryses. 
+<p>Opbevares i køleskab (2 °C - 8 °C). Må ikke nedfryses. 
 Opbevares i den originale yderpakning for at beskytte mod lys. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
 smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
@@ -811,8 +811,6 @@ Description: "ePI document Bundle for bexsero Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -835,8 +833,6 @@ Description: "ePI document Bundle for bexsero Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -857,8 +853,8 @@ Usage: #example
 
 Instance: mp69c2bef02c7fe63e8cfc997db1e3d8f8
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product bexsero"
-Description: "bexsero"
+Title: "Medicinal Product Bexsero suspension for injection in pre-filled syringe"
+Description: "Bexsero suspension for injection in pre-filled syringe"
 Usage: #inline
 
  
@@ -871,14 +867,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Bexsero is indicated for active immunisation of individuals from 2 months of age and older against"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "bexsero"
+  * productName = "Bexsero suspension for injection in pre-filled syringe"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -898,10 +891,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

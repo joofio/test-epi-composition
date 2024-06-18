@@ -1096,8 +1096,6 @@ Description: "ePI document Bundle for exjade Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1120,8 +1118,6 @@ Description: "ePI document Bundle for exjade Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1142,8 +1138,8 @@ Usage: #example
 
 Instance: mpbd22c6cb08ec26dbc8a674d031b87df0
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product exjade"
-Description: "exjade"
+Title: "Medicinal Product EXJADE 90 mg film-coated tablets"
+Description: "EXJADE 90 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1156,14 +1152,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "EXJADE is indicated for the treatment of chronic iron overload due to frequent blood transfusions"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "exjade"
+  * productName = "EXJADE 90 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1183,10 +1176,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -729,7 +729,7 @@ Følgende kan være tegn på hiv-infektion: </p>
 <li>
 <p>forstørrede lymfeknuder i halsen eller lysken 
  
-Fortæl Deres læge om al influenzalignende sygdom – enten i måneden, før De starter 
+Fortæl Deres læge om al influenzalignende sygdom - enten i måneden, før De starter 
 med Truvada, eller når som helst, mens De tager Truvada. </p>
 </li>
 </ul>
@@ -1398,8 +1398,6 @@ Description: "ePI document Bundle for truvada Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1422,8 +1420,6 @@ Description: "ePI document Bundle for truvada Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1444,8 +1440,8 @@ Usage: #example
 
 Instance: mp6471e64aafea74720593633f2a0cd695
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product truvada"
-Description: "truvada"
+Title: "Medicinal Product Truvada 200 mg/245 mg film-coated tablets"
+Description: "Truvada 200 mg/245 mg film-coated tablets"
 Usage: #inline
 
  
@@ -1458,14 +1454,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Treatment of HIV-1 infection:"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "truvada"
+  * productName = "Truvada 200 mg/245 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1485,10 +1478,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

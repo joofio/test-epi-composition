@@ -683,7 +683,7 @@ medføre alvorligt tab af væske (kaldet ‘dehydrering’). Din læge kan blive
 dig med anden medicin og/eller give dig væske intravenøst. </p>
 </li>
 <li>
-<p>du har haft nogen form for allergi – alvorlige allergiske reaktioner kan forekommer under 
+<p>du har haft nogen form for allergi - alvorlige allergiske reaktioner kan forekommer under 
 behandling med ZALTRAP (se punkt 4). Din læge kan blive nødt til at behandle den allergiske 
 reaktion eller stoppe behandlingen med ZALTRAP. </p>
 </li>
@@ -790,11 +790,11 @@ bivirkningerne er acceptable.  </p>
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. 
 De bivirkninger, der er nævnt nedenfor, er set, når ZALTRAP blev givet sammen med kemoterapi.  </p>
 <p>Alvorlige bivirkninger </p>
-<p>Tal omgående med lægen, hvis du bemærker nogen af følgende alvorlige bivirkninger – du kan 
+<p>Tal omgående med lægen, hvis du bemærker nogen af følgende alvorlige bivirkninger - du kan 
 behøve akut medicinsk behandling:  </p>
 <ul>
 <li>
-<p>Blødning: Meget almindeligt (kan påvirke mere end 1 ud af 10 personer) – dette omfatter 
+<p>Blødning: Meget almindeligt (kan påvirke mere end 1 ud af 10 personer) - dette omfatter 
 blødning fra næsen, men kan også omfatte alvorlige blødninger i dine tarme og andre dele af 
 kroppen, og de kan være dødelige. Symptomer på blødning kan være træthed, svaghed og/eller 
 svimmelhed eller ændringer i farven på din afføring. </p>
@@ -802,13 +802,13 @@ svimmelhed eller ændringer i farven på din afføring. </p>
 <li>
 <p>Smerte i mund, tænder og/eller kæbe, hævelse eller sår der ikke vil hele i mund eller kæbe, 
 udflåd, følelsesløshed eller en følelse af tyngde i kæben, eller løse tænder: Ikke almindelig 
-(kan påvirke op til 1 ud af 100 personer) – Disse symptomer kan være tegn på knogleskade i 
+(kan påvirke op til 1 ud af 100 personer) - Disse symptomer kan være tegn på knogleskade i 
 kæben (osteonekrose). Fortæl det straks til din læge og tandlæge hvis du oplever disse 
 symptomer, mens du behandles med ZALTRAP, eller efter behandlingen er ophørt. </p>
 </li>
 <li>
 <p>Huller i tarmen (også kaldet ‘gastrointestinal perforation’): Ikke almindeligt (kan påvirke op 
-til 1 ud af 100 personer) – dette er et hul i mavesækken, spiserøret eller tarmene. Dette kan være 
+til 1 ud af 100 personer) - dette er et hul i mavesækken, spiserøret eller tarmene. Dette kan være 
 dødeligt. Symptomerne kan omfatte mavesmerter, kvalme (opkastning), feber eller 
 kulderystelser.  </p>
 </li>
@@ -821,7 +821,7 @@ sted. Kontakt lægen, hvis du er usikker på noget.  </p>
 </li>
 <li>
 <p>Forhøjet blodtryk (også kaldet ‘hypertension’): Meget almindeligt (kan påvirke mere end 1 
-ud af 10 personer) – dette kan udvikles eller forværres. Hvis blodtrykket ikke bringes under 
+ud af 10 personer) - dette kan udvikles eller forværres. Hvis blodtrykket ikke bringes under 
 kontrol, kan det medføre slagtilfælde, hjerte- og nyreproblemer. Din læge skal kontrollere dit 
 blodtryk gennem hele behandlingen. </p>
 </li>
@@ -840,7 +840,7 @@ tale. </p>
 </li>
 <li>
 <p>Blokering af blodårerne på grund af en blodprop (også kaldet ‘venøse tromboemboliske 
-hændelser’): Almindeligt (kan påvirke op til 1 ud af 10 personer) – dette kan omfatte en 
+hændelser’): Almindeligt (kan påvirke op til 1 ud af 10 personer) - dette kan omfatte en 
 blodprop i lungerne eller benene. Symptomerne kan omfatte smerter i brystet, hoste, 
 stakåndethed, vejrtrækningsbesvær eller ophostning af blod. Andre symptomer omfatter 
 hævelse i det ene eller begge ben, smerter eller ømhed i det ene eller begge ben, når man står 
@@ -849,12 +849,12 @@ synlige blodårer. </p>
 </li>
 <li>
 <p>Protein i urinen (også kaldet ‘proteinuri’): Meget almindeligt (kan påvirke mere end 1 ud af 
-10 personer) – dette er meget almindeligt at se i tests. Dette kan omfatte hævelse af fødderne 
+10 personer) - dette er meget almindeligt at se i tests. Dette kan omfatte hævelse af fødderne 
 eller hele kroppen og kan være relateret til nyresygdom.  </p>
 </li>
 <li>
 <p>Lavt antal hvide blodlegemer (også kaldet ‘neutropeni’): Meget almindeligt (kan påvirke 
-mere end 1 ud af 10 personer) – dette kan medføre alvorlige infektioner. Lægen vil jævnligt 
+mere end 1 ud af 10 personer) - dette kan medføre alvorlige infektioner. Lægen vil jævnligt 
 udtage blodprøver for at kontrollere dit antal hvide blodlegemer under hele din behandling. De 
 kan også ordinere et lægemiddel til dig, som kaldes ‘G-CSF’, for at hjælpe med til at forebygge 
 komplikationer, hvis dit antal af hvide blodlegemer er for lavt. Symptomer på infektion kan 
@@ -863,7 +863,7 @@ muskelsmerter. Du bør tage din temperatur ofte under behandling med denne medic
 </li>
 <li>
 <p>Diarré og dehydrering: Meget almindeligt (kan påvirke mere end 1 ud af 10 personer) for 
-diarré og Almindeligt (kan påvirke op til 1 ud af 10 personer) for dehydrering – svær diarré og 
+diarré og Almindeligt (kan påvirke op til 1 ud af 10 personer) for dehydrering - svær diarré og 
 kvalme (opkastning) kan betyde, at du mister for megen kropsvæske (kaldes ‘dehydrering’) og 
 kropssalte (elektrolytter). Symptomerne kan omfatte svimmelhed, især når du rejser dig fra 
 siddende stilling. Du skal muligvis behandles på hospital. Din læge kan give dig medicin, der 
@@ -878,13 +878,13 @@ lægen eller sygeplejersken, hvis du får disse symptomer under eller kort efter
 ZALTRAP. </p>
 </li>
 <li>
-<p>Sår der heler langsomt eller ikke vil hele: Ikke almindelig (kan påvirke op til 1 ud af personer) – dette er når et ar har vanskeligt ved at hele eller holdes lukket, eller hvis et ophelet 
+<p>Sår der heler langsomt eller ikke vil hele: Ikke almindelig (kan påvirke op til 1 ud af personer) - dette er når et ar har vanskeligt ved at hele eller holdes lukket, eller hvis et ophelet 
 sår åbnes igen. Lægen vil stoppe med at give dette lægemiddel i mindst 4 uger før planlagte 
 operationer og indtil såret er helet fuldstændig. </p>
 </li>
 <li>
 <p>En bivirkning, der påvirker dit nervesystem (kaldet ‘posterior reversibelt 
-encefalopatisyndrom’ eller PRES): Ikke almindeligt (kan påvirke op til 1 ud af 100 personer) – 
+encefalopatisyndrom’ eller PRES): Ikke almindeligt (kan påvirke op til 1 ud af 100 personer) - 
 symptomerne kan omfatte hovedpine, synsforandringer, en følelse af forvirring eller anfald med 
 eller uden forhøjet blodtryk.  </p>
 </li>
@@ -1088,7 +1088,7 @@ sanofi-aventis Μονοπρόσωπη ΑΕΒΕ
 Τηλ: +30 210 900 16<br />
 Österreich: 
 sanofi-aventis GmbH 
-Tel: +43 1 80 185 – 0 </p>
+Tel: +43 1 80 185 - 0 </p>
 <p>España 
 sanofi-aventis, S.A. 
 Tel: +34 93 485 94<br />
@@ -1232,8 +1232,6 @@ Description: "ePI document Bundle for zaltrap Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1256,8 +1254,6 @@ Description: "ePI document Bundle for zaltrap Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1278,8 +1274,8 @@ Usage: #example
 
 Instance: mp6569b151297f81a41ed28c44518ea9a0
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product zaltrap"
-Description: "zaltrap"
+Title: "Medicinal Product ZALTRAP 25 mg/ml concentrate for solution for infusion"
+Description: "ZALTRAP 25 mg/ml concentrate for solution for infusion"
 Usage: #inline
 
  
@@ -1292,14 +1288,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "ZALTRAP in combination with irinotecan/5-fluorouracil/folinic acid (FOLFIRI) chemotherapy is"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "zaltrap"
+  * productName = "ZALTRAP 25 mg/ml concentrate for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1319,10 +1312,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

@@ -1065,8 +1065,6 @@ Description: "ePI document Bundle for temozolomide Package Leaflet for language 
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1089,8 +1087,6 @@ Description: "ePI document Bundle for temozolomide Package Leaflet for language 
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1111,8 +1107,8 @@ Usage: #example
 
 Instance: mp3303bb5898bc0c0c96b4a3e7898ece7b
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product temozolomide"
-Description: "temozolomide"
+Title: "Medicinal Product Temozolomide Teva 5 mg hard capsules"
+Description: "Temozolomide Teva 5 mg hard capsules"
 Usage: #inline
 
  
@@ -1125,14 +1121,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Temozolomide Teva is indicated for the treatment of:"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "temozolomide"
+  * productName = "Temozolomide Teva 5 mg hard capsules"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1152,10 +1145,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

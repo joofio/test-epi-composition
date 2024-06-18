@@ -675,8 +675,8 @@ Enten i en vene eller i en slange, der er indsat i en vene (intravenøst)
 Eller under huden (subkutant).
 Din læge vil bestemme, hvordan Abseamed skal indsprøjtes. Normalt vil du få injektionerne af en 
 læge, sygeplejerske eller andet sundhedspersonale. Nogle personer, afhængig af hvorfor de behøver 
-behandling med Abseamed, kan senere lære at indsprøjte sig selv under huden: se ”Instruktion i, 
-hvordan du giver dig selv en indsprøjtning” sidst i indlægssedlen.
+behandling med Abseamed, kan senere lære at indsprøjte sig selv under huden: se "Instruktion i, 
+hvordan du giver dig selv en indsprøjtning" sidst i indlægssedlen.
 Abseamed må ikke anvendes:
 •
 efter den udløbsdato, der står på etiketten og den ydre karton
@@ -795,7 +795,7 @@ Brug altid Abseamed nøjagtigt efter lægens eller sygeplejerskens anvisning.
 Sørg for, at du kun indsprøjter den mængde væske, som din læge eller sygeplejersken har 
 anvist.
 •
-Brug kun Abseamed, hvis det er opbevaret korrekt – se punkt 5, Opbevaring.
+Brug kun Abseamed, hvis det er opbevaret korrekt - se punkt 5, Opbevaring.
 •
 Før brug skal sprøjten med Abseamed nå stuetemperatur. Dette tager normalt 15 til 
 30 minutter. Anvend sprøjten inden for 3 dage, efter den tages ud af køleskabet.
@@ -902,7 +902,7 @@ PRCA er blevet indberettet i meget sjældne tilfælde, for det meste hos patient
 efter behandling i månedsvis eller årevis med epoetin alfa og andre præparater, som stimulerer 
 produktionen af røde blodlegemer.
 •
-Der kan, – specielt når behandlingen påbegyndes, – forekomme et forhøjet niveau af små 
+Der kan, - specielt når behandlingen påbegyndes, - forekomme et forhøjet niveau af små 
 blodlegemer (kaldet blodplader), som normalt er involveret i dannelsen af en blodprop. Din 
 læge vil kontrollere dette.
 •
@@ -939,10 +939,10 @@ fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>•
 Opbevar lægemidlet utilgængeligt for børn.
 •
-Brug ikke lægemidlet efter den udløbsdato, der står på etiketten og kartonen efter ”EXP”. 
+Brug ikke lægemidlet efter den udløbsdato, der står på etiketten og kartonen efter "EXP". 
 Udløbsdatoen er den sidste dag i den nævnte måned.
 •
-Opbevares i køleskab og transporteres nedkølet (2 C –8 C).
+Opbevares i køleskab og transporteres nedkølet (2 C -8 C).
 •
 Du må gerne tage Abseamed ud af køleskabet og opbevare det ved rumtemperatur (op til 
 25 °C), men ikke mere end 3 dage. Når du først har taget en sprøjte ud af køleskabet, og den har 
@@ -1077,8 +1077,6 @@ Description: "ePI document Bundle for abseamed Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1101,8 +1099,6 @@ Description: "ePI document Bundle for abseamed Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1123,8 +1119,8 @@ Usage: #example
 
 Instance: mpa15e9940fa017377fbf82f0af3d7e7f4
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product abseamed"
-Description: "abseamed"
+Title: "Medicinal Product Abseamed 1,000 IU/0.5 mL solution for injection in a pre-filled syringe"
+Description: "Abseamed 1,000 IU/0.5 mL solution for injection in a pre-filled syringe"
 Usage: #inline
 
  
@@ -1137,14 +1133,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Abseamed is indicated for the treatment of symptomatic anaemia associated with chronic renal failure"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "abseamed"
+  * productName = "Abseamed 1,000 IU/0.5 mL solution for injection in a pre-filled syringe"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1164,10 +1157,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

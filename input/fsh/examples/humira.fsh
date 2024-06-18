@@ -1746,7 +1746,6 @@ Oversigt over indlægssedlen</p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
 <li>Det skal du vide, før dit barn begynder at få Humira</li>
-<li>Sådan får dit barn Humira</li>
 </ol>         </div>"""      
         
         
@@ -1767,8 +1766,6 @@ InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for humira Package Leaflet for language en"
 Description: "ePI document Bundle for humira Package Leaflet for language en"
 Usage: #example
-
-
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
@@ -1793,8 +1790,6 @@ Description: "ePI document Bundle for humira Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1815,8 +1810,8 @@ Usage: #example
 
 Instance: mp3a3583227b4c5b0887f1e0d38269b469
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product humira"
-Description: "humira"
+Title: "Medicinal Product Humira 20 mg solution for injection in pre-filled syringe"
+Description: "Humira 20 mg solution for injection in pre-filled syringe"
 Usage: #inline
 
  
@@ -1829,14 +1824,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Juvenile idiopathic arthritis"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "humira"
+  * productName = "Humira 20 mg solution for injection in pre-filled syringe"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1856,10 +1848,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

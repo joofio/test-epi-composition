@@ -692,7 +692,7 @@ og magnesiumstearat.
 Øvrige indholdsstoffer i filmovertrækket: polyvinylalkohol, delvist hydrolyseret; talcum; macrogol; 
 sojalecithin; gul jernoxid (E172); rød jernoxid (E172) og titandioxid (E171).
 Udseende og pakningsstørrelser
-Comtess 200 mg filmovertrukne tabletter er brun-orange, ovale tabletter mærket med ”COMT” på den 
+Comtess 200 mg filmovertrukne tabletter er brun-orange, ovale tabletter mærket med "COMT" på den 
 ene side. Tabletterne er pakket i en tabletbeholder.
 Der findes fire forskellige pakningsstørrelser (beholdere med 30, 60, 100 eller 175 tabletter). Ikke alle 
 pakningsstørrelser er nødvendigvis markedsført.
@@ -826,8 +826,6 @@ Description: "ePI document Bundle for comtess Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -850,8 +848,6 @@ Description: "ePI document Bundle for comtess Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -872,8 +868,8 @@ Usage: #example
 
 Instance: mpfaa7baf422434e913a351146a7b6b220
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product comtess"
-Description: "comtess"
+Title: "Medicinal Product Comtess 200 mg film-coated tablets"
+Description: "Comtess 200 mg film-coated tablets"
 Usage: #inline
 
  
@@ -886,14 +882,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Entacapone is indicated as an adjunct to standard preparations of levodopa/benserazide or"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "comtess"
+  * productName = "Comtess 200 mg film-coated tablets"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -913,10 +906,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

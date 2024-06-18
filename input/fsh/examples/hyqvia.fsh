@@ -1789,8 +1789,6 @@ Description: "ePI document Bundle for hyqvia Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1813,8 +1811,6 @@ Description: "ePI document Bundle for hyqvia Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -1835,8 +1831,8 @@ Usage: #example
 
 Instance: mp9c8cbb392febab27edfe92cab530d10b
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product hyqvia"
-Description: "hyqvia"
+Title: "Medicinal Product HyQvia 100 mg/mL solution for infusion for subcutaneous use"
+Description: "HyQvia 100 mg/mL solution for infusion for subcutaneous use"
 Usage: #inline
 
  
@@ -1849,14 +1845,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Replacement therapy in adults, children and adolescents (0-18 years) in:"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "hyqvia"
+  * productName = "HyQvia 100 mg/mL solution for infusion for subcutaneous use"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -1876,10 +1869,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 

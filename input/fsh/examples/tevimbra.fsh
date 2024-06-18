@@ -599,15 +599,15 @@ forårsage gulfarvning af hud og øjne, hvilket tyder på leverproblemer.
 infektioner (neutropeni eller lymfopeni) 
 - Utilpashed (kvalme), opkastning, appetitløshed, smerter i højre side af maven, gulfarvning af 
 huden eller det hvide i øjnene, døsighed, mørkfarvet urin, tendens til at bløde eller få blå 
-mærker lettere end normalt – mulige symptomer på leverproblemer (hepatitis) 
+mærker lettere end normalt - mulige symptomer på leverproblemer (hepatitis) 
 - Ledsmerter (arthritis) 
 - Muskelsmerter (myositis) 
-- Åndenød, hoste eller brystsmerter – mulige symptomer på lungeproblemer (pneumonitis) 
-- Træthed, hævelse nederst på halsen, smerter foran i halsen – mulige symptomer på problemer 
+- Åndenød, hoste eller brystsmerter - mulige symptomer på lungeproblemer (pneumonitis) 
+- Træthed, hævelse nederst på halsen, smerter foran i halsen - mulige symptomer på problemer 
 med skjoldbruskkirtlen (tyroiditis) 
 - Forhøjet blodsukkerniveau, tørst, mundtørhed, hyppigere vandladning, træthed, øget appetit 
 med samtidigt vægttab, forvirring, kvalme, opkastning, frugtagtig ånde, vejrtrækningsbesvær og 
-tør hud eller hudrødme – mulige symptomer på hyperglykæmi 
+tør hud eller hudrødme - mulige symptomer på hyperglykæmi 
 - Træthed, forvirring, muskeltrækninger, kramper (hyponatriæmi) 
 - Muskelsvaghed, muskelspasmer, unormal hjerterytme (hypokaliæmi) 
 - Overaktiv skjoldbruskkirtel, som kan forårsage hyperaktivitet, svedtendens, vægttab og tørst 
@@ -620,29 +620,29 @@ tør hud eller hudrødme – mulige symptomer på hyperglykæmi
 - Højt niveau af kreatinin i blodet </p>
 <p>Ikke almindelige (kan forekomme hos op til 1 ud af 100 patienter) 
 - Forandringer i mængden af urin eller urinens farve, smerter ved vandladning, smerter i 
-nyreregionen – mulige symptomer på nyreproblemer (nefritis) 
+nyreregionen - mulige symptomer på nyreproblemer (nefritis) 
 - Diarré eller hyppigere afføring end normalt, sort, tjærelignende, klistret afføring, blod eller slim 
-i afføringen, kraftige smerter eller ømhed i maveregionen – mulige symptomer på 
+i afføringen, kraftige smerter eller ømhed i maveregionen - mulige symptomer på 
 tarmproblemer (colitis) 
-- Kraftige smerter i den øvre maveregion, kvalme, opkastning, feber, ømhed i maveregionen – 
+- Kraftige smerter i den øvre maveregion, kvalme, opkastning, feber, ømhed i maveregionen - 
 mulige symptomer på problemer med bugspytkirtlen (pankreatitis) 
-- Højt blodsukker, øget appetit eller tørst, hyppigere vandladning end normalt – mulige 
+- Højt blodsukker, øget appetit eller tørst, hyppigere vandladning end normalt - mulige 
 symptomer på diabetes 
-- Muskelsmerter, stivhed, svækkelse, brystsmerter eller udtalt træthed – mulige symptomer på 
+- Muskelsmerter, stivhed, svækkelse, brystsmerter eller udtalt træthed - mulige symptomer på 
 muskelproblemer (myositis) 
 - Brystsmerter, hurtige eller unormale hjerteslag, åndenød i hvile eller ved aktivitet, 
-væskeophobning med hævede ben, ankler og fødder, træthed – mulige symptomer på problemer 
+væskeophobning med hævede ben, ankler og fødder, træthed - mulige symptomer på problemer 
 med hjertemusklen (myokarditis) 
-- Ledsmerter, stivhed, hævelser eller rødmen, nedsat bevægeområde i leddene – mulige 
+- Ledsmerter, stivhed, hævelser eller rødmen, nedsat bevægeområde i leddene - mulige 
 symptomer på ledproblemer (arthritis) 
-- Røde øje, øjensmerter og hævede øjne – mulige symptomer på problemer, der påvirker 
+- Røde øje, øjensmerter og hævede øjne - mulige symptomer på problemer, der påvirker 
 regnbuehinden og årehinden (uvea), laget under det hvide i øjet (uveitis) 
 - Binyrebarkinsufficiens (lidelse, hvor binyrerne ikke producerer nok af visse hormoner) 
 - Nervebetændelse; symptomerne kan omfatte smerter, svaghed eller lammelse i arme eller ben 
 (Guillain-Barrés syndrom) 
 - Kulderystelser eller rystelser, kløe eller udslæt, rødmen, åndenød eller hvæsende vejrtrækning, 
 svimmelhed eller feber, som kan forekomme under infusionen eller op til 24 timer efter 
-infusionen – mulige symptomer på en infusionsrelateret reaktion 
+infusionen - mulige symptomer på en infusionsrelateret reaktion 
 - Lavt niveau af leukocytter i blodet 
 - Høje niveauer af hæmoglobin, kalium og natrium i blodet 
 - Lavt niveau af albumin i blodet </p>
@@ -650,9 +650,9 @@ infusionen – mulige symptomer på en infusionsrelateret reaktion
 - Brystsmerter, feber, hoste, hjertebanken - mulige symptomer på problemer, der påvirker hinden 
 rundt om hjertet (perikarditis) 
 - Hyppige hovedpiner, synsforandringer (enten nedsat syn eller dobbeltsyn), træthed og/eller 
-svækkelse, forvirring, lavt blodtryk, svimmelhed – mulige symptomer på problemer med 
+svækkelse, forvirring, lavt blodtryk, svimmelhed - mulige symptomer på problemer med 
 hypofysen (hypofysitis) 
-- Kløende eller afskallende hud, hudsår – mulige symptomer på alvorlige hudreaktioner 
+- Kløende eller afskallende hud, hudsår - mulige symptomer på alvorlige hudreaktioner 
 - Cøliaki (karakteriseret ved symptomer som mavesmerter, diarré og oppustethed efter indtagelse 
 af glutenholdige fødevarer) </p>
 <p>Andre indberettede bivirkninger (hyppighed ikke kendt): 
@@ -681,7 +681,7 @@ bortskaffelse af ikke-anvendt præparat. De følgende oplysninger er henvendt ti
 <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken og hætteglasetiketten efter EXP. 
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
-<p>Opbevares i køleskab (2 °C – 8 °C). </p>
+<p>Opbevares i køleskab (2 °C - 8 °C). </p>
 <p>Må ikke nedfryses. </p>
 <p>Opbevares i den originale æske for at beskytte mod lys. </p>
 <p>Tevimbra indeholder ikke konserveringsmiddel. Kemisk og fysisk stabilitet under anvendelse er blevet 
@@ -807,8 +807,6 @@ Description: "ePI document Bundle for tevimbra Package Leaflet for language en"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -831,8 +829,6 @@ Description: "ePI document Bundle for tevimbra Package Leaflet for language da"
 Usage: #example
 
 
-
-
 * identifier.system = "http://ema.europa.eu/identifier" 
 * identifier.value = "None"
 * type = #document
@@ -853,8 +849,8 @@ Usage: #example
 
 Instance: mpb118a8011d0099eb4bb6c4b864ba44c0
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product tevimbra"
-Description: "tevimbra"
+Title: "Medicinal Product Tevimbra 100 mg concentrate for solution for infusion"
+Description: "Tevimbra 100 mg concentrate for solution for infusion"
 Usage: #inline
 
  
@@ -867,14 +863,11 @@ Usage: #inline
 * status = http://hl7.org/fhir/publication-status#active "active"
 
 
-* indication = "Oesophageal squamous cell carcinoma (OSCC)"
-
 
 * legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
 
-
 * name
-  * productName = "tevimbra"
+  * productName = "Tevimbra 100 mg concentrate for solution for infusion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -894,10 +887,9 @@ Usage: #inline
     * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
   
   * usage
-    * country = urn:iso:std:iso:3166#DK "DK"
-    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * country = urn:iso:std:iso:3166#EU "EU"
+    * jurisdiction = urn:iso:std:iso:3166#EU "EU"
     * language = urn:ietf:bcp:47#en  "en"
-
 
 
 
