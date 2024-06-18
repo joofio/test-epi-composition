@@ -17,7 +17,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mp9f905123b19c0e055435474ad8fd13e5)
+* subject = Reference(mpbbb651a1913e568b3035dea752ef36ea)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -411,7 +411,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mp9f905123b19c0e055435474ad8fd13e5)
+* subject = Reference(mpbbb651a1913e568b3035dea752ef36ea)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -937,7 +937,7 @@ RuleSet: bbb651a1913e568b3035dea752ef36eaListRuleset
 
 * title = "List of all ePIs associated with ivabradine"
 
-* subject = Reference(mp9f905123b19c0e055435474ad8fd13e5)
+* subject = Reference(mpbbb651a1913e568b3035dea752ef36ea)
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#ivabradine "ivabradine"
 * subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"

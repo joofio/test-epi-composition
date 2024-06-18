@@ -17,7 +17,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mp17c5a9a65af84e8f0c833c19344222c7)
+* subject = Reference(mpf39d85b5533e098d34a976dedd3b1e91)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -307,7 +307,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mp17c5a9a65af84e8f0c833c19344222c7)
+* subject = Reference(mpf39d85b5533e098d34a976dedd3b1e91)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -855,7 +855,7 @@ RuleSet: f39d85b5533e098d34a976dedd3b1e91ListRuleset
 
 * title = "List of all ePIs associated with ganirelix"
 
-* subject = Reference(mp17c5a9a65af84e8f0c833c19344222c7)
+* subject = Reference(mpf39d85b5533e098d34a976dedd3b1e91)
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#ganirelix "ganirelix"
 * subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"

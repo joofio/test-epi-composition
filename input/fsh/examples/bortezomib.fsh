@@ -17,7 +17,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mp376e0cafeb10b18e23d11a9df992fe95)
+* subject = Reference(mp078ce846d23a61e02d1edb518ce5e784)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -720,7 +720,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mp376e0cafeb10b18e23d11a9df992fe95)
+* subject = Reference(mp078ce846d23a61e02d1edb518ce5e784)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -1554,7 +1554,7 @@ RuleSet: 078ce846d23a61e02d1edb518ce5e784ListRuleset
 
 * title = "List of all ePIs associated with bortezomib"
 
-* subject = Reference(mp376e0cafeb10b18e23d11a9df992fe95)
+* subject = Reference(mp078ce846d23a61e02d1edb518ce5e784)
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#bortezomib "bortezomib"
 * subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"

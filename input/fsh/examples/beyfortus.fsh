@@ -17,7 +17,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mp53a5f89e9fb00f48500401bbab04bd0e)
+* subject = Reference(mpa66c014f097e72b89c0a0ea0e94b80cb)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -349,7 +349,7 @@ RuleSet: a66c014f097e72b89c0a0ea0e94b80cbListRuleset
 
 * title = "List of all ePIs associated with beyfortus"
 
-* subject = Reference(mp53a5f89e9fb00f48500401bbab04bd0e)
+* subject = Reference(mpa66c014f097e72b89c0a0ea0e94b80cb)
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#beyfortus "beyfortus"
 * subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"

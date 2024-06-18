@@ -17,7 +17,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mp7d3620fa0055481aa97d68dfe7677063)
+* subject = Reference(mp6b301f6c675105f98d980bf8971e8028)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -389,7 +389,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mp7d3620fa0055481aa97d68dfe7677063)
+* subject = Reference(mp6b301f6c675105f98d980bf8971e8028)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -931,7 +931,7 @@ RuleSet: 6b301f6c675105f98d980bf8971e8028ListRuleset
 
 * title = "List of all ePIs associated with spevigo"
 
-* subject = Reference(mp7d3620fa0055481aa97d68dfe7677063)
+* subject = Reference(mp6b301f6c675105f98d980bf8971e8028)
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#spevigo "spevigo"
 * subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"

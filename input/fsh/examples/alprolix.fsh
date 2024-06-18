@@ -17,7 +17,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mpee5561d765e27d679f137a0cdfcee694)
+* subject = Reference(mp96e3a078093b1cdfc599d6c2d6322437)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -346,7 +346,7 @@ RuleSet: 96e3a078093b1cdfc599d6c2d6322437ListRuleset
 
 * title = "List of all ePIs associated with alprolix"
 
-* subject = Reference(mpee5561d765e27d679f137a0cdfcee694)
+* subject = Reference(mp96e3a078093b1cdfc599d6c2d6322437)
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#alprolix "alprolix"
 * subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"

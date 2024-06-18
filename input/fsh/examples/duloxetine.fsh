@@ -17,7 +17,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mp5d0101bc471b9cbcc1e65335e866d916)
+* subject = Reference(mpc7455b3adf2d63fefa0e8ddbeae0ba4e)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -541,7 +541,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mp5d0101bc471b9cbcc1e65335e866d916)
+* subject = Reference(mpc7455b3adf2d63fefa0e8ddbeae0ba4e)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -1338,7 +1338,7 @@ RuleSet: c7455b3adf2d63fefa0e8ddbeae0ba4eListRuleset
 
 * title = "List of all ePIs associated with duloxetine"
 
-* subject = Reference(mp5d0101bc471b9cbcc1e65335e866d916)
+* subject = Reference(mpc7455b3adf2d63fefa0e8ddbeae0ba4e)
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#duloxetine "duloxetine"
 * subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"

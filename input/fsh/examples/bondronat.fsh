@@ -17,7 +17,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mpa50df183037395ed2822e15e733b7386)
+* subject = Reference(mpf352e985084276fc8e67c6d45807c1bf)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -314,7 +314,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mpa50df183037395ed2822e15e733b7386)
+* subject = Reference(mpf352e985084276fc8e67c6d45807c1bf)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -1008,7 +1008,7 @@ RuleSet: f352e985084276fc8e67c6d45807c1bfListRuleset
 
 * title = "List of all ePIs associated with bondronat"
 
-* subject = Reference(mpa50df183037395ed2822e15e733b7386)
+* subject = Reference(mpf352e985084276fc8e67c6d45807c1bf)
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#bondronat "bondronat"
 * subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"

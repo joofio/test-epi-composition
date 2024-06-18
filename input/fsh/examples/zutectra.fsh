@@ -17,7 +17,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mp477740f3c581616ed5b0732132317eb7)
+* subject = Reference(mp73960cef65d43cea9c4f68f4818ce9c6)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -372,7 +372,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mp477740f3c581616ed5b0732132317eb7)
+* subject = Reference(mp73960cef65d43cea9c4f68f4818ce9c6)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -981,7 +981,7 @@ RuleSet: 73960cef65d43cea9c4f68f4818ce9c6ListRuleset
 
 * title = "List of all ePIs associated with zutectra"
 
-* subject = Reference(mp477740f3c581616ed5b0732132317eb7)
+* subject = Reference(mp73960cef65d43cea9c4f68f4818ce9c6)
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#zutectra "zutectra"
 * subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"

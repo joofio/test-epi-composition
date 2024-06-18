@@ -17,7 +17,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mp0f8f1dfdfac38c53533ed074d72487c7)
+* subject = Reference(mp35323b42feff1c3fa548fa35e97558e5)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -405,7 +405,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mp0f8f1dfdfac38c53533ed074d72487c7)
+* subject = Reference(mp35323b42feff1c3fa548fa35e97558e5)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -1231,7 +1231,7 @@ RuleSet: 35323b42feff1c3fa548fa35e97558e5ListRuleset
 
 * title = "List of all ePIs associated with prolia"
 
-* subject = Reference(mp0f8f1dfdfac38c53533ed074d72487c7)
+* subject = Reference(mp35323b42feff1c3fa548fa35e97558e5)
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#prolia "prolia"
 * subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"

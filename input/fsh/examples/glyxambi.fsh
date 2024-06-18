@@ -17,7 +17,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mp712ce22a69673dcc17ce3eeb67b1b02f)
+* subject = Reference(mpce5e68a096b816edf5b3a0ff2587822c)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -476,7 +476,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mp712ce22a69673dcc17ce3eeb67b1b02f)
+* subject = Reference(mpce5e68a096b816edf5b3a0ff2587822c)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -1138,7 +1138,7 @@ RuleSet: ce5e68a096b816edf5b3a0ff2587822cListRuleset
 
 * title = "List of all ePIs associated with glyxambi"
 
-* subject = Reference(mp712ce22a69673dcc17ce3eeb67b1b02f)
+* subject = Reference(mpce5e68a096b816edf5b3a0ff2587822c)
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#glyxambi "glyxambi"
 * subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"

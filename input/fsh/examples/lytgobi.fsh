@@ -17,7 +17,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mp78f306f1e92f048feb21539cfb100a4b)
+* subject = Reference(mpdbc2060ee6f62aba124d52b5666f8915)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -305,7 +305,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mp78f306f1e92f048feb21539cfb100a4b)
+* subject = Reference(mpdbc2060ee6f62aba124d52b5666f8915)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -802,7 +802,7 @@ RuleSet: dbc2060ee6f62aba124d52b5666f8915ListRuleset
 
 * title = "List of all ePIs associated with lytgobi"
 
-* subject = Reference(mp78f306f1e92f048feb21539cfb100a4b)
+* subject = Reference(mpdbc2060ee6f62aba124d52b5666f8915)
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#lytgobi "lytgobi"
 * subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"

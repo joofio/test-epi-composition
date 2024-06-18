@@ -17,7 +17,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mp8fea459615a6428c94909cb5f42268f7)
+* subject = Reference(mp7829b4b361ffed64965739b1e7cc1436)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -390,7 +390,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mp8fea459615a6428c94909cb5f42268f7)
+* subject = Reference(mp7829b4b361ffed64965739b1e7cc1436)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -891,7 +891,7 @@ RuleSet: 7829b4b361ffed64965739b1e7cc1436ListRuleset
 
 * title = "List of all ePIs associated with pioglitazone"
 
-* subject = Reference(mp8fea459615a6428c94909cb5f42268f7)
+* subject = Reference(mp7829b4b361ffed64965739b1e7cc1436)
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#pioglitazone "pioglitazone"
 * subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"

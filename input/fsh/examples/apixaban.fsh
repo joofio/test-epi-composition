@@ -17,7 +17,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mpa713b211645cdd2f87083f55176d4f1d)
+* subject = Reference(mp656032a84c2935003bb3f7376e124521)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -666,7 +666,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mpa713b211645cdd2f87083f55176d4f1d)
+* subject = Reference(mp656032a84c2935003bb3f7376e124521)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -1428,7 +1428,7 @@ RuleSet: 656032a84c2935003bb3f7376e124521ListRuleset
 
 * title = "List of all ePIs associated with apixaban"
 
-* subject = Reference(mpa713b211645cdd2f87083f55176d4f1d)
+* subject = Reference(mp656032a84c2935003bb3f7376e124521)
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#apixaban "apixaban"
 * subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"

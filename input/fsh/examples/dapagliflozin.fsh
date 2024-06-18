@@ -17,7 +17,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mp082c2e0b7712cb472c7d890f23209f78)
+* subject = Reference(mp47e609a7556335e73540caeda7f501b2)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -511,7 +511,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mp082c2e0b7712cb472c7d890f23209f78)
+* subject = Reference(mp47e609a7556335e73540caeda7f501b2)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -1246,7 +1246,7 @@ RuleSet: 47e609a7556335e73540caeda7f501b2ListRuleset
 
 * title = "List of all ePIs associated with dapagliflozin"
 
-* subject = Reference(mp082c2e0b7712cb472c7d890f23209f78)
+* subject = Reference(mp47e609a7556335e73540caeda7f501b2)
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#dapagliflozin "dapagliflozin"
 * subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"

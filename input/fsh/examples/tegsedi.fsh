@@ -17,7 +17,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mp8c07981e58f7b2a1247ef18f2c8fb201)
+* subject = Reference(mpbb91b33a725934383f978ba47cb95161)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -532,7 +532,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mp8c07981e58f7b2a1247ef18f2c8fb201)
+* subject = Reference(mpbb91b33a725934383f978ba47cb95161)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -1164,7 +1164,7 @@ RuleSet: bb91b33a725934383f978ba47cb95161ListRuleset
 
 * title = "List of all ePIs associated with tegsedi"
 
-* subject = Reference(mp8c07981e58f7b2a1247ef18f2c8fb201)
+* subject = Reference(mpbb91b33a725934383f978ba47cb95161)
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#tegsedi "tegsedi"
 * subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"

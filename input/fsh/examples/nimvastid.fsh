@@ -17,7 +17,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mpd297ff06c427391e6e07f893b134ae03)
+* subject = Reference(mpbf180fec42e0c0b913e732d977364555)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -432,7 +432,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mpd297ff06c427391e6e07f893b134ae03)
+* subject = Reference(mpbf180fec42e0c0b913e732d977364555)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -1030,7 +1030,7 @@ RuleSet: bf180fec42e0c0b913e732d977364555ListRuleset
 
 * title = "List of all ePIs associated with nimvastid"
 
-* subject = Reference(mpd297ff06c427391e6e07f893b134ae03)
+* subject = Reference(mpbf180fec42e0c0b913e732d977364555)
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#nimvastid "nimvastid"
 * subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"

@@ -17,7 +17,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mp574a249575c3aadc0b815d1d7b97eb63)
+* subject = Reference(mp6ca82242cc83367d005ce7bfab740b2c)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -440,7 +440,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mp574a249575c3aadc0b815d1d7b97eb63)
+* subject = Reference(mp6ca82242cc83367d005ce7bfab740b2c)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -1022,7 +1022,7 @@ RuleSet: 6ca82242cc83367d005ce7bfab740b2cListRuleset
 
 * title = "List of all ePIs associated with duoplavin"
 
-* subject = Reference(mp574a249575c3aadc0b815d1d7b97eb63)
+* subject = Reference(mp6ca82242cc83367d005ce7bfab740b2c)
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#duoplavin "duoplavin"
 * subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"

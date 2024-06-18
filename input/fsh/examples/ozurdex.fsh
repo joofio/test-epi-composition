@@ -17,7 +17,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mp39e83fd02f1933fa5534cdd03f1d9075)
+* subject = Reference(mp5535a1058c02154998e04426c8620587)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -342,7 +342,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mp39e83fd02f1933fa5534cdd03f1d9075)
+* subject = Reference(mp5535a1058c02154998e04426c8620587)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -986,7 +986,7 @@ RuleSet: 5535a1058c02154998e04426c8620587ListRuleset
 
 * title = "List of all ePIs associated with ozurdex"
 
-* subject = Reference(mp39e83fd02f1933fa5534cdd03f1d9075)
+* subject = Reference(mp5535a1058c02154998e04426c8620587)
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#ozurdex "ozurdex"
 * subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"

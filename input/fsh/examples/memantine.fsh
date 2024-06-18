@@ -17,7 +17,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mp84f7427646ec97be52aba22c1cb2aee6)
+* subject = Reference(mp78817b35263746b79687cd6c5a122f9f)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -358,7 +358,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mp84f7427646ec97be52aba22c1cb2aee6)
+* subject = Reference(mp78817b35263746b79687cd6c5a122f9f)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -906,7 +906,7 @@ RuleSet: 78817b35263746b79687cd6c5a122f9fListRuleset
 
 * title = "List of all ePIs associated with memantine"
 
-* subject = Reference(mp84f7427646ec97be52aba22c1cb2aee6)
+* subject = Reference(mp78817b35263746b79687cd6c5a122f9f)
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#memantine "memantine"
 * subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"

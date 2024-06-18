@@ -17,7 +17,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mpf18286a3a7153258e885dbd7eb7430d2)
+* subject = Reference(mpbcc6b3ab765fdb815a4c2dde333f5a68)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -639,7 +639,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mpf18286a3a7153258e885dbd7eb7430d2)
+* subject = Reference(mpbcc6b3ab765fdb815a4c2dde333f5a68)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -1614,7 +1614,7 @@ RuleSet: bcc6b3ab765fdb815a4c2dde333f5a68ListRuleset
 
 * title = "List of all ePIs associated with truxima"
 
-* subject = Reference(mpf18286a3a7153258e885dbd7eb7430d2)
+* subject = Reference(mpbcc6b3ab765fdb815a4c2dde333f5a68)
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#truxima "truxima"
 * subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"

@@ -17,7 +17,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mpc0fe6f5aa6af0ea57a6d08995c27df23)
+* subject = Reference(mp703c0707f76711c32684f846cc20b14e)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -381,7 +381,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mpc0fe6f5aa6af0ea57a6d08995c27df23)
+* subject = Reference(mp703c0707f76711c32684f846cc20b14e)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -939,7 +939,7 @@ RuleSet: 703c0707f76711c32684f846cc20b14eListRuleset
 
 * title = "List of all ePIs associated with potactasol"
 
-* subject = Reference(mpc0fe6f5aa6af0ea57a6d08995c27df23)
+* subject = Reference(mp703c0707f76711c32684f846cc20b14e)
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#potactasol "potactasol"
 * subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"

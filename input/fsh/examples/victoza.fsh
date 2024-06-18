@@ -17,7 +17,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mp309e1edf69079017b321769ab041520d)
+* subject = Reference(mp141d929731a8da3daac9f9a16668bc62)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -423,7 +423,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mp309e1edf69079017b321769ab041520d)
+* subject = Reference(mp141d929731a8da3daac9f9a16668bc62)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -1038,7 +1038,7 @@ RuleSet: 141d929731a8da3daac9f9a16668bc62ListRuleset
 
 * title = "List of all ePIs associated with victoza"
 
-* subject = Reference(mp309e1edf69079017b321769ab041520d)
+* subject = Reference(mp141d929731a8da3daac9f9a16668bc62)
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#victoza "victoza"
 * subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"

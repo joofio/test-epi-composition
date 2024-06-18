@@ -17,7 +17,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mp83d09e0bfd299d0c78f928f1053e0e1f)
+* subject = Reference(mp0234c86891baf768298474181745e97d)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -382,7 +382,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mp83d09e0bfd299d0c78f928f1053e0e1f)
+* subject = Reference(mp0234c86891baf768298474181745e97d)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -1201,7 +1201,7 @@ RuleSet: 0234c86891baf768298474181745e97dListRuleset
 
 * title = "List of all ePIs associated with wegovy"
 
-* subject = Reference(mp83d09e0bfd299d0c78f928f1053e0e1f)
+* subject = Reference(mp0234c86891baf768298474181745e97d)
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#wegovy "wegovy"
 * subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"

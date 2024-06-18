@@ -17,7 +17,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mpabb0271d5a117dd14acbf443a7e61c4a)
+* subject = Reference(mp975c71538de6c7ace8f1a35ed29b064a)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -539,7 +539,7 @@ RuleSet: 975c71538de6c7ace8f1a35ed29b064aListRuleset
 
 * title = "List of all ePIs associated with atazanavir"
 
-* subject = Reference(mpabb0271d5a117dd14acbf443a7e61c4a)
+* subject = Reference(mp975c71538de6c7ace8f1a35ed29b064a)
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#atazanavir "atazanavir"
 * subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"

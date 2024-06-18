@@ -17,7 +17,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mpda154a7ffaecfde57ea93467184510d6)
+* subject = Reference(mpfde715eb4d71a80815177e9bcc18c25e)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -553,7 +553,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mpda154a7ffaecfde57ea93467184510d6)
+* subject = Reference(mpfde715eb4d71a80815177e9bcc18c25e)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -1243,7 +1243,7 @@ RuleSet: fde715eb4d71a80815177e9bcc18c25eListRuleset
 
 * title = "List of all ePIs associated with segluromet"
 
-* subject = Reference(mpda154a7ffaecfde57ea93467184510d6)
+* subject = Reference(mpfde715eb4d71a80815177e9bcc18c25e)
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#segluromet "segluromet"
 * subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"

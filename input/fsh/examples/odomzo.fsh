@@ -17,7 +17,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mp408f68e740071af45867cfded0090f5a)
+* subject = Reference(mp0349e0c03941d2ede34c30a30310b99b)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -422,7 +422,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mp408f68e740071af45867cfded0090f5a)
+* subject = Reference(mp0349e0c03941d2ede34c30a30310b99b)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -1114,7 +1114,7 @@ RuleSet: 0349e0c03941d2ede34c30a30310b99bListRuleset
 
 * title = "List of all ePIs associated with odomzo"
 
-* subject = Reference(mp408f68e740071af45867cfded0090f5a)
+* subject = Reference(mp0349e0c03941d2ede34c30a30310b99b)
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#odomzo "odomzo"
 * subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"

@@ -17,7 +17,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mp24a22715866b4df0864b1386dd838038)
+* subject = Reference(mp37418440f4ca23d5d0b03ff171fcb145)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -382,7 +382,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mp24a22715866b4df0864b1386dd838038)
+* subject = Reference(mp37418440f4ca23d5d0b03ff171fcb145)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -933,7 +933,7 @@ RuleSet: 37418440f4ca23d5d0b03ff171fcb145ListRuleset
 
 * title = "List of all ePIs associated with synflorix"
 
-* subject = Reference(mp24a22715866b4df0864b1386dd838038)
+* subject = Reference(mp37418440f4ca23d5d0b03ff171fcb145)
 * subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
 * subject.extension[=].valueCoding = $100000000005#synflorix "synflorix"
 * subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
